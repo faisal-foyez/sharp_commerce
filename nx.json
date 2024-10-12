@@ -1,0 +1,13 @@
+{
+  "extends": "nx/presets/npm.json",
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "nxCloudId": "670b085c6774cc6250078708",
+  "namedInputs": {
+    "sharedGlobals": [
+      "{workspaceRoot}/.circleci/config.yml"
+    ],
+    "default": [
+      "sharedGlobals"
+    ]
+  }
+}
