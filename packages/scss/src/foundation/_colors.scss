@@ -1,0 +1,175 @@
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variables.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+
+/*=============================================
+=            Color Palette                    =
+=============================================*/
+
+
+
+
+/* Semantic brand Colors */
+$semantic-brand-25:#F2F5FF;
+$semantic-brand-50:#E8EDFF;
+$semantic-brand-100:#AEBFFF;
+$semantic-brand-200:#94ABFF;
+$semantic-brand-300:#6F8EFF;
+$semantic-brand-400:#4A72FF;
+$semantic-brand-500:#1B4DFF;
+$semantic-brand-600:#0F3CD9;
+$semantic-brand-700:#042BB2;
+$semantic-brand-800:#042185;
+$semantic-brand-900:#00114A;
+
+
+/* semantic neutrals */
+$semantic-neutral-25:#F9FAFB;
+$semantic-neutral-50:#F0F3F9;
+$semantic-neutral-100:#E9EFF6;
+$semantic-neutral-200:#D7DFE9;
+$semantic-neutral-300:#AFBACA;
+$semantic-neutral-400:#8897AE;
+$semantic-neutral-500:#5E718D;
+$semantic-neutral-600:#455468;
+$semantic-neutral-700:#3D4A5C;
+$semantic-neutral-800:#2D3643;
+$semantic-neutral-900:#1C222B;
+
+$white: #ffffff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000000 !default;
+
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+
+// Semantic color variables
+$primary: var(--dse-color-primary, $blue) !default;
+$secondary: var(--dse-color-secondary, $gray-600) !default;
+$success: var(--dse-color-success, $green) !default;
+$info: var(--dse-color-info, $cyan) !default;
+$warning: var(--dse-color-warning, $yellow) !default;
+$danger: var(--dse-color-danger, $red) !default;
+$light: var(--dse-color-light, $gray-100) !default;
+$dark: var(--dse-color-dark, $gray-800) !default;
+
+/*=====  End of Color Palette  ======*/
+
+/*=============================================
+=            Global text colors               =
+=============================================*/
+
+$body-color: var(--dse-body-color, $gray-900) !default;
+$body-bg: var(--dse-body-bg, $white) !default;
+$text-muted: var(--dse-text-muted, $gray-600) !default;
+
+/*=====  End of Global text colors  ======*/
+
+/*=============================================
+=            Specific element colors          =
+=============================================*/
+
+// Links
+$link-color: var(--dse-link-color, $primary) !default;
+$link-hover-color: var(--dse-link-hover-color, darken($link-color, 15%)) !default;
+
+// Headings
+$headings-color: var(--dse-headings-color, inherit) !default;
+
+// Buttons
+$btn-primary-color: var(--dse-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--dse-btn-primary-bg, $primary) !default;
+$btn-primary-border: var(--dse-btn-primary-border, $btn-primary-bg) !default;
+
+$btn-secondary-color: var(--dse-btn-secondary-color, $white) !default;
+$btn-secondary-bg: var(--dse-btn-secondary-bg, $secondary) !default;
+$btn-secondary-border: var(--dse-btn-secondary-border, $btn-secondary-bg) !default;
+
+// Button warnings
+$btn-warning-color: var(--dse-btn-warning-color, $dark) !default;
+$btn-warning-bg: var(--dse-btn-warning-bg, $warning) !default;
+$btn-warning-border: var(--dse-btn-warning-border, $btn-warning-bg) !default;
+
+// Button errors
+$btn-error-color: var(--dse-btn-error-color, $white) !default;
+$btn-error-bg: var(--dse-btn-error-bg, $danger) !default;
+$btn-error-border: var(--dse-btn-error-border, $btn-error-bg) !default;
+
+
+// Forms
+$form-bg: var(--dse-form-bg, $white) !default;
+$form-bg-color: var(--dse-form-bg-color, $white) !default;
+$form-bg-option-selected: var(--dse-form-bg-option-selected, $primary) !default;
+$form-color-option-selected: var(--dse-form-color-option-selected, $white) !default;
+$form-bg-color-hover: var(--dse-form-bg-color-hover, $gray-200) !default;
+$form-border-color: var(--dse-form-border-color, $gray-400) !default;
+$form-color: var(--dse-form-color, $gray-700) !default;
+$form-error-color: var(--dse-form-error-color, $danger) !default;
+$form-error-border: var(--dse-form-error-border, $danger) !default;
+$form-border-focus-color: var(--dse-form-border-focus-color, $primary) !default;
+
+// Tables
+$table-bg: var(--dse-table-bg, $white) !default;
+$table-accent-bg: var(--dse-table-accent-bg, rgba($black, .05)) !default;
+$table-hover-bg: var(--dse-table-hover-bg, rgba($black, .075)) !default;
+$table-border-color: var(--dse-table-border-color, $gray-300) !default;
+
+// Dropdowns
+$dropdown-bg: var(--dse-dropdown-bg, $white) !default;
+$dropdown-border-color: var(--dse-dropdown-border-color, rgba($black, .15)) !default;
+$dropdown-divider-bg: var(--dse-dropdown-divider-bg, $gray-200) !default;
+$dropdown-link-color: var(--dse-dropdown-link-color, $gray-900) !default;
+$dropdown-link-hover-color: var(--dse-dropdown-link-hover-color, darken($gray-900, 5%)) !default;
+$dropdown-link-hover-bg: var(--dse-dropdown-link-hover-bg, $gray-100) !default;
+
+/*=====  End of Specific element colors  ======*/
+
+/*=============================================
+=            Alerts                           =
+=============================================*/
+
+$alert-bg-level: var(--dse-alert-bg-level, -10) !default;
+$alert-border-level: var(--dse-alert-border-level, -9) !default;
+$alert-color-level: var(--dse-alert-color-level, 6) !default;
+
+/*=====  End of Alerts  ======*/
+
+/*=============================================
+=            Color Functions                  =
+=============================================*/
+
+@function tint-color($color, $weight) {
+  @return mix(white, $color, $weight);
+}
+
+@function shade-color($color, $weight) {
+  @return mix(black, $color, $weight);
+}
+
+@function shift-color($color, $weight) {
+  @return if($weight > 0, shade-color($color, $weight), tint-color($color, -$weight));
+}
+
+/*=====  End of Color Functions  ======*/
