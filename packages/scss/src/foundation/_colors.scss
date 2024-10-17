@@ -12,7 +12,374 @@
 =            Color Palette                    =
 =============================================*/
 
+/*----------  Global colors  ----------*/
+/* Global fuchsia colors */
+$global-fuchsia-25:#FBEDFD;
+$global-fuchsia-50:#F4C9FA;
+$global-fuchsia-100:#ECA5F7;
+$global-fuchsia-200:#E581F4;
+$global-fuchsia-300:#DE5DF1;
+$global-fuchsia-400:#D638EE;
+$global-fuchsia-500:#CF14EB;
+$global-fuchsia-600:#AF11C7;
+$global-fuchsia-700:#8F0EA2;
+$global-fuchsia-800:#6F0B7E;
+$global-fuchsia-900:#50085A;
 
+
+/* Global violet colors */
+$global-violet-25:#F1ECFE;
+$global-violet-50:#D4C7FD;
+$global-violet-100:#B8A1FB;
+$global-violet-200:#9B7BF9;
+$global-violet-300:#7F56F8;
+$global-violet-400:#6230F6;
+$global-violet-500:#460BF4;
+$global-violet-600:#3B09CF;
+$global-violet-700:#3007A9;
+$global-violet-800:#250684;
+$global-violet-900:#1B045E;
+
+
+/* Global purple colors */
+$global-purple-25:#F5ECFE;
+$global-purple-50:#E2C7FC;
+$global-purple-100:#CFA1FB;
+$global-purple-200:#BC7CF9;
+$global-purple-300:#A956F7;
+$global-purple-400:#9631F5;
+$global-purple-500:#820BF4;
+$global-purple-600:#6E0ACE;
+$global-purple-700:#5A08A9;
+$global-purple-800:#460683;
+$global-purple-900:#32045E;
+
+
+/* Global indigo colors */
+$global-indigo-25:#F4F5FF;
+$global-indigo-50:#DDDFFF;
+$global-indigo-100:#C6CAFF;
+$global-indigo-200:#B7BDFF;
+$global-indigo-300:#9CA5FD;
+$global-indigo-400:#7D88F4;
+$global-indigo-500:#636DD3;
+$global-indigo-600:#4C56BB;
+$global-indigo-700:#3C449F;
+$global-indigo-800:#303783;
+$global-indigo-900:#242967;
+
+
+/* Global blue light colors */
+$global-blue-light-25:#E1EBFF;
+$global-blue-light-50:#D1E0FF;
+$global-blue-light-100:#B2CCFF;
+$global-blue-light-200:#92B6FF;
+$global-blue-light-300:#72A1FF;
+$global-blue-light-400:#538CFF;
+$global-blue-light-500:#4382FF;
+$global-blue-light-600:#3B6ED5;
+$global-blue-light-700:#335BAA;
+$global-blue-light-800:#1B356A;
+$global-blue-light-900:#1A2B4D;
+
+
+/* Global blue dark colors*/
+$global-blue-dark-25:#DFE6FB;
+$global-blue-dark-50:#CED9FB;
+$global-blue-dark-100:#AABFFC;
+$global-blue-dark-200:#87A6FD;
+$global-blue-dark-300:#658BFE;
+$global-blue-dark-400:#4174FF;
+$global-blue-dark-500:#1B54FF;
+$global-blue-dark-600:#1645D3;
+$global-blue-dark-700:#1036A8;
+$global-blue-dark-800:#0B277C;
+$global-blue-dark-900:#041546;
+
+
+/* Global blue gray colors */
+$global-blue-gray-25:#F0F3F7;
+$global-blue-gray-50:#E2E8EE;
+$global-blue-gray-100:#BCCAD9;
+$global-blue-gray-200:#8EA6BF;
+$global-blue-gray-300:#6989AA;
+$global-blue-gray-400:#446C95;
+$global-blue-gray-500:#365677;
+$global-blue-gray-600:#294059;
+$global-blue-gray-700:#213447;
+$global-blue-gray-800:#192736;
+$global-blue-gray-900:#0C1926;
+
+
+/* Global blue colors */
+$global-blue-25:#F2F5FF;
+$global-blue-50:#E8EDFF;
+$global-blue-100:#AEBFFF;
+$global-blue-200:#94ABFF;
+$global-blue-300:#6F8EFF;
+$global-blue-400:#4A72FF;
+$global-blue-500:#1B4DFF;
+$global-blue-600:#0F3CD9;
+$global-blue-700:#0F3CD9;
+$global-blue-800:#042185;
+$global-blue-900:#00114A;
+
+
+/* Global cyan colors */
+$global-cyan-25: #EDFBFE;
+$global-cyan-50: #C9F4FB;
+$global-cyan-100: #A4EDF8;
+$global-cyan-200: #80E5F5;
+$global-cyan-300: #5CDEF2;
+$global-cyan-400: #38D6EF;
+$global-cyan-500: #13CFEC;
+$global-cyan-600: #10AFC7;
+$global-cyan-700: #0D8FA3;
+$global-cyan-800: #0A6F7F;
+$global-cyan-900: #07505B;
+
+/* Global dimgray colors */
+$global-dimgray-25: #F5F5F5;
+$global-dimgray-50: #E2E2E2;
+$global-dimgray-100: #CECECE;
+$global-dimgray-200: #BABABA;
+$global-dimgray-300: #A7A7A7;
+$global-dimgray-400: #939393;
+$global-dimgray-500: #808080;
+$global-dimgray-600: #6C6C6C;
+$global-dimgray-700: #585858;
+$global-dimgray-800: #454545;
+$global-dimgray-900: #313131;
+
+/* Global emerald colors */
+$global-emerald-25: #EDFBF7;
+$global-emerald-50: #DBF6EE;
+$global-emerald-100: #ADEBD9;
+$global-emerald-200: #75DEBF;
+$global-emerald-300: #49D3AA;
+$global-emerald-400: #1BC895;
+$global-emerald-500: #16A077;
+$global-emerald-600: #107759;
+$global-emerald-700: #0D6047;
+$global-emerald-800: #0A4836;
+$global-emerald-900: #053A2B;
+
+
+/* Global gold colors */
+$global-gold-25: #FFFAF1;
+$global-gold-50: #FFF5E4;
+$global-gold-100: #FFEDCF;
+$global-gold-200: #FFE5BB;
+$global-gold-300: #FFD48F;
+$global-gold-400: #F3CE92;
+$global-gold-500: #E0BB7F;
+$global-gold-600: #C19C60;
+$global-gold-700: #8F6A2E;
+$global-gold-800: #715324;
+$global-gold-900: #5C431A;
+
+/* Global green colors */
+$global-green-25: #EAFEF5;
+$global-green-50: #D7F8E9;
+$global-green-100: #8FE7B8;
+$global-green-200: #48D28E;
+$global-green-300: #2FD181;
+$global-green-400: #1DB469;
+$global-green-500: #11A75C;
+$global-green-600: #0A9952;
+$global-green-700: #048746;
+$global-green-800: #046A37;
+$global-green-900: #02542B;
+
+/* Global green dark colors */
+$global-green-dark-25: #A6F4CE;
+$global-green-dark-50: #98EEC4;
+$global-green-dark-100: #7BE1AF;
+$global-green-dark-200: #5FD49A;
+$global-green-dark-300: #43C785;
+$global-green-dark-400: #26BA70;
+$global-green-dark-500: #18B466;
+$global-green-dark-600: #149454;
+$global-green-dark-700: #107542;
+$global-green-dark-800: #0B5531;
+$global-green-dark-900: #012C16;
+
+/* Global lime colors */
+$global-lime-25: #F4FFE1;
+$global-lime-50: #E4FFB8;
+$global-lime-100: #D5FD95;
+$global-lime-200: #C5FB6E;
+$global-lime-300: #AFEF47;
+$global-lime-400: #A3E635;
+$global-lime-500: #94DA22;
+$global-lime-600: #81C515;
+$global-lime-700: #73B10F;
+$global-lime-800: #5E9409;
+$global-lime-900: #497305;
+
+/* Global orange colors */
+$global-orange-25: #FFF6ED;
+$global-orange-50: #FFEBD8;
+$global-orange-100: #FFD8B4;
+$global-orange-200: #FFC793;
+$global-orange-300: #FFAD62;
+$global-orange-400: #FC8E28;
+$global-orange-500: #FC8415;
+$global-orange-600: #EB7101;
+$global-orange-700: #D26500;
+$global-orange-800: #B45600;
+$global-orange-900: #884202;
+
+
+/* Global pink colors */
+$global-pink-25: #FFF3F8;
+$global-pink-50: #FFDEEC;
+$global-pink-100: #FFBED9;
+$global-pink-200: #FFA0C8;
+$global-pink-300: #FB6CA7;
+$global-pink-400: #E9538D;
+$global-pink-500: #E42F75;
+$global-pink-600: #CF195F;
+$global-pink-700: #BC0F51;
+$global-pink-800: #99053E;
+$global-pink-900: #78002E;
+
+/* Global rose colors */
+$global-rose-25: #FEECEF;
+$global-rose-50: #FFDADF;
+$global-rose-100: #FFC2CB;
+$global-rose-200: #FF9CAA;
+$global-rose-300: #FF8596;
+$global-rose-400: #F6697D;
+$global-rose-500: #F54C64;
+$global-rose-600: #EB2743;
+$global-rose-700: #DB1733;
+$global-rose-800: #C10F29;
+$global-rose-900: #A00017;
+
+/* Global red colors */
+$global-red-25: #FFF5F4;
+$global-red-50: #FFDCDA;
+$global-red-100: #FFC5C1;
+$global-red-200: #FFA19B;
+$global-red-300: #FF7A72;
+$global-red-400: #FF574D;
+$global-red-500: #FF3838;
+$global-red-600: #E92215;
+$global-red-700: #D21A0E;
+$global-red-800: #BE170C;
+$global-red-900: #AB0A00;
+
+/* Global red dark colors */
+$global-red-dark-25: #FFDDDD;
+$global-red-dark-50: #FECBCB;
+$global-red-dark-100: #FBA8A8;
+$global-red-dark-200: #F98484;
+$global-red-dark-300: #F66161;
+$global-red-dark-400: #F33E3E;
+$global-red-dark-500: #E32D2D;
+$global-red-dark-600: #C62424;
+$global-red-dark-700: #AF3B33;
+$global-red-dark-800: #9C2A22;
+$global-red-dark-900: #4F1618;
+
+/* Global sky colors */
+$global-sky-25: #F3FAFF;
+$global-sky-50: #E4F4FF;
+$global-sky-100: #C2E6FF;
+$global-sky-200: #B0E3FF;
+$global-sky-300: #6AC9FF;
+$global-sky-400: #3CAAFA;
+$global-sky-500: #2497EB;
+$global-sky-600: #1580CD;
+$global-sky-700: #1177C0;
+$global-sky-800: #0D5E99;
+$global-sky-900: #033F6B;
+
+/* Global slate colors */
+$global-slate-25: #F9FAFB;
+$global-slate-50: #F0F3F9;
+$global-slate-100: #E9EFF6;
+$global-slate-200: #D7DFE9;
+$global-slate-300: #AFBACA;
+$global-slate-400: #8897AE;
+$global-slate-500: #5E718D;
+$global-slate-600: #455468;
+$global-slate-700: #3D4A5C;
+$global-slate-800: #2D3643;
+$global-slate-900: #1C222B;
+
+
+/* Global stone colors */
+$global-stone-25: #F9F8F7;
+$global-stone-50: #F3F2EF;
+$global-stone-100: #E3E1DA;
+$global-stone-200: #D0CCC1;
+$global-stone-300: #C1BCAD;
+$global-stone-400: #B2AB98;
+$global-stone-500: #8E897A;
+$global-stone-600: #6A665B;
+$global-stone-700: #555249;
+$global-stone-800: #403E37;
+$global-stone-900: #2B2924;
+
+
+/* Global teal colors */
+$global-teal-25: #E8FDF9;
+$global-teal-50: #D3F8F2;
+$global-teal-100: #B0F5EB;
+$global-teal-200: #88EFE0;
+$global-teal-300: #5EEAD5;
+$global-teal-400: #1EDCC5;
+$global-teal-500: #27CAB5;
+$global-teal-600: #1DB19F;
+$global-teal-700: #159383;
+$global-teal-800: #0E786B;
+$global-teal-900: #065A50;
+
+
+/* Global yellow colors */
+$global-yellow-25: #FFF9DF;
+$global-yellow-50: #FFF2C4;
+$global-yellow-100: #FFE99D;
+$global-yellow-200: #F7DC7C;
+$global-yellow-300: #F8D34F;
+$global-yellow-400: #F5C61E;
+$global-yellow-500: #E9B90B;
+$global-yellow-600: #D8A800;
+$global-yellow-700: #B18A00;
+$global-yellow-800: #896B00;
+$global-yellow-900: #624D00;
+
+
+/* Global yellow dark colors */
+$global-yellow-dark-25: #FCF0C5;
+$global-yellow-dark-50: #FAEBB4;
+$global-yellow-dark-100: #F6E092;
+$global-yellow-dark-200: #F3D671;
+$global-yellow-dark-300: #EFCC4F;
+$global-yellow-dark-400: #EBC12D;
+$global-yellow-dark-500: #CDA61A;
+$global-yellow-dark-600: #BE9917;
+$global-yellow-dark-700: #927612;
+$global-yellow-dark-800: #67530C;
+$global-yellow-dark-900: #362C07;
+
+
+/* Global zinc colors */
+$global-zinc-25: #f4f2f0;
+$global-zinc-50: #e6e1dd;
+$global-zinc-100: #d6cec6;
+$global-zinc-200: #c6baaf;
+$global-zinc-300: #b5a698;
+$global-zinc-400: #a59381;
+$global-zinc-500: #957f6a;
+$global-zinc-600: #7e6b5a;
+$global-zinc-700: #675849;
+$global-zinc-800: #504439;
+$global-zinc-900: #393129;
+
+/*=====  End of Global colors  ======*/
 
 
 /* Semantic brand Colors */
