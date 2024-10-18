@@ -9,10 +9,9 @@
  */
 
 /*=============================================
-=            Color Palette                    =
+=            Global Colors Palette                    =
 =============================================*/
 
-/*----------  Global colors  ----------*/
 /* Global fuchsia colors */
 $global-fuchsia-25:#FBEDFD;
 $global-fuchsia-50:#F4C9FA;
@@ -379,7 +378,7 @@ $global-zinc-700: #675849;
 $global-zinc-800: #504439;
 $global-zinc-900: #393129;
 
-/*=====  End of Global colors  ======*/
+/*=====  End of Global colors palette ======*/
 
 
 /*=============================================
@@ -411,7 +410,7 @@ $global-gradient-2color-20: linear-gradient(147deg, #00CDAC, #8DDAD5) !default;
 $global-gradient-2color-21: radial-gradient(circle at center, #B1AFF0, #836DF0) !default;
 $global-gradient-2color-22: radial-gradient(circle at 50% 110%, #71DDA6, #70B2BC) !default;
 
-/*=====  End of Global gradient colors  ======*/
+/*=====  End of Global 2 color gradient colors  ======*/
 
 
 /*=============================================
@@ -448,3 +447,158 @@ $global-gradient-4color-1: linear-gradient(120deg, #35EB93 10%, #2CACD1, #2B76B9
 $global-gradient-8color-1: linear-gradient(117deg, #F7C978, #F3A469, #F18271, #CC6B8E, #A86AA4, #7B5FAC, #5A55AE, #3F51B1) !default;
 
 /*=====  End of Global 8 color gradient colors  ======*/
+
+
+
+/*=============================================
+=            Semantic colors            =
+=============================================*/
+/*----------  Semantic Base  ----------*/
+$semantic-base-00: #ffffff !default;
+
+
+/*---------- Semantic Brand  ----------*/
+$semantic-brand-25: $global-blue-25 !default;
+$semantic-brand-50: $global-blue-50 !default;
+$semantic-brand-100: $global-blue-100 !default;
+$semantic-brand-200: $global-blue-200 !default;
+$semantic-brand-300: $global-blue-300 !default;
+$semantic-brand-400: $global-blue-400 !default;
+$semantic-brand-500: $global-blue-500 !default;
+$semantic-brand-600: $global-blue-600 !default;
+$semantic-brand-700: $global-blue-700 !default;
+$semantic-brand-800: $global-blue-800 !default;
+$semantic-brand-900: $global-blue-900 !default;
+
+
+/*----------  Dark Semantic Brand  ----------*/
+$dark-semantic-brand-25 : $global-blue-dark-25 !default;
+$dark-semantic-brand-50: $global-blue-dark-50 !default;
+$dark-semantic-brand-100: $global-blue-dark-100 !default;
+$dark-semantic-brand-200: $global-blue-dark-200 !default;
+$dark-semantic-brand-300: $global-blue-dark-300 !default;
+$dark-semantic-brand-400: $global-blue-dark-400 !default;
+$dark-semantic-brand-500: $global-blue-dark-500 !default;
+$dark-semantic-brand-600: $global-blue-dark-600 !default;
+$dark-semantic-brand-700: $global-blue-dark-700 !default;
+$dark-semantic-brand-800: $global-blue-dark-800 !default;
+$dark-semantic-brand-900: $global-blue-dark-900 !default;
+
+
+/*----------  Dark Semantic brand_alt  ----------*/
+$dark-semantic-brand-alt-25 : $global-blue-light-25 !default;
+$dark-semantic-brand-alt-50: $global-blue-light-50 !default;
+$dark-semantic-brand-alt-100: $global-blue-light-100 !default;
+$dark-semantic-brand-alt-200: $global-blue-light-200 !default;
+$dark-semantic-brand-alt-300: $global-blue-light-300 !default;
+$dark-semantic-brand-alt-400: $global-blue-light-400 !default;
+$dark-semantic-brand-alt-500: $global-blue-light-500 !default;
+$dark-semantic-brand-alt-600: $global-blue-light-600 !default;
+$dark-semantic-brand-alt-700: $global-blue-light-700 !default;
+$dark-semantic-brand-alt-800: $global-blue-light-800 !default;
+$dark-semantic-brand-alt-900: $global-blue-light-900 !default;
+
+
+/*----------  Semantic neutral  ----------*/
+$semantic-neutral-25: $global-slate-25 !default;
+$semantic-neutral-50: $global-slate-50 !default;
+$semantic-neutral-100: $global-slate-100 !default;
+$semantic-neutral-200: $global-slate-200 !default;
+$semantic-neutral-300: $global-slate-300 !default;
+$semantic-neutral-400: $global-slate-400 !default;
+$semantic-neutral-500: $global-slate-500 !default;
+$semantic-neutral-600: $global-slate-600 !default;
+$semantic-neutral-700: $global-slate-700 !default;
+$semantic-neutral-800: $global-slate-800 !default;
+$semantic-neutral-900: $global-slate-900 !default;
+
+
+/*----------  Semantic success  ----------*/
+$semantic-success-25: $global-green-25 !default;
+$semantic-success-50: $global-green-50 !default;
+$semantic-success-100: $global-green-100 !default;
+$semantic-success-200: $global-green-200 !default;
+$semantic-success-300: $global-green-300 !default;
+$semantic-success-400: $global-green-400 !default;
+$semantic-success-500: $global-green-500 !default;
+$semantic-success-600: $global-green-600 !default;
+$semantic-success-700: $global-green-700 !default;
+$semantic-success-800: $global-green-800 !default;
+$semantic-success-900: $global-green-900 !default;
+
+
+/*----------  Dark Semantic success  ----------*/
+$dark-semantic-success-25: $global-green-dark-25 !default;
+$dark-semantic-success-50: $global-green-dark-50 !default;
+$dark-semantic-success-100: $global-green-dark-100 !default;
+$dark-semantic-success-200: $global-green-dark-200 !default;
+$dark-semantic-success-300: $global-green-dark-300 !default;
+$dark-semantic-success-400: $global-green-dark-400 !default;
+$dark-semantic-success-500: $global-green-dark-500 !default;
+$dark-semantic-success-600: $global-green-dark-600 !default;
+$dark-semantic-success-700: $global-green-dark-700 !default;
+$dark-semantic-success-800: $global-green-dark-800 !default;
+$dark-semantic-success-900: $global-green-dark-900 !default;
+
+
+/*----------  Semantic warning  ----------*/
+$semantic-warning-25: $global-yellow-25 !default;
+$semantic-warning-50: $global-yellow-50 !default;
+$semantic-warning-100: $global-yellow-100 !default;
+$semantic-warning-200: $global-yellow-200 !default;
+$semantic-warning-300: $global-yellow-300 !default;
+$semantic-warning-400: $global-yellow-400 !default;
+$semantic-warning-500: $global-yellow-500 !default;
+$semantic-warning-600: $global-yellow-600 !default;
+$semantic-warning-700: $global-yellow-700 !default;
+$semantic-warning-800: $global-yellow-800 !default;
+$semantic-warning-900: $global-yellow-900 !default;
+
+
+/*----------  Dark Semantic warning  ----------*/
+$dark-semantic-warning-25: $global-yellow-dark-25 !default;
+$dark-semantic-warning-50: $global-yellow-dark-50 !default;
+$dark-semantic-warning-100: $global-yellow-dark-100 !default;
+$dark-semantic-warning-200: $global-yellow-dark-200 !default;
+$dark-semantic-warning-300: $global-yellow-dark-300 !default;
+$dark-semantic-warning-400: $global-yellow-dark-400 !default;
+$dark-semantic-warning-500: $global-yellow-dark-500 !default;
+$dark-semantic-warning-600: $global-yellow-dark-600 !default;
+$dark-semantic-warning-700: $global-yellow-dark-700 !default;
+$dark-semantic-warning-800: $global-yellow-dark-800 !default;
+$dark-semantic-warning-900: $global-yellow-dark-900 !default;
+
+
+/*----------  Semantic error  ----------*/
+$semantic-error-25: $global-red-25 !default;
+$semantic-error-50: $global-red-50 !default;
+$semantic-error-100: $global-red-100 !default;
+$semantic-error-200: $global-red-200 !default;
+$semantic-error-300: $global-red-300 !default;
+$semantic-error-400: $global-red-400 !default;
+$semantic-error-500: $global-red-500 !default;
+$semantic-error-600: $global-red-600 !default;
+$semantic-error-700: $global-red-700 !default;
+$semantic-error-800: $global-red-800 !default;
+$semantic-error-900: $global-red-900 !default;
+
+
+/*----------  Dark Semantic error  ----------*/
+$dark-semantic-error-25: $global-red-dark-25 !default;
+$dark-semantic-error-50: $global-red-dark-50 !default;
+$dark-semantic-error-100: $global-red-dark-100 !default;
+$dark-semantic-error-200: $global-red-dark-200 !default;
+$dark-semantic-error-300: $global-red-dark-300 !default;
+$dark-semantic-error-400: $global-red-dark-400 !default;
+$dark-semantic-error-500: $global-red-dark-500 !default;
+$dark-semantic-error-600: $global-red-dark-600 !default;
+$dark-semantic-error-700: $global-red-dark-700 !default;
+$dark-semantic-error-800: $global-red-dark-800 !default;
+$dark-semantic-error-900: $global-red-dark-900 !default;
+
+/*=====  End of Semantic colors  ======*/
+
+
+
+
+
