@@ -383,7 +383,7 @@ $global-zinc-900: #393129;
 
 
 /*=============================================
-=            Global gradient colors            =
+=            Global 2 color gradient colors            =
 =============================================*/
 
 $global-gradient-2color-1: linear-gradient(59deg, #bb0000 50%, #FAD0C4) !default;
@@ -412,3 +412,20 @@ $global-gradient-2color-21: radial-gradient(circle at center, #B1AFF0, #836DF0) 
 $global-gradient-2color-22: radial-gradient(circle at 50% 110%, #71DDA6, #70B2BC) !default;
 
 /*=====  End of Global gradient colors  ======*/
+
+
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+
+$global-gradient-3color-1: linear-gradient(-90deg, #A6FFCB, #12D8FA, #1FA2FF) !default;
+$global-gradient-3color-2: linear-gradient(35deg, #FFBAC3 0%, #C5C1FF 45%, #2CD8D5) !default;
+$global-gradient-3color-3: linear-gradient(-116deg, #FFCA7B, #D76D77, #3A1C71) !default;
+$global-gradient-3color-4: linear-gradient(35deg, #6654F1, #EACCF8 50%, #69EACB) !default;
+$global-gradient-3color-5: linear-gradient(61deg, #4801FF, #7918F2, #AC32E4) !default;
+$global-gradient-3color-6: linear-gradient(-96deg, #0A40FF 10%, #65C7F7 60%, #9CECFB) !default;
+$global-gradient-3color-7: linear-gradient(-90deg, #F0ACF7, #ACF7F0, #F7F0AC) !default;
+$global-gradient-3color-8: linear-gradient(-90deg, #F7797D, #FBD786, #C6FFDD) !default;
+$global-gradient-3color-9: linear-gradient(119deg, #3B41C5, #A981BB, #FFC8A9) !default;
+
+/*=====  End of Global 3 color gradient colors  ======*/
