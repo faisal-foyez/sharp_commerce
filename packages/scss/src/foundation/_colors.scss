@@ -836,3 +836,65 @@ $dark-foreground-link-disabled: $dark-semantic-brand-alt-700 !default;
 /*=====  End of Foreground colors tokens  ======*/
 
 
+
+
+/*=============================================
+=            Border colors tokens            =
+=============================================*/
+
+/*----------  Border Semantic Base Colors  ----------*/
+$border-base-white: $semantic-base-00 !default;
+$border-base-white-inverted: $semantic-base-00 !default;
+
+/*----------  Dark Border Semantic Base Colors  ----------*/
+$dark-border-base-white: $semantic-neutral-900 !default;
+$dark-border-base-white-inverted: $semantic-base-00 !default;
+
+/*----------  Border Semantic Neutral Colors  ----------*/
+$border-neutral-xsubtle: $semantic-neutral-100 !default;
+$border-neutral-subtle: $semantic-neutral-200 !default;
+$border-neutral-muted: $semantic-neutral-400 !default;
+$border-neutral-default: $semantic-neutral-600 !default;
+
+/*----------  Dark Border Semantic Neutral Colors  ----------*/
+$dark-border-neutral-xsubtle: $semantic-neutral-800 !default;
+$dark-border-neutral-subtle: $semantic-neutral-700 !default;
+$dark-border-neutral-muted: $semantic-neutral-500 !default;
+$dark-border-neutral-default: $semantic-neutral-100 !default;
+
+/*----------  Border Semantic Brand Colors  ----------*/
+$border-brand-xsubtle: $semantic-brand-50 !default;
+$border-brand-subtle: $semantic-brand-100 !default;
+$border-brand-default: $semantic-brand-500 !default;
+
+/*----------  Dark Border Semantic Brand Colors  ----------*/
+$dark-border-brand-xsubtle: $semantic-neutral-800 !default;
+$dark-border-brand-subtle: $semantic-neutral-700 !default;
+$dark-border-brand-default: $dark-semantic-brand-100 !default;
+
+/*----------  Border Semantic Success Colors  ----------*/
+$border-success-subtle: $semantic-success-100 !default;
+$border-success-default: $semantic-success-500 !default;
+
+/*----------  Dark Border Semantic Success Colors  ----------*/
+$dark-border-success-subtle: $dark-semantic-success-700 !default;
+$dark-border-success-default: $dark-semantic-success-400 !default;
+
+/*----------  Border Semantic Warning Colors  ----------*/
+$border-warning-subtle: $semantic-warning-200 !default;
+$border-warning-default: $semantic-warning-500 !default;
+
+/*----------  Dark Border Semantic Warning Colors  ----------*/
+$dark-border-warning-subtle: $dark-semantic-warning-600 !default;
+$dark-border-warning-default: $dark-semantic-warning-400 !default;
+
+/*----------  Border Semantic Error Colors  ----------*/
+$border-error-subtle: $semantic-error-100 !default;
+$border-error-default: $semantic-error-500 !default;
+
+/*----------  Dark Border Semantic Error Colors  ----------*/
+$dark-border-error-subtle: $dark-semantic-error-800 !default;
+$dark-border-error-default: $dark-semantic-error-500 !default;
+
+/*=====  End of Border colors tokens  ======*/
+
