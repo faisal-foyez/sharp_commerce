@@ -600,5 +600,96 @@ $dark-semantic-error-900: $global-red-dark-900 !default;
 
 
 
+/*=============================================
+=            Background colors tokens            =
+=============================================*/
+
+/*----------  Background Semantic Base Colors  ----------*/
+$background-base-white: $semantic-base-00 !default;
+$background-base-white_inverted: $semantic-base-00 !default;
+
+/*---------- Dark Background Semantic Colors  ----------*/
+$dark-background-base-white: $semantic-neutral-900 !default;
+$dark-background-base-white_inverted: $semantic-neutral-800 !default;
+
+
+
+/*----------  Background Semantic Brand Colors  ----------*/
+$background-brand-soft-surface: $semantic-brand-25 !default;
+$background-brand-subtle: $semantic-brand-100 !default;
+$background-brand-muted: $semantic-brand-300 !default;
+$background-brand-default: $semantic-brand-500 !default;
+$background-brand-emphasis: $semantic-brand-600 !default;
+
+/*----------  Dark Background Semantic Brand Colors  ----------*/
+$dark-background-brand-soft-surface: $dark-semantic-brand-alt-900 !default;
+$dark-background-brand-subtle: $dark-semantic-brand-alt-800 !default;
+$dark-background-brand-muted: $dark-semantic-brand-alt-500 !default;
+$dark-background-brand-default: $dark-semantic-brand-alt-500 !default;
+$dark-background-brand-emphasis: $dark-semantic-brand-alt-600 !default;
+
+
+
+/*----------  Background Semantic Neutral Colors  ----------*/
+$background-neutral-soft-surface: $semantic-neutral-25 !default;
+$background-neutral-subtle: $semantic-neutral-100 !default;
+$background-neutral-muted: $semantic-neutral-400 !default;
+$background-neutral-default: $semantic-neutral-500 !default;
+$background-neutral-emphasis: $semantic-neutral-700 !default;
+$background-neutral-strong: $semantic-neutral-900 !default;
+$background-neutral-strong-alt: $semantic-neutral-900 !default;
+
+/*----------  Dark Background Semantic Neutral Colors  ----------*/
+$dark-background-neutral-soft-surface: $semantic-neutral-800 !default;
+$dark-background-neutral-subtle: $semantic-neutral-600 !default;
+$dark-background-neutral-muted: $semantic-neutral-300 !default;
+$dark-background-neutral-default: $semantic-neutral-200 !default;
+$dark-background-neutral-emphasis: $semantic-neutral-100 !default;
+$dark-background-neutral-strong: $semantic-neutral-25 !default;
+$dark-background-neutral-strong-alt: $semantic-base-00 !default;
+
+
+
+/*----------  Background Semantic Success Colors  ----------*/
+$background-success-soft-surface: $semantic-success-25 !default;
+$background-success-subtle: $semantic-success-100 !default;
+$background-success-default: $semantic-success-500 !default;
+$background-success-emphasis: $semantic-success-600 !default;
+
+/*----------  Dark Background Semantic Success Colors  ----------*/
+$dark-background-success-soft-surface: $dark-semantic-success-900 !default;
+$dark-background-success-subtle: $dark-semantic-success-700 !default;
+$dark-background-success-default: $dark-semantic-success-500 !default;
+$dark-background-success-emphasis: $dark-semantic-success-400 !default;
+
+
+
+/*----------  Background Semantic Warning Colors  ----------*/
+$background-warning-soft-surface: $semantic-warning-25 !default;
+$background-warning-subtle: $semantic-warning-100 !default;
+$background-warning-default: $semantic-warning-500 !default;
+$background-warning-emphasis: $semantic-warning-600 !default;
+
+/*----------  Dark Background Semantic Warning Colors  ----------*/
+$dark-background-warning-soft-surface: $dark-semantic-warning-900 !default;
+$dark-background-warning-subtle: $dark-semantic-warning-700 !default; 
+$dark-background-warning-default: $dark-semantic-warning-300 !default;
+$dark-background-warning-emphasis: $dark-semantic-warning-200 !default;
+
+
+
+/*----------  Background Semantic Error Colors  ----------*/
+$background-error-soft-surface: $semantic-error-25 !default;
+$background-error-subtle: $semantic-error-100 !default;
+$background-error-default: $semantic-error-500 !default;
+$background-error-emphasis: $semantic-error-600 !default;
+
+/*----------  Dark Background Semantic Error Colors  ----------*/
+$dark-background-error-soft-surface: $dark-semantic-error-900 !default;
+$dark-background-error-subtle: $dark-semantic-error-700 !default;
+$dark-background-error-default: $dark-semantic-error-300 !default;
+$dark-background-error-emphasis: $dark-semantic-error-200 !default;
+
+/*=====  End of Background colors tokens  ======*/
 
 
