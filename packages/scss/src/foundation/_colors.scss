@@ -453,9 +453,9 @@ $global-gradient-8color-1: linear-gradient(117deg, #F7C978, #F3A469, #F18271, #C
 /*=============================================
 =            Semantic colors            =
 =============================================*/
+
 /*----------  Semantic Base  ----------*/
 $semantic-base-00: #ffffff !default;
-
 
 /*---------- Semantic Brand  ----------*/
 $semantic-brand-25: $global-blue-25 !default;
@@ -601,6 +601,62 @@ $dark-semantic-error-900: $global-red-dark-900 !default;
 
 
 /*=============================================
+=            Transparent colors tokens            =
+=============================================*/
+
+/*---------- Transparent Colors  ----------*/
+$transparent-2: rgba($semantic-base-00, 0.02) !default;
+$transparent-5: rgba($semantic-base-00, 0.05) !default;
+$transparent-10: rgba($semantic-base-00, 0.1) !default;
+$transparent-20: rgba($semantic-base-00, 0.2) !default;
+$transparent-30: rgba($semantic-base-00, 0.3) !default;
+$transparent-40: rgba($semantic-base-00, 0.4) !default;
+$transparent-50: rgba($semantic-base-00, 0.5) !default;
+$transparent-60: rgba($semantic-base-00, 0.6) !default;
+$transparent-70: rgba($semantic-base-00, 0.7) !default;
+$transparent-80: rgba($semantic-base-00, 0.8) !default;
+$transparent-90: rgba($semantic-base-00, 0.9) !default;
+
+
+
+/*---------- Dark Semantic transparent Colors  ----------*/
+$dark-transparent-base:$global-slate-900 !default;
+
+$dark-transparent-2: rgba($dark-transparent-base, 0.02) !default;
+$dark-transparent-5: rgba($dark-transparent-base, 0.05) !default;
+$dark-transparent-10: rgba($dark-transparent-base, 0.1) !default;
+$dark-transparent-20: rgba($dark-transparent-base, 0.2) !default;
+$dark-transparent-30: rgba($dark-transparent-base, 0.3) !default;
+$dark-transparent-40: rgba($dark-transparent-base, 0.4) !default;
+$dark-transparent-50: rgba($dark-transparent-base, 0.5) !default;
+$dark-transparent-60: rgba($dark-transparent-base, 0.6) !default;
+$dark-transparent-70: rgba($dark-transparent-base, 0.7) !default;
+$dark-transparent-80: rgba($dark-transparent-base, 0.8) !default;
+$dark-transparent-90: rgba($dark-transparent-base, 0.9) !default;
+
+
+/*----------  Brand Transparent Colors  ----------*/
+$transparent-brand-base: $global-blue-500 !default;
+
+$transparent-brand-2: rgba($transparent-brand-base, 0.02) !default;
+$transparent-brand-5: rgba($transparent-brand-base, 0.05) !default;
+$transparent-brand-10: rgba($transparent-brand-base, 0.1) !default;
+$transparent-brand-20: rgba($transparent-brand-base, 0.2) !default;
+$transparent-brand-30: rgba($transparent-brand-base, 0.3) !default;
+$transparent-brand-40: rgba($transparent-brand-base, 0.4) !default;
+$transparent-brand-50: rgba($transparent-brand-base, 0.5) !default;
+$transparent-brand-60: rgba($transparent-brand-base, 0.6) !default;
+$transparent-brand-70: rgba($transparent-brand-base, 0.7) !default;
+$transparent-brand-80: rgba($transparent-brand-base, 0.8) !default;
+$transparent-brand-90: rgba($transparent-brand-base, 0.9) !default;
+
+
+/*=====  End of Transparent colors tokens  ======*/
+
+
+
+
+/*=============================================
 =            Background colors tokens            =
 =============================================*/
 
@@ -624,10 +680,9 @@ $background-brand-emphasis: $semantic-brand-600 !default;
 /*----------  Dark Background Semantic Brand Colors  ----------*/
 $dark-background-brand-soft-surface: $dark-semantic-brand-alt-900 !default;
 $dark-background-brand-subtle: $dark-semantic-brand-alt-800 !default;
-$dark-background-brand-muted: $dark-semantic-brand-alt-500 !default;
-$dark-background-brand-default: $dark-semantic-brand-alt-500 !default;
-$dark-background-brand-emphasis: $dark-semantic-brand-alt-600 !default;
-
+$dark-background-brand-muted: $dark-semantic-brand-500 !default;
+$dark-background-brand-default: $dark-semantic-brand-500 !default;
+$dark-background-brand-emphasis: $dark-semantic-brand-600 !default;
 
 
 /*----------  Background Semantic Neutral Colors  ----------*/
@@ -691,5 +746,4 @@ $dark-background-error-default: $dark-semantic-error-300 !default;
 $dark-background-error-emphasis: $dark-semantic-error-200 !default;
 
 /*=====  End of Background colors tokens  ======*/
-
 
