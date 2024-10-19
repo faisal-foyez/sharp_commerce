@@ -1230,3 +1230,60 @@ $dark-action-border-warning-light-active: $dark-semantic-warning-800 !default;
 $dark-action-border-warning-light-disabled: $dark-semantic-warning-800 !default;
 /*=====  End of Action color tokens  ======*/
 
+
+
+/*=============================================
+=            Other Color Tokens               =
+=============================================*/
+
+/*----------  Fuchsia  ----------*/
+$other-color-fuchsia-default: $global-color-fuchsia-400 !default;
+$other-color-fuchsia-light: $global-color-fuchsia-100 !default;
+$other-color-fuchsia-xlight: $global-color-fuchsia-25 !default;
+
+$dark-other-color-fuchsia-default: $global-color-fuchsia-600 !default;
+$dark-other-color-fuchsia-light: $global-color-fuchsia-800 !default;
+$dark-other-color-fuchsia-xlight: $global-color-fuchsia-900 !default;
+
+/*----------  Purple  ----------*/
+$other-color-purple-default: $global-color-purple-400 !default;
+$other-color-purple-light: $global-color-purple-100 !default;
+$other-color-purple-xlight: $global-color-purple-25 !default;
+
+$dark-other-color-purple-default: $global-color-purple-600 !default;
+$dark-other-color-purple-light: $global-color-purple-800 !default;
+$dark-other-color-purple-xlight: $global-color-purple-900 !default;
+
+/*----------  Cyan  ----------*/
+$other-color-cyan-default: $global-color-cyan-400 !default;
+$other-color-cyan-light: $global-color-cyan-100 !default;
+$other-color-cyan-xlight: $global-color-cyan-25 !default;
+
+$dark-other-color-cyan-default: $global-color-cyan-600 !default;
+$dark-other-color-cyan-light: $global-color-cyan-800 !default;
+$dark-other-color-cyan-xlight: $global-color-cyan-900 !default;
+
+/*----------  Pink  ----------*/
+$other-color-pink-default: $global-color-pink-400 !default;
+$other-color-pink-light: $global-color-pink-100 !default;
+$other-color-pink-xlight: $global-color-pink-25 !default;
+
+$dark-other-color-pink-default: $global-color-pink-600 !default;
+$dark-other-color-pink-light: $global-color-pink-800 !default;
+$dark-other-color-pink-xlight: $global-color-pink-900 !default;
+
+/*----------  Sky  ----------*/
+$other-color-sky-default: $global-color-sky-400 !default;
+$other-color-sky-light: $global-color-sky-100 !default;
+$other-color-sky-xlight: $global-color-sky-25 !default;
+
+$dark-other-color-sky-default: $global-color-sky-600 !default;
+$dark-other-color-sky-light: $global-color-sky-800 !default;
+$dark-other-color-sky-xlight: $global-color-sky-900 !default;
+
+/*----------  Black  ----------*/
+$other-color-black-default: #000000 !default;
+
+$dark-other-color-black-default: $semantic-base-00 !default;
+
+/*=====  End of Other Color Tokens  ======*/
