@@ -747,3 +747,92 @@ $dark-background-error-emphasis: $dark-semantic-error-200 !default;
 
 /*=====  End of Background colors tokens  ======*/
 
+
+
+/*=============================================
+=            Foreground colors tokens            =
+=============================================
+
+/*----------  Foreground Semantic Neutral Colors  ----------*/
+$foreground-neutral-primary: $semantic-neutral-900 !default;
+$foreground-neutral-secondary: $semantic-neutral-600 !default;
+$foreground-neutral-tertiary: $semantic-neutral-400 !default;
+$foreground-neutral-quaternary: $semantic-neutral-300 !default;
+
+/*----------  Dark Foreground Semantic Neutral Colors  ----------*/
+$dark-foreground-neutral-primary: $semantic-neutral-50 !default;
+$dark-foreground-neutral-secondary: $semantic-neutral-300 !default;
+$dark-foreground-neutral-tertiary: $semantic-neutral-500 !default;
+$dark-foreground-neutral-quaternary: $semantic-neutral-700 !default;
+
+/*----------  Foreground Semantic Light Colors  ----------*/
+$foreground-light-primary: $semantic-base-00 !default;
+$foreground-light-primary-inverted: $semantic-base-00 !default;
+$foreground-light-secondary: rgba($transparent-80, 0.8) !default;
+$foreground-light-secondary-inverted: rgba($transparent-80, 0.8) !default;
+$foreground-light-tertiary: rgba($transparent-30, 0.3) !default;
+$foreground-light-tertiary-inverted: rgba($transparent-30, 0.3) !default;
+
+/*----------  Dark Foreground Semantic Light Colors  ----------*/
+$dark-foreground-light-primary: $semantic-neutral-900 !default;
+$dark-foreground-light-primary-inverted: $semantic-base-00 !default;
+$dark-foreground-light-secondary: rgba($dark-transparent-80, 0.8) !default;
+$dark-foreground-light-secondary-inverted: rgba($transparent-80, 0.8) !default;
+$dark-foreground-light-tertiary: rgba($dark-transparent-30, 0.3) !default;
+$dark-foreground-light-tertiary-inverted: rgba($transparent-30, 0.3) !default;
+
+/*----------  Foreground Semantic Brand Colors  ----------*/
+$foreground-brand-primary: $semantic-brand-500 !default;
+$foreground-brand-secondary: $dark-semantic-brand-400 !default;
+$foreground-brand-tertiary: $semantic-brand-100 !default;
+
+/*----------  Dark Foreground Semantic Brand Colors  ----------*/
+$dark-foreground-brand-primary: $dark-semantic-brand-alt-500 !default;
+$dark-foreground-brand-secondary: $dark-semantic-brand-alt-600 !default;
+$dark-foreground-brand-tertiary: $dark-semantic-brand-alt-800 !default;
+
+/*----------  Foreground Semantic Success Colors  ----------*/
+$foreground-success-primary: $semantic-success-600 !default;
+$foreground-success-secondary: $semantic-success-500 !default;
+$foreground-success-tertiary: $semantic-success-300 !default;
+
+/*----------  Dark Foreground Semantic Success Colors  ----------*/
+$dark-foreground-success-primary: $dark-semantic-success-400 !default;
+$dark-foreground-success-secondary: $dark-semantic-success-500 !default;
+$dark-foreground-success-tertiary: $dark-semantic-success-700 !default;
+
+/*----------  Foreground Semantic Warning Colors  ----------*/
+$foreground-warning-primary: $semantic-warning-600 !default;
+$foreground-warning-secondary: $semantic-warning-500 !default;
+$foreground-warning-tertiary: $semantic-warning-300 !default;
+
+/*----------  Dark Foreground Semantic Warning Colors  ----------*/
+$dark-foreground-warning-primary: $dark-semantic-warning-400 !default;
+$dark-foreground-warning-secondary: $dark-semantic-warning-500 !default;
+$dark-foreground-warning-tertiary: $dark-semantic-warning-700 !default;
+
+/*----------  Foreground Semantic Error Colors  ----------*/
+$foreground-error-primary: $semantic-error-600 !default;
+$foreground-error-secondary: $semantic-error-500 !default;
+$foreground-error-tertiary: $semantic-error-200 !default;
+
+/*----------  Dark Foreground Semantic Error Colors  ----------*/
+$dark-foreground-error-primary: $dark-semantic-error-400 !default;
+$dark-foreground-error-secondary: $dark-semantic-error-500 !default;
+$dark-foreground-error-tertiary: $dark-semantic-error-700 !default;
+
+/*----------  Foreground Semantic Link Colors  ----------*/
+$foreground-link-default: $semantic-brand-600 !default;
+$foreground-link-hover: $semantic-brand-700 !default;
+$foreground-link-disabled: $semantic-brand-200 !default;
+
+/*----------  Dark Foreground Semantic Link Colors  ----------*/
+$dark-foreground-link-default: $dark-semantic-brand-alt-600 !default;
+$dark-foreground-link-hover: $dark-semantic-brand-alt-500 !default;
+$dark-foreground-link-disabled: $dark-semantic-brand-alt-700 !default;
+
+
+
+/*=====  End of Foreground colors tokens  ======*/
+
+
