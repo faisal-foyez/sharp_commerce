@@ -1,0 +1,330 @@
+
+/*=============================================
+=            Action color tokens            =
+=============================================*/
+/*----------  Action Background Base Colors  ----------*/
+$action-background-base-white: $semantic-base-00 !default;
+$action-background-base-white-inverted: $semantic-base-00 !default;
+
+$dark-action-background-base-white: $semantic-neutral-900 !default;
+$dark-action-background-base-white-inverted: $semantic-base-00 !default;
+
+/*----------  Action Background Brand Colors  ----------*/
+$action-background-brand-normal: $semantic-brand-500 !default;
+$action-background-brand-hover: $semantic-brand-600 !default;
+$action-background-brand-focused: $semantic-brand-500 !default;
+$action-background-brand-active: $semantic-brand-500 !default;
+$action-background-brand-disabled: $semantic-brand-100 !default;
+$action-background-brand-light-normal: $semantic-brand-25 !default;
+$action-background-brand-light-hover: $semantic-brand-50 !default;
+$action-background-brand-light-focused: $semantic-brand-25 !default;
+$action-background-brand-light-active: $semantic-brand-25 !default;
+$action-background-brand-light-disabled: $semantic-brand-25 !default;
+
+$dark-action-background-brand-normal: $dark-semantic-brand-500 !default;
+$dark-action-background-brand-hover: $dark-semantic-brand-600 !default;
+$dark-action-background-brand-focused: $dark-semantic-brand-500 !default;
+$dark-action-background-brand-active: $dark-semantic-brand-500 !default;
+$dark-action-background-brand-disabled: $dark-semantic-brand-alt-900 !default;
+$dark-action-background-brand-light-normal: $dark-semantic-brand-alt-900 !default;
+$dark-action-background-brand-light-hover: $dark-semantic-brand-alt-800 !default;
+$dark-action-background-brand-light-focused: $dark-semantic-brand-alt-900 !default;
+$dark-action-background-brand-light-active: $dark-semantic-brand-alt-900 !default;
+$dark-action-background-brand-light-disabled: $dark-semantic-brand-alt-900 !default;
+
+/*----------  Action Background Neutral Colors  ----------*/
+$action-background-neutral-normal: $semantic-neutral-600 !default;
+$action-background-neutral-hover: $semantic-neutral-700 !default;
+$action-background-neutral-focused: $semantic-neutral-600 !default;
+$action-background-neutral-active: $semantic-neutral-500 !default;
+$action-background-neutral-disabled: $semantic-neutral-200 !default;
+$action-background-neutral-light-normal: $semantic-neutral-25 !default;
+$action-background-neutral-light-hover: $semantic-neutral-25 !default;
+$action-background-neutral-light-focused: $semantic-neutral-25 !default;
+$action-background-neutral-light-active: $semantic-neutral-25 !default;
+$action-background-neutral-light-disabled: $semantic-neutral-25 !default;
+
+$dark-action-background-neutral-normal: $semantic-neutral-25 !default;
+$dark-action-background-neutral-hover: $semantic-neutral-50 !default;
+$dark-action-background-neutral-focused: $semantic-neutral-25 !default;
+$dark-action-background-neutral-active: $semantic-neutral-25 !default;
+$dark-action-background-neutral-disabled: $semantic-neutral-600 !default;
+$dark-action-background-neutral-light-normal: $semantic-neutral-800 !default;
+$dark-action-background-neutral-light-hover: $semantic-neutral-700 !default;
+$dark-action-background-neutral-light-focused: $semantic-neutral-800 !default;
+$dark-action-background-neutral-light-active: $semantic-neutral-800 !default;
+$dark-action-background-neutral-light-disabled: $semantic-neutral-800 !default;
+
+/*----------  Action Background Error Colors  ----------*/
+$action-background-error-normal: $semantic-error-500 !default;
+$action-background-error-hover: $semantic-error-600 !default;
+$action-background-error-focused: $semantic-error-500 !default;
+$action-background-error-active: $semantic-error-500 !default;
+$action-background-error-disabled: $semantic-error-100 !default;
+$action-background-error-light-normal: $semantic-error-25 !default;
+$action-background-error-light-hover: $semantic-error-50 !default;
+$action-background-error-light-focused: $semantic-error-25 !default;
+$action-background-error-light-active: $semantic-error-25 !default;
+$action-background-error-light-disabled: $semantic-error-25 !default;
+$action-background-error-inverted-light-hover: $semantic-error-25 !default;
+$action-background-error-inverted-light-active: $semantic-error-25 !default;
+
+$dark-action-background-error-normal: $dark-semantic-error-500 !default;
+$dark-action-background-error-hover: $dark-semantic-error-600 !default;
+$dark-action-background-error-focused: $dark-semantic-error-500 !default;
+$dark-action-background-error-active: $dark-semantic-error-500 !default;
+$dark-action-background-error-disabled: $dark-semantic-error-900 !default;
+$dark-action-background-error-light-normal: $dark-semantic-error-900 !default;
+$dark-action-background-error-light-hover: $dark-semantic-error-800 !default;
+$dark-action-background-error-light-focused: $dark-semantic-error-900 !default;
+$dark-action-background-error-light-active: $dark-semantic-error-900 !default;
+$dark-action-background-error-light-disabled: $dark-semantic-error-800 !default;
+$dark-action-background-error-inverted-light-hover: $dark-semantic-error-900 !default;
+$dark-action-background-error-inverted-light-active: $dark-semantic-error-800 !default;
+
+/*----------  Action Background Success Colors  ----------*/
+$action-background-success-normal: $semantic-success-500 !default;
+$action-background-success-hover: $semantic-success-600 !default;
+$action-background-success-focused: $semantic-success-500 !default;
+$action-background-success-active: $semantic-success-500 !default;
+$action-background-success-disabled: $semantic-success-100 !default;
+$action-background-success-light-normal: $semantic-success-25 !default;
+$action-background-success-light-hover: $semantic-success-50 !default;
+$action-background-success-light-focused: $semantic-success-25 !default;
+$action-background-success-light-active: $semantic-success-25 !default;
+$action-background-success-light-disabled: $semantic-success-25 !default;
+
+$dark-action-background-success-normal: $dark-semantic-success-500 !default;
+$dark-action-background-success-hover: $dark-semantic-success-600 !default;
+$dark-action-background-success-focused: $dark-semantic-success-500 !default;
+$dark-action-background-success-active: $dark-semantic-success-500 !default;
+$dark-action-background-success-disabled: $dark-semantic-success-800 !default;
+$dark-action-background-success-light-normal: $dark-semantic-success-900 !default;
+$dark-action-background-success-light-hover: $dark-semantic-success-800 !default;
+$dark-action-background-success-light-focused: $dark-semantic-success-900 !default;
+$dark-action-background-success-light-active: $dark-semantic-success-900 !default;
+$dark-action-background-success-light-disabled: $dark-semantic-success-900 !default;
+
+/*----------  Action Background Warning Colors  ----------*/
+$action-background-warning-normal: $semantic-warning-500 !default;
+$action-background-warning-hover: $semantic-warning-600 !default;
+$action-background-warning-focused: $semantic-warning-500 !default;
+$action-background-warning-active: $semantic-warning-500 !default;
+$action-background-warning-disabled: $semantic-warning-100 !default;
+$action-background-warning-light-normal: $semantic-warning-25 !default;
+$action-background-warning-light-hover: $semantic-warning-50 !default;
+$action-background-warning-light-focused: $semantic-warning-25 !default;
+$action-background-warning-light-active: $semantic-warning-25 !default;
+$action-background-warning-light-disabled: $semantic-warning-25 !default;
+
+$dark-action-background-warning-normal: $dark-semantic-warning-500 !default;
+$dark-action-background-warning-hover: $dark-semantic-warning-600 !default;
+$dark-action-background-warning-focused: $dark-semantic-warning-500 !default;
+$dark-action-background-warning-active: $dark-semantic-warning-500 !default;
+$dark-action-background-warning-disabled: $dark-semantic-warning-800 !default;
+$dark-action-background-warning-light-normal: $dark-semantic-warning-900 !default;
+$dark-action-background-warning-light-hover: $dark-semantic-warning-800 !default;
+$dark-action-background-warning-light-focused: $dark-semantic-warning-900 !default;
+$dark-action-background-warning-light-active: $dark-semantic-warning-900 !default;
+$dark-action-background-warning-light-disabled: $dark-semantic-warning-900 !default;
+
+/*----------  Action Foreground Base Colors  ----------*/
+$action-foreground-base-white: $semantic-base-00 !default;
+$action-foreground-base-inverted-white: $semantic-base-00 !default;
+
+$dark-action-foreground-base-white: $semantic-neutral-900 !default;
+$dark-action-foreground-base-inverted-white: $semantic-base-00 !default;
+
+/*----------  Action Foreground Brand Colors  ----------*/
+$action-foreground-brand-normal: $semantic-brand-500 !default;
+$action-foreground-brand-hover: $semantic-brand-600 !default;
+$action-foreground-brand-focused: $semantic-brand-500 !default;
+$action-foreground-brand-active: $semantic-brand-500 !default;
+$action-foreground-brand-disabled: $semantic-brand-100 !default;
+$action-foreground-brand-inverted-normal: $semantic-brand-500 !default;
+$action-foreground-brand-inverted-hover: $semantic-brand-600 !default;
+$action-foreground-brand-inverted-focused: $semantic-brand-500 !default;
+$action-foreground-brand-inverted-active: $semantic-brand-500 !default;
+$action-foreground-brand-inverted-disabled: $semantic-brand-100 !default;
+
+$dark-action-foreground-brand-normal: $dark-semantic-brand-alt-500 !default;
+$dark-action-foreground-brand-hover: $dark-semantic-brand-alt-600 !default;
+$dark-action-foreground-brand-focused: $dark-semantic-brand-alt-500 !default;
+$dark-action-foreground-brand-active: $dark-semantic-brand-alt-500 !default;
+$dark-action-foreground-brand-disabled: $dark-semantic-brand-alt-800 !default;
+$dark-action-foreground-brand-inverted-normal: $dark-semantic-brand-alt-400 !default;
+$dark-action-foreground-brand-inverted-hover: $dark-semantic-brand-alt-500 !default;
+$dark-action-foreground-brand-inverted-focused: $dark-semantic-brand-alt-400 !default;
+$dark-action-foreground-brand-inverted-active: $dark-semantic-brand-alt-400 !default;
+$dark-action-foreground-brand-inverted-disabled: $dark-semantic-brand-alt-700 !default;
+
+/*----------  Action Foreground Neutral Colors  ----------*/
+$action-foreground-neutral-normal: $semantic-neutral-600 !default;
+$action-foreground-neutral-normal-light: $semantic-neutral-400 !default;
+$action-foreground-neutral-hover: $semantic-neutral-700 !default;
+$action-foreground-neutral-focused: $semantic-neutral-600 !default;
+$action-foreground-neutral-active: $semantic-neutral-600 !default;
+$action-foreground-neutral-disabled: $semantic-neutral-200 !default;
+
+$dark-action-foreground-neutral-normal: $semantic-neutral-25 !default;
+$dark-action-foreground-neutral-normal-light: $semantic-neutral-400 !default;
+$dark-action-foreground-neutral-hover: $semantic-neutral-50 !default;
+$dark-action-foreground-neutral-focused: $semantic-neutral-25 !default;
+$dark-action-foreground-neutral-active: $semantic-neutral-25 !default;
+$dark-action-foreground-neutral-disabled: $semantic-neutral-600 !default;
+
+/*----------  Action Foreground Error Colors  ----------*/
+$action-foreground-error-normal: $semantic-error-500 !default;
+$action-foreground-error-hover: $semantic-error-600 !default;
+$action-foreground-error-focused: $semantic-error-500 !default;
+$action-foreground-error-active: $semantic-error-500 !default;
+$action-foreground-error-disabled: $semantic-error-200 !default;
+$action-foreground-error-inverted-hover: $semantic-error-600 !default;
+$action-foreground-error-inverted-active: $semantic-error-600 !default;
+$action-foreground-error-inverted-disabled: $semantic-error-25 !default;
+
+$dark-action-foreground-error-normal: $dark-semantic-error-400 !default;
+$dark-action-foreground-error-hover: $dark-semantic-error-500 !default;
+$dark-action-foreground-error-focused: $dark-semantic-error-400 !default;
+$dark-action-foreground-error-active: $dark-semantic-error-400 !default;
+$dark-action-foreground-error-disabled: $dark-semantic-error-800 !default;
+$dark-action-foreground-error-inverted-hover: $dark-semantic-error-50 !default;
+$dark-action-foreground-error-inverted-active: $dark-semantic-error-50 !default;
+$dark-action-foreground-error-inverted-disabled: $dark-semantic-error-800 !default;
+
+/*----------  Action Foreground Success Colors  ----------*/
+$action-foreground-success-normal: $semantic-success-600 !default;
+$action-foreground-success-hover: $semantic-success-700 !default;
+$action-foreground-success-focused: $semantic-success-600 !default;
+$action-foreground-success-active: $semantic-success-600 !default;
+$action-foreground-success-disabled: $semantic-success-100 !default;
+$action-foreground-success-inverted-disabled: $semantic-success-25 !default;
+
+$dark-action-foreground-success-normal: $dark-semantic-success-500 !default;
+$dark-action-foreground-success-hover: $dark-semantic-success-600 !default;
+$dark-action-foreground-success-focused: $dark-semantic-success-500 !default;
+$dark-action-foreground-success-active: $dark-semantic-success-500 !default;
+$dark-action-foreground-success-disabled: $dark-semantic-success-800 !default;
+$dark-action-foreground-success-inverted-disabled: $dark-semantic-success-600 !default;
+
+/*----------  Action Foreground Warning Colors  ----------*/
+$action-foreground-warning-normal: $semantic-warning-600 !default;
+$action-foreground-warning-hover: $semantic-warning-700 !default;
+$action-foreground-warning-focused: $semantic-warning-600 !default;
+$action-foreground-warning-active: $semantic-warning-600 !default;
+$action-foreground-warning-disabled: $semantic-warning-200 !default;
+$action-foreground-warning-inverted-disabled: $semantic-warning-25 !default;
+
+$dark-action-foreground-warning-normal: $dark-semantic-warning-500 !default;
+$dark-action-foreground-warning-hover: $dark-semantic-warning-600 !default;
+$dark-action-foreground-warning-focused: $dark-semantic-warning-500 !default;
+$dark-action-foreground-warning-active: $dark-semantic-warning-500 !default;
+$dark-action-foreground-warning-disabled: $dark-semantic-warning-800 !default;
+$dark-action-foreground-warning-inverted-disabled: $dark-semantic-warning-600 !default;
+
+/*----------  Action Border Brand Colors  ----------*/
+$action-border-brand-normal: $semantic-brand-500 !default;
+$action-border-brand-hover: $semantic-brand-600 !default;
+$action-border-brand-focused: $semantic-brand-500 !default;
+$action-border-brand-active: $semantic-brand-500 !default;
+$action-border-brand-disabled: $semantic-brand-100 !default;
+
+$dark-action-border-brand-normal: $dark-semantic-brand-alt-400 !default;
+$dark-action-border-brand-hover: $dark-semantic-brand-alt-500 !default;
+$dark-action-border-brand-focused: $dark-semantic-brand-alt-400 !default;
+$dark-action-border-brand-active: $dark-semantic-brand-alt-400 !default;
+$dark-action-border-brand-disabled: $dark-semantic-brand-alt-800 !default;
+
+/*----------  Action Border Neutral Colors  ----------*/
+$action-border-neutral-normal: $semantic-neutral-600 !default;
+$action-border-neutral-hover: $semantic-neutral-700 !default;
+$action-border-neutral-focused: $semantic-neutral-600 !default;
+$action-border-neutral-active: $semantic-neutral-600 !default;
+$action-border-neutral-disabled: $semantic-neutral-200 !default;
+$action-border-neutral-light-normal: $semantic-neutral-300 !default;
+$action-border-neutral-light-hover: $semantic-neutral-400 !default;
+$action-border-neutral-light-focused: $semantic-neutral-300 !default;
+$action-border-neutral-light-active: $semantic-neutral-300 !default;
+$action-border-neutral-light-disabled: $semantic-neutral-200 !default;
+
+$dark-action-border-neutral-normal: $semantic-neutral-25 !default;
+$dark-action-border-neutral-hover: $semantic-neutral-50 !default;
+$dark-action-border-neutral-focused: $semantic-neutral-25 !default;
+$dark-action-border-neutral-active: $semantic-neutral-25 !default;
+$dark-action-border-neutral-disabled: $semantic-neutral-700 !default;
+$dark-action-border-neutral-light-normal: $semantic-neutral-500 !default;
+$dark-action-border-neutral-light-hover: $semantic-neutral-500 !default;
+$dark-action-border-neutral-light-focused: $semantic-neutral-500 !default;
+$dark-action-border-neutral-light-active: $semantic-neutral-500 !default;
+$dark-action-border-neutral-light-disabled: $semantic-neutral-600 !default;
+
+/*----------  Action Border Error Colors  ----------*/
+$action-border-error-normal: $semantic-error-500 !default;
+$action-border-error-hover: $semantic-error-600 !default;
+$action-border-error-focused: $semantic-error-500 !default;
+$action-border-error-active: $semantic-error-500 !default;
+$action-border-error-disabled: $semantic-error-100 !default;
+$action-border-error-light-normal: $semantic-error-100 !default;
+$action-border-error-light-hover: $semantic-error-200 !default;
+$action-border-error-light-focused: $semantic-error-100 !default;
+$action-border-error-light-active: $semantic-error-100 !default;
+$action-border-error-light-disabled: $semantic-error-50 !default;
+
+$dark-action-border-error-normal: $dark-semantic-error-400 !default;
+$dark-action-border-error-hover: $dark-semantic-error-500 !default;
+$dark-action-border-error-focused: $dark-semantic-error-400 !default;
+$dark-action-border-error-active: $dark-semantic-error-400 !default;
+$dark-action-border-error-disabled: $dark-semantic-error-800 !default;
+$dark-action-border-error-light-normal: $dark-semantic-error-800 !default;
+$dark-action-border-error-light-hover: $dark-semantic-error-700 !default;
+$dark-action-border-error-light-focused: $dark-semantic-error-700 !default;
+$dark-action-border-error-light-active: $dark-semantic-error-800 !default;
+$dark-action-border-error-light-disabled: $dark-semantic-error-800 !default;
+
+/*----------  Action Border Success Colors  ----------*/
+$action-border-success-normal: $semantic-success-500 !default;
+$action-border-success-hover: $semantic-success-600 !default;
+$action-border-success-focused: $semantic-success-500 !default;
+$action-border-success-active: $semantic-success-500 !default;
+$action-border-success-disabled: $semantic-success-100 !default;
+$action-border-success-light-normal: $semantic-success-100 !default;
+$action-border-success-light-hover: $semantic-success-200 !default;
+$action-border-success-light-focused: $semantic-success-300 !default;
+$action-border-success-light-active: $semantic-success-100 !default;
+$action-border-success-light-disabled: $semantic-success-50 !default;
+
+$dark-action-border-success-normal: $dark-semantic-success-400 !default;
+$dark-action-border-success-hover: $dark-semantic-success-500 !default;
+$dark-action-border-success-focused: $dark-semantic-success-400 !default;
+$dark-action-border-success-active: $dark-semantic-success-400 !default;
+$dark-action-border-success-disabled: $dark-semantic-success-800 !default;
+$dark-action-border-success-light-normal: $dark-semantic-success-800 !default;
+$dark-action-border-success-light-hover: $dark-semantic-success-700 !default;
+$dark-action-border-success-light-focused: $dark-semantic-success-800 !default;
+$dark-action-border-success-light-active: $dark-semantic-success-800 !default;
+$dark-action-border-success-light-disabled: $dark-semantic-success-800 !default;
+
+/*----------  Action Border Warning Colors  ----------*/
+$action-border-warning-normal: $semantic-warning-500 !default;
+$action-border-warning-hover: $semantic-warning-600 !default;
+$action-border-warning-focused: $semantic-warning-500 !default;
+$action-border-warning-active: $semantic-warning-500 !default;
+$action-border-warning-disabled: $semantic-warning-100 !default;
+$action-border-warning-light-normal: $semantic-warning-100 !default;
+$action-border-warning-light-hover: $semantic-warning-200 !default;
+$action-border-warning-light-focused: $semantic-warning-300 !default;
+$action-border-warning-light-active: $semantic-warning-100 !default;
+$action-border-warning-light-disabled: $semantic-warning-50 !default;
+
+$dark-action-border-warning-normal: $dark-semantic-warning-400 !default;
+$dark-action-border-warning-hover: $dark-semantic-warning-500 !default;
+$dark-action-border-warning-focused: $dark-semantic-warning-400 !default;
+$dark-action-border-warning-active: $dark-semantic-warning-400 !default;
+$dark-action-border-warning-disabled: $dark-semantic-warning-800 !default;
+$dark-action-border-warning-light-normal: $dark-semantic-warning-800 !default;
+$dark-action-border-warning-light-hover: $dark-semantic-warning-700 !default;
+$dark-action-border-warning-light-focused: $dark-semantic-warning-800 !default;
+$dark-action-border-warning-light-active: $dark-semantic-warning-800 !default;
+$dark-action-border-warning-light-disabled: $dark-semantic-warning-800 !default;
+/*=====  End of Action color tokens  ======*/
+
