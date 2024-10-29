@@ -3,30 +3,30 @@
 =            Global 2 color gradient colors            =
 =============================================*/
 
-$global-gradient-2color-1: linear-gradient(59deg, #bb0000 50%, #FAD0C4) !default;
-$global-gradient-2color-1-light: linear-gradient(63deg, rgba(255,154,158,.35) 30%, rgba(250,208,196,.35)) !default;
-$global-gradient-2color-2: linear-gradient(61deg, #A18CD1 30%, #FBC2EB) !default;
-$global-gradient-2color-3: linear-gradient(0deg, #FAD0C4, #FFD1FF) !default;
-$global-gradient-2color-4: linear-gradient(-119deg, #26D0CE, #1A2980) !default;
-$global-gradient-2color-5: linear-gradient(-117deg, #EAECC6, #2BC0E4) !default;
-$global-gradient-2color-6: linear-gradient(106deg, #FCCB90, #D57EEB) !default;
-$global-gradient-2color-7: linear-gradient(61deg, #FBC5EC, #89B1F7) !default;
-$global-gradient-2color-8: linear-gradient(180deg, #FF0844, #FFB199) !default;
-$global-gradient-2color-9: linear-gradient(-90deg, #E5B2CA  10% 15%, #7028E4 60% 100% ) !default;
-$global-gradient-2color-10: linear-gradient(-150deg, #FF6B95 5%, #FFC796 90%) !default;
-$global-gradient-2color-11: linear-gradient(65deg, #6654F1, #69EACB) !default;
-$global-gradient-2color-12: linear-gradient(119deg, #6B8CCE, #0C3483) !default;
-$global-gradient-2color-13: linear-gradient(-105deg, #96DEDA, #50C9C3) !default;
-$global-gradient-2color-14: linear-gradient(62deg, #6457C6, #C0ADFF) !default;
-$global-gradient-2color-15: linear-gradient(124deg, #DDD6F3, #FAACA8) !default;
-$global-gradient-2color-16: linear-gradient(180deg, #E6B980, #EACDA3) !default;
-$global-gradient-2color-17: linear-gradient(122deg, #005BEA, #45D8FF) !default;
-$global-gradient-2color-18: linear-gradient(-90deg, #96E6A1, #D4FC79) !default;
-$global-gradient-2color-18-light: linear-gradient(-90deg, rgba(150,230,161,.30), rgba(212,252,121,.35)) !default;
-$global-gradient-2color-19: linear-gradient(90deg, #FF758C, #FFA1C8) !default;
-$global-gradient-2color-20: linear-gradient(147deg, #00CDAC, #8DDAD5) !default;
-$global-gradient-2color-21: radial-gradient(circle at center, #B1AFF0, #836DF0) !default;
-$global-gradient-2color-22: radial-gradient(circle at 50% 110%, #71DDA6, #70B2BC) !default;
+$global-gradient-2color-1: var(--dsc-global-gradient-2color-1, $gradient-2color-1) !default;
+$global-gradient-2color-1-light: var(--dsc-global-gradient-2color-1-light, $gradient-2color-1-light) !default;
+$global-gradient-2color-2: var(--dsc-global-gradient-2color-2, $gradient-2color-2) !default;
+$global-gradient-2color-3: var(--dsc-global-gradient-2color-3, $gradient-2color-3) !default;
+$global-gradient-2color-4: var(--dsc-global-gradient-2color-4, $gradient-2color-4) !default;
+$global-gradient-2color-5: var(--dsc-global-gradient-2color-5, $gradient-2color-5) !default;
+$global-gradient-2color-6: var(--dsc-global-gradient-2color-6, $gradient-2color-6) !default;
+$global-gradient-2color-7: var(--dsc-global-gradient-2color-7, $gradient-2color-7) !default;
+$global-gradient-2color-8: var(--dsc-global-gradient-2color-8, $gradient-2color-8) !default;
+$global-gradient-2color-9: var(--dsc-global-gradient-2color-9, $gradient-2color-9) !default;
+$global-gradient-2color-10: var(--dsc-global-gradient-2color-10, $gradient-2color-10) !default;
+$global-gradient-2color-11: var(--dsc-global-gradient-2color-11, $gradient-2color-11) !default;
+$global-gradient-2color-12: var(--dsc-global-gradient-2color-12, $gradient-2color-12) !default;
+$global-gradient-2color-13: var(--dsc-global-gradient-2color-13, $gradient-2color-13) !default;
+$global-gradient-2color-14: var(--dsc-global-gradient-2color-14, $gradient-2color-14) !default;
+$global-gradient-2color-15: var(--dsc-global-gradient-2color-15, $gradient-2color-15) !default;
+$global-gradient-2color-16: var(--dsc-global-gradient-2color-16, $gradient-2color-16) !default;
+$global-gradient-2color-17: var(--dsc-global-gradient-2color-17, $gradient-2color-17) !default;
+$global-gradient-2color-18: var(--dsc-global-gradient-2color-18, $gradient-2color-18) !default;
+$global-gradient-2color-18-light: var(--dsc-global-gradient-2color-18-light, $gradient-2color-18-light) !default;
+$global-gradient-2color-19: var(--dsc-global-gradient-2color-19, $gradient-2color-19) !default;
+$global-gradient-2color-20: var(--dsc-global-gradient-2color-20, $gradient-2color-20) !default;
+$global-gradient-2color-21: var(--dsc-global-gradient-2color-21, $gradient-2color-21) !default;
+$global-gradient-2color-22: var(--dsc-global-gradient-2color-22, $gradient-2color-22) !default;
 
 /*=====  End of Global 2 color gradient colors  ======*/
 
@@ -35,15 +35,15 @@ $global-gradient-2color-22: radial-gradient(circle at 50% 110%, #71DDA6, #70B2BC
 =            Global 3 color gradient colors            =
 =============================================*/
 
-$global-gradient-3color-1: linear-gradient(-90deg, #A6FFCB, #12D8FA, #1FA2FF) !default;
-$global-gradient-3color-2: linear-gradient(35deg, #FFBAC3 0%, #C5C1FF 45%, #2CD8D5) !default;
-$global-gradient-3color-3: linear-gradient(-116deg, #FFCA7B, #D76D77, #3A1C71) !default;
-$global-gradient-3color-4: linear-gradient(35deg, #6654F1, #EACCF8 50%, #69EACB) !default;
-$global-gradient-3color-5: linear-gradient(61deg, #4801FF, #7918F2, #AC32E4) !default;
-$global-gradient-3color-6: linear-gradient(-96deg, #0A40FF 10%, #65C7F7 60%, #9CECFB) !default;
-$global-gradient-3color-7: linear-gradient(-90deg, #F0ACF7, #ACF7F0, #F7F0AC) !default;
-$global-gradient-3color-8: linear-gradient(-90deg, #F7797D, #FBD786, #C6FFDD) !default;
-$global-gradient-3color-9: linear-gradient(119deg, #3B41C5, #A981BB, #FFC8A9) !default;
+$global-gradient-3color-1: var(--dsc-global-gradient-3color-1, $gradient-3color-1) !default;
+$global-gradient-3color-2: var(--dsc-global-gradient-3color-2, $gradient-3color-2) !default;
+$global-gradient-3color-3: var(--dsc-global-gradient-3color-3, $gradient-3color-3) !default;
+$global-gradient-3color-4: var(--dsc-global-gradient-3color-4, $gradient-3color-4) !default;
+$global-gradient-3color-5: var(--dsc-global-gradient-3color-5, $gradient-3color-5) !default;
+$global-gradient-3color-6: var(--dsc-global-gradient-3color-6, $gradient-3color-6) !default;
+$global-gradient-3color-7: var(--dsc-global-gradient-3color-7, $gradient-3color-7) !default;
+$global-gradient-3color-8: var(--dsc-global-gradient-3color-8, $gradient-3color-8) !default;
+$global-gradient-3color-9: var(--dsc-global-gradient-3color-9, $gradient-3color-9) !default;
 
 /*=====  End of Global 3 color gradient colors  ======*/
 
@@ -52,7 +52,7 @@ $global-gradient-3color-9: linear-gradient(119deg, #3B41C5, #A981BB, #FFC8A9) !d
 =            Global 4 color gradient colors            =
 =============================================*/
 
-$global-gradient-4color-1: linear-gradient(120deg, #35EB93 10%, #2CACD1, #2B76B9, #3D3393) !default;
+$global-gradient-4color-1: var(--dsc-global-gradient-4color-1, $gradient-4color-1) !default;
 
 /*=====  End of Global 4 color gradient colors  ======*/
 
@@ -62,7 +62,7 @@ $global-gradient-4color-1: linear-gradient(120deg, #35EB93 10%, #2CACD1, #2B76B9
 =            Global 8 color gradient colors            =
 =============================================*/
 
-$global-gradient-8color-1: linear-gradient(117deg, #F7C978, #F3A469, #F18271, #CC6B8E, #A86AA4, #7B5FAC, #5A55AE, #3F51B1) !default;
+$global-gradient-8color-1: var(--dsc-global-gradient-8color-1, $gradient-8color-1) !default;
 
 /*=====  End of Global 8 color gradient colors  ======*/
 
