@@ -4,146 +4,146 @@
 =============================================*/
 
 /*----------  Semantic Base  ----------*/
-$semantic-base-00: #ffffff !default;
+$semantic-base-00: var(--dsc-semantic-base-00, $white) !default;
 
 /*---------- Semantic Brand  ----------*/
-$semantic-brand-25: $global-blue-25 !default;
-$semantic-brand-50: $global-blue-50 !default;
-$semantic-brand-100: $global-blue-100 !default;
-$semantic-brand-200: $global-blue-200 !default;
-$semantic-brand-300: $global-blue-300 !default;
-$semantic-brand-400: $global-blue-400 !default;
-$semantic-brand-500: $global-blue-500 !default;
-$semantic-brand-600: $global-blue-600 !default;
-$semantic-brand-700: $global-blue-700 !default;
-$semantic-brand-800: $global-blue-800 !default;
-$semantic-brand-900: $global-blue-900 !default;
+$semantic-brand-25: var(--dsc-semantic-brand-25, $global-blue-25) !default;
+$semantic-brand-50: var(--dsc-semantic-brand-50, $global-blue-50) !default;
+$semantic-brand-100: var(--dsc-semantic-brand-100, $global-blue-100) !default;
+$semantic-brand-200: var(--dsc-semantic-brand-200, $global-blue-200) !default;
+$semantic-brand-300: var(--dsc-semantic-brand-300, $global-blue-300) !default;
+$semantic-brand-400: var(--dsc-semantic-brand-400, $global-blue-400) !default;
+$semantic-brand-500: var(--dsc-semantic-brand-500, $global-blue-500) !default;
+$semantic-brand-600: var(--dsc-semantic-brand-600, $global-blue-600) !default;
+$semantic-brand-700: var(--dsc-semantic-brand-700, $global-blue-700) !default;
+$semantic-brand-800: var(--dsc-semantic-brand-800, $global-blue-800) !default;
+$semantic-brand-900: var(--dsc-semantic-brand-900, $global-blue-900) !default;
 
 
 /*----------  Dark Semantic Brand  ----------*/
-$dark-semantic-brand-25 : $global-blue-dark-25 !default;
-$dark-semantic-brand-50: $global-blue-dark-50 !default;
-$dark-semantic-brand-100: $global-blue-dark-100 !default;
-$dark-semantic-brand-200: $global-blue-dark-200 !default;
-$dark-semantic-brand-300: $global-blue-dark-300 !default;
-$dark-semantic-brand-400: $global-blue-dark-400 !default;
-$dark-semantic-brand-500: $global-blue-dark-500 !default;
-$dark-semantic-brand-600: $global-blue-dark-600 !default;
-$dark-semantic-brand-700: $global-blue-dark-700 !default;
-$dark-semantic-brand-800: $global-blue-dark-800 !default;
-$dark-semantic-brand-900: $global-blue-dark-900 !default;
+$dark-semantic-brand-25 : var(--dsc-dark-semantic-brand-25, $global-blue-dark-25) !default;
+$dark-semantic-brand-50: var(--dsc-dark-semantic-brand-50, $global-blue-dark-50) !default;
+$dark-semantic-brand-100: var(--dsc-dark-semantic-brand-100, $global-blue-dark-100) !default;
+$dark-semantic-brand-200: var(--dsc-dark-semantic-brand-200, $global-blue-dark-200) !default;
+$dark-semantic-brand-300: var(--dsc-dark-semantic-brand-300, $global-blue-dark-300) !default;
+$dark-semantic-brand-400: var(--dsc-dark-semantic-brand-400, $global-blue-dark-400) !default;
+$dark-semantic-brand-500: var(--dsc-dark-semantic-brand-500, $global-blue-dark-500) !default;
+$dark-semantic-brand-600: var(--dsc-dark-semantic-brand-600, $global-blue-dark-600) !default;
+$dark-semantic-brand-700: var(--dsc-dark-semantic-brand-700, $global-blue-dark-700) !default;
+$dark-semantic-brand-800: var(--dsc-dark-semantic-brand-800, $global-blue-dark-800) !default;
+$dark-semantic-brand-900: var(--dsc-dark-semantic-brand-900, $global-blue-dark-900) !default;
 
 
 /*----------  Dark Semantic brand_alt  ----------*/
-$dark-semantic-brand-alt-25 : $global-blue-light-25 !default;
-$dark-semantic-brand-alt-50: $global-blue-light-50 !default;
-$dark-semantic-brand-alt-100: $global-blue-light-100 !default;
-$dark-semantic-brand-alt-200: $global-blue-light-200 !default;
-$dark-semantic-brand-alt-300: $global-blue-light-300 !default;
-$dark-semantic-brand-alt-400: $global-blue-light-400 !default;
-$dark-semantic-brand-alt-500: $global-blue-light-500 !default;
-$dark-semantic-brand-alt-600: $global-blue-light-600 !default;
-$dark-semantic-brand-alt-700: $global-blue-light-700 !default;
-$dark-semantic-brand-alt-800: $global-blue-light-800 !default;
-$dark-semantic-brand-alt-900: $global-blue-light-900 !default;
+$dark-semantic-brand-alt-25 : var(--dsc-dark-semantic-brand-alt-25, $global-blue-light-25) !default;
+$dark-semantic-brand-alt-50: var(--dsc-dark-semantic-brand-alt-50, $global-blue-light-50) !default;
+$dark-semantic-brand-alt-100: var(--dsc-dark-semantic-brand-alt-100, $global-blue-light-100) !default;
+$dark-semantic-brand-alt-200: var(--dsc-dark-semantic-brand-alt-200, $global-blue-light-200) !default;
+$dark-semantic-brand-alt-300: var(--dsc-dark-semantic-brand-alt-300, $global-blue-light-300) !default;
+$dark-semantic-brand-alt-400: var(--dsc-dark-semantic-brand-alt-400, $global-blue-light-400) !default;
+$dark-semantic-brand-alt-500: var(--dsc-dark-semantic-brand-alt-500, $global-blue-light-500) !default;
+$dark-semantic-brand-alt-600: var(--dsc-dark-semantic-brand-alt-600, $global-blue-light-600) !default;
+$dark-semantic-brand-alt-700: var(--dsc-dark-semantic-brand-alt-700, $global-blue-light-700) !default;
+$dark-semantic-brand-alt-800: var(--dsc-dark-semantic-brand-alt-800, $global-blue-light-800) !default;
+$dark-semantic-brand-alt-900: var(--dsc-dark-semantic-brand-alt-900, $global-blue-light-900) !default;
 
 
 /*----------  Semantic neutral  ----------*/
-$semantic-neutral-25: $global-slate-25 !default;
-$semantic-neutral-50: $global-slate-50 !default;
-$semantic-neutral-100: $global-slate-100 !default;
-$semantic-neutral-200: $global-slate-200 !default;
-$semantic-neutral-300: $global-slate-300 !default;
-$semantic-neutral-400: $global-slate-400 !default;
-$semantic-neutral-500: $global-slate-500 !default;
-$semantic-neutral-600: $global-slate-600 !default;
-$semantic-neutral-700: $global-slate-700 !default;
-$semantic-neutral-800: $global-slate-800 !default;
-$semantic-neutral-900: $global-slate-900 !default;
+$semantic-neutral-25: var(--dsc-semantic-neutral-25, $global-slate-25) !default;
+$semantic-neutral-50: var(--dsc-semantic-neutral-50, $global-slate-50) !default;
+$semantic-neutral-100: var(--dsc-semantic-neutral-100, $global-slate-100) !default;
+$semantic-neutral-200: var(--dsc-semantic-neutral-200, $global-slate-200) !default;
+$semantic-neutral-300: var(--dsc-semantic-neutral-300, $global-slate-300) !default;
+$semantic-neutral-400: var(--dsc-semantic-neutral-400, $global-slate-400) !default;
+$semantic-neutral-500: var(--dsc-semantic-neutral-500, $global-slate-500) !default;
+$semantic-neutral-600: var(--dsc-semantic-neutral-600, $global-slate-600) !default;
+$semantic-neutral-700: var(--dsc-semantic-neutral-700, $global-slate-700) !default;
+$semantic-neutral-800: var(--dsc-semantic-neutral-800, $global-slate-800) !default;
+$semantic-neutral-900: var(--dsc-semantic-neutral-900, $global-slate-900) !default;
 
 
 /*----------  Semantic success  ----------*/
-$semantic-success-25: $global-green-25 !default;
-$semantic-success-50: $global-green-50 !default;
-$semantic-success-100: $global-green-100 !default;
-$semantic-success-200: $global-green-200 !default;
-$semantic-success-300: $global-green-300 !default;
-$semantic-success-400: $global-green-400 !default;
-$semantic-success-500: $global-green-500 !default;
-$semantic-success-600: $global-green-600 !default;
-$semantic-success-700: $global-green-700 !default;
-$semantic-success-800: $global-green-800 !default;
-$semantic-success-900: $global-green-900 !default;
+$semantic-success-25: var(--dsc-semantic-success-25, $global-green-25) !default;
+$semantic-success-50: var(--dsc-semantic-success-50, $global-green-50) !default;
+$semantic-success-100: var(--dsc-semantic-success-100, $global-green-100) !default;
+$semantic-success-200: var(--dsc-semantic-success-200, $global-green-200) !default;
+$semantic-success-300: var(--dsc-semantic-success-300, $global-green-300) !default;
+$semantic-success-400: var(--dsc-semantic-success-400, $global-green-400) !default;
+$semantic-success-500: var(--dsc-semantic-success-500, $global-green-500) !default;
+$semantic-success-600: var(--dsc-semantic-success-600, $global-green-600) !default;
+$semantic-success-700: var(--dsc-semantic-success-700, $global-green-700) !default;
+$semantic-success-800: var(--dsc-semantic-success-800, $global-green-800) !default;
+$semantic-success-900: var(--dsc-semantic-success-900, $global-green-900) !default;
 
 
 /*----------  Dark Semantic success  ----------*/
-$dark-semantic-success-25: $global-green-dark-25 !default;
-$dark-semantic-success-50: $global-green-dark-50 !default;
-$dark-semantic-success-100: $global-green-dark-100 !default;
-$dark-semantic-success-200: $global-green-dark-200 !default;
-$dark-semantic-success-300: $global-green-dark-300 !default;
-$dark-semantic-success-400: $global-green-dark-400 !default;
-$dark-semantic-success-500: $global-green-dark-500 !default;
-$dark-semantic-success-600: $global-green-dark-600 !default;
-$dark-semantic-success-700: $global-green-dark-700 !default;
-$dark-semantic-success-800: $global-green-dark-800 !default;
-$dark-semantic-success-900: $global-green-dark-900 !default;
+$dark-semantic-success-25: var(--dsc-dark-semantic-success-25, $global-green-dark-25) !default;
+$dark-semantic-success-50: var(--dsc-dark-semantic-success-50, $global-green-dark-50) !default;
+$dark-semantic-success-100: var(--dsc-dark-semantic-success-100, $global-green-dark-100) !default;
+$dark-semantic-success-200: var(--dsc-dark-semantic-success-200, $global-green-dark-200) !default;
+$dark-semantic-success-300: var(--dsc-dark-semantic-success-300, $global-green-dark-300) !default;
+$dark-semantic-success-400: var(--dsc-dark-semantic-success-400, $global-green-dark-400) !default;
+$dark-semantic-success-500: var(--dsc-dark-semantic-success-500, $global-green-dark-500) !default;
+$dark-semantic-success-600: var(--dsc-dark-semantic-success-600, $global-green-dark-600) !default;
+$dark-semantic-success-700: var(--dsc-dark-semantic-success-700, $global-green-dark-700) !default;
+$dark-semantic-success-800: var(--dsc-dark-semantic-success-800, $global-green-dark-800) !default;
+$dark-semantic-success-900: var(--dsc-dark-semantic-success-900, $global-green-dark-900) !default;
 
 
 /*----------  Semantic warning  ----------*/
-$semantic-warning-25: $global-yellow-25 !default;
-$semantic-warning-50: $global-yellow-50 !default;
-$semantic-warning-100: $global-yellow-100 !default;
-$semantic-warning-200: $global-yellow-200 !default;
-$semantic-warning-300: $global-yellow-300 !default;
-$semantic-warning-400: $global-yellow-400 !default;
-$semantic-warning-500: $global-yellow-500 !default;
-$semantic-warning-600: $global-yellow-600 !default;
-$semantic-warning-700: $global-yellow-700 !default;
-$semantic-warning-800: $global-yellow-800 !default;
-$semantic-warning-900: $global-yellow-900 !default;
+$semantic-warning-25: var(--dsc-semantic-warning-25, $global-yellow-25) !default;
+$semantic-warning-50: var(--dsc-semantic-warning-50, $global-yellow-50) !default;
+$semantic-warning-100: var(--dsc-semantic-warning-100, $global-yellow-100) !default;
+$semantic-warning-200: var(--dsc-semantic-warning-200, $global-yellow-200) !default;
+$semantic-warning-300: var(--dsc-semantic-warning-300, $global-yellow-300) !default;
+$semantic-warning-400: var(--dsc-semantic-warning-400, $global-yellow-400) !default;
+$semantic-warning-500: var(--dsc-semantic-warning-500, $global-yellow-500) !default;
+$semantic-warning-600: var(--dsc-semantic-warning-600, $global-yellow-600) !default;
+$semantic-warning-700: var(--dsc-semantic-warning-700, $global-yellow-700) !default;
+$semantic-warning-800: var(--dsc-semantic-warning-800, $global-yellow-800) !default;
+$semantic-warning-900: var(--dsc-semantic-warning-900, $global-yellow-900) !default;
 
 
 /*----------  Dark Semantic warning  ----------*/
-$dark-semantic-warning-25: $global-yellow-dark-25 !default;
-$dark-semantic-warning-50: $global-yellow-dark-50 !default;
-$dark-semantic-warning-100: $global-yellow-dark-100 !default;
-$dark-semantic-warning-200: $global-yellow-dark-200 !default;
-$dark-semantic-warning-300: $global-yellow-dark-300 !default;
-$dark-semantic-warning-400: $global-yellow-dark-400 !default;
-$dark-semantic-warning-500: $global-yellow-dark-500 !default;
-$dark-semantic-warning-600: $global-yellow-dark-600 !default;
-$dark-semantic-warning-700: $global-yellow-dark-700 !default;
-$dark-semantic-warning-800: $global-yellow-dark-800 !default;
-$dark-semantic-warning-900: $global-yellow-dark-900 !default;
+$dark-semantic-warning-25: var(--dsc-dark-semantic-warning-25, $global-yellow-dark-25) !default;
+$dark-semantic-warning-50: var(--dsc-dark-semantic-warning-50, $global-yellow-dark-50) !default;
+$dark-semantic-warning-100: var(--dsc-dark-semantic-warning-100, $global-yellow-dark-100) !default;
+$dark-semantic-warning-200: var(--dsc-dark-semantic-warning-200, $global-yellow-dark-200) !default;
+$dark-semantic-warning-300: var(--dsc-dark-semantic-warning-300, $global-yellow-dark-300) !default;
+$dark-semantic-warning-400: var(--dsc-dark-semantic-warning-400, $global-yellow-dark-400) !default;
+$dark-semantic-warning-500: var(--dsc-dark-semantic-warning-500, $global-yellow-dark-500) !default;
+$dark-semantic-warning-600: var(--dsc-dark-semantic-warning-600, $global-yellow-dark-600) !default;
+$dark-semantic-warning-700: var(--dsc-dark-semantic-warning-700, $global-yellow-dark-700) !default;
+$dark-semantic-warning-800: var(--dsc-dark-semantic-warning-800, $global-yellow-dark-800) !default;
+$dark-semantic-warning-900: var(--dsc-dark-semantic-warning-900, $global-yellow-dark-900) !default;
 
 
 /*----------  Semantic error  ----------*/
-$semantic-error-25: $global-red-25 !default;
-$semantic-error-50: $global-red-50 !default;
-$semantic-error-100: $global-red-100 !default;
-$semantic-error-200: $global-red-200 !default;
-$semantic-error-300: $global-red-300 !default;
-$semantic-error-400: $global-red-400 !default;
-$semantic-error-500: $global-red-500 !default;
-$semantic-error-600: $global-red-600 !default;
-$semantic-error-700: $global-red-700 !default;
-$semantic-error-800: $global-red-800 !default;
-$semantic-error-900: $global-red-900 !default;
+$semantic-error-25: var(--dsc-semantic-error-25, $global-red-25) !default;
+$semantic-error-50: var(--dsc-semantic-error-50, $global-red-50) !default;
+$semantic-error-100: var(--dsc-semantic-error-100, $global-red-100) !default;
+$semantic-error-200: var(--dsc-semantic-error-200, $global-red-200) !default;
+$semantic-error-300: var(--dsc-semantic-error-300, $global-red-300) !default;
+$semantic-error-400: var(--dsc-semantic-error-400, $global-red-400) !default;
+$semantic-error-500: var(--dsc-semantic-error-500, $global-red-500) !default;
+$semantic-error-600: var(--dsc-semantic-error-600, $global-red-600) !default;
+$semantic-error-700: var(--dsc-semantic-error-700, $global-red-700) !default;
+$semantic-error-800: var(--dsc-semantic-error-800, $global-red-800) !default;
+$semantic-error-900: var(--dsc-semantic-error-900, $global-red-900) !default;
 
 
 /*----------  Dark Semantic error  ----------*/
-$dark-semantic-error-25: $global-red-dark-25 !default;
-$dark-semantic-error-50: $global-red-dark-50 !default;
-$dark-semantic-error-100: $global-red-dark-100 !default;
-$dark-semantic-error-200: $global-red-dark-200 !default;
-$dark-semantic-error-300: $global-red-dark-300 !default;
-$dark-semantic-error-400: $global-red-dark-400 !default;
-$dark-semantic-error-500: $global-red-dark-500 !default;
-$dark-semantic-error-600: $global-red-dark-600 !default;
-$dark-semantic-error-700: $global-red-dark-700 !default;
-$dark-semantic-error-800: $global-red-dark-800 !default;
-$dark-semantic-error-900: $global-red-dark-900 !default;
+$dark-semantic-error-25: var(--dsc-dark-semantic-error-25, $global-red-dark-25) !default;
+$dark-semantic-error-50: var(--dsc-dark-semantic-error-50, $global-red-dark-50) !default;
+$dark-semantic-error-100: var(--dsc-dark-semantic-error-100, $global-red-dark-100) !default;
+$dark-semantic-error-200: var(--dsc-dark-semantic-error-200, $global-red-dark-200) !default;
+$dark-semantic-error-300: var(--dsc-dark-semantic-error-300, $global-red-dark-300) !default;
+$dark-semantic-error-400: var(--dsc-dark-semantic-error-400, $global-red-dark-400) !default;
+$dark-semantic-error-500: var(--dsc-dark-semantic-error-500, $global-red-dark-500) !default;
+$dark-semantic-error-600: var(--dsc-dark-semantic-error-600, $global-red-dark-600) !default;
+$dark-semantic-error-700: var(--dsc-dark-semantic-error-700, $global-red-dark-700) !default;
+$dark-semantic-error-800: var(--dsc-dark-semantic-error-800, $global-red-dark-800) !default;
+$dark-semantic-error-900: var(--dsc-dark-semantic-error-900, $global-red-dark-900) !default;
 
 /*=====  End of Semantic colors  ======*/
 
@@ -154,50 +154,50 @@ $dark-semantic-error-900: $global-red-dark-900 !default;
 =============================================*/
 
 /*---------- Transparent Colors  ----------*/
-$transparent-2: rgba($semantic-base-00, 0.02) !default;
-$transparent-5: rgba($semantic-base-00, 0.05) !default;
-$transparent-10: rgba($semantic-base-00, 0.1) !default;
-$transparent-20: rgba($semantic-base-00, 0.2) !default;
-$transparent-30: rgba($semantic-base-00, 0.3) !default;
-$transparent-40: rgba($semantic-base-00, 0.4) !default;
-$transparent-50: rgba($semantic-base-00, 0.5) !default;
-$transparent-60: rgba($semantic-base-00, 0.6) !default;
-$transparent-70: rgba($semantic-base-00, 0.7) !default;
-$transparent-80: rgba($semantic-base-00, 0.8) !default;
-$transparent-90: rgba($semantic-base-00, 0.9) !default;
+$transparent-2: var(--dsc-transparent-2, rgba(255,255,255, 0.02)) !default;
+$transparent-5: var(--dsc-transparent-5, rgba(255,255,255, 0.05)) !default;
+$transparent-10: var(--dsc-transparent-10, rgba(255,255,255, 0.1)) !default;
+$transparent-20: var(--dsc-transparent-20, rgba(255,255,255, 0.2)) !default;
+$transparent-30: var(--dsc-transparent-30, rgba(255,255,255, 0.3)) !default;
+$transparent-40: var(--dsc-transparent-40, rgba(255,255,255, 0.4)) !default;
+$transparent-50: var(--dsc-transparent-50, rgba(255,255,255, 0.5)) !default;
+$transparent-60: var(--dsc-transparent-60, rgba(255,255,255, 0.6)) !default;
+$transparent-70: var(--dsc-transparent-70, rgba(255,255,255, 0.7)) !default;
+$transparent-80: var(--dsc-transparent-80, rgba(255,255,255, 0.8)) !default;
+$transparent-90: var(--dsc-transparent-90, rgba(255,255,255, 0.9)) !default;
 
 
 
 /*---------- Dark Semantic transparent Colors  ----------*/
-$dark-transparent-base:$global-slate-900 !default;
+$dark-transparent-base: var(--dsc-dark-transparent-base, $global-slate-900) !default;
 
-$dark-transparent-2: rgba($dark-transparent-base, 0.02) !default;
-$dark-transparent-5: rgba($dark-transparent-base, 0.05) !default;
-$dark-transparent-10: rgba($dark-transparent-base, 0.1) !default;
-$dark-transparent-20: rgba($dark-transparent-base, 0.2) !default;
-$dark-transparent-30: rgba($dark-transparent-base, 0.3) !default;
-$dark-transparent-40: rgba($dark-transparent-base, 0.4) !default;
-$dark-transparent-50: rgba($dark-transparent-base, 0.5) !default;
-$dark-transparent-60: rgba($dark-transparent-base, 0.6) !default;
-$dark-transparent-70: rgba($dark-transparent-base, 0.7) !default;
-$dark-transparent-80: rgba($dark-transparent-base, 0.8) !default;
-$dark-transparent-90: rgba($dark-transparent-base, 0.9) !default;
+$dark-transparent-2: var(--dsc-dark-transparent-2, rgba(28,34,43, 0.02)) !default;
+$dark-transparent-5: var(--dsc-dark-transparent-5, rgba(28,34,43, 0.05)) !default;
+$dark-transparent-10: var(--dsc-dark-transparent-10, rgba(28,34,43, 0.1)) !default;
+$dark-transparent-20: var(--dsc-dark-transparent-20, rgba(28,34,43, 0.2)) !default;
+$dark-transparent-30: var(--dsc-dark-transparent-30, rgba(28,34,43, 0.3)) !default;
+$dark-transparent-40: var(--dsc-dark-transparent-40, rgba(28,34,43, 0.4)) !default;
+$dark-transparent-50: var(--dsc-dark-transparent-50, rgba(28,34,43, 0.5)) !default;
+$dark-transparent-60: var(--dsc-dark-transparent-60, rgba(28,34,43, 0.6)) !default;
+$dark-transparent-70: var(--dsc-dark-transparent-70, rgba(28,34,43, 0.7)) !default;
+$dark-transparent-80: var(--dsc-dark-transparent-80, rgba(28,34,43, 0.8)) !default;
+$dark-transparent-90: var(--dsc-dark-transparent-90, rgba(28,34,43, 0.9)) !default;
 
 
 /*----------  Brand Transparent Colors  ----------*/
 $transparent-brand-base: $global-blue-500 !default;
 
-$transparent-brand-2: rgba($transparent-brand-base, 0.02) !default;
-$transparent-brand-5: rgba($transparent-brand-base, 0.05) !default;
-$transparent-brand-10: rgba($transparent-brand-base, 0.1) !default;
-$transparent-brand-20: rgba($transparent-brand-base, 0.2) !default;
-$transparent-brand-30: rgba($transparent-brand-base, 0.3) !default;
-$transparent-brand-40: rgba($transparent-brand-base, 0.4) !default;
-$transparent-brand-50: rgba($transparent-brand-base, 0.5) !default;
-$transparent-brand-60: rgba($transparent-brand-base, 0.6) !default;
-$transparent-brand-70: rgba($transparent-brand-base, 0.7) !default;
-$transparent-brand-80: rgba($transparent-brand-base, 0.8) !default;
-$transparent-brand-90: rgba($transparent-brand-base, 0.9) !default;
+$transparent-brand-2: var(--dsc-transparent-brand-2, rgba(27,77,255, 0.02)) !default;
+$transparent-brand-5: var(--dsc-transparent-brand-5, rgba(27,77,255, 0.05)) !default;
+$transparent-brand-10: var(--dsc-transparent-brand-10, rgba(27,77,255, 0.1)) !default;
+$transparent-brand-20: var(--dsc-transparent-brand-20, rgba(27,77,255, 0.2)) !default;
+$transparent-brand-30: var(--dsc-transparent-brand-30, rgba(27,77,255, 0.3)) !default;
+$transparent-brand-40: var(--dsc-transparent-brand-40, rgba(27,77,255, 0.4)) !default;
+$transparent-brand-50: var(--dsc-transparent-brand-50, rgba(27,77,255, 0.5)) !default;
+$transparent-brand-60: var(--dsc-transparent-brand-60, rgba(27,77,255, 0.6)) !default;
+$transparent-brand-70: var(--dsc-transparent-brand-70, rgba(27,77,255, 0.7)) !default;
+$transparent-brand-80: var(--dsc-transparent-brand-80, rgba(27,77,255, 0.8)) !default;
+$transparent-brand-90: var(--dsc-transparent-brand-90, rgba(27,77,255, 0.9)) !default;
 
 
 /*=====  End of Transparent colors tokens  ======*/
@@ -210,89 +210,89 @@ $transparent-brand-90: rgba($transparent-brand-base, 0.9) !default;
 =============================================*/
 
 /*----------  Background Semantic Base Colors  ----------*/
-$background-base-white: $semantic-base-00 !default;
-$background-base-white_inverted: $semantic-base-00 !default;
+$background-base-white: var(--dsc-background-base-white, $semantic-base-00) !default;
+$background-base-white_inverted: var(--dsc-background-base-white_inverted, $semantic-base-00) !default;
 
 /*---------- Dark Background Semantic Colors  ----------*/
-$dark-background-base-white: $semantic-neutral-900 !default;
-$dark-background-base-white_inverted: $semantic-neutral-800 !default;
+$dark-background-base-white: var(--dsc-dark-background-base-white, $semantic-neutral-900) !default;
+$dark-background-base-white_inverted: var(--dsc-dark-background-base-white_inverted, $semantic-neutral-800) !default;
 
 
 
 /*----------  Background Semantic Brand Colors  ----------*/
-$background-brand-soft-surface: $semantic-brand-25 !default;
-$background-brand-subtle: $semantic-brand-100 !default;
-$background-brand-muted: $semantic-brand-300 !default;
-$background-brand-default: $semantic-brand-500 !default;
-$background-brand-emphasis: $semantic-brand-600 !default;
+$background-brand-soft-surface: var(--dsc-background-brand-soft-surface, $semantic-brand-25) !default;
+$background-brand-subtle: var(--dsc-background-brand-subtle, $semantic-brand-100) !default;
+$background-brand-muted: var(--dsc-background-brand-muted, $semantic-brand-300) !default;
+$background-brand-default: var(--dsc-background-brand-default, $semantic-brand-500) !default;
+$background-brand-emphasis: var(--dsc-background-brand-emphasis, $semantic-brand-600) !default;
 
 /*----------  Dark Background Semantic Brand Colors  ----------*/
-$dark-background-brand-soft-surface: $dark-semantic-brand-alt-900 !default;
-$dark-background-brand-subtle: $dark-semantic-brand-alt-800 !default;
-$dark-background-brand-muted: $dark-semantic-brand-500 !default;
-$dark-background-brand-default: $dark-semantic-brand-500 !default;
-$dark-background-brand-emphasis: $dark-semantic-brand-600 !default;
+$dark-background-brand-soft-surface: var(--dsc-dark-background-brand-soft-surface, $dark-semantic-brand-alt-900) !default;
+$dark-background-brand-subtle: var(--dsc-dark-background-brand-subtle, $dark-semantic-brand-alt-800) !default;
+$dark-background-brand-muted: var(--dsc-dark-background-brand-muted, $dark-semantic-brand-500) !default;
+$dark-background-brand-default: var(--dsc-dark-background-brand-default, $dark-semantic-brand-500) !default;
+$dark-background-brand-emphasis: var(--dsc-dark-background-brand-emphasis, $dark-semantic-brand-600) !default;
 
 
 /*----------  Background Semantic Neutral Colors  ----------*/
-$background-neutral-soft-surface: $semantic-neutral-25 !default;
-$background-neutral-subtle: $semantic-neutral-100 !default;
-$background-neutral-muted: $semantic-neutral-400 !default;
-$background-neutral-default: $semantic-neutral-500 !default;
-$background-neutral-emphasis: $semantic-neutral-700 !default;
-$background-neutral-strong: $semantic-neutral-900 !default;
-$background-neutral-strong-alt: $semantic-neutral-900 !default;
+$background-neutral-soft-surface: var(--dsc-background-neutral-soft-surface, $semantic-neutral-25) !default;
+$background-neutral-subtle: var(--dsc-background-neutral-subtle, $semantic-neutral-100) !default;
+$background-neutral-muted: var(--dsc-background-neutral-muted, $semantic-neutral-400) !default;
+$background-neutral-default: var(--dsc-background-neutral-default, $semantic-neutral-500) !default;
+$background-neutral-emphasis: var(--dsc-background-neutral-emphasis, $semantic-neutral-700) !default;
+$background-neutral-strong: var(--dsc-background-neutral-strong, $semantic-neutral-900) !default;
+$background-neutral-strong-alt: var(--dsc-background-neutral-strong-alt, $semantic-neutral-900) !default;
 
 /*----------  Dark Background Semantic Neutral Colors  ----------*/
-$dark-background-neutral-soft-surface: $semantic-neutral-800 !default;
-$dark-background-neutral-subtle: $semantic-neutral-600 !default;
-$dark-background-neutral-muted: $semantic-neutral-300 !default;
-$dark-background-neutral-default: $semantic-neutral-200 !default;
-$dark-background-neutral-emphasis: $semantic-neutral-100 !default;
-$dark-background-neutral-strong: $semantic-neutral-25 !default;
-$dark-background-neutral-strong-alt: $semantic-base-00 !default;
+$dark-background-neutral-soft-surface: var(--dsc-dark-background-neutral-soft-surface, $semantic-neutral-800) !default;
+$dark-background-neutral-subtle: var(--dsc-dark-background-neutral-subtle, $semantic-neutral-600) !default;
+$dark-background-neutral-muted: var(--dsc-dark-background-neutral-muted, $semantic-neutral-300) !default;
+$dark-background-neutral-default: var(--dsc-dark-background-neutral-default, $semantic-neutral-200) !default;
+$dark-background-neutral-emphasis: var(--dsc-dark-background-neutral-emphasis, $semantic-neutral-100) !default;
+$dark-background-neutral-strong: var(--dsc-dark-background-neutral-strong, $semantic-neutral-25) !default;
+$dark-background-neutral-strong-alt: var(--dsc-dark-background-neutral-strong-alt, $semantic-base-00) !default;
 
 
 
 /*----------  Background Semantic Success Colors  ----------*/
-$background-success-soft-surface: $semantic-success-25 !default;
-$background-success-subtle: $semantic-success-100 !default;
-$background-success-default: $semantic-success-500 !default;
-$background-success-emphasis: $semantic-success-600 !default;
+$background-success-soft-surface: var(--dsc-background-success-soft-surface, $semantic-success-25) !default;
+$background-success-subtle: var(--dsc-background-success-subtle, $semantic-success-100) !default;
+$background-success-default: var(--dsc-background-success-default, $semantic-success-500) !default;
+$background-success-emphasis: var(--dsc-background-success-emphasis, $semantic-success-600) !default;
 
 /*----------  Dark Background Semantic Success Colors  ----------*/
-$dark-background-success-soft-surface: $dark-semantic-success-900 !default;
-$dark-background-success-subtle: $dark-semantic-success-700 !default;
-$dark-background-success-default: $dark-semantic-success-500 !default;
-$dark-background-success-emphasis: $dark-semantic-success-400 !default;
+$dark-background-success-soft-surface: var(--dsc-dark-background-success-soft-surface, $dark-semantic-success-900) !default;
+$dark-background-success-subtle: var(--dsc-dark-background-success-subtle, $dark-semantic-success-700) !default;
+$dark-background-success-default: var(--dsc-dark-background-success-default, $dark-semantic-success-500) !default;
+$dark-background-success-emphasis: var(--dsc-dark-background-success-emphasis, $dark-semantic-success-400) !default;
 
 
 
 /*----------  Background Semantic Warning Colors  ----------*/
-$background-warning-soft-surface: $semantic-warning-25 !default;
-$background-warning-subtle: $semantic-warning-100 !default;
-$background-warning-default: $semantic-warning-500 !default;
-$background-warning-emphasis: $semantic-warning-600 !default;
+$background-warning-soft-surface: var(--dsc-background-warning-soft-surface, $semantic-warning-25) !default;
+$background-warning-subtle: var(--dsc-background-warning-subtle, $semantic-warning-100) !default;
+$background-warning-default: var(--dsc-background-warning-default, $semantic-warning-500) !default;
+$background-warning-emphasis: var(--dsc-background-warning-emphasis, $semantic-warning-600) !default;
 
 /*----------  Dark Background Semantic Warning Colors  ----------*/
-$dark-background-warning-soft-surface: $dark-semantic-warning-900 !default;
-$dark-background-warning-subtle: $dark-semantic-warning-700 !default; 
-$dark-background-warning-default: $dark-semantic-warning-300 !default;
-$dark-background-warning-emphasis: $dark-semantic-warning-200 !default;
+$dark-background-warning-soft-surface: var(--dsc-dark-background-warning-soft-surface, $dark-semantic-warning-900) !default;
+$dark-background-warning-subtle: var(--dsc-dark-background-warning-subtle, $dark-semantic-warning-700) !default; 
+$dark-background-warning-default: var(--dsc-dark-background-warning-default, $dark-semantic-warning-300) !default;
+$dark-background-warning-emphasis: var(--dsc-dark-background-warning-emphasis, $dark-semantic-warning-200) !default;
 
 
 
 /*----------  Background Semantic Error Colors  ----------*/
-$background-error-soft-surface: $semantic-error-25 !default;
-$background-error-subtle: $semantic-error-100 !default;
-$background-error-default: $semantic-error-500 !default;
-$background-error-emphasis: $semantic-error-600 !default;
+$background-error-soft-surface: var(--dsc-background-error-soft-surface, $semantic-error-25) !default;
+$background-error-subtle: var(--dsc-background-error-subtle, $semantic-error-100) !default;
+$background-error-default: var(--dsc-background-error-default, $semantic-error-500) !default;
+$background-error-emphasis: var(--dsc-background-error-emphasis, $semantic-error-600) !default;
 
 /*----------  Dark Background Semantic Error Colors  ----------*/
-$dark-background-error-soft-surface: $dark-semantic-error-900 !default;
-$dark-background-error-subtle: $dark-semantic-error-700 !default;
-$dark-background-error-default: $dark-semantic-error-300 !default;
-$dark-background-error-emphasis: $dark-semantic-error-200 !default;
+$dark-background-error-soft-surface: var(--dsc-dark-background-error-soft-surface, $dark-semantic-error-900) !default;
+$dark-background-error-subtle: var(--dsc-dark-background-error-subtle, $dark-semantic-error-700) !default;
+$dark-background-error-default: var(--dsc-dark-background-error-default, $dark-semantic-error-300) !default;
+$dark-background-error-emphasis: var(--dsc-dark-background-error-emphasis, $dark-semantic-error-200) !default;
 
 /*=====  End of Background colors tokens  ======*/
 
@@ -303,82 +303,82 @@ $dark-background-error-emphasis: $dark-semantic-error-200 !default;
 =============================================
 
 /*----------  Foreground Semantic Neutral Colors  ----------*/
-$foreground-neutral-primary: $semantic-neutral-900 !default;
-$foreground-neutral-secondary: $semantic-neutral-600 !default;
-$foreground-neutral-tertiary: $semantic-neutral-400 !default;
-$foreground-neutral-quaternary: $semantic-neutral-300 !default;
+$foreground-neutral-primary: var(--dsc-foreground-neutral-primary, $semantic-neutral-900) !default;
+$foreground-neutral-secondary: var(--dsc-foreground-neutral-secondary, $semantic-neutral-600) !default;
+$foreground-neutral-tertiary: var(--dsc-foreground-neutral-tertiary, $semantic-neutral-400) !default;
+$foreground-neutral-quaternary: var(--dsc-foreground-neutral-quaternary, $semantic-neutral-300) !default;
 
 /*----------  Dark Foreground Semantic Neutral Colors  ----------*/
-$dark-foreground-neutral-primary: $semantic-neutral-50 !default;
-$dark-foreground-neutral-secondary: $semantic-neutral-300 !default;
-$dark-foreground-neutral-tertiary: $semantic-neutral-500 !default;
-$dark-foreground-neutral-quaternary: $semantic-neutral-700 !default;
+$dark-foreground-neutral-primary: var(--dsc-dark-foreground-neutral-primary, $semantic-neutral-50) !default;
+$dark-foreground-neutral-secondary: var(--dsc-dark-foreground-neutral-secondary, $semantic-neutral-300) !default;
+$dark-foreground-neutral-tertiary: var(--dsc-dark-foreground-neutral-tertiary, $semantic-neutral-500) !default;
+$dark-foreground-neutral-quaternary: var(--dsc-dark-foreground-neutral-quaternary, $semantic-neutral-700) !default;
 
 /*----------  Foreground Semantic Light Colors  ----------*/
-$foreground-light-primary: $semantic-base-00 !default;
-$foreground-light-primary-inverted: $semantic-base-00 !default;
-$foreground-light-secondary: rgba($transparent-80, 0.8) !default;
-$foreground-light-secondary-inverted: rgba($transparent-80, 0.8) !default;
-$foreground-light-tertiary: rgba($transparent-30, 0.3) !default;
-$foreground-light-tertiary-inverted: rgba($transparent-30, 0.3) !default;
+$foreground-light-primary: var(--dsc-foreground-light-primary, $semantic-base-00) !default;
+$foreground-light-primary-inverted: var(--dsc-foreground-light-primary-inverted, $semantic-base-00) !default;
+$foreground-light-secondary: var(--dsc-foreground-light-secondary, $transparent-80) !default;
+$foreground-light-secondary-inverted: var(--dsc-foreground-light-secondary-inverted, $transparent-80) !default;
+$foreground-light-tertiary: var(--dsc-foreground-light-tertiary, $transparent-30) !default;
+$foreground-light-tertiary-inverted: var(--dsc-foreground-light-tertiary-inverted, $transparent-30) !default;
 
 /*----------  Dark Foreground Semantic Light Colors  ----------*/
-$dark-foreground-light-primary: $semantic-neutral-900 !default;
-$dark-foreground-light-primary-inverted: $semantic-base-00 !default;
-$dark-foreground-light-secondary: rgba($dark-transparent-80, 0.8) !default;
-$dark-foreground-light-secondary-inverted: rgba($transparent-80, 0.8) !default;
-$dark-foreground-light-tertiary: rgba($dark-transparent-30, 0.3) !default;
-$dark-foreground-light-tertiary-inverted: rgba($transparent-30, 0.3) !default;
+$dark-foreground-light-primary: var(--dsc-dark-foreground-light-primary, $semantic-neutral-900) !default;
+$dark-foreground-light-primary-inverted: var(--dsc-dark-foreground-light-primary-inverted, $semantic-base-00) !default;
+$dark-foreground-light-secondary: var(--dsc-dark-foreground-light-secondary, $dark-transparent-80) !default;
+$dark-foreground-light-secondary-inverted: var(--dsc-dark-foreground-light-secondary-inverted, $transparent-80) !default;
+$dark-foreground-light-tertiary: var(--dsc-dark-foreground-light-tertiary, $dark-transparent-30) !default;
+$dark-foreground-light-tertiary-inverted: var(--dsc-dark-foreground-light-tertiary-inverted, $transparent-30) !default;
 
 /*----------  Foreground Semantic Brand Colors  ----------*/
-$foreground-brand-primary: $semantic-brand-500 !default;
-$foreground-brand-secondary: $dark-semantic-brand-400 !default;
-$foreground-brand-tertiary: $semantic-brand-100 !default;
+$foreground-brand-primary: var(--dsc-foreground-brand-primary, $semantic-brand-500) !default;
+$foreground-brand-secondary: var(--dsc-foreground-brand-secondary, $dark-semantic-brand-400) !default;
+$foreground-brand-tertiary: var(--dsc-foreground-brand-tertiary, $semantic-brand-100) !default;
 
 /*----------  Dark Foreground Semantic Brand Colors  ----------*/
-$dark-foreground-brand-primary: $dark-semantic-brand-alt-500 !default;
-$dark-foreground-brand-secondary: $dark-semantic-brand-alt-600 !default;
-$dark-foreground-brand-tertiary: $dark-semantic-brand-alt-800 !default;
+$dark-foreground-brand-primary: var(--dsc-dark-foreground-brand-primary, $dark-semantic-brand-alt-500) !default;
+$dark-foreground-brand-secondary: var(--dsc-dark-foreground-brand-secondary, $dark-semantic-brand-alt-600) !default;
+$dark-foreground-brand-tertiary: var(--dsc-dark-foreground-brand-tertiary, $dark-semantic-brand-alt-800) !default;
 
 /*----------  Foreground Semantic Success Colors  ----------*/
-$foreground-success-primary: $semantic-success-600 !default;
-$foreground-success-secondary: $semantic-success-500 !default;
-$foreground-success-tertiary: $semantic-success-300 !default;
+$foreground-success-primary: var(--dsc-foreground-success-primary, $semantic-success-600) !default;
+$foreground-success-secondary: var(--dsc-foreground-success-secondary, $semantic-success-500) !default;
+$foreground-success-tertiary: var(--dsc-foreground-success-tertiary, $semantic-success-300) !default;
 
 /*----------  Dark Foreground Semantic Success Colors  ----------*/
-$dark-foreground-success-primary: $dark-semantic-success-400 !default;
-$dark-foreground-success-secondary: $dark-semantic-success-500 !default;
-$dark-foreground-success-tertiary: $dark-semantic-success-700 !default;
+$dark-foreground-success-primary: var(--dsc-dark-foreground-success-primary, $dark-semantic-success-400) !default;
+$dark-foreground-success-secondary: var(--dsc-dark-foreground-success-secondary, $dark-semantic-success-500) !default;
+$dark-foreground-success-tertiary: var(--dsc-dark-foreground-success-tertiary, $dark-semantic-success-700) !default;
 
 /*----------  Foreground Semantic Warning Colors  ----------*/
-$foreground-warning-primary: $semantic-warning-600 !default;
-$foreground-warning-secondary: $semantic-warning-500 !default;
-$foreground-warning-tertiary: $semantic-warning-300 !default;
+$foreground-warning-primary: var(--dsc-foreground-warning-primary, $semantic-warning-600) !default;
+$foreground-warning-secondary: var(--dsc-foreground-warning-secondary, $semantic-warning-500) !default;
+$foreground-warning-tertiary: var(--dsc-foreground-warning-tertiary, $semantic-warning-300) !default;
 
 /*----------  Dark Foreground Semantic Warning Colors  ----------*/
-$dark-foreground-warning-primary: $dark-semantic-warning-400 !default;
-$dark-foreground-warning-secondary: $dark-semantic-warning-500 !default;
-$dark-foreground-warning-tertiary: $dark-semantic-warning-700 !default;
+$dark-foreground-warning-primary: var(--dsc-dark-foreground-warning-primary, $dark-semantic-warning-400) !default;
+$dark-foreground-warning-secondary: var(--dsc-dark-foreground-warning-secondary, $dark-semantic-warning-500) !default;
+$dark-foreground-warning-tertiary: var(--dsc-dark-foreground-warning-tertiary, $dark-semantic-warning-700) !default;
 
 /*----------  Foreground Semantic Error Colors  ----------*/
-$foreground-error-primary: $semantic-error-600 !default;
-$foreground-error-secondary: $semantic-error-500 !default;
-$foreground-error-tertiary: $semantic-error-200 !default;
+$foreground-error-primary: var(--dsc-foreground-error-primary, $semantic-error-600) !default;
+$foreground-error-secondary: var(--dsc-foreground-error-secondary, $semantic-error-500) !default;
+$foreground-error-tertiary: var(--dsc-foreground-error-tertiary, $semantic-error-200) !default;
 
 /*----------  Dark Foreground Semantic Error Colors  ----------*/
-$dark-foreground-error-primary: $dark-semantic-error-400 !default;
-$dark-foreground-error-secondary: $dark-semantic-error-500 !default;
-$dark-foreground-error-tertiary: $dark-semantic-error-700 !default;
+$dark-foreground-error-primary: var(--dsc-dark-foreground-error-primary, $dark-semantic-error-400) !default;
+$dark-foreground-error-secondary: var(--dsc-dark-foreground-error-secondary, $dark-semantic-error-500) !default;
+$dark-foreground-error-tertiary: var(--dsc-dark-foreground-error-tertiary, $dark-semantic-error-700) !default;
 
 /*----------  Foreground Semantic Link Colors  ----------*/
-$foreground-link-default: $semantic-brand-600 !default;
-$foreground-link-hover: $semantic-brand-700 !default;
-$foreground-link-disabled: $semantic-brand-200 !default;
+$foreground-link-default: var(--dsc-foreground-link-default, $semantic-brand-600) !default;
+$foreground-link-hover: var(--dsc-foreground-link-hover, $semantic-brand-700) !default;
+$foreground-link-disabled: var(--dsc-foreground-link-disabled, $semantic-brand-200) !default;
 
 /*----------  Dark Foreground Semantic Link Colors  ----------*/
-$dark-foreground-link-default: $dark-semantic-brand-alt-600 !default;
-$dark-foreground-link-hover: $dark-semantic-brand-alt-500 !default;
-$dark-foreground-link-disabled: $dark-semantic-brand-alt-700 !default;
+$dark-foreground-link-default: var(--dsc-dark-foreground-link-default, $dark-semantic-brand-alt-600) !default;
+$dark-foreground-link-hover: var(--dsc-dark-foreground-link-hover, $dark-semantic-brand-alt-500) !default;
+$dark-foreground-link-disabled: var(--dsc-dark-foreground-link-disabled, $dark-semantic-brand-alt-700) !default;
 
 
 
@@ -392,58 +392,58 @@ $dark-foreground-link-disabled: $dark-semantic-brand-alt-700 !default;
 =============================================*/
 
 /*----------  Border Semantic Base Colors  ----------*/
-$border-base-white: $semantic-base-00 !default;
-$border-base-white-inverted: $semantic-base-00 !default;
+$border-base-white: var(--dsc-border-base-white, $semantic-base-00) !default;
+$border-base-white-inverted: var(--dsc-border-base-white-inverted, $semantic-base-00) !default;
 
 /*----------  Dark Border Semantic Base Colors  ----------*/
-$dark-border-base-white: $semantic-neutral-900 !default;
-$dark-border-base-white-inverted: $semantic-base-00 !default;
+$dark-border-base-white: var(--dsc-dark-border-base-white, $semantic-neutral-900) !default;
+$dark-border-base-white-inverted: var(--dsc-dark-border-base-white-inverted, $semantic-base-00) !default;
 
 /*----------  Border Semantic Neutral Colors  ----------*/
-$border-neutral-xsubtle: $semantic-neutral-100 !default;
-$border-neutral-subtle: $semantic-neutral-200 !default;
-$border-neutral-muted: $semantic-neutral-400 !default;
-$border-neutral-default: $semantic-neutral-600 !default;
+$border-neutral-xsubtle: var(--dsc-border-neutral-xsubtle, $semantic-neutral-100) !default;
+$border-neutral-subtle: var(--dsc-border-neutral-subtle, $semantic-neutral-200) !default;
+$border-neutral-muted: var(--dsc-border-neutral-muted, $semantic-neutral-400) !default;
+$border-neutral-default: var(--dsc-border-neutral-default, $semantic-neutral-600) !default;
 
 /*----------  Dark Border Semantic Neutral Colors  ----------*/
-$dark-border-neutral-xsubtle: $semantic-neutral-800 !default;
-$dark-border-neutral-subtle: $semantic-neutral-700 !default;
-$dark-border-neutral-muted: $semantic-neutral-500 !default;
-$dark-border-neutral-default: $semantic-neutral-100 !default;
+$dark-border-neutral-xsubtle: var(--dsc-dark-border-neutral-xsubtle, $semantic-neutral-800) !default;
+$dark-border-neutral-subtle: var(--dsc-dark-border-neutral-subtle, $semantic-neutral-700) !default;
+$dark-border-neutral-muted: var(--dsc-dark-border-neutral-muted, $semantic-neutral-500) !default;
+$dark-border-neutral-default: var(--dsc-dark-border-neutral-default, $semantic-neutral-100) !default;
 
 /*----------  Border Semantic Brand Colors  ----------*/
-$border-brand-xsubtle: $semantic-brand-50 !default;
-$border-brand-subtle: $semantic-brand-100 !default;
-$border-brand-default: $semantic-brand-500 !default;
+$border-brand-xsubtle: var(--dsc-border-brand-xsubtle, $semantic-brand-50) !default;
+$border-brand-subtle: var(--dsc-border-brand-subtle, $semantic-brand-100) !default;
+$border-brand-default: var(--dsc-border-brand-default, $semantic-brand-500) !default;
 
 /*----------  Dark Border Semantic Brand Colors  ----------*/
-$dark-border-brand-xsubtle: $semantic-neutral-800 !default;
-$dark-border-brand-subtle: $semantic-neutral-700 !default;
-$dark-border-brand-default: $dark-semantic-brand-100 !default;
+$dark-border-brand-xsubtle: var(--dsc-dark-border-brand-xsubtle, $semantic-neutral-800) !default;
+$dark-border-brand-subtle: var(--dsc-dark-border-brand-subtle, $semantic-neutral-700) !default;
+$dark-border-brand-default: var(--dsc-dark-border-brand-default, $dark-semantic-brand-100) !default;
 
 /*----------  Border Semantic Success Colors  ----------*/
-$border-success-subtle: $semantic-success-100 !default;
-$border-success-default: $semantic-success-500 !default;
+$border-success-subtle: var(--dsc-border-success-subtle, $semantic-success-100) !default;
+$border-success-default: var(--dsc-border-success-default, $semantic-success-500) !default;
 
 /*----------  Dark Border Semantic Success Colors  ----------*/
-$dark-border-success-subtle: $dark-semantic-success-700 !default;
-$dark-border-success-default: $dark-semantic-success-400 !default;
+$dark-border-success-subtle: var(--dsc-dark-border-success-subtle, $dark-semantic-success-700) !default;
+$dark-border-success-default: var(--dsc-dark-border-success-default, $dark-semantic-success-400) !default;
 
 /*----------  Border Semantic Warning Colors  ----------*/
-$border-warning-subtle: $semantic-warning-200 !default;
-$border-warning-default: $semantic-warning-500 !default;
+$border-warning-subtle: var(--dsc-border-warning-subtle, $semantic-warning-200) !default;
+$border-warning-default: var(--dsc-border-warning-default, $semantic-warning-500) !default;
 
 /*----------  Dark Border Semantic Warning Colors  ----------*/
-$dark-border-warning-subtle: $dark-semantic-warning-600 !default;
-$dark-border-warning-default: $dark-semantic-warning-400 !default;
+$dark-border-warning-subtle: var(--dsc-dark-border-warning-subtle, $dark-semantic-warning-600) !default;
+$dark-border-warning-default: var(--dsc-dark-border-warning-default, $dark-semantic-warning-400) !default;
 
 /*----------  Border Semantic Error Colors  ----------*/
-$border-error-subtle: $semantic-error-100 !default;
-$border-error-default: $semantic-error-500 !default;
+$border-error-subtle: var(--dsc-border-error-subtle, $semantic-error-100) !default;
+$border-error-default: var(--dsc-border-error-default, $semantic-error-500) !default;
 
 /*----------  Dark Border Semantic Error Colors  ----------*/
-$dark-border-error-subtle: $dark-semantic-error-800 !default;
-$dark-border-error-default: $dark-semantic-error-500 !default;
+$dark-border-error-subtle: var(--dsc-dark-border-error-subtle, $dark-semantic-error-800) !default;
+$dark-border-error-default: var(--dsc-dark-border-error-default, $dark-semantic-error-500) !default;
 
 /*=====  End of Border colors tokens  ======*/
 
