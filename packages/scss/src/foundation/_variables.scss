@@ -30,32 +30,451 @@
 =            Colors                           =
 =============================================*/
 
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+
+$white: #ffffff;
+$black: #000000;
+/* Global fuchsia colors */
+$fuchsia-25:#FBEDFD;
+$fuchsia-50:#F4C9FA;
+$fuchsia-100:#ECA5F7;
+$fuchsia-200:#E581F4;
+$fuchsia-300:#DE5DF1;
+$fuchsia-400:#D638EE;
+$fuchsia-500:#CF14EB;
+$fuchsia-600:#AF11C7;
+$fuchsia-700:#8F0EA2;
+$fuchsia-800:#6F0B7E;
+$fuchsia-900:#50085A;
 
 
 
-/* Brand Color */
+/* Violet colors */
+$violet-25:#F1ECFE;
+$violet-50:#D4C7FD;
+$violet-100:#B8A1FB;
+$violet-200:#9B7BF9;
+$violet-300:#7F56F8;
+$violet-400:#6230F6;
+$violet-500:#460BF4;
+$violet-600:#3B09CF;
+$violet-700:#3007A9;
+$violet-800:#250684;
+$violet-900:#1B045E;
 
-$green: #5ece7b;
-$green-light: #9ee2b0;
 
-$dark: #1d1f22;
-$dark-light: #737680;
+/* Purple colors */
+$purple-25:#F5ECFE;
+$purple-50:#E2C7FC;
+$purple-100:#CFA1FB;
+$purple-200:#BC7CF9;
+$purple-300:#A956F7;
+$purple-400:#9631F5;
+$purple-500:#820BF4;
+$purple-600:#6E0ACE;
+$purple-700:#5A08A9;
+$purple-800:#460683;
+$purple-900:#32045E;
 
-/* Neutral Colors */
 
-$gray: #a3a5ad;
-$gray-light: #bebfc4;
+/* Indigo colors */
+$indigo-25:#F4F5FF;
+$indigo-50:#DDDFFF;
+$indigo-100:#C6CAFF;
+$indigo-200:#B7BDFF;
+$indigo-300:#9CA5FD;
+$indigo-400:#7D88F4;
+$indigo-500:#636DD3;
+$indigo-600:#4C56BB;
+$indigo-700:#3C449F;
+$indigo-800:#303783;
+$indigo-900:#242967;
 
-$white: #fff;
-$white-dark: #f1f2f3;
 
-/* Utility Colors */
+/* Blue light colors */
+$blue-light-25:#E1EBFF;
+$blue-light-50:#D1E0FF;
+$blue-light-100:#B2CCFF;
+$blue-light-200:#92B6FF;
+$blue-light-300:#72A1FF;
+$blue-light-400:#538CFF;
+$blue-light-500:#4382FF;
+$blue-light-600:#3B6ED5;
+$blue-light-700:#335BAA;
+$blue-light-800:#1B356A;
+$blue-light-900:#1A2B4D;
 
-$red: #d12727;
-$red-light: #f8dedf;
 
-$blue: #0468db;
-$blue-light: #b4d2f4;
+/* Blue dark colors*/
+$blue-dark-25:#DFE6FB;
+$blue-dark-50:#CED9FB;
+$blue-dark-100:#AABFFC;
+$blue-dark-200:#87A6FD;
+$blue-dark-300:#658BFE;
+$blue-dark-400:#4174FF;
+$blue-dark-500:#1B54FF;
+$blue-dark-600:#1645D3;
+$blue-dark-700:#1036A8;
+$blue-dark-800:#0B277C;
+$blue-dark-900:#041546;
+
+
+/* Blue gray colors */
+$blue-gray-25:#F0F3F7;
+$blue-gray-50:#E2E8EE;
+$blue-gray-100:#BCCAD9;
+$blue-gray-200:#8EA6BF;
+$blue-gray-300:#6989AA;
+$blue-gray-400:#446C95;
+$blue-gray-500:#365677;
+$blue-gray-600:#294059;
+$blue-gray-700:#213447;
+$blue-gray-800:#192736;
+$blue-gray-900:#0C1926;
+
+
+/* Blue colors */
+$blue-25:#F2F5FF;
+$blue-50:#E8EDFF;
+$blue-100:#AEBFFF;
+$blue-200:#94ABFF;
+$blue-300:#6F8EFF;
+$blue-400:#4A72FF;
+$blue-500:#1B4DFF;
+$blue-600:#0F3CD9;
+$blue-700:#0F3CD9;
+$blue-800:#042185;
+$blue-900:#00114A;
+
+
+/* Cyan colors */
+$cyan-25: #EDFBFE;
+$cyan-50: #C9F4FB;
+$cyan-100: #A4EDF8;
+$cyan-200: #80E5F5;
+$cyan-300: #5CDEF2;
+$cyan-400: #38D6EF;
+$cyan-500: #13CFEC;
+$cyan-600: #10AFC7;
+$cyan-700: #0D8FA3;
+$cyan-800: #0A6F7F;
+$cyan-900: #07505B;
+
+/* Dimgray colors */
+$dimgray-25: #F5F5F5;
+$dimgray-50: #E2E2E2;
+$dimgray-100: #CECECE;
+$dimgray-200: #BABABA;
+$dimgray-300: #A7A7A7;
+$dimgray-400: #939393;
+$dimgray-500: #808080;
+$dimgray-600: #6C6C6C;
+$dimgray-700: #585858;
+$dimgray-800: #454545;
+$dimgray-900: #313131;
+
+/* Emerald colors */
+$emerald-25: #EDFBF7;
+$emerald-50: #DBF6EE;
+$emerald-100: #ADEBD9;
+$emerald-200: #75DEBF;
+$emerald-300: #49D3AA;
+$emerald-400: #1BC895;
+$emerald-500: #16A077;
+$emerald-600: #107759;
+$emerald-700: #0D6047;
+$emerald-800: #0A4836;
+$emerald-900: #053A2B;
+
+
+/* Gold colors */
+$gold-25: #FFFAF1;
+$gold-50: #FFF5E4;
+$gold-100: #FFEDCF;
+$gold-200: #FFE5BB;
+$gold-300: #FFD48F;
+$gold-400: #F3CE92;
+$gold-500: #E0BB7F;
+$gold-600: #C19C60;
+$gold-700: #8F6A2E;
+$gold-800: #715324;
+$gold-900: #5C431A;
+
+/* Green colors */
+$green-25: #EAFEF5;
+$green-50: #D7F8E9;
+$green-100: #8FE7B8;
+$green-200: #48D28E;
+$green-300: #2FD181;
+$green-400: #1DB469;
+$green-500: #11A75C;
+$green-600: #0A9952;
+$green-700: #048746;
+$green-800: #046A37;
+$green-900: #02542B;
+
+/* Green dark colors */
+$green-dark-25: #A6F4CE;
+$green-dark-50: #98EEC4;
+$green-dark-100: #7BE1AF;
+$green-dark-200: #5FD49A;
+$green-dark-300: #43C785;
+$green-dark-400: #26BA70;
+$green-dark-500: #18B466;
+$green-dark-600: #149454;
+$green-dark-700: #107542;
+$green-dark-800: #0B5531;
+$green-dark-900: #012C16;
+
+/* Lime colors */
+$lime-25: #F4FFE1;
+$lime-50: #E4FFB8;
+$lime-100: #D5FD95;
+$lime-200: #C5FB6E;
+$lime-300: #AFEF47;
+$lime-400: #A3E635;
+$lime-500: #94DA22;
+$lime-600: #81C515;
+$lime-700: #73B10F;
+$lime-800: #5E9409;
+$lime-900: #497305;
+
+/* Orange colors */
+$orange-25: #FFF6ED;
+$orange-50: #FFEBD8;
+$orange-100: #FFD8B4;
+$orange-200: #FFC793;
+$orange-300: #FFAD62;
+$orange-400: #FC8E28;
+$orange-500: #FC8415;
+$orange-600: #EB7101;
+$orange-700: #D26500;
+$orange-800: #B45600;
+$orange-900: #884202;
+
+
+/* Pink colors */
+$pink-25: #FFF3F8;
+$pink-50: #FFDEEC;
+$pink-100: #FFBED9;
+$pink-200: #FFA0C8;
+$pink-300: #FB6CA7;
+$pink-400: #E9538D;
+$pink-500: #E42F75;
+$pink-600: #CF195F;
+$pink-700: #BC0F51;
+$pink-800: #99053E;
+$pink-900: #78002E;
+
+/* Rose colors */
+$rose-25: #FEECEF;
+$rose-50: #FFDADF;
+$rose-100: #FFC2CB;
+$rose-200: #FF9CAA;
+$rose-300: #FF8596;
+$rose-400: #F6697D;
+$rose-500: #F54C64;
+$rose-600: #EB2743;
+$rose-700: #DB1733;
+$rose-800: #C10F29;
+$rose-900: #A00017;
+
+/* Red colors */
+$red-25: #FFF5F4;
+$red-50: #FFDCDA;
+$red-100: #FFC5C1;
+$red-200: #FFA19B;
+$red-300: #FF7A72;
+$red-400: #FF574D;
+$red-500: #FF3838;
+$red-600: #E92215;
+$red-700: #D21A0E;
+$red-800: #BE170C;
+$red-900: #AB0A00;
+
+/* Red dark colors */
+$red-dark-25: #FFDDDD;
+$red-dark-50: #FECBCB;
+$red-dark-100: #FBA8A8;
+$red-dark-200: #F98484;
+$red-dark-300: #F66161;
+$red-dark-400: #F33E3E;
+$red-dark-500: #E32D2D;
+$red-dark-600: #C62424;
+$red-dark-700: #AF3B33;
+$red-dark-800: #9C2A22;
+$red-dark-900: #4F1618;
+
+/* Sky colors */
+$sky-25: #F3FAFF;
+$sky-50: #E4F4FF;
+$sky-100: #C2E6FF;
+$sky-200: #B0E3FF;
+$sky-300: #6AC9FF;
+$sky-400: #3CAAFA;
+$sky-500: #2497EB;
+$sky-600: #1580CD;
+$sky-700: #1177C0;
+$sky-800: #0D5E99;
+$sky-900: #033F6B;
+
+/* Slate colors */
+$slate-25: #F9FAFB;
+$slate-50: #F0F3F9;
+$slate-100: #E9EFF6;
+$slate-200: #D7DFE9;
+$slate-300: #AFBACA;
+$slate-400: #8897AE;
+$slate-500: #5E718D;
+$slate-600: #455468;
+$slate-700: #3D4A5C;
+$slate-800: #2D3643;
+$slate-900: #1C222B;
+
+
+/* Stone colors */
+$stone-25: #F9F8F7;
+$stone-50: #F3F2EF;
+$stone-100: #E3E1DA;
+$stone-200: #D0CCC1;
+$stone-300: #C1BCAD;
+$stone-400: #B2AB98;
+$stone-500: #8E897A;
+$stone-600: #6A665B;
+$stone-700: #555249;
+$stone-800: #403E37;
+$stone-900: #2B2924;
+
+
+/* Teal colors */
+$teal-25: #E8FDF9;
+$teal-50: #D3F8F2;
+$teal-100: #B0F5EB;
+$teal-200: #88EFE0;
+$teal-300: #5EEAD5;
+$teal-400: #1EDCC5;
+$teal-500: #27CAB5;
+$teal-600: #1DB19F;
+$teal-700: #159383;
+$teal-800: #0E786B;
+$teal-900: #065A50;
+
+
+/* Yellow colors */
+$yellow-25: #FFF9DF;
+$yellow-50: #FFF2C4;
+$yellow-100: #FFE99D;
+$yellow-200: #F7DC7C;
+$yellow-300: #F8D34F;
+$yellow-400: #F5C61E;
+$yellow-500: #E9B90B;
+$yellow-600: #D8A800;
+$yellow-700: #B18A00;
+$yellow-800: #896B00;
+$yellow-900: #624D00;
+
+
+/* Yellow dark colors */
+$yellow-dark-25: #FCF0C5;
+$yellow-dark-50: #FAEBB4;
+$yellow-dark-100: #F6E092;
+$yellow-dark-200: #F3D671;
+$yellow-dark-300: #EFCC4F;
+$yellow-dark-400: #EBC12D;
+$yellow-dark-500: #CDA61A;
+$yellow-dark-600: #BE9917;
+$yellow-dark-700: #927612;
+$yellow-dark-800: #67530C;
+$yellow-dark-900: #362C07;
+
+
+/* Zinc colors */
+$zinc-25: #f4f2f0;
+$zinc-50: #e6e1dd;
+$zinc-100: #d6cec6;
+$zinc-200: #c6baaf;
+$zinc-300: #b5a698;
+$zinc-400: #a59381;
+$zinc-500: #957f6a;
+$zinc-600: #7e6b5a;
+$zinc-700: #675849;
+$zinc-800: #504439;
+$zinc-900: #393129;
+
+/*=====  End of Global colors palette ======*/
+
+
+
+
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+
+$gradient-2color-1: linear-gradient(59deg, #bb0000 50%, #FAD0C4) !default;
+$gradient-2color-1-light: linear-gradient(63deg, rgba(255,154,158,.35) 30%, rgba(250,208,196,.35)) !default;
+$gradient-2color-2: linear-gradient(61deg, #A18CD1 30%, #FBC2EB) !default;
+$gradient-2color-3: linear-gradient(0deg, #FAD0C4, #FFD1FF) !default;
+$gradient-2color-4: linear-gradient(-119deg, #26D0CE, #1A2980) !default;
+$gradient-2color-5: linear-gradient(-117deg, #EAECC6, #2BC0E4) !default;
+$gradient-2color-6: linear-gradient(106deg, #FCCB90, #D57EEB) !default;
+$gradient-2color-7: linear-gradient(61deg, #FBC5EC, #89B1F7) !default;
+$gradient-2color-8: linear-gradient(180deg, #FF0844, #FFB199) !default;
+$gradient-2color-9: linear-gradient(-90deg, #E5B2CA  10% 15%, #7028E4 60% 100% ) !default;
+$gradient-2color-10: linear-gradient(-150deg, #FF6B95 5%, #FFC796 90%) !default;
+$gradient-2color-11: linear-gradient(65deg, #6654F1, #69EACB) !default;
+$gradient-2color-12: linear-gradient(119deg, #6B8CCE, #0C3483) !default;
+$gradient-2color-13: linear-gradient(-105deg, #96DEDA, #50C9C3) !default;
+$gradient-2color-14: linear-gradient(62deg, #6457C6, #C0ADFF) !default;
+$gradient-2color-15: linear-gradient(124deg, #DDD6F3, #FAACA8) !default;
+$gradient-2color-16: linear-gradient(180deg, #E6B980, #EACDA3) !default;
+$gradient-2color-17: linear-gradient(122deg, #005BEA, #45D8FF) !default;
+$gradient-2color-18: linear-gradient(-90deg, #96E6A1, #D4FC79) !default;
+$gradient-2color-18-light: linear-gradient(-90deg, rgba(150,230,161,.30), rgba(212,252,121,.35)) !default;
+$gradient-2color-19: linear-gradient(90deg, #FF758C, #FFA1C8) !default;
+$gradient-2color-20: linear-gradient(147deg, #00CDAC, #8DDAD5) !default;
+$gradient-2color-21: radial-gradient(circle at center, #B1AFF0, #836DF0) !default;
+$gradient-2color-22: radial-gradient(circle at 50% 110%, #71DDA6, #70B2BC) !default;
+
+/*=====  End of Global 2 color gradient colors  ======*/
+
+
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+
+$gradient-3color-1: linear-gradient(-90deg, #A6FFCB, #12D8FA, #1FA2FF) !default;
+$gradient-3color-2: linear-gradient(35deg, #FFBAC3 0%, #C5C1FF 45%, #2CD8D5) !default;
+$gradient-3color-3: linear-gradient(-116deg, #FFCA7B, #D76D77, #3A1C71) !default;
+$gradient-3color-4: linear-gradient(35deg, #6654F1, #EACCF8 50%, #69EACB) !default;
+$gradient-3color-5: linear-gradient(61deg, #4801FF, #7918F2, #AC32E4) !default;
+$gradient-3color-6: linear-gradient(-96deg, #0A40FF 10%, #65C7F7 60%, #9CECFB) !default;
+$gradient-3color-7: linear-gradient(-90deg, #F0ACF7, #ACF7F0, #F7F0AC) !default;
+$gradient-3color-8: linear-gradient(-90deg, #F7797D, #FBD786, #C6FFDD) !default;
+$gradient-3color-9: linear-gradient(119deg, #3B41C5, #A981BB, #FFC8A9) !default;
+
+/*=====  End of Global 3 color gradient colors  ======*/
+
+
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+
+$gradient-4color-1: linear-gradient(120deg, #35EB93 10%, #2CACD1, #2B76B9, #3D3393) !default;
+
+/*=====  End of Global 4 color gradient colors  ======*/
+
+
+
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+
+$gradient-8color-1: linear-gradient(117deg, #F7C978, #F3A469, #F18271, #CC6B8E, #A86AA4, #7B5FAC, #5A55AE, #3F51B1) !default;
+
+/*=====  End of Global 8 color gradient colors  ======*/
+
 
 /*=====  End of Colors  ======*/
 
@@ -74,166 +493,281 @@ $blue-light: #b4d2f4;
  *     https://fonts.google.com/specimen/Raleway
  */
 
-$playfair: 'Playfair Display', serif; /* 1 */
-$raleway: 'Raleway', 'HelveticaNeue', 'Helvetica', sans-serif; /* 2 */
+ $inter: 'Inter', sans-serif; /* 1 */
+ $raleway: 'Raleway', 'HelveticaNeue', 'Helvetica', sans-serif; /* 2 */
 
-/* Font Sizes */
+/*----------  End of Font Familie  ----------*/
 
-$fs-xs: 0.75rem; // 12px
-$fs-sm: 0.875rem; // 14px
-$fs-base: 1rem; // 16px
-$fs-lg: 1.125rem; // 18px
-$fs-xl: 1.5rem; // 24px
+/*----------  Font weights  ----------*/
 
-$fs: (
-	xs: 0.75rem,
-	sm: 0.875rem,
-	base: 1rem,
-	lg: 1.125rem,
-	xl: 1.5rem,
-);
-
-/* Heading Font Sizes */
-
-$h-1: 1.5rem; // 24px
-$h-2: 1.375rem; // 22px
-$h-3: 1.125rem; // 18px
-$h-4: 1rem; // 16px
-$h-5: 0.75rem; // 12px
-$h-6: 0.75rem; // 12px
-
-$h: (
-	1: 1.5rem,
-	2: 1.375rem,
-	3: 1.125rem,
-	4: 1rem,
-	5: 0.875rem,
-	6: 0.75rem,
-);
-
-/* Font Weights */
-
-$fw-light: 300;
-$fw-normal: 400;
+$fw-regular: 400;
 $fw-medium: 500;
 $fw-semibold: 600;
-$fw-bold: 700;
-$fw-extrabold: 800;
-$fw-black: 900;
+
+/*----------  End of Font weights  ----------*/
+
+
+/*----------  Display font variables  ----------*/
+$display-fs: 6rem; // 96px  font size
+$display-lh: 6.875rem; // 110px  line height
+$display-ls: -0.15625rem; // -2.5px  letter spacing	
+
+$display-fw-default: $fw-medium;
+$display-fw-strong: $fw-semibold;
+/*----------  End of Display font variables  ----------*/
+
+
+/*----------  Heading font variables  ----------*/
+
+//font size	
+$h1-fs: 4rem; // 64px
+$h2-fs: 3.5rem; // 56px
+$h3-fs: 2.5rem; // 40px
+$h4-fs: 2rem; // 32px
+$h5-fs: 1.5rem; // 24px
+
+//font weight
+$h1-fw-default: $fw-medium;
+$h1-fw-strong: $fw-semibold;
+$h2-fw-default: $fw-medium;
+$h2-fw-strong: $fw-semibold;
+$h3-fw-default: $fw-medium;
+$h3-fw-strong: $fw-semibold;
+$h4-fw-default: $fw-medium;
+$h4-fw-strong: $fw-semibold;
+$h5-fw-default: $fw-medium;
+$h5-fw-strong: $fw-semibold;
+
+//line height	
+$h1-lh: 4.875rem; // 78px
+$h2-lh: 4.125rem; // 66px
+$h3-lh: 3rem; // 48px
+$h4-lh: 2.625rem; // 42px
+$h5-lh: 2.125rem; // 34px
+
+//letter spacing	
+$h1-ls: -0.14375rem; // -2.3px
+$h2-ls: -0.109375rem; // -1.75px
+$h3-ls: -0.09375rem; // -1.5px
+$h4-ls: -0.046875rem; // -0.75px
+$h5-ls: -0.025rem; // -0.4px
+
+/*----------  End of Heading font variables  ----------*/
+
+
+
+/*----------  Body font variables  ----------*/
+/* body font size */
+ $body-fs-xl: 1.25rem;
+ $body-fs-lg: 1.125rem;
+ $body-fs-md: 1rem;
+ $body-fs-sm: 0.875rem;
+ $body-fs-xs: 0.75rem;
+
+/* body line height */
+ $body-lh-xl: 1.6875rem;
+ $body-lh-lg: 1.5rem;
+ $body-lh-md: 1.5rem;
+ $body-lh-sm: 1.375rem;
+ $body-lh-xs: 1.125rem;
+
+/* body letter spacing */
+ $body-ls-xl: -0.01875rem;
+ $body-ls-lg: -0.025rem;
+ $body-ls-md: -0.01875rem;
+ $body-ls-sm: -0.0125rem;
+ $body-ls-xs: -0.0125rem;
+
+// font weight
+$body-fw-xl-default: $fw-regular;
+$body-fw-xl-strong: $fw-semibold;
+$body-fw-lg-default: $fw-regular;
+$body-fw-lg-strong: $fw-semibold;
+$body-fw-md-default: $fw-regular;
+$body-fw-md-strong: $fw-semibold;
+$body-fw-sm-default: $fw-regular;
+$body-fw-sm-strong: $fw-semibold;
+$body-fw-xs-default: $fw-regular;
+$body-fw-xs-strong: $fw-semibold;
+/*----------  End of Body font variables  ----------*/
+
+/*----------  Label font variables  ----------*/
+//font size
+$label-fs-2xs: 0.625rem; // 10px
+$label-fs-xs: 0.75rem; // 12px
+$label-fs-sm: 0.875rem; // 14px
+$label-fs-md: 1rem; // 16px
+$label-fs-lg: 1.125rem; // 18px
+$label-fs-xl: 1.25rem; // 20px
+$label-fs-2xl: 1.5rem; // 24px
+
+//line height
+$label-lh-2xs: 0.875rem; // 14px
+$label-lh-xs: 1rem; // 16px
+$label-lh-sm: 1.25rem; // 20px
+$label-lh-md: 1.5rem; // 24px
+$label-lh-lg: 1.5rem; // 24px
+$label-lh-xl: 1.6875rem; // 27px
+$label-lh-2xl: 2rem; // 32px
+
+//letter spacing
+$label-ls-2xs: -0.0125rem; // -0.2px
+$label-ls-xs: -0.0125rem; // -0.2px
+$label-ls-sm: -0.025rem; // -0.4px
+$label-ls-md: -0.01875rem; // -0.3px
+$label-ls-lg: -0.025rem; // -0.4px
+$label-ls-xl: -0.025rem; // -0.4px
+$label-ls-2xl: -0.025rem; // -0.4px
+
+// font weight
+$label-fw-2xs-default: $fw-regular;
+$label-fw-2xs-strong: $fw-medium;
+$label-fw-xs-default: $fw-regular;
+$label-fw-xs-strong: $fw-medium;
+$label-fw-sm-default: $fw-regular;
+$label-fw-sm-strong: $fw-medium;
+$label-fw-md-default: $fw-regular;
+$label-fw-md-strong: $fw-medium;
+$label-fw-lg-default: $fw-regular;
+$label-fw-lg-strong: $fw-medium;
+$label-fw-xl-default: $fw-regular;
+$label-fw-xl-strong: $fw-medium;
+$label-fw-2xl-default: $fw-regular;
+$label-fw-2xl-strong: $fw-medium;
+/*----------  End of Label font variables  ----------*/
+
+
+/*----------  Underline font variables  ----------*/
+//font size
+$underline-fs-2xl: 1.5rem; // 24px
+$underline-fs-xl: 1.25rem; // 20px
+$underline-fs-lg: 1.125rem; // 18px
+$underline-fs-md: 1rem; // 16px
+$underline-fs-sm: 0.875rem; // 14px
+$underline-fs-xs: 0.75rem; // 12px
+
+//line height
+$underline-lh-2xl: 2rem; // 32px
+$underline-lh-xl: 1.6875rem; // 27px
+$underline-lh-lg: 1.5rem; // 24px
+$underline-lh-md: 1.5rem; // 24px
+$underline-lh-sm: 1.25rem; // 20px
+$underline-lh-xs: 1rem; // 16px
+
+//letter spacing
+$underline-ls-2xl: -0.03125rem; // -0.5px
+$underline-ls-xl: -0.01875rem; // -0.3px
+$underline-ls-lg: -0.01875rem; // -0.3px
+$underline-ls-md: -0.01875rem; // -0.3px
+$underline-ls-sm: -0.0125rem; // -0.2px
+$underline-ls-xs: -0.0125rem; // -0.2px
+
+// font weight
+$underline-fw-2xl-default: $fw-regular;
+$underline-fw-2xl-strong: $fw-medium;
+$underline-fw-xl-default: $fw-regular;
+$underline-fw-xl-strong: $fw-medium;
+$underline-fw-lg-default: $fw-regular;
+$underline-fw-lg-strong: $fw-medium;    
+$underline-fw-md-default: $fw-regular;
+$underline-fw-md-strong: $fw-medium;
+$underline-fw-sm-default: $fw-regular;
+$underline-fw-sm-strong: $fw-medium;
+$underline-fw-xs-default: $fw-regular;
+$underline-fw-xs-strong: $fw-medium;
+/*----------  End of Underline font variables  ----------*/
 
 /*=====  End of Typography  ======*/
 
+
+
+
 /*=============================================
-=                 Breakpoints                 =
+=            Breakpoint            =
 =============================================*/
 
-$breakpoints: (
-	mobile_lg_width: 48rem,
-	// 768px
-	lg: $spacing(size-32),
-	// 1024px
-	xl: 80rem,
-	// 1280px
-);
+$breakpoint-mob-lg: 390px;
+$breakpoint-tab-md: 834px;
+$breakpoint-tab-lg: 1024px;
+$breakpoint-desk-sm: 1280px;
+$breakpoint-desk-md: 1600px;
+$breakpoint-desk-lg: 1920px;
 
-/*=====  End of Breakpoints  ======*/
+/*=====  End of Breakpoint  ======*/
+
+
+
+
+
+
 
 /*=============================================
 =            Spacing                          =
 =============================================*/
 
-$spacing: (
-	none: 0rem,         // 0px
-  xxxs: 0.25rem,      // 4px
-  xxs: 0.5rem,        // 8px
-  xs: 0.75rem,        // 12px
-  sm: 1rem,           // 16px
-  md: 1.5rem,         // 24px
-  lg: 2rem,           // 32px
-  xl: 3rem,           // 48px
-  xxl: 4.5rem,        // 72px
-  xxxl: 6rem,         // 96px
-
-  size-2: 0.125rem,      // 2px
-  size-4: 0.25rem,       // 4px
-  size-6: 0.375rem,      // 6px
-  size-8: 0.5rem,        // 8px
-  size-10: 0.625rem,     // 10px
-  size-12: 0.75rem,      // 12px
-  size-14: 0.875rem,     // 14px
-  size-16: 1rem,         // 16px
-  size-18: 1.125rem,     // 18px
-  size-20: 1.25rem,      // 20px
-  size-22: 1.375rem,     // 22px
-  size-24: 1.5rem,       // 24px
-  size-26: 1.625rem,     // 26px
-  size-28: 1.75rem,      // 28px
-  size-30: 1.875rem,     // 30px
-  size-32: 2rem,         // 32px
-  size-36: 2.25rem,      // 36px
-  size-40: 2.5rem,       // 40px
-  size-44: 2.75rem,      // 44px
-  size-48: 3rem,         // 48px
-  size-56: 3.5rem,       // 56px
-  size-64: 4rem,         // 64px
-  size-72: 4.5rem,       // 72px
-  size-80: 5rem,         // 80px
-  size-88: 5.5rem,       // 88px
-  size-96: 6rem,         // 96px
-  size-104: 6.5rem,      // 104px
-  size-112: 7rem,        // 112px
-  size-120: 7.5rem,      // 120px
-  size-128: 8rem,        // 128px
-  size-136: 8.5rem,      // 136px
-  size-144: 9rem,        // 144px
-  size-152: 9.5rem,      // 152px
-  size-160: 10rem,       // 160px
-  size-168: 10.5rem,     // 168px
-  size-176: 11rem,       // 176px
-  size-184: 11.5rem,     // 184px
-  size-192: 12rem,       // 192px
-  size-200: 12.5rem,     // 200px
-  size-208: 13rem,       // 208px
-  size-216: 13.5rem,     // 216px
-  size-224: 14rem,       // 224px
-  size-232: 14.5rem,     // 232px
-  size-240: 15rem,       // 240px
-  size-256: 16rem,       // 256px
-  size-272: 17rem,       // 272px
-  size-288: 18rem,       // 288px
-  size-304: 19rem,       // 304px
-  size-320: 20rem,       // 320px
-  size-336: 21rem,       // 336px
-  size-368: 23rem,       // 368px
-  size-400: 25rem,       // 400px
-  size-440: 27.5rem,     // 440px
-  size-480: 30rem,       // 480px
-  size-560: 35rem,       // 560px
-  size-640: 40rem,       // 640px
-  size-720: 45rem,       // 720px
-  size-800: 50rem,       // 800px
-  size-960: 60rem,       // 960px
-  size-1120: 70rem,      // 1120px
-  size-1280: 80rem,      // 1280px
-  size-1440: 90rem,      // 1440px
-  size-1600: 100rem      // 1600px
-)
-
+$global-size-0: 0rem;         // 0px
+$global-size-25: 0.125rem;   // 2px
+$global-size-50: 0.25rem;    // 4px
+$global-size-75: 0.375rem;   // 6px
+$global-size-100: 0.5rem;     // 8px
+$global-size-125: 0.625rem;   // 10px
+$global-size-150: 0.75rem;    // 12px
+$global-size-175: 0.875rem;   // 14px
+$global-size-200: 1rem;       // 16px
+$global-size-225: 1.125rem;   // 18px
+$global-size-250: 1.25rem;    // 20px
+$global-size-300: 1.5rem;     // 24px
+$global-size-350: 1.75rem;    // 28px
+$global-size-400: 2rem;       // 32px
+$global-size-450: 2.25rem;    // 36px
+$global-size-500: 2.5rem;     // 40px
+$global-size-550: 2.75rem;    // 44px
+$global-size-600: 3rem;       // 48px
+$global-size-700: 3.5rem;     // 56px
+$global-size-800: 4rem;       // 64px
+$global-size-900: 4.5rem;     // 72px
+$global-size-1000: 5rem;      // 80px
+$global-size-1200: 6rem;      // 96px
+$global-size-1400: 7rem;      // 112px
+$global-size-1600: 8rem;      // 128px
+$global-size-1800: 9rem;      // 144px
+$global-size-2000: 10rem;     // 160px
+$global-size-2200: 11rem;     // 176px
+$global-size-2400: 12rem;     // 192px
+$global-size-2600: 13rem;     // 208px
+$global-size-2800: 14rem;     // 224px
+$global-size-3000: 15rem;     // 240px
+$global-size-3200: 16rem;     // 256px
+$global-size-3600: 18rem;     // 288px
+$global-size-4000: 20rem;     // 320px
+$global-size-4800: 24rem;     // 384px
+$global-size-6000: 30rem;     // 480px
+$global-size-7000: 35rem;     // 560px
+$global-size-8000: 40rem;     // 640px
+$global-size-9000: 45rem;     // 720px
+$global-size-9600: 48rem;     // 768px
+$global-size-12800: 64rem;    // 1024px
+$global-size-16000: 80rem;    // 1280px
+$global-size-18000: 90rem;    // 1440px
+$global-size-20000: 100rem;   // 1600px
+$global-size-24000: 120rem;   // 1920px
+$global-size-full: 624.9375rem; // 9999px
 /*=====  End of Spacing  ======*/
+
+
+
 
 /*=============================================
 =                  Shadows                    =
 =============================================*/
 
-$shadows (
-	xs: 0 1px 2px rgba(18, 18, 23, 0.05),
-	sm: (0 1px 3px rgba(18, 18, 23, 0.10), 0 1px 2px rgba(18, 18, 23, 0.06)),
-	md: (0 4px 6px -1px rgba(18, 18, 23, 0.08), 0 2px 4px -1 rgba(18, 18, 23, 0.06)),
-	lg:  (0 10px 15px -3px rgba(18, 18, 23, 0.08), 0 4px 6px -2px rgba(18, 18, 23, 0.05)),
-	xl: (0 10px 20px -5px rgba(18, 18, 23, 0.04), 0 20px 65px -5px rgba(18, 18, 23, 0.04)),
-	2xl: 0 25px 80px -12px rgba(18, 18, 23, 0.16),
-	3xl:  -12px 12px 24px rgba(18, 18, 23, 0.24),
-	overlay: (0 0px 0px 1px rgba(255, 255, 255, 0.24), 0 24px 48px rgba(18, 18, 23, 0.03),0 10px 18px rgba(18, 18, 23, 0.03),0 5px 8px rgba(18, 18, 23, 0.04),0 2px 4px rgba(18, 18, 23, 0.04))
-);
+$shadow-xs: 0 1px 2px rgba(18, 18, 23, 0.05);
+$shadow-sm: (0 1px 3px rgba(18, 18, 23, 0.10), 0 1px 2px rgba(18, 18, 23, 0.06));
+$shadow-md: (0 4px 6px -1px rgba(18, 18, 23, 0.08), 0 2px 4px -1 rgba(18, 18, 23, 0.06));
+$shadow-lg: (0 10px 15px -3px rgba(18, 18, 23, 0.08), 0 4px 6px -2px rgba(18, 18, 23, 0.05));
+$shadow-xl: (0 10px 20px -5px rgba(18, 18, 23, 0.04), 0 20px 65px -5px rgba(18, 18, 23, 0.04));
+$shadow-2xl: 0 25px 80px -12px rgba(18, 18, 23, 0.16);
+$shadow-3xl: -12px 12px 24px rgba(18, 18, 23, 0.24);
+$shadow-overlay: (0 0px 0px 1px rgba(255, 255, 255, 0.24), 0 24px 48px rgba(18, 18, 23, 0.03),0 10px 18px rgba(18, 18, 23, 0.03),0 5px 8px rgba(18, 18, 23, 0.04),0 2px 4px rgba(18, 18, 23, 0.04));
 
 /*=====  End of Shadows  ======*/
