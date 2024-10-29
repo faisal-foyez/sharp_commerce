@@ -4,53 +4,53 @@
 =============================================*/
 
 /*----------  Fuchsia  ----------*/
-$other-color-fuchsia-default: $global-fuchsia-400 !default;
-$other-color-fuchsia-light: $global-fuchsia-100 !default;
-$other-color-fuchsia-xlight: $global-fuchsia-25 !default;
+$other-color-fuchsia-default: var(--dsc-other-color-fuchsia-default, $global-fuchsia-400); // #D638EE
+$other-color-fuchsia-light: var(--dsc-other-color-fuchsia-light, $global-fuchsia-100); // #ECA5F7
+$other-color-fuchsia-xlight: var(--dsc-other-color-fuchsia-xlight, $global-fuchsia-25); // #FBEDFD
 
-$dark-other-color-fuchsia-default: $global-fuchsia-600 !default;
-$dark-other-color-fuchsia-light: $global-fuchsia-800 !default;
-$dark-other-color-fuchsia-xlight: $global-fuchsia-900 !default;
+$dark-other-color-fuchsia-default: var(--dsc-dark-other-color-fuchsia-default, $global-fuchsia-600); // #AF11C7
+$dark-other-color-fuchsia-light: var(--dsc-dark-other-color-fuchsia-light, $global-fuchsia-800); // #6F0B7E
+$dark-other-color-fuchsia-xlight: var(--dsc-dark-other-color-fuchsia-xlight, $global-fuchsia-900); // #50085A
 
 /*----------  Purple  ----------*/
-$other-color-purple-default: $global-purple-400 !default;
-$other-color-purple-light: $global-purple-100 !default;
-$other-color-purple-xlight: $global-purple-25 !default;
+$other-color-purple-default: var(--dsc-other-color-purple-default, $global-purple-400); // #9631F5
+$other-color-purple-light: var(--dsc-other-color-purple-light, $global-purple-100); // #CFA1FB
+$other-color-purple-xlight: var(--dsc-other-color-purple-xlight, $global-purple-25); // #F5ECFE
 
-$dark-other-color-purple-default: $global-purple-600 !default;
-$dark-other-color-purple-light: $global-purple-800 !default;
-$dark-other-color-purple-xlight: $global-purple-900 !default;
+$dark-other-color-purple-default: var(--dsc-dark-other-color-purple-default, $global-purple-600); // #6E0ACE
+$dark-other-color-purple-light: var(--dsc-dark-other-color-purple-light, $global-purple-800); // #460683
+$dark-other-color-purple-xlight: var(--dsc-dark-other-color-purple-xlight, $global-purple-900); // #32045E
 
 /*----------  Cyan  ----------*/
-$other-color-cyan-default: $global-cyan-400 !default;
-$other-color-cyan-light: $global-cyan-100 !default;
-$other-color-cyan-xlight: $global-cyan-25 !default;
+$other-color-cyan-default: $global-cyan-400 !default; // #00B2A9
+$other-color-cyan-light: var(--dsc-other-color-cyan-light, $global-cyan-100); // #A0E0E0
+$other-color-cyan-xlight: var(--dsc-other-color-cyan-xlight, $global-cyan-25); // #E0F7F7
 
-$dark-other-color-cyan-default: $global-cyan-600 !default;
-$dark-other-color-cyan-light: $global-cyan-800 !default;
-$dark-other-color-cyan-xlight: $global-cyan-900 !default;
+$dark-other-color-cyan-default: var(--dsc-dark-other-color-cyan-default, $global-cyan-600); // #008C8C
+$dark-other-color-cyan-light: var(--dsc-dark-other-color-cyan-light, $global-cyan-800); // #005757
+$dark-other-color-cyan-xlight: var(--dsc-dark-other-color-cyan-xlight, $global-cyan-900); // #003737
 
 /*----------  Pink  ----------*/
-$other-color-pink-default: $global-pink-400 !default;
-$other-color-pink-light: $global-pink-100 !default;
-$other-color-pink-xlight: $global-pink-25 !default;
+$other-color-pink-default: $global-pink-400 !default; // #D638EE
+$other-color-pink-light: var(--dsc-other-color-pink-light, $global-pink-100); // #ECA5F7
+$other-color-pink-xlight: var(--dsc-other-color-pink-xlight, $global-pink-25); // #FBEDFD
 
-$dark-other-color-pink-default: $global-pink-600 !default;
-$dark-other-color-pink-light: $global-pink-800 !default;
-$dark-other-color-pink-xlight: $global-pink-900 !default;
+$dark-other-color-pink-default: var(--dsc-dark-other-color-pink-default, $global-pink-600); // #AF11C7
+$dark-other-color-pink-light: var(--dsc-dark-other-color-pink-light, $global-pink-800); // #6F0B7E
+$dark-other-color-pink-xlight: var(--dsc-dark-other-color-pink-xlight, $global-pink-900); // #50085A
 
 /*----------  Sky  ----------*/
-$other-color-sky-default: $global-sky-400 !default;
-$other-color-sky-light: $global-sky-100 !default;
-$other-color-sky-xlight: $global-sky-25 !default;
+$other-color-sky-default: $global-sky-400 !default; // #00B2E0
+$other-color-sky-light: var(--dsc-other-color-sky-light, $global-sky-100); // #A0E0F7
+$other-color-sky-xlight: var(--dsc-other-color-sky-xlight, $global-sky-25); // #E0F7FF
 
-$dark-other-color-sky-default: $global-sky-600 !default;
-$dark-other-color-sky-light: $global-sky-800 !default;
-$dark-other-color-sky-xlight: $global-sky-900 !default;
+$dark-other-color-sky-default: var(--dsc-dark-other-color-sky-default, $global-sky-600); // #008CBA
+$dark-other-color-sky-light: var(--dsc-dark-other-color-sky-light, $global-sky-800); // #005B8C
+$dark-other-color-sky-xlight: var(--dsc-dark-other-color-sky-xlight, $global-sky-900); // #003B5A
 
 /*----------  Black  ----------*/
-$other-color-black-default: #000000 !default;
+$other-color-black-default: var(--dsc-other-color-black-default, $black) !default; // #000000
 
-$dark-other-color-black-default: $semantic-base-00 !default;
+$dark-other-color-black-default: var(--dsc-dark-other-color-black-default, $white) !default; // #FFFFFF
 
 /*=====  End of Other Color Tokens  ======*/
