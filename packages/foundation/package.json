@@ -1,0 +1,14 @@
+{
+  "name": "@dsc/foundation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "exports": {
+    "./lib/*": "./lib/*"
+  },
+  "license": "MIT",
+
+  "scripts": {
+    "build":"tsc",
+    "dev":"yarn build -w"
+  }
+}

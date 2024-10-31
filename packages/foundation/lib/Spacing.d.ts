@@ -1,0 +1,26 @@
+declare const _default: Readonly<{
+    zero: string;
+    '5xs': string;
+    '4xs': string;
+    '3xs': string;
+    '2xs': string;
+    xs: string;
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+    '2xl': string;
+    '3xl': string;
+    '4xl': string;
+    '5xl': string;
+    '6xl': string;
+    '7xl': string;
+    '8xl': string;
+    '9xl': string;
+    '10xl': string;
+    '11xl': string;
+    '12xl': string;
+    '13xl': string;
+    '14xl': string;
+}>;
+export default _default;
