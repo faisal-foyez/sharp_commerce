@@ -39,9 +39,53 @@
 /*=============================================
 =            Colors                           =
 =============================================*/
-/* Brand Color */
-/* Neutral Colors */
-/* Utility Colors */
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Violet colors */
+/* Purple colors */
+/* Indigo colors */
+/* Blue light colors */
+/* Blue dark colors*/
+/* Blue gray colors */
+/* Blue colors */
+/* Cyan colors */
+/* Dimgray colors */
+/* Emerald colors */
+/* Gold colors */
+/* Green colors */
+/* Green dark colors */
+/* Lime colors */
+/* Orange colors */
+/* Pink colors */
+/* Rose colors */
+/* Red colors */
+/* Red dark colors */
+/* Sky colors */
+/* Slate colors */
+/* Stone colors */
+/* Teal colors */
+/* Yellow colors */
+/* Yellow dark colors */
+/* Zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
 /*=====  End of Colors  ======*/
 /*=============================================
 =                 Typography                  =
@@ -57,14 +101,27 @@
  */
 /* 1 */
 /* 2 */
-/* Font Sizes */
-/* Heading Font Sizes */
-/* Font Weights */
+/*----------  End of Font Familie  ----------*/
+/*----------  Font weights  ----------*/
+/*----------  End of Font weights  ----------*/
+/*----------  Display font variables  ----------*/
+/*----------  End of Display font variables  ----------*/
+/*----------  Heading font variables  ----------*/
+/*----------  End of Heading font variables  ----------*/
+/*----------  Body font variables  ----------*/
+/* body font size */
+/* body line height */
+/* body letter spacing */
+/*----------  End of Body font variables  ----------*/
+/*----------  Label font variables  ----------*/
+/*----------  End of Label font variables  ----------*/
+/*----------  Underline font variables  ----------*/
+/*----------  End of Underline font variables  ----------*/
 /*=====  End of Typography  ======*/
 /*=============================================
-=                 Breakpoints                 =
+=            Breakpoint            =
 =============================================*/
-/*=====  End of Breakpoints  ======*/
+/*=====  End of Breakpoint  ======*/
 /*=============================================
 =            Spacing                          =
 =============================================*/
@@ -74,54 +131,186 @@
 =============================================*/
 /*=====  End of Shadows  ======*/
 /*=============================================
+=            Spacing             =
+=============================================*/
+/*=====  End of Spacing   ======*/
+/*=============================================
+=            Corner Radius            =
+=============================================*/
+/*=====  End of Corner Radius  ======*/
+/*=============================================
+=            Breakpoints           =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
 =        Foundation - Typography              =
 =============================================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* 1 */
+/* 2 */
 /**
  * This file defines the default font sizes to be used on headings and texts. The defaults come
  * from the palette defined in _variables.scss.
  */
-/*=============================================
-=            Body font family                  =
-=============================================*/
-/*=============================================
-=            Body font sizes                  =
-=============================================*/
-/*=============================================
-=            Heading font sizes               =
-=============================================*/
-/*=============================================
-=            Head font weights                =
-=============================================*/
+/*----------  Heading font variables  ----------*/
 /*=============================================
 =            Foundation - colors              =
 =============================================*/
 /**
  * This file defines the actual colors that will be used for styling. They will default to the palette
- * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * we defined in the _variables.scss file. This is our default palette, and devs can override this
  * with their own variables.
  */
-/**
- *
- * Defining a softastructions]
- * 1. define a name
- * 2. value of the variable will be a css var, 
- *    so the consumer of the design system won't have to use scss
- * 3. default value will be a scss variable that we declared previously
- * 4. added !default flag so consumer of the design system can override the scss variable 
- * 5. the --dse prefix of the variable name is a namespace (project name)
- * [dse - design system for engineering]
- */
 /*=============================================
-=            Global text colors               =
+=            Global Colors Palette                    =
 =============================================*/
-/*=====  End of Text Color  ======*/
+/* Global fuchsia colors */
+/* Global violet colors */
+/* Global purple colors */
+/* Global indigo colors */
+/* Global blue light colors */
+/* Global blue dark colors*/
+/* Global blue gray colors */
+/* Global blue colors */
+/* Global cyan colors */
+/* Global dimgray colors */
+/* Global emerald colors */
+/* Global gold colors */
+/* Global green colors */
+/* Global green dark colors */
+/* Global lime colors */
+/* Global orange colors */
+/* Global pink colors */
+/* Global rose colors */
+/* Global red colors */
+/* Global red dark colors */
+/* Global sky colors */
+/* Global slate colors */
+/* Global stone colors */
+/* Global teal colors */
+/* Global yellow colors */
+/* Global yellow dark colors */
+/* Global zinc colors */
+/*=====  End of Global colors palette ======*/
 /*=============================================
-=                   Buttons                   =
+=            Semantic colors            =
 =============================================*/
-/*=====  End of Buttons  ======*/
+/*----------  Semantic Base  ----------*/
+/*---------- Semantic Brand  ----------*/
+/*----------  Dark Semantic Brand  ----------*/
+/*----------  Dark Semantic brand_alt  ----------*/
+/*----------  Semantic neutral  ----------*/
+/*----------  Semantic success  ----------*/
+/*----------  Dark Semantic success  ----------*/
+/*----------  Semantic warning  ----------*/
+/*----------  Dark Semantic warning  ----------*/
+/*----------  Semantic error  ----------*/
+/*----------  Dark Semantic error  ----------*/
+/*=====  End of Semantic colors  ======*/
 /*=============================================
-=                    Forms                    =
+=            Transparent colors tokens            =
 =============================================*/
+/*---------- Transparent Colors  ----------*/
+/*---------- Dark Semantic transparent Colors  ----------*/
+/*----------  Brand Transparent Colors  ----------*/
+/*=====  End of Transparent colors tokens  ======*/
+/*=============================================
+=            Background colors tokens            =
+=============================================*/
+/*----------  Background Semantic Base Colors  ----------*/
+/*---------- Dark Background Semantic Colors  ----------*/
+/*----------  Background Semantic Brand Colors  ----------*/
+/*----------  Dark Background Semantic Brand Colors  ----------*/
+/*----------  Background Semantic Neutral Colors  ----------*/
+/*----------  Dark Background Semantic Neutral Colors  ----------*/
+/*----------  Background Semantic Success Colors  ----------*/
+/*----------  Dark Background Semantic Success Colors  ----------*/
+/*----------  Background Semantic Warning Colors  ----------*/
+/*----------  Dark Background Semantic Warning Colors  ----------*/
+/*----------  Background Semantic Error Colors  ----------*/
+/*----------  Dark Background Semantic Error Colors  ----------*/
+/*=====  End of Background colors tokens  ======*/
+/*=============================================
+=            Foreground colors tokens            =
+=============================================
+
+/*----------  Foreground Semantic Neutral Colors  ----------*/
+/*----------  Dark Foreground Semantic Neutral Colors  ----------*/
+/*----------  Foreground Semantic Light Colors  ----------*/
+/*----------  Dark Foreground Semantic Light Colors  ----------*/
+/*----------  Foreground Semantic Brand Colors  ----------*/
+/*----------  Dark Foreground Semantic Brand Colors  ----------*/
+/*----------  Foreground Semantic Success Colors  ----------*/
+/*----------  Dark Foreground Semantic Success Colors  ----------*/
+/*----------  Foreground Semantic Warning Colors  ----------*/
+/*----------  Dark Foreground Semantic Warning Colors  ----------*/
+/*----------  Foreground Semantic Error Colors  ----------*/
+/*----------  Dark Foreground Semantic Error Colors  ----------*/
+/*----------  Foreground Semantic Link Colors  ----------*/
+/*----------  Dark Foreground Semantic Link Colors  ----------*/
+/*=====  End of Foreground colors tokens  ======*/
+/*=============================================
+=            Border colors tokens            =
+=============================================*/
+/*----------  Border Semantic Base Colors  ----------*/
+/*----------  Dark Border Semantic Base Colors  ----------*/
+/*----------  Border Semantic Neutral Colors  ----------*/
+/*----------  Dark Border Semantic Neutral Colors  ----------*/
+/*----------  Border Semantic Brand Colors  ----------*/
+/*----------  Dark Border Semantic Brand Colors  ----------*/
+/*----------  Border Semantic Success Colors  ----------*/
+/*----------  Dark Border Semantic Success Colors  ----------*/
+/*----------  Border Semantic Warning Colors  ----------*/
+/*----------  Dark Border Semantic Warning Colors  ----------*/
+/*----------  Border Semantic Error Colors  ----------*/
+/*----------  Dark Border Semantic Error Colors  ----------*/
+/*=====  End of Border colors tokens  ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=============================================
+=            Action color tokens            =
+=============================================*/
+/*----------  Action Background Base Colors  ----------*/
+/*----------  Action Background Brand Colors  ----------*/
+/*----------  Action Background Neutral Colors  ----------*/
+/*----------  Action Background Error Colors  ----------*/
+/*----------  Action Background Success Colors  ----------*/
+/*----------  Action Background Warning Colors  ----------*/
+/*----------  Action Foreground Base Colors  ----------*/
+/*----------  Action Foreground Brand Colors  ----------*/
+/*----------  Action Foreground Neutral Colors  ----------*/
+/*----------  Action Foreground Error Colors  ----------*/
+/*----------  Action Foreground Success Colors  ----------*/
+/*----------  Action Foreground Warning Colors  ----------*/
+/*----------  Action Border Brand Colors  ----------*/
+/*----------  Action Border Neutral Colors  ----------*/
+/*----------  Action Border Error Colors  ----------*/
+/*----------  Action Border Success Colors  ----------*/
+/*----------  Action Border Warning Colors  ----------*/
+/*=============================================
+=            Other Color Tokens               =
+=============================================*/
+/*----------  Fuchsia  ----------*/
+/*----------  Purple  ----------*/
+/*----------  Cyan  ----------*/
+/*----------  Pink  ----------*/
+/*----------  Sky  ----------*/
+/*----------  Black  ----------*/
+/*=====  End of Other Color Tokens  ======*/
 /*=============================================
 =            Mixins                           =
 =============================================*/
@@ -193,27 +382,27 @@ a:hover, a:active {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: var(--dsc-h1-font-size, 4rem);
   margin: 0.67em 0;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: var(--dsc-h2-font-size, 3.5rem);
   margin: 0.83em 0;
 }
 
 h3 {
-  font-size: 1.17em;
+  font-size: var(--dsc-h3-font-size, 2.5rem);
   margin: 1em 0;
 }
 
 h4 {
-  font-size: 1em;
+  font-size: var(--dsc-h4-font-size, 2rem);
   margin: 1.33em 0;
 }
 
 h5 {
-  font-size: 0.83em;
+  font-size: var(--dsc-h5-font-size, 1.5rem);
   margin: 1.67em 0;
 }
 
@@ -377,30 +566,1485 @@ input[type=checkbox], input[type=radio] {
  *
  */
 :root {
-  --dse-body-text-color: #1d1f22;
-  --dse-body-bg-color: #fff;
-  --dse-btn-primary-color: #fff;
-  --dse-btn-primary-bg: #5ece7b;
-  --dse-btn-primary-bg-hover: #9ee2b0;
-  --dse-btn-secondary-color: #fff;
-  --dse-btn-secondary-bg: #1d1f22;
-  --dse-form-color: #1d1f22;
-  --dse-form-bg: #fff;
-  --dse-form-error-color: #d12727;
-  --dse-form-error-border: #d12727;
-  --dse-form-border-focus-color: #5ece7b;
-  --dse-body-font-size: 1rem;
-  --dse-body-font-weight: 400;
-  --dse-h1-font-size: 1.5rem;
-  --dse-h2-font-size: 1.375rem;
-  --dse-h3-font-size: 1.125rem;
-  --dse-h4-font-size: 1rem;
-  --dse-h5-font-size: 0.75rem;
-  --dse-h6-font-size: 0.75rem;
-  --dse-h1-font-weight: 500;
-  --dse-h2-font-weight: 500;
-  --dse-h3-font-weight: 500;
-  --dse-h4-font-weight: 400;
-  --dse-h5-font-weight: 400;
-  --dse-h6-font-weight: 300;
+  /*=============================================
+  =            Global Colors Palette                    =
+  =============================================*/
+  /* Global fuchsia colors */
+  --dsc-global-fuchsia-25:#FBEDFD;
+  --dsc-global-fuchsia-50:#F4C9FA;
+  --dsc-global-fuchsia-100:#ECA5F7;
+  --dsc-global-fuchsia-200:#E581F4;
+  --dsc-global-fuchsia-300:#DE5DF1;
+  --dsc-global-fuchsia-400:#D638EE;
+  --dsc-global-fuchsia-500:#CF14EB;
+  --dsc-global-fuchsia-600:#AF11C7;
+  --dsc-global-fuchsia-700:#8F0EA2;
+  --dsc-global-fuchsia-800:#6F0B7E;
+  --dsc-global-fuchsia-900:#50085A;
+  /* Global violet colors */
+  --dsc-global-violet-25:#F1ECFE;
+  --dsc-global-violet-50:#D4C7FD;
+  --dsc-global-violet-100:#B8A1FB;
+  --dsc-global-violet-200:#9B7BF9;
+  --dsc-global-violet-300:#7F56F8;
+  --dsc-global-violet-400:#6230F6;
+  --dsc-global-violet-500:#460BF4;
+  --dsc-global-violet-600:#3B09CF;
+  --dsc-global-violet-700:#3007A9;
+  --dsc-global-violet-800:#250684;
+  --dsc-global-violet-900:#1B045E;
+  /* Global purple colors */
+  --dsc-global-purple-25:#F5ECFE;
+  --dsc-global-purple-50:#E2C7FC;
+  --dsc-global-purple-100:#CFA1FB;
+  --dsc-global-purple-200:#BC7CF9;
+  --dsc-global-purple-300:#A956F7;
+  --dsc-global-purple-400:#9631F5;
+  --dsc-global-purple-500:#820BF4;
+  --dsc-global-purple-600:#6E0ACE;
+  --dsc-global-purple-700:#5A08A9;
+  --dsc-global-purple-800:#460683;
+  --dsc-global-purple-900:#32045E;
+  /* Global indigo colors */
+  --dsc-global-indigo-25:#F4F5FF;
+  --dsc-global-indigo-50:#DDDFFF;
+  --dsc-global-indigo-100:#C6CAFF;
+  --dsc-global-indigo-200:#B7BDFF;
+  --dsc-global-indigo-300:#9CA5FD;
+  --dsc-global-indigo-400:#7D88F4;
+  --dsc-global-indigo-500:#636DD3;
+  --dsc-global-indigo-600:#4C56BB;
+  --dsc-global-indigo-700:#3C449F;
+  --dsc-global-indigo-800:#303783;
+  --dsc-global-indigo-900:#242967;
+  /* Global blue light colors */
+  --dsc-global-blue-light-25:#E1EBFF;
+  --dsc-global-blue-light-50:#D1E0FF;
+  --dsc-global-blue-light-100:#B2CCFF;
+  --dsc-global-blue-light-200:#92B6FF;
+  --dsc-global-blue-light-300:#72A1FF;
+  --dsc-global-blue-light-400:#538CFF;
+  --dsc-global-blue-light-500:#4382FF;
+  --dsc-global-blue-light-600:#3B6ED5;
+  --dsc-global-blue-light-700:#335BAA;
+  --dsc-global-blue-light-800:#1B356A;
+  --dsc-global-blue-light-900:#1A2B4D;
+  /* Global blue dark colors*/
+  --dsc-global-blue-dark-25:#DFE6FB;
+  --dsc-global-blue-dark-50:#CED9FB;
+  --dsc-global-blue-dark-100:#AABFFC;
+  --dsc-global-blue-dark-200:#87A6FD;
+  --dsc-global-blue-dark-300:#658BFE;
+  --dsc-global-blue-dark-400:#4174FF;
+  --dsc-global-blue-dark-500:#1B54FF;
+  --dsc-global-blue-dark-600:#1645D3;
+  --dsc-global-blue-dark-700:#1036A8;
+  --dsc-global-blue-dark-800:#0B277C;
+  --dsc-global-blue-dark-900:#041546;
+  /* Global blue gray colors */
+  --dsc-global-blue-gray-25:#F0F3F7;
+  --dsc-global-blue-gray-50:#E2E8EE;
+  --dsc-global-blue-gray-100:#BCCAD9;
+  --dsc-global-blue-gray-200:#8EA6BF;
+  --dsc-global-blue-gray-300:#6989AA;
+  --dsc-global-blue-gray-400:#446C95;
+  --dsc-global-blue-gray-500:#365677;
+  --dsc-global-blue-gray-600:#294059;
+  --dsc-global-blue-gray-700:#213447;
+  --dsc-global-blue-gray-800:#192736;
+  --dsc-global-blue-gray-900:#0C1926;
+  /* Global blue colors */
+  --dsc-global-blue-25:#F2F5FF;
+  --dsc-global-blue-50:#E8EDFF;
+  --dsc-global-blue-100:#AEBFFF;
+  --dsc-global-blue-200:#94ABFF;
+  --dsc-global-blue-300:#6F8EFF;
+  --dsc-global-blue-400:#4A72FF;
+  --dsc-global-blue-500:#1B4DFF;
+  --dsc-global-blue-600:#0F3CD9;
+  --dsc-global-blue-700:#0F3CD9;
+  --dsc-global-blue-800:#042185;
+  --dsc-global-blue-900:#00114A;
+  /* Global cyan colors */
+  --dsc-global-cyan-25:#EDFBFE;
+  --dsc-global-cyan-50:#C9F4FB;
+  --dsc-global-cyan-100:#A4EDF8;
+  --dsc-global-cyan-200:#80E5F5;
+  --dsc-global-cyan-300:#5CDEF2;
+  --dsc-global-cyan-400:#38D6EF;
+  --dsc-global-cyan-500:#13CFEC;
+  --dsc-global-cyan-600:#10AFC7;
+  --dsc-global-cyan-700:#0D8FA3;
+  --dsc-global-cyan-800:#0A6F7F;
+  --dsc-global-cyan-900:#07505B;
+  /* Global dimgray colors */
+  --dsc-global-dimgray-25:#F5F5F5;
+  --dsc-global-dimgray-50:#E2E2E2;
+  --dsc-global-dimgray-100:#CECECE;
+  --dsc-global-dimgray-200:#BABABA;
+  --dsc-global-dimgray-300:#A7A7A7;
+  --dsc-global-dimgray-400:#939393;
+  --dsc-global-dimgray-500:#808080;
+  --dsc-global-dimgray-600:#6C6C6C;
+  --dsc-global-dimgray-700:#585858;
+  --dsc-global-dimgray-800:#454545;
+  --dsc-global-dimgray-900:#313131;
+  /* Global emerald colors */
+  --dsc-global-emerald-25:#EDFBF7;
+  --dsc-global-emerald-50:#DBF6EE;
+  --dsc-global-emerald-100:#ADEBD9;
+  --dsc-global-emerald-200:#75DEBF;
+  --dsc-global-emerald-300:#49D3AA;
+  --dsc-global-emerald-400:#1BC895;
+  --dsc-global-emerald-500:#16A077;
+  --dsc-global-emerald-600:#107759;
+  --dsc-global-emerald-700:#0D6047;
+  --dsc-global-emerald-800:#0A4836;
+  --dsc-global-emerald-900:#053A2B;
+  /* Global gold colors */
+  --dsc-global-gold-25:#FFFAF1;
+  --dsc-global-gold-50:#FFF5E4;
+  --dsc-global-gold-100:#FFEDCF;
+  --dsc-global-gold-200:#FFE5BB;
+  --dsc-global-gold-300:#FFD48F;
+  --dsc-global-gold-400:#F3CE92;
+  --dsc-global-gold-500:#E0BB7F;
+  --dsc-global-gold-600:#C19C60;
+  --dsc-global-gold-700:#8F6A2E;
+  --dsc-global-gold-800:#715324;
+  --dsc-global-gold-900:#5C431A;
+  /* Global green colors */
+  --dsc-global-green-25:#EAFEF5;
+  --dsc-global-green-50:#D7F8E9;
+  --dsc-global-green-100:#8FE7B8;
+  --dsc-global-green-200:#48D28E;
+  --dsc-global-green-300:#2FD181;
+  --dsc-global-green-400:#1DB469;
+  --dsc-global-green-500:#11A75C;
+  --dsc-global-green-600:#0A9952;
+  --dsc-global-green-700:#048746;
+  --dsc-global-green-800:#046A37;
+  --dsc-global-green-900:#02542B;
+  /* Global green dark colors */
+  --dsc-global-green-dark-25:#A6F4CE;
+  --dsc-global-green-dark-50:#98EEC4;
+  --dsc-global-green-dark-100:#7BE1AF;
+  --dsc-global-green-dark-200:#5FD49A;
+  --dsc-global-green-dark-300:#43C785;
+  --dsc-global-green-dark-400:#26BA70;
+  --dsc-global-green-dark-500:#18B466;
+  --dsc-global-green-dark-600:#149454;
+  --dsc-global-green-dark-700:#107542;
+  --dsc-global-green-dark-800:#0B5531;
+  --dsc-global-green-dark-900:#012C16;
+  /* Global lime colors */
+  --dsc-global-lime-25:#F4FFE1;
+  --dsc-global-lime-50:#E4FFB8;
+  --dsc-global-lime-100:#D5FD95;
+  --dsc-global-lime-200:#C5FB6E;
+  --dsc-global-lime-300:#AFEF47;
+  --dsc-global-lime-400:#A3E635;
+  --dsc-global-lime-500:#94DA22;
+  --dsc-global-lime-600:#81C515;
+  --dsc-global-lime-700:#73B10F;
+  --dsc-global-lime-800:#5E9409;
+  --dsc-global-lime-900:#497305;
+  /* Global orange colors */
+  --dsc-global-orange-25:#FFF6ED;
+  --dsc-global-orange-50:#FFEBD8;
+  --dsc-global-orange-100:#FFD8B4;
+  --dsc-global-orange-200:#FFC793;
+  --dsc-global-orange-300:#FFAD62;
+  --dsc-global-orange-400:#FC8E28;
+  --dsc-global-orange-500:#FC8415;
+  --dsc-global-orange-600:#EB7101;
+  --dsc-global-orange-700:#D26500;
+  --dsc-global-orange-800:#B45600;
+  --dsc-global-orange-900:#884202;
+  /* Global pink colors */
+  --dsc-global-pink-25:#FFF3F8;
+  --dsc-global-pink-50:#FFDEEC;
+  --dsc-global-pink-100:#FFBED9;
+  --dsc-global-pink-200:#FFA0C8;
+  --dsc-global-pink-300:#FB6CA7;
+  --dsc-global-pink-400:#E9538D;
+  --dsc-global-pink-500:#E42F75;
+  --dsc-global-pink-600:#CF195F;
+  --dsc-global-pink-700:#BC0F51;
+  --dsc-global-pink-800:#99053E;
+  --dsc-global-pink-900:#78002E;
+  /* Global rose colors */
+  --dsc-global-rose-25:#FEECEF;
+  --dsc-global-rose-50:#FFDADF;
+  --dsc-global-rose-100:#FFC2CB;
+  --dsc-global-rose-200:#FF9CAA;
+  --dsc-global-rose-300:#FF8596;
+  --dsc-global-rose-400:#F6697D;
+  --dsc-global-rose-500:#F54C64;
+  --dsc-global-rose-600:#EB2743;
+  --dsc-global-rose-700:#DB1733;
+  --dsc-global-rose-800:#C10F29;
+  --dsc-global-rose-900:#A00017;
+  /* Global red colors */
+  --dsc-global-red-25:#FFF5F4;
+  --dsc-global-red-50:#FFDCDA;
+  --dsc-global-red-100:#FFC5C1;
+  --dsc-global-red-200:#FFA19B;
+  --dsc-global-red-300:#FF7A72;
+  --dsc-global-red-400:#FF574D;
+  --dsc-global-red-500:#FF3838;
+  --dsc-global-red-600:#E92215;
+  --dsc-global-red-700:#D21A0E;
+  --dsc-global-red-800:#BE170C;
+  --dsc-global-red-900:#AB0A00;
+  /* Global red dark colors */
+  --dsc-global-red-dark-50:#FECBCB;
+  --dsc-global-red-dark-100:#FBA8A8;
+  --dsc-global-red-dark-200:#F98484;
+  --dsc-global-red-dark-300:#F66161;
+  --dsc-global-red-dark-500:#E32D2D;
+  --dsc-global-red-dark-600:#C62424;
+  --dsc-global-red-dark-700:#AF3B33;
+  --dsc-global-red-dark-800:#9C2A22;
+  --dsc-global-red-dark-900:#4F1618;
+  /* Global sky colors */
+  --dsc-global-sky-25:#F3FAFF;
+  --dsc-global-sky-50:#E4F4FF;
+  --dsc-global-sky-100:#C2E6FF;
+  --dsc-global-sky-200:#B0E3FF;
+  --dsc-global-sky-300:#6AC9FF;
+  --dsc-global-sky-400:#3CAAFA;
+  --dsc-global-sky-500:#2497EB;
+  --dsc-global-sky-600:#1580CD;
+  --dsc-global-sky-700:#1177C0;
+  --dsc-global-sky-800:#0D5E99;
+  --dsc-global-sky-900:#033F6B;
+  /* Global slate colors */
+  --dsc-global-slate-25:#F9FAFB;
+  --dsc-global-slate-50:#F0F3F9;
+  --dsc-global-slate-100:#E9EFF6;
+  --dsc-global-slate-200:#D7DFE9;
+  --dsc-global-slate-300:#AFBACA;
+  --dsc-global-slate-400:#8897AE;
+  --dsc-global-slate-500:#5E718D;
+  --dsc-global-slate-600:#455468;
+  --dsc-global-slate-700:#3D4A5C;
+  --dsc-global-slate-800:#2D3643;
+  --dsc-global-slate-900:#1C222B;
+  /* Global stone colors */
+  --dsc-global-stone-25:#F9F8F7;
+  --dsc-global-stone-50:#F3F2EF;
+  --dsc-global-stone-100:#E3E1DA;
+  --dsc-global-stone-200:#D0CCC1;
+  --dsc-global-stone-300:#C1BCAD;
+  --dsc-global-stone-400:#B2AB98;
+  --dsc-global-stone-500:#8E897A;
+  --dsc-global-stone-600:#6A665B;
+  --dsc-global-stone-700:#555249;
+  --dsc-global-stone-800:#403E37;
+  --dsc-global-stone-900:#2B2924;
+  /* Global teal colors */
+  --dsc-global-teal-25:#E8FDF9;
+  --dsc-global-teal-50:#D3F8F2;
+  --dsc-global-teal-100:#B0F5EB;
+  --dsc-global-teal-200:#88EFE0;
+  --dsc-global-teal-300:#5EEAD5;
+  --dsc-global-teal-400:#1EDCC5;
+  --dsc-global-teal-500:#27CAB5;
+  --dsc-global-teal-600:#1DB19F;
+  --dsc-global-teal-700:#159383;
+  --dsc-global-teal-800:#0E786B;
+  --dsc-global-teal-900:#065A50;
+  /* Global yellow colors */
+  --dsc-global-yellow-25:#FFF9DF;
+  --dsc-global-yellow-50:#FFF2C4;
+  --dsc-global-yellow-100:#FFE99D;
+  --dsc-global-yellow-200:#F7DC7C;
+  --dsc-global-yellow-300:#F8D34F;
+  --dsc-global-yellow-400:#F5C61E;
+  --dsc-global-yellow-500:#E9B90B;
+  --dsc-global-yellow-600:#D8A800;
+  --dsc-global-yellow-700:#B18A00;
+  --dsc-global-yellow-800:#896B00;
+  --dsc-global-yellow-900:#624D00;
+  /* Global yellow dark colors */
+  --dsc-global-yellow-dark-25:#FCF0C5;
+  --dsc-global-yellow-dark-50:#FAEBB4;
+  --dsc-global-yellow-dark-100:#F6E092;
+  --dsc-global-yellow-dark-200:#F3D671;
+  --dsc-global-yellow-dark-300:#EFCC4F;
+  --dsc-global-yellow-dark-400:#EBC12D;
+  --dsc-global-yellow-dark-500:#CDA61A;
+  --dsc-global-yellow-dark-600:#BE9917;
+  --dsc-global-yellow-dark-700:#927612;
+  --dsc-global-yellow-dark-800:#67530C;
+  --dsc-global-yellow-dark-900:#362C07;
+  /* Global zinc colors */
+  --dsc-global-zinc-25:#f4f2f0;
+  --dsc-global-zinc-50:#e6e1dd;
+  --dsc-global-zinc-100:#d6cec6;
+  --dsc-global-zinc-200:#c6baaf;
+  --dsc-global-zinc-300:#b5a698;
+  --dsc-global-zinc-400:#a59381;
+  --dsc-global-zinc-500:#957f6a;
+  --dsc-global-zinc-600:#7e6b5a;
+  --dsc-global-zinc-700:#675849;
+  --dsc-global-zinc-800:#504439;
+  --dsc-global-zinc-900:#393129;
+  /*=====  End of Global colors palette ======*/
+  --dsc-semantic-base-00: #ffffff;
+  --dsc-semantic-brand-25: var(--dsc-global-blue-25, #F2F5FF);
+  --dsc-semantic-brand-50: var(--dsc-global-blue-50, #E8EDFF);
+  --dsc-semantic-brand-100: var(--dsc-global-blue-100, #AEBFFF);
+  --dsc-semantic-brand-200: var(--dsc-global-blue-200, #94ABFF);
+  --dsc-semantic-brand-300: var(--dsc-global-blue-300, #6F8EFF);
+  --dsc-semantic-brand-400: var(--dsc-global-blue-400, #4A72FF);
+  --dsc-semantic-brand-500: var(--dsc-global-blue-500, #1B4DFF);
+  --dsc-semantic-brand-600: var(--dsc-global-blue-600, #0F3CD9);
+  --dsc-semantic-brand-700: var(--dsc-global-blue-700, #0F3CD9);
+  --dsc-semantic-brand-800: var(--dsc-global-blue-800, #042185);
+  --dsc-semantic-brand-900: var(--dsc-global-blue-900, #00114A);
+  --dsc-dark-semantic-brand-25: var(--dsc-global-blue-dark-25, #DFE6FB);
+  --dsc-dark-semantic-brand-50: var(--dsc-global-blue-dark-50, #CED9FB);
+  --dsc-dark-semantic-brand-100: var(--dsc-global-blue-dark-100, #AABFFC);
+  --dsc-dark-semantic-brand-200: var(--dsc-global-blue-dark-200, #87A6FD);
+  --dsc-dark-semantic-brand-300: var(--dsc-global-blue-dark-300, #658BFE);
+  --dsc-dark-semantic-brand-400: var(--dsc-global-blue-dark-400, #4174FF);
+  --dsc-dark-semantic-brand-500: var(--dsc-global-blue-dark-500, #1B54FF);
+  --dsc-dark-semantic-brand-600: var(--dsc-global-blue-dark-600, #1645D3);
+  --dsc-dark-semantic-brand-700: var(--dsc-global-blue-dark-700, #1036A8);
+  --dsc-dark-semantic-brand-800: var(--dsc-global-blue-dark-800, #0B277C);
+  --dsc-dark-semantic-brand-900: var(--dsc-global-blue-dark-900, #041546);
+  --dsc-dark-semantic-brand-alt-25: var(--dsc-global-blue-light-25, #E1EBFF);
+  --dsc-dark-semantic-brand-alt-50: var(--dsc-global-blue-light-50, #D1E0FF);
+  --dsc-dark-semantic-brand-alt-100: var(--dsc-global-blue-light-100, #B2CCFF);
+  --dsc-dark-semantic-brand-alt-200: var(--dsc-global-blue-light-200, #92B6FF);
+  --dsc-dark-semantic-brand-alt-300: var(--dsc-global-blue-light-300, #72A1FF);
+  --dsc-dark-semantic-brand-alt-400: var(--dsc-global-blue-light-400, #538CFF);
+  --dsc-dark-semantic-brand-alt-500: var(--dsc-global-blue-light-500, #4382FF);
+  --dsc-dark-semantic-brand-alt-600: var(--dsc-global-blue-light-600, #3B6ED5);
+  --dsc-dark-semantic-brand-alt-700: var(--dsc-global-blue-light-700, #335BAA);
+  --dsc-dark-semantic-brand-alt-800: var(--dsc-global-blue-light-800, #1B356A);
+  --dsc-dark-semantic-brand-alt-900: var(--dsc-global-blue-light-900, #1A2B4D);
+  --dsc-semantic-neutral-25: var(--dsc-global-slate-25, #F9FAFB);
+  --dsc-semantic-neutral-50: var(--dsc-global-slate-50, #F0F3F9);
+  --dsc-semantic-neutral-100: var(--dsc-global-slate-100, #E9EFF6);
+  --dsc-semantic-neutral-200: var(--dsc-global-slate-200, #D7DFE9);
+  --dsc-semantic-neutral-300: var(--dsc-global-slate-300, #AFBACA);
+  --dsc-semantic-neutral-400: var(--dsc-global-slate-400, #8897AE);
+  --dsc-semantic-neutral-500: var(--dsc-global-slate-500, #5E718D);
+  --dsc-semantic-neutral-600: var(--dsc-global-slate-600, #455468);
+  --dsc-semantic-neutral-700: var(--dsc-global-slate-700, #3D4A5C);
+  --dsc-semantic-neutral-800: var(--dsc-global-slate-800, #2D3643);
+  --dsc-semantic-neutral-900: var(--dsc-global-slate-900, #1C222B);
+  --dsc-semantic-success-25: var(--dsc-global-green-25, #EAFEF5);
+  --dsc-semantic-success-50: var(--dsc-global-green-50, #D7F8E9);
+  --dsc-semantic-success-100: var(--dsc-global-green-100, #8FE7B8);
+  --dsc-semantic-success-200: var(--dsc-global-green-200, #48D28E);
+  --dsc-semantic-success-300: var(--dsc-global-green-300, #2FD181);
+  --dsc-semantic-success-400: var(--dsc-global-green-400, #1DB469);
+  --dsc-semantic-success-500: var(--dsc-global-green-500, #11A75C);
+  --dsc-semantic-success-600: var(--dsc-global-green-600, #0A9952);
+  --dsc-semantic-success-700: var(--dsc-global-green-700, #048746);
+  --dsc-semantic-success-800: var(--dsc-global-green-800, #046A37);
+  --dsc-semantic-success-900: var(--dsc-global-green-900, #02542B);
+  --dsc-dark-semantic-success-25: var(--dsc-global-green-dark-25, #A6F4CE);
+  --dsc-dark-semantic-success-50: var(--dsc-global-green-dark-50, #98EEC4);
+  --dsc-dark-semantic-success-100: var(--dsc-global-green-dark-100, #7BE1AF);
+  --dsc-dark-semantic-success-200: var(--dsc-global-green-dark-200, #5FD49A);
+  --dsc-dark-semantic-success-300: var(--dsc-global-green-dark-300, #43C785);
+  --dsc-dark-semantic-success-400: var(--dsc-global-green-dark-400, #26BA70);
+  --dsc-dark-semantic-success-500: var(--dsc-global-green-dark-500, #18B466);
+  --dsc-dark-semantic-success-600: var(--dsc-global-green-dark-600, #149454);
+  --dsc-dark-semantic-success-700: var(--dsc-global-green-dark-700, #107542);
+  --dsc-dark-semantic-success-800: var(--dsc-global-green-dark-800, #0B5531);
+  --dsc-dark-semantic-success-900: var(--dsc-global-green-dark-900, #012C16);
+  --dsc-semantic-warning-25: var(--dsc-global-yellow-25, #FFF9DF);
+  --dsc-semantic-warning-50: var(--dsc-global-yellow-50, #FFF2C4);
+  --dsc-semantic-warning-100: var(--dsc-global-yellow-100, #FFE99D);
+  --dsc-semantic-warning-200: var(--dsc-global-yellow-200, #F7DC7C);
+  --dsc-semantic-warning-300: var(--dsc-global-yellow-300, #F8D34F);
+  --dsc-semantic-warning-400: var(--dsc-global-yellow-400, #F5C61E);
+  --dsc-semantic-warning-500: var(--dsc-global-yellow-500, #E9B90B);
+  --dsc-semantic-warning-600: var(--dsc-global-yellow-600, #D8A800);
+  --dsc-semantic-warning-700: var(--dsc-global-yellow-700, #B18A00);
+  --dsc-semantic-warning-800: var(--dsc-global-yellow-800, #896B00);
+  --dsc-semantic-warning-900: var(--dsc-global-yellow-900, #624D00);
+  --dsc-dark-semantic-warning-25: var(--dsc-global-yellow-dark-25, #FCF0C5);
+  --dsc-dark-semantic-warning-50: var(--dsc-global-yellow-dark-50, #FAEBB4);
+  --dsc-dark-semantic-warning-100: var(--dsc-global-yellow-dark-100, #F6E092);
+  --dsc-dark-semantic-warning-200: var(--dsc-global-yellow-dark-200, #F3D671);
+  --dsc-dark-semantic-warning-300: var(--dsc-global-yellow-dark-300, #EFCC4F);
+  --dsc-dark-semantic-warning-400: var(--dsc-global-yellow-dark-400, #EBC12D);
+  --dsc-dark-semantic-warning-500: var(--dsc-global-yellow-dark-500, #CDA61A);
+  --dsc-dark-semantic-warning-600: var(--dsc-global-yellow-dark-600, #BE9917);
+  --dsc-dark-semantic-warning-700: var(--dsc-global-yellow-dark-700, #927612);
+  --dsc-dark-semantic-warning-800: var(--dsc-global-yellow-dark-800, #67530C);
+  --dsc-dark-semantic-warning-900: var(--dsc-global-yellow-dark-900, #362C07);
+  --dsc-semantic-error-25: var(--dsc-global-red-25, #FFF5F4);
+  --dsc-semantic-error-50: var(--dsc-global-red-50, #FFDCDA);
+  --dsc-semantic-error-100: var(--dsc-global-red-100, #FFC5C1);
+  --dsc-semantic-error-200: var(--dsc-global-red-200, #FFA19B);
+  --dsc-semantic-error-300: var(--dsc-global-red-300, #FF7A72);
+  --dsc-semantic-error-400: var(--dsc-global-red-400, #FF574D);
+  --dsc-semantic-error-500: var(--dsc-global-red-500, #FF3838);
+  --dsc-semantic-error-600: var(--dsc-global-red-600, #E92215);
+  --dsc-semantic-error-700: var(--dsc-global-red-700, #D21A0E);
+  --dsc-semantic-error-800: var(--dsc-global-red-800, #BE170C);
+  --dsc-semantic-error-900: var(--dsc-global-red-900, #AB0A00);
+  --dsc-dark-semantic-error-25: #FFDDDD;
+  --dsc-dark-semantic-error-50: var(--dsc-global-red-dark-50, #FECBCB);
+  --dsc-dark-semantic-error-100: var(--dsc-global-red-dark-100, #FBA8A8);
+  --dsc-dark-semantic-error-200: var(--dsc-global-red-dark-200, #F98484);
+  --dsc-dark-semantic-error-300: var(--dsc-global-red-dark-300, #F66161);
+  --dsc-dark-semantic-error-400: #F33E3E;
+  --dsc-dark-semantic-error-500: var(--dsc-global-red-dark-500, #E32D2D);
+  --dsc-dark-semantic-error-600: var(--dsc-global-red-dark-600, #C62424);
+  --dsc-dark-semantic-error-700: var(--dsc-global-red-dark-700, #AF3B33);
+  --dsc-dark-semantic-error-800: var(--dsc-global-red-dark-800, #9C2A22);
+  --dsc-dark-semantic-error-900: var(--dsc-global-red-dark-900, #4F1618);
+  /*=============================================
+  =            Transparent colors tokens            =
+  =============================================*/
+  /*---------- Transparent Colors  ----------*/
+  --dsc-transparent-2: rgba(255, 255, 255, 0.02);
+  --dsc-transparent-5: rgba(255,255,255, 0.05);
+  --dsc-transparent-10: rgba(255,255,255, 0.1);
+  --dsc-transparent-20: rgba(255,255,255, 0.2);
+  --dsc-transparent-30: rgba(255,255,255, 0.3);
+  --dsc-transparent-40: rgba(255,255,255, 0.4);
+  --dsc-transparent-50: rgba(255,255,255, 0.5);
+  --dsc-transparent-60: rgba(255,255,255, 0.6);
+  --dsc-transparent-70: rgba(255,255,255, 0.7);
+  --dsc-transparent-80: rgba(255,255,255, 0.8);
+  --dsc-transparent-90: rgba(255,255,255, 0.9);
+  /*---------- Dark Semantic transparent Colors  ----------*/
+  --dsc-dark-transparent-2: rgba(28,34,43, 0.02);
+  --dsc-dark-transparent-5: rgba(28,34,43, 0.05);
+  --dsc-dark-transparent-10: rgba(28,34,43, 0.1);
+  --dsc-dark-transparent-20: rgba(28,34,43, 0.2);
+  --dsc-dark-transparent-30: rgba(28,34,43, 0.3);
+  --dsc-dark-transparent-40: rgba(28,34,43, 0.4);
+  --dsc-dark-transparent-50: rgba(28,34,43, 0.5);
+  --dsc-dark-transparent-60: rgba(28,34,43, 0.6);
+  --dsc-dark-transparent-70: rgba(28,34,43, 0.7);
+  --dsc-dark-transparent-80: rgba(28,34,43, 0.8);
+  --dsc-dark-transparent-90: rgba(28,34,43, 0.9);
+  /*----------  Brand Transparent Colors  ----------*/
+  --dsc-transparent-brand-2: rgba(27,77,255, 0.02);
+  --dsc-transparent-brand-5: rgba(27,77,255, 0.05);
+  --dsc-transparent-brand-10: rgba(27,77,255, 0.1);
+  --dsc-transparent-brand-20: rgba(27,77,255, 0.2);
+  --dsc-transparent-brand-30: rgba(27,77,255, 0.3);
+  --dsc-transparent-brand-40: rgba(27,77,255, 0.4);
+  --dsc-transparent-brand-50: rgba(27,77,255, 0.5);
+  --dsc-transparent-brand-60: rgba(27,77,255, 0.6);
+  --dsc-transparent-brand-70: rgba(27,77,255, 0.7);
+  --dsc-transparent-brand-80: rgba(27,77,255, 0.8);
+  --dsc-transparent-brand-90: rgba(27,77,255, 0.9);
+  /*=====  End of Transparent colors tokens  ======*/
+  /*=============================================
+  =            Background colors tokens            =
+  =============================================*/
+  /*----------  Background Semantic Base Colors  ----------*/
+  --dsc-background-base-white: var(--dsc-semantic-base-00, #ffffff);
+  --dsc-background-base-white_inverted: var(--dsc-semantic-base-00, #ffffff);
+  /*---------- Dark Background Semantic Colors  ----------*/
+  --dsc-dark-background-base-white: var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B));
+  --dsc-dark-background-base-white_inverted: var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643));
+  /*----------  Background Semantic Brand Colors  ----------*/
+  --dsc-background-brand-soft-surface: var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF));
+  --dsc-background-brand-subtle: var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF));
+  --dsc-background-brand-muted: var(--dsc-semantic-brand-300, var(--dsc-global-blue-300, #6F8EFF));
+  --dsc-background-brand-default: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-background-brand-emphasis: var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9));
+  /*----------  Dark Background Semantic Brand Colors  ----------*/
+  --dsc-dark-background-brand-soft-surface: var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D));
+  --dsc-dark-background-brand-subtle: var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A));
+  --dsc-dark-background-brand-muted: var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF));
+  --dsc-dark-background-brand-default: var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF));
+  --dsc-dark-background-brand-emphasis: var(--dsc-dark-semantic-brand-600, var(--dsc-global-blue-dark-600, #1645D3));
+  /*----------  Background Semantic Neutral Colors  ----------*/
+  --dsc-background-neutral-soft-surface: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-background-neutral-subtle: var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6));
+  --dsc-background-neutral-muted: var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE));
+  --dsc-background-neutral-default: var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D));
+  --dsc-background-neutral-emphasis: var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C));
+  --dsc-background-neutral-strong: var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B));
+  --dsc-background-neutral-strong-alt: var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B));
+  /*----------  Dark Background Semantic Neutral Colors  ----------*/
+  --dsc-dark-background-neutral-soft-surface: var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643));
+  --dsc-dark-background-neutral-subtle: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  --dsc-dark-background-neutral-muted: var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA));
+  --dsc-dark-background-neutral-default: var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9));
+  --dsc-dark-background-neutral-emphasis: var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6));
+  --dsc-dark-background-neutral-strong: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-dark-background-neutral-strong-alt: var(--dsc-semantic-base-00, #ffffff);
+  /*----------  Background Semantic Success Colors  ----------*/
+  --dsc-background-success-soft-surface: var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5));
+  --dsc-background-success-subtle: var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8));
+  --dsc-background-success-default: var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C));
+  --dsc-background-success-emphasis: var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952));
+  /*----------  Dark Background Semantic Success Colors  ----------*/
+  --dsc-dark-background-success-soft-surface: var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16));
+  --dsc-dark-background-success-subtle: var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542));
+  --dsc-dark-background-success-default: var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466));
+  --dsc-dark-background-success-emphasis: var(--dsc-dark-semantic-success-400, var(--dsc-global-green-dark-400, #26BA70));
+  /*----------  Background Semantic Warning Colors  ----------*/
+  --dsc-background-warning-soft-surface: var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF));
+  --dsc-background-warning-subtle: var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D));
+  --dsc-background-warning-default: var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B));
+  --dsc-background-warning-emphasis: var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800));
+  /*----------  Dark Background Semantic Warning Colors  ----------*/
+  --dsc-dark-background-warning-soft-surface: var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07));
+  --dsc-dark-background-warning-subtle: var(--dsc-dark-semantic-warning-700, var(--dsc-global-yellow-dark-700, #927612));
+  --dsc-dark-background-warning-default: var(--dsc-dark-semantic-warning-300, var(--dsc-global-yellow-dark-300, #EFCC4F));
+  --dsc-dark-background-warning-emphasis: var(--dsc-dark-semantic-warning-200, var(--dsc-global-yellow-dark-200, #F3D671));
+  /*----------  Background Semantic Error Colors  ----------*/
+  --dsc-background-error-soft-surface: var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4));
+  --dsc-background-error-subtle: var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1));
+  --dsc-background-error-default: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  --dsc-background-error-emphasis: var(--dsc-semantic-error-600, var(--dsc-global-red-600, #E92215));
+  /*----------  Dark Background Semantic Error Colors  ----------*/
+  --dsc-dark-background-error-soft-surface: var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618));
+  --dsc-dark-background-error-subtle: var(--dsc-dark-semantic-error-700, var(--dsc-global-red-dark-700, #AF3B33));
+  --dsc-dark-background-error-default: var(--dsc-dark-semantic-error-300, var(--dsc-global-red-dark-300, #F66161));
+  --dsc-dark-background-error-emphasis: var(--dsc-dark-semantic-error-200, var(--dsc-global-red-dark-200, #F98484));
+  /*=====  End of Background colors tokens  ======*/
+  /*=============================================
+  =            Foreground colors tokens            =
+  =============================================
+
+  /*----------  Foreground Semantic Neutral Colors  ----------*/
+  --dsc-foreground-neutral-primary: var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B));
+  --dsc-foreground-neutral-secondary: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  --dsc-foreground-neutral-tertiary: var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE));
+  --dsc-foreground-neutral-quaternary: var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA));
+  /*----------  Dark Foreground Semantic Neutral Colors  ----------*/
+  --dsc-dark-foreground-neutral-primary: var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9));
+  --dsc-dark-foreground-neutral-secondary: var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA));
+  --dsc-dark-foreground-neutral-tertiary: var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D));
+  --dsc-dark-foreground-neutral-quaternary: var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C));
+  /*----------  Foreground Semantic Light Colors  ----------*/
+  --dsc-foreground-light-primary: var(--dsc-semantic-base-00, #ffffff);
+  --dsc-foreground-light-primary-inverted: var(--dsc-semantic-base-00, #ffffff);
+  --dsc-foreground-light-secondary: rgba(255,255,255, 0.8);
+  --dsc-foreground-light-secondary-inverted: rgba(255,255,255, 0.8);
+  --dsc-foreground-light-tertiary: rgba(255,255,255, 0.3);
+  --dsc-foreground-light-tertiary-inverted: rgba(255,255,255, 0.3);
+  /*----------  Dark Foreground Semantic Light Colors  ----------*/
+  --dsc-dark-foreground-light-primary: var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B));
+  --dsc-dark-foreground-light-primary-inverted: var(--dsc-semantic-base-00, #ffffff);
+  --dsc-dark-foreground-light-secondary: rgba(28,34,43, 0.8);
+  --dsc-dark-foreground-light-secondary-inverted: rgba($transparent-80, 0.8);
+  --dsc-dark-foreground-light-tertiary: rgba(28,34,43, 0.3);
+  --dsc-dark-foreground-light-tertiary-inverted: rgba(255,255,255, 0.3);
+  /*----------  Foreground Semantic Brand Colors  ----------*/
+  --dsc-foreground-brand-primary: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-foreground-brand-secondary: var(--dsc-dark-semantic-brand-400, var(--dsc-global-blue-dark-400, #4174FF));
+  --dsc-foreground-brand-tertiary: var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF));
+  /*----------  Dark Foreground Semantic Brand Colors  ----------*/
+  --dsc-dark-foreground-brand-primary: var(--dsc-dark-semantic-brand-alt-500, var(--dsc-global-blue-light-500, #4382FF));
+  --dsc-dark-foreground-brand-secondary: var(--dsc-dark-semantic-brand-alt-600, var(--dsc-global-blue-light-600, #3B6ED5));
+  --dsc-dark-foreground-brand-tertiary: var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A));
+  /*----------  Foreground Semantic Success Colors  ----------*/
+  --dsc-foreground-success-primary: var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952));
+  --dsc-foreground-success-secondary: var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C));
+  --dsc-foreground-success-tertiary: var(--dsc-semantic-success-300, var(--dsc-global-green-300, #2FD181));
+  /*----------  Dark Foreground Semantic Success Colors  ----------*/
+  --dsc-dark-foreground-success-primary: var(--dsc-dark-semantic-success-400, var(--dsc-global-green-dark-400, #26BA70));
+  --dsc-dark-foreground-success-secondary: var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466));
+  --dsc-dark-foreground-success-tertiary: var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542));
+  /*----------  Foreground Semantic Warning Colors  ----------*/
+  --dsc-foreground-warning-primary: var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800));
+  --dsc-foreground-warning-secondary: var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B));
+  --dsc-foreground-warning-tertiary: var(--dsc-semantic-warning-300, var(--dsc-global-yellow-300, #F8D34F));
+  /*----------  Dark Foreground Semantic Warning Colors  ----------*/
+  --dsc-dark-foreground-warning-primary: var(--dsc-dark-semantic-warning-400, var(--dsc-global-yellow-dark-400, #EBC12D));
+  --dsc-dark-foreground-warning-secondary: var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A));
+  --dsc-dark-foreground-warning-tertiary: var(--dsc-dark-semantic-warning-700, var(--dsc-global-yellow-dark-700, #927612));
+  /*----------  Foreground Semantic Error Colors  ----------*/
+  --dsc-foreground-error-primary: var(--dsc-semantic-error-600, var(--dsc-global-red-600, #E92215));
+  --dsc-foreground-error-secondary: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  --dsc-foreground-error-tertiary: var(--dsc-semantic-error-200, var(--dsc-global-red-200, #FFA19B));
+  /*----------  Dark Foreground Semantic Error Colors  ----------*/
+  --dsc-dark-foreground-error-primary: var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E));
+  --dsc-dark-foreground-error-secondary: var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D));
+  --dsc-dark-foreground-error-tertiary: var(--dsc-dark-semantic-error-700, var(--dsc-global-red-dark-700, #AF3B33));
+  /*----------  Foreground Semantic Link Colors  ----------*/
+  --dsc-foreground-link-default: var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9));
+  --dsc-foreground-link-hover: var(--dsc-semantic-brand-700, var(--dsc-global-blue-700, #0F3CD9));
+  --dsc-foreground-link-disabled: var(--dsc-semantic-brand-200, var(--dsc-global-blue-200, #94ABFF));
+  /*----------  Dark Foreground Semantic Link Colors  ----------*/
+  --dsc-dark-foreground-link-default: var(--dsc-dark-semantic-brand-alt-600, var(--dsc-global-blue-light-600, #3B6ED5));
+  --dsc-dark-foreground-link-hover: var(--dsc-dark-semantic-brand-alt-500, var(--dsc-global-blue-light-500, #4382FF));
+  --dsc-dark-foreground-link-disabled: var(--dsc-dark-semantic-brand-alt-700, var(--dsc-global-blue-light-700, #335BAA));
+  /*=====  End of Foreground colors tokens  ======*/
+  /*=============================================
+  =            Border colors tokens            =
+  =============================================*/
+  /*----------  Border Semantic Base Colors  ----------*/
+  --dsc-border-base-white: var(--dsc-semantic-base-00, #ffffff);
+  --dsc-border-base-white-inverted: var(--dsc-semantic-base-00, #ffffff);
+  /*----------  Dark Border Semantic Base Colors  ----------*/
+  --dsc-dark-border-base-white: var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B));
+  --dsc-dark-border-base-white-inverted: var(--dsc-semantic-base-00, #ffffff);
+  /*----------  Border Semantic Neutral Colors  ----------*/
+  --dsc-border-neutral-xsubtle: var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6));
+  --dsc-border-neutral-subtle: var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9));
+  --dsc-border-neutral-muted: var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE));
+  --dsc-border-neutral-default: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  /*----------  Dark Border Semantic Neutral Colors  ----------*/
+  --dsc-dark-border-neutral-xsubtle: var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643));
+  --dsc-dark-border-neutral-subtle: var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C));
+  --dsc-dark-border-neutral-muted: var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D));
+  --dsc-dark-border-neutral-default: var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6));
+  /*----------  Border Semantic Brand Colors  ----------*/
+  --dsc-border-brand-xsubtle: var(--dsc-semantic-brand-50, var(--dsc-global-blue-50, #E8EDFF));
+  --dsc-border-brand-subtle: var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF));
+  --dsc-border-brand-default: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  /*----------  Dark Border Semantic Brand Colors  ----------*/
+  --dsc-dark-border-brand-xsubtle: var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643));
+  --dsc-dark-border-brand-subtle: var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C));
+  --dsc-dark-border-brand-default: var(--dsc-dark-semantic-brand-100, var(--dsc-global-blue-dark-100, #AABFFC));
+  /*----------  Border Semantic Success Colors  ----------*/
+  --dsc-border-success-subtle: var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8));
+  --dsc-border-success-default: var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C));
+  /*----------  Dark Border Semantic Success Colors  ----------*/
+  --dsc-dark-border-success-subtle: var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542));
+  --dsc-dark-border-success-default: var(--dsc-dark-semantic-success-400, var(--dsc-global-green-dark-400, #26BA70));
+  /*----------  Border Semantic Warning Colors  ----------*/
+  --dsc-border-warning-subtle: var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C));
+  --dsc-border-warning-default: var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B));
+  /*----------  Dark Border Semantic Warning Colors  ----------*/
+  --dsc-dark-border-warning-subtle: var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917));
+  --dsc-dark-border-warning-default: var(--dsc-dark-semantic-warning-400, var(--dsc-global-yellow-dark-400, #EBC12D));
+  /*----------  Border Semantic Error Colors  ----------*/
+  --dsc-border-error-subtle: var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1));
+  --dsc-border-error-default: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  /*----------  Dark Border Semantic Error Colors  ----------*/
+  --dsc-dark-border-error-subtle: var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22));
+  --dsc-dark-border-error-default: var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D));
+  /*=====  End of Border colors tokens  ======*/
+  /*----------  Action Background Base Colors  ----------*/
+  --dsc-action-background-base-white: var(--dsc-semantic-base-00, #ffffff);
+  --dsc-action-background-base-white-inverted: var(--dsc-semantic-base-00, #ffffff);
+  --dsc-dark-action-background-base-white: var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B));
+  --dsc-dark-action-background-base-white-inverted: var(--dsc-semantic-base-00, #ffffff);
+  /*----------  Action Background Brand Colors  ----------*/
+  --dsc-action-background-brand-normal: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-background-brand-hover: var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9));
+  --dsc-action-background-brand-focused: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-background-brand-active: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-background-brand-disabled: var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF));
+  --dsc-action-background-brand-light-normal: var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF));
+  --dsc-action-background-brand-light-hover: var(--dsc-semantic-brand-50, var(--dsc-global-blue-50, #E8EDFF));
+  --dsc-action-background-brand-light-focused: var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF));
+  --dsc-action-background-brand-light-active: var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF));
+  --dsc-action-background-brand-light-disabled: var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF));
+  --dsc-dark-action-background-brand-normal: var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF));
+  --dsc-dark-action-background-brand-hover: var(--dsc-dark-semantic-brand-600, var(--dsc-global-blue-dark-600, #1645D3));
+  --dsc-dark-action-background-brand-focused: var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF));
+  --dsc-dark-action-background-brand-active: var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF));
+  --dsc-dark-action-background-brand-disabled: var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D));
+  --dsc-dark-action-background-brand-light-normal: var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D));
+  --dsc-dark-action-background-brand-light-hover: var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A));
+  --dsc-dark-action-background-brand-light-focused: var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D));
+  --dsc-dark-action-background-brand-light-active: var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D));
+  --dsc-dark-action-background-brand-light-disabled: var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D));
+  /*----------  Action Background Neutral Colors  ----------*/
+  --dsc-action-background-neutral-normal: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  --dsc-action-background-neutral-hover: var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C));
+  --dsc-action-background-neutral-focused: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  --dsc-action-background-neutral-active: var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D));
+  --dsc-action-background-neutral-disabled: var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9));
+  --dsc-action-background-neutral-light-normal: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-action-background-neutral-light-hover: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-action-background-neutral-light-focused: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-action-background-neutral-light-active: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-action-background-neutral-light-disabled: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-dark-action-background-neutral-normal: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-dark-action-background-neutral-hover: var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9));
+  --dsc-dark-action-background-neutral-focused: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-dark-action-background-neutral-active: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-dark-action-background-neutral-disabled: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  --dsc-dark-action-background-neutral-light-normal: var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643));
+  --dsc-dark-action-background-neutral-light-hover: var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C));
+  --dsc-dark-action-background-neutral-light-focused: var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643));
+  --dsc-dark-action-background-neutral-light-active: var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643));
+  --dsc-dark-action-background-neutral-light-disabled: var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643));
+  /*----------  Action Background Error Colors  ----------*/
+  --dsc-action-background-error-normal: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  --dsc-action-background-error-hover: var(--dsc-semantic-error-600, var(--dsc-global-red-600, #E92215));
+  --dsc-action-background-error-focused: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  --dsc-action-background-error-active: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  --dsc-action-background-error-disabled: var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1));
+  --dsc-action-background-error-light-normal: var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4));
+  --dsc-action-background-error-light-hover: var(--dsc-semantic-error-50, var(--dsc-global-red-50, #FFDCDA));
+  --dsc-action-background-error-light-focused: var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4));
+  --dsc-action-background-error-light-active: var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4));
+  --dsc-action-background-error-light-disabled: var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4));
+  --dsc-action-background-error-inverted-light-hover: var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4));
+  --dsc-action-background-error-inverted-light-active: var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4));
+  --dsc-dark-action-background-error-normal: var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D));
+  --dsc-dark-action-background-error-hover: var(--dsc-dark-semantic-error-600, var(--dsc-global-red-dark-600, #C62424));
+  --dsc-dark-action-background-error-focused: var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D));
+  --dsc-dark-action-background-error-active: var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D));
+  --dsc-dark-action-background-error-disabled: var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618));
+  --dsc-dark-action-background-error-light-normal: var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618));
+  --dsc-dark-action-background-error-light-hover: var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22));
+  --dsc-dark-action-background-error-light-focused: var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618));
+  --dsc-dark-action-background-error-light-active: var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618));
+  --dsc-dark-action-background-error-light-disabled: var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22));
+  --dsc-dark-action-background-error-inverted-light-hover: var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618));
+  --dsc-dark-action-background-error-inverted-light-active: var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22));
+  /*----------  Action Background Success Colors  ----------*/
+  --dsc-action-background-success-normal: var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C));
+  --dsc-action-background-success-hover: var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952));
+  --dsc-action-background-success-focused: var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C));
+  --dsc-action-background-success-active: var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C));
+  --dsc-action-background-success-disabled: var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8));
+  --dsc-action-background-success-light-normal: var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5));
+  --dsc-action-background-success-light-hover: var(--dsc-semantic-success-50, var(--dsc-global-green-50, #D7F8E9));
+  --dsc-action-background-success-light-focused: var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5));
+  --dsc-action-background-success-light-active: var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5));
+  --dsc-action-background-success-light-disabled: var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5));
+  --dsc-dark-action-background-success-normal: var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466));
+  --dsc-dark-action-background-success-hover: var(--dsc-dark-semantic-success-600, var(--dsc-global-green-dark-600, #149454));
+  --dsc-dark-action-background-success-focused: var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466));
+  --dsc-dark-action-background-success-active: var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466));
+  --dsc-dark-action-background-success-disabled: var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531));
+  --dsc-dark-action-background-success-light-normal: var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16));
+  --dsc-dark-action-background-success-light-hover: var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531));
+  --dsc-dark-action-background-success-light-focused: var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16));
+  --dsc-dark-action-background-success-light-active: var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16));
+  --dsc-dark-action-background-success-light-disabled: var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16));
+  /*----------  Action Background Warning Colors  ----------*/
+  --dsc-action-background-warning-normal: var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B));
+  --dsc-action-background-warning-hover: var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800));
+  --dsc-action-background-warning-focused: var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B));
+  --dsc-action-background-warning-active: var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B));
+  --dsc-action-background-warning-disabled: var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D));
+  --dsc-action-background-warning-light-normal: var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF));
+  --dsc-action-background-warning-light-hover: var(--dsc-semantic-warning-50, var(--dsc-global-yellow-50, #FFF2C4));
+  --dsc-action-background-warning-light-focused: var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF));
+  --dsc-action-background-warning-light-active: var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF));
+  --dsc-action-background-warning-light-disabled: var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF));
+  --dsc-dark-action-background-warning-normal: var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A));
+  --dsc-dark-action-background-warning-hover: var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917));
+  --dsc-dark-action-background-warning-focused: var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A));
+  --dsc-dark-action-background-warning-active: var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A));
+  --dsc-dark-action-background-warning-disabled: var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C));
+  --dsc-dark-action-background-warning-light-normal: var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07));
+  --dsc-dark-action-background-warning-light-hover: var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C));
+  --dsc-dark-action-background-warning-light-focused: var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07));
+  --dsc-dark-action-background-warning-light-active: var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07));
+  --dsc-dark-action-background-warning-light-disabled: var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07));
+  /*----------  Action Foreground Base Colors  ----------*/
+  --dsc-action-foreground-base-white: var(--dsc-semantic-base-00, #ffffff);
+  --dsc-action-foreground-base-white-inverted: var(--dsc-semantic-base-00, #ffffff);
+  --dsc-dark-action-foreground-base-white: var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B));
+  --dsc-dark-action-foreground-base-white-inverted: var(--dsc-semantic-base-00, #ffffff);
+  /*----------  Action Foreground Brand Colors  ----------*/
+  --dsc-action-foreground-brand-normal: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-foreground-brand-hover: var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9));
+  --dsc-action-foreground-brand-focused: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-foreground-brand-active: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-foreground-brand-disabled: var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF));
+  --dsc-action-foreground-brand-inverted-normal: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-foreground-brand-inverted-hover: var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9));
+  --dsc-action-foreground-brand-inverted-focused: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-foreground-brand-inverted-active: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-foreground-brand-inverted-disabled: var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF));
+  --dsc-dark-action-foreground-brand-normal: var(--dsc-dark-semantic-brand-alt-500, var(--dsc-global-blue-light-500, #4382FF));
+  --dsc-dark-action-foreground-brand-hover: var(--dsc-dark-semantic-brand-alt-600, var(--dsc-global-blue-light-600, #3B6ED5));
+  --dsc-dark-action-foreground-brand-focused: var(--dsc-dark-semantic-brand-alt-500, var(--dsc-global-blue-light-500, #4382FF));
+  --dsc-dark-action-foreground-brand-active: var(--dsc-dark-semantic-brand-alt-500, var(--dsc-global-blue-light-500, #4382FF));
+  --dsc-dark-action-foreground-brand-disabled: var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A));
+  --dsc-dark-action-foreground-brand-inverted-normal: var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF));
+  --dsc-dark-action-foreground-brand-inverted-hover: var(--dsc-dark-semantic-brand-alt-500, var(--dsc-global-blue-light-500, #4382FF));
+  --dsc-dark-action-foreground-brand-inverted-focused: var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF));
+  --dsc-dark-action-foreground-brand-inverted-active: var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF));
+  --dsc-dark-action-foreground-brand-inverted-disabled: var(--dsc-dark-semantic-brand-alt-700, var(--dsc-global-blue-light-700, #335BAA));
+  /*----------  Action Foreground Neutral Colors  ----------*/
+  --dsc-action-foreground-neutral-normal: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  --dsc-action-foreground-neutral-normal-light: var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE));
+  --dsc-action-foreground-neutral-hover: var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C));
+  --dsc-action-foreground-neutral-focused: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  --dsc-action-foreground-neutral-active: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  --dsc-action-foreground-neutral-disabled: var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9));
+  --dsc-dark-action-foreground-neutral-normal: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-dark-action-foreground-neutral-normal-light: var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE));
+  --dsc-dark-action-foreground-neutral-hover: var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9));
+  --dsc-dark-action-foreground-neutral-focused: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-dark-action-foreground-neutral-active: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-dark-action-foreground-neutral-disabled: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  /*----------  Action Foreground Error Colors  ----------*/
+  --dsc-action-foreground-error-normal: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  --dsc-action-foreground-error-hover: var(--dsc-semantic-error-600, var(--dsc-global-red-600, #E92215));
+  --dsc-action-foreground-error-focused: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  --dsc-action-foreground-error-active: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  --dsc-action-foreground-error-disabled: var(--dsc-semantic-error-200, var(--dsc-global-red-200, #FFA19B));
+  --dsc-action-foreground-error-inverted-hover: var(--dsc-semantic-error-600, var(--dsc-global-red-600, #E92215));
+  --dsc-action-foreground-error-inverted-active: var(--dsc-semantic-error-600, var(--dsc-global-red-600, #E92215));
+  --dsc-action-foreground-error-inverted-disabled: var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4));
+  --dsc-dark-action-foreground-error-normal: var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E));
+  --dsc-dark-action-foreground-error-hover: var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D));
+  --dsc-dark-action-foreground-error-focused: var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E));
+  --dsc-dark-action-foreground-error-active: var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E));
+  --dsc-dark-action-foreground-error-disabled: var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22));
+  --dsc-dark-action-foreground-error-inverted-hover: var(--dsc-dark-semantic-error-50, var(--dsc-global-red-dark-50, #FECBCB));
+  --dsc-dark-action-foreground-error-inverted-active: var(--dsc-dark-semantic-error-50, var(--dsc-global-red-dark-50, #FECBCB));
+  --dsc-dark-action-foreground-error-inverted-disabled: var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22));
+  /*----------  Action Foreground Success Colors  ----------*/
+  --dsc-action-foreground-success-normal: var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952));
+  --dsc-action-foreground-success-hover: var(--dsc-semantic-success-700, var(--dsc-global-green-700, #048746));
+  --dsc-action-foreground-success-focused: var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952));
+  --dsc-action-foreground-success-active: var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952));
+  --dsc-action-foreground-success-disabled: var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8));
+  --dsc-action-foreground-success-inverted-disabled: var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5));
+  --dsc-dark-action-foreground-success-normal: var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466));
+  --dsc-dark-action-foreground-success-hover: var(--dsc-dark-semantic-success-600, var(--dsc-global-green-dark-600, #149454));
+  --dsc-dark-action-foreground-success-focused: var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466));
+  --dsc-dark-action-foreground-success-active: var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466));
+  --dsc-dark-action-foreground-success-disabled: var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531));
+  --dsc-dark-action-foreground-success-inverted-disabled: var(--dsc-dark-semantic-success-600, var(--dsc-global-green-dark-600, #149454));
+  /*----------  Action Foreground Warning Colors  ----------*/
+  --dsc-action-foreground-warning-normal: var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800));
+  --dsc-action-foreground-warning-hover: var(--dsc-semantic-warning-700, var(--dsc-global-yellow-700, #B18A00));
+  --dsc-action-foreground-warning-focused: var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800));
+  --dsc-action-foreground-warning-active: var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800));
+  --dsc-action-foreground-warning-disabled: var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C));
+  --dsc-action-foreground-warning-inverted-disabled: var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF));
+  --dsc-dark-action-foreground-warning-normal: var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A));
+  --dsc-dark-action-foreground-warning-hover: var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917));
+  --dsc-dark-action-foreground-warning-focused: var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A));
+  --dsc-dark-action-foreground-warning-active: var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A));
+  --dsc-dark-action-foreground-warning-disabled: var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C));
+  --dsc-dark-action-foreground-warning-inverted-disabled: var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917));
+  /*----------  Action Border Brand Colors  ----------*/
+  --dsc-action-border-brand-normal: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-border-brand-hover: var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9));
+  --dsc-action-border-brand-focused: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-border-brand-active: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF));
+  --dsc-action-border-brand-disabled: var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF));
+  --dsc-dark-action-border-brand-normal: var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF));
+  --dsc-dark-action-border-brand-hover: var(--dsc-dark-semantic-brand-alt-500, var(--dsc-global-blue-light-500, #4382FF));
+  --dsc-dark-action-border-brand-focused: var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF));
+  --dsc-dark-action-border-brand-active: var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF));
+  --dsc-dark-action-border-brand-disabled: var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A));
+  /*----------  Action Border Neutral Colors  ----------*/
+  --dsc-action-border-neutral-normal: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  --dsc-action-border-neutral-hover: var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C));
+  --dsc-action-border-neutral-focused: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  --dsc-action-border-neutral-active: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  --dsc-action-border-neutral-disabled: var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9));
+  --dsc-action-border-neutral-light-normal: var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA));
+  --dsc-action-border-neutral-light-hover: var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE));
+  --dsc-action-border-neutral-light-focused: var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA));
+  --dsc-action-border-neutral-light-active: var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA));
+  --dsc-action-border-neutral-light-disabled: var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9));
+  --dsc-dark-action-border-neutral-normal: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-dark-action-border-neutral-hover: var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9));
+  --dsc-dark-action-border-neutral-focused: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-dark-action-border-neutral-active: var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB));
+  --dsc-dark-action-border-neutral-disabled: var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C));
+  --dsc-dark-action-border-neutral-light-normal: var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D));
+  --dsc-dark-action-border-neutral-light-hover: var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D));
+  --dsc-dark-action-border-neutral-light-focused: var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D));
+  --dsc-dark-action-border-neutral-light-active: var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D));
+  --dsc-dark-action-border-neutral-light-disabled: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+  /*----------  Action Border Error Colors  ----------*/
+  --dsc-action-border-error-normal: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  --dsc-action-border-error-hover: var(--dsc-semantic-error-600, var(--dsc-global-red-600, #E92215));
+  --dsc-action-border-error-focused: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  --dsc-action-border-error-active: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838));
+  --dsc-action-border-error-disabled: var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1));
+  --dsc-action-border-error-light-normal: var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1));
+  --dsc-action-border-error-light-hover: var(--dsc-semantic-error-200, var(--dsc-global-red-200, #FFA19B));
+  --dsc-action-border-error-light-focused: var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1));
+  --dsc-action-border-error-light-active: var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1));
+  --dsc-action-border-error-light-disabled: var(--dsc-semantic-error-50, var(--dsc-global-red-50, #FFDCDA));
+  --dsc-dark-action-border-error-normal: var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E));
+  --dsc-dark-action-border-error-hover: var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D));
+  --dsc-dark-action-border-error-focused: var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E));
+  --dsc-dark-action-border-error-active: var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E));
+  --dsc-dark-action-border-error-disabled: var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22));
+  --dsc-dark-action-border-error-light-normal: var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22));
+  --dsc-dark-action-border-error-light-hover: var(--dsc-dark-semantic-error-700, var(--dsc-global-red-dark-700, #AF3B33));
+  --dsc-dark-action-border-error-light-focused: var(--dsc-dark-semantic-error-700, var(--dsc-global-red-dark-700, #AF3B33));
+  --dsc-dark-action-border-error-light-active: var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22));
+  --dsc-dark-action-border-error-light-disabled: var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22));
+  /*----------  Action Border Success Colors  ----------*/
+  --dsc-action-border-success-normal: var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C));
+  --dsc-action-border-success-hover: var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952));
+  --dsc-action-border-success-focused: var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C));
+  --dsc-action-border-success-active: var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C));
+  --dsc-action-border-success-disabled: var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8));
+  --dsc-action-border-success-light-normal: var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8));
+  --dsc-action-border-success-light-hover: var(--dsc-semantic-success-200, var(--dsc-global-green-200, #48D28E));
+  --dsc-action-border-success-light-focused: var(--dsc-semantic-success-300, var(--dsc-global-green-300, #2FD181));
+  --dsc-action-border-success-light-active: var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8));
+  --dsc-action-border-success-light-disabled: var(--dsc-semantic-success-50, var(--dsc-global-green-50, #D7F8E9));
+  --dsc-dark-action-border-success-normal: var(--dsc-dark-semantic-success-400, var(--dsc-global-green-dark-400, #26BA70));
+  --dsc-dark-action-border-success-hover: var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466));
+  --dsc-dark-action-border-success-focused: var(--dsc-dark-semantic-success-400, var(--dsc-global-green-dark-400, #26BA70));
+  --dsc-dark-action-border-success-active: var(--dsc-dark-semantic-success-400, var(--dsc-global-green-dark-400, #26BA70));
+  --dsc-dark-action-border-success-disabled: var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531));
+  --dsc-dark-action-border-success-light-normal: var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531));
+  --dsc-dark-action-border-success-light-hover: var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542));
+  --dsc-dark-action-border-success-light-focused: var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531));
+  --dsc-dark-action-border-success-light-active: var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531));
+  --dsc-dark-action-border-success-light-disabled: var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531));
+  /*----------  Action Border Warning Colors  ----------*/
+  --dsc-action-border-warning-normal: var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B));
+  --dsc-action-border-warning-hover: var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800));
+  --dsc-action-border-warning-focused: var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B));
+  --dsc-action-border-warning-active: var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B));
+  --dsc-action-border-warning-disabled: var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D));
+  --dsc-action-border-warning-light-normal: var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D));
+  --dsc-action-border-warning-light-hover: var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C));
+  --dsc-action-border-warning-light-focused: var(--dsc-semantic-warning-300, var(--dsc-global-yellow-300, #F8D34F));
+  --dsc-action-border-warning-light-active: var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D));
+  --dsc-action-border-warning-light-disabled: var(--dsc-semantic-warning-50, var(--dsc-global-yellow-50, #FFF2C4));
+  --dsc-dark-action-border-warning-normal: var(--dsc-dark-semantic-warning-400, var(--dsc-global-yellow-dark-400, #EBC12D));
+  --dsc-dark-action-border-warning-hover: var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A));
+  --dsc-dark-action-border-warning-focused: var(--dsc-dark-semantic-warning-400, var(--dsc-global-yellow-dark-400, #EBC12D));
+  --dsc-dark-action-border-warning-active: var(--dsc-dark-semantic-warning-400, var(--dsc-global-yellow-dark-400, #EBC12D));
+  --dsc-dark-action-border-warning-disabled: var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C));
+  --dsc-dark-action-border-warning-light-normal: var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C));
+  --dsc-dark-action-border-warning-light-hover: var(--dsc-dark-semantic-warning-700, var(--dsc-global-yellow-dark-700, #927612));
+  --dsc-dark-action-border-warning-light-focused: var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C));
+  --dsc-dark-action-border-warning-light-active: var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C));
+  --dsc-dark-action-border-warning-light-disabled: var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C));
+  /*=============================================
+  =            Other Color Tokens               =
+  =============================================*/
+  /*----------  Fuchsia  ----------*/
+  --dsc-other-color-fuchsia-default: var(--dsc-global-fuchsia-400, #D638EE);
+  --dsc-other-color-fuchsia-light: var(--dsc-global-fuchsia-100, #ECA5F7);
+  --dsc-other-color-fuchsia-xlight: var(--dsc-global-fuchsia-25, #FBEDFD);
+  --dsc-dark-other-color-fuchsia-default: var(--dsc-global-fuchsia-600, #AF11C7);
+  --dsc-dark-other-color-fuchsia-light: var(--dsc-global-fuchsia-800, #6F0B7E);
+  --dsc-dark-other-color-fuchsia-xlight: var(--dsc-global-fuchsia-900, #50085A);
+  /*----------  Purple  ----------*/
+  --dsc-other-color-purple-default: var(--dsc-global-purple-400, #9631F5);
+  --dsc-other-color-purple-light: var(--dsc-global-purple-100, #CFA1FB);
+  --dsc-other-color-purple-xlight: var(--dsc-global-purple-25, #F5ECFE);
+  --dsc-dark-other-color-purple-default: var(--dsc-global-purple-600, #6E0ACE);
+  --dsc-dark-other-color-purple-light: var(--dsc-global-purple-800, #460683);
+  --dsc-dark-other-color-purple-xlight: var(--dsc-global-purple-900, #32045E);
+  /*----------  Cyan  ----------*/
+  --dsc-other-color-cyan-default: var(--dsc-global-cyan-400, #38D6EF);
+  --dsc-other-color-cyan-light: var(--dsc-global-cyan-100, #A4EDF8);
+  --dsc-other-color-cyan-xlight: var(--dsc-global-cyan-25, #EDFBFE);
+  --dsc-dark-other-color-cyan-default: var(--dsc-global-cyan-600, #10AFC7);
+  --dsc-dark-other-color-cyan-light: var(--dsc-global-cyan-800, #0A6F7F);
+  --dsc-dark-other-color-cyan-xlight: var(--dsc-global-cyan-900, #07505B);
+  /*----------  Pink  ----------*/
+  --dsc-other-color-pink-default: var(--dsc-global-pink-400, #E9538D);
+  --dsc-other-color-pink-light: var(--dsc-global-pink-100, #FFBED9);
+  --dsc-other-color-pink-xlight: var(--dsc-global-pink-25, #FFF3F8);
+  --dsc-dark-other-color-pink-default: var(--dsc-global-pink-600, #CF195F);
+  --dsc-dark-other-color-pink-light: var(--dsc-global-pink-800, #99053E);
+  --dsc-dark-other-color-pink-xlight: var(--dsc-global-pink-900, #78002E);
+  /*----------  Sky  ----------*/
+  --dsc-other-color-sky-default: var(--dsc-global-sky-400, #3CAAFA);
+  --dsc-other-color-sky-light: var(--dsc-global-sky-100, #C2E6FF);
+  --dsc-other-color-sky-xlight: var(--dsc-global-sky-25, #F3FAFF);
+  --dsc-dark-other-color-sky-default: var(--dsc-global-sky-600, #1580CD);
+  --dsc-dark-other-color-sky-light: var(--dsc-global-sky-800, #0D5E99);
+  --dsc-dark-other-color-sky-xlight: var(--dsc-global-sky-900, #033F6B);
+  /*----------  Black  ----------*/
+  --dsc-other-color-black-default: #000000;
+  --dsc-dark-other-color-black-default: #ffffff;
+  /*=============================================
+  =            Global 2 color gradient colors            =
+  =============================================*/
+  --dsc-global-gradient-2color-1: linear-gradient(59deg, #bb0000 50%, #FAD0C4);
+  --dsc-global-gradient-2color-1-light: linear-gradient(63deg, rgba(255, 154, 158, 0.35) 30%, rgba(250, 208, 196, 0.35));
+  --dsc-global-gradient-2color-2: linear-gradient(61deg, #A18CD1 30%, #FBC2EB);
+  --dsc-global-gradient-2color-3: linear-gradient(0deg, #FAD0C4, #FFD1FF);
+  --dsc-global-gradient-2color-4: linear-gradient(-119deg, #26D0CE, #1A2980);
+  --dsc-global-gradient-2color-5: linear-gradient(-117deg, #EAECC6, #2BC0E4);
+  --dsc-global-gradient-2color-6: linear-gradient(106deg, #FCCB90, #D57EEB);
+  --dsc-global-gradient-2color-7: linear-gradient(61deg, #FBC5EC, #89B1F7);
+  --dsc-global-gradient-2color-8: linear-gradient(180deg, #FF0844, #FFB199);
+  --dsc-global-gradient-2color-9: linear-gradient(-90deg, #E5B2CA 10% 15%, #7028E4 60% 100%);
+  --dsc-global-gradient-2color-10: linear-gradient(-150deg, #FF6B95 5%, #FFC796 90%);
+  --dsc-global-gradient-2color-11: linear-gradient(65deg, #6654F1, #69EACB);
+  --dsc-global-gradient-2color-12: linear-gradient(119deg, #6B8CCE, #0C3483);
+  --dsc-global-gradient-2color-13: linear-gradient(-105deg, #96DEDA, #50C9C3);
+  --dsc-global-gradient-2color-14: linear-gradient(62deg, #6457C6, #C0ADFF);
+  --dsc-global-gradient-2color-15: linear-gradient(124deg, #DDD6F3, #FAACA8);
+  --dsc-global-gradient-2color-16: linear-gradient(180deg, #E6B980, #EACDA3);
+  --dsc-global-gradient-2color-17: linear-gradient(122deg, #005BEA, #45D8FF);
+  --dsc-global-gradient-2color-18: linear-gradient(-90deg, #96E6A1, #D4FC79);
+  --dsc-global-gradient-2color-18-light: linear-gradient(-90deg, rgba(150, 230, 161, 0.3), rgba(212, 252, 121, 0.35));
+  --dsc-global-gradient-2color-19: linear-gradient(90deg, #FF758C, #FFA1C8);
+  --dsc-global-gradient-2color-20: linear-gradient(147deg, #00CDAC, #8DDAD5);
+  --dsc-global-gradient-2color-21: radial-gradient(circle at center, #B1AFF0, #836DF0);
+  --dsc-global-gradient-2color-22: radial-gradient(circle at 50% 110%, #71DDA6, #70B2BC);
+  /*=====  End of Global 2 color gradient colors  ======*/
+  /*=============================================
+  =            Global 3 color gradient colors            =
+  =============================================*/
+  --dsc-global-gradient-3color-1: linear-gradient(-90deg, #A6FFCB, #12D8FA, #1FA2FF);
+  --dsc-global-gradient-3color-2: linear-gradient(35deg, #FFBAC3 0%, #C5C1FF 45%, #2CD8D5);
+  --dsc-global-gradient-3color-3: linear-gradient(-116deg, #FFCA7B, #D76D77, #3A1C71);
+  --dsc-global-gradient-3color-4: linear-gradient(35deg, #6654F1, #EACCF8 50%, #69EACB);
+  --dsc-global-gradient-3color-5: linear-gradient(61deg, #4801FF, #7918F2, #AC32E4);
+  --dsc-global-gradient-3color-6: linear-gradient(-96deg, #0A40FF 10%, #65C7F7 60%, #9CECFB);
+  --dsc-global-gradient-3color-7: linear-gradient(-90deg, #F0ACF7, #ACF7F0, #F7F0AC);
+  --dsc-global-gradient-3color-8: linear-gradient(-90deg, #F7797D, #FBD786, #C6FFDD);
+  --dsc-global-gradient-3color-9: linear-gradient(119deg, #3B41C5, #A981BB, #FFC8A9);
+  /*=====  End of Global 3 color gradient colors  ======*/
+  /*=============================================
+  =            Global 4 color gradient colors            =
+  =============================================*/
+  --dsc-global-gradient-4color-1: linear-gradient(120deg, #35EB93 10%, #2CACD1, #2B76B9, #3D3393);
+  /*=====  End of Global 4 color gradient colors  ======*/
+  /*=============================================
+  =            Global 8 color gradient colors            =
+  =============================================*/
+  --dsc-global-gradient-8color-1: linear-gradient(117deg, #F7C978, #F3A469, #F18271, #CC6B8E, #A86AA4, #7B5FAC, #5A55AE, #3F51B1);
+  /*=====  End of Global 8 color gradient colors  ======*/
+  /*----------  End of color variables  ----------*/
+  /*=============================================
+  =            Button css variables            =
+  =============================================*/
+  --dsc-btn-primary-bg-color: var(--dsc-action-background-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  --dsc-btn-primary-fg-color: var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-btn-primary-color-hover: var(--dsc-action-background-brand-hover, var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9)));
+  --dsc-btn-primary-color-focused: var(--dsc-action-background-brand-focused, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  --dsc-btn-primary-color-active: var(--dsc-action-background-brand-active, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  --dsc-btn-primary-color-disabled: var(--dsc-action-background-brand-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  --dsc-btn-primary-color-outline: var(--dsc-border-brand-subtle, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  --dsc-dark-btn-primary-bg-color: var(--dsc-dark-action-background-brand-normal, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF)));
+  --dsc-dark-btn-primary-fg-color: var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-primary-color-hover: var(--dsc-dark-action-background-brand-hover, var(--dsc-dark-semantic-brand-600, var(--dsc-global-blue-dark-600, #1645D3)));
+  --dsc-dark-btn-primary-color-focused: var(--dsc-dark-action-background-brand-focused, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF)));
+  --dsc-dark-btn-primary-color-active: var(--dsc-dark-action-background-brand-active, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF)));
+  --dsc-dark-btn-primary-color-disabled: var(--dsc-action-background-brand-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  --dsc-dark-btn-primary-color-outline: var(--dsc-dark-border-brand-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  --dsc-btn-primary-border: 1px solid var(--dsc-action-background-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  --dsc-btn-primary-border-bg-color: var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-btn-primary-border-fg-color: var(--dsc-action-background-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  --dsc-btn-primary-border-color-outline: var(--dsc-border-brand-subtle, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  --dsc-btn-primary-border-color-hover: var(--dsc-action-background-brand-light-hover, var(--dsc-semantic-brand-50, var(--dsc-global-blue-50, #E8EDFF)));
+  --dsc-btn-primary-border-color-active: var(--dsc-action-background-brand-light-active, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF)));
+  --dsc-btn-primary-border-color-focused: var(--dsc-action-background-brand-light-focused, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF)));
+  --dsc-btn-primary-border-color-disabled: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-primary-border: 1px solid var(--dsc-dark-action-background-brand-normal, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF)));
+  --dsc-dark-btn-primary-border-bg-color: var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-dark-btn-primary-border-fg-color: var(--dsc-dark-action-background-brand-normal, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF)));
+  --dsc-dark-btn-primary-border-color-outline: var(--dsc-dark-border-brand-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  --dsc-dark-btn-primary-border-color-hover: var(--dsc-dark-action-background-brand-light-hover, var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A)));
+  --dsc-dark-btn-primary-border-color-active: var(--dsc-dark-action-background-brand-light-active, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+  --dsc-dark-btn-primary-border-color-focused: var(--dsc-dark-action-background-brand-light-focused, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+  --dsc-dark-btn-primary-border-color-disabled: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-btn-primary-light-bg-color: var(--dsc-action-background-brand-light-normal, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF)));
+  --dsc-btn-primary-light-fg-color: var(--dsc-action-foreground-brand-inverted-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  --dsc-btn-primary-light-color-outline: var(--dsc-border-brand-subtle, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  --dsc-btn-primary-light-color-hover: var(--dsc-action-background-brand-light-hover, var(--dsc-semantic-brand-50, var(--dsc-global-blue-50, #E8EDFF)));
+  --dsc-btn-primary-light-color-active: var(--dsc-action-background-brand-light-active, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF)));
+  --dsc-btn-primary-light-color-focused: var(--dsc-action-background-brand-light-focused, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF)));
+  --dsc-btn-primary-light-color-disabled: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-primary-light-bg-color: var(--dsc-dark-action-background-brand-light-normal, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+  --dsc-dark-btn-primary-light-fg-color: var(--dsc-dark-action-foreground-brand-inverted-normal, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF)));
+  --dsc-dark-btn-primary-light-color-outline: var(--dsc-border-brand-subtle, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  --dsc-dark-btn-primary-light-color-hover: var(--dsc-dark-action-background-brand-light-hover, var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A)));
+  --dsc-dark-btn-primary-light-color-active: var(--dsc-dark-action-background-brand-light-active, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+  --dsc-dark-btn-primary-light-color-focused: var(--dsc-dark-action-background-brand-light-focused, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+  --dsc-dark-btn-primary-light-color-disabled: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-btn-secondary-bg-color: var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  --dsc-btn-secondary-fg-color: var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-btn-secondary-color-hover: var(--dsc-action-background-neutral-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  --dsc-btn-secondary-color-focused: var(--dsc-action-background-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  --dsc-btn-secondary-color-active: var(--dsc-action-background-neutral-active, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+  --dsc-btn-secondary-color-disabled: var(--dsc-action-background-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  --dsc-btn-secondary-color-outline: var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  --dsc-dark-btn-secondary-bg-color: var(--dsc-dark-action-background-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-dark-btn-secondary-fg-color: var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-dark-btn-secondary-color-hover: var(--dsc-dark-action-background-neutral-hover, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
+  --dsc-dark-btn-secondary-color-focused: var(--dsc-dark-action-background-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-dark-btn-secondary-color-active: var(--dsc-dark-action-background-neutral-active, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-dark-btn-secondary-color-disabled: var(--dsc-dark-action-background-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  --dsc-dark-btn-secondary-color-outline: var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  --dsc-btn-secondary-border: 1px solid var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  --dsc-btn-secondary-border-bg-color: var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-btn-secondary-border-fg-color: var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  --dsc-btn-secondary-border-color-outline: var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  --dsc-btn-secondary-border-color-hover: var(--dsc-action-background-neutral-light-hover, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-btn-secondary-border-color-active: var(--dsc-action-background-neutral-light-active, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-btn-secondary-border-color-focused: var(--dsc-action-background-neutral-light-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-btn-secondary-border-color-disabled: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-secondary-border: 1px solid var(--dsc-dark-action-background-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-dark-btn-secondary-border-bg-color: var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-dark-btn-secondary-border-fg-color: var(--dsc-dark-action-background-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-dark-btn-secondary-border-color-outline: var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  --dsc-dark-btn-secondary-border-color-hover: var(--dsc-dark-action-background-neutral-light-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  --dsc-dark-btn-secondary-border-color-active: var(--dsc-dark-action-background-neutral-light-active, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643)));
+  --dsc-dark-btn-secondary-border-color-focused: var(--dsc-dark-action-background-neutral-light-focused, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643)));
+  --dsc-dark-btn-secondary-border-color-disabled: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-btn-secondary-light-bg-color: var(--dsc-action-background-neutral-light-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-btn-secondary-light-fg-color: var(--dsc-action-foreground-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  --dsc-btn-secondary-light-color-outline: var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  --dsc-btn-secondary-light-color-hover: var(--dsc-action-background-neutral-light-hover, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-btn-secondary-light-color-active: var(--dsc-action-background-neutral-light-active, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-btn-secondary-light-color-focused: var(--dsc-action-background-neutral-light-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-btn-secondary-light-color-disabled: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-secondary-light-bg-color: var(--dsc-dark-action-background-neutral-light-normal, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643)));
+  --dsc-dark-btn-secondary-light-fg-color: var(--dsc-dark-action-foreground-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-dark-btn-secondary-light-color-outline: var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  --dsc-dark-btn-secondary-light-color-hover: var(--dsc-dark-action-background-neutral-light-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  --dsc-dark-btn-secondary-light-color-active: var(--dsc-dark-action-background-neutral-light-active, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643)));
+  --dsc-dark-btn-secondary-light-color-focused: var(--dsc-dark-action-background-neutral-light-focused, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643)));
+  --dsc-dark-btn-secondary-light-color-disabled: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-btn-error-bg-color: var(--dsc-action-background-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  --dsc-btn-error-fg-color: var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-btn-error-color-hover: var(--dsc-action-background-error-hover, var(--dsc-semantic-error-600, var(--dsc-global-red-600, #E92215)));
+  --dsc-btn-error-color-focused: var(--dsc-action-background-error-focused, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  --dsc-btn-error-color-active: var(--dsc-action-background-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  --dsc-btn-error-color-disabled: var(--dsc-action-background-error-disabled, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+  --dsc-btn-error-color-outline: var(--dsc-border-error-subtle, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+  --dsc-dark-btn-error-bg-color: var(--dsc-dark-action-background-error-normal, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+  --dsc-dark-btn-error-fg-color: var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-error-color-hover: var(--dsc-dark-action-background-error-hover, var(--dsc-dark-semantic-error-600, var(--dsc-global-red-dark-600, #C62424)));
+  --dsc-dark-btn-error-color-focused: var(--dsc-dark-action-background-error-focused, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+  --dsc-dark-btn-error-color-active: var(--dsc-dark-action-background-error-active, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+  --dsc-dark-btn-error-color-disabled: var(--dsc-dark-action-background-error-disabled, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+  --dsc-dark-btn-error-color-outline: var(--dsc-dark-border-error-subtle, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+  --dsc-btn-error-border: 1px solid var(--dsc-action-background-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  --dsc-btn-error-border-bg-color: var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-btn-error-border-fg-color: var(--dsc-action-background-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  --dsc-btn-error-border-color-outline: var(--dsc-border-error-subtle, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+  --dsc-btn-error-border-color-hover: var(--dsc-action-background-error-inverted-light-hover, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4)));
+  --dsc-btn-error-border-color-active: var(--dsc-action-background-error-inverted-light-active, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4)));
+  --dsc-btn-error-border-color-focused: var(--dsc-action-background-error-light-focused, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4)));
+  --dsc-btn-error-border-color-disabled: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-error-border: 1px solid var(--dsc-dark-action-background-error-normal, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+  --dsc-dark-btn-error-border-bg-color: var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-dark-btn-error-border-fg-color: var(--dsc-dark-action-background-error-normal, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+  --dsc-dark-btn-error-border-color-outline: var(--dsc-dark-border-error-subtle, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+  --dsc-dark-btn-error-border-color-hover: var(--dsc-dark-action-background-error-inverted-light-hover, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+  --dsc-dark-btn-error-border-color-active: var(--dsc-dark-action-background-error-inverted-light-active, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+  --dsc-dark-btn-error-border-color-focused: var(--dsc-dark-action-background-error-light-focused, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+  --dsc-dark-btn-error-border-color-disabled: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-btn-error-light-bg-color: var(--dsc-action-background-error-light-normal, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4)));
+  --dsc-btn-error-light-fg-color: var(--dsc-action-foreground-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  --dsc-btn-error-light-color-outline: var(--dsc-border-error-subtle, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+  --dsc-btn-error-light-color-hover: var(--dsc-action-background-error-light-hover, var(--dsc-semantic-error-50, var(--dsc-global-red-50, #FFDCDA)));
+  --dsc-btn-error-light-color-active: var(--dsc-action-background-error-light-active, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4)));
+  --dsc-btn-error-light-color-focused: var(--dsc-action-background-error-light-focused, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4)));
+  --dsc-btn-error-light-color-disabled: var(--dsc-action-background-error-light-disabled, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4)));
+  --dsc-dark-btn-error-light-bg-color: var(--dsc-dark-action-background-error-light-normal, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+  --dsc-dark-btn-error-light-fg-color: var(--dsc-dark-action-foreground-error-normal, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+  --dsc-dark-btn-error-light-color-outline: var(--dsc-dark-border-error-subtle, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+  --dsc-dark-btn-error-light-color-hover: var(--dsc-dark-action-background-error-inverted-light-hover, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+  --dsc-dark-btn-error-light-color-active: var(--dsc-dark-action-background-error-inverted-light-active, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+  --dsc-dark-btn-error-light-color-focused: var(--dsc-dark-action-background-error-light-focused, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+  --dsc-dark-btn-error-light-color-disabled: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-btn-success-bg-color: var(--dsc-action-background-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  --dsc-btn-success-fg-color: var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-btn-success-color-hover: var(--dsc-action-background-success-hover, var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952)));
+  --dsc-btn-success-color-focused: var(--dsc-action-background-success-focused, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  --dsc-btn-success-color-active: var(--dsc-action-background-success-active, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  --dsc-btn-success-color-disabled: var(--dsc-action-background-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+  --dsc-btn-success-color-outline: var(--dsc-border-success-subtle, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+  --dsc-dark-btn-success-bg-color: var(--dsc-dark-action-background-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-btn-success-fg-color: var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-success-color-hover: var(--dsc-dark-action-background-success-hover, var(--dsc-dark-semantic-success-600, var(--dsc-global-green-dark-600, #149454)));
+  --dsc-dark-btn-success-color-focused: var(--dsc-dark-action-background-success-focused, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-btn-success-color-active: var(--dsc-dark-action-background-success-active, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-btn-success-color-disabled: var(--dsc-dark-action-background-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+  --dsc-dark-btn-success-color-outline: var(--dsc-dark-border-success-subtle, var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542)));
+  --dsc-dark-btn-success-bg-color: var(--dsc-dark-action-background-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-btn-success-fg-color: var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-success-color-hover: var(--dsc-dark-action-background-success-hover, var(--dsc-dark-semantic-success-600, var(--dsc-global-green-dark-600, #149454)));
+  --dsc-dark-btn-success-color-focused: var(--dsc-dark-action-background-success-focused, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-btn-success-color-active: var(--dsc-dark-action-background-success-active, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-btn-success-color-disabled: var(--dsc-dark-action-background-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+  --dsc-dark-btn-success-color-outline: var(--dsc-dark-border-success-subtle, var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542)));
+  --dsc-btn-success-border: 1px solid var(--dsc-action-background-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  --dsc-btn-success-border-bg-color: var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-btn-success-border-fg-color: var(--dsc-action-background-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  --dsc-btn-success-border-color-outline: var(--dsc-border-success-subtle, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+  --dsc-btn-success-border-color-hover: var(--dsc-action-background-success-light-hover, var(--dsc-semantic-success-50, var(--dsc-global-green-50, #D7F8E9)));
+  --dsc-btn-success-border-color-active: var(--dsc-action-background-success-light-active, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5)));
+  --dsc-btn-success-border-color-focused: var(--dsc-action-background-success-light-focused, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5)));
+  --dsc-btn-success-border-color-disabled: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-success-border: 1px solid var(--dsc-dark-action-background-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-btn-success-border-bg-color: var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-dark-btn-success-border-fg-color: var(--dsc-dark-action-background-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-btn-success-border-color-outline: var(--dsc-dark-border-success-subtle, var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542)));
+  --dsc-dark-btn-success-border-color-hover: var(--dsc-dark-action-background-success-light-hover, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+  --dsc-dark-btn-success-border-color-active: var(--dsc-dark-action-background-success-light-active, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16)));
+  --dsc-dark-btn-success-border-color-focused: var(--dsc-dark-action-background-success-light-focused, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16)));
+  --dsc-dark-btn-success-border-color-disabled: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-btn-success-light-bg-color: var(--dsc-action-background-success-light-normal, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5)));
+  --dsc-btn-success-light-fg-color: var(--dsc-action-foreground-success-normal, var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952)));
+  --dsc-btn-success-light-color-outline: var(--dsc-border-success-subtle, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+  --dsc-btn-success-light-color-hover: var(--dsc-action-background-success-light-hover, var(--dsc-semantic-success-50, var(--dsc-global-green-50, #D7F8E9)));
+  --dsc-btn-success-light-color-active: var(--dsc-action-background-success-light-active, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5)));
+  --dsc-btn-success-light-color-focused: var(--dsc-action-background-success-light-focused, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5)));
+  --dsc-btn-success-light-color-disabled: var(--dsc-action-background-success-light-disabled, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5)));
+  --dsc-dark-btn-success-light-bg-color: var(--dsc-dark-action-background-success-light-normal, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16)));
+  --dsc-dark-btn-success-light-fg-color: var(--dsc-dark-action-foreground-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-btn-success-light-color-outline: var(--dsc-dark-border-success-subtle, var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542)));
+  --dsc-dark-btn-success-light-color-hover: var(--dsc-dark-action-background-success-light-hover, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+  --dsc-dark-btn-success-light-color-active: var(--dsc-dark-action-background-success-light-active, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16)));
+  --dsc-dark-btn-success-light-color-focused: var(--dsc-dark-action-background-success-light-focused, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16)));
+  --dsc-dark-btn-success-light-color-disabled: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-btn-warning-bg-color: var(--dsc-action-background-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  --dsc-btn-warning-fg-color: var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-btn-warning-color-hover: var(--dsc-action-background-warning-hover, var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800)));
+  --dsc-btn-warning-color-focused: var(--dsc-action-background-warning-focused, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  --dsc-btn-warning-color-active: var(--dsc-action-background-warning-active, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  --dsc-btn-warning-color-outline: var(--dsc-border-warning-subtle, var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C)));
+  --dsc-dark-btn-warning-bg-color: var(--dsc-dark-action-background-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  --dsc-dark-btn-warning-fg-color: var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-warning-color-hover: var(--dsc-dark-action-background-warning-hover, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917)));
+  --dsc-dark-btn-warning-color-focused: var(--dsc-dark-action-background-warning-focused, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  --dsc-dark-btn-warning-color-active: var(--dsc-dark-action-background-warning-active, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  --dsc-dark-btn-warning-color-disabled: var(--dsc-dark-action-background-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+  --dsc-dark-btn-warning-color-outline: var(--dsc-dark-border-warning-subtle, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917)));
+  --dsc-btn-warning-border: 1px solid var(--dsc-action-background-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  --dsc-btn-warning-border-bg-color: var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-btn-warning-border-fg-color: var(--dsc-action-background-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  --dsc-btn-warning-border-color-outline: var(--dsc-border-warning-subtle, var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C)));
+  --dsc-btn-warning-border-color-hover: var(--dsc-action-background-warning-light-hover, var(--dsc-semantic-warning-50, var(--dsc-global-yellow-50, #FFF2C4)));
+  --dsc-btn-warning-border-color-active: var(--dsc-action-background-warning-light-active, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF)));
+  --dsc-btn-warning-border-color-focused: var(--dsc-action-background-warning-light-focused, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF)));
+  --dsc-btn-warning-border-color-disabled: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-dark-btn-warning-border: 1px solid var(--dsc-dark-action-background-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  --dsc-dark-btn-warning-border-bg-color: var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-dark-btn-warning-border-fg-color: var(--dsc-dark-action-background-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  --dsc-dark-btn-warning-border-color-outline: var(--dsc-dark-border-warning-subtle, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917)));
+  --dsc-dark-btn-warning-border-color-hover: var(--dsc-dark-action-background-warning-light-hover, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+  --dsc-dark-btn-warning-border-color-active: var(--dsc-dark-action-background-warning-light-active, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07)));
+  --dsc-dark-btn-warning-border-color-focused: var(--dsc-dark-action-background-warning-light-focused, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07)));
+  --dsc-dark-btn-warning-border-color-disabled: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-btn-warning-light-bg-color: var(--dsc-action-background-warning-light-normal, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF)));
+  --dsc-btn-warning-light-fg-color: var(--dsc-action-foreground-warning-normal, var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800)));
+  --dsc-btn-warning-light-color-outline: var(--dsc-border-warning-subtle, var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C)));
+  --dsc-btn-warning-light-color-hover: var(--dsc-action-background-warning-light-hover, var(--dsc-semantic-warning-50, var(--dsc-global-yellow-50, #FFF2C4)));
+  --dsc-btn-warning-light-color-active: var(--dsc-action-background-warning-light-active, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF)));
+  --dsc-btn-warning-light-color-focused: var(--dsc-action-background-warning-light-focused, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF)));
+  --dsc-btn-warning-light-color-disabled: var(--dsc-action-background-warning-light-disabled, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF)));
+  --dsc-dark-btn-warning-light-bg-color: var(--dsc-dark-action-background-warning-light-normal, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07)));
+  --dsc-dark-btn-warning-light-fg-color: var(--dsc-dark-action-foreground-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  --dsc-dark-btn-warning-light-color-outline: var(--dsc-dark-border-warning-subtle, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917)));
+  --dsc-dark-btn-warning-light-color-hover: var(--dsc-dark-action-background-warning-light-hover, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+  --dsc-dark-btn-warning-light-color-active: var(--dsc-dark-action-background-warning-light-active, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07)));
+  --dsc-dark-btn-warning-light-color-focused: var(--dsc-dark-action-background-warning-light-focused, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07)));
+  --dsc-dark-btn-warning-light-color-disabled: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  /*=====  End of Button css variables  ======*/
+  /*=============================================
+  =            Typography css variables            =
+  =============================================*/
+  /*----------  Font Family  ----------*/
+  --dsc-font-family-inter: Inter, sans-serif; /* 1 */
+  --dsc-font-family-raleway: Raleway, HelveticaNeue, Helvetica, sans-serif; /* 2 */
+  /*----------  End of Font Family  ----------*/
+  /*----------  Font weights  ----------*/
+  --dsc-font-weight-regular: 400; /* 400 */
+  --dsc-font-weight-medium: 500; /* 500 */
+  --dsc-font-weight-semibold: 600; /* 600 */
+  /*----------  End of Font weights  ----------*/
+  /*----------  Display font variables  ----------*/
+  --dsc-display-font-size: 6rem;
+  --dsc-display-line-height: 6.875rem;
+  --dsc-display-letter-spacing: -0.15625rem;
+  --dsc-display-font-weight-default: 500;
+  --dsc-display-font-weight-strong: 600;
+  /*----------  End of Display font variables  ----------*/
+  /*----------  Heading font variables  ----------*/
+  --dsc-h1-font-size: 4rem;
+  --dsc-h2-font-size: 3.5rem;
+  --dsc-h3-font-size: 2.5rem;
+  --dsc-h4-font-size: 2rem;
+  --dsc-h5-font-size: 1.5rem;
+  --dsc-h1-line-height: 4.875rem;
+  --dsc-h2-line-height: 4.125rem;
+  --dsc-h3-line-height: 3rem;
+  --dsc-h4-line-height: 2.625rem;
+  --dsc-h5-line-height: 2.125rem;
+  --dsc-h1-letter-spacing: -0.14375rem;
+  --dsc-h2-letter-spacing: -0.109375rem;
+  --dsc-h3-letter-spacing: -0.09375rem;
+  --dsc-h4-letter-spacing: -0.046875rem;
+  --dsc-h5-letter-spacing: -0.025rem;
+  --dsc-h1-font-weight-default: 500;
+  --dsc-h1-font-weight-strong: 600;
+  --dsc-h2-font-weight-default: 500;
+  --dsc-h2-font-weight-strong: 600;
+  --dsc-h3-font-weight-default: 500;
+  --dsc-h3-font-weight-strong: 600;
+  --dsc-h4-font-weight-default: 500;
+  --dsc-h4-font-weight-strong: 600;
+  --dsc-h5-font-weight-default: 500;
+  --dsc-h5-font-weight-strong: 600;
+  /*----------  End of Heading font variables  ----------*/
+  /*----------  Body font variables  ----------*/
+  /* body font size */
+  --dsc-body-font-size-xl: body-fs-xl;
+  --dsc-body-font-size-lg: body-fs-lg;
+  --dsc-body-font-size-md: body-fs-md;
+  --dsc-body-font-size-sm: body-fs-sm;
+  --dsc-body-font-size-xs: body-fs-xs;
+  /* body line height */
+  --dsc-body-line-height-xl: body-lh-xl;
+  --dsc-body-line-height-lg: body-lh-lg;
+  --dsc-body-line-height-md: body-lh-md;
+  --dsc-body-line-height-sm: body-lh-sm;
+  --dsc-body-line-height-xs: body-lh-xs;
+  /* body letter spacing */
+  --dsc-body-letter-spacing-xl: body-ls-xl;
+  --dsc-body-letter-spacing-lg: body-ls-lg;
+  --dsc-body-letter-spacing-md: body-ls-md;
+  --dsc-body-letter-spacing-sm: body-ls-sm;
+  --dsc-body-letter-spacing-xs: body-ls-xs;
+  --dsc-body-font-weight-xl-default: 400;
+  --dsc-body-font-weight-xl-strong: 600;
+  --dsc-body-font-weight-lg-default: 400;
+  --dsc-body-font-weight-lg-strong: 600;
+  --dsc-body-font-weight-md-default: 400;
+  --dsc-body-font-weight-md-strong: 600;
+  --dsc-body-font-weight-sm-default: 400;
+  --dsc-body-font-weight-sm-strong: 600;
+  --dsc-body-font-weight-xs-default: 400;
+  --dsc-body-font-weight-xs-strong: 600;
+  /*----------  End of Body font variables  ----------*/
+  /*----------  Label font variables  ----------*/
+  --dsc-label-font-size-2xs: 0.625rem;
+  --dsc-label-font-size-xs: 0.75rem;
+  --dsc-label-font-size-sm: 0.875rem;
+  --dsc-label-font-size-md: 1rem;
+  --dsc-label-font-size-lg: 1.125rem;
+  --dsc-label-font-size-xl: 1.25rem;
+  --dsc-label-font-size-2xl: 1.5rem;
+  --dsc-label-line-height-2xs: 0.875rem;
+  --dsc-label-line-height-xs: 1rem;
+  --dsc-label-line-height-sm: 1.25rem;
+  --dsc-label-line-height-md: 1.5rem;
+  --dsc-label-line-height-lg: 1.5rem;
+  --dsc-label-line-height-xl: 1.6875rem;
+  --dsc-label-line-height-2xl: 2rem;
+  --dsc-label-letter-spacing-2xs: -0.0125rem;
+  --dsc-label-letter-spacing-xs: -0.0125rem;
+  --dsc-label-letter-spacing-sm: -0.025rem;
+  --dsc-label-letter-spacing-md: -0.01875rem;
+  --dsc-label-letter-spacing-lg: -0.025rem;
+  --dsc-label-letter-spacing-xl: -0.025rem;
+  --dsc-label-letter-spacing-2xl: -0.025rem;
+  --dsc-label-font-weight-2xs-default: 400;
+  --dsc-label-font-weight-2xs-strong: 500;
+  --dsc-label-font-weight-xs-default: 400;
+  --dsc-label-font-weight-xs-strong: 500;
+  --dsc-label-font-weight-sm-default: 400;
+  --dsc-label-font-weight-sm-strong: 500;
+  --dsc-label-font-weight-md-default: 400;
+  --dsc-label-font-weight-md-strong: 500;
+  --dsc-label-font-weight-lg-default: 400;
+  --dsc-label-font-weight-lg-strong: 500;
+  --dsc-label-font-weight-xl-default: 400;
+  --dsc-label-font-weight-xl-strong: 500;
+  --dsc-label-font-weight-2xl-default: 400;
+  --dsc-label-font-weight-2xl-strong: 500;
+  /*----------  End of Label font variables  ----------*/
+  /*----------  Underline font variables  ----------*/
+  --dsc-underline-font-size-2xl: 1.5rem;
+  --dsc-underline-font-size-xl: 1.25rem;
+  --dsc-underline-font-size-lg: 1.125rem;
+  --dsc-underline-font-size-md: 1rem;
+  --dsc-underline-font-size-sm: 0.875rem;
+  --dsc-underline-font-size-xs: 0.75rem;
+  --dsc-underline-line-height-2xl: 2rem;
+  --dsc-underline-line-height-xl: 1.6875rem;
+  --dsc-underline-line-height-lg: 1.5rem;
+  --dsc-underline-line-height-md: 1.5rem;
+  --dsc-underline-line-height-sm: 1.25rem;
+  --dsc-underline-line-height-xs: 1rem;
+  --dsc-underline-letter-spacing-2xl: -0.03125rem;
+  --dsc-underline-letter-spacing-xl: -0.01875rem;
+  --dsc-underline-letter-spacing-lg: -0.01875rem;
+  --dsc-underline-letter-spacing-md: -0.01875rem;
+  --dsc-underline-letter-spacing-sm: -0.0125rem;
+  --dsc-underline-letter-spacing-xs: -0.0125rem;
+  --dsc-underline-font-weight-2xl-default: 400;
+  --dsc-underline-font-weight-2xl-strong: 500;
+  --dsc-underline-font-weight-xl-default: 400;
+  --dsc-underline-font-weight-xl-strong: 500;
+  --dsc-underline-font-weight-lg-default: 400;
+  --dsc-underline-font-weight-lg-strong: 500;
+  --dsc-underline-font-weight-md-default: 400;
+  --dsc-underline-font-weight-md-strong: 500;
+  --dsc-underline-font-weight-sm-default: 400;
+  --dsc-underline-font-weight-sm-strong: 500;
+  --dsc-underline-font-weight-xs-default: 400;
+  --dsc-underline-font-weight-xs-strong: 500;
+  /*----------  End of Underline font variables  ----------*/
+  /*=============================================
+  =            Spacing            =
+  =============================================*/
+  --dsc-space-zero: 0rem;
+  --dsc-space-5xs: 0.125rem;
+  --dsc-space-4xs: 0.25rem;
+  --dsc-space-3xs: 0.375rem;
+  --dsc-space-2xs: 0.5rem;
+  --dsc-space-xs: 0.625rem;
+  --dsc-space-sm: 0.75rem;
+  --dsc-space-md: 1rem;
+  --dsc-space-lg: 1.25rem;
+  --dsc-space-xl: 1.5rem;
+  --dsc-space-2xl: 2rem;
+  --dsc-space-3xl: 2.5rem;
+  --dsc-space-4xl: 3rem;
+  --dsc-space-5xl: 4rem;
+  --dsc-space-6xl: 4.5rem;
+  --dsc-space-7xl: 5rem;
+  --dsc-space-8xl: 6rem;
+  --dsc-space-9xl: 7rem;
+  --dsc-space-10xl: 8rem;
+  --dsc-space-11xl: 10rem;
+  --dsc-space-12xl: 13rem;
+  --dsc-space-13xl: 15rem;
+  --dsc-space-14xl: 20rem;
+  /*=====  End of Spacing  ======*/
+  /*=============================================
+  =            Corner Radius            =
+  =============================================*/
+  --dsc-radius-zero: var(--dsc-radius-zero, 0rem);
+  --dsc-radius-xsm: var(--dsc-radius-xsm, 0.25rem);
+  --dsc-radius-sm: var(--dsc-radius-sm, 0.375rem);
+  --dsc-radius-md: var(--dsc-radius-md, 0.5rem);
+  --dsc-radius-lg: var(--dsc-radius-lg, 0.625rem);
+  --dsc-radius-xl: var(--dsc-radius-xl, 0.75rem);
+  --dsc-radius-2xl: var(--dsc-radius-2xl, 1rem);
+  --dsc-radius-3xl: var(--dsc-radius-3xl, 1.25rem);
+  --dsc-radius-4xl: var(--dsc-radius-4xl, 1.5rem);
+  --dsc-radius-full-round: var(--dsc-radius-full-round, 624.9375rem);
+  /*=====  End of Corner Radius  ======*/
+  /*=============================================
+  =            Breakpoint            =
+  =============================================*/
+  --dsc-breakpoint-mob-lg: 390px;
+  --dsc-breakpoint-tab-md: 834px;
+  --dsc-breakpoint-tab-lg: 1024px;
+  --dsc-breakpoint-desk-sm: 1280px;
+  --dsc-breakpoint-desk-md: 1600px;
+  --dsc-breakpoint-desk-lg: 1920px;
+  /*=====  End of Break  ======*/
+  /*=====  End of Typography css variables  ======*/
+}
+
+body {
+  font-family: var(--dsc-font-family-inter, "Inter", sans-serif);
+}
+
+body[data-theme=dark] {
+  background-color: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  width: 100vw;
+  height: 100vh;
 }

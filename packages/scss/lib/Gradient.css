@@ -308,3 +308,6 @@
  * styles for components.
  *
  */
+.gradient {
+  background-image: var(--dsc-global-gradient-8color-1, linear-gradient(117deg, #F7C978, #F3A469, #F18271, #CC6B8E, #A86AA4, #7B5FAC, #5A55AE, #3F51B1));
+}

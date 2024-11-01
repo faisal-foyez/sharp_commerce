@@ -1,11 +1,14 @@
 {
-  "name": "scss",
+  "name": "@dsc/scss",
+  "exports": {
+    "./lib/*": "./lib/*"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "node ./src/scripts/build.js",
-    "dev":"nodemon --watch src --exec yarn build -e scss"
+    "dev":"nodemon --watch src --exec npm run build -e scss"
   },
   "author": "",
   "license": "ISC",

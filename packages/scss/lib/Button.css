@@ -27,9 +27,53 @@
 /*=============================================
 =            Colors                           =
 =============================================*/
-/* Brand Color */
-/* Neutral Colors */
-/* Utility Colors */
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Violet colors */
+/* Purple colors */
+/* Indigo colors */
+/* Blue light colors */
+/* Blue dark colors*/
+/* Blue gray colors */
+/* Blue colors */
+/* Cyan colors */
+/* Dimgray colors */
+/* Emerald colors */
+/* Gold colors */
+/* Green colors */
+/* Green dark colors */
+/* Lime colors */
+/* Orange colors */
+/* Pink colors */
+/* Rose colors */
+/* Red colors */
+/* Red dark colors */
+/* Sky colors */
+/* Slate colors */
+/* Stone colors */
+/* Teal colors */
+/* Yellow colors */
+/* Yellow dark colors */
+/* Zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
 /*=====  End of Colors  ======*/
 /*=============================================
 =                 Typography                  =
@@ -45,14 +89,27 @@
  */
 /* 1 */
 /* 2 */
-/* Font Sizes */
-/* Heading Font Sizes */
-/* Font Weights */
+/*----------  End of Font Familie  ----------*/
+/*----------  Font weights  ----------*/
+/*----------  End of Font weights  ----------*/
+/*----------  Display font variables  ----------*/
+/*----------  End of Display font variables  ----------*/
+/*----------  Heading font variables  ----------*/
+/*----------  End of Heading font variables  ----------*/
+/*----------  Body font variables  ----------*/
+/* body font size */
+/* body line height */
+/* body letter spacing */
+/*----------  End of Body font variables  ----------*/
+/*----------  Label font variables  ----------*/
+/*----------  End of Label font variables  ----------*/
+/*----------  Underline font variables  ----------*/
+/*----------  End of Underline font variables  ----------*/
 /*=====  End of Typography  ======*/
 /*=============================================
-=                 Breakpoints                 =
+=            Breakpoint            =
 =============================================*/
-/*=====  End of Breakpoints  ======*/
+/*=====  End of Breakpoint  ======*/
 /*=============================================
 =            Spacing                          =
 =============================================*/
@@ -62,54 +119,186 @@
 =============================================*/
 /*=====  End of Shadows  ======*/
 /*=============================================
+=            Spacing             =
+=============================================*/
+/*=====  End of Spacing   ======*/
+/*=============================================
+=            Corner Radius            =
+=============================================*/
+/*=====  End of Corner Radius  ======*/
+/*=============================================
+=            Breakpoints           =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
 =        Foundation - Typography              =
 =============================================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* 1 */
+/* 2 */
 /**
  * This file defines the default font sizes to be used on headings and texts. The defaults come
  * from the palette defined in _variables.scss.
  */
-/*=============================================
-=            Body font family                  =
-=============================================*/
-/*=============================================
-=            Body font sizes                  =
-=============================================*/
-/*=============================================
-=            Heading font sizes               =
-=============================================*/
-/*=============================================
-=            Head font weights                =
-=============================================*/
+/*----------  Heading font variables  ----------*/
 /*=============================================
 =            Foundation - colors              =
 =============================================*/
 /**
  * This file defines the actual colors that will be used for styling. They will default to the palette
- * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * we defined in the _variables.scss file. This is our default palette, and devs can override this
  * with their own variables.
  */
-/**
- *
- * Defining a softastructions]
- * 1. define a name
- * 2. value of the variable will be a css var, 
- *    so the consumer of the design system won't have to use scss
- * 3. default value will be a scss variable that we declared previously
- * 4. added !default flag so consumer of the design system can override the scss variable 
- * 5. the --dse prefix of the variable name is a namespace (project name)
- * [dse - design system for engineering]
- */
 /*=============================================
-=            Global text colors               =
+=            Global Colors Palette                    =
 =============================================*/
-/*=====  End of Text Color  ======*/
+/* Global fuchsia colors */
+/* Global violet colors */
+/* Global purple colors */
+/* Global indigo colors */
+/* Global blue light colors */
+/* Global blue dark colors*/
+/* Global blue gray colors */
+/* Global blue colors */
+/* Global cyan colors */
+/* Global dimgray colors */
+/* Global emerald colors */
+/* Global gold colors */
+/* Global green colors */
+/* Global green dark colors */
+/* Global lime colors */
+/* Global orange colors */
+/* Global pink colors */
+/* Global rose colors */
+/* Global red colors */
+/* Global red dark colors */
+/* Global sky colors */
+/* Global slate colors */
+/* Global stone colors */
+/* Global teal colors */
+/* Global yellow colors */
+/* Global yellow dark colors */
+/* Global zinc colors */
+/*=====  End of Global colors palette ======*/
 /*=============================================
-=                   Buttons                   =
+=            Semantic colors            =
 =============================================*/
-/*=====  End of Buttons  ======*/
+/*----------  Semantic Base  ----------*/
+/*---------- Semantic Brand  ----------*/
+/*----------  Dark Semantic Brand  ----------*/
+/*----------  Dark Semantic brand_alt  ----------*/
+/*----------  Semantic neutral  ----------*/
+/*----------  Semantic success  ----------*/
+/*----------  Dark Semantic success  ----------*/
+/*----------  Semantic warning  ----------*/
+/*----------  Dark Semantic warning  ----------*/
+/*----------  Semantic error  ----------*/
+/*----------  Dark Semantic error  ----------*/
+/*=====  End of Semantic colors  ======*/
 /*=============================================
-=                    Forms                    =
+=            Transparent colors tokens            =
 =============================================*/
+/*---------- Transparent Colors  ----------*/
+/*---------- Dark Semantic transparent Colors  ----------*/
+/*----------  Brand Transparent Colors  ----------*/
+/*=====  End of Transparent colors tokens  ======*/
+/*=============================================
+=            Background colors tokens            =
+=============================================*/
+/*----------  Background Semantic Base Colors  ----------*/
+/*---------- Dark Background Semantic Colors  ----------*/
+/*----------  Background Semantic Brand Colors  ----------*/
+/*----------  Dark Background Semantic Brand Colors  ----------*/
+/*----------  Background Semantic Neutral Colors  ----------*/
+/*----------  Dark Background Semantic Neutral Colors  ----------*/
+/*----------  Background Semantic Success Colors  ----------*/
+/*----------  Dark Background Semantic Success Colors  ----------*/
+/*----------  Background Semantic Warning Colors  ----------*/
+/*----------  Dark Background Semantic Warning Colors  ----------*/
+/*----------  Background Semantic Error Colors  ----------*/
+/*----------  Dark Background Semantic Error Colors  ----------*/
+/*=====  End of Background colors tokens  ======*/
+/*=============================================
+=            Foreground colors tokens            =
+=============================================
+
+/*----------  Foreground Semantic Neutral Colors  ----------*/
+/*----------  Dark Foreground Semantic Neutral Colors  ----------*/
+/*----------  Foreground Semantic Light Colors  ----------*/
+/*----------  Dark Foreground Semantic Light Colors  ----------*/
+/*----------  Foreground Semantic Brand Colors  ----------*/
+/*----------  Dark Foreground Semantic Brand Colors  ----------*/
+/*----------  Foreground Semantic Success Colors  ----------*/
+/*----------  Dark Foreground Semantic Success Colors  ----------*/
+/*----------  Foreground Semantic Warning Colors  ----------*/
+/*----------  Dark Foreground Semantic Warning Colors  ----------*/
+/*----------  Foreground Semantic Error Colors  ----------*/
+/*----------  Dark Foreground Semantic Error Colors  ----------*/
+/*----------  Foreground Semantic Link Colors  ----------*/
+/*----------  Dark Foreground Semantic Link Colors  ----------*/
+/*=====  End of Foreground colors tokens  ======*/
+/*=============================================
+=            Border colors tokens            =
+=============================================*/
+/*----------  Border Semantic Base Colors  ----------*/
+/*----------  Dark Border Semantic Base Colors  ----------*/
+/*----------  Border Semantic Neutral Colors  ----------*/
+/*----------  Dark Border Semantic Neutral Colors  ----------*/
+/*----------  Border Semantic Brand Colors  ----------*/
+/*----------  Dark Border Semantic Brand Colors  ----------*/
+/*----------  Border Semantic Success Colors  ----------*/
+/*----------  Dark Border Semantic Success Colors  ----------*/
+/*----------  Border Semantic Warning Colors  ----------*/
+/*----------  Dark Border Semantic Warning Colors  ----------*/
+/*----------  Border Semantic Error Colors  ----------*/
+/*----------  Dark Border Semantic Error Colors  ----------*/
+/*=====  End of Border colors tokens  ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=============================================
+=            Action color tokens            =
+=============================================*/
+/*----------  Action Background Base Colors  ----------*/
+/*----------  Action Background Brand Colors  ----------*/
+/*----------  Action Background Neutral Colors  ----------*/
+/*----------  Action Background Error Colors  ----------*/
+/*----------  Action Background Success Colors  ----------*/
+/*----------  Action Background Warning Colors  ----------*/
+/*----------  Action Foreground Base Colors  ----------*/
+/*----------  Action Foreground Brand Colors  ----------*/
+/*----------  Action Foreground Neutral Colors  ----------*/
+/*----------  Action Foreground Error Colors  ----------*/
+/*----------  Action Foreground Success Colors  ----------*/
+/*----------  Action Foreground Warning Colors  ----------*/
+/*----------  Action Border Brand Colors  ----------*/
+/*----------  Action Border Neutral Colors  ----------*/
+/*----------  Action Border Error Colors  ----------*/
+/*----------  Action Border Success Colors  ----------*/
+/*----------  Action Border Warning Colors  ----------*/
+/*=============================================
+=            Other Color Tokens               =
+=============================================*/
+/*----------  Fuchsia  ----------*/
+/*----------  Purple  ----------*/
+/*----------  Cyan  ----------*/
+/*----------  Pink  ----------*/
+/*----------  Sky  ----------*/
+/*----------  Black  ----------*/
+/*=====  End of Other Color Tokens  ======*/
 /*=============================================
 =            Mixins                           =
 =============================================*/
@@ -119,19 +308,910 @@
  * styles for components.
  *
  */
-.btn {
-  border: none;
-  border-radius: 0.25rem;
-  font-family: var(--dse-body-font-family, "Playfair Display", serif);
-  font-size: var(--dse-body-font-size, 0.875rem);
-  padding: 0.5rem;
-}
-
 .btn-primary {
-  background-color: var(--dse-btn-primary-bg-color, #5ece7b);
-  color: var(--dse-btn-primary-color, #fff);
+  background-color: var(--dsc-btn-primary-bg-color, var(--dsc-action-background-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
+  color: var(--dsc-btn-primary-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background-color: var(--dsc-btn-primary-color-hover, var(--dsc-action-background-brand-hover, var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9))));
+}
+.btn-primary:active {
+  background-color: var(--dsc-btn-primary-color-active, var(--dsc-action-background-brand-active, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
+}
+.btn-primary:focus {
+  background-color: var(--dsc-btn-primary-color-focused, var(--dsc-action-background-brand-focused, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
+  outline: 2px solid var(--dsc-btn-primary-color-outline, var(--dsc-border-brand-subtle, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF))));
+  outline-offset: 2px;
+}
+.btn-primary:disabled {
+  background-color: var(--dsc-btn-primary-color-disabled, var(--dsc-action-background-brand-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF))));
+  cursor: not-allowed;
 }
 
-.btn:hover {
-  background-color: var(--dse-btn-primary-bg-hover, #9ee2b0);
+[data-theme=dark] .btn-primary {
+  background-color: var(--dsc-dark-btn-primary-bg-color, var(--dsc-dark-action-background-brand-normal, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF))));
+  color: var(--dsc-dark-btn-primary-fg-color, var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-primary:hover {
+  background-color: var(--dsc-dark-btn-primary-color-hover, var(--dsc-dark-action-background-brand-hover, var(--dsc-dark-semantic-brand-600, var(--dsc-global-blue-dark-600, #1645D3))));
+}
+[data-theme=dark] .btn-primary:active {
+  background-color: var(--dsc-dark-btn-primary-color-active, var(--dsc-dark-action-background-brand-active, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF))));
+}
+[data-theme=dark] .btn-primary:focus {
+  background-color: var(--dsc-dark-btn-primary-color-focused, var(--dsc-dark-action-background-brand-focused, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF))));
+  outline: 2px solid var(--dsc-dark-btn-primary-color-outline, var(--dsc-dark-border-brand-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-primary:disabled {
+  background-color: var(--dsc-dark-btn-primary-color-disabled, var(--dsc-dark-action-background-brand-disabled, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D))));
+  cursor: not-allowed;
+}
+
+.btn-primary-border {
+  background-color: var(--dsc-btn-primary-border-bg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-btn-primary-border-fg-color, var(--dsc-action-background-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
+  text-align: center;
+  border: var(--dsc-btn-primary-border, 1px solid var(--dsc-action-background-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-primary-border:disabled {
+  color: var(--dsc-action-foreground-brand-inverted-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  border-color: var(--dsc-action-border-brand-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+}
+.btn-primary-border:hover {
+  background-color: var(--dsc-btn-primary-border-color-hover, var(--dsc-action-background-brand-light-hover, var(--dsc-semantic-brand-50, var(--dsc-global-blue-50, #E8EDFF))));
+}
+.btn-primary-border:active {
+  background-color: var(--dsc-btn-primary-border-color-active, var(--dsc-action-background-brand-light-active, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF))));
+}
+.btn-primary-border:focus {
+  background-color: var(--dsc-btn-primary-border-color-focused, var(--dsc-action-background-brand-light-focused, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF))));
+  outline: 2px solid var(--dsc-btn-primary-border-color-outline, var(--dsc-border-brand-subtle, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF))));
+  outline-offset: 2px;
+}
+.btn-primary-border:disabled {
+  background-color: var(--dsc-btn-primary-border-color-disabled, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-primary-border {
+  background-color: var(--dsc-dark-btn-primary-border-bg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-btn-primary-border-fg-color, var(--dsc-dark-action-background-brand-normal, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF))));
+  text-align: center;
+  border: var(--dsc-dark-btn-primary-border, 1px solid var(--dsc-dark-action-background-brand-normal, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-primary-border:disabled {
+  color: var(--dsc-dark-action-foreground-brand-inverted-disabled, var(--dsc-dark-semantic-brand-alt-700, var(--dsc-global-blue-light-700, #335BAA)));
+  border-color: var(--dsc-dark-action-border-brand-disabled, var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A)));
+}
+[data-theme=dark] .btn-primary-border:hover {
+  background-color: var(--dsc-dark-btn-primary-border-color-hover, var(--dsc-dark-action-background-brand-light-hover, var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A))));
+}
+[data-theme=dark] .btn-primary-border:active {
+  background-color: var(--dsc-dark-btn-primary-border-color-active, var(--dsc-dark-action-background-brand-light-active, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D))));
+}
+[data-theme=dark] .btn-primary-border:focus {
+  background-color: var(--dsc-dark-btn-primary-border-color-focused, var(--dsc-dark-action-background-brand-light-focused, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D))));
+  outline: 2px solid var(--dsc-dark-btn-primary-border-color-outline, var(--dsc-dark-border-brand-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-primary-border:disabled {
+  background-color: var(--dsc-dark-btn-primary-border-color-disabled, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  cursor: not-allowed;
+}
+
+.btn-primary-light {
+  background-color: var(--dsc-btn-primary-light-bg-color, var(--dsc-action-background-brand-light-normal, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF))));
+  color: var(--dsc-btn-primary-light-fg-color, var(--dsc-action-foreground-brand-inverted-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-primary-light:disabled {
+  color: var(--dsc-action-foreground-brand-inverted-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+}
+.btn-primary-light:hover {
+  background-color: var(--dsc-btn-primary-light-color-hover, var(--dsc-action-background-brand-light-hover, var(--dsc-semantic-brand-50, var(--dsc-global-blue-50, #E8EDFF))));
+}
+.btn-primary-light:active {
+  background-color: var(--dsc-btn-primary-light-color-active, var(--dsc-action-background-brand-light-active, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF))));
+}
+.btn-primary-light:focus {
+  background-color: var(--dsc-btn-primary-light-color-focused, var(--dsc-action-background-brand-light-focused, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF))));
+  outline: 2px solid var(--dsc-btn-primary-light-color-outline, var(--dsc-border-brand-subtle, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF))));
+  outline-offset: 2px;
+}
+.btn-primary-light:disabled {
+  background-color: var(--dsc-btn-primary-light-color-disabled, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-primary-light {
+  background-color: var(--dsc-dark-btn-primary-light-bg-color, var(--dsc-dark-action-background-brand-light-normal, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D))));
+  color: var(--dsc-dark-btn-primary-light-fg-color, var(--dsc-dark-action-foreground-brand-inverted-normal, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-primary-light:disabled {
+  color: var(--dsc-dark-action-foreground-brand-inverted-disabled, var(--dsc-dark-semantic-brand-alt-700, var(--dsc-global-blue-light-700, #335BAA)));
+  border-color: var(--dsc-dark-action-border-brand-disabled, var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A)));
+}
+[data-theme=dark] .btn-primary-light:hover {
+  background-color: var(--dsc-dark-btn-primary-light-color-hover, var(--dsc-dark-action-background-brand-light-hover, var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A))));
+}
+[data-theme=dark] .btn-primary-light:active {
+  background-color: var(--dsc-dark-btn-primary-light-color-active, var(--dsc-dark-action-background-brand-light-active, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D))));
+}
+[data-theme=dark] .btn-primary-light:focus {
+  background-color: var(--dsc-dark-btn-primary-light-color-focused, var(--dsc-dark-action-background-brand-light-focused, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D))));
+  outline: 2px solid var(--dsc-dark-btn-primary-light-color-outline, var(--dsc-border-brand-subtle, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-primary-light:disabled {
+  background-color: var(--dsc-dark-btn-primary-light-color-disabled, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background-color: var(--dsc-btn-secondary-bg-color, var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  color: var(--dsc-btn-secondary-fg-color, var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-secondary:hover {
+  background-color: var(--dsc-btn-secondary-color-hover, var(--dsc-action-background-neutral-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+}
+.btn-secondary:active {
+  background-color: var(--dsc-btn-secondary-color-active, var(--dsc-action-background-neutral-active, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D))));
+}
+.btn-secondary:focus {
+  background-color: var(--dsc-btn-secondary-color-focused, var(--dsc-action-background-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  outline: 2px solid var(--dsc-btn-secondary-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.btn-secondary:disabled {
+  background-color: var(--dsc-btn-secondary-color-disabled, var(--dsc-action-background-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-secondary {
+  background-color: var(--dsc-dark-btn-secondary-bg-color, var(--dsc-dark-action-background-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  color: var(--dsc-dark-btn-secondary-fg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-secondary:hover {
+  background-color: var(--dsc-dark-btn-secondary-color-hover, var(--dsc-dark-action-background-neutral-hover, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9))));
+}
+[data-theme=dark] .btn-secondary:active {
+  background-color: var(--dsc-dark-btn-secondary-color-active, var(--dsc-dark-action-background-neutral-active, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+}
+[data-theme=dark] .btn-secondary:focus {
+  background-color: var(--dsc-dark-btn-secondary-color-focused, var(--dsc-dark-action-background-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: 2px solid var(--dsc-dark-btn-secondary-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-secondary:disabled {
+  background-color: var(--dsc-dark-btn-secondary-color-disabled, var(--dsc-dark-action-background-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  cursor: not-allowed;
+}
+
+.btn-secondary-border {
+  background-color: var(--dsc-btn-secondary-border-bg-color, var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-btn-secondary-border-fg-color, var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  text-align: center;
+  border: var(--dsc-btn-secondary-border, 1px solid var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-secondary-border:disabled {
+  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  border-color: var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+}
+.btn-secondary-border:hover {
+  background-color: var(--dsc-btn-secondary-border-color-hover, var(--dsc-action-background-neutral-light-hover, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+}
+.btn-secondary-border:active {
+  background-color: var(--dsc-btn-secondary-border-color-active, var(--dsc-action-background-neutral-light-active, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+}
+.btn-secondary-border:focus {
+  background-color: var(--dsc-btn-secondary-border-color-focused, var(--dsc-action-background-neutral-light-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: 2px solid var(--dsc-btn-secondary-border-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.btn-secondary-border:disabled {
+  background-color: var(--dsc-btn-secondary-border-color-disabled, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-secondary-border {
+  background-color: var(--dsc-dark-btn-secondary-border-bg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-btn-secondary-border-fg-color, var(--dsc-dark-action-background-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  text-align: center;
+  border: var(--dsc-dark-btn-secondary-border, 1px solid var(--dsc-dark-action-background-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-secondary-border:disabled {
+  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  border-color: var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+}
+[data-theme=dark] .btn-secondary-border:hover {
+  background-color: var(--dsc-dark-btn-secondary-border-color-hover, var(--dsc-dark-action-background-neutral-light-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+}
+[data-theme=dark] .btn-secondary-border:active {
+  background-color: var(--dsc-dark-btn-secondary-border-color-active, var(--dsc-dark-action-background-neutral-light-active, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643))));
+}
+[data-theme=dark] .btn-secondary-border:focus {
+  background-color: var(--dsc-dark-btn-secondary-border-color-focused, var(--dsc-dark-action-background-neutral-light-focused, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643))));
+  outline: 2px solid var(--dsc-dark-btn-secondary-border-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-secondary-border:disabled {
+  background-color: var(--dsc-dark-btn-secondary-border-color-disabled, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  cursor: not-allowed;
+}
+
+.btn-secondary-light {
+  background-color: var(--dsc-btn-secondary-light-bg-color, var(--dsc-action-background-neutral-light-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  color: var(--dsc-btn-secondary-light-fg-color, var(--dsc-action-foreground-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-secondary-light:disabled {
+  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+}
+.btn-secondary-light:hover {
+  background-color: var(--dsc-btn-secondary-light-color-hover, var(--dsc-action-background-neutral-light-hover, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+}
+.btn-secondary-light:active {
+  background-color: var(--dsc-btn-secondary-light-color-active, var(--dsc-action-background-neutral-light-active, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+}
+.btn-secondary-light:focus {
+  background-color: var(--dsc-btn-secondary-light-color-focused, var(--dsc-action-background-neutral-light-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: 2px solid var(--dsc-btn-secondary-light-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.btn-secondary-light:disabled {
+  background-color: var(--dsc-btn-secondary-light-color-disabled, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-secondary-light {
+  background-color: var(--dsc-dark-btn-secondary-light-bg-color, var(--dsc-dark-action-background-neutral-light-normal, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643))));
+  color: var(--dsc-dark-btn-secondary-light-fg-color, var(--dsc-dark-action-foreground-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-secondary-light:disabled {
+  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+}
+[data-theme=dark] .btn-secondary-light:hover {
+  background-color: var(--dsc-dark-btn-secondary-light-color-hover, var(--dsc-dark-action-background-neutral-light-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+}
+[data-theme=dark] .btn-secondary-light:active {
+  background-color: var(--dsc-dark-btn-secondary-light-color-active, var(--dsc-dark-action-background-neutral-light-active, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643))));
+}
+[data-theme=dark] .btn-secondary-light:focus {
+  background-color: var(--dsc-dark-btn-secondary-light-color-focused, var(--dsc-dark-action-background-neutral-light-focused, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643))));
+  outline: 2px solid var(--dsc-dark-btn-secondary-light-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-secondary-light:disabled {
+  background-color: var(--dsc-dark-btn-secondary-light-color-disabled, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  cursor: not-allowed;
+}
+
+.btn-error {
+  background-color: var(--dsc-btn-error-bg-color, var(--dsc-action-background-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838))));
+  color: var(--dsc-btn-error-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-error:hover {
+  background-color: var(--dsc-btn-error-color-hover, var(--dsc-action-background-error-hover, var(--dsc-semantic-error-600, var(--dsc-global-red-600, #E92215))));
+}
+.btn-error:active {
+  background-color: var(--dsc-btn-error-color-active, var(--dsc-action-background-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838))));
+}
+.btn-error:focus {
+  background-color: var(--dsc-btn-error-color-focused, var(--dsc-action-background-error-focused, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838))));
+  outline: 2px solid var(--dsc-btn-error-color-outline, var(--dsc-border-error-subtle, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1))));
+  outline-offset: 2px;
+}
+.btn-error:disabled {
+  background-color: var(--dsc-btn-error-color-disabled, var(--dsc-action-background-error-disabled, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-error {
+  background-color: var(--dsc-dark-btn-error-bg-color, var(--dsc-dark-action-background-error-normal, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D))));
+  color: var(--dsc-dark-btn-error-fg-color, var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-error:hover {
+  background-color: var(--dsc-dark-btn-error-color-hover, var(--dsc-dark-action-background-error-hover, var(--dsc-dark-semantic-error-600, var(--dsc-global-red-dark-600, #C62424))));
+}
+[data-theme=dark] .btn-error:active {
+  background-color: var(--dsc-dark-btn-error-color-active, var(--dsc-dark-action-background-error-active, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D))));
+}
+[data-theme=dark] .btn-error:focus {
+  background-color: var(--dsc-dark-btn-error-color-focused, var(--dsc-dark-action-background-error-focused, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D))));
+  outline: 2px solid var(--dsc-dark-btn-error-color-outline, var(--dsc-dark-border-error-subtle, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-error:disabled {
+  background-color: var(--dsc-dark-btn-error-color-disabled, var(--dsc-dark-action-background-error-disabled, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618))));
+  cursor: not-allowed;
+}
+
+.btn-error-border {
+  background-color: var(--dsc-btn-error-border-bg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-btn-error-border-fg-color, var(--dsc-action-background-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838))));
+  text-align: center;
+  border: var(--dsc-btn-error-border, 1px solid var(--dsc-action-background-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-error-border:disabled {
+  color: var(--dsc-action-foreground-error-disabled, var(--dsc-semantic-error-200, var(--dsc-global-red-200, #FFA19B)));
+  border-color: var(--dsc-action-border-error-disabled, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+}
+.btn-error-border:hover {
+  background-color: var(--dsc-btn-error-border-color-hover, var(--dsc-action-background-error-inverted-light-hover, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4))));
+}
+.btn-error-border:active {
+  background-color: var(--dsc-btn-error-border-color-active, var(--dsc-action-background-error-inverted-light-active, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4))));
+}
+.btn-error-border:focus {
+  background-color: var(--dsc-btn-error-border-color-focused, var(--dsc-action-background-error-light-focused, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4))));
+  outline: 2px solid var(--dsc-btn-error-border-color-outline, var(--dsc-border-error-subtle, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1))));
+  outline-offset: 2px;
+}
+.btn-error-border:disabled {
+  background-color: var(--dsc-btn-error-border-color-disabled, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-error-border {
+  background-color: var(--dsc-dark-btn-error-border-bg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-btn-error-border-fg-color, var(--dsc-dark-action-background-error-normal, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D))));
+  text-align: center;
+  border: var(--dsc-dark-btn-error-border, 1px solid var(--dsc-dark-action-background-error-normal, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-error-border:disabled {
+  color: var(--dsc-dark-action-foreground-error-disabled, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+  border-color: var(--dsc-dark-action-border-error-disabled, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+}
+[data-theme=dark] .btn-error-border:hover {
+  background-color: var(--dsc-dark-btn-error-border-color-hover, var(--dsc-dark-action-background-error-inverted-light-hover, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618))));
+}
+[data-theme=dark] .btn-error-border:active {
+  background-color: var(--dsc-dark-btn-error-border-color-active, var(--dsc-dark-action-background-error-inverted-light-active, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22))));
+}
+[data-theme=dark] .btn-error-border:focus {
+  background-color: var(--dsc-dark-btn-error-border-color-focused, var(--dsc-dark-action-background-error-light-focused, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618))));
+  outline: 2px solid var(--dsc-dark-btn-error-border-color-outline, var(--dsc-dark-border-error-subtle, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-error-border:disabled {
+  background-color: var(--dsc-dark-btn-error-border-color-disabled, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  cursor: not-allowed;
+}
+
+.btn-error-light {
+  background-color: var(--dsc-btn-error-light-bg-color, var(--dsc-action-background-error-light-normal, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4))));
+  color: var(--dsc-btn-error-light-fg-color, var(--dsc-action-foreground-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-error-light:disabled {
+  color: var(--dsc-action-foreground-error-disabled, var(--dsc-semantic-error-200, var(--dsc-global-red-200, #FFA19B)));
+}
+.btn-error-light:hover {
+  background-color: var(--dsc-btn-error-light-color-hover, var(--dsc-action-background-error-light-hover, var(--dsc-semantic-error-50, var(--dsc-global-red-50, #FFDCDA))));
+}
+.btn-error-light:active {
+  background-color: var(--dsc-btn-error-light-color-active, var(--dsc-action-background-error-light-active, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4))));
+}
+.btn-error-light:focus {
+  background-color: var(--dsc-btn-error-light-color-focused, var(--dsc-action-background-error-light-focused, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4))));
+  outline: 2px solid var(--dsc-btn-error-light-color-outline, var(--dsc-border-error-subtle, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1))));
+  outline-offset: 2px;
+}
+.btn-error-light:disabled {
+  background-color: var(--dsc-btn-error-light-color-disabled, var(--dsc-action-background-error-light-disabled, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-error-light {
+  background-color: var(--dsc-dark-action-background-error-light-normal, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+  color: var(--dsc-dark-action-foreground-error-normal, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-error-light:disabled {
+  color: var(--dsc-dark-action-foreground-error-disabled, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+}
+[data-theme=dark] .btn-error-light:hover {
+  background-color: var(--dsc-dark-action-background-error-inverted-light-hover, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+}
+[data-theme=dark] .btn-error-light:active {
+  background-color: var(--dsc-dark-action-background-error-inverted-light-active, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+}
+[data-theme=dark] .btn-error-light:focus {
+  background-color: var(--dsc-dark-action-background-error-light-focused, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+  outline: 2px solid var(--dsc-dark-border-error-subtle, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-error-light:disabled {
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  cursor: not-allowed;
+}
+
+.btn-success {
+  background-color: var(--dsc-btn-success-bg-color, var(--dsc-action-background-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C))));
+  color: var(--dsc-btn-success-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-success:hover {
+  background-color: var(--dsc-btn-success-color-hover, var(--dsc-action-background-success-hover, var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952))));
+}
+.btn-success:active {
+  background-color: var(--dsc-btn-success-color-active, var(--dsc-action-background-success-active, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C))));
+}
+.btn-success:focus {
+  background-color: var(--dsc-btn-success-color-focused, var(--dsc-action-background-success-focused, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C))));
+  outline: 2px solid var(--dsc-btn-success-color-outline, var(--dsc-border-success-subtle, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8))));
+  outline-offset: 2px;
+}
+.btn-success:disabled {
+  background-color: var(--dsc-btn-success-color-disabled, var(--dsc-action-background-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-success {
+  background-color: var(--dsc-dark-btn-success-bg-color, var(--dsc-dark-action-background-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466))));
+  color: var(--dsc-dark-btn-success-fg-color, var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-success:disabled {
+  color: var(--dsc-dark-action-foreground-success-inverted-disabled, var(--dsc-dark-semantic-success-600, var(--dsc-global-green-dark-600, #149454)));
+}
+[data-theme=dark] .btn-success:hover {
+  background-color: var(--dsc-dark-btn-success-color-hover, var(--dsc-dark-action-background-success-hover, var(--dsc-dark-semantic-success-600, var(--dsc-global-green-dark-600, #149454))));
+}
+[data-theme=dark] .btn-success:active {
+  background-color: var(--dsc-dark-btn-success-color-active, var(--dsc-dark-action-background-success-active, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466))));
+}
+[data-theme=dark] .btn-success:focus {
+  background-color: var(--dsc-dark-btn-success-color-focused, var(--dsc-dark-action-background-success-focused, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466))));
+  outline: 2px solid var(--dsc-dark-btn-success-color-outline, var(--dsc-dark-border-success-subtle, var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-success:disabled {
+  background-color: var(--dsc-dark-btn-success-color-disabled, var(--dsc-dark-action-background-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531))));
+  cursor: not-allowed;
+}
+
+.btn-success-border {
+  background-color: var(--dsc-btn-success-border-bg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-btn-success-border-fg-color, var(--dsc-action-background-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C))));
+  text-align: center;
+  border: var(--dsc-btn-success-border, 1px solid var(--dsc-action-background-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-success-border:disabled {
+  color: var(--dsc-action-foreground-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+  border-color: var(--dsc-action-border-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+}
+.btn-success-border:hover {
+  background-color: var(--dsc-btn-success-border-color-hover, var(--dsc-action-background-success-light-hover, var(--dsc-semantic-success-50, var(--dsc-global-green-50, #D7F8E9))));
+}
+.btn-success-border:active {
+  background-color: var(--dsc-btn-success-border-color-active, var(--dsc-action-background-success-light-active, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5))));
+}
+.btn-success-border:focus {
+  background-color: var(--dsc-btn-success-border-color-focused, var(--dsc-action-background-success-light-focused, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5))));
+  outline: 2px solid var(--dsc-btn-success-border-color-outline, var(--dsc-border-success-subtle, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8))));
+  outline-offset: 2px;
+}
+.btn-success-border:disabled {
+  background-color: var(--dsc-btn-success-border-color-disabled, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-success-border {
+  background-color: var(--dsc-dark-btn-success-border-bg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-btn-success-border-fg-color, var(--dsc-dark-action-background-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466))));
+  text-align: center;
+  border: var(--dsc-dark-btn-success-border, 1px solid var(--dsc-dark-action-background-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-success-border:disabled {
+  color: var(--dsc-dark-action-foreground-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+  border-color: var(--dsc-dark-action-border-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+}
+[data-theme=dark] .btn-success-border:hover {
+  background-color: var(--dsc-dark-btn-success-border-color-hover, var(--dsc-dark-action-background-success-light-hover, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531))));
+}
+[data-theme=dark] .btn-success-border:active {
+  background-color: var(--dsc-dark-btn-success-border-color-active, var(--dsc-dark-action-background-success-light-active, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16))));
+}
+[data-theme=dark] .btn-success-border:focus {
+  background-color: var(--dsc-dark-btn-success-border-color-focused, var(--dsc-dark-action-background-success-light-focused, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16))));
+  outline: 2px solid var(--dsc-dark-btn-success-border-color-outline, var(--dsc-dark-border-success-subtle, var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-success-border:disabled {
+  background-color: var(--dsc-dark-btn-success-border-color-disabled, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  cursor: not-allowed;
+}
+
+.btn-success-light {
+  background-color: var(--dsc-btn-success-light-bg-color, var(--dsc-action-background-success-light-normal, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5))));
+  color: var(--dsc-btn-success-light-fg-color, var(--dsc-action-foreground-success-normal, var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-success-light:disabled {
+  color: var(--dsc-action-foreground-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+  background-color: red;
+}
+.btn-success-light:hover {
+  background-color: var(--dsc-btn-success-light-color-hover, var(--dsc-action-background-success-light-hover, var(--dsc-semantic-success-50, var(--dsc-global-green-50, #D7F8E9))));
+}
+.btn-success-light:active {
+  background-color: var(--dsc-btn-success-light-color-active, var(--dsc-action-background-success-light-active, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5))));
+}
+.btn-success-light:focus {
+  background-color: var(--dsc-btn-success-light-color-focused, var(--dsc-action-background-success-light-focused, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5))));
+  outline: 2px solid var(--dsc-btn-success-light-color-outline, var(--dsc-border-success-subtle, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8))));
+  outline-offset: 2px;
+}
+.btn-success-light:disabled {
+  background-color: var(--dsc-btn-success-light-color-disabled, var(--dsc-action-background-success-light-disabled, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-success-light {
+  background-color: var(--dsc-dark-btn-success-light-bg-color, var(--dsc-dark-action-background-success-light-normal, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16))));
+  color: var(--dsc-dark-btn-success-light-fg-color, var(--dsc-dark-action-foreground-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-success-light:disabled {
+  color: var(--dsc-dark-action-foreground-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+}
+[data-theme=dark] .btn-success-light:hover {
+  background-color: var(--dsc-dark-btn-success-light-color-hover, var(--dsc-dark-action-background-success-light-hover, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531))));
+}
+[data-theme=dark] .btn-success-light:active {
+  background-color: var(--dsc-dark-btn-success-light-color-active, var(--dsc-dark-action-background-success-light-active, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16))));
+}
+[data-theme=dark] .btn-success-light:focus {
+  background-color: var(--dsc-dark-btn-success-light-color-focused, var(--dsc-dark-action-background-success-light-focused, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16))));
+  outline: 2px solid var(--dsc-dark-btn-success-light-color-outline, var(--dsc-dark-border-success-subtle, var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-success-light:disabled {
+  background-color: var(--dsc-dark-btn-success-light-color-disabled, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  cursor: not-allowed;
+}
+
+.btn-warning {
+  background-color: var(--dsc-btn-warning-bg-color, var(--dsc-action-background-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B))));
+  color: var(--dsc-btn-warning-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-warning:disabled {
+  color: var(--dsc-action-foreground-warning-inverted-disabled, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF)));
+}
+.btn-warning:hover {
+  background-color: var(--dsc-btn-warning-color-hover, var(--dsc-action-background-warning-hover, var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800))));
+}
+.btn-warning:active {
+  background-color: var(--dsc-btn-warning-color-active, var(--dsc-action-background-warning-active, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B))));
+}
+.btn-warning:focus {
+  background-color: var(--dsc-btn-warning-color-focused, var(--dsc-action-background-warning-focused, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B))));
+  outline: 2px solid var(--dsc-btn-warning-color-outline, var(--dsc-border-warning-subtle, var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C))));
+  outline-offset: 2px;
+}
+.btn-warning:disabled {
+  background-color: var(--dsc-btn-warning-color-disabled, var(--dsc-action-background-warning-disabled, var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-warning {
+  background-color: var(--dsc-dark-btn-warning-bg-color, var(--dsc-dark-action-background-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A))));
+  color: var(--dsc-dark-btn-warning-fg-color, var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-warning:disabled {
+  color: var(--dsc-dark-action-foreground-warning-inverted-disabled, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917)));
+}
+[data-theme=dark] .btn-warning:hover {
+  background-color: var(--dsc-dark-btn-warning-color-hover, var(--dsc-dark-action-background-warning-hover, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917))));
+}
+[data-theme=dark] .btn-warning:active {
+  background-color: var(--dsc-dark-btn-warning-color-active, var(--dsc-dark-action-background-warning-active, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A))));
+}
+[data-theme=dark] .btn-warning:focus {
+  background-color: var(--dsc-dark-btn-warning-color-focused, var(--dsc-dark-action-background-warning-focused, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A))));
+  outline: 2px solid var(--dsc-dark-btn-warning-color-outline, var(--dsc-dark-border-warning-subtle, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-warning:disabled {
+  background-color: var(--dsc-dark-btn-warning-color-disabled, var(--dsc-dark-action-background-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C))));
+  cursor: not-allowed;
+}
+
+.btn-warning-border {
+  background-color: var(--dsc-btn-warning-border-bg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-btn-warning-border-fg-color, var(--dsc-action-background-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B))));
+  text-align: center;
+  border: var(--dsc-btn-warning-border, 1px solid var(--dsc-action-background-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-warning-border:disabled {
+  color: var(--dsc-action-foreground-warning-disabled, var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C)));
+  border-color: var(--dsc-action-border-warning-disabled, var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D)));
+}
+.btn-warning-border:hover {
+  background-color: var(--dsc-btn-warning-border-color-hover, var(--dsc-action-background-warning-light-hover, var(--dsc-semantic-warning-50, var(--dsc-global-yellow-50, #FFF2C4))));
+}
+.btn-warning-border:active {
+  background-color: var(--dsc-btn-warning-border-color-active, var(--dsc-action-background-warning-light-active, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF))));
+}
+.btn-warning-border:focus {
+  background-color: var(--dsc-btn-warning-border-color-focused, var(--dsc-action-background-warning-light-focused, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF))));
+  outline: 2px solid var(--dsc-btn-warning-border-color-outline, var(--dsc-border-warning-subtle, var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C))));
+  outline-offset: 2px;
+}
+.btn-warning-border:disabled {
+  background-color: var(--dsc-btn-warning-border-color-disabled, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-warning-border {
+  background-color: var(--dsc-dark-btn-warning-border-bg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-btn-warning-border-fg-color, var(--dsc-dark-action-background-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A))));
+  text-align: center;
+  border: var(--dsc-dark-btn-warning-border, 1px solid var(--dsc-dark-action-background-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-warning-border:disabled {
+  color: var(--dsc-dark-action-foreground-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+  border-color: var(--dsc-dark-action-border-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+}
+[data-theme=dark] .btn-warning-border:hover {
+  background-color: var(--dsc-dark-btn-warning-border-color-hover, var(--dsc-dark-action-background-warning-light-hover, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C))));
+}
+[data-theme=dark] .btn-warning-border:active {
+  background-color: var(--dsc-dark-btn-warning-border-color-active, var(--dsc-dark-action-background-warning-light-active, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07))));
+}
+[data-theme=dark] .btn-warning-border:focus {
+  background-color: var(--dsc-dark-btn-warning-border-color-focused, var(--dsc-dark-action-background-warning-light-focused, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07))));
+  outline: 2px solid var(--dsc-dark-btn-warning-border-color-outline, var(--dsc-dark-border-warning-subtle, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-warning-border:disabled {
+  background-color: var(--dsc-dark-btn-warning-border-color-disabled, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  cursor: not-allowed;
+}
+
+.btn-warning-light {
+  background-color: var(--dsc-btn-warning-light-bg-color, var(--dsc-action-background-warning-light-normal, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF))));
+  color: var(--dsc-btn-warning-light-fg-color, var(--dsc-action-foreground-warning-normal, var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.btn-warning-light:disabled {
+  color: var(--dsc-action-foreground-warning-disabled, var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C)));
+}
+.btn-warning-light:hover {
+  background-color: var(--dsc-btn-warning-light-color-hover, var(--dsc-action-background-warning-light-hover, var(--dsc-semantic-warning-50, var(--dsc-global-yellow-50, #FFF2C4))));
+}
+.btn-warning-light:active {
+  background-color: var(--dsc-btn-warning-light-color-active, var(--dsc-action-background-warning-light-active, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF))));
+}
+.btn-warning-light:focus {
+  background-color: var(--dsc-btn-warning-light-color-focused, var(--dsc-action-background-warning-light-focused, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF))));
+  outline: 2px solid var(--dsc-btn-warning-light-color-outline, var(--dsc-border-warning-subtle, var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C))));
+  outline-offset: 2px;
+}
+.btn-warning-light:disabled {
+  background-color: var(--dsc-btn-warning-light-color-disabled, var(--dsc-action-background-warning-light-disabled, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .btn-warning-light {
+  background-color: var(--dsc-dark-btn-warning-light-bg-color, var(--dsc-dark-action-background-warning-light-normal, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07))));
+  color: var(--dsc-dark-btn-warning-light-fg-color, var(--dsc-dark-action-foreground-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .btn-warning-light:disabled {
+  color: var(--dsc-dark-action-foreground-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+}
+[data-theme=dark] .btn-warning-light:hover {
+  background-color: var(--dsc-dark-btn-warning-light-color-hover, var(--dsc-dark-action-background-warning-light-hover, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C))));
+}
+[data-theme=dark] .btn-warning-light:active {
+  background-color: var(--dsc-dark-btn-warning-light-color-active, var(--dsc-dark-action-background-warning-light-active, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07))));
+}
+[data-theme=dark] .btn-warning-light:focus {
+  background-color: var(--dsc-dark-btn-warning-light-color-focused, var(--dsc-dark-action-background-warning-light-focused, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07))));
+  outline: 2px solid var(--dsc-dark-btn-warning-light-color-outline, var(--dsc-dark-border-warning-subtle, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .btn-warning-light:disabled {
+  background-color: var(--dsc-dark-btn-warning-light-color-disabled, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  cursor: not-allowed;
+}
+
+.btn-2xsm {
+  padding: 4px 10px;
+  font-size: var(--dsc-label-font-size-xs, 0.75rem);
+}
+
+.btn-xsm {
+  padding: 6px 14px;
+  font-size: var(--dsc-label-font-size-sm, 0.875rem);
+}
+
+.btn-sm {
+  padding: 8px 14px;
+  font-size: var(--dsc-label-font-size-sm, 0.875rem);
+}
+
+.btn-md {
+  padding: 10px 20px;
+  font-size: var(--dsc-label-font-size-md, 1rem);
+}
+
+.btn-lg {
+  padding: 12px 24px;
+  font-size: var(--dsc-label-font-size-lg, 1.125rem);
+}
+
+.btn-xl {
+  padding: 16px 24px;
+  font-size: var(--dsc-label-font-size-lg, 1.125rem);
+}
+
+.btn-2xl {
+  padding: 17px 24px;
+  font-size: var(--dsc-label-font-size-xl, 1.25rem);
+}
+
+.btn-rounded {
+  border-radius: var(--dsc-radius-full-round, 624.9375rem) !important;
+}
+
+.color {
+  background-color: var(--dsc-dark-transparent-90);
+}
+
+[data-theme=dark] .color {
+  background-color: var(--dsc-dark-action-background-brand-light-disabled, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
 }
