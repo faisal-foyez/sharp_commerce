@@ -15,8 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "react_shared_ui": ["react_shared_ui/src/index.ts"],
-      "shared_ui": ["packages/shared_ui/src/index.ts"]
+      "@dsc/*": ["packages/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
