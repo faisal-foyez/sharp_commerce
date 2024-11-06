@@ -1557,6 +1557,100 @@ $global-red-dark-400: #F33E3E;
 
 
 /*=============================================
+=            Link Button Css Variables            =
+=============================================*/
+//link button primary light theme
+--dsc-link-btn-primary-fg-color: #{$action-foreground-brand-inverted-normal};
+--dsc-link-btn-primary-color-hover: #{$action-foreground-brand-inverted-hover};
+--dsc-link-btn-primary-color-focused: #{$action-foreground-brand-inverted-focused};
+--dsc-link-btn-primary-color-active: #{$action-foreground-brand-inverted-active};
+--dsc-link-btn-primary-color-disabled: #{$action-foreground-brand-inverted-disabled};
+
+//link button primary dark theme 
+--dsc-dark-link-btn-primary-fg-color: #{$dark-action-foreground-brand-inverted-normal};  
+--dsc-dark-link-btn-primary-color-hover: #{$dark-action-foreground-brand-inverted-hover};
+--dsc-dark-link-btn-primary-color-focused: #{$dark-action-foreground-brand-inverted-focused};
+--dsc-dark-link-btn-primary-color-active: #{$dark-action-foreground-brand-inverted-active};
+--dsc-dark-link-btn-primary-color-disabled: #{$dark-action-foreground-brand-inverted-disabled};
+
+
+//link button secondary light theme
+--dsc-link-btn-secondary-fg-color: #{$action-foreground-neutral-normal};
+--dsc-link-btn-secondary-color-hover: #{$action-foreground-brand-inverted-hover};
+--dsc-link-btn-secondary-color-focused: #{$action-foreground-neutral-focused};
+--dsc-link-btn-secondary-color-active: #{$action-foreground-brand-inverted-active};
+--dsc-link-btn-secondary-color-disabled: #{$action-foreground-neutral-disabled};
+
+//link button secondary dark theme
+--dsc-dark-link-btn-secondary-fg-color: #{$dark-action-foreground-neutral-normal};
+--dsc-dark-link-btn-secondary-color-hover: #{$dark-action-foreground-brand-inverted-hover};
+--dsc-dark-link-btn-secondary-color-focused: #{$dark-action-foreground-neutral-focused};
+--dsc-dark-link-btn-secondary-color-active: #{$dark-action-foreground-brand-inverted-active};
+--dsc-dark-link-btn-secondary-color-disabled: #{$dark-action-foreground-neutral-disabled};
+
+//link button error light theme
+--dsc-link-btn-error-fg-color: #{$action-foreground-error-normal};
+--dsc-link-btn-error-color-hover: #{$action-foreground-error-hover};
+--dsc-link-btn-error-color-focused: #{$action-foreground-error-focused};
+--dsc-link-btn-error-color-active: #{$action-foreground-error-active};
+--dsc-link-btn-error-color-disabled: #{$action-foreground-error-disabled};
+
+//link button error dark theme
+--dsc-dark-link-btn-error-fg-color: #{$dark-action-foreground-error-normal};
+--dsc-dark-link-btn-error-color-hover: #{$dark-action-foreground-error-hover};
+--dsc-dark-link-btn-error-color-focused: #{$dark-action-foreground-error-focused};
+--dsc-dark-link-btn-error-color-active: #{$dark-action-foreground-error-active};
+--dsc-dark-link-btn-error-color-disabled: #{$dark-action-foreground-error-disabled};
+
+
+//link button success light theme
+--dsc-link-btn-success-fg-color: #{$action-foreground-success-normal};
+--dsc-link-btn-success-color-hover: #{$action-foreground-success-hover};
+--dsc-link-btn-success-color-focused: #{$action-foreground-success-focused};
+--dsc-link-btn-success-color-active: #{$action-foreground-success-active};
+--dsc-link-btn-success-color-disabled: #{$action-foreground-success-disabled};	
+
+//link button success dark theme
+--dsc-dark-link-btn-success-fg-color: #{$dark-action-foreground-success-normal};
+--dsc-dark-link-btn-success-color-hover: #{$dark-action-foreground-success-hover};
+--dsc-dark-link-btn-success-color-focused: #{$dark-action-foreground-success-focused};
+--dsc-dark-link-btn-success-color-active: #{$dark-action-foreground-success-active};
+--dsc-dark-link-btn-success-color-disabled: #{$dark-action-foreground-success-disabled};
+
+//link button warning light theme
+--dsc-link-btn-warning-fg-color: #{$action-foreground-warning-normal};
+--dsc-link-btn-warning-color-hover: #{$action-foreground-warning-hover};
+--dsc-link-btn-warning-color-focused: #{$action-foreground-warning-focused};
+--dsc-link-btn-warning-color-active: #{$action-foreground-warning-active};
+--dsc-link-btn-warning-color-disabled: #{$action-foreground-warning-disabled};
+
+//link button warning dark theme
+--dsc-dark-link-btn-warning-fg-color: #{$dark-action-foreground-warning-normal};
+--dsc-dark-link-btn-warning-color-hover: #{$dark-action-foreground-warning-hover};
+--dsc-dark-link-btn-warning-color-focused: #{$dark-action-foreground-warning-focused};
+--dsc-dark-link-btn-warning-color-active: #{$dark-action-foreground-warning-active};
+--dsc-dark-link-btn-warning-color-disabled: #{$dark-action-foreground-warning-disabled};
+
+//link button light, light theme
+--dsc-link-btn-light-fg-color: #{$foreground-light-secondary};
+--dsc-link-btn-light-color-hover: #{$foreground-light-primary};
+--dsc-link-btn-light-color-focused: #{$foreground-light-primary};
+--dsc-link-btn-light-color-active: #{$foreground-light-secondary};
+--dsc-link-btn-light-color-disabled: #{$foreground-light-tertiary};
+
+//link button light, dark theme
+--dsc-dark-link-btn-light-fg-color: #{$dark-foreground-light-secondary};
+--dsc-dark-link-btn-light-color-hover: #{$dark-foreground-light-primary};
+--dsc-dark-link-btn-light-color-focused: #{$dark-foreground-light-primary};
+--dsc-dark-link-btn-light-color-active: #{$dark-foreground-light-secondary};
+--dsc-dark-link-btn-light-color-disabled: #{$dark-foreground-light-tertiary};	
+/*=====  End of Link Button Css Variables  ======*/
+
+
+
+
+
+/*=============================================
 =            Typography css variables            =
 =============================================*/
 

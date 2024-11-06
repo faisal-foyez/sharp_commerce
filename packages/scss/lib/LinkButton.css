@@ -1,0 +1,639 @@
+/*=============================================
+    #Variables
+=============================================*/
+/**
+ * TABLE OF CONTENTS
+ * 
+ * COLORS
+ * Brand colors...................These are the main brand colors. They will be used the most
+ * Neutral colors.................White and black, gray scale, secondary colors.
+ * Utility colors.................Other colors to represent states: info, warning, success, etc.
+ * 
+ * TYPOGRAPHY
+ * Font families..................The fonts used in the design system.
+ * Font weights...................Font weights
+ * Sizes..........................Font sizing for body text, paragraphs, inputs
+ * Heading sizes..................Font sizing for page headings
+ *
+ * BREAKPOINTS
+ * Breakpoints....................Global responsive breakpoints definitions.
+ *
+ * SPACING
+ * Spacing........................Global fixed set of spacing variables
+ * 
+ * SHADOW
+ * Shadows........................Global fixed set of shadows
+ */
+/*=============================================
+=            Colors                           =
+=============================================*/
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Violet colors */
+/* Purple colors */
+/* Indigo colors */
+/* Blue light colors */
+/* Blue dark colors*/
+/* Blue gray colors */
+/* Blue colors */
+/* Cyan colors */
+/* Dimgray colors */
+/* Emerald colors */
+/* Gold colors */
+/* Green colors */
+/* Green dark colors */
+/* Lime colors */
+/* Orange colors */
+/* Pink colors */
+/* Rose colors */
+/* Red colors */
+/* Red dark colors */
+/* Sky colors */
+/* Slate colors */
+/* Stone colors */
+/* Teal colors */
+/* Yellow colors */
+/* Yellow dark colors */
+/* Zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=====  End of Colors  ======*/
+/*=============================================
+=                 Typography                  =
+=============================================*/
+/* Font Families */
+/**
+ *
+ * 1) The playfair font. We'll use this for headings mostly.
+ *     https://fonts.google.com/specimen/Playfair+Display
+ *
+ * 2) The raleway font. We'll use this for the body text.
+ *     https://fonts.google.com/specimen/Raleway
+ */
+/* 1 */
+/* 2 */
+/*----------  End of Font Familie  ----------*/
+/*----------  Font weights  ----------*/
+/*----------  End of Font weights  ----------*/
+/*----------  Display font variables  ----------*/
+/*----------  End of Display font variables  ----------*/
+/*----------  Heading font variables  ----------*/
+/*----------  End of Heading font variables  ----------*/
+/*----------  Body font variables  ----------*/
+/* body font size */
+/* body line height */
+/* body letter spacing */
+/*----------  End of Body font variables  ----------*/
+/*----------  Label font variables  ----------*/
+/*----------  End of Label font variables  ----------*/
+/*----------  Underline font variables  ----------*/
+/*----------  End of Underline font variables  ----------*/
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoint            =
+=============================================*/
+/*=====  End of Breakpoint  ======*/
+/*=============================================
+=            Spacing                          =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=                  Shadows                    =
+=============================================*/
+/*=====  End of Shadows  ======*/
+/*=============================================
+=            Spacing             =
+=============================================*/
+/*=====  End of Spacing   ======*/
+/*=============================================
+=            Corner Radius            =
+=============================================*/
+/*=====  End of Corner Radius  ======*/
+/*=============================================
+=            Breakpoints           =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* 1 */
+/* 2 */
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+/*----------  Heading font variables  ----------*/
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variables.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Global violet colors */
+/* Global purple colors */
+/* Global indigo colors */
+/* Global blue light colors */
+/* Global blue dark colors*/
+/* Global blue gray colors */
+/* Global blue colors */
+/* Global cyan colors */
+/* Global dimgray colors */
+/* Global emerald colors */
+/* Global gold colors */
+/* Global green colors */
+/* Global green dark colors */
+/* Global lime colors */
+/* Global orange colors */
+/* Global pink colors */
+/* Global rose colors */
+/* Global red colors */
+/* Global red dark colors */
+/* Global sky colors */
+/* Global slate colors */
+/* Global stone colors */
+/* Global teal colors */
+/* Global yellow colors */
+/* Global yellow dark colors */
+/* Global zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Semantic colors            =
+=============================================*/
+/*----------  Semantic Base  ----------*/
+/*---------- Semantic Brand  ----------*/
+/*----------  Dark Semantic Brand  ----------*/
+/*----------  Dark Semantic brand_alt  ----------*/
+/*----------  Semantic neutral  ----------*/
+/*----------  Semantic success  ----------*/
+/*----------  Dark Semantic success  ----------*/
+/*----------  Semantic warning  ----------*/
+/*----------  Dark Semantic warning  ----------*/
+/*----------  Semantic error  ----------*/
+/*----------  Dark Semantic error  ----------*/
+/*=====  End of Semantic colors  ======*/
+/*=============================================
+=            Transparent colors tokens            =
+=============================================*/
+/*---------- Transparent Colors  ----------*/
+/*---------- Dark Semantic transparent Colors  ----------*/
+/*----------  Brand Transparent Colors  ----------*/
+/*=====  End of Transparent colors tokens  ======*/
+/*=============================================
+=            Background colors tokens            =
+=============================================*/
+/*----------  Background Semantic Base Colors  ----------*/
+/*---------- Dark Background Semantic Colors  ----------*/
+/*----------  Background Semantic Brand Colors  ----------*/
+/*----------  Dark Background Semantic Brand Colors  ----------*/
+/*----------  Background Semantic Neutral Colors  ----------*/
+/*----------  Dark Background Semantic Neutral Colors  ----------*/
+/*----------  Background Semantic Success Colors  ----------*/
+/*----------  Dark Background Semantic Success Colors  ----------*/
+/*----------  Background Semantic Warning Colors  ----------*/
+/*----------  Dark Background Semantic Warning Colors  ----------*/
+/*----------  Background Semantic Error Colors  ----------*/
+/*----------  Dark Background Semantic Error Colors  ----------*/
+/*=====  End of Background colors tokens  ======*/
+/*=============================================
+=            Foreground colors tokens            =
+=============================================
+
+/*----------  Foreground Semantic Neutral Colors  ----------*/
+/*----------  Dark Foreground Semantic Neutral Colors  ----------*/
+/*----------  Foreground Semantic Light Colors  ----------*/
+/*----------  Dark Foreground Semantic Light Colors  ----------*/
+/*----------  Foreground Semantic Brand Colors  ----------*/
+/*----------  Dark Foreground Semantic Brand Colors  ----------*/
+/*----------  Foreground Semantic Success Colors  ----------*/
+/*----------  Dark Foreground Semantic Success Colors  ----------*/
+/*----------  Foreground Semantic Warning Colors  ----------*/
+/*----------  Dark Foreground Semantic Warning Colors  ----------*/
+/*----------  Foreground Semantic Error Colors  ----------*/
+/*----------  Dark Foreground Semantic Error Colors  ----------*/
+/*----------  Foreground Semantic Link Colors  ----------*/
+/*----------  Dark Foreground Semantic Link Colors  ----------*/
+/*=====  End of Foreground colors tokens  ======*/
+/*=============================================
+=            Border colors tokens            =
+=============================================*/
+/*----------  Border Semantic Base Colors  ----------*/
+/*----------  Dark Border Semantic Base Colors  ----------*/
+/*----------  Border Semantic Neutral Colors  ----------*/
+/*----------  Dark Border Semantic Neutral Colors  ----------*/
+/*----------  Border Semantic Brand Colors  ----------*/
+/*----------  Dark Border Semantic Brand Colors  ----------*/
+/*----------  Border Semantic Success Colors  ----------*/
+/*----------  Dark Border Semantic Success Colors  ----------*/
+/*----------  Border Semantic Warning Colors  ----------*/
+/*----------  Dark Border Semantic Warning Colors  ----------*/
+/*----------  Border Semantic Error Colors  ----------*/
+/*----------  Dark Border Semantic Error Colors  ----------*/
+/*=====  End of Border colors tokens  ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=============================================
+=            Action color tokens            =
+=============================================*/
+/*----------  Action Background Base Colors  ----------*/
+/*----------  Action Background Brand Colors  ----------*/
+/*----------  Action Background Neutral Colors  ----------*/
+/*----------  Action Background Error Colors  ----------*/
+/*----------  Action Background Success Colors  ----------*/
+/*----------  Action Background Warning Colors  ----------*/
+/*----------  Action Foreground Base Colors  ----------*/
+/*----------  Action Foreground Brand Colors  ----------*/
+/*----------  Action Foreground Neutral Colors  ----------*/
+/*----------  Action Foreground Error Colors  ----------*/
+/*----------  Action Foreground Success Colors  ----------*/
+/*----------  Action Foreground Warning Colors  ----------*/
+/*----------  Action Border Brand Colors  ----------*/
+/*----------  Action Border Neutral Colors  ----------*/
+/*----------  Action Border Error Colors  ----------*/
+/*----------  Action Border Success Colors  ----------*/
+/*----------  Action Border Warning Colors  ----------*/
+/*=============================================
+=            Other Color Tokens               =
+=============================================*/
+/*----------  Fuchsia  ----------*/
+/*----------  Purple  ----------*/
+/*----------  Cyan  ----------*/
+/*----------  Pink  ----------*/
+/*----------  Sky  ----------*/
+/*----------  Black  ----------*/
+/*=====  End of Other Color Tokens  ======*/
+/*=============================================
+=            Mixins                           =
+=============================================*/
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+ */
+.link-btn-primary {
+  color: var(--dsc-link-btn-primary-fg-color, var(--dsc-action-foreground-brand-inverted-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+.link-btn-primary:hover {
+  color: var(--dsc-link-btn-primary-color-hover, var(--dsc-action-foreground-brand-inverted-hover, var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9))));
+}
+.link-btn-primary:active {
+  color: var(--dsc-link-btn-primary-color-active, var(--dsc-action-foreground-brand-inverted-active, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
+}
+.link-btn-primary:focus {
+  color: var(--dsc-link-btn-primary-color-focused, var(--dsc-action-foreground-brand-inverted-focused, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
+  outline-offset: 2px;
+}
+.link-btn-primary:disabled {
+  color: var(--dsc-link-btn-primary-color-disabled, var(--dsc-action-foreground-brand-inverted-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .link-btn-primary {
+  color: var(--dsc-dark-link-btn-primary-fg-color, var(--dsc-dark-action-foreground-brand-inverted-normal, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+[data-theme=dark] .link-btn-primary:hover {
+  color: var(--dsc-dark-link-btn-primary-color-hover, var(--dsc-dark-action-foreground-brand-inverted-hover, var(--dsc-dark-semantic-brand-alt-500, var(--dsc-global-blue-light-500, #4382FF))));
+}
+[data-theme=dark] .link-btn-primary:active {
+  color: var(--dsc-dark-link-btn-primary-color-active, var(--dsc-dark-action-foreground-brand-inverted-active, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF))));
+}
+[data-theme=dark] .link-btn-primary:focus {
+  color: var(--dsc-dark-link-btn-primary-color-focused, var(--dsc-dark-action-foreground-brand-inverted-focused, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .link-btn-primary:disabled {
+  color: var(--dsc-dark-link-btn-primary-color-disabled, var(--dsc-dark-action-foreground-brand-inverted-disabled, var(--dsc-dark-semantic-brand-alt-700, var(--dsc-global-blue-light-700, #335BAA))));
+  cursor: not-allowed;
+}
+
+.link-btn-secondary {
+  color: var(--dsc-link-btn-secondary-fg-color, var(--dsc-action-foreground-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+.link-btn-secondary:hover {
+  color: var(--dsc-link-btn-secondary-color-hover, var(--dsc-action-foreground-brand-inverted-hover, var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9))));
+}
+.link-btn-secondary:active {
+  color: var(--dsc-link-btn-secondary-color-active, var(--dsc-action-foreground-brand-inverted-active, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
+}
+.link-btn-secondary:focus {
+  color: var(--dsc-link-btn-secondary-color-focused, var(--dsc-action-foreground-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  outline-offset: 2px;
+}
+.link-btn-secondary:disabled {
+  color: var(--dsc-link-btn-secondary-color-disabled, var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .link-btn-secondary {
+  color: var(--dsc-dark-link-btn-secondary-fg-color, var(--dsc-dark-action-foreground-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+[data-theme=dark] .link-btn-secondary:hover {
+  color: var(--dsc-dark-link-btn-secondary-color-hover, var(--dsc-dark-action-foreground-brand-inverted-hover, var(--dsc-dark-semantic-brand-alt-500, var(--dsc-global-blue-light-500, #4382FF))));
+}
+[data-theme=dark] .link-btn-secondary:active {
+  color: var(--dsc-dark-link-btn-secondary-color-active, var(--dsc-dark-action-foreground-brand-inverted-active, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF))));
+}
+[data-theme=dark] .link-btn-secondary:focus {
+  color: var(--dsc-dark-link-btn-secondary-color-focused, var(--dsc-dark-action-foreground-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .link-btn-secondary:disabled {
+  color: var(--dsc-dark-link-btn-secondary-color-disabled, var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  cursor: not-allowed;
+}
+
+.link-btn-error {
+  color: var(--dsc-link-btn-error-fg-color, var(--dsc-action-foreground-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+.link-btn-error:hover {
+  color: var(--dsc-link-btn-error-color-hover, var(--dsc-action-foreground-error-hover, var(--dsc-semantic-error-600, var(--dsc-global-red-600, #E92215))));
+}
+.link-btn-error:active {
+  color: var(--dsc-link-btn-error-color-active, var(--dsc-action-foreground-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838))));
+}
+.link-btn-error:focus {
+  color: var(--dsc-link-btn-error-color-focused, var(--dsc-action-foreground-error-focused, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838))));
+  outline-offset: 2px;
+}
+.link-btn-error:disabled {
+  color: var(--dsc-link-btn-error-color-disabled, var(--dsc-action-foreground-error-disabled, var(--dsc-semantic-error-200, var(--dsc-global-red-200, #FFA19B))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .link-btn-error {
+  color: var(--dsc-dark-link-btn-error-fg-color, var(--dsc-dark-action-foreground-error-normal, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+[data-theme=dark] .link-btn-error:hover {
+  color: var(--dsc-dark-link-btn-error-color-hover, var(--dsc-dark-action-foreground-error-hover, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D))));
+}
+[data-theme=dark] .link-btn-error:active {
+  color: var(--dsc-dark-link-btn-error-color-active, var(--dsc-dark-action-foreground-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E))));
+}
+[data-theme=dark] .link-btn-error:focus {
+  color: var(--dsc-dark-link-btn-error-color-focused, var(--dsc-dark-action-foreground-error-focused, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .link-btn-error:disabled {
+  color: var(--dsc-dark-link-btn-error-color-disabled, var(--dsc-dark-action-foreground-error-disabled, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22))));
+  cursor: not-allowed;
+}
+
+.link-btn-success {
+  color: var(--dsc-link-btn-success-fg-color, var(--dsc-action-foreground-success-normal, var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+.link-btn-success:hover {
+  color: var(--dsc-link-btn-success-color-hover, var(--dsc-action-foreground-success-hover, var(--dsc-semantic-success-700, var(--dsc-global-green-700, #048746))));
+}
+.link-btn-success:active {
+  color: var(--dsc-link-btn-success-color-active, var(--dsc-action-foreground-success-active, var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952))));
+}
+.link-btn-success:focus {
+  color: var(--dsc-link-btn-success-color-focused, var(--dsc-action-foreground-success-focused, var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952))));
+  outline-offset: 2px;
+}
+.link-btn-success:disabled {
+  color: var(--dsc-link-btn-success-color-disabled, var(--dsc-action-foreground-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .link-btn-success {
+  color: var(--dsc-dark-link-btn-success-fg-color, var(--dsc-dark-action-foreground-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+[data-theme=dark] .link-btn-success:hover {
+  color: var(--dsc-dark-link-btn-success-color-hover, var(--dsc-dark-action-foreground-success-hover, var(--dsc-dark-semantic-success-600, var(--dsc-global-green-dark-600, #149454))));
+}
+[data-theme=dark] .link-btn-success:active {
+  color: var(--dsc-dark-link-btn-success-color-active, var(--dsc-dark-action-foreground-success-active, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466))));
+}
+[data-theme=dark] .link-btn-success:focus {
+  color: var(--dsc-dark-link-btn-success-color-focused, var(--dsc-dark-action-foreground-success-focused, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .link-btn-success:disabled {
+  color: var(--dsc-dark-link-btn-success-color-disabled, var(--dsc-dark-action-foreground-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531))));
+  cursor: not-allowed;
+}
+
+.link-btn-warning {
+  color: var(--dsc-link-btn-warning-fg-color, var(--dsc-action-foreground-warning-normal, var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+.link-btn-warning:hover {
+  color: var(--dsc-link-btn-warning-color-hover, var(--dsc-action-foreground-warning-hover, var(--dsc-semantic-warning-700, var(--dsc-global-yellow-700, #B18A00))));
+}
+.link-btn-warning:active {
+  color: var(--dsc-link-btn-warning-color-active, var(--dsc-action-foreground-warning-active, var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800))));
+}
+.link-btn-warning:focus {
+  color: var(--dsc-link-btn-warning-color-focused, var(--dsc-action-foreground-warning-focused, var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800))));
+  outline-offset: 2px;
+}
+.link-btn-warning:disabled {
+  color: var(--dsc-link-btn-warning-color-disabled, var(--dsc-action-foreground-warning-disabled, var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .link-btn-warning {
+  color: var(--dsc-dark-link-btn-warning-fg-color, var(--dsc-dark-action-foreground-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+[data-theme=dark] .link-btn-warning:hover {
+  color: var(--dsc-dark-link-btn-warning-color-hover, var(--dsc-dark-action-foreground-warning-hover, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917))));
+}
+[data-theme=dark] .link-btn-warning:active {
+  color: var(--dsc-dark-link-btn-warning-color-active, var(--dsc-dark-action-foreground-warning-active, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A))));
+}
+[data-theme=dark] .link-btn-warning:focus {
+  color: var(--dsc-dark-link-btn-warning-color-focused, var(--dsc-dark-action-foreground-warning-focused, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .link-btn-warning:disabled {
+  color: var(--dsc-dark-link-btn-warning-color-disabled, var(--dsc-dark-action-foreground-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C))));
+  cursor: not-allowed;
+}
+
+.link-btn-light {
+  color: var(--dsc-link-btn-light-fg-color, var(--dsc-foreground-light-secondary, var(--dsc-transparent-80, rgba(255, 255, 255, 0.8))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+.link-btn-light:hover {
+  color: var(--dsc-link-btn-light-color-hover, var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff)));
+}
+.link-btn-light:active {
+  color: var(--dsc-link-btn-light-color-active, var(--dsc-foreground-light-secondary, var(--dsc-transparent-80, rgba(255, 255, 255, 0.8))));
+}
+.link-btn-light:focus {
+  color: var(--dsc-link-btn-light-color-focused, var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff)));
+  outline-offset: 2px;
+}
+.link-btn-light:disabled {
+  color: var(--dsc-link-btn-light-color-disabled, var(--dsc-foreground-light-tertiary, var(--dsc-transparent-30, rgba(255, 255, 255, 0.3))));
+  cursor: not-allowed;
+}
+
+[data-theme=dark] .link-btn-light {
+  color: var(--dsc-dark-link-btn-light-fg-color, var(--dsc-dark-foreground-light-secondary, var(--dsc-dark-transparent-80, rgba(28, 34, 43, 0.8))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+  background: none;
+}
+[data-theme=dark] .link-btn-light:hover {
+  color: var(--dsc-dark-link-btn-light-color-hover, var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+}
+[data-theme=dark] .link-btn-light:active {
+  color: var(--dsc-dark-link-btn-light-color-active, var(--dsc-dark-foreground-light-secondary, var(--dsc-dark-transparent-80, rgba(28, 34, 43, 0.8))));
+}
+[data-theme=dark] .link-btn-light:focus {
+  color: var(--dsc-dark-link-btn-light-color-focused, var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .link-btn-light:disabled {
+  color: var(--dsc-dark-link-btn-light-color-disabled, var(--dsc-dark-foreground-light-tertiary, var(--dsc-dark-transparent-30, rgba(28, 34, 43, 0.3))));
+  cursor: not-allowed;
+}
+
+.link-btn-sm {
+  font-size: var(--dsc-label-font-size-sm, 0.875rem);
+}
+
+.link-btn-md {
+  font-size: var(--dsc-label-font-size-md, 1rem);
+}
+
+.link-btn-lg {
+  font-size: var(--dsc-label-font-size-lg, 1.125rem);
+}
+
+.link-btn-xl {
+  font-size: var(--dsc-label-font-size-xl, 1.25rem);
+}
+
+.link-btn-underline {
+  text-decoration: underline;
+  text-underline-offset: var(--dsc-link-button-underline-offset, 5px);
+  text-decoration-thickness: var(--dsc-link-button-underline-thickness, 2px);
+}
+
+.link-btn-color {
+  background-color: var(--dsc-dark-transparent-90);
+}
+
+[data-theme=dark] .link-btn-color {
+  background-color: var(--dsc-dark-action-background-brand-light-disabled, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+}

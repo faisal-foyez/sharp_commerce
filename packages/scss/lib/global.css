@@ -1841,6 +1841,70 @@ input[type=checkbox], input[type=radio] {
   --dsc-dark-btn-warning-light-color-disabled: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
   /*=====  End of Button css variables  ======*/
   /*=============================================
+  =            Link Button Css Variables            =
+  =============================================*/
+  --dsc-link-btn-primary-fg-color: var(--dsc-action-foreground-brand-inverted-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  --dsc-link-btn-primary-color-hover: var(--dsc-action-foreground-brand-inverted-hover, var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9)));
+  --dsc-link-btn-primary-color-focused: var(--dsc-action-foreground-brand-inverted-focused, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  --dsc-link-btn-primary-color-active: var(--dsc-action-foreground-brand-inverted-active, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  --dsc-link-btn-primary-color-disabled: var(--dsc-action-foreground-brand-inverted-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  --dsc-dark-link-btn-primary-fg-color: var(--dsc-dark-action-foreground-brand-inverted-normal, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF)));
+  --dsc-dark-link-btn-primary-color-hover: var(--dsc-dark-action-foreground-brand-inverted-hover, var(--dsc-dark-semantic-brand-alt-500, var(--dsc-global-blue-light-500, #4382FF)));
+  --dsc-dark-link-btn-primary-color-focused: var(--dsc-dark-action-foreground-brand-inverted-focused, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF)));
+  --dsc-dark-link-btn-primary-color-active: var(--dsc-dark-action-foreground-brand-inverted-active, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF)));
+  --dsc-dark-link-btn-primary-color-disabled: var(--dsc-dark-action-foreground-brand-inverted-disabled, var(--dsc-dark-semantic-brand-alt-700, var(--dsc-global-blue-light-700, #335BAA)));
+  --dsc-link-btn-secondary-fg-color: var(--dsc-action-foreground-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  --dsc-link-btn-secondary-color-hover: var(--dsc-action-foreground-brand-inverted-hover, var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9)));
+  --dsc-link-btn-secondary-color-focused: var(--dsc-action-foreground-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  --dsc-link-btn-secondary-color-active: var(--dsc-action-foreground-brand-inverted-active, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  --dsc-link-btn-secondary-color-disabled: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  --dsc-dark-link-btn-secondary-fg-color: var(--dsc-dark-action-foreground-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-dark-link-btn-secondary-color-hover: var(--dsc-dark-action-foreground-brand-inverted-hover, var(--dsc-dark-semantic-brand-alt-500, var(--dsc-global-blue-light-500, #4382FF)));
+  --dsc-dark-link-btn-secondary-color-focused: var(--dsc-dark-action-foreground-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  --dsc-dark-link-btn-secondary-color-active: var(--dsc-dark-action-foreground-brand-inverted-active, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF)));
+  --dsc-dark-link-btn-secondary-color-disabled: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  --dsc-link-btn-error-fg-color: var(--dsc-action-foreground-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  --dsc-link-btn-error-color-hover: var(--dsc-action-foreground-error-hover, var(--dsc-semantic-error-600, var(--dsc-global-red-600, #E92215)));
+  --dsc-link-btn-error-color-focused: var(--dsc-action-foreground-error-focused, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  --dsc-link-btn-error-color-active: var(--dsc-action-foreground-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  --dsc-link-btn-error-color-disabled: var(--dsc-action-foreground-error-disabled, var(--dsc-semantic-error-200, var(--dsc-global-red-200, #FFA19B)));
+  --dsc-dark-link-btn-error-fg-color: var(--dsc-dark-action-foreground-error-normal, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+  --dsc-dark-link-btn-error-color-hover: var(--dsc-dark-action-foreground-error-hover, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+  --dsc-dark-link-btn-error-color-focused: var(--dsc-dark-action-foreground-error-focused, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+  --dsc-dark-link-btn-error-color-active: var(--dsc-dark-action-foreground-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+  --dsc-dark-link-btn-error-color-disabled: var(--dsc-dark-action-foreground-error-disabled, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+  --dsc-link-btn-success-fg-color: var(--dsc-action-foreground-success-normal, var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952)));
+  --dsc-link-btn-success-color-hover: var(--dsc-action-foreground-success-hover, var(--dsc-semantic-success-700, var(--dsc-global-green-700, #048746)));
+  --dsc-link-btn-success-color-focused: var(--dsc-action-foreground-success-focused, var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952)));
+  --dsc-link-btn-success-color-active: var(--dsc-action-foreground-success-active, var(--dsc-semantic-success-600, var(--dsc-global-green-600, #0A9952)));
+  --dsc-link-btn-success-color-disabled: var(--dsc-action-foreground-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+  --dsc-dark-link-btn-success-fg-color: var(--dsc-dark-action-foreground-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-link-btn-success-color-hover: var(--dsc-dark-action-foreground-success-hover, var(--dsc-dark-semantic-success-600, var(--dsc-global-green-dark-600, #149454)));
+  --dsc-dark-link-btn-success-color-focused: var(--dsc-dark-action-foreground-success-focused, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-link-btn-success-color-active: var(--dsc-dark-action-foreground-success-active, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  --dsc-dark-link-btn-success-color-disabled: var(--dsc-dark-action-foreground-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+  --dsc-link-btn-warning-fg-color: var(--dsc-action-foreground-warning-normal, var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800)));
+  --dsc-link-btn-warning-color-hover: var(--dsc-action-foreground-warning-hover, var(--dsc-semantic-warning-700, var(--dsc-global-yellow-700, #B18A00)));
+  --dsc-link-btn-warning-color-focused: var(--dsc-action-foreground-warning-focused, var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800)));
+  --dsc-link-btn-warning-color-active: var(--dsc-action-foreground-warning-active, var(--dsc-semantic-warning-600, var(--dsc-global-yellow-600, #D8A800)));
+  --dsc-link-btn-warning-color-disabled: var(--dsc-action-foreground-warning-disabled, var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C)));
+  --dsc-dark-link-btn-warning-fg-color: var(--dsc-dark-action-foreground-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  --dsc-dark-link-btn-warning-color-hover: var(--dsc-dark-action-foreground-warning-hover, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917)));
+  --dsc-dark-link-btn-warning-color-focused: var(--dsc-dark-action-foreground-warning-focused, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  --dsc-dark-link-btn-warning-color-active: var(--dsc-dark-action-foreground-warning-active, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  --dsc-dark-link-btn-warning-color-disabled: var(--dsc-dark-action-foreground-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+  --dsc-link-btn-light-fg-color: var(--dsc-foreground-light-secondary, var(--dsc-transparent-80, rgba(255, 255, 255, 0.8)));
+  --dsc-link-btn-light-color-hover: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-link-btn-light-color-focused: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+  --dsc-link-btn-light-color-active: var(--dsc-foreground-light-secondary, var(--dsc-transparent-80, rgba(255, 255, 255, 0.8)));
+  --dsc-link-btn-light-color-disabled: var(--dsc-foreground-light-tertiary, var(--dsc-transparent-30, rgba(255, 255, 255, 0.3)));
+  --dsc-dark-link-btn-light-fg-color: var(--dsc-dark-foreground-light-secondary, var(--dsc-dark-transparent-80, rgba(28, 34, 43, 0.8)));
+  --dsc-dark-link-btn-light-color-hover: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-dark-link-btn-light-color-focused: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  --dsc-dark-link-btn-light-color-active: var(--dsc-dark-foreground-light-secondary, var(--dsc-dark-transparent-80, rgba(28, 34, 43, 0.8)));
+  --dsc-dark-link-btn-light-color-disabled: var(--dsc-dark-foreground-light-tertiary, var(--dsc-dark-transparent-30, rgba(28, 34, 43, 0.3)));
+  /*=====  End of Link Button Css Variables  ======*/
+  /*=============================================
   =            Typography css variables            =
   =============================================*/
   /*----------  Font Family  ----------*/

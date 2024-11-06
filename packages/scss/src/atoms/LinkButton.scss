@@ -1,0 +1,301 @@
+
+@import '../foundation/all';
+
+// Button Size Configuration
+// This map defines button sizes with padding and font sizes.
+// Keys are size identifiers (2xsm, xsm, sm, md, lg, xl, 2xl).
+// Each entry includes:
+// - padding: (vertical, horizontal)
+// - font-size: variable
+// Example: 2xsm: (padding: (4px 10px), font-size: $label-xs-font-size)
+$link-btn-size: (
+  //#region Button Size Configuration
+  sm: (padding: (4px 10px), font-size: $label-font-size-sm),
+  md: (padding: (8px 12px), font-size: $label-font-size-md),
+  lg: (padding: (12px 16px), font-size: $label-font-size-lg),
+  xl: (padding: (16px 20px), font-size: $label-font-size-xl),
+  //#endregion
+);
+
+$link-button-underline-offset: 5px;
+$link-button-underline-thickness: 2px;
+// Button Base Mixin
+// This mixin defines the base styles for all button types.
+// It includes background color, foreground color, hover color, active color, focus color, outline color, disabled color, and optional border.  
+@mixin link-btn-base( $fg-color, $hover-color, $active-color, $focus-color,  $disabled-color ) {
+
+  color: $fg-color;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: $radius-lg;
+  font-weight: $fw-semibold;
+  background:none;
+  @content;
+  
+  &:hover {
+    color: $hover-color;
+  }
+
+  &:active {
+    color: $active-color;
+  }
+
+  &:focus {
+    color: $focus-color;
+    outline-offset: 2px;
+  }
+
+  &:disabled {
+    color: $disabled-color;
+    cursor: not-allowed;
+  }
+}
+
+.link-btn-primary {
+  //primary button light theme
+  $link-btn-primary-fg-color: var(--dsc-link-btn-primary-fg-color, $action-foreground-brand-inverted-normal);
+  $link-btn-primary-color-hover: var(--dsc-link-btn-primary-color-hover, $action-foreground-brand-inverted-hover);
+  $link-btn-primary-color-focused: var(--dsc-link-btn-primary-color-focused, $action-foreground-brand-inverted-focused);
+  $link-btn-primary-color-active: var(--dsc-link-btn-primary-color-active, $action-foreground-brand-inverted-active);
+  $link-btn-primary-color-disabled: var(--dsc-link-btn-primary-color-disabled, $action-foreground-brand-inverted-disabled);
+
+  @include link-btn-base(
+    $link-btn-primary-fg-color,
+    $link-btn-primary-color-hover,
+    $link-btn-primary-color-active,
+    $link-btn-primary-color-focused,
+    $link-btn-primary-color-disabled
+  )
+}
+
+[data-theme="dark"] { 
+  //primary button dark theme 
+  $dark-link-btn-primary-fg-color: var(--dsc-dark-link-btn-primary-fg-color, $dark-action-foreground-brand-inverted-normal);  
+  $dark-link-btn-primary-color-hover: var(--dsc-dark-link-btn-primary-color-hover, $dark-action-foreground-brand-inverted-hover);
+  $dark-link-btn-primary-color-focused: var(--dsc-dark-link-btn-primary-color-focused, $dark-action-foreground-brand-inverted-focused);
+  $dark-link-btn-primary-color-active: var(--dsc-dark-link-btn-primary-color-active, $dark-action-foreground-brand-inverted-active);
+  $dark-link-btn-primary-color-disabled: var(--dsc-dark-link-btn-primary-color-disabled, $dark-action-foreground-brand-inverted-disabled);
+
+  .link-btn-primary {
+    @include link-btn-base(
+      $dark-link-btn-primary-fg-color, 
+      $dark-link-btn-primary-color-hover, 
+      $dark-link-btn-primary-color-active, 
+      $dark-link-btn-primary-color-focused, 
+      $dark-link-btn-primary-color-disabled
+    )
+  }
+}
+  
+
+
+.link-btn-secondary {
+  //secondary button light theme
+  $link-btn-secondary-fg-color: var(--dsc-link-btn-secondary-fg-color, $action-foreground-neutral-normal);
+  $link-btn-secondary-color-hover: var(--dsc-link-btn-secondary-color-hover, $action-foreground-brand-inverted-hover);
+  $link-btn-secondary-color-focused: var(--dsc-link-btn-secondary-color-focused, $action-foreground-neutral-focused);
+  $link-btn-secondary-color-active: var(--dsc-link-btn-secondary-color-active, $action-foreground-brand-inverted-active);
+  $link-btn-secondary-color-disabled: var(--dsc-link-btn-secondary-color-disabled, $action-foreground-neutral-disabled);
+  
+  @include link-btn-base(
+    $link-btn-secondary-fg-color, 
+    $link-btn-secondary-color-hover, 
+    $link-btn-secondary-color-active, 
+    $link-btn-secondary-color-focused, 
+    $link-btn-secondary-color-disabled
+  )
+}
+
+[data-theme="dark"] {
+  //secondary button dark theme
+  $dark-link-btn-secondary-fg-color: var(--dsc-dark-link-btn-secondary-fg-color, $dark-action-foreground-neutral-normal);
+  $dark-link-btn-secondary-color-hover: var(--dsc-dark-link-btn-secondary-color-hover, $dark-action-foreground-brand-inverted-hover);
+  $dark-link-btn-secondary-color-focused: var(--dsc-dark-link-btn-secondary-color-focused, $dark-action-foreground-neutral-focused);
+  $dark-link-btn-secondary-color-active: var(--dsc-dark-link-btn-secondary-color-active, $dark-action-foreground-brand-inverted-active);
+  $dark-link-btn-secondary-color-disabled: var(--dsc-dark-link-btn-secondary-color-disabled, $dark-action-foreground-neutral-disabled);
+
+  .link-btn-secondary {
+    @include link-btn-base(
+      $dark-link-btn-secondary-fg-color, 
+      $dark-link-btn-secondary-color-hover, 
+      $dark-link-btn-secondary-color-active, 
+      $dark-link-btn-secondary-color-focused, 
+      $dark-link-btn-secondary-color-disabled)
+  }
+}
+
+
+
+.link-btn-error {
+  //error button light theme
+  $link-btn-error-fg-color: var(--dsc-link-btn-error-fg-color, $action-foreground-error-normal);
+  $link-btn-error-color-hover: var(--dsc-link-btn-error-color-hover, $action-foreground-error-hover);
+  $link-btn-error-color-focused: var(--dsc-link-btn-error-color-focused, $action-foreground-error-focused);
+  $link-btn-error-color-active: var(--dsc-link-btn-error-color-active, $action-foreground-error-active);
+  $link-btn-error-color-disabled: var(--dsc-link-btn-error-color-disabled, $action-foreground-error-disabled);
+
+  @include link-btn-base(
+    $link-btn-error-fg-color, 
+    $link-btn-error-color-hover,
+    $link-btn-error-color-active, 
+    $link-btn-error-color-focused, 
+    $link-btn-error-color-disabled)
+}
+
+[data-theme="dark"] {
+  //error button dark theme
+  $dark-link-btn-error-fg-color: var(--dsc-dark-link-btn-error-fg-color, $dark-action-foreground-error-normal);
+  $dark-link-btn-error-color-hover: var(--dsc-dark-link-btn-error-color-hover, $dark-action-foreground-error-hover);
+  $dark-link-btn-error-color-focused: var(--dsc-dark-link-btn-error-color-focused, $dark-action-foreground-error-focused);
+  $dark-link-btn-error-color-active: var(--dsc-dark-link-btn-error-color-active, $dark-action-foreground-error-active);
+  $dark-link-btn-error-color-disabled: var(--dsc-dark-link-btn-error-color-disabled, $dark-action-foreground-error-disabled);
+  .link-btn-error {
+    @include link-btn-base(
+      $dark-link-btn-error-fg-color, 
+      $dark-link-btn-error-color-hover, 
+      $dark-link-btn-error-color-active, 
+      $dark-link-btn-error-color-focused, 
+      $dark-link-btn-error-color-disabled
+    )
+  }
+}
+
+
+
+.link-btn-success {
+  //success button light theme
+  $link-btn-success-fg-color: var(--dsc-link-btn-success-fg-color, $action-foreground-success-normal);
+  $link-btn-success-color-hover: var(--dsc-link-btn-success-color-hover, $action-foreground-success-hover);
+  $link-btn-success-color-focused: var(--dsc-link-btn-success-color-focused, $action-foreground-success-focused);
+  $link-btn-success-color-active: var(--dsc-link-btn-success-color-active, $action-foreground-success-active);
+  $link-btn-success-color-disabled: var(--dsc-link-btn-success-color-disabled, $action-foreground-success-disabled);
+
+  @include link-btn-base(
+    $link-btn-success-fg-color, 
+    $link-btn-success-color-hover, 
+    $link-btn-success-color-active, 
+    $link-btn-success-color-focused, 
+    $link-btn-success-color-disabled)
+}
+
+[data-theme="dark"] {
+  //success button dark theme
+  $dark-link-btn-success-fg-color: var(--dsc-dark-link-btn-success-fg-color, $dark-action-foreground-success-normal);
+  $dark-link-btn-success-color-hover: var(--dsc-dark-link-btn-success-color-hover, $dark-action-foreground-success-hover);
+  $dark-link-btn-success-color-focused: var(--dsc-dark-link-btn-success-color-focused, $dark-action-foreground-success-focused);
+  $dark-link-btn-success-color-active: var(--dsc-dark-link-btn-success-color-active, $dark-action-foreground-success-active);
+  $dark-link-btn-success-color-disabled: var(--dsc-dark-link-btn-success-color-disabled, $dark-action-foreground-success-disabled);
+  .link-btn-success {
+    @include link-btn-base(
+      $dark-link-btn-success-fg-color, 
+      $dark-link-btn-success-color-hover, 
+      $dark-link-btn-success-color-active, 
+      $dark-link-btn-success-color-focused, 
+      $dark-link-btn-success-color-disabled)
+  }
+}
+
+
+
+
+.link-btn-warning {
+  //warning button light theme
+  $link-btn-warning-fg-color: var(--dsc-link-btn-warning-fg-color, $action-foreground-warning-normal);
+  $link-btn-warning-color-hover: var(--dsc-link-btn-warning-color-hover, $action-foreground-warning-hover);
+  $link-btn-warning-color-focused: var(--dsc-link-btn-warning-color-focused, $action-foreground-warning-focused);
+  $link-btn-warning-color-active: var(--dsc-link-btn-warning-color-active, $action-foreground-warning-active);
+  $link-btn-warning-color-disabled: var(--dsc-link-btn-warning-color-disabled, $action-foreground-warning-disabled);
+
+  @include link-btn-base(
+    $link-btn-warning-fg-color, 
+    $link-btn-warning-color-hover, 
+    $link-btn-warning-color-active, 
+    $link-btn-warning-color-focused, 
+    $link-btn-warning-color-disabled
+    )
+}
+
+[data-theme="dark"] {
+
+  //warning button dark theme
+  $dark-link-btn-warning-fg-color: var(--dsc-dark-link-btn-warning-fg-color, $dark-action-foreground-warning-normal);
+  $dark-link-btn-warning-color-hover: var(--dsc-dark-link-btn-warning-color-hover, $dark-action-foreground-warning-hover);
+  $dark-link-btn-warning-color-focused: var(--dsc-dark-link-btn-warning-color-focused, $dark-action-foreground-warning-focused);
+  $dark-link-btn-warning-color-active: var(--dsc-dark-link-btn-warning-color-active, $dark-action-foreground-warning-active);
+  $dark-link-btn-warning-color-disabled: var(--dsc-dark-link-btn-warning-color-disabled, $dark-action-foreground-warning-disabled);
+
+  .link-btn-warning {
+    @include link-btn-base(
+      $dark-link-btn-warning-fg-color, 
+      $dark-link-btn-warning-color-hover, 
+      $dark-link-btn-warning-color-active, 
+      $dark-link-btn-warning-color-focused, 
+      $dark-link-btn-warning-color-disabled
+    )
+  }
+}
+
+.link-btn-light {
+  //light button light theme
+  $link-btn-light-fg-color: var(--dsc-link-btn-light-fg-color, $foreground-light-secondary);
+  $link-btn-light-color-hover: var(--dsc-link-btn-light-color-hover, $foreground-light-primary);
+  $link-btn-light-color-focused: var(--dsc-link-btn-light-color-focused, $foreground-light-primary);
+  $link-btn-light-color-active: var(--dsc-link-btn-light-color-active, $foreground-light-secondary);
+  $link-btn-light-color-disabled: var(--dsc-link-btn-light-color-disabled, $foreground-light-tertiary);
+
+  @include link-btn-base(
+    $link-btn-light-fg-color, 
+    $link-btn-light-color-hover, 
+    $link-btn-light-color-active, 
+    $link-btn-light-color-focused, 
+    $link-btn-light-color-disabled
+    )
+}
+
+[data-theme="dark"] {
+  //light button dark theme
+  $dark-link-btn-light-fg-color: var(--dsc-dark-link-btn-light-fg-color, $dark-foreground-light-secondary);
+  $dark-link-btn-light-color-hover: var(--dsc-dark-link-btn-light-color-hover, $dark-foreground-light-primary);
+  $dark-link-btn-light-color-focused: var(--dsc-dark-link-btn-light-color-focused, $dark-foreground-light-primary);
+  $dark-link-btn-light-color-active: var(--dsc-dark-link-btn-light-color-active, $dark-foreground-light-secondary);
+  $dark-link-btn-light-color-disabled: var(--dsc-dark-link-btn-light-color-disabled, $dark-foreground-light-tertiary);
+
+  .link-btn-light {
+    @include link-btn-base(
+      $dark-link-btn-light-fg-color, 
+      $dark-link-btn-light-color-hover, 
+      $dark-link-btn-light-color-active, 
+      $dark-link-btn-light-color-focused, 
+      $dark-link-btn-light-color-disabled
+    )
+  }
+}
+
+// Button Size Classes
+// This section generates classes for each defined button size.
+// It iterates over the size identifiers and applies the corresponding padding and font size. 
+$link-btn-sizes: sm, md, lg, xl;
+@each $size in $link-btn-sizes {
+  .link-btn-#{$size} {
+    font-size: map-get($link-btn-size, $size, 'font-size');
+  }
+}
+
+.link-btn-underline {
+  text-decoration: underline;
+  text-underline-offset: var(--dsc-link-button-underline-offset, $link-button-underline-offset);
+  text-decoration-thickness: var(--dsc-link-button-underline-thickness, $link-button-underline-thickness);
+}
+
+.link-btn-color{
+  background-color: var(--dsc-dark-transparent-90);
+}
+
+
+[data-theme="dark"] {
+  .link-btn-color{
+    background-color: $dark-action-background-brand-light-disabled;
+  }
+}
