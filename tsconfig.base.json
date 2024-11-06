@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@dsc/*": ["packages/*"]
+      "@dsc/shared_ui": ["packages/shared_ui/dist"]
     }
   },
   "exclude": ["node_modules", "tmp"]
