@@ -1,5 +1,5 @@
-import '@dsc/scss/lib/button.css'
 import React from 'react';
+import '@dsc/scss/lib/Button.css'
 import {ButtonSize, ButtonType, ButtonStyle} from '@dsc/foundation/lib';
 import ButtonIconSize from '@dsc/foundation/lib/ButtonIconSize.js';
 
@@ -19,7 +19,7 @@ interface ButtonProps {
   onClick?: () => void
 }
 
-export const Button:React.FC<ButtonProps> = ({
+const Button:React.FC<ButtonProps> = ({
     type,
     style="fill",
     size="md",
@@ -57,3 +57,4 @@ export const Button:React.FC<ButtonProps> = ({
   }
 
 
+export default Button;

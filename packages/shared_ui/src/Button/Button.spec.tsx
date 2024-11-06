@@ -1,6 +1,6 @@
 import { fireEvent, render } from '@testing-library/react';
 import * as Icon from "@dsc/phosphor_icons";
-import {Button} from './Button';
+import Button from './Button';
 import '@testing-library/jest-dom';
 import {vi} from 'vitest';
 describe('Button', () => {
@@ -35,6 +35,11 @@ describe('Button', () => {
     expect(getByRole('button')).toHaveAttribute('aria-label', 'Click me');
   });
 
+  it('should render with aria-label', () => {
+    const { getByRole } = render(<Button type="primary" style="fill" ariaLabel="aria_label">Click me</Button>);
+    expect(getByRole('button')).toHaveAttribute('aria-label', 'aria_label');
+  });
+  
   it('should render with aria-expanded', () => {
     const { getByRole } = render(<Button type="primary" style="fill" ariaExpanded={true}>Click me</Button>);
     expect(getByRole('button')).toHaveAttribute('aria-expanded', 'true');
@@ -48,6 +53,12 @@ describe('Button', () => {
   it('should render with aria-describedby', () => {
     const { getByRole } = render(<Button type="primary" style="fill" ariaDescribedBy="describedbyid">Click me</Button>);
     expect(getByRole('button')).toHaveAttribute('aria-describedby', 'describedbyid');
+  });
+
+
+  it('should render with aria-expanded', () => {
+    const { getByRole } = render(<Button type="primary" style="fill" ariaExpanded={true}>Click me</Button>);
+    expect(getByRole('button')).toHaveAttribute('aria-expanded', 'true');
   });
 
   it('should render with onClick', () => {
@@ -93,5 +104,5 @@ describe('Button', () => {
     expect(getByRole('button')).toHaveClass('btn-primary-border');
   });
 
-  
+
 });

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import {Button} from './Button';
+import Button from './Button';
 import ButtonSize from '@dsc/foundation/lib/ButtonSize.js';
 import ButtonType from '@dsc/foundation/lib/ButtonType.js';
 import ButtonStyle from '@dsc/foundation/lib/ButtonStyle.js';
@@ -1284,6 +1284,496 @@ export const ButtonLight: Story = {
   args: {
     style: "light",
     disabled: false,
+    isRounded: false
+  },
+
+  decorators: [withThemeDecorator],
+
+  render: args => {
+    return (
+      (<div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "10px"
+        }}>
+        <div>Primary</div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "10px"
+          }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <span>2xsm</span>
+            <Button
+              {...args}
+              type={ButtonType.primary as ButtonTypeType}
+              size={ButtonSize["2xsm"] as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <span>xsm</span>
+            <Button
+              {...args}
+              type={ButtonType.primary as ButtonTypeType}
+              size={ButtonSize.xsm as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <span>sm</span>
+            <Button
+              {...args}
+              type={ButtonType.primary as ButtonTypeType}
+              size={ButtonSize.sm as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <span>md</span>
+            <Button
+              {...args}
+              type={ButtonType.primary as ButtonTypeType}
+              size={ButtonSize.md as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <span>lg</span>
+            <Button
+              {...args}
+              type={ButtonType.primary as ButtonTypeType}
+              size={ButtonSize.lg as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <span>xl</span>
+            <Button
+              {...args}
+              type={ButtonType.primary as ButtonTypeType}
+              size={ButtonSize["xl"] as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <span>2xl</span>
+            <Button
+              {...args}
+              type={ButtonType.primary as ButtonTypeType}
+              size={ButtonSize["2xl"] as ButtonSizeType}>button</Button>
+          </div>
+        </div>
+        <div>Secondary</div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "10px"
+          }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.secondary as ButtonTypeType}
+              size={ButtonSize["2xsm"] as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.secondary as ButtonTypeType}
+              size={ButtonSize.xsm as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.secondary as ButtonTypeType}
+              size={ButtonSize.sm as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.secondary as ButtonTypeType}
+              size={ButtonSize.md as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.secondary as ButtonTypeType}
+              size={ButtonSize.lg as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.secondary as ButtonTypeType}
+              size={ButtonSize["xl"] as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.secondary as ButtonTypeType}
+              size={ButtonSize["2xl"] as ButtonSizeType}>button</Button>
+          </div>
+        </div>
+        <div>Error</div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "10px"
+          }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.error as ButtonTypeType}
+              size={ButtonSize["2xsm"] as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.error as ButtonTypeType}
+              size={ButtonSize.xsm as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.error as ButtonTypeType}
+              size={ButtonSize.sm as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.error as ButtonTypeType}
+              size={ButtonSize.md as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.error as ButtonTypeType}
+              size={ButtonSize.lg as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.error as ButtonTypeType}
+              size={ButtonSize["xl"] as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.error as ButtonTypeType}
+              size={ButtonSize["2xl"] as ButtonSizeType}>button</Button>
+          </div>
+        </div>
+        <div>Success</div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "10px"
+          }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.success as ButtonTypeType}
+              size={ButtonSize["2xsm"] as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.success as ButtonTypeType}
+              size={ButtonSize.xsm as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.success as ButtonTypeType}
+              size={ButtonSize.sm as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.success as ButtonTypeType}
+              size={ButtonSize.md as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.success as ButtonTypeType}
+              size={ButtonSize.lg as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.success as ButtonTypeType}
+              size={ButtonSize["xl"] as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.success as ButtonTypeType}
+              size={ButtonSize["2xl"] as ButtonSizeType}>button</Button>
+          </div>
+        </div>
+        <div>Warning</div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "10px"
+          }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.warning as ButtonTypeType}
+              size={ButtonSize["2xsm"] as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.warning as ButtonTypeType}
+              size={ButtonSize.xsm as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.warning as ButtonTypeType}
+              size={ButtonSize.sm as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.warning as ButtonTypeType}
+              size={ButtonSize.md as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.warning as ButtonTypeType}
+              size={ButtonSize.lg as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.warning as ButtonTypeType}
+              size={ButtonSize["xl"] as ButtonSizeType}>button</Button>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "10px"
+            }}>
+            <Button
+              {...args}
+              type={ButtonType.warning as ButtonTypeType}
+              size={ButtonSize["2xl"] as ButtonSizeType}>button</Button>
+          </div>
+        </div>
+      </div>)
+    );
+  }
+};
+
+
+export const ButtonDisabled: Story = {
+  args: {
+    style: "fill",
+    disabled: true,
     isRounded: false
   },
 
