@@ -1,7 +1,7 @@
 import React from 'react';
 import '@dsc/scss/lib/Button.css'
-import {ButtonSize, ButtonType, ButtonStyle} from '@dsc/foundation/lib';
-import ButtonIconSize from '@dsc/foundation/lib/ButtonIconSize.js';
+import {ButtonIconSize, ButtonSize, ButtonType, ButtonStyle} from '@dsc/foundation/lib';
+// import ButtonIconSize from '@dsc/foundation/lib/ButtonIconSize.js';
 
 interface ButtonProps {
   type: keyof typeof ButtonType,

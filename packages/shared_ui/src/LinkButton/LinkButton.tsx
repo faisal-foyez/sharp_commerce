@@ -1,7 +1,6 @@
 import React from 'react';
 import '@dsc/scss/lib/LinkButton.css';
-import { LinkButtonType, LinkButtonSize } from '@dsc/foundation/lib';
-import ButtonIconSize from '@dsc/foundation/lib/ButtonIconSize.js';
+import { LinkButtonType, LinkButtonSize, LinkButtonIconSize } from '@dsc/foundation/lib';
 interface LinkButtonProps {
   type: keyof typeof LinkButtonType,
   size?: keyof typeof LinkButtonSize,
@@ -29,7 +28,7 @@ const LinkButton:React.FC<LinkButtonProps> = ({
   ariaDescribedBy ='',
   onClick,
 }) => {
-  const iconSize  = ButtonIconSize[size as keyof typeof ButtonIconSize]
+  const iconSize  = LinkButtonIconSize[size as keyof typeof LinkButtonIconSize]
   const IconLeft = LeftIcon ? React.cloneElement(LeftIcon as React.ReactElement, {size: iconSize}) : null;
   const IconRight = RightIcon ? React.cloneElement(RightIcon as React.ReactElement, {size: iconSize}) : null;
   return (

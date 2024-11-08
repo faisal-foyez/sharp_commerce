@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import LinkButtonType from '@dsc/foundation/lib/LinkButtonType.js';
-import LinkButtonSize from '@dsc/foundation/lib/LinkButtonSize.js';
+// import LinkButtonType from '@dsc/foundation/lib/LinkButtonType.js';
+import {LinkButtonType, LinkButtonSize} from '@dsc/foundation/lib';
 import LinkButton from './LinkButton';
 import { ArrowRight } from '@dsc/phosphor_icons';
 import { ArrowLeft } from '@dsc/phosphor_icons';
-import { ButtonType } from 'packages/foundation/lib';
+// import { ButtonType } from 'packages/foundation/lib';
 
 
 type LinkButtonTypeType = keyof typeof LinkButtonType;

@@ -1,8 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import Button from './Button';
-import ButtonSize from '@dsc/foundation/lib/ButtonSize.js';
-import ButtonType from '@dsc/foundation/lib/ButtonType.js';
-import ButtonStyle from '@dsc/foundation/lib/ButtonStyle.js';
+import {ButtonType, ButtonSize, ButtonStyle} from '@dsc/foundation/lib';
 import {ArrowRight, ArrowLeft} from '@dsc/phosphor_icons';
 
 type ButtonSizeType = keyof typeof ButtonSize;
