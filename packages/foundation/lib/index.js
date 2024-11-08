@@ -1,9 +1,12 @@
 import Spacing from "./Spacing";
 import FontSize from "./FontSize";
-import ButtonSize from "./ButtonSize";
+import { ButtonSize, ButtonIconSize } from "./ButtonSize";
 import ButtonType from "./ButtonType";
 import ButtonStyle from "./ButtonStyle";
-import ButtonIconSize from "./ButtonIconSize";
+// import ButtonIconSize from "./ButtonIconSize";
 import LinkButtonType from "./LinkButtonType";
-import LinkButtonSize from "./LinkButtonSize";
-export { Spacing, FontSize, ButtonSize, ButtonType, ButtonStyle, ButtonIconSize, LinkButtonType, LinkButtonSize };
+import { LinkButtonSize, LinkButtonIconSize } from "./LinkButtonSize";
+import { IconButtonSize, IconButtonIconSize } from "./IconButtonSize";
+import IconButtonType from "./IconButtonType";
+import IconButtonStyle from "./IconButtonStyle";
+export { Spacing, FontSize, ButtonSize, ButtonIconSize, ButtonType, ButtonStyle, LinkButtonType, LinkButtonSize, LinkButtonIconSize, IconButtonType, IconButtonSize, IconButtonIconSize, IconButtonStyle };

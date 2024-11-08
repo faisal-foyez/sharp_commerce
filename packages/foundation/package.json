@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "exports": {
-    "./lib/*": "./lib/*"
+    "./lib": "./lib/index.js"
   },
   "license": "MIT",
 

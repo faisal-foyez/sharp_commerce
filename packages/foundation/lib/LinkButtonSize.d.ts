@@ -1,7 +1,13 @@
-declare const _default: Readonly<{
+declare const frozenLinkButtonSize: Readonly<{
     sm: string;
     md: string;
     lg: string;
     xl: string;
 }>;
-export default _default;
+declare const frozenLinkButtonIconSize: Readonly<{
+    sm: number;
+    md: number;
+    lg: number;
+    xl: number;
+}>;
+export { frozenLinkButtonSize as LinkButtonSize, frozenLinkButtonIconSize as LinkButtonIconSize };
