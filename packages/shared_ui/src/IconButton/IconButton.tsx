@@ -1,15 +1,16 @@
 import React from 'react';
 import '@dsc/scss/lib/IconButton.css'
-import {IconButtonType, IconButtonStyle, IconButtonIconSize, IconButtonSize} from '@dsc/foundation/lib';
-import { Icon } from '@dsc/phosphor_icons';
-
+import {IconButtonType, IconButtonStyle, IconButtonIconSize, IconButtonSize, IconNames, IconWeight} from '@dsc/foundation/lib';
+// import { Icon } from '@dsc/phosphor_icons';
+import * as PhosphorIcons from '@dsc/phosphor_icons';
 
 interface IconButtonProps {
   type: keyof typeof IconButtonType,
   style: keyof typeof IconButtonStyle,
   size?: keyof typeof IconButtonSize,
   isRounded?: boolean,
-  children: React.ReactElement<Icon>,
+  icon: keyof typeof IconNames,
+  iconWeight?: keyof typeof IconWeight,
   disabled?: boolean,
   ariaLabel?: string,
   ariaExpanded?: boolean,
@@ -23,7 +24,8 @@ const IconButton:React.FC<IconButtonProps> = ({
     style="fill",
     size="md",
     isRounded=false,
-    children,
+    icon,
+    iconWeight,
     disabled=false,
     ariaLabel='button',
     ariaExpanded = false,
@@ -33,8 +35,8 @@ const IconButton:React.FC<IconButtonProps> = ({
   }) => {
     const iconSize  = IconButtonIconSize[size as keyof typeof IconButtonIconSize]
     // @ts-ignore
-    const Children = children ? React.cloneElement(children as Icon, {size: iconSize}) : null;
-
+    // const Children = children ? React.cloneElement(children as Icon, {size: iconSize}) : null;
+    const Children = icon ? React.createElement(PhosphorIcons[icon], {size: iconSize, weight: iconWeight}) : null;
     return (
       <button 
         style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '.5rem'}} 

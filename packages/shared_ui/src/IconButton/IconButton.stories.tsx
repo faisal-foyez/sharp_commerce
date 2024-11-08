@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from "@storybook/react";
 import IconButton from "./IconButton";
 import {IconButtonType, IconButtonStyle, IconButtonSize} from '@dsc/foundation/lib';
-import { ArrowRight } from '@dsc/phosphor_icons';
+// import { ArrowRight } from '@dsc/phosphor_icons';
 
 type IconButtonTypeType = keyof typeof IconButtonType;
 type IconButtonStyleType = keyof typeof IconButtonStyle;
@@ -46,7 +46,7 @@ export const Primary: Story = {
     type: IconButtonType.primary as IconButtonTypeType,
     style: IconButtonStyle.fill as IconButtonStyleType,
     size: IconButtonSize.md as IconButtonSizeType,
-    children: <ArrowRight />,
+    icon: "ArrowRight",
     disabled: false,
     isRounded: false,
   }
@@ -57,7 +57,7 @@ export const Secondary: Story = {
     type: IconButtonType.secondary as IconButtonTypeType,
     style: IconButtonStyle.fill as IconButtonStyleType,
     size: IconButtonSize.md as IconButtonSizeType,
-    children: <ArrowRight />,
+    icon: "ArrowRight",
     disabled: false,
     isRounded: false,
   }
@@ -68,7 +68,7 @@ export const Error: Story = {
     type: IconButtonType.error as IconButtonTypeType,
     style: IconButtonStyle.fill as IconButtonStyleType,
     size: IconButtonSize.md as IconButtonSizeType,
-    children: <ArrowRight />,
+    icon: "ArrowRight",
     disabled: false,
     isRounded: false,
   }
@@ -79,7 +79,7 @@ export const Success: Story = {
     type: IconButtonType.success as IconButtonTypeType,
     style: IconButtonStyle.fill as IconButtonStyleType,
     size: IconButtonSize.md as IconButtonSizeType,
-    children: <ArrowRight />,
+    icon: "ArrowRight",
     disabled: false,
     isRounded: false,
   }
@@ -90,7 +90,7 @@ export const Warning: Story = {
     type: IconButtonType.warning as IconButtonTypeType,
     style: IconButtonStyle.fill as IconButtonStyleType,
     size: IconButtonSize.md as IconButtonSizeType,
-    children: <ArrowRight />,
+    icon: "ArrowRight",
     disabled: false,
     isRounded: false,
   }
@@ -110,127 +110,127 @@ export const IconButtonSizes: Story = {
         <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
             <span>2xsm</span> 
-            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize['2xsm'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize['2xsm'] as IconButtonSizeType} icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
             <span>xsm</span>
-            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize.xsm as IconButtonSizeType} icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
             <span>sm</span>
-            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize.sm as IconButtonSizeType} icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
             <span>md</span>
-            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize.md as IconButtonSizeType} icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
             <span>lg</span>
-            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize.lg as IconButtonSizeType} icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
             <span>xl</span>
-            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize['xl'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize['xl'] as IconButtonSizeType} icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
             <span>2xl</span>
-            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize['2xl'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.primary as IconButtonTypeType} size={IconButtonSize['2xl'] as IconButtonSizeType} icon="ArrowRight"/>
           </div>
         </div>
         <div>Secondary</div>
         <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize['2xsm'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize['2xsm'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize['xl'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize['xl'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize['2xl'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.secondary as IconButtonTypeType} size={IconButtonSize['2xl'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Error</div>
         <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize['2xsm'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize['2xsm'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize['xl'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize['xl'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize['2xl'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.error as IconButtonTypeType} size={IconButtonSize['2xl'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Success</div>
         <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize['2xsm'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize['2xsm'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize['xl'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize['xl'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize['2xl'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.success as IconButtonTypeType} size={IconButtonSize['2xl'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Warning</div>
         <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize['2xsm'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize['2xsm'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize['xl'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize['xl'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize['2xl'] as IconButtonSizeType}><ArrowRight /></IconButton>
+            <IconButton {...args} type={IconButtonType.warning as IconButtonTypeType} size={IconButtonSize['2xl'] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
       </div>
@@ -273,7 +273,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -286,7 +286,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -299,7 +299,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -312,7 +312,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -325,7 +325,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -338,7 +338,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -351,7 +351,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Secondary</div>
@@ -371,7 +371,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -383,7 +383,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -395,7 +395,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -407,7 +407,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -419,7 +419,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -431,7 +431,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -443,7 +443,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Error</div>
@@ -463,7 +463,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -475,7 +475,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -487,7 +487,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -499,7 +499,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -511,7 +511,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -523,7 +523,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -535,7 +535,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Success</div>
@@ -555,7 +555,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -567,7 +567,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -579,7 +579,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -591,7 +591,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -603,7 +603,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -615,7 +615,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -627,7 +627,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Warning</div>
@@ -647,7 +647,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -659,7 +659,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -671,7 +671,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -683,7 +683,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -695,7 +695,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -707,7 +707,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -719,7 +719,7 @@ export const IconButtonRounded: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
       </div>)
@@ -762,7 +762,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -775,7 +775,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -788,7 +788,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -801,7 +801,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -814,7 +814,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -827,7 +827,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -840,7 +840,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Secondary</div>
@@ -860,7 +860,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -872,7 +872,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -884,7 +884,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -896,7 +896,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -908,7 +908,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -920,7 +920,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -932,7 +932,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Error</div>
@@ -952,7 +952,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -964,7 +964,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -976,7 +976,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -988,7 +988,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1000,7 +1000,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1012,7 +1012,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1024,7 +1024,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Success</div>
@@ -1044,7 +1044,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1056,7 +1056,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1068,7 +1068,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1080,7 +1080,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1092,7 +1092,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1104,7 +1104,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1116,7 +1116,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Warning</div>
@@ -1136,7 +1136,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1148,7 +1148,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1160,7 +1160,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1172,7 +1172,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1184,7 +1184,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1196,7 +1196,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1208,7 +1208,7 @@ export const IconButtonBorder: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
       </div>)
@@ -1251,7 +1251,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1264,7 +1264,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1277,7 +1277,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1290,7 +1290,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1303,7 +1303,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1316,7 +1316,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1329,7 +1329,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Secondary</div>
@@ -1349,7 +1349,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1361,7 +1361,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1373,7 +1373,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1385,7 +1385,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1397,7 +1397,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1409,7 +1409,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1421,7 +1421,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Error</div>
@@ -1441,7 +1441,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1453,7 +1453,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1465,7 +1465,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1477,7 +1477,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1489,7 +1489,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1501,7 +1501,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1513,7 +1513,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Success</div>
@@ -1533,7 +1533,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1545,7 +1545,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1557,7 +1557,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1569,7 +1569,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1581,7 +1581,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1593,7 +1593,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1605,7 +1605,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Warning</div>
@@ -1625,7 +1625,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1637,7 +1637,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1649,7 +1649,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1661,7 +1661,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1673,7 +1673,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1685,7 +1685,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1697,7 +1697,7 @@ export const IconButtonLight: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
       </div>)
@@ -1740,7 +1740,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1753,7 +1753,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1766,7 +1766,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1779,7 +1779,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1792,7 +1792,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1805,7 +1805,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1818,7 +1818,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Secondary</div>
@@ -1838,7 +1838,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1850,7 +1850,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1862,7 +1862,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1874,7 +1874,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1886,7 +1886,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1898,7 +1898,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1910,7 +1910,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Error</div>
@@ -1930,7 +1930,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1942,7 +1942,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1954,7 +1954,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1966,7 +1966,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1978,7 +1978,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -1990,7 +1990,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2002,7 +2002,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Success</div>
@@ -2022,7 +2022,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2034,7 +2034,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2046,7 +2046,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2058,7 +2058,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2070,7 +2070,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2082,7 +2082,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2094,7 +2094,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Warning</div>
@@ -2114,7 +2114,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2126,7 +2126,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2138,7 +2138,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2150,7 +2150,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2162,7 +2162,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2174,7 +2174,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2186,7 +2186,7 @@ export const IconButtonGhost: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
       </div>)
@@ -2229,7 +2229,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2242,7 +2242,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2255,7 +2255,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2268,7 +2268,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2281,7 +2281,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2294,7 +2294,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2307,7 +2307,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.primary as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Secondary</div>
@@ -2327,7 +2327,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2339,7 +2339,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2351,7 +2351,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2363,7 +2363,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2375,7 +2375,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2387,7 +2387,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2399,7 +2399,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.secondary as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Error</div>
@@ -2419,7 +2419,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2431,7 +2431,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2443,7 +2443,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2455,7 +2455,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2467,7 +2467,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2479,7 +2479,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2491,7 +2491,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.error as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Success</div>
@@ -2511,7 +2511,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2523,7 +2523,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2535,7 +2535,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2547,7 +2547,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2559,7 +2559,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2571,7 +2571,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2583,7 +2583,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.success as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
         <div>Warning</div>
@@ -2603,7 +2603,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["2xsm"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xsm"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2615,7 +2615,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.xsm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.xsm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2627,7 +2627,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.sm as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.sm as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2639,7 +2639,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.md as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.md as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2651,7 +2651,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize.lg as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize.lg as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2663,7 +2663,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
           <div
             style={{
@@ -2675,7 +2675,7 @@ export const IconButtonDisabled: Story = {
             <IconButton
               {...args}
               type={IconButtonType.warning as IconButtonTypeType}
-              size={IconButtonSize["2xl"] as IconButtonSizeType}><ArrowRight /></IconButton>
+              size={IconButtonSize["2xl"] as IconButtonSizeType}icon="ArrowRight"/>
           </div>
         </div>
       </div>)

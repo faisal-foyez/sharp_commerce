@@ -1,11 +1,15 @@
 import React from 'react';
 import '@dsc/scss/lib/LinkButton.css';
-import { LinkButtonType, LinkButtonSize, LinkButtonIconSize } from '@dsc/foundation/lib';
+import { LinkButtonType, LinkButtonSize, LinkButtonIconSize, IconNames, IconWeight } from '@dsc/foundation/lib';
+import * as PhosphorIcons from '@dsc/phosphor_icons';
 interface LinkButtonProps {
   type: keyof typeof LinkButtonType,
   size?: keyof typeof LinkButtonSize,
-  LeftIcon?: React.ReactNode,
-  RightIcon?: React.ReactNode,
+  LeftIcon?: keyof typeof IconNames,
+  leftIconWeight?: keyof typeof IconWeight,
+  RightIcon?: keyof typeof IconNames,
+  rightIconWeight?: keyof typeof IconWeight,
+  iconWeight?: keyof typeof IconWeight,
   children?: React.ReactNode,
   disabled?: boolean,
   ariaLabel?: string,
@@ -19,7 +23,10 @@ const LinkButton:React.FC<LinkButtonProps> = ({
   type="primary",
   size="md",
   LeftIcon,
+  leftIconWeight,
   RightIcon,
+  rightIconWeight,
+  iconWeight,
   children="button",
   disabled=false,
   ariaLabel='button',
@@ -29,8 +36,8 @@ const LinkButton:React.FC<LinkButtonProps> = ({
   onClick,
 }) => {
   const iconSize  = LinkButtonIconSize[size as keyof typeof LinkButtonIconSize]
-  const IconLeft = LeftIcon ? React.cloneElement(LeftIcon as React.ReactElement, {size: iconSize}) : null;
-  const IconRight = RightIcon ? React.cloneElement(RightIcon as React.ReactElement, {size: iconSize}) : null;
+  const IconLeft = LeftIcon ? React.createElement(PhosphorIcons[LeftIcon], {size: iconSize, weight: leftIconWeight || iconWeight}) : null;
+  const IconRight = RightIcon ? React.createElement(PhosphorIcons[RightIcon], {size: iconSize, weight: rightIconWeight || iconWeight}) : null;
   return (
     <button 
       style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '.5rem'}} 

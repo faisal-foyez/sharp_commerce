@@ -110,7 +110,7 @@ export const WithLeftIcon: Story = {
     type: LinkButtonType.primary as LinkButtonTypeType,
     children: 'With Left Icon',
     size: LinkButtonSize.md as LinkButtonSizeType,
-    LeftIcon: <ArrowLeft size={16} />
+    LeftIcon: "ArrowLeft"
   },
 };
 
@@ -119,7 +119,7 @@ export const WithRightIcon: Story = {
     type: LinkButtonType.primary as LinkButtonTypeType,
     children: 'With Right Icon',
     size: LinkButtonSize.md as LinkButtonSizeType,
-    RightIcon: <ArrowRight size={16} />
+    RightIcon: "ArrowRight"
   },
 };
 
@@ -128,8 +128,8 @@ export const WithBothIcons: Story = {
     type: LinkButtonType.primary as LinkButtonTypeType,
     children: 'Both Icons',
     size: LinkButtonSize.md as LinkButtonSizeType,
-    LeftIcon: <ArrowLeft size={16} />,
-    RightIcon: <ArrowRight size={16} />
+    LeftIcon: "ArrowLeft",
+    RightIcon: "ArrowRight"
   },
 };
 
