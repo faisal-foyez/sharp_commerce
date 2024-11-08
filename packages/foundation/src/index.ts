@@ -3,12 +3,13 @@ import FontSize from "./FontSize";
 import { ButtonSize, ButtonIconSize } from "./ButtonSize";
 import ButtonType from "./ButtonType";
 import ButtonStyle from "./ButtonStyle";
-// import ButtonIconSize from "./ButtonIconSize";
 import LinkButtonType from "./LinkButtonType";
 import {LinkButtonSize, LinkButtonIconSize} from "./LinkButtonSize";
 import { IconButtonSize, IconButtonIconSize } from "./IconButtonSize";
 import IconButtonType from "./IconButtonType";
 import IconButtonStyle from "./IconButtonStyle";
+import IconNames from "./IconName";
+import IconWeight from "./IconWeight";
 export {
   Spacing, 
   FontSize,
@@ -22,5 +23,7 @@ export {
   IconButtonType,
   IconButtonSize,
   IconButtonIconSize,
-  IconButtonStyle
+  IconButtonStyle,
+  IconNames,
+  IconWeight
 }
