@@ -288,14 +288,3 @@ $link-btn-sizes: sm, md, lg, xl;
   text-underline-offset: var(--dsc-link-button-underline-offset, $link-button-underline-offset);
   text-decoration-thickness: var(--dsc-link-button-underline-thickness, $link-button-underline-thickness);
 }
-
-.link-btn-color{
-  background-color: var(--dsc-dark-transparent-90);
-}
-
-
-[data-theme="dark"] {
-  .link-btn-color{
-    background-color: $dark-action-background-brand-light-disabled;
-  }
-}

@@ -874,7 +874,7 @@ $global-red-dark-400: #F33E3E;
 --dsc-dark-action-background-error-light-hover: #{$dark-semantic-error-800}; // #660000
 --dsc-dark-action-background-error-light-focused: #{$dark-semantic-error-900}; // #4D0000
 --dsc-dark-action-background-error-light-active: #{$dark-semantic-error-900}; // #4D0000
---dsc-dark-action-background-error-light-disabled: #{$dark-semantic-error-800}; // #660000
+--dsc-dark-action-background-error-light-disabled: #{$dark-semantic-error-100}; // #660000
 --dsc-dark-action-background-error-inverted-light-hover: #{$dark-semantic-error-900}; // #4D0000
 --dsc-dark-action-background-error-inverted-light-active: #{$dark-semantic-error-800}; // #660000
 
@@ -1645,6 +1645,401 @@ $global-red-dark-400: #F33E3E;
 --dsc-dark-link-btn-light-color-active: #{$dark-foreground-light-secondary};
 --dsc-dark-link-btn-light-color-disabled: #{$dark-foreground-light-tertiary};	
 /*=====  End of Link Button Css Variables  ======*/
+
+
+
+/*=============================================
+=            IconButton Css Variables	            =
+=============================================*/
+
+//icon button primary light theme
+--dsc-icon-btn-primary-bg-color: #{$action-background-brand-normal};
+--dsc-icon-btn-primary-fg-color: #{$action-foreground-base-white-inverted};
+--dsc-icon-btn-primary-color-hover: #{$action-background-brand-hover};
+--dsc-icon-btn-primary-color-focused: #{$action-background-brand-focused};
+--dsc-icon-btn-primary-color-active: #{$action-background-brand-active};
+--dsc-icon-btn-primary-color-disabled: #{$action-background-brand-disabled};
+--dsc-icon-btn-primary-color-outline: #{$border-brand-subtle};
+
+//icon button primary dark theme
+--dsc-dark-icon-btn-primary-bg-color: #{$dark-action-background-brand-normal};
+--dsc-dark-icon-btn-primary-fg-color: #{$dark-action-foreground-base-white-inverted};  
+--dsc-dark-icon-btn-primary-color-hover: #{$dark-action-background-brand-hover};
+--dsc-dark-icon-btn-primary-color-focused: #{$dark-action-background-brand-focused};
+--dsc-dark-icon-btn-primary-color-active: #{$dark-action-background-brand-active};
+--dsc-dark-icon-btn-primary-color-disabled: #{$dark-action-background-brand-disabled};
+--dsc-dark-icon-btn-primary-color-outline: #{$dark-border-brand-subtle};
+
+
+//primary border button light theme
+--dsc-icon-btn-primary-border: 1px solid #{$action-background-brand-normal};
+--dsc-icon-btn-primary-border-bg-color: #{$action-foreground-base-white-inverted};
+--dsc-icon-btn-primary-border-fg-color: #{$action-background-brand-normal};
+--dsc-icon-btn-primary-border-color-outline: #{$border-brand-subtle};
+--dsc-icon-btn-primary-border-color-hover: #{$action-background-brand-light-hover};
+--dsc-icon-btn-primary-border-color-active: #{$action-background-brand-light-active};
+--dsc-icon-btn-primary-border-color-focused: #{$action-background-brand-light-focused};
+--dsc-icon-btn-primary-border-color-disabled: #{$action-background-base-white};
+
+
+//primary border button dark theme
+--dsc-dark-icon-btn-primary-border: 1px solid #{$dark-action-background-brand-normal};
+--dsc-dark-icon-btn-primary-border-bg-color: #{$dark-action-foreground-base-white};
+--dsc-dark-icon-btn-primary-border-fg-color: #{$dark-action-background-brand-normal};
+--dsc-dark-icon-btn-primary-border-color-outline: #{$dark-border-brand-subtle};
+--dsc-dark-icon-btn-primary-border-color-hover: #{$dark-action-background-brand-light-hover};
+--dsc-dark-icon-btn-primary-border-color-active: #{$dark-action-background-brand-light-active};
+--dsc-dark-icon-btn-primary-border-color-focused: #{$dark-action-background-brand-light-focused};
+--dsc-dark-icon-btn-primary-border-color-disabled: #{$dark-action-background-base-white};
+
+   
+
+
+--dsc-icon-btn-primary-light-bg-color: #{$action-background-brand-light-normal};
+--dsc-icon-btn-primary-light-fg-color: #{$action-foreground-brand-inverted-normal};
+--dsc-icon-btn-primary-light-color-outline: #{$border-brand-subtle};
+--dsc-icon-btn-primary-light-color-hover: #{$action-background-brand-light-hover};
+--dsc-icon-btn-primary-light-color-active: #{$action-background-brand-light-active};
+--dsc-icon-btn-primary-light-color-focused: #{$action-background-brand-light-focused};
+--dsc-icon-btn-primary-light-color-disabled: #{$action-background-base-white};
+
+
+--dsc-dark-icon-btn-primary-light-bg-color: #{$dark-action-background-brand-light-normal};
+--dsc-dark-icon-btn-primary-light-fg-color: #{$dark-action-foreground-brand-inverted-normal};
+--dsc-dark-icon-btn-primary-light-color-outline: #{$border-brand-subtle};
+--dsc-dark-icon-btn-primary-light-color-hover: #{$dark-action-background-brand-light-hover};
+--dsc-dark-icon-btn-primary-light-color-active: #{$dark-action-background-brand-light-active};
+--dsc-dark-icon-btn-primary-light-color-focused: #{$dark-action-background-brand-light-focused};
+--dsc-dark-icon-btn-primary-light-color-disabled: #{$dark-action-background-base-white};
+
+//primary light button ghost theme
+--dsc-icon-btn-primary-light-bg-color: transparent;
+--dsc-icon-btn-primary-light-fg-color: #{$action-foreground-brand-inverted-normal};
+--dsc-icon-btn-primary-light-color-outline: #{$border-brand-subtle};
+--dsc-icon-btn-primary-light-color-hover: #{$action-background-brand-light-hover};
+--dsc-icon-btn-primary-light-color-active: #{$action-background-brand-light-active};
+--dsc-icon-btn-primary-light-color-focused: #{$action-background-brand-light-focused};
+--dsc-icon-btn-primary-light-color-disabled: #{$action-background-base-white};
+
+
+//primary light button ghost theme
+--dsc-dark-icon-btn-primary-light-bg-color: transparent;
+--dsc-dark-icon-btn-primary-light-fg-color: #{$dark-action-foreground-brand-inverted-normal};
+--dsc-dark-icon-btn-primary-light-color-outline: #{$border-brand-subtle};
+--dsc-dark-icon-btn-primary-light-color-hover: #{$dark-action-background-brand-light-hover};
+--dsc-dark-icon-btn-primary-light-color-active: #{$dark-action-background-brand-light-active};
+--dsc-dark-icon-btn-primary-light-color-focused: #{$dark-action-background-brand-light-focused};
+--dsc-dark-icon-btn-primary-light-color-disabled: #{$dark-action-background-base-white};
+
+
+//secondary button light theme
+--dsc-icon-btn-secondary-bg-color: #{$action-background-neutral-normal};
+--dsc-icon-btn-secondary-fg-color: #{$action-foreground-base-white};
+--dsc-icon-btn-secondary-color-hover: #{$action-background-neutral-hover};
+--dsc-icon-btn-secondary-color-focused: #{$action-background-neutral-focused};
+--dsc-icon-btn-secondary-color-active: #{$action-background-neutral-active};
+--dsc-icon-btn-secondary-color-disabled: #{$action-background-neutral-disabled};
+--dsc-icon-btn-secondary-color-outline: #{$border-neutral-subtle};
+  
+
+--dsc-dark-icon-btn-secondary-bg-color: #{$dark-action-background-neutral-normal};
+--dsc-dark-icon-btn-secondary-fg-color: #{$dark-action-foreground-base-white};
+--dsc-dark-icon-btn-secondary-color-hover: #{$dark-action-background-neutral-hover};
+--dsc-dark-icon-btn-secondary-color-focused: #{$dark-action-background-neutral-focused};
+--dsc-dark-icon-btn-secondary-color-active: #{$dark-action-background-neutral-active};
+--dsc-dark-icon-btn-secondary-color-disabled: #{$dark-action-background-neutral-disabled};
+--dsc-dark-icon-btn-secondary-color-outline: #{$dark-border-neutral-subtle};
+
+
+--dsc-icon-btn-secondary-border: 1px solid #{$action-background-neutral-normal};
+--dsc-icon-btn-secondary-border-bg-color: #{$action-foreground-base-white};
+--dsc-icon-btn-secondary-border-fg-color: #{$action-background-neutral-normal};
+--dsc-icon-btn-secondary-border-color-outline: #{$border-neutral-subtle};
+--dsc-icon-btn-secondary-border-color-hover: #{$action-background-neutral-light-hover};
+--dsc-icon-btn-secondary-border-color-active: #{$action-background-neutral-light-active};
+--dsc-icon-btn-secondary-border-color-focused: #{$action-background-neutral-light-focused};
+--dsc-icon-btn-secondary-border-color-disabled: #{$action-background-base-white};
+
+--dsc-dark-icon-btn-secondary-border: 1px solid #{$dark-action-background-neutral-normal}; 
+--dsc-dark-icon-btn-secondary-border-bg-color: #{$dark-action-foreground-base-white};
+--dsc-dark-icon-btn-secondary-border-fg-color: #{$dark-action-background-neutral-normal};
+--dsc-dark-icon-btn-secondary-border-color-outline: #{$dark-border-neutral-subtle};    
+--dsc-dark-icon-btn-secondary-border-color-hover: #{$dark-action-background-neutral-light-hover};
+--dsc-dark-icon-btn-secondary-border-color-active: #{$dark-action-background-neutral-light-active};
+--dsc-dark-icon-btn-secondary-border-color-focused: #{$dark-action-background-neutral-light-focused};
+--dsc-dark-icon-btn-secondary-border-color-disabled: #{$dark-action-background-base-white};
+
+
+//secondary light button light theme
+--dsc-icon-btn-secondary-light-bg-color: #{$action-background-neutral-light-normal};
+--dsc-icon-btn-secondary-light-fg-color: #{$action-foreground-neutral-normal};
+--dsc-icon-btn-secondary-light-color-outline: #{$border-neutral-subtle};
+--dsc-icon-btn-secondary-light-color-hover: #{$action-background-neutral-light-hover};
+--dsc-icon-btn-secondary-light-color-active: #{$action-background-neutral-light-active};
+--dsc-icon-btn-secondary-light-color-focused: #{$action-background-neutral-light-focused};
+--dsc-icon-btn-secondary-light-color-disabled: #{$action-background-base-white};
+
+
+//secondary light button dark theme
+--dsc-dark-icon-btn-secondary-light-bg-color: #{$dark-action-background-neutral-light-normal};
+--dsc-dark-icon-btn-secondary-light-fg-color: #{$dark-action-foreground-neutral-normal};
+--dsc-dark-icon-btn-secondary-light-color-outline: #{$dark-border-neutral-subtle};
+--dsc-dark-icon-btn-secondary-light-color-hover: #{$dark-action-background-neutral-light-hover};
+--dsc-dark-icon-btn-secondary-light-color-active: #{$dark-action-background-neutral-light-active};
+--dsc-dark-icon-btn-secondary-light-color-focused: #{$dark-action-background-neutral-light-focused};
+--dsc-dark-icon-btn-secondary-light-color-disabled: #{$dark-action-background-base-white};
+
+//secondary light button ghost theme
+--dsc-icon-btn-secondary-light-bg-color: transparent;
+--dsc-icon-btn-secondary-light-fg-color: #{$action-foreground-neutral-normal};
+--dsc-icon-btn-secondary-light-color-outline: #{$border-neutral-subtle};
+--dsc-icon-btn-secondary-light-color-hover: #{$action-background-neutral-light-hover};
+--dsc-icon-btn-secondary-light-color-active: #{$action-background-neutral-light-active};
+--dsc-icon-btn-secondary-light-color-focused: #{$action-background-neutral-light-focused};
+--dsc-icon-btn-secondary-light-color-disabled: #{$action-background-base-white};
+
+
+--dsc-dark-icon-btn-secondary-light-bg-color: transparent;
+--dsc-dark-icon-btn-secondary-light-fg-color: #{$dark-action-foreground-neutral-normal};
+--dsc-dark-icon-btn-secondary-light-color-outline: #{$dark-border-neutral-subtle};
+--dsc-dark-icon-btn-secondary-light-color-hover: #{$dark-action-background-neutral-light-hover};
+--dsc-dark-icon-btn-secondary-light-color-active: #{$dark-action-background-neutral-light-active};
+--dsc-dark-icon-btn-secondary-light-color-focused: #{$dark-action-background-neutral-light-focused};
+--dsc-dark-icon-btn-secondary-light-color-disabled: #{$dark-action-background-base-white};
+
+//error button light theme
+--dsc-icon-btn-error-bg-color: #{$action-background-error-normal};
+--dsc-icon-btn-error-fg-color: #{$action-foreground-base-white-inverted};
+--dsc-icon-btn-error-color-hover: #{$action-background-error-hover};
+--dsc-icon-btn-error-color-focused: #{$action-background-error-focused};
+--dsc-icon-btn-error-color-active: #{$action-background-error-active};
+--dsc-icon-btn-error-color-disabled: #{$action-background-error-disabled};
+--dsc-icon-btn-error-color-outline: #{$border-error-subtle};
+
+
+//error button dark theme
+--dsc-dark-icon-btn-error-bg-color: #{$dark-action-background-error-normal};
+--dsc-dark-icon-btn-error-fg-color: #{$dark-action-foreground-base-white-inverted};
+--dsc-dark-icon-btn-error-color-hover: #{$dark-action-background-error-hover};
+--dsc-dark-icon-btn-error-color-focused: #{$dark-action-background-error-focused};
+--dsc-dark-icon-btn-error-color-active: #{$dark-action-background-error-active};
+--dsc-dark-icon-btn-error-color-disabled: #{$dark-action-background-error-disabled};
+--dsc-dark-icon-btn-error-color-outline: #{$dark-border-error-subtle}; 
+  
+
+//error border button light theme
+--dsc-icon-btn-error-border: 1px solid #{$action-background-error-normal};
+--dsc-icon-btn-error-border-bg-color: #{$action-foreground-base-white-inverted};
+--dsc-icon-btn-error-border-fg-color: #{$action-background-error-normal};
+--dsc-icon-btn-error-border-color-outline: #{$border-error-subtle};
+--dsc-icon-btn-error-border-color-hover: #{$action-background-error-inverted-light-hover};
+--dsc-icon-btn-error-border-color-active: #{$action-background-error-inverted-light-active};
+--dsc-icon-btn-error-border-color-focused: #{$action-background-error-light-focused};
+--dsc-icon-btn-error-border-color-disabled: #{$action-background-base-white};
+
+//error border button dark theme
+--dsc-dark-icon-btn-error-border: 1px solid #{$dark-action-background-error-normal};
+--dsc-dark-icon-btn-error-border-bg-color: #{$dark-action-foreground-base-white};
+--dsc-dark-icon-btn-error-border-fg-color: #{$dark-action-background-error-normal};
+--dsc-dark-icon-btn-error-border-color-outline: #{$dark-border-error-subtle};
+--dsc-dark-icon-btn-error-border-color-hover: #{$dark-action-background-error-inverted-light-hover};
+--dsc-dark-icon-btn-error-border-color-active: #{$dark-action-background-error-inverted-light-active};
+--dsc-dark-icon-btn-error-border-color-focused: #{$dark-action-background-error-light-focused};
+--dsc-dark-icon-btn-error-border-color-disabled: #{$dark-action-background-base-white};
+
+
+//error light button light theme
+--dsc-icon-btn-error-light-bg-color: #{$action-background-error-light-normal};
+--dsc-icon-btn-error-light-fg-color: #{$action-foreground-error-normal};
+--dsc-icon-btn-error-light-color-outline: #{$border-error-subtle};
+--dsc-icon-btn-error-light-color-hover: #{$action-background-error-light-hover};
+--dsc-icon-btn-error-light-color-active: #{$action-background-error-light-active};
+--dsc-icon-btn-error-light-color-focused: #{$action-background-error-light-focused};
+--dsc-icon-btn-error-light-color-disabled: #{$action-background-error-light-disabled};
+
+
+//error light button dark theme
+--dsc-dark-icon-btn-error-light-bg-color: #{$dark-action-background-error-light-normal};
+--dsc-dark-icon-btn-error-light-fg-color: #{$dark-action-foreground-error-normal};
+--dsc-dark-icon-btn-error-light-color-outline: #{$dark-border-error-subtle};
+--dsc-dark-icon-btn-error-light-color-hover: #{$dark-action-background-error-light-hover};
+--dsc-dark-icon-btn-error-light-color-active: #{$dark-action-background-error-light-active};
+--dsc-dark-icon-btn-error-light-color-focused: #{$dark-action-background-error-light-focused};
+--dsc-dark-icon-btn-error-light-color-disabled: #{$dark-action-background-base-white};
+
+
+  //error light button ghost theme
+--dsc-icon-btn-error-light-bg-color: transparent;
+--dsc-icon-btn-error-light-fg-color: #{$action-foreground-error-normal};
+--dsc-icon-btn-error-light-color-outline: #{$border-error-subtle};
+--dsc-icon-btn-error-light-color-hover: #{$action-background-error-light-hover};
+--dsc-icon-btn-error-light-color-active: #{$action-background-error-light-active};
+--dsc-icon-btn-error-light-color-focused: #{$action-background-error-light-focused};
+--dsc-icon-btn-error-light-color-disabled: #{$action-background-error-light-disabled};
+
+//error ghost button dark theme
+--dsc-dark-icon-btn-error-light-bg-color: transparent;
+--dsc-dark-icon-btn-error-light-fg-color: #{$dark-action-foreground-error-normal};
+--dsc-dark-icon-btn-error-light-color-outline: #{$dark-border-error-subtle};
+--dsc-dark-icon-btn-error-light-color-hover: #{$dark-action-background-error-light-hover};
+--dsc-dark-icon-btn-error-light-color-active: #{$dark-action-background-error-light-active};
+--dsc-dark-icon-btn-error-light-color-focused: #{$dark-action-background-error-light-focused};
+--dsc-dark-icon-btn-error-light-color-disabled: #{$dark-action-background-base-white};
+
+  
+  //success button light theme
+--dsc-icon-btn-success-bg-color: #{$action-background-success-normal};
+--dsc-icon-btn-success-fg-color: #{$action-foreground-base-white-inverted};
+--dsc-icon-btn-success-color-hover: #{$action-background-success-hover};
+--dsc-icon-btn-success-color-focused: #{$action-background-success-focused};
+--dsc-icon-btn-success-color-active: #{$action-background-success-active};
+--dsc-icon-btn-success-color-disabled: #{$action-background-success-disabled};
+--dsc-icon-btn-success-color-outline: #{$border-success-subtle};
+
+ 
+  //success button dark theme
+--dsc-dark-icon-btn-success-bg-color: #{$dark-action-background-success-normal};
+--dsc-dark-icon-btn-success-fg-color: #{$dark-action-foreground-base-white-inverted};
+--dsc-dark-icon-btn-success-color-hover: #{$dark-action-background-success-hover};
+--dsc-dark-icon-btn-success-color-focused: #{$dark-action-background-success-focused};
+--dsc-dark-icon-btn-success-color-active: #{$dark-action-background-success-active};
+--dsc-dark-icon-btn-success-color-disabled: #{$dark-action-background-success-disabled};
+--dsc-dark-icon-btn-success-color-outline: #{$dark-border-success-subtle};
+  
+  //success border button light theme
+--dsc-icon-btn-success-border: 1px solid #{$action-background-success-normal};
+--dsc-icon-btn-success-border-bg-color: #{$action-foreground-base-white-inverted};
+--dsc-icon-btn-success-border-fg-color: #{$action-background-success-normal};
+--dsc-icon-btn-success-border-color-outline: #{$border-success-subtle};
+--dsc-icon-btn-success-border-color-hover: #{$action-background-success-light-hover};
+--dsc-icon-btn-success-border-color-active: #{$action-background-success-light-active};
+--dsc-icon-btn-success-border-color-focused: #{$action-background-success-light-focused};
+--dsc-icon-btn-success-border-color-disabled: #{$action-background-base-white};  
+
+ 
+    //success border button dark theme
+--dsc-dark-icon-btn-success-border: 1px solid #{$dark-action-background-success-normal};
+--dsc-dark-icon-btn-success-border-bg-color: #{$dark-action-foreground-base-white};
+--dsc-dark-icon-btn-success-border-fg-color: #{$dark-action-background-success-normal};
+--dsc-dark-icon-btn-success-border-color-outline: #{$dark-border-success-subtle};
+--dsc-dark-icon-btn-success-border-color-hover: #{$dark-action-background-success-light-hover};
+--dsc-dark-icon-btn-success-border-color-active: #{$dark-action-background-success-light-active};
+--dsc-dark-icon-btn-success-border-color-focused: #{$dark-action-background-success-light-focused};
+--dsc-dark-icon-btn-success-border-color-disabled: #{$dark-action-background-base-white};
+
+  //success light button light theme
+--dsc-icon-btn-success-light-bg-color: #{$action-background-success-light-normal};
+--dsc-icon-btn-success-light-fg-color: #{$action-foreground-success-normal};
+--dsc-icon-btn-success-light-color-outline: #{$border-success-subtle};
+--dsc-icon-btn-success-light-color-hover: #{$action-background-success-light-hover};
+--dsc-icon-btn-success-light-color-active: #{$action-background-success-light-active};
+--dsc-icon-btn-success-light-color-focused: #{$action-background-success-light-focused};
+--dsc-icon-btn-success-light-color-disabled: #{$action-background-success-light-disabled};
+  
+//success light button dark theme
+--dsc-dark-icon-btn-success-light-bg-color: #{$dark-action-background-success-light-normal};
+--dsc-dark-icon-btn-success-light-fg-color: #{$dark-action-foreground-success-normal};
+--dsc-dark-icon-btn-success-light-color-outline: #{$dark-border-success-subtle};
+--dsc-dark-icon-btn-success-light-color-hover: #{$dark-action-background-success-light-hover};
+--dsc-dark-icon-btn-success-light-color-active: #{$dark-action-background-success-light-active};
+--dsc-dark-icon-btn-success-light-color-focused: #{$dark-action-background-success-light-focused};
+--dsc-dark-icon-btn-success-light-color-disabled: #{$dark-action-background-base-white};
+
+    
+  //success light button ghost theme
+--dsc-icon-btn-success-light-bg-color: transparent;
+--dsc-icon-btn-success-light-fg-color: #{$action-foreground-success-normal};
+--dsc-icon-btn-success-light-color-outline: #{$border-success-subtle};
+--dsc-icon-btn-success-light-color-hover: #{$action-background-success-light-hover};
+--dsc-icon-btn-success-light-color-active: #{$action-background-success-light-active};
+--dsc-icon-btn-success-light-color-focused: #{$action-background-success-light-focused};
+--dsc-icon-btn-success-light-color-disabled: #{$action-background-success-light-disabled};
+
+//success light button dark theme
+--dsc-dark-icon-btn-success-light-bg-color: transparent;
+--dsc-dark-icon-btn-success-light-fg-color: #{$dark-action-foreground-success-normal};
+--dsc-dark-icon-btn-success-light-color-outline: #{$dark-border-success-subtle};
+--dsc-dark-icon-btn-success-light-color-hover: #{$dark-action-background-success-light-hover};
+--dsc-dark-icon-btn-success-light-color-active: #{$dark-action-background-success-light-active};
+--dsc-dark-icon-btn-success-light-color-focused: #{$dark-action-background-success-light-focused};
+--dsc-dark-icon-btn-success-light-color-disabled: #{$dark-action-background-base-white};
+
+   
+  //warning button light theme
+--dsc-icon-btn-warning-bg-color: #{$action-background-warning-normal};
+--dsc-icon-btn-warning-fg-color: #{$action-foreground-base-white-inverted};
+--dsc-icon-btn-warning-color-hover: #{$action-background-warning-hover};
+--dsc-icon-btn-warning-color-focused: #{$action-background-warning-focused};
+--dsc-icon-btn-warning-color-active: #{$action-background-warning-active};
+--dsc-icon-btn-warning-color-disabled: #{$action-background-warning-disabled};
+--dsc-icon-btn-warning-color-outline: #{$border-warning-subtle};
+
+  //warning button dark theme
+--dsc-dark-icon-btn-warning-bg-color: #{$dark-action-background-warning-normal};
+--dsc-dark-icon-btn-warning-fg-color: #{$dark-action-foreground-base-white-inverted};
+--dsc-dark-icon-btn-warning-color-hover: #{$dark-action-background-warning-hover};
+--dsc-dark-icon-btn-warning-color-focused: #{$dark-action-background-warning-focused};
+--dsc-dark-icon-btn-warning-color-active: #{$dark-action-background-warning-active};
+--dsc-dark-icon-btn-warning-color-disabled: #{$dark-action-background-warning-disabled};
+--dsc-dark-icon-btn-warning-color-outline: #{$dark-border-warning-subtle};
+
+  //warning border button light theme
+--dsc-icon-btn-warning-border: 1px solid #{$action-background-warning-normal};
+--dsc-icon-btn-warning-border-bg-color: #{$action-foreground-base-white-inverted};
+--dsc-icon-btn-warning-border-fg-color: #{$action-background-warning-normal};
+--dsc-icon-btn-warning-border-color-outline: #{$border-warning-subtle};
+--dsc-icon-btn-warning-border-color-hover: #{$action-background-warning-light-hover};
+--dsc-icon-btn-warning-border-color-active: #{$action-background-warning-light-active};
+--dsc-icon-btn-warning-border-color-focused: #{$action-background-warning-light-focused};
+--dsc-icon-btn-warning-border-color-disabled: #{$action-background-base-white};
+
+    //warning border button dark theme
+--dsc-dark-icon-btn-warning-border: 1px solid #{$dark-action-background-warning-normal};
+--dsc-dark-icon-btn-warning-border-bg-color: #{$dark-action-foreground-base-white};
+--dsc-dark-icon-btn-warning-border-fg-color: #{$dark-action-background-warning-normal};
+--dsc-dark-icon-btn-warning-border-color-outline: #{$dark-border-warning-subtle};
+--dsc-dark-icon-btn-warning-border-color-hover: #{$dark-action-background-warning-light-hover};
+--dsc-dark-icon-btn-warning-border-color-active: #{$dark-action-background-warning-light-active};
+--dsc-dark-icon-btn-warning-border-color-focused: #{$dark-action-background-warning-light-focused};
+--dsc-dark-icon-btn-warning-border-color-disabled: #{$dark-action-background-base-white};
+
+  //warning light button
+--dsc-icon-btn-warning-light-bg-color: #{$action-background-warning-light-normal};
+--dsc-icon-btn-warning-light-fg-color: #{$action-foreground-warning-normal};
+--dsc-icon-btn-warning-light-color-outline: #{$border-warning-subtle};
+--dsc-icon-btn-warning-light-color-hover: #{$action-background-warning-light-hover};
+--dsc-icon-btn-warning-light-color-active: #{$action-background-warning-light-active};
+--dsc-icon-btn-warning-light-color-focused: #{$action-background-warning-light-focused};
+--dsc-icon-btn-warning-light-color-disabled: #{$action-background-warning-light-disabled}; 
+
+    //warning light button dark theme
+--dsc-dark-icon-btn-warning-light-bg-color: #{$dark-action-background-warning-light-normal};
+--dsc-dark-icon-btn-warning-light-fg-color: #{$dark-action-foreground-warning-normal};
+--dsc-dark-icon-btn-warning-light-color-outline: #{$dark-border-warning-subtle};
+--dsc-dark-icon-btn-warning-light-color-hover: #{$dark-action-background-warning-light-hover};
+--dsc-dark-icon-btn-warning-light-color-active: #{$dark-action-background-warning-light-active};
+--dsc-dark-icon-btn-warning-light-color-focused: #{$dark-action-background-warning-light-focused};
+--dsc-dark-icon-btn-warning-light-color-disabled: #{$dark-action-background-base-white};
+
+  //warning light button
+--dsc-icon-btn-warning-light-bg-color: transparent;
+--dsc-icon-btn-warning-light-fg-color: #{$action-foreground-warning-normal};
+--dsc-icon-btn-warning-light-color-outline: #{$border-warning-subtle};
+--dsc-icon-btn-warning-light-color-hover: #{$action-background-warning-light-hover};
+--dsc-icon-btn-warning-light-color-active: #{$action-background-warning-light-active};
+--dsc-icon-btn-warning-light-color-focused: #{$action-background-warning-light-focused};
+--dsc-icon-btn-warning-light-color-disabled: #{$action-background-warning-light-disabled}; 
+
+    //warning light button dark theme
+--dsc-dark-icon-btn-warning-light-bg-color: transparent;
+--dsc-dark-icon-btn-warning-light-fg-color: #{$dark-action-foreground-warning-normal};
+--dsc-dark-icon-btn-warning-light-color-outline: #{$dark-border-warning-subtle};
+--dsc-dark-icon-btn-warning-light-color-hover: #{$dark-action-background-warning-light-hover};
+--dsc-dark-icon-btn-warning-light-color-active: #{$dark-action-background-warning-light-active};
+--dsc-dark-icon-btn-warning-light-color-focused: #{$dark-action-background-warning-light-focused};
+--dsc-dark-icon-btn-warning-light-color-disabled: #{$dark-action-background-base-white};
+
+/*=====  End of IconButton Css Variables  ======*/
 
 
 

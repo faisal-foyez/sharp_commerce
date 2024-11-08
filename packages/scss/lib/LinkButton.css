@@ -629,11 +629,3 @@
   text-underline-offset: var(--dsc-link-button-underline-offset, 5px);
   text-decoration-thickness: var(--dsc-link-button-underline-thickness, 2px);
 }
-
-.link-btn-color {
-  background-color: var(--dsc-dark-transparent-90);
-}
-
-[data-theme=dark] .link-btn-color {
-  background-color: var(--dsc-dark-action-background-brand-light-disabled, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
-}

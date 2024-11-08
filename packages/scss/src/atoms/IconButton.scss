@@ -1,0 +1,1123 @@
+
+@import '../foundation/all';
+
+// Button Size Configuration
+// This map defines button sizes with padding and font sizes.
+// Keys are size identifiers (2xsm, xsm, sm, md, lg, xl, 2xl).
+// Each entry includes:
+// - padding: (vertical, horizontal)
+// - font-size: variable
+// Example: 2xsm: (padding: (4px 10px), font-size: $label-xs-font-size)
+$icon-btn-size: (
+  //#region Button Size Configuration
+  2xsm:(padding: (0.3rem 0.3rem)),
+  xsm: (padding: (0.4rem 0.4rem)),
+  sm: (padding: (0.55rem 0.55rem)),
+  md: (padding: (0.55rem 0.55rem)),
+  lg: (padding: (0.75rem 0.75rem)),
+  xl: (padding: (.9rem .9rem)),
+  2xl: (padding: (.9rem .9rem)),
+  3xl: (padding: (1rem 1rem)),
+  //#endregion
+);
+
+
+// Button Base Mixin
+// This mixin defines the base styles for all button types.
+// It includes background color, foreground color, hover color, active color, focus color, outline color, disabled color, and optional border.  
+@mixin icon-btn-base($bg-color, $fg-color, $hover-color, $active-color, $focus-color, $outline-color, $disabled-color, $border:none ) {
+  background-color: $bg-color;
+  color: $fg-color;
+  text-align: center;
+  border: $border;
+  outline: none;
+  cursor: pointer;
+  border-radius: $radius-xsm;
+  font-weight: $fw-semibold;
+  @content;
+  
+  &:hover {
+    background-color: $hover-color;
+  }
+
+  &:active {
+    background-color: $active-color;
+  }
+
+  &:focus {
+    background-color: $focus-color;
+    outline: 2px solid $outline-color;
+    outline-offset: 2px;
+  }
+
+  &:disabled {
+    background-color: $disabled-color;
+    cursor: not-allowed;
+  }
+}
+
+.icon-btn-primary {
+  //primary button light theme
+  $icon-btn-primary-bg-color: var(--dsc-icon-btn-primary-bg-color, $action-background-brand-normal);
+  $icon-btn-primary-fg-color: var(--dsc-icon-btn-primary-fg-color, $action-foreground-base-white-inverted);
+  $icon-btn-primary-color-hover: var(--dsc-icon-btn-primary-color-hover, $action-background-brand-hover);
+  $icon-btn-primary-color-focused: var(--dsc-icon-btn-primary-color-focused, $action-background-brand-focused);
+  $icon-btn-primary-color-active: var(--dsc-icon-btn-primary-color-active, $action-background-brand-active);
+  $icon-btn-primary-color-disabled: var(--dsc-icon-btn-primary-color-disabled, $action-background-brand-disabled);
+  $icon-btn-primary-color-outline: var(--dsc-icon-btn-primary-color-outline, $border-brand-subtle);
+
+  @include icon-btn-base(
+    $icon-btn-primary-bg-color, 
+    $icon-btn-primary-fg-color, 
+    $icon-btn-primary-color-hover, 
+    $icon-btn-primary-color-active, 
+    $icon-btn-primary-color-focused, 
+    $icon-btn-primary-color-outline, 
+    $icon-btn-primary-color-disabled
+  )
+}
+
+[data-theme="dark"] { 
+  //primary button dark theme 
+  $dark-icon-btn-primary-bg-color: var(--dsc-dark-icon-btn-primary-bg-color, $dark-action-background-brand-normal);
+  $dark-icon-btn-primary-fg-color: var(--dsc-dark-icon-btn-primary-fg-color, $dark-action-foreground-base-white-inverted);  
+  $dark-icon-btn-primary-color-hover: var(--dsc-dark-icon-btn-primary-color-hover, $dark-action-background-brand-hover);
+  $dark-icon-btn-primary-color-focused: var(--dsc-dark-icon-btn-primary-color-focused, $dark-action-background-brand-focused);
+  $dark-icon-btn-primary-color-active: var(--dsc-dark-icon-btn-primary-color-active, $dark-action-background-brand-active);
+  $dark-icon-btn-primary-color-disabled: var(--dsc-dark-icon-btn-primary-color-disabled, $dark-action-background-brand-disabled);
+  $dark-icon-btn-primary-color-outline: var(--dsc-dark-icon-btn-primary-color-outline, $dark-border-brand-subtle);
+
+  .icon-btn-primary {
+    @include icon-btn-base(
+      $dark-icon-btn-primary-bg-color, 
+      $dark-icon-btn-primary-fg-color, 
+      $dark-icon-btn-primary-color-hover, 
+      $dark-icon-btn-primary-color-active, 
+      $dark-icon-btn-primary-color-focused, 
+      $dark-icon-btn-primary-color-outline, 
+      $dark-icon-btn-primary-color-disabled
+    )
+  }
+}
+
+.icon-btn-primary-border {
+  //primary border button light theme
+  $icon-btn-primary-border: var(--dsc-icon-btn-primary-border, 1px solid $action-background-brand-normal);
+  $icon-btn-primary-border-bg-color: var(--dsc-icon-btn-primary-border-bg-color, $action-foreground-base-white-inverted);
+  $icon-btn-primary-border-fg-color: var(--dsc-icon-btn-primary-border-fg-color, $action-background-brand-normal);
+  $icon-btn-primary-border-color-outline: var(--dsc-icon-btn-primary-border-color-outline, $border-brand-subtle);
+  $icon-btn-primary-border-color-hover: var(--dsc-icon-btn-primary-border-color-hover, $action-background-brand-light-hover);
+  $icon-btn-primary-border-color-active: var(--dsc-icon-btn-primary-border-color-active, $action-background-brand-light-active);
+  $icon-btn-primary-border-color-focused: var(--dsc-icon-btn-primary-border-color-focused, $action-background-brand-light-focused);
+  $icon-btn-primary-border-color-disabled: var(--dsc-icon-btn-primary-border-color-disabled, $action-background-base-white);
+
+  // Define styles for the primary border button variant
+  @include icon-btn-base(
+    $icon-btn-primary-border-bg-color, 
+    $icon-btn-primary-border-fg-color, 
+    $icon-btn-primary-border-color-hover, 
+    $icon-btn-primary-border-color-active, 
+    $icon-btn-primary-border-color-focused, 
+    $icon-btn-primary-border-color-outline, 
+    $icon-btn-primary-border-color-disabled, 
+    $icon-btn-primary-border
+    ){
+    &:disabled {
+      color: $action-foreground-brand-inverted-disabled;
+      border-color: $action-border-brand-disabled;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .icon-btn-primary-border{
+    //primary border button dark theme
+    $dark-icon-btn-primary-border: var(--dsc-dark-icon-btn-primary-border, 1px solid $dark-action-background-brand-normal);
+    $dark-icon-btn-primary-border-bg-color: var(--dsc-dark-icon-btn-primary-border-bg-color, $dark-action-foreground-base-white);
+    $dark-icon-btn-primary-border-fg-color: var(--dsc-dark-icon-btn-primary-border-fg-color, $dark-action-background-brand-normal);
+    $dark-icon-btn-primary-border-color-outline: var(--dsc-dark-icon-btn-primary-border-color-outline, $dark-border-brand-subtle);
+    $dark-icon-btn-primary-border-color-hover: var(--dsc-dark-icon-btn-primary-border-color-hover, $dark-action-background-brand-light-hover);
+    $dark-icon-btn-primary-border-color-active: var(--dsc-dark-icon-btn-primary-border-color-active, $dark-action-background-brand-light-active);
+    $dark-icon-btn-primary-border-color-focused: var(--dsc-dark-icon-btn-primary-border-color-focused, $dark-action-background-brand-light-focused);
+    $dark-icon-btn-primary-border-color-disabled: var(--dsc-dark-icon-btn-primary-border-color-disabled, $dark-action-background-base-white);
+
+    // Define styles for the primary border button variant
+    @include icon-btn-base($dark-icon-btn-primary-border-bg-color, 
+    $dark-icon-btn-primary-border-fg-color, 
+    $dark-icon-btn-primary-border-color-hover, 
+    $dark-icon-btn-primary-border-color-active, 
+    $dark-icon-btn-primary-border-color-focused, 
+    $dark-icon-btn-primary-border-color-outline, 
+    $dark-icon-btn-primary-border-color-disabled, 
+    $dark-icon-btn-primary-border){
+
+      &:disabled {
+        color: $dark-action-foreground-brand-inverted-disabled;
+        border-color: $dark-action-border-brand-disabled;
+        }
+      }
+    }
+}
+
+.icon-btn-primary-light {
+  //primary light button light theme
+  $icon-btn-primary-light-bg-color: var(--dsc-icon-btn-primary-light-bg-color, $action-background-brand-light-normal);
+  $icon-btn-primary-light-fg-color: var(--dsc-icon-btn-primary-light-fg-color, $action-foreground-brand-inverted-normal);
+  $icon-btn-primary-light-color-outline: var(--dsc-icon-btn-primary-light-color-outline, $border-brand-subtle);
+  $icon-btn-primary-light-color-hover: var(--dsc-icon-btn-primary-light-color-hover, $action-background-brand-light-hover);
+  $icon-btn-primary-light-color-active: var(--dsc-icon-btn-primary-light-color-active, $action-background-brand-light-active);
+  $icon-btn-primary-light-color-focused: var(--dsc-icon-btn-primary-light-color-focused, $action-background-brand-light-focused);
+  $icon-btn-primary-light-color-disabled: var(--dsc-icon-btn-primary-light-color-disabled, $action-background-base-white);
+
+  // Define styles for the primary border button variant
+  @include icon-btn-base(
+    $icon-btn-primary-light-bg-color, 
+    $icon-btn-primary-light-fg-color, 
+    $icon-btn-primary-light-color-hover, 
+    $icon-btn-primary-light-color-active, 
+    $icon-btn-primary-light-color-focused, 
+    $icon-btn-primary-light-color-outline, 
+    $icon-btn-primary-light-color-disabled
+  ){
+    &:disabled {
+      color: $action-foreground-brand-inverted-disabled;
+      background-color: $action-background-brand-light-disabled !important;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .icon-btn-primary-light{
+    //primary light button dark theme
+    $dark-icon-btn-primary-light-bg-color: var(--dsc-dark-icon-btn-primary-light-bg-color, $dark-action-background-brand-light-normal);
+    $dark-icon-btn-primary-light-fg-color: var(--dsc-dark-icon-btn-primary-light-fg-color, $dark-action-foreground-brand-inverted-normal);
+    $dark-icon-btn-primary-light-color-outline: var(--dsc-dark-icon-btn-primary-light-color-outline, $border-brand-subtle);
+    $dark-icon-btn-primary-light-color-hover: var(--dsc-dark-icon-btn-primary-light-color-hover, $dark-action-background-brand-light-hover);
+    $dark-icon-btn-primary-light-color-active: var(--dsc-dark-icon-btn-primary-light-color-active, $dark-action-background-brand-light-active);
+    $dark-icon-btn-primary-light-color-focused: var(--dsc-dark-icon-btn-primary-light-color-focused, $dark-action-background-brand-light-focused);
+    $dark-icon-btn-primary-light-color-disabled: var(--dsc-dark-icon-btn-primary-light-color-disabled, $dark-action-background-base-white);
+
+  // Define styles for the primary border button variant
+  @include icon-btn-base(
+    $dark-icon-btn-primary-light-bg-color, 
+    $dark-icon-btn-primary-light-fg-color, 
+    $dark-icon-btn-primary-light-color-hover, 
+    $dark-icon-btn-primary-light-color-active,  
+    $dark-icon-btn-primary-light-color-focused, 
+    $dark-icon-btn-primary-light-color-outline, 
+    $dark-icon-btn-primary-light-color-disabled
+  ){
+    &:disabled {
+      color: $dark-action-foreground-brand-inverted-disabled;
+      border-color: $dark-action-border-brand-disabled;
+      background-color: $dark-action-background-brand-light-disabled !important;
+      }
+    }
+  }
+}
+
+.icon-btn-primary-ghost {
+  //primary light button ghost theme
+  $icon-btn-primary-light-bg-color: transparent;
+  $icon-btn-primary-light-fg-color: var(--dsc-icon-btn-primary-light-fg-color, $action-foreground-brand-inverted-normal);
+  $icon-btn-primary-light-color-outline: var(--dsc-icon-btn-primary-light-color-outline, $border-brand-subtle);
+  $icon-btn-primary-light-color-hover: var(--dsc-icon-btn-primary-light-color-hover, $action-background-brand-light-hover);
+  $icon-btn-primary-light-color-active: var(--dsc-icon-btn-primary-light-color-active, $action-background-brand-light-active);
+  $icon-btn-primary-light-color-focused: var(--dsc-icon-btn-primary-light-color-focused, $action-background-brand-light-focused);
+  $icon-btn-primary-light-color-disabled: var(--dsc-icon-btn-primary-light-color-disabled, $action-background-base-white);
+
+  // Define styles for the primary border button variant
+  @include icon-btn-base(
+    $icon-btn-primary-light-bg-color, 
+    $icon-btn-primary-light-fg-color, 
+    $icon-btn-primary-light-color-hover, 
+    $icon-btn-primary-light-color-active, 
+    $icon-btn-primary-light-color-focused, 
+    $icon-btn-primary-light-color-outline, 
+    $icon-btn-primary-light-color-disabled
+  ){
+    &:disabled {
+      color: $action-foreground-brand-inverted-disabled;
+      background-color: transparent !important;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .icon-btn-primary-ghost{
+    //primary light button ghost theme
+    $dark-icon-btn-primary-light-bg-color: transparent;
+    $dark-icon-btn-primary-light-fg-color: var(--dsc-dark-icon-btn-primary-light-fg-color, $dark-action-foreground-brand-inverted-normal);
+    $dark-icon-btn-primary-light-color-outline: var(--dsc-dark-icon-btn-primary-light-color-outline, $border-brand-subtle);
+    $dark-icon-btn-primary-light-color-hover: var(--dsc-dark-icon-btn-primary-light-color-hover, $dark-action-background-brand-light-hover);
+    $dark-icon-btn-primary-light-color-active: var(--dsc-dark-icon-btn-primary-light-color-active, $dark-action-background-brand-light-active);
+    $dark-icon-btn-primary-light-color-focused: var(--dsc-dark-icon-btn-primary-light-color-focused, $dark-action-background-brand-light-focused);
+    $dark-icon-btn-primary-light-color-disabled: var(--dsc-dark-icon-btn-primary-light-color-disabled, $dark-action-background-base-white);
+
+  // Define styles for the primary border button variant
+  @include icon-btn-base(
+    $dark-icon-btn-primary-light-bg-color, 
+    $dark-icon-btn-primary-light-fg-color, 
+    $dark-icon-btn-primary-light-color-hover, 
+    $dark-icon-btn-primary-light-color-active, 
+    $dark-icon-btn-primary-light-color-focused, 
+    $dark-icon-btn-primary-light-color-outline, 
+    $dark-icon-btn-primary-light-color-disabled
+  ){
+    &:disabled {
+      color: $dark-action-foreground-brand-inverted-disabled;
+      background-color: transparent !important;
+      }
+    }
+  }
+}
+
+.icon-btn-secondary {
+  //secondary button light theme
+  $icon-btn-secondary-bg-color: var(--dsc-icon-btn-secondary-bg-color, $action-background-neutral-normal);
+  $icon-btn-secondary-fg-color: var(--dsc-icon-btn-secondary-fg-color, $action-foreground-base-white);
+  $icon-btn-secondary-color-hover: var(--dsc-icon-btn-secondary-color-hover, $action-background-neutral-hover);
+  $icon-btn-secondary-color-focused: var(--dsc-icon-btn-secondary-color-focused, $action-background-neutral-focused);
+  $icon-btn-secondary-color-active: var(--dsc-icon-btn-secondary-color-active, $action-background-neutral-active);
+  $icon-btn-secondary-color-disabled: var(--dsc-icon-btn-secondary-color-disabled, $action-background-neutral-disabled);
+  $icon-btn-secondary-color-outline: var(--dsc-icon-btn-secondary-color-outline, $border-neutral-subtle);
+  
+  @include icon-btn-base(
+    $icon-btn-secondary-bg-color, 
+    $icon-btn-secondary-fg-color, 
+    $icon-btn-secondary-color-hover, 
+    $icon-btn-secondary-color-active, 
+    $icon-btn-secondary-color-focused, 
+    $icon-btn-secondary-color-outline, 
+    $icon-btn-secondary-color-disabled
+  )
+}
+
+[data-theme="dark"] {
+  //secondary button dark theme
+  $dark-icon-btn-secondary-bg-color: var(--dsc-dark-icon-btn-secondary-bg-color, $dark-action-background-neutral-normal);
+  $dark-icon-btn-secondary-fg-color: var(--dsc-dark-icon-btn-secondary-fg-color, $dark-action-foreground-base-white);
+  $dark-icon-btn-secondary-color-hover: var(--dsc-dark-icon-btn-secondary-color-hover, $dark-action-background-neutral-hover);
+  $dark-icon-btn-secondary-color-focused: var(--dsc-dark-icon-btn-secondary-color-focused, $dark-action-background-neutral-focused);
+  $dark-icon-btn-secondary-color-active: var(--dsc-dark-icon-btn-secondary-color-active, $dark-action-background-neutral-active);
+  $dark-icon-btn-secondary-color-disabled: var(--dsc-dark-icon-btn-secondary-color-disabled, $dark-action-background-neutral-disabled);
+  $dark-icon-btn-secondary-color-outline: var(--dsc-dark-icon-btn-secondary-color-outline, $dark-border-neutral-subtle);
+
+  .icon-btn-secondary {
+    @include icon-btn-base(
+      $dark-icon-btn-secondary-bg-color, 
+      $dark-icon-btn-secondary-fg-color, 
+      $dark-icon-btn-secondary-color-hover, 
+      $dark-icon-btn-secondary-color-active, 
+      $dark-icon-btn-secondary-color-focused, 
+      $dark-icon-btn-secondary-color-outline, 
+      $dark-icon-btn-secondary-color-disabled
+    )
+  }
+}
+
+.icon-btn-secondary-border {
+  //secondary border button light theme
+  $icon-btn-secondary-border: var(--dsc-icon-btn-secondary-border, 1px solid $action-background-neutral-normal);
+  $icon-btn-secondary-border-bg-color: var(--dsc-icon-btn-secondary-border-bg-color, $action-foreground-base-white);
+  $icon-btn-secondary-border-fg-color: var(--dsc-icon-btn-secondary-border-fg-color, $action-background-neutral-normal);
+  $icon-btn-secondary-border-color-outline: var(--dsc-icon-btn-secondary-border-color-outline, $border-neutral-subtle);
+  $icon-btn-secondary-border-color-hover: var(--dsc-icon-btn-secondary-border-color-hover, $action-background-neutral-light-hover);
+  $icon-btn-secondary-border-color-active: var(--dsc-icon-btn-secondary-border-color-active, $action-background-neutral-light-active);
+  $icon-btn-secondary-border-color-focused: var(--dsc-icon-btn-secondary-border-color-focused, $action-background-neutral-light-focused);
+  $icon-btn-secondary-border-color-disabled: var(--dsc-icon-btn-secondary-border-color-disabled, $action-background-base-white);
+
+  @include icon-btn-base(
+    $icon-btn-secondary-border-bg-color, 
+    $icon-btn-secondary-border-fg-color, 
+    $icon-btn-secondary-border-color-hover, 
+    $icon-btn-secondary-border-color-active, 
+    $icon-btn-secondary-border-color-focused, 
+    $icon-btn-secondary-border-color-outline, 
+    $icon-btn-secondary-border-color-disabled, 
+    $icon-btn-secondary-border
+  ){
+    &:disabled {
+      color: $action-foreground-neutral-disabled;
+      border-color: $action-border-neutral-disabled;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .icon-btn-secondary-border{
+    //secondary border button dark theme
+    $dark-icon-btn-secondary-border: var(--dsc-dark-icon-btn-secondary-border, 1px solid $dark-action-background-neutral-normal); 
+    $dark-icon-btn-secondary-border-bg-color: var(--dsc-dark-icon-btn-secondary-border-bg-color, $dark-action-foreground-base-white);
+    $dark-icon-btn-secondary-border-fg-color: var(--dsc-dark-icon-btn-secondary-border-fg-color, $dark-action-background-neutral-normal);
+    $dark-icon-btn-secondary-border-color-outline: var(--dsc-dark-icon-btn-secondary-border-color-outline, $dark-border-neutral-subtle);    
+    $dark-icon-btn-secondary-border-color-hover: var(--dsc-dark-icon-btn-secondary-border-color-hover, $dark-action-background-neutral-light-hover);
+    $dark-icon-btn-secondary-border-color-active: var(--dsc-dark-icon-btn-secondary-border-color-active, $dark-action-background-neutral-light-active);
+    $dark-icon-btn-secondary-border-color-focused: var(--dsc-dark-icon-btn-secondary-border-color-focused, $dark-action-background-neutral-light-focused);
+    $dark-icon-btn-secondary-border-color-disabled: var(--dsc-dark-icon-btn-secondary-border-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base(
+      $dark-icon-btn-secondary-border-bg-color, 
+      $dark-icon-btn-secondary-border-fg-color, 
+      $dark-icon-btn-secondary-border-color-hover, 
+      $dark-icon-btn-secondary-border-color-active, 
+      $dark-icon-btn-secondary-border-color-focused, 
+      $dark-icon-btn-secondary-border-color-outline, 
+      $dark-icon-btn-secondary-border-color-disabled, 
+      $dark-icon-btn-secondary-border){
+      &:disabled {
+        color: $dark-action-foreground-neutral-disabled;
+        border-color: $dark-action-border-neutral-disabled;
+        }
+      }
+  }
+}
+
+.icon-btn-secondary-light {
+  //secondary light button light theme
+  $icon-btn-secondary-light-bg-color: var(--dsc-icon-btn-secondary-light-bg-color, $action-background-neutral-light-normal);
+  $icon-btn-secondary-light-fg-color: var(--dsc-icon-btn-secondary-light-fg-color, $action-foreground-neutral-normal);
+  $icon-btn-secondary-light-color-outline: var(--dsc-icon-btn-secondary-light-color-outline, $border-neutral-subtle);
+  $icon-btn-secondary-light-color-hover: var(--dsc-icon-btn-secondary-light-color-hover, $action-background-neutral-light-hover);
+  $icon-btn-secondary-light-color-active: var(--dsc-icon-btn-secondary-light-color-active, $action-background-neutral-light-active);
+  $icon-btn-secondary-light-color-focused: var(--dsc-icon-btn-secondary-light-color-focused, $action-background-neutral-light-focused);
+  $icon-btn-secondary-light-color-disabled: var(--dsc-icon-btn-secondary-light-color-disabled, $action-background-base-white);
+
+  @include icon-btn-base(
+    $icon-btn-secondary-light-bg-color, 
+    $icon-btn-secondary-light-fg-color, 
+    $icon-btn-secondary-light-color-hover, 
+    $icon-btn-secondary-light-color-active, 
+    $icon-btn-secondary-light-color-focused, 
+    $icon-btn-secondary-light-color-outline, 
+    $icon-btn-secondary-light-color-disabled){
+    &:disabled {
+      color: $action-foreground-neutral-disabled;
+      background-color: $action-background-neutral-light-disabled !important;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .icon-btn-secondary-light{
+    //secondary light button dark theme
+    $dark-icon-btn-secondary-light-bg-color: var(--dsc-dark-icon-btn-secondary-light-bg-color, $dark-action-background-neutral-light-normal);
+    $dark-icon-btn-secondary-light-fg-color: var(--dsc-dark-icon-btn-secondary-light-fg-color, $dark-action-foreground-neutral-normal);
+    $dark-icon-btn-secondary-light-color-outline: var(--dsc-dark-icon-btn-secondary-light-color-outline, $dark-border-neutral-subtle);
+    $dark-icon-btn-secondary-light-color-hover: var(--dsc-dark-icon-btn-secondary-light-color-hover, $dark-action-background-neutral-light-hover);
+    $dark-icon-btn-secondary-light-color-active: var(--dsc-dark-icon-btn-secondary-light-color-active, $dark-action-background-neutral-light-active);
+    $dark-icon-btn-secondary-light-color-focused: var(--dsc-dark-icon-btn-secondary-light-color-focused, $dark-action-background-neutral-light-focused);
+    $dark-icon-btn-secondary-light-color-disabled: var(--dsc-dark-icon-btn-secondary-light-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base($dark-icon-btn-secondary-light-bg-color, 
+    $dark-icon-btn-secondary-light-fg-color, 
+    $dark-icon-btn-secondary-light-color-hover, 
+    $dark-icon-btn-secondary-light-color-active, 
+    $dark-icon-btn-secondary-light-color-focused, 
+    $dark-icon-btn-secondary-light-color-outline, 
+    $dark-icon-btn-secondary-light-color-disabled){
+      &:disabled {
+        color: $dark-action-foreground-neutral-disabled;
+        background-color: $dark-action-background-neutral-light-disabled !important;
+        }
+      }
+  }
+} 
+
+
+.icon-btn-secondary-ghost {
+  //secondary light button ghost theme
+  $icon-btn-secondary-light-bg-color: transparent;
+  $icon-btn-secondary-light-fg-color: var(--dsc-icon-btn-secondary-light-fg-color, $action-foreground-neutral-normal);
+  $icon-btn-secondary-light-color-outline: var(--dsc-icon-btn-secondary-light-color-outline, $border-neutral-subtle);
+  $icon-btn-secondary-light-color-hover: var(--dsc-icon-btn-secondary-light-color-hover, $action-background-neutral-light-hover);
+  $icon-btn-secondary-light-color-active: var(--dsc-icon-btn-secondary-light-color-active, $action-background-neutral-light-active);
+  $icon-btn-secondary-light-color-focused: var(--dsc-icon-btn-secondary-light-color-focused, $action-background-neutral-light-focused);
+  $icon-btn-secondary-light-color-disabled: var(--dsc-icon-btn-secondary-light-color-disabled, $action-background-base-white);
+
+  @include icon-btn-base(
+    $icon-btn-secondary-light-bg-color, 
+    $icon-btn-secondary-light-fg-color, 
+    $icon-btn-secondary-light-color-hover, 
+    $icon-btn-secondary-light-color-active, 
+    $icon-btn-secondary-light-color-focused, 
+    $icon-btn-secondary-light-color-outline, 
+    $icon-btn-secondary-light-color-disabled){
+    &:disabled {
+      color: $action-foreground-neutral-disabled;
+      background-color: transparent !important;
+    }
+  }
+} 
+
+[data-theme="dark"] {
+  .icon-btn-secondary-ghost{
+    //secondary ghost button dark theme
+    $dark-icon-btn-secondary-light-bg-color: transparent;
+    $dark-icon-btn-secondary-light-fg-color: var(--dsc-dark-icon-btn-secondary-light-fg-color, $dark-action-foreground-neutral-normal);
+    $dark-icon-btn-secondary-light-color-outline: var(--dsc-dark-icon-btn-secondary-light-color-outline, $dark-border-neutral-subtle);
+    $dark-icon-btn-secondary-light-color-hover: var(--dsc-dark-icon-btn-secondary-light-color-hover, $dark-action-background-neutral-light-hover);
+    $dark-icon-btn-secondary-light-color-active: var(--dsc-dark-icon-btn-secondary-light-color-active, $dark-action-background-neutral-light-active);
+    $dark-icon-btn-secondary-light-color-focused: var(--dsc-dark-icon-btn-secondary-light-color-focused, $dark-action-background-neutral-light-focused);
+    $dark-icon-btn-secondary-light-color-disabled: var(--dsc-dark-icon-btn-secondary-light-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base($dark-icon-btn-secondary-light-bg-color, 
+    $dark-icon-btn-secondary-light-fg-color, 
+    $dark-icon-btn-secondary-light-color-hover, 
+    $dark-icon-btn-secondary-light-color-active, 
+    $dark-icon-btn-secondary-light-color-focused, 
+    $dark-icon-btn-secondary-light-color-outline, 
+    $dark-icon-btn-secondary-light-color-disabled){
+      &:disabled {
+        color: $dark-action-foreground-neutral-disabled;
+        background-color: transparent !important;
+        }
+      }
+  }
+} 
+
+
+.icon-btn-error {
+  //error button light theme
+  $icon-btn-error-bg-color: var(--dsc-icon-btn-error-bg-color, $action-background-error-normal);
+  $icon-btn-error-fg-color: var(--dsc-icon-btn-error-fg-color, $action-foreground-base-white-inverted);
+  $icon-btn-error-color-hover: var(--dsc-icon-btn-error-color-hover, $action-background-error-hover);
+  $icon-btn-error-color-focused: var(--dsc-icon-btn-error-color-focused, $action-background-error-focused);
+  $icon-btn-error-color-active: var(--dsc-icon-btn-error-color-active, $action-background-error-active);
+  $icon-btn-error-color-disabled: var(--dsc-icon-btn-error-color-disabled, $action-background-error-disabled);
+  $icon-btn-error-color-outline: var(--dsc-icon-btn-error-color-outline, $border-error-subtle);
+
+  @include icon-btn-base(
+    $icon-btn-error-bg-color, 
+    $icon-btn-error-fg-color, 
+    $icon-btn-error-color-hover, 
+    $icon-btn-error-color-active, 
+    $icon-btn-error-color-focused, 
+    $icon-btn-error-color-outline, 
+    $icon-btn-error-color-disabled)
+}
+
+[data-theme="dark"] {
+  //error button dark theme
+  $dark-icon-btn-error-bg-color: var(--dsc-dark-icon-btn-error-bg-color, $dark-action-background-error-normal);
+  $dark-icon-btn-error-fg-color: var(--dsc-dark-icon-btn-error-fg-color, $dark-action-foreground-base-white-inverted);
+  $dark-icon-btn-error-color-hover: var(--dsc-dark-icon-btn-error-color-hover, $dark-action-background-error-hover);
+  $dark-icon-btn-error-color-focused: var(--dsc-dark-icon-btn-error-color-focused, $dark-action-background-error-focused);
+  $dark-icon-btn-error-color-active: var(--dsc-dark-icon-btn-error-color-active, $dark-action-background-error-active);
+  $dark-icon-btn-error-color-disabled: var(--dsc-dark-icon-btn-error-color-disabled, $dark-action-background-error-disabled);
+  $dark-icon-btn-error-color-outline: var(--dsc-dark-icon-btn-error-color-outline, $dark-border-error-subtle); 
+  .icon-btn-error {
+    @include icon-btn-base(
+      $dark-icon-btn-error-bg-color, 
+      $dark-icon-btn-error-fg-color, 
+      $dark-icon-btn-error-color-hover, 
+      $dark-icon-btn-error-color-active, 
+      $dark-icon-btn-error-color-focused, 
+      $dark-icon-btn-error-color-outline, 
+      $dark-icon-btn-error-color-disabled
+    )
+  }
+}
+
+.icon-btn-error-border {
+  //error border button light theme
+  $icon-btn-error-border: var(--dsc-icon-btn-error-border, 1px solid $action-background-error-normal);
+  $icon-btn-error-border-bg-color: var(--dsc-icon-btn-error-border-bg-color, $action-foreground-base-white-inverted);
+  $icon-btn-error-border-fg-color: var(--dsc-icon-btn-error-border-fg-color, $action-background-error-normal);
+  $icon-btn-error-border-color-outline: var(--dsc-icon-btn-error-border-color-outline, $border-error-subtle);
+  $icon-btn-error-border-color-hover: var(--dsc-icon-btn-error-border-color-hover, $action-background-error-inverted-light-hover);
+  $icon-btn-error-border-color-active: var(--dsc-icon-btn-error-border-color-active, $action-background-error-inverted-light-active);
+  $icon-btn-error-border-color-focused: var(--dsc-icon-btn-error-border-color-focused, $action-background-error-light-focused);
+  $icon-btn-error-border-color-disabled: var(--dsc-icon-btn-error-border-color-disabled, $action-background-base-white);
+
+  @include icon-btn-base(
+    $icon-btn-error-border-bg-color, 
+    $icon-btn-error-border-fg-color, 
+    $icon-btn-error-border-color-hover, 
+    $icon-btn-error-border-color-active, 
+    $icon-btn-error-border-color-focused, 
+    $icon-btn-error-border-color-outline, 
+    $icon-btn-error-border-color-disabled, 
+    $icon-btn-error-border){
+    &:disabled {
+      color: $action-foreground-error-disabled;
+      border-color: $action-border-error-disabled;
+    }
+  }
+}
+
+
+[data-theme="dark"] {
+  .icon-btn-error-border{
+    //error border button dark theme
+    $dark-icon-btn-error-border: var(--dsc-dark-icon-btn-error-border, 1px solid $dark-action-background-error-normal);
+    $dark-icon-btn-error-border-bg-color: var(--dsc-dark-icon-btn-error-border-bg-color, $dark-action-foreground-base-white);
+    $dark-icon-btn-error-border-fg-color: var(--dsc-dark-icon-btn-error-border-fg-color, $dark-action-background-error-normal);
+    $dark-icon-btn-error-border-color-outline: var(--dsc-dark-icon-btn-error-border-color-outline, $dark-border-error-subtle);
+    $dark-icon-btn-error-border-color-hover: var(--dsc-dark-icon-btn-error-border-color-hover, $dark-action-background-error-inverted-light-hover);
+    $dark-icon-btn-error-border-color-active: var(--dsc-dark-icon-btn-error-border-color-active, $dark-action-background-error-inverted-light-active);
+    $dark-icon-btn-error-border-color-focused: var(--dsc-dark-icon-btn-error-border-color-focused, $dark-action-background-error-light-focused);
+    $dark-icon-btn-error-border-color-disabled: var(--dsc-dark-icon-btn-error-border-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base($dark-icon-btn-error-border-bg-color, 
+    $dark-icon-btn-error-border-fg-color, 
+    $dark-icon-btn-error-border-color-hover, 
+    $dark-icon-btn-error-border-color-active, 
+    $dark-icon-btn-error-border-color-focused, 
+    $dark-icon-btn-error-border-color-outline, 
+    $dark-icon-btn-error-border-color-disabled, 
+    $dark-icon-btn-error-border){
+      &:disabled {
+        color: $dark-action-foreground-error-disabled;
+        border-color: $dark-action-border-error-disabled;
+        }
+      } 
+  }
+} 
+
+.icon-btn-error-light {
+  //error light button light theme
+  $icon-btn-error-light-bg-color: var(--dsc-icon-btn-error-light-bg-color, $action-background-error-light-normal);
+  $icon-btn-error-light-fg-color: var(--dsc-icon-btn-error-light-fg-color, $action-foreground-error-normal);
+  $icon-btn-error-light-color-outline: var(--dsc-icon-btn-error-light-color-outline, $border-error-subtle);
+  $icon-btn-error-light-color-hover: var(--dsc-icon-btn-error-light-color-hover, $action-background-error-light-hover);
+  $icon-btn-error-light-color-active: var(--dsc-icon-btn-error-light-color-active, $action-background-error-light-active);
+  $icon-btn-error-light-color-focused: var(--dsc-icon-btn-error-light-color-focused, $action-background-error-light-focused);
+  $icon-btn-error-light-color-disabled: var(--dsc-icon-btn-error-light-color-disabled, $action-background-error-light-disabled);
+
+  @include icon-btn-base(
+    $icon-btn-error-light-bg-color, 
+    $icon-btn-error-light-fg-color, 
+    $icon-btn-error-light-color-hover, 
+    $icon-btn-error-light-color-active, 
+    $icon-btn-error-light-color-focused, 
+    $icon-btn-error-light-color-outline, 
+    $icon-btn-error-light-color-disabled)
+    {
+      &:disabled {
+        color: $action-foreground-error-disabled;
+        background-color: $action-background-error-light-disabled !important;
+      }
+    }
+}
+
+[data-theme="dark"] {
+  .icon-btn-error-light{
+    //error light button dark theme
+    $dark-icon-btn-error-light-bg-color: var(--dsc-dark-icon-btn-error-light-bg-color, $dark-action-background-error-light-normal);
+    $dark-icon-btn-error-light-fg-color: var(--dsc-dark-icon-btn-error-light-fg-color, $dark-action-foreground-error-normal);
+    $dark-icon-btn-error-light-color-outline: var(--dsc-dark-icon-btn-error-light-color-outline, $dark-border-error-subtle);
+    $dark-icon-btn-error-light-color-hover: var(--dsc-dark-icon-btn-error-light-color-hover, $dark-action-background-error-light-hover);
+    $dark-icon-btn-error-light-color-active: var(--dsc-dark-icon-btn-error-light-color-active, $dark-action-background-error-light-active);
+    $dark-icon-btn-error-light-color-focused: var(--dsc-dark-icon-btn-error-light-color-focused, $dark-action-background-error-light-focused);
+    $dark-icon-btn-error-light-color-disabled: var(--dsc-dark-icon-btn-error-light-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base($dark-icon-btn-error-light-bg-color, 
+    $dark-icon-btn-error-light-fg-color, 
+    $dark-icon-btn-error-light-color-hover, 
+    $dark-icon-btn-error-light-color-active, 
+    $dark-icon-btn-error-light-color-focused, 
+    $dark-icon-btn-error-light-color-outline, 
+    $dark-icon-btn-error-light-color-disabled)  {
+      &:disabled {
+        color: $dark-semantic-error-100;
+        background-color: $dark-semantic-error-800 !important;
+      }
+    }
+  }
+}
+
+
+.icon-btn-error-ghost {
+  //error light button ghost theme
+  $icon-btn-error-light-bg-color: transparent;
+  $icon-btn-error-light-fg-color: var(--dsc-icon-btn-error-light-fg-color, $action-foreground-error-normal);
+  $icon-btn-error-light-color-outline: var(--dsc-icon-btn-error-light-color-outline, $border-error-subtle);
+  $icon-btn-error-light-color-hover: var(--dsc-icon-btn-error-light-color-hover, $action-background-error-light-hover);
+  $icon-btn-error-light-color-active: var(--dsc-icon-btn-error-light-color-active, $action-background-error-light-active);
+  $icon-btn-error-light-color-focused: var(--dsc-icon-btn-error-light-color-focused, $action-background-error-light-focused);
+  $icon-btn-error-light-color-disabled: var(--dsc-icon-btn-error-light-color-disabled, $action-background-error-light-disabled);
+
+  @include icon-btn-base(
+    $icon-btn-error-light-bg-color, 
+    $icon-btn-error-light-fg-color, 
+    $icon-btn-error-light-color-hover, 
+    $icon-btn-error-light-color-active, 
+    $icon-btn-error-light-color-focused, 
+    $icon-btn-error-light-color-outline, 
+    $icon-btn-error-light-color-disabled)
+    {
+      &:disabled {
+        color: $action-foreground-error-disabled;
+        background-color: transparent !important;
+      }
+    }
+}
+
+[data-theme="dark"] {
+  .icon-btn-error-ghost{
+    //error ghost button dark theme
+    $dark-icon-btn-error-light-bg-color: transparent;
+    $dark-icon-btn-error-light-fg-color: var(--dsc-dark-icon-btn-error-light-fg-color, $dark-action-foreground-error-normal);
+    $dark-icon-btn-error-light-color-outline: var(--dsc-dark-icon-btn-error-light-color-outline, $dark-border-error-subtle);
+    $dark-icon-btn-error-light-color-hover: var(--dsc-dark-icon-btn-error-light-color-hover, $dark-action-background-error-light-hover);
+    $dark-icon-btn-error-light-color-active: var(--dsc-dark-icon-btn-error-light-color-active, $dark-action-background-error-light-active);
+    $dark-icon-btn-error-light-color-focused: var(--dsc-dark-icon-btn-error-light-color-focused, $dark-action-background-error-light-focused);
+    $dark-icon-btn-error-light-color-disabled: var(--dsc-dark-icon-btn-error-light-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base($dark-icon-btn-error-light-bg-color, 
+    $dark-icon-btn-error-light-fg-color, 
+    $dark-icon-btn-error-light-color-hover, 
+    $dark-icon-btn-error-light-color-active, 
+    $dark-icon-btn-error-light-color-focused, 
+    $dark-icon-btn-error-light-color-outline, 
+    $dark-icon-btn-error-light-color-disabled)  {
+      &:disabled {
+        color: $dark-semantic-error-100;
+        background-color: transparent !important;
+      }
+    }
+  }
+}
+
+.icon-btn-success {
+  //success button light theme
+  $icon-btn-success-bg-color: var(--dsc-icon-btn-success-bg-color, $action-background-success-normal);
+  $icon-btn-success-fg-color: var(--dsc-icon-btn-success-fg-color, $action-foreground-base-white-inverted);
+  $icon-btn-success-color-hover: var(--dsc-icon-btn-success-color-hover, $action-background-success-hover);
+  $icon-btn-success-color-focused: var(--dsc-icon-btn-success-color-focused, $action-background-success-focused);
+  $icon-btn-success-color-active: var(--dsc-icon-btn-success-color-active, $action-background-success-active);
+  $icon-btn-success-color-disabled: var(--dsc-icon-btn-success-color-disabled, $action-background-success-disabled);
+  $icon-btn-success-color-outline: var(--dsc-icon-btn-success-color-outline, $border-success-subtle);
+
+  @include icon-btn-base(
+    $icon-btn-success-bg-color, 
+    $icon-btn-success-fg-color, 
+    $icon-btn-success-color-hover, 
+    $icon-btn-success-color-active, 
+    $icon-btn-success-color-focused, 
+    $icon-btn-success-color-outline, 
+    $icon-btn-success-color-disabled)
+}
+
+[data-theme="dark"] {
+  //success button dark theme
+  $dark-icon-btn-success-bg-color: var(--dsc-dark-icon-btn-success-bg-color, $dark-action-background-success-normal);
+  $dark-icon-btn-success-fg-color: var(--dsc-dark-icon-btn-success-fg-color, $dark-action-foreground-base-white-inverted);
+  $dark-icon-btn-success-color-hover: var(--dsc-dark-icon-btn-success-color-hover, $dark-action-background-success-hover);
+  $dark-icon-btn-success-color-focused: var(--dsc-dark-icon-btn-success-color-focused, $dark-action-background-success-focused);
+  $dark-icon-btn-success-color-active: var(--dsc-dark-icon-btn-success-color-active, $dark-action-background-success-active);
+  $dark-icon-btn-success-color-disabled: var(--dsc-dark-icon-btn-success-color-disabled, $dark-action-background-success-disabled);
+  $dark-icon-btn-success-color-outline: var(--dsc-dark-icon-btn-success-color-outline, $dark-border-success-subtle);
+  .icon-btn-success {
+    @include icon-btn-base(
+      $dark-icon-btn-success-bg-color, 
+      $dark-icon-btn-success-fg-color, 
+      $dark-icon-btn-success-color-hover, 
+      $dark-icon-btn-success-color-active, 
+      $dark-icon-btn-success-color-focused, 
+      $dark-icon-btn-success-color-outline, 
+      $dark-icon-btn-success-color-disabled){
+        &:disabled {
+          color: $dark-action-foreground-success-inverted-disabled;
+        }
+      }
+  }
+}
+
+
+.icon-btn-success-border {
+  //success border button light theme
+  $icon-btn-success-border: var(--dsc-icon-btn-success-border, 1px solid $action-background-success-normal);
+  $icon-btn-success-border-bg-color: var(--dsc-icon-btn-success-border-bg-color, $action-foreground-base-white-inverted);
+  $icon-btn-success-border-fg-color: var(--dsc-icon-btn-success-border-fg-color, $action-background-success-normal);
+  $icon-btn-success-border-color-outline: var(--dsc-icon-btn-success-border-color-outline, $border-success-subtle);
+  $icon-btn-success-border-color-hover: var(--dsc-icon-btn-success-border-color-hover, $action-background-success-light-hover);
+  $icon-btn-success-border-color-active: var(--dsc-icon-btn-success-border-color-active, $action-background-success-light-active);
+  $icon-btn-success-border-color-focused: var(--dsc-icon-btn-success-border-color-focused, $action-background-success-light-focused);
+  $icon-btn-success-border-color-disabled: var(--dsc-icon-btn-success-border-color-disabled, $action-background-base-white);  
+
+  @include icon-btn-base(
+    $icon-btn-success-border-bg-color, 
+    $icon-btn-success-border-fg-color, 
+    $icon-btn-success-border-color-hover, 
+    $icon-btn-success-border-color-active, 
+    $icon-btn-success-border-color-focused, 
+    $icon-btn-success-border-color-outline, 
+    $icon-btn-success-border-color-disabled, 
+    $icon-btn-success-border){
+      &:disabled {
+        color: $action-foreground-success-disabled;
+        border-color: $action-border-success-disabled;
+      }
+    }
+}
+
+[data-theme="dark"] {
+  .icon-btn-success-border {
+    //success border button dark theme
+    $dark-icon-btn-success-border: var(--dsc-dark-icon-btn-success-border, 1px solid $dark-action-background-success-normal);
+    $dark-icon-btn-success-border-bg-color: var(--dsc-dark-icon-btn-success-border-bg-color, $dark-action-foreground-base-white);
+    $dark-icon-btn-success-border-fg-color: var(--dsc-dark-icon-btn-success-border-fg-color, $dark-action-background-success-normal);
+    $dark-icon-btn-success-border-color-outline: var(--dsc-dark-icon-btn-success-border-color-outline, $dark-border-success-subtle);
+    $dark-icon-btn-success-border-color-hover: var(--dsc-dark-icon-btn-success-border-color-hover, $dark-action-background-success-light-hover);
+    $dark-icon-btn-success-border-color-active: var(--dsc-dark-icon-btn-success-border-color-active, $dark-action-background-success-light-active);
+    $dark-icon-btn-success-border-color-focused: var(--dsc-dark-icon-btn-success-border-color-focused, $dark-action-background-success-light-focused);
+    $dark-icon-btn-success-border-color-disabled: var(--dsc-dark-icon-btn-success-border-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base(
+      $dark-icon-btn-success-border-bg-color, 
+      $dark-icon-btn-success-border-fg-color, 
+      $dark-icon-btn-success-border-color-hover, 
+      $dark-icon-btn-success-border-color-active, 
+      $dark-icon-btn-success-border-color-focused, 
+      $dark-icon-btn-success-border-color-outline, 
+      $dark-icon-btn-success-border-color-disabled, 
+      $dark-icon-btn-success-border) {
+        &:disabled {
+          color: $dark-action-foreground-success-disabled;
+        border-color: $dark-action-border-success-disabled;
+      }
+    }
+  }
+}
+
+.icon-btn-success-light {
+  //success light button light theme
+  $icon-btn-success-light-bg-color: var(--dsc-icon-btn-success-light-bg-color, $action-background-success-light-normal); // #E6F0FF
+  $icon-btn-success-light-fg-color: var(--dsc-icon-btn-success-light-fg-color, $action-foreground-success-normal); // #007BFF
+  $icon-btn-success-light-color-outline: var(--dsc-icon-btn-success-light-color-outline, $border-success-subtle); // #B3D7FF
+  $icon-btn-success-light-color-hover: var(--dsc-icon-btn-success-light-color-hover, $action-background-success-light-hover); // #CCEBFF
+  $icon-btn-success-light-color-active: var(--dsc-icon-btn-success-light-color-active, $action-background-success-light-active); // #E6F0FF
+  $icon-btn-success-light-color-focused: var(--dsc-icon-btn-success-light-color-focused, $action-background-success-light-focused); // #E6F0FF
+  $icon-btn-success-light-color-disabled: var(--dsc-icon-btn-success-light-color-disabled, $action-background-success-light-disabled); // #E6F0FF
+
+  @include icon-btn-base(
+    $icon-btn-success-light-bg-color, 
+    $icon-btn-success-light-fg-color, 
+    $icon-btn-success-light-color-hover, 
+    $icon-btn-success-light-color-active, 
+    $icon-btn-success-light-color-focused, 
+    $icon-btn-success-light-color-outline, 
+    $icon-btn-success-light-color-disabled){
+      &:disabled {
+        color: $action-foreground-success-disabled;
+        background-color: $action-background-success-light-disabled !important;
+      } 
+    }
+}
+
+
+[data-theme="dark"] {
+  .icon-btn-success-light {
+    //success light button dark theme
+    $dark-icon-btn-success-light-bg-color: var(--dsc-dark-icon-btn-success-light-bg-color, $dark-action-background-success-light-normal);
+    $dark-icon-btn-success-light-fg-color: var(--dsc-dark-icon-btn-success-light-fg-color, $dark-action-foreground-success-normal);
+    $dark-icon-btn-success-light-color-outline: var(--dsc-dark-icon-btn-success-light-color-outline, $dark-border-success-subtle);
+    $dark-icon-btn-success-light-color-hover: var(--dsc-dark-icon-btn-success-light-color-hover, $dark-action-background-success-light-hover);
+    $dark-icon-btn-success-light-color-active: var(--dsc-dark-icon-btn-success-light-color-active, $dark-action-background-success-light-active);
+    $dark-icon-btn-success-light-color-focused: var(--dsc-dark-icon-btn-success-light-color-focused, $dark-action-background-success-light-focused);
+    $dark-icon-btn-success-light-color-disabled: var(--dsc-dark-icon-btn-success-light-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base(
+      $dark-icon-btn-success-light-bg-color, 
+      $dark-icon-btn-success-light-fg-color, 
+      $dark-icon-btn-success-light-color-hover, 
+      $dark-icon-btn-success-light-color-active, 
+      $dark-icon-btn-success-light-color-focused, 
+      $dark-icon-btn-success-light-color-outline, 
+      $dark-icon-btn-success-light-color-disabled){
+        &:disabled {
+          color: $dark-action-foreground-success-disabled;
+          background-color: $dark-action-background-success-light-disabled !important;
+        }
+      }
+  }
+}
+
+
+.icon-btn-success-ghost {
+  //success light button ghost theme
+  $icon-btn-success-light-bg-color: transparent;
+  $icon-btn-success-light-fg-color: var(--dsc-icon-btn-success-light-fg-color, $action-foreground-success-normal); // #007BFF
+  $icon-btn-success-light-color-outline: var(--dsc-icon-btn-success-light-color-outline, $border-success-subtle); // #B3D7FF
+  $icon-btn-success-light-color-hover: var(--dsc-icon-btn-success-light-color-hover, $action-background-success-light-hover); // #CCEBFF
+  $icon-btn-success-light-color-active: var(--dsc-icon-btn-success-light-color-active, $action-background-success-light-active); // #E6F0FF
+  $icon-btn-success-light-color-focused: var(--dsc-icon-btn-success-light-color-focused, $action-background-success-light-focused); // #E6F0FF
+  $icon-btn-success-light-color-disabled: var(--dsc-icon-btn-success-light-color-disabled, $action-background-success-light-disabled); // #E6F0FF
+
+  @include icon-btn-base(
+    $icon-btn-success-light-bg-color, 
+    $icon-btn-success-light-fg-color, 
+    $icon-btn-success-light-color-hover, 
+    $icon-btn-success-light-color-active, 
+    $icon-btn-success-light-color-focused, 
+    $icon-btn-success-light-color-outline, 
+    $icon-btn-success-light-color-disabled){
+      &:disabled {
+        color: $action-foreground-success-disabled;
+        background-color: transparent !important;
+      } 
+    }
+}
+
+
+[data-theme="dark"] {
+    .icon-btn-success-ghost {
+    //success light button dark theme
+    $dark-icon-btn-success-light-bg-color: transparent;
+    $dark-icon-btn-success-light-fg-color: var(--dsc-dark-icon-btn-success-light-fg-color, $dark-action-foreground-success-normal);
+    $dark-icon-btn-success-light-color-outline: var(--dsc-dark-icon-btn-success-light-color-outline, $dark-border-success-subtle);
+    $dark-icon-btn-success-light-color-hover: var(--dsc-dark-icon-btn-success-light-color-hover, $dark-action-background-success-light-hover);
+    $dark-icon-btn-success-light-color-active: var(--dsc-dark-icon-btn-success-light-color-active, $dark-action-background-success-light-active);
+    $dark-icon-btn-success-light-color-focused: var(--dsc-dark-icon-btn-success-light-color-focused, $dark-action-background-success-light-focused);
+    $dark-icon-btn-success-light-color-disabled: var(--dsc-dark-icon-btn-success-light-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base(
+      $dark-icon-btn-success-light-bg-color, 
+      $dark-icon-btn-success-light-fg-color, 
+      $dark-icon-btn-success-light-color-hover, 
+      $dark-icon-btn-success-light-color-active, 
+      $dark-icon-btn-success-light-color-focused, 
+      $dark-icon-btn-success-light-color-outline, 
+      $dark-icon-btn-success-light-color-disabled){
+        &:disabled {
+          color: $dark-action-foreground-success-disabled;
+          background-color: transparent !important;
+        }
+      }
+  }
+}
+
+
+.icon-btn-warning {
+  //warning button light theme
+  $icon-btn-warning-bg-color: var(--dsc-icon-btn-warning-bg-color, $action-background-warning-normal);
+  $icon-btn-warning-fg-color: var(--dsc-icon-btn-warning-fg-color, $action-foreground-base-white-inverted);
+  $icon-btn-warning-color-hover: var(--dsc-icon-btn-warning-color-hover, $action-background-warning-hover);
+  $icon-btn-warning-color-focused: var(--dsc-icon-btn-warning-color-focused, $action-background-warning-focused);
+  $icon-btn-warning-color-active: var(--dsc-icon-btn-warning-color-active, $action-background-warning-active);
+  $icon-btn-warning-color-disabled: var(--dsc-icon-btn-warning-color-disabled, $action-background-warning-disabled);
+  $icon-btn-warning-color-outline: var(--dsc-icon-btn-warning-color-outline, $border-warning-subtle);
+
+  @include icon-btn-base(
+    $icon-btn-warning-bg-color, 
+    $icon-btn-warning-fg-color, 
+    $icon-btn-warning-color-hover, 
+    $icon-btn-warning-color-active, 
+    $icon-btn-warning-color-focused, 
+    $icon-btn-warning-color-outline, 
+    $icon-btn-warning-color-disabled
+    ){
+      &:disabled {
+        color: $action-foreground-warning-inverted-disabled;
+      }
+    }
+}
+
+[data-theme="dark"] {
+
+  //warning button dark theme
+  $dark-icon-btn-warning-bg-color: var(--dsc-dark-icon-btn-warning-bg-color, $dark-action-background-warning-normal);
+  $dark-icon-btn-warning-fg-color: var(--dsc-dark-icon-btn-warning-fg-color, $dark-action-foreground-base-white-inverted);
+  $dark-icon-btn-warning-color-hover: var(--dsc-dark-icon-btn-warning-color-hover, $dark-action-background-warning-hover);
+  $dark-icon-btn-warning-color-focused: var(--dsc-dark-icon-btn-warning-color-focused, $dark-action-background-warning-focused);
+  $dark-icon-btn-warning-color-active: var(--dsc-dark-icon-btn-warning-color-active, $dark-action-background-warning-active);
+  $dark-icon-btn-warning-color-disabled: var(--dsc-dark-icon-btn-warning-color-disabled, $dark-action-background-warning-disabled);
+  $dark-icon-btn-warning-color-outline: var(--dsc-dark-icon-btn-warning-color-outline, $dark-border-warning-subtle);
+
+  .icon-btn-warning {
+    @include icon-btn-base(
+      $dark-icon-btn-warning-bg-color, 
+      $dark-icon-btn-warning-fg-color, 
+      $dark-icon-btn-warning-color-hover, 
+      $dark-icon-btn-warning-color-active, 
+      $dark-icon-btn-warning-color-focused, 
+      $dark-icon-btn-warning-color-outline, 
+      $dark-icon-btn-warning-color-disabled
+      ){
+        &:disabled {
+          color: $dark-action-foreground-warning-inverted-disabled;
+        }
+      }
+  }
+}
+
+.icon-btn-warning-border {
+  //warning border button light theme
+  $icon-btn-warning-border: var(--dsc-icon-btn-warning-border, 1px solid $action-background-warning-normal);
+  $icon-btn-warning-border-bg-color: var(--dsc-icon-btn-warning-border-bg-color, $action-foreground-base-white-inverted);
+  $icon-btn-warning-border-fg-color: var(--dsc-icon-btn-warning-border-fg-color, $action-background-warning-normal);
+  $icon-btn-warning-border-color-outline: var(--dsc-icon-btn-warning-border-color-outline, $border-warning-subtle);
+  $icon-btn-warning-border-color-hover: var(--dsc-icon-btn-warning-border-color-hover, $action-background-warning-light-hover);
+  $icon-btn-warning-border-color-active: var(--dsc-icon-btn-warning-border-color-active, $action-background-warning-light-active);
+  $icon-btn-warning-border-color-focused: var(--dsc-icon-btn-warning-border-color-focused, $action-background-warning-light-focused);
+  $icon-btn-warning-border-color-disabled: var(--dsc-icon-btn-warning-border-color-disabled, $action-background-base-white);
+
+  @include icon-btn-base(
+    $icon-btn-warning-border-bg-color, 
+    $icon-btn-warning-border-fg-color, 
+    $icon-btn-warning-border-color-hover, 
+    $icon-btn-warning-border-color-active, 
+    $icon-btn-warning-border-color-focused, 
+    $icon-btn-warning-border-color-outline, 
+    $icon-btn-warning-border-color-disabled, 
+    $icon-btn-warning-border){
+      &:disabled {
+        color: $action-foreground-warning-disabled;
+      border-color: $action-border-warning-disabled;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .icon-btn-warning-border{
+    //warning border button dark theme
+    $dark-icon-btn-warning-border: var(--dsc-dark-icon-btn-warning-border, 1px solid $dark-action-background-warning-normal);
+    $dark-icon-btn-warning-border-bg-color: var(--dsc-dark-icon-btn-warning-border-bg-color, $dark-action-foreground-base-white);
+    $dark-icon-btn-warning-border-fg-color: var(--dsc-dark-icon-btn-warning-border-fg-color, $dark-action-background-warning-normal);
+    $dark-icon-btn-warning-border-color-outline: var(--dsc-dark-icon-btn-warning-border-color-outline, $dark-border-warning-subtle);
+    $dark-icon-btn-warning-border-color-hover: var(--dsc-dark-icon-btn-warning-border-color-hover, $dark-action-background-warning-light-hover);
+    $dark-icon-btn-warning-border-color-active: var(--dsc-dark-icon-btn-warning-border-color-active, $dark-action-background-warning-light-active);
+    $dark-icon-btn-warning-border-color-focused: var(--dsc-dark-icon-btn-warning-border-color-focused, $dark-action-background-warning-light-focused);
+    $dark-icon-btn-warning-border-color-disabled: var(--dsc-dark-icon-btn-warning-border-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base(
+      $dark-icon-btn-warning-border-bg-color, 
+      $dark-icon-btn-warning-border-fg-color, 
+      $dark-icon-btn-warning-border-color-hover, 
+      $dark-icon-btn-warning-border-color-active, 
+      $dark-icon-btn-warning-border-color-focused, 
+      $dark-icon-btn-warning-border-color-outline, 
+      $dark-icon-btn-warning-border-color-disabled, 
+      $dark-icon-btn-warning-border
+      ){
+      &:disabled {
+        color: $dark-action-foreground-warning-disabled;
+        border-color: $dark-action-border-warning-disabled;
+      }
+    }
+  }
+}
+
+
+.icon-btn-warning-light {
+  //warning light button
+  $icon-btn-warning-light-bg-color: var(--dsc-icon-btn-warning-light-bg-color, $action-background-warning-light-normal);
+  $icon-btn-warning-light-fg-color: var(--dsc-icon-btn-warning-light-fg-color, $action-foreground-warning-normal);
+  $icon-btn-warning-light-color-outline: var(--dsc-icon-btn-warning-light-color-outline, $border-warning-subtle);
+  $icon-btn-warning-light-color-hover: var(--dsc-icon-btn-warning-light-color-hover, $action-background-warning-light-hover);
+  $icon-btn-warning-light-color-active: var(--dsc-icon-btn-warning-light-color-active, $action-background-warning-light-active);
+  $icon-btn-warning-light-color-focused: var(--dsc-icon-btn-warning-light-color-focused, $action-background-warning-light-focused);
+  $icon-btn-warning-light-color-disabled: var(--dsc-icon-btn-warning-light-color-disabled, $action-background-warning-light-disabled); 
+
+  @include icon-btn-base(
+    $icon-btn-warning-light-bg-color, 
+    $icon-btn-warning-light-fg-color, 
+    $icon-btn-warning-light-color-hover, 
+    $icon-btn-warning-light-color-active, 
+    $icon-btn-warning-light-color-focused, 
+    $icon-btn-warning-light-color-outline, 
+    $icon-btn-warning-light-color-disabled){
+      &:disabled {
+        color: $action-foreground-warning-disabled;
+        background-color: $action-background-warning-light-disabled !important;
+      }
+    }
+}
+
+[data-theme="dark"] {
+  .icon-btn-warning-light {
+    //warning light button dark theme
+    $dark-icon-btn-warning-light-bg-color: var(--dsc-dark-icon-btn-warning-light-bg-color, $dark-action-background-warning-light-normal);
+    $dark-icon-btn-warning-light-fg-color: var(--dsc-dark-icon-btn-warning-light-fg-color, $dark-action-foreground-warning-normal);
+    $dark-icon-btn-warning-light-color-outline: var(--dsc-dark-icon-btn-warning-light-color-outline, $dark-border-warning-subtle);
+    $dark-icon-btn-warning-light-color-hover: var(--dsc-dark-icon-btn-warning-light-color-hover, $dark-action-background-warning-light-hover);
+    $dark-icon-btn-warning-light-color-active: var(--dsc-dark-icon-btn-warning-light-color-active, $dark-action-background-warning-light-active);
+    $dark-icon-btn-warning-light-color-focused: var(--dsc-dark-icon-btn-warning-light-color-focused, $dark-action-background-warning-light-focused);
+    $dark-icon-btn-warning-light-color-disabled: var(--dsc-dark-icon-btn-warning-light-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base(
+      $dark-icon-btn-warning-light-bg-color, 
+      $dark-icon-btn-warning-light-fg-color, 
+      $dark-icon-btn-warning-light-color-hover, 
+      $dark-icon-btn-warning-light-color-active, 
+      $dark-icon-btn-warning-light-color-focused, 
+      $dark-icon-btn-warning-light-color-outline, 
+      $dark-icon-btn-warning-light-color-disabled)
+      {
+        &:disabled {
+          color: $dark-action-foreground-warning-disabled;
+          background-color: $dark-action-background-warning-light-disabled !important;
+        }
+      }
+  }
+}
+
+
+.icon-btn-warning-ghost {
+  //warning light button
+  $icon-btn-warning-light-bg-color: transparent;
+  $icon-btn-warning-light-fg-color: var(--dsc-icon-btn-warning-light-fg-color, $action-foreground-warning-normal);
+  $icon-btn-warning-light-color-outline: var(--dsc-icon-btn-warning-light-color-outline, $border-warning-subtle);
+  $icon-btn-warning-light-color-hover: var(--dsc-icon-btn-warning-light-color-hover, $action-background-warning-light-hover);
+  $icon-btn-warning-light-color-active: var(--dsc-icon-btn-warning-light-color-active, $action-background-warning-light-active);
+  $icon-btn-warning-light-color-focused: var(--dsc-icon-btn-warning-light-color-focused, $action-background-warning-light-focused);
+  $icon-btn-warning-light-color-disabled: var(--dsc-icon-btn-warning-light-color-disabled, $action-background-warning-light-disabled); 
+
+  @include icon-btn-base(
+    $icon-btn-warning-light-bg-color, 
+    $icon-btn-warning-light-fg-color, 
+    $icon-btn-warning-light-color-hover, 
+    $icon-btn-warning-light-color-active, 
+    $icon-btn-warning-light-color-focused, 
+    $icon-btn-warning-light-color-outline, 
+    $icon-btn-warning-light-color-disabled){
+      &:disabled {
+        color: $action-foreground-warning-disabled;
+        background-color: transparent !important;
+      }
+    }
+}
+
+[data-theme="dark"] {
+  .icon-btn-warning-ghost {
+    //warning light button dark theme
+    $dark-icon-btn-warning-light-bg-color: transparent;
+    $dark-icon-btn-warning-light-fg-color: var(--dsc-dark-icon-btn-warning-light-fg-color, $dark-action-foreground-warning-normal);
+    $dark-icon-btn-warning-light-color-outline: var(--dsc-dark-icon-btn-warning-light-color-outline, $dark-border-warning-subtle);
+    $dark-icon-btn-warning-light-color-hover: var(--dsc-dark-icon-btn-warning-light-color-hover, $dark-action-background-warning-light-hover);
+    $dark-icon-btn-warning-light-color-active: var(--dsc-dark-icon-btn-warning-light-color-active, $dark-action-background-warning-light-active);
+    $dark-icon-btn-warning-light-color-focused: var(--dsc-dark-icon-btn-warning-light-color-focused, $dark-action-background-warning-light-focused);
+    $dark-icon-btn-warning-light-color-disabled: var(--dsc-dark-icon-btn-warning-light-color-disabled, $dark-action-background-base-white);
+
+    @include icon-btn-base(
+      $dark-icon-btn-warning-light-bg-color, 
+      $dark-icon-btn-warning-light-fg-color, 
+      $dark-icon-btn-warning-light-color-hover, 
+      $dark-icon-btn-warning-light-color-active, 
+      $dark-icon-btn-warning-light-color-focused, 
+      $dark-icon-btn-warning-light-color-outline, 
+      $dark-icon-btn-warning-light-color-disabled)
+      {
+        &:disabled {
+          color: $dark-action-foreground-warning-disabled;
+          background-color: transparent !important;
+        }
+      }
+  }
+}
+// Button Size Classes
+// This section generates classes for each defined button size.
+// It iterates over the size identifiers and applies the corresponding padding and font size. 
+// $icon-btn-sizes: 2xsm, xsm, sm, md, lg, xl, 2xl, 3xl;
+@each $key, $size in $icon-btn-size {
+  .icon-btn-#{$key} {
+    padding: map-get($size, 'padding');
+  }
+}
+
+
+.icon-btn-rounded {
+  border-radius: $radius-full-round !important;
+}
