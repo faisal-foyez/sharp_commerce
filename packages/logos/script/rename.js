@@ -23,7 +23,6 @@ function renameFilesInDirectory(directoryPath) {
       const newFilePath = path.join(directoryPath, newFileName);
       
       fs.renameSync(oldFilePath, newFilePath); // Synchronously rename the file
-      console.log(`Renamed: ${item} to ${newFileName}`);
     }
   });
 }

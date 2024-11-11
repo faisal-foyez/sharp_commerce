@@ -7,6 +7,18 @@ const assetsDirectory = path.join(__dirname, '..', 'assets');
 
 renameFilesInDirectory(assetsDirectory);
 
+//Remove the lib .DS_Store unwanted file if it exists in assets directory
+//.DSStore is automatically created by macOS
+fs.readdirSync(path.join(__dirname, '..', 'assets')).forEach(item => {
+  //remove the .DSStore file in the assets directory's subdirectory
+  const dsStorePath = path.join(__dirname, '..', 'assets', item, '.DSStore');
+  if (fs.existsSync(dsStorePath)) {
+    fs.unlinkSync(dsStorePath);
+  }
+  
+});
+
+
 const libDirectory = path.join(__dirname, '..', 'lib');
 const directories = fs.readdirSync(assetsDirectory).filter(item => {
   const fullPath = path.join(assetsDirectory, item);
@@ -27,13 +39,12 @@ directories.forEach(directory => {
     const SvgContent = fs.readFileSync(filePath, 'utf8');
     
     const variableName = file.replace('.svg', '');
-    console.log(variableName);
     const updatedSvgContent = SvgContent
-        .replace(/width="\d+"/g, 'width={size}') // Replace any width attribute
-        .replace(/height="\d+"/g, 'height={size}'); // Replace any height attribute
-    return `
+        .replace(/<svg[^>]*width="\d+"[^>]*height="\d+"/g, '<svg width={size} height={size}') // Replace width and height attribute of svg tag
+    
+        return `
     export const ${variableName} = ({size = 32}) => {
-      return <div>${updatedSvgContent}</div>
+      return ${updatedSvgContent}
     }
     `
   }).join('\n');
