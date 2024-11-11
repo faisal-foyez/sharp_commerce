@@ -10,6 +10,9 @@ import IconButtonType from "./IconButtonType";
 import IconButtonStyle from "./IconButtonStyle";
 import IconNames from "./IconName";
 import IconWeight from "./IconWeight";
+import SocialButtonPlatform from "./SocialButtonPlatform";
+import SocialButtonSize from "./SocialButtonSize";
+import SocialButtonTheme from "./SocialButtonTheme";
 export {
   Spacing, 
   FontSize,
@@ -25,5 +28,8 @@ export {
   IconButtonIconSize,
   IconButtonStyle,
   IconNames,
-  IconWeight
+  IconWeight,
+  SocialButtonPlatform,
+  SocialButtonSize,
+  SocialButtonTheme
 }

@@ -10,4 +10,7 @@ import IconButtonType from "./IconButtonType";
 import IconButtonStyle from "./IconButtonStyle";
 import IconNames from "./IconName";
 import IconWeight from "./IconWeight";
-export { Spacing, FontSize, ButtonSize, ButtonIconSize, ButtonType, ButtonStyle, LinkButtonType, LinkButtonSize, LinkButtonIconSize, IconButtonType, IconButtonSize, IconButtonIconSize, IconButtonStyle, IconNames, IconWeight };
+import SocialButtonPlatform from "./SocialButtonPlatform";
+import SocialButtonSize from "./SocialButtonSize";
+import SocialButtonTheme from "./SocialButtonTheme";
+export { Spacing, FontSize, ButtonSize, ButtonIconSize, ButtonType, ButtonStyle, LinkButtonType, LinkButtonSize, LinkButtonIconSize, IconButtonType, IconButtonSize, IconButtonIconSize, IconButtonStyle, IconNames, IconWeight, SocialButtonPlatform, SocialButtonSize, SocialButtonTheme };
