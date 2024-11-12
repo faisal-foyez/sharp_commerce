@@ -1,0 +1,1575 @@
+/*=============================================
+    #Variables
+=============================================*/
+/**
+ * TABLE OF CONTENTS
+ * 
+ * COLORS
+ * Brand colors...................These are the main brand colors. They will be used the most
+ * Neutral colors.................White and black, gray scale, secondary colors.
+ * Utility colors.................Other colors to represent states: info, warning, success, etc.
+ * 
+ * TYPOGRAPHY
+ * Font families..................The fonts used in the design system.
+ * Font weights...................Font weights
+ * Sizes..........................Font sizing for body text, paragraphs, inputs
+ * Heading sizes..................Font sizing for page headings
+ *
+ * BREAKPOINTS
+ * Breakpoints....................Global responsive breakpoints definitions.
+ *
+ * SPACING
+ * Spacing........................Global fixed set of spacing variables
+ * 
+ * SHADOW
+ * Shadows........................Global fixed set of shadows
+ */
+/*=============================================
+=            Colors                           =
+=============================================*/
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Violet colors */
+/* Purple colors */
+/* Indigo colors */
+/* Blue light colors */
+/* Blue dark colors*/
+/* Blue gray colors */
+/* Blue colors */
+/* Cyan colors */
+/* Dimgray colors */
+/* Emerald colors */
+/* Gold colors */
+/* Green colors */
+/* Green dark colors */
+/* Lime colors */
+/* Orange colors */
+/* Pink colors */
+/* Rose colors */
+/* Red colors */
+/* Red dark colors */
+/* Sky colors */
+/* Slate colors */
+/* Stone colors */
+/* Teal colors */
+/* Yellow colors */
+/* Yellow dark colors */
+/* Zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=====  End of Colors  ======*/
+/*=============================================
+=                 Typography                  =
+=============================================*/
+/* Font Families */
+/**
+ *
+ * 1) The playfair font. We'll use this for headings mostly.
+ *     https://fonts.google.com/specimen/Playfair+Display
+ *
+ * 2) The raleway font. We'll use this for the body text.
+ *     https://fonts.google.com/specimen/Raleway
+ */
+/* 1 */
+/* 2 */
+/*----------  End of Font Familie  ----------*/
+/*----------  Font weights  ----------*/
+/*----------  End of Font weights  ----------*/
+/*----------  Display font variables  ----------*/
+/*----------  End of Display font variables  ----------*/
+/*----------  Heading font variables  ----------*/
+/*----------  End of Heading font variables  ----------*/
+/*----------  Body font variables  ----------*/
+/* body font size */
+/* body line height */
+/* body letter spacing */
+/*----------  End of Body font variables  ----------*/
+/*----------  Label font variables  ----------*/
+/*----------  End of Label font variables  ----------*/
+/*----------  Underline font variables  ----------*/
+/*----------  End of Underline font variables  ----------*/
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoint            =
+=============================================*/
+/*=====  End of Breakpoint  ======*/
+/*=============================================
+=            Spacing                          =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=                  Shadows                    =
+=============================================*/
+/*=====  End of Shadows  ======*/
+/*=============================================
+=            Spacing             =
+=============================================*/
+/*=====  End of Spacing   ======*/
+/*=============================================
+=            Corner Radius            =
+=============================================*/
+/*=====  End of Corner Radius  ======*/
+/*=============================================
+=            Breakpoints           =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* 1 */
+/* 2 */
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+/*----------  Heading font variables  ----------*/
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variables.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Global violet colors */
+/* Global purple colors */
+/* Global indigo colors */
+/* Global blue light colors */
+/* Global blue dark colors*/
+/* Global blue gray colors */
+/* Global blue colors */
+/* Global cyan colors */
+/* Global dimgray colors */
+/* Global emerald colors */
+/* Global gold colors */
+/* Global green colors */
+/* Global green dark colors */
+/* Global lime colors */
+/* Global orange colors */
+/* Global pink colors */
+/* Global rose colors */
+/* Global red colors */
+/* Global red dark colors */
+/* Global sky colors */
+/* Global slate colors */
+/* Global stone colors */
+/* Global teal colors */
+/* Global yellow colors */
+/* Global yellow dark colors */
+/* Global zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Semantic colors            =
+=============================================*/
+/*----------  Semantic Base  ----------*/
+/*---------- Semantic Brand  ----------*/
+/*----------  Dark Semantic Brand  ----------*/
+/*----------  Dark Semantic brand_alt  ----------*/
+/*----------  Semantic neutral  ----------*/
+/*----------  Semantic success  ----------*/
+/*----------  Dark Semantic success  ----------*/
+/*----------  Semantic warning  ----------*/
+/*----------  Dark Semantic warning  ----------*/
+/*----------  Semantic error  ----------*/
+/*----------  Dark Semantic error  ----------*/
+/*=====  End of Semantic colors  ======*/
+/*=============================================
+=            Transparent colors tokens            =
+=============================================*/
+/*---------- Transparent Colors  ----------*/
+/*---------- Dark Semantic transparent Colors  ----------*/
+/*----------  Brand Transparent Colors  ----------*/
+/*=====  End of Transparent colors tokens  ======*/
+/*=============================================
+=            Background colors tokens            =
+=============================================*/
+/*----------  Background Semantic Base Colors  ----------*/
+/*---------- Dark Background Semantic Colors  ----------*/
+/*----------  Background Semantic Brand Colors  ----------*/
+/*----------  Dark Background Semantic Brand Colors  ----------*/
+/*----------  Background Semantic Neutral Colors  ----------*/
+/*----------  Dark Background Semantic Neutral Colors  ----------*/
+/*----------  Background Semantic Success Colors  ----------*/
+/*----------  Dark Background Semantic Success Colors  ----------*/
+/*----------  Background Semantic Warning Colors  ----------*/
+/*----------  Dark Background Semantic Warning Colors  ----------*/
+/*----------  Background Semantic Error Colors  ----------*/
+/*----------  Dark Background Semantic Error Colors  ----------*/
+/*=====  End of Background colors tokens  ======*/
+/*=============================================
+=            Foreground colors tokens            =
+=============================================
+
+/*----------  Foreground Semantic Neutral Colors  ----------*/
+/*----------  Dark Foreground Semantic Neutral Colors  ----------*/
+/*----------  Foreground Semantic Light Colors  ----------*/
+/*----------  Dark Foreground Semantic Light Colors  ----------*/
+/*----------  Foreground Semantic Brand Colors  ----------*/
+/*----------  Dark Foreground Semantic Brand Colors  ----------*/
+/*----------  Foreground Semantic Success Colors  ----------*/
+/*----------  Dark Foreground Semantic Success Colors  ----------*/
+/*----------  Foreground Semantic Warning Colors  ----------*/
+/*----------  Dark Foreground Semantic Warning Colors  ----------*/
+/*----------  Foreground Semantic Error Colors  ----------*/
+/*----------  Dark Foreground Semantic Error Colors  ----------*/
+/*----------  Foreground Semantic Link Colors  ----------*/
+/*----------  Dark Foreground Semantic Link Colors  ----------*/
+/*=====  End of Foreground colors tokens  ======*/
+/*=============================================
+=            Border colors tokens            =
+=============================================*/
+/*----------  Border Semantic Base Colors  ----------*/
+/*----------  Dark Border Semantic Base Colors  ----------*/
+/*----------  Border Semantic Neutral Colors  ----------*/
+/*----------  Dark Border Semantic Neutral Colors  ----------*/
+/*----------  Border Semantic Brand Colors  ----------*/
+/*----------  Dark Border Semantic Brand Colors  ----------*/
+/*----------  Border Semantic Success Colors  ----------*/
+/*----------  Dark Border Semantic Success Colors  ----------*/
+/*----------  Border Semantic Warning Colors  ----------*/
+/*----------  Dark Border Semantic Warning Colors  ----------*/
+/*----------  Border Semantic Error Colors  ----------*/
+/*----------  Dark Border Semantic Error Colors  ----------*/
+/*=====  End of Border colors tokens  ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=============================================
+=            Action color tokens            =
+=============================================*/
+/*----------  Action Background Base Colors  ----------*/
+/*----------  Action Background Brand Colors  ----------*/
+/*----------  Action Background Neutral Colors  ----------*/
+/*----------  Action Background Error Colors  ----------*/
+/*----------  Action Background Success Colors  ----------*/
+/*----------  Action Background Warning Colors  ----------*/
+/*----------  Action Foreground Base Colors  ----------*/
+/*----------  Action Foreground Brand Colors  ----------*/
+/*----------  Action Foreground Neutral Colors  ----------*/
+/*----------  Action Foreground Error Colors  ----------*/
+/*----------  Action Foreground Success Colors  ----------*/
+/*----------  Action Foreground Warning Colors  ----------*/
+/*----------  Action Border Brand Colors  ----------*/
+/*----------  Action Border Neutral Colors  ----------*/
+/*----------  Action Border Error Colors  ----------*/
+/*----------  Action Border Success Colors  ----------*/
+/*----------  Action Border Warning Colors  ----------*/
+/*=============================================
+=            Other Color Tokens               =
+=============================================*/
+/*----------  Fuchsia  ----------*/
+/*----------  Purple  ----------*/
+/*----------  Cyan  ----------*/
+/*----------  Pink  ----------*/
+/*----------  Sky  ----------*/
+/*----------  Black  ----------*/
+/*=====  End of Other Color Tokens  ======*/
+/*=============================================
+=            Mixins                           =
+=============================================*/
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+ */
+/*=============================================
+=            Apple  Button Css            =
+=============================================*/
+.social-btn-brand-apple {
+  background-color: var(--dsc-social-btn-brand-apple-bg-color, var(--dsc-background-neutral-strong, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-social-btn-brand-apple-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-brand-apple:hover {
+  background-color: var(--dsc-social-btn-brand-apple-color-hover, var(--dsc-action-background-neutral-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+}
+.social-btn-brand-apple:focus {
+  background-color: var(--dsc-social-btn-brand-apple-color-focused, var(--dsc-action-background-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  outline: 2px solid var(--dsc-social-btn-brand-apple-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-brand-apple .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-brand-apple {
+  background-color: var(--dsc-dark-social-btn-brand-apple-bg-color, var(--dsc-dark-background-neutral-strong, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  color: var(--dsc-dark-social-btn-brand-apple-fg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-brand-apple:hover {
+  background-color: var(--dsc-dark-social-btn-brand-apple-color-hover, var(--dsc-dark-action-background-neutral-hover, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9))));
+}
+[data-theme=dark] .social-btn-brand-apple:focus {
+  background-color: var(--dsc-dark-social-btn-brand-apple-color-focused, var(--dsc-dark-action-background-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: 2px solid var(--dsc-dark-social-btn-brand-apple-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-brand-apple .icon {
+  margin-right: 8px;
+}
+
+.social-btn-gray-apple {
+  background-color: var(--dsc-social-btn-gray-apple-bg-color, var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  color: var(--dsc-social-btn-gray-apple-fg-color, var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-gray-apple:hover {
+  background-color: var(--dsc-social-btn-gray-apple-color-hover, var(--dsc-action-background-neutral-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+}
+.social-btn-gray-apple:focus {
+  background-color: var(--dsc-social-btn-gray-apple-color-focused, var(--dsc-action-background-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  outline: 2px solid var(--dsc-social-btn-gray-apple-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-gray-apple .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-gray-apple {
+  background-color: var(--dsc-dark-social-btn-brand-apple-bg-color, var(--dsc-dark-background-neutral-strong, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  color: var(--dsc-dark-social-btn-brand-apple-fg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-gray-apple:hover {
+  background-color: var(--dsc-dark-social-btn-brand-apple-color-hover, var(--dsc-dark-action-background-neutral-hover, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9))));
+}
+[data-theme=dark] .social-btn-gray-apple:focus {
+  background-color: var(--dsc-dark-social-btn-brand-apple-color-focused, var(--dsc-dark-action-background-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: 2px solid var(--dsc-dark-social-btn-brand-apple-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-gray-apple .icon {
+  margin-right: 8px;
+}
+
+.social-btn-light-apple {
+  background-color: var(--dsc-social-btn-light-apple-bg-color, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-social-btn-light-apple-fg-color, var(--dsc-action-foreground-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  text-align: center;
+  border: 1px solid var(--dsc-social-btn-light-apple-border, var(--dsc-action-border-neutral-light-normal, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-light-apple:hover {
+  border: 1px solid var(--dsc-action-border-neutral-light-hover, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
+}
+.social-btn-light-apple:focus {
+  border: 1px solid var(--dsc-action-border-neutral-light-focused, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+}
+.social-btn-light-apple:hover {
+  background-color: var(--dsc-social-btn-light-apple-color-hover, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+}
+.social-btn-light-apple:focus {
+  background-color: var(--dsc-social-btn-light-apple-color-focused, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  outline: 2px solid var(--dsc-social-btn-light-apple-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-light-apple .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-light-apple {
+  background-color: var(--dsc-dark-social-btn-light-apple-bg-color, var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-social-btn-light-apple-fg-color, var(--dsc-dark-action-foreground-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  text-align: center;
+  border: 1px solid var(--dsc-dark-social-btn-light-apple-border, var(--dsc-dark-action-border-neutral-light-normal, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-light-apple:hover {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-hover, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-apple:focus {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-focused, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-apple:hover {
+  background-color: var(--dsc-dark-social-btn-light-apple-color-hover, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+}
+[data-theme=dark] .social-btn-light-apple:focus {
+  background-color: var(--dsc-dark-social-btn-light-apple-color-focused, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  outline: 2px solid var(--dsc-dark-social-btn-light-apple-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-light-apple .icon {
+  margin-right: 8px;
+}
+
+/*=====  End of Apple Button Css  ======*/
+/*=============================================
+=            Facebook Button Css            =
+=============================================*/
+.social-btn-brand-facebook {
+  background-color: var(--dsc-social-btn-brand-facebook-bg-color, #3875EA);
+  color: var(--dsc-social-btn-brand-facebook-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-brand-facebook:hover {
+  background-color: var(--dsc-social-btn-brand-facebook-color-hover, #2D69DC);
+}
+.social-btn-brand-facebook:focus {
+  background-color: var(--dsc-social-btn-brand-facebook-color-focused, #3875EA);
+  outline: 2px solid var(--dsc-social-btn-brand-facebook-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-brand-facebook .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-brand-facebook {
+  background-color: var(--dsc-dark-social-btn-brand-facebook-bg-color, #3875EA);
+  color: var(--dsc-dark-social-btn-brand-facebook-fg-color, var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-brand-facebook:hover {
+  background-color: var(--dsc-dark-social-btn-brand-facebook-color-hover, #2D69DC);
+}
+[data-theme=dark] .social-btn-brand-facebook:focus {
+  background-color: var(--dsc-dark-social-btn-brand-facebook-color-focused, #3875EA);
+  outline: 2px solid var(--dsc-dark-social-btn-brand-facebook-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-brand-facebook .icon {
+  margin-right: 8px;
+}
+
+.social-btn-gray-facebook {
+  background-color: var(--dsc-social-btn-gray-facebook-bg-color, var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  color: var(--dsc-social-btn-gray-facebook-fg-color, var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-gray-facebook:hover {
+  background-color: var(--dsc-social-btn-gray-facebook-color-hover, var(--dsc-action-background-neutral-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+}
+.social-btn-gray-facebook:focus {
+  background-color: var(--dsc-social-btn-gray-facebook-color-focused, var(--dsc-action-background-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  outline: 2px solid var(--dsc-social-btn-gray-facebook-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-gray-facebook .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-gray-facebook {
+  background-color: var(--dsc-dark-social-btn-brand-facebook-bg-color, var(--dsc-dark-background-neutral-strong, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  color: var(--dsc-dark-social-btn-brand-facebook-fg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-gray-facebook:hover {
+  background-color: var(--dsc-dark-social-btn-brand-facebook-color-hover, var(--dsc-dark-action-background-neutral-hover, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9))));
+}
+[data-theme=dark] .social-btn-gray-facebook:focus {
+  background-color: var(--dsc-dark-social-btn-brand-facebook-color-focused, var(--dsc-dark-action-background-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: 2px solid var(--dsc-dark-social-btn-brand-facebook-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-gray-facebook .icon {
+  margin-right: 8px;
+}
+
+.social-btn-light-facebook {
+  background-color: var(--dsc-social-btn-light-facebook-bg-color, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-social-btn-light-facebook-fg-color, var(--dsc-action-foreground-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  text-align: center;
+  border: 1px solid var(--dsc-social-btn-light-facebook-border, var(--dsc-action-border-neutral-light-normal, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-light-facebook:hover {
+  border: 1px solid var(--dsc-action-border-neutral-light-hover, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
+}
+.social-btn-light-facebook:focus {
+  border: 1px solid var(--dsc-action-border-neutral-light-focused, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+}
+.social-btn-light-facebook:hover {
+  background-color: var(--dsc-social-btn-light-facebook-color-hover, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+}
+.social-btn-light-facebook:focus {
+  background-color: var(--dsc-social-btn-light-facebook-color-focused, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  outline: 2px solid var(--dsc-social-btn-light-facebook-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-light-facebook .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-light-facebook {
+  background-color: var(--dsc-dark-social-btn-light-facebook-bg-color, var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-social-btn-light-facebook-fg-color, var(--dsc-dark-action-foreground-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  text-align: center;
+  border: 1px solid var(--dsc-dark-social-btn-light-facebook-border, var(--dsc-dark-action-border-neutral-light-normal, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-light-facebook:hover {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-hover, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-facebook:focus {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-focused, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-facebook:hover {
+  background-color: var(--dsc-dark-social-btn-light-facebook-color-hover, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+}
+[data-theme=dark] .social-btn-light-facebook:focus {
+  background-color: var(--dsc-dark-social-btn-light-facebook-color-focused, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  outline: 2px solid var(--dsc-dark-social-btn-light-facebook-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-light-facebook .icon {
+  margin-right: 8px;
+}
+
+/*=====  End of Facebook Button Css  ======*/
+/*=============================================
+=            Google Button Css            =
+=============================================*/
+.social-btn-brand-google {
+  background-color: var(--dsc-social-btn-brand-google-bg-color, #4285F4);
+  color: var(--dsc-social-btn-brand-google-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-brand-google:hover {
+  background-color: var(--dsc-social-btn-brand-google-color-hover, #3478EA);
+}
+.social-btn-brand-google:focus {
+  background-color: var(--dsc-social-btn-brand-google-color-focused, #4285F4);
+  outline: 2px solid var(--dsc-social-btn-brand-google-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-brand-google .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-brand-google {
+  background-color: var(--dsc-dark-social-btn-brand-google-bg-color, #4285F4);
+  color: var(--dsc-dark-social-btn-brand-google-fg-color, var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-brand-google:hover {
+  background-color: var(--dsc-dark-social-btn-brand-google-color-hover, #3478EA);
+}
+[data-theme=dark] .social-btn-brand-google:focus {
+  background-color: var(--dsc-dark-social-btn-brand-google-color-focused, #4285F4);
+  outline: 2px solid var(--dsc-dark-social-btn-brand-google-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-brand-google .icon {
+  margin-right: 8px;
+}
+
+.social-btn-gray-google {
+  background-color: var(--dsc-social-btn-gray-google-bg-color, var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  color: var(--dsc-social-btn-gray-google-fg-color, var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-gray-google:hover {
+  background-color: var(--dsc-social-btn-gray-google-color-hover, var(--dsc-action-background-neutral-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+}
+.social-btn-gray-google:focus {
+  background-color: var(--dsc-social-btn-gray-google-color-focused, var(--dsc-action-background-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  outline: 2px solid var(--dsc-social-btn-gray-google-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-gray-google .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-gray-google {
+  background-color: var(--dsc-dark-social-btn-brand-google-bg-color, var(--dsc-dark-background-neutral-strong, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  color: var(--dsc-dark-social-btn-brand-google-fg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-gray-google:hover {
+  background-color: var(--dsc-dark-social-btn-brand-google-color-hover, var(--dsc-dark-action-background-neutral-hover, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9))));
+}
+[data-theme=dark] .social-btn-gray-google:focus {
+  background-color: var(--dsc-dark-social-btn-brand-google-color-focused, var(--dsc-dark-action-background-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: 2px solid var(--dsc-dark-social-btn-brand-google-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-gray-google .icon {
+  margin-right: 8px;
+}
+
+.social-btn-light-google {
+  background-color: var(--dsc-social-btn-light-google-bg-color, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-social-btn-light-google-fg-color, var(--dsc-action-foreground-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  text-align: center;
+  border: 1px solid var(--dsc-social-btn-light-google-border, var(--dsc-action-border-neutral-light-normal, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-light-google:hover {
+  border: 1px solid var(--dsc-action-border-neutral-light-hover, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
+}
+.social-btn-light-google:focus {
+  border: 1px solid var(--dsc-action-border-neutral-light-focused, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+}
+.social-btn-light-google:hover {
+  background-color: var(--dsc-social-btn-light-google-color-hover, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+}
+.social-btn-light-google:focus {
+  background-color: var(--dsc-social-btn-light-google-color-focused, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  outline: 2px solid var(--dsc-social-btn-light-google-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-light-google .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-light-google {
+  background-color: var(--dsc-dark-social-btn-light-google-bg-color, var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-social-btn-light-google-fg-color, var(--dsc-dark-action-foreground-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  text-align: center;
+  border: 1px solid var(--dsc-dark-social-btn-light-google-border, var(--dsc-dark-action-border-neutral-light-normal, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-light-google:hover {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-hover, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-google:focus {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-focused, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-google:hover {
+  background-color: var(--dsc-dark-social-btn-light-google-color-hover, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+}
+[data-theme=dark] .social-btn-light-google:focus {
+  background-color: var(--dsc-dark-social-btn-light-google-color-focused, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  outline: 2px solid var(--dsc-dark-social-btn-light-google-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-light-google .icon {
+  margin-right: 8px;
+}
+
+/*=====  End of Google Button Css  ======*/
+/*=============================================
+=            Linkedin Button Css            =
+=============================================*/
+.social-btn-brand-linkedin {
+  background-color: var(--dsc-social-btn-brand-linkedin-bg-color, #0077B5);
+  color: var(--dsc-social-btn-brand-linkedin-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-brand-linkedin:hover {
+  background-color: var(--dsc-social-btn-brand-linkedin-color-hover, #00669C);
+}
+.social-btn-brand-linkedin:focus {
+  background-color: var(--dsc-social-btn-brand-linkedin-color-focused, #0077B5);
+  outline: 2px solid var(--dsc-social-btn-brand-linkedin-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-brand-linkedin .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-brand-linkedin {
+  background-color: var(--dsc-dark-social-btn-brand-linkedin-bg-color, #0077B5);
+  color: var(--dsc-dark-social-btn-brand-linkedin-fg-color, var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-brand-linkedin:hover {
+  background-color: var(--dsc-dark-social-btn-brand-linkedin-color-hover, #00669C);
+}
+[data-theme=dark] .social-btn-brand-linkedin:focus {
+  background-color: var(--dsc-dark-social-btn-brand-linkedin-color-focused, #0077B5);
+  outline: 2px solid var(--dsc-dark-social-btn-brand-linkedin-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-brand-linkedin .icon {
+  margin-right: 8px;
+}
+
+.social-btn-gray-linkedin {
+  background-color: var(--dsc-social-btn-gray-linkedin-bg-color, var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  color: var(--dsc-social-btn-gray-linkedin-fg-color, var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-gray-linkedin:hover {
+  background-color: var(--dsc-social-btn-gray-linkedin-color-hover, var(--dsc-action-background-neutral-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+}
+.social-btn-gray-linkedin:focus {
+  background-color: var(--dsc-social-btn-gray-linkedin-color-focused, var(--dsc-action-background-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  outline: 2px solid var(--dsc-social-btn-gray-linkedin-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-gray-linkedin .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-gray-linkedin {
+  background-color: var(--dsc-dark-social-btn-gray-linkedin-bg-color, var(--dsc-dark-background-neutral-strong, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  color: var(--dsc-dark-social-btn-gray-linkedin-fg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-gray-linkedin:hover {
+  background-color: var(--dsc-dark-social-btn-gray-linkedin-color-hover, var(--dsc-dark-action-background-neutral-hover, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9))));
+}
+[data-theme=dark] .social-btn-gray-linkedin:focus {
+  background-color: var(--dsc-dark-social-btn-gray-linkedin-color-focused, var(--dsc-dark-action-background-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: 2px solid var(--dsc-dark-social-btn-gray-linkedin-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-gray-linkedin .icon {
+  margin-right: 8px;
+}
+
+.social-btn-light-linkedin {
+  background-color: var(--dsc-social-btn-light-linkedin-bg-color, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-social-btn-light-linkedin-fg-color, var(--dsc-action-foreground-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  text-align: center;
+  border: 1px solid var(--dsc-social-btn-light-linkedin-border, var(--dsc-action-border-neutral-light-normal, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-light-linkedin:hover {
+  border: 1px solid var(--dsc-action-border-neutral-light-hover, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
+}
+.social-btn-light-linkedin:focus {
+  border: 1px solid var(--dsc-action-border-neutral-light-focused, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+}
+.social-btn-light-linkedin:hover {
+  background-color: var(--dsc-social-btn-light-linkedin-color-hover, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+}
+.social-btn-light-linkedin:focus {
+  background-color: var(--dsc-social-btn-light-linkedin-color-focused, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  outline: 2px solid var(--dsc-social-btn-light-linkedin-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-light-linkedin .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-light-linkedin {
+  background-color: var(--dsc-dark-social-btn-light-linkedin-bg-color, var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-social-btn-light-linkedin-fg-color, var(--dsc-dark-action-foreground-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  text-align: center;
+  border: 1px solid var(--dsc-dark-social-btn-light-linkedin-border, var(--dsc-dark-action-border-neutral-light-normal, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-light-linkedin:hover {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-hover, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-linkedin:focus {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-focused, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-linkedin:hover {
+  background-color: var(--dsc-dark-social-btn-light-linkedin-color-hover, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+}
+[data-theme=dark] .social-btn-light-linkedin:focus {
+  background-color: var(--dsc-dark-social-btn-light-linkedin-color-focused, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  outline: 2px solid var(--dsc-dark-social-btn-light-linkedin-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-light-linkedin .icon {
+  margin-right: 8px;
+}
+
+/*=====  End of Linkedin Button Css  ======*/
+/*=============================================
+=            Microsoft Button Css            =
+=============================================*/
+.social-btn-brand-microsoft {
+  background-color: var(--dsc-social-btn-brand-microsoft-bg-color, #2B65B2);
+  color: var(--dsc-social-btn-brand-microsoft-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-brand-microsoft:hover {
+  background-color: var(--dsc-social-btn-brand-microsoft-color-hover, #3372C5);
+}
+.social-btn-brand-microsoft:focus {
+  background-color: var(--dsc-social-btn-brand-microsoft-color-focused, #2B65B2);
+  outline: 2px solid var(--dsc-social-btn-brand-microsoft-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-brand-microsoft .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-brand-microsoft {
+  background-color: var(--dsc-dark-social-btn-brand-microsoft-bg-color, #2B65B2);
+  color: var(--dsc-dark-social-btn-brand-microsoft-fg-color, var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-brand-microsoft:hover {
+  background-color: var(--dsc-dark-social-btn-brand-microsoft-color-hover, #3372C5);
+}
+[data-theme=dark] .social-btn-brand-microsoft:focus {
+  background-color: var(--dsc-dark-social-btn-brand-microsoft-color-focused, #2B65B2);
+  outline: 2px solid var(--dsc-dark-social-btn-brand-microsoft-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-brand-microsoft .icon {
+  margin-right: 8px;
+}
+
+.social-btn-gray-microsoft {
+  background-color: var(--dsc-social-btn-gray-microsoft-bg-color, var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  color: var(--dsc-social-btn-gray-microsoft-fg-color, var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-gray-microsoft:hover {
+  background-color: var(--dsc-social-btn-gray-microsoft-color-hover, var(--dsc-action-background-neutral-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+}
+.social-btn-gray-microsoft:focus {
+  background-color: var(--dsc-social-btn-gray-microsoft-color-focused, var(--dsc-action-background-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  outline: 2px solid var(--dsc-social-btn-gray-microsoft-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-gray-microsoft .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-gray-microsoft {
+  background-color: var(--dsc-dark-social-btn-gray-microsoft-bg-color, var(--dsc-dark-background-neutral-strong, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  color: var(--dsc-dark-social-btn-gray-microsoft-fg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-gray-microsoft:hover {
+  background-color: var(--dsc-dark-social-btn-gray-microsoft-color-hover, var(--dsc-dark-action-background-neutral-hover, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9))));
+}
+[data-theme=dark] .social-btn-gray-microsoft:focus {
+  background-color: var(--dsc-dark-social-btn-gray-microsoft-color-focused, var(--dsc-dark-action-background-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: 2px solid var(--dsc-dark-social-btn-gray-microsoft-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-gray-microsoft .icon {
+  margin-right: 8px;
+}
+
+.social-btn-light-microsoft {
+  background-color: var(--dsc-social-btn-light-microsoft-bg-color, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-social-btn-light-microsoft-fg-color, var(--dsc-action-foreground-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  text-align: center;
+  border: 1px solid var(--dsc-social-btn-light-microsoft-border, var(--dsc-action-border-neutral-light-normal, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-light-microsoft:hover {
+  border: 1px solid var(--dsc-action-border-neutral-light-hover, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
+}
+.social-btn-light-microsoft:focus {
+  border: 1px solid var(--dsc-action-border-neutral-light-focused, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+}
+.social-btn-light-microsoft:hover {
+  background-color: var(--dsc-social-btn-light-microsoft-color-hover, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+}
+.social-btn-light-microsoft:focus {
+  background-color: var(--dsc-social-btn-light-microsoft-color-focused, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  outline: 2px solid var(--dsc-social-btn-light-microsoft-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-light-microsoft .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-light-microsoft {
+  background-color: var(--dsc-dark-social-btn-light-microsoft-bg-color, var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-social-btn-light-microsoft-fg-color, var(--dsc-dark-action-foreground-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  text-align: center;
+  border: 1px solid var(--dsc-dark-social-btn-light-microsoft-border, var(--dsc-dark-action-border-neutral-light-normal, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-light-microsoft:hover {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-hover, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-microsoft:focus {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-focused, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-microsoft:hover {
+  background-color: var(--dsc-dark-social-btn-light-microsoft-color-hover, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+}
+[data-theme=dark] .social-btn-light-microsoft:focus {
+  background-color: var(--dsc-dark-social-btn-light-microsoft-color-focused, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  outline: 2px solid var(--dsc-dark-social-btn-light-microsoft-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-light-microsoft .icon {
+  margin-right: 8px;
+}
+
+/*=====  End of Microsoft Button Css  ======*/
+/*=============================================
+=            X  Button Css            =
+=============================================*/
+.social-btn-brand-x {
+  background-color: var(--dsc-social-btn-brand-x-bg-color, #4FA5FF);
+  color: var(--dsc-social-btn-brand-x-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-brand-x:hover {
+  background-color: var(--dsc-social-btn-brand-x-color-hover, #49A0F9);
+}
+.social-btn-brand-x:focus {
+  background-color: var(--dsc-social-btn-brand-x-color-focused, #4FA5FF);
+  outline: 2px solid var(--dsc-social-btn-brand-x-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-brand-x .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-brand-x {
+  background-color: var(--dsc-dark-social-btn-brand-x-bg-color, #4FA5FF);
+  color: var(--dsc-dark-social-btn-brand-x-fg-color, var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-brand-x:hover {
+  background-color: var(--dsc-dark-social-btn-brand-x-color-hover, #49A0F9);
+}
+[data-theme=dark] .social-btn-brand-x:focus {
+  background-color: var(--dsc-dark-social-btn-brand-x-color-focused, #4FA5FF);
+  outline: 2px solid var(--dsc-dark-social-btn-brand-x-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-brand-x .icon {
+  margin-right: 8px;
+}
+
+.social-btn-gray-x {
+  background-color: var(--dsc-social-btn-gray-x-bg-color, var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  color: var(--dsc-social-btn-gray-x-fg-color, var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-gray-x:hover {
+  background-color: var(--dsc-social-btn-gray-x-color-hover, var(--dsc-action-background-neutral-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+}
+.social-btn-gray-x:focus {
+  background-color: var(--dsc-social-btn-gray-x-color-focused, var(--dsc-action-background-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  outline: 2px solid var(--dsc-social-btn-gray-x-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-gray-x .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-gray-x {
+  background-color: var(--dsc-dark-social-btn-brand-x-bg-color, var(--dsc-dark-background-neutral-strong, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  color: var(--dsc-dark-social-btn-brand-x-fg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-gray-x:hover {
+  background-color: var(--dsc-dark-social-btn-brand-x-color-hover, var(--dsc-dark-action-background-neutral-hover, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9))));
+}
+[data-theme=dark] .social-btn-gray-x:focus {
+  background-color: var(--dsc-dark-social-btn-brand-x-color-focused, var(--dsc-dark-action-background-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: 2px solid var(--dsc-dark-social-btn-brand-x-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-gray-x .icon {
+  margin-right: 8px;
+}
+
+.social-btn-light-x {
+  background-color: var(--dsc-social-btn-light-x-bg-color, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-social-btn-light-x-fg-color, var(--dsc-action-foreground-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  text-align: center;
+  border: 1px solid var(--dsc-social-btn-light-x-border, var(--dsc-action-border-neutral-light-normal, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-light-x:hover {
+  border: 1px solid var(--dsc-action-border-neutral-light-hover, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
+}
+.social-btn-light-x:focus {
+  border: 1px solid var(--dsc-action-border-neutral-light-focused, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+}
+.social-btn-light-x:hover {
+  background-color: var(--dsc-social-btn-light-x-color-hover, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+}
+.social-btn-light-x:focus {
+  background-color: var(--dsc-social-btn-light-x-color-focused, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  outline: 2px solid var(--dsc-social-btn-light-x-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-light-x .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-light-x {
+  background-color: var(--dsc-dark-social-btn-light-x-bg-color, var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-social-btn-light-x-fg-color, var(--dsc-dark-action-foreground-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  text-align: center;
+  border: 1px solid var(--dsc-dark-social-btn-light-x-border, var(--dsc-dark-action-border-neutral-light-normal, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-light-x:hover {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-hover, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-x:focus {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-focused, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-x:hover {
+  background-color: var(--dsc-dark-social-btn-light-x-color-hover, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+}
+[data-theme=dark] .social-btn-light-x:focus {
+  background-color: var(--dsc-dark-social-btn-light-x-color-focused, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  outline: 2px solid var(--dsc-dark-social-btn-light-x-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-light-x .icon {
+  margin-right: 8px;
+}
+
+/*=====  End of X Button Css  ======*/
+/*=============================================
+=            Github Button Css            =
+=============================================*/
+.social-btn-brand-github {
+  background-color: var(--dsc-social-btn-brand-github-bg-color, #4FA5FF);
+  color: var(--dsc-social-btn-brand-github-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-brand-github:hover {
+  background-color: var(--dsc-social-btn-brand-github-color-hover, #49A0F9);
+}
+.social-btn-brand-github:focus {
+  background-color: var(--dsc-social-btn-brand-github-color-focused, #4FA5FF);
+  outline: 2px solid var(--dsc-social-btn-brand-github-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-brand-github .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-brand-github {
+  background-color: var(--dsc-dark-social-btn-brand-github-bg-color, #4FA5FF);
+  color: var(--dsc-dark-social-btn-brand-github-fg-color, var(--dsc-dark-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-brand-github:hover {
+  background-color: var(--dsc-dark-social-btn-brand-github-color-hover, #49A0F9);
+}
+[data-theme=dark] .social-btn-brand-github:focus {
+  background-color: var(--dsc-dark-social-btn-brand-github-color-focused, #4FA5FF);
+  outline: 2px solid var(--dsc-dark-social-btn-brand-github-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-brand-github .icon {
+  margin-right: 8px;
+}
+
+.social-btn-gray-github {
+  background-color: var(--dsc-social-btn-gray-github-bg-color, var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  color: var(--dsc-social-btn-gray-github-fg-color, var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-gray-github:hover {
+  background-color: var(--dsc-social-btn-gray-github-color-hover, var(--dsc-action-background-neutral-hover, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+}
+.social-btn-gray-github:focus {
+  background-color: var(--dsc-social-btn-gray-github-color-focused, var(--dsc-action-background-neutral-focused, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  outline: 2px solid var(--dsc-social-btn-gray-github-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-gray-github .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-gray-github {
+  background-color: var(--dsc-dark-social-btn-brand-github-bg-color, var(--dsc-dark-background-neutral-strong, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  color: var(--dsc-dark-social-btn-brand-github-fg-color, var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-gray-github:hover {
+  background-color: var(--dsc-dark-social-btn-brand-github-color-hover, var(--dsc-dark-action-background-neutral-hover, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9))));
+}
+[data-theme=dark] .social-btn-gray-github:focus {
+  background-color: var(--dsc-dark-social-btn-brand-github-color-focused, var(--dsc-dark-action-background-neutral-focused, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  outline: 2px solid var(--dsc-dark-social-btn-brand-github-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-gray-github .icon {
+  margin-right: 8px;
+}
+
+.social-btn-light-github {
+  background-color: var(--dsc-social-btn-light-github-bg-color, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  color: var(--dsc-social-btn-light-github-fg-color, var(--dsc-action-foreground-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))));
+  text-align: center;
+  border: 1px solid var(--dsc-social-btn-light-github-border, var(--dsc-action-border-neutral-light-normal, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+.social-btn-light-github:hover {
+  border: 1px solid var(--dsc-action-border-neutral-light-hover, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
+}
+.social-btn-light-github:focus {
+  border: 1px solid var(--dsc-action-border-neutral-light-focused, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+}
+.social-btn-light-github:hover {
+  background-color: var(--dsc-social-btn-light-github-color-hover, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+}
+.social-btn-light-github:focus {
+  background-color: var(--dsc-social-btn-light-github-color-focused, var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff)));
+  outline: 2px solid var(--dsc-social-btn-light-github-color-outline, var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))));
+  outline-offset: 2px;
+}
+.social-btn-light-github .icon {
+  margin-right: 8px;
+}
+
+[data-theme=dark] .social-btn-light-github {
+  background-color: var(--dsc-dark-social-btn-light-github-bg-color, var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  color: var(--dsc-dark-social-btn-light-github-fg-color, var(--dsc-dark-action-foreground-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB))));
+  text-align: center;
+  border: 1px solid var(--dsc-dark-social-btn-light-github-border, var(--dsc-dark-action-border-neutral-light-normal, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D))));
+  outline: none;
+  cursor: pointer;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  font-weight: 600;
+}
+[data-theme=dark] .social-btn-light-github:hover {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-hover, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-github:focus {
+  border: 1px solid var(--dsc-dark-action-border-neutral-light-focused, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+[data-theme=dark] .social-btn-light-github:hover {
+  background-color: var(--dsc-dark-social-btn-light-github-color-hover, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+}
+[data-theme=dark] .social-btn-light-github:focus {
+  background-color: var(--dsc-dark-social-btn-light-github-color-focused, var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
+  outline: 2px solid var(--dsc-dark-social-btn-light-github-color-outline, var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))));
+  outline-offset: 2px;
+}
+[data-theme=dark] .social-btn-light-github .icon {
+  margin-right: 8px;
+}
+
+/*=====  End of Github Button Css  ======*/
+.social-btn-md {
+  padding: 8px 10px;
+  font-size: var(--dsc-label-font-size-md, 1rem);
+}
+
+.social-btn-lg {
+  padding: 12px 16px;
+  font-size: var(--dsc-label-font-size-md, 1rem);
+}
+
+.social-btn-rounded {
+  border-radius: var(--dsc-radius-full-round, 624.9375rem) !important;
+}
+
+/*=============================================
+=            Apple SVG Css            =
+=============================================*/
+.svg_apple_leaf_brand {
+  fill: #ffffff;
+}
+
+.svg_apple_body_brand {
+  fill: #ffffff;
+}
+
+.svg_apple_leaf_gray {
+  fill: #ffffff;
+}
+
+.svg_apple_body_gray {
+  fill: #ffffff;
+}
+
+.svg_apple_leaf_light {
+  fill: #1C222B;
+}
+
+.svg_apple_body_light {
+  fill: #1C222B;
+}
+
+[data-theme=dark] .svg_apple_leaf_brand {
+  fill: #1C222B;
+}
+[data-theme=dark] .svg_apple_body_brand {
+  fill: #1C222B;
+}
+[data-theme=dark] .svg_apple_leaf_gray {
+  fill: #1C222B;
+}
+[data-theme=dark] .svg_apple_body_gray {
+  fill: #1C222B;
+}
+[data-theme=dark] .svg_apple_leaf_light {
+  fill: #ffffff;
+}
+[data-theme=dark] .svg_apple_body_light {
+  fill: #ffffff;
+}
+
+/*=====  End of Apple SVG Css  ======*/
+/*=============================================
+=            Facebook SVG Css            =
+=============================================*/
+.svg_facebook_circle_brand {
+  fill: #ffffff;
+}
+
+.svg_facebook_f_brand {
+  fill: url(#paint0_linear_1787_67921);
+}
+
+.svg_facebook_circle_gray {
+  fill: url(#paint0_linear_1787_67921);
+}
+
+.svg_facebook_f_gray {
+  fill: #ffffff;
+}
+
+.svg_facebook_circle_light {
+  fill: url(#paint0_linear_1787_67921);
+}
+
+.svg_facebook_f_light {
+  fill: #ffffff;
+}
+
+[data-theme=dark] .svg_facebook_circle_brand {
+  fill: #ffffff;
+}
+[data-theme=dark] .svg_facebook_f_brand {
+  fill: url(#paint0_linear_1787_67921);
+}
+[data-theme=dark] .svg_facebook_circle_gray {
+  fill: url(#paint0_linear_1787_67921);
+}
+[data-theme=dark] .svg_facebook_f_gray {
+  fill: #ffffff;
+}
+[data-theme=dark] .svg_facebook_circle_light {
+  fill: url(#paint0_linear_1787_67921);
+}
+[data-theme=dark] .svg_facebook_f_light {
+  fill: #ffffff;
+}
+
+/*=====  End of Facebook SVG Css  ======*/
+/*=============================================
+=            Google SVG Css            =
+=============================================*/
+.svg_google_brand {
+  fill: #ffffff;
+}
+
+[data-theme=dark] .svg_google_brand {
+  fill: #ffffff;
+}
+/*=====  End of Google SV  ======*/
+/*=============================================
+=            LinkedIn SVG Css            =
+=============================================*/
+.svg_linkedin_outer_brand {
+  fill: #ffffff;
+}
+
+.svg_linkedin_inner_brand {
+  fill: #0177B5;
+}
+
+.svg_linkedin_outer_gray {
+  fill: #0177B5;
+}
+
+.svg_linkedin_inner_gray {
+  fill: #ffffff;
+}
+
+.svg_linkedin_outer_light {
+  fill: #0177B5;
+}
+
+.svg_linkedin_inner_light {
+  fill: #ffffff;
+}
+
+[data-theme=dark] .svg_linkedin_outer_brand {
+  fill: #ffffff;
+}
+[data-theme=dark] .svg_linkedin_inner_brand {
+  fill: #0177B5;
+}
+[data-theme=dark] .svg_linkedin_outer_gray {
+  fill: #0177B5;
+}
+[data-theme=dark] .svg_linkedin_inner_gray {
+  fill: #ffffff;
+}
+[data-theme=dark] .svg_linkedin_outer_light {
+  fill: #0177B5;
+}
+[data-theme=dark] .svg_linkedin_inner_light {
+  fill: #ffffff;
+}
+
+/*=====  End of LinkedIn SVG Css  ======*/
+/*=============================================
+=            Microsoft SVG Css            =
+=============================================*/
+.svg_microsoft_brand {
+  fill: #ffffff;
+}
+
+[data-theme=dark] .svg_microsoft_brand {
+  fill: #ffffff;
+}
+/*=====  End of Microsoft SV  ======*/
+/*=============================================
+=            X SVG Css            =
+=============================================*/
+.svg_x_brand {
+  fill: #ffffff;
+}
+
+.svg_x_gray {
+  fill: #ffffff;
+}
+
+.svg_x_light {
+  fill: #000000;
+}
+
+[data-theme=dark] .svg_x_brand {
+  fill: #000000;
+}
+[data-theme=dark] .svg_x_gray {
+  fill: #000000;
+}
+[data-theme=dark] .svg_x_light {
+  fill: #ffffff;
+}
+
+/*=====  End of X SVG  ======*/
+/*=============================================
+=            Github SVG Css            =
+=============================================*/
+.svg_github_brand {
+  fill: #ffffff;
+}
+
+.svg_github_gray {
+  fill: #ffffff;
+}
+
+.svg_github_light {
+  fill: #000000;
+}
+
+[data-theme=dark] .svg_github_brand {
+  fill: #000000;
+}
+[data-theme=dark] .svg_github_gray {
+  fill: #000000;
+}
+[data-theme=dark] .svg_github_light {
+  fill: #ffffff;
+}
+
+/*=====  End of Github SVG  ======*/

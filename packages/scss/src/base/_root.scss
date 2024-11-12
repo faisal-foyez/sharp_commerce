@@ -2043,6 +2043,323 @@ $global-red-dark-400: #F33E3E;
 
 
 
+/*=============================================
+=            Social Button Css Variables             =
+=============================================*/
+
+//social brand apple button light theme
+--dsc-social-btn-brand-apple-bg-color: #{$background-neutral-strong};
+--dsc-social-btn-brand-apple-fg-color: #{$action-foreground-base-white-inverted};
+--dsc-social-btn-brand-apple-color-hover: #{$action-background-neutral-hover};
+--dsc-social-btn-brand-apple-color-focused: #{$action-background-neutral-focused};
+--dsc-social-btn-brand-apple-color-outline: #{$border-neutral-subtle};
+
+//social brand apple button dark theme 
+--dsc-dark-social-btn-brand-apple-bg-color: #{$dark-background-neutral-strong};
+--dsc-dark-social-btn-brand-apple-fg-color: #{$dark-action-foreground-base-white};  
+--dsc-dark-social-btn-brand-apple-color-hover: #{$dark-action-background-neutral-hover};
+--dsc-dark-social-btn-brand-apple-color-focused: #{$dark-action-background-neutral-focused};
+--dsc-dark-social-btn-brand-apple-color-outline: #{$dark-border-neutral-subtle};
+
+
+//social gray button light theme
+--dsc-social-btn-gray-apple-bg-color: #{$action-background-neutral-normal};
+--dsc-social-btn-gray-apple-fg-color: #{$action-foreground-base-white};
+--dsc-social-btn-gray-apple-color-hover: #{$action-background-neutral-hover};
+--dsc-social-btn-gray-apple-color-focused: #{$action-background-neutral-focused};
+--dsc-social-btn-gray-apple-color-outline: #{$border-neutral-subtle};
+
+
+//social gray button dark theme 
+--dsc-dark-social-btn-gray-apple-bg-color: #{$dark-background-neutral-strong};
+--dsc-dark-social-btn-gray-apple-fg-color: #{$dark-action-foreground-base-white};  
+--dsc-dark-social-btn-gray-apple-color-hover: #{$dark-action-background-neutral-hover};
+--dsc-dark-social-btn-gray-apple-color-focused: #{$dark-action-background-neutral-focused};
+--dsc-dark-social-btn-gray-apple-color-outline: #{$dark-border-neutral-subtle};
+
+
+//social light apple button light theme
+--dsc-social-btn-light-apple-border: 1px solid #{$action-border-neutral-light-normal};
+--dsc-social-btn-light-apple-bg-color: #{$action-background-base-white};
+--dsc-social-btn-light-apple-fg-color: #{$action-foreground-neutral-normal};
+--dsc-social-btn-light-apple-color-hover: #{$action-background-base-white};
+--dsc-social-btn-light-apple-color-focused: #{$action-background-base-white};
+--dsc-social-btn-light-apple-color-outline: #{$border-neutral-subtle};
+
+//social light apple button dark theme 
+--dsc-dark-social-btn-light-apple-border: 1px solid #{$dark-action-border-neutral-light-normal};
+--dsc-dark-social-btn-light-apple-bg-color: #{$dark-background-base-white};
+--dsc-dark-social-btn-light-apple-fg-color: #{$dark-action-foreground-neutral-normal};  
+--dsc-dark-social-btn-light-apple-color-hover: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-apple-color-focused: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-apple-color-outline: #{$dark-border-neutral-subtle};
+
+//social brand facebook button light theme
+--dsc-social-btn-brand-facebook-bg-color: #3875EA;
+--dsc-social-btn-brand-facebook-fg-color: #{$action-foreground-base-white-inverted};
+--dsc-social-btn-brand-facebook-color-hover: #2D69DC;
+--dsc-social-btn-brand-facebook-color-focused: #3875EA;
+--dsc-social-btn-brand-facebook-color-outline: #{$border-neutral-subtle};
+
+//social brand facebook button dark theme 
+--dsc-dark-social-btn-brand-facebook-bg-color: #3875EA;
+--dsc-dark-social-btn-brand-facebook-fg-color: #{$dark-action-foreground-base-white-inverted};  
+--dsc-dark-social-btn-brand-facebook-color-hover: #2D69DC;
+--dsc-dark-social-btn-brand-facebook-color-focused: #3875EA;
+--dsc-dark-social-btn-brand-facebook-color-outline: #{$dark-border-neutral-subtle};
+
+//social gray facebookbutton light theme
+--dsc-social-btn-gray-facebook-bg-color: #{$action-background-neutral-normal};
+--dsc-social-btn-gray-facebook-fg-color: #{$action-foreground-base-white};
+--dsc-social-btn-gray-facebook-color-hover: #{$action-background-neutral-hover};
+--dsc-social-btn-gray-facebook-color-focused: #{$action-background-neutral-focused};
+--dsc-social-btn-gray-facebook-color-outline: #{$border-neutral-subtle};
+
+//social gray facebook button dark theme 
+--dsc-dark-social-btn-gray-facebook-bg-color: #{$dark-background-neutral-strong};
+--dsc-dark-social-btn-gray-facebook-fg-color: #{$dark-action-foreground-base-white};  
+--dsc-dark-social-btn-gray-facebook-color-hover: #{$dark-action-background-neutral-hover};
+--dsc-dark-social-btn-gray-facebook-color-focused: #{$dark-action-background-neutral-focused};
+--dsc-dark-social-btn-gray-facebook-color-outline: #{$dark-border-neutral-subtle};
+
+//social light facebook button light theme
+--dsc-social-btn-light-facebook-border: 1px solid #{$action-border-neutral-light-normal};
+--dsc-social-btn-light-facebook-bg-color: #{$action-background-base-white};
+--dsc-social-btn-light-facebook-fg-color: #{$action-foreground-neutral-normal};
+--dsc-social-btn-light-facebook-color-hover: #{$action-background-base-white};
+--dsc-social-btn-light-facebook-color-focused: #{$action-background-base-white};
+--dsc-social-btn-light-facebook-color-outline: #{$border-neutral-subtle};
+
+//social light facebook button dark theme 
+--dsc-dark-social-btn-light-facebook-border: 1px solid #{$dark-action-border-neutral-light-normal};
+--dsc-dark-social-btn-light-facebook-bg-color: #{$dark-background-base-white};
+--dsc-dark-social-btn-light-facebook-fg-color: #{$dark-action-foreground-neutral-normal};  
+--dsc-dark-social-btn-light-facebook-color-hover: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-facebook-color-focused: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-facebook-color-outline: #{$dark-border-neutral-subtle};
+
+//social brand google button light theme
+--dsc-social-btn-brand-google-bg-color: #4285F4;
+--dsc-social-btn-brand-google-fg-color: #{$action-foreground-base-white-inverted};
+--dsc-social-btn-brand-google-color-hover: #3478EA;
+--dsc-social-btn-brand-google-color-focused: #4285F4;
+--dsc-social-btn-brand-google-color-outline: #{$border-neutral-subtle};
+
+//social brand google button dark theme 
+--dsc-dark-social-btn-brand-google-bg-color: #4285F4;
+--dsc-dark-social-btn-brand-google-fg-color: #{$dark-action-foreground-base-white-inverted};  
+--dsc-dark-social-btn-brand-google-color-hover: #3478EA;
+--dsc-dark-social-btn-brand-google-color-focused: #4285F4;
+--dsc-dark-social-btn-brand-google-color-outline: #{$dark-border-neutral-subtle};
+
+//social gray google button light theme
+--dsc-social-btn-gray-google-bg-color: #{$action-background-neutral-normal};
+--dsc-social-btn-gray-google-fg-color: #{$action-foreground-base-white};
+--dsc-social-btn-gray-google-color-hover: #{$action-background-neutral-hover};
+--dsc-social-btn-gray-google-color-focused: #{$action-background-neutral-focused};
+--dsc-social-btn-gray-google-color-outline: #{$border-neutral-subtle};
+
+//social gray google button dark theme 
+--dsc-dark-social-btn-gray-google-bg-color: #{$dark-background-neutral-strong};
+--dsc-dark-social-btn-gray-google-fg-color: #{$dark-action-foreground-base-white};  
+--dsc-dark-social-btn-gray-google-color-hover: #{$dark-action-background-neutral-hover};
+--dsc-dark-social-btn-gray-google-color-focused: #{$dark-action-background-neutral-focused};
+--dsc-dark-social-btn-gray-google-color-outline: #{$dark-border-neutral-subtle};
+
+//social light google button light theme
+--dsc-social-btn-light-google-border: 1px solid #{$action-border-neutral-light-normal};
+--dsc-social-btn-light-google-bg-color: #{$action-background-base-white};
+--dsc-social-btn-light-google-fg-color: #{$action-foreground-neutral-normal};
+--dsc-social-btn-light-google-color-hover: #{$action-background-base-white};
+--dsc-social-btn-light-google-color-focused: #{$action-background-base-white};
+--dsc-social-btn-light-google-color-outline: #{$border-neutral-subtle};
+
+//social light google button dark theme 
+--dsc-dark-social-btn-light-google-border: 1px solid #{$dark-action-border-neutral-light-normal};
+--dsc-dark-social-btn-light-google-bg-color: #{$dark-background-base-white};
+--dsc-dark-social-btn-light-google-fg-color: #{$dark-action-foreground-neutral-normal};  
+--dsc-dark-social-btn-light-google-color-hover: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-google-color-focused: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-google-color-outline: #{$dark-border-neutral-subtle};
+
+//social brand linkedin button light theme
+--dsc-social-btn-brand-linkedin-bg-color: #0077B5;
+--dsc-social-btn-brand-linkedin-fg-color: #{$action-foreground-base-white-inverted};
+--dsc-social-btn-brand-linkedin-color-hover: #00669C;
+--dsc-social-btn-brand-linkedin-color-focused: #0077B5;
+--dsc-social-btn-brand-linkedin-color-outline: #{$border-neutral-subtle};
+
+//social brand linkedin button dark theme 
+--dsc-dark-social-btn-brand-linkedin-bg-color: #0077B5;
+--dsc-dark-social-btn-brand-linkedin-fg-color: #{$dark-action-foreground-base-white-inverted};  
+--dsc-dark-social-btn-brand-linkedin-color-hover: #00669C;
+--dsc-dark-social-btn-brand-linkedin-color-focused: #0077B5;
+--dsc-dark-social-btn-brand-linkedin-color-outline: #{$dark-border-neutral-subtle};
+
+//social gray linkedin button light theme
+--dsc-social-btn-gray-linkedin-bg-color: #{$action-background-neutral-normal};
+--dsc-social-btn-gray-linkedin-fg-color: #{$action-foreground-base-white};
+--dsc-social-btn-gray-linkedin-color-hover: #{$action-background-neutral-hover};
+--dsc-social-btn-gray-linkedin-color-focused: #{$action-background-neutral-focused};
+--dsc-social-btn-gray-linkedin-color-outline: #{$border-neutral-subtle};
+
+//social gray linkedin button dark theme 
+--dsc-dark-social-btn-gray-linkedin-bg-color: #{$dark-background-neutral-strong};
+--dsc-dark-social-btn-gray-linkedin-fg-color: #{$dark-action-foreground-base-white};  
+--dsc-dark-social-btn-gray-linkedin-color-hover: #{$dark-action-background-neutral-hover};
+--dsc-dark-social-btn-gray-linkedin-color-focused: #{$dark-action-background-neutral-focused};
+--dsc-dark-social-btn-gray-linkedin-color-outline: #{$dark-border-neutral-subtle};
+
+//social light linkedin button light theme
+--dsc-social-btn-light-linkedin-border: 1px solid #{$action-border-neutral-light-normal};
+--dsc-social-btn-light-linkedin-bg-color: #{$action-background-base-white};
+--dsc-social-btn-light-linkedin-fg-color: #{$action-foreground-neutral-normal};
+--dsc-social-btn-light-linkedin-color-hover: #{$action-background-base-white};
+--dsc-social-btn-light-linkedin-color-focused: #{$action-background-base-white};
+--dsc-social-btn-light-linkedin-color-outline: #{$border-neutral-subtle};
+
+//social light linkedin button dark theme 
+--dsc-dark-social-btn-light-linkedin-border: 1px solid #{$dark-action-border-neutral-light-normal};
+--dsc-dark-social-btn-light-linkedin-bg-color: #{$dark-background-base-white};
+--dsc-dark-social-btn-light-linkedin-fg-color: #{$dark-action-foreground-neutral-normal};  
+--dsc-dark-social-btn-light-linkedin-color-hover: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-linkedin-color-focused: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-linkedin-color-outline: #{$dark-border-neutral-subtle};
+
+//social brand microsoft button light theme
+--dsc-social-btn-brand-microsoft-bg-color: #2B65B2;
+--dsc-social-btn-brand-microsoft-fg-color: #{$action-foreground-base-white-inverted};
+--dsc-social-btn-brand-microsoft-color-hover: #3372C5;
+--dsc-social-btn-brand-microsoft-color-focused: #2B65B2;
+--dsc-social-btn-brand-microsoft-color-outline: #{$border-neutral-subtle};
+
+//social brand microsoft button dark theme 
+--dsc-dark-social-btn-brand-microsoft-bg-color: #2B65B2;
+--dsc-dark-social-btn-brand-microsoft-fg-color: #{$dark-action-foreground-base-white-inverted};  
+--dsc-dark-social-btn-brand-microsoft-color-hover: #3372C5;
+--dsc-dark-social-btn-brand-microsoft-color-focused: #2B65B2;
+--dsc-dark-social-btn-brand-microsoft-color-outline: #{$dark-border-neutral-subtle};
+
+//social gray microsoft button light theme
+--dsc-social-btn-gray-microsoft-bg-color: #{$action-background-neutral-normal};
+--dsc-social-btn-gray-microsoft-fg-color: #{$action-foreground-base-white};
+--dsc-social-btn-gray-microsoft-color-hover: #{$action-background-neutral-hover};
+--dsc-social-btn-gray-microsoft-color-focused: #{$action-background-neutral-focused};
+--dsc-social-btn-gray-microsoft-color-outline: #{$border-neutral-subtle};
+
+//social gray microsoft button dark theme 
+--dsc-dark-social-btn-gray-microsoft-bg-color: #{$dark-background-neutral-strong};
+--dsc-dark-social-btn-gray-microsoft-fg-color: #{$dark-action-foreground-base-white};  
+--dsc-dark-social-btn-gray-microsoft-color-hover: #{$dark-action-background-neutral-hover};
+--dsc-dark-social-btn-gray-microsoft-color-focused: #{$dark-action-background-neutral-focused};
+--dsc-dark-social-btn-gray-microsoft-color-outline: #{$dark-border-neutral-subtle};
+
+//social light microsoft button light theme
+--dsc-social-btn-light-microsoft-border: 1px solid #{$action-border-neutral-light-normal};
+--dsc-social-btn-light-microsoft-bg-color: #{$action-background-base-white};
+--dsc-social-btn-light-microsoft-fg-color: #{$action-foreground-neutral-normal};
+--dsc-social-btn-light-microsoft-color-hover: #{$action-background-base-white};
+--dsc-social-btn-light-microsoft-color-focused: #{$action-background-base-white};
+--dsc-social-btn-light-microsoft-color-outline: #{$border-neutral-subtle};
+
+//social light microsoft button dark theme 
+--dsc-dark-social-btn-light-microsoft-border: 1px solid #{$dark-action-border-neutral-light-normal};
+--dsc-dark-social-btn-light-microsoft-bg-color: #{$dark-background-base-white};
+--dsc-dark-social-btn-light-microsoft-fg-color: #{$dark-action-foreground-neutral-normal};  
+--dsc-dark-social-btn-light-microsoft-color-hover: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-microsoft-color-focused: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-microsoft-color-outline: #{$dark-border-neutral-subtle};
+
+//social brand x button light theme
+--dsc-social-btn-brand-x-bg-color: #4FA5FF;
+--dsc-social-btn-brand-x-fg-color: #{$action-foreground-base-white-inverted};
+--dsc-social-btn-brand-x-color-hover: #49A0F9;
+--dsc-social-btn-brand-x-color-focused: #4FA5FF;
+--dsc-social-btn-brand-x-color-outline: #{$border-neutral-subtle};
+
+//social brand x button dark theme 
+--dsc-dark-social-btn-brand-x-bg-color: #4FA5FF;
+--dsc-dark-social-btn-brand-x-fg-color: #{$dark-action-foreground-base-white-inverted};  
+--dsc-dark-social-btn-brand-x-color-hover: #49A0F9;
+--dsc-dark-social-btn-brand-x-color-focused: #4FA5FF;
+--dsc-dark-social-btn-brand-x-color-outline: #{$dark-border-neutral-subtle};
+
+//social gray x button light theme
+--dsc-social-btn-gray-x-bg-color: #{$action-background-neutral-normal};
+--dsc-social-btn-gray-x-fg-color: #{$action-foreground-base-white};
+--dsc-social-btn-gray-x-color-hover: #{$action-background-neutral-hover};
+--dsc-social-btn-gray-x-color-focused: #{$action-background-neutral-focused};
+--dsc-social-btn-gray-x-color-outline: #{$border-neutral-subtle};
+
+//social gray x button dark theme 
+--dsc-dark-social-btn-gray-x-bg-color: #{$dark-background-neutral-strong};
+--dsc-dark-social-btn-gray-x-fg-color: #{$dark-action-foreground-base-white};  
+--dsc-dark-social-btn-gray-x-color-hover: #{$dark-action-background-neutral-hover};
+--dsc-dark-social-btn-gray-x-color-focused: #{$dark-action-background-neutral-focused};
+--dsc-dark-social-btn-gray-x-color-outline: #{$dark-border-neutral-subtle};
+
+//social light x button light theme
+--dsc-social-btn-light-x-border: 1px solid #{$action-border-neutral-light-normal};
+--dsc-social-btn-light-x-bg-color: #{$action-background-base-white};
+--dsc-social-btn-light-x-fg-color: #{$action-foreground-neutral-normal};
+--dsc-social-btn-light-x-color-hover: #{$action-background-base-white};
+--dsc-social-btn-light-x-color-focused: #{$action-background-base-white};
+--dsc-social-btn-light-x-color-outline: #{$border-neutral-subtle};
+
+//social light x button dark theme 
+--dsc-dark-social-btn-light-x-border: 1px solid #{$dark-action-border-neutral-light-normal};
+--dsc-dark-social-btn-light-x-bg-color: #{$dark-background-base-white};
+--dsc-dark-social-btn-light-x-fg-color: #{$dark-action-foreground-neutral-normal};  
+--dsc-dark-social-btn-light-x-color-hover: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-x-color-focused: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-x-color-outline: #{$dark-border-neutral-subtle};
+
+//social brand github button light theme
+--dsc-social-btn-brand-github-bg-color: #4FA5FF;
+--dsc-social-btn-brand-github-fg-color: #{$action-foreground-base-white-inverted};
+--dsc-social-btn-brand-github-color-hover: #49A0F9;
+--dsc-social-btn-brand-github-color-focused: #4FA5FF;
+--dsc-social-btn-brand-github-color-outline: #{$border-neutral-subtle};
+
+//social brand github button dark theme 
+--dsc-dark-social-btn-brand-github-bg-color: #4FA5FF;
+--dsc-dark-social-btn-brand-github-fg-color: #{$dark-action-foreground-base-white-inverted};  
+--dsc-dark-social-btn-brand-github-color-hover: #49A0F9;
+--dsc-dark-social-btn-brand-github-color-focused: #4FA5FF;
+--dsc-dark-social-btn-brand-github-color-outline: #{$dark-border-neutral-subtle};
+
+//social gray github button light theme
+--dsc-social-btn-gray-github-bg-color: #{$action-background-neutral-normal};
+--dsc-social-btn-gray-github-fg-color: #{$action-foreground-base-white};
+--dsc-social-btn-gray-github-color-hover: #{$action-background-neutral-hover};
+--dsc-social-btn-gray-github-color-focused: #{$action-background-neutral-focused};
+--dsc-social-btn-gray-github-color-outline: #{$border-neutral-subtle};
+
+//social gray github button dark theme 
+--dsc-dark-social-btn-gray-github-bg-color: #{$dark-background-neutral-strong};
+--dsc-dark-social-btn-gray-github-fg-color: #{$dark-action-foreground-base-white};  
+--dsc-dark-social-btn-gray-github-color-hover: #{$dark-action-background-neutral-hover};
+--dsc-dark-social-btn-gray-github-color-focused: #{$dark-action-background-neutral-focused};
+--dsc-dark-social-btn-gray-github-color-outline: #{$dark-border-neutral-subtle};
+
+//social light github button light theme
+--dsc-social-btn-light-github-border: 1px solid #{$action-border-neutral-light-normal};
+--dsc-social-btn-light-github-bg-color: #{$action-background-base-white};
+--dsc-social-btn-light-github-fg-color: #{$action-foreground-neutral-normal};
+--dsc-social-btn-light-github-color-hover: #{$action-background-base-white};
+--dsc-social-btn-light-github-color-focused: #{$action-background-base-white};
+--dsc-social-btn-light-github-color-outline: #{$border-neutral-subtle};
+
+//social light github button dark theme 
+--dsc-dark-social-btn-light-github-border: 1px solid #{$dark-action-border-neutral-light-normal};
+--dsc-dark-social-btn-light-github-bg-color: #{$dark-background-base-white};
+--dsc-dark-social-btn-light-github-fg-color: #{$dark-action-foreground-neutral-normal};  
+--dsc-dark-social-btn-light-github-color-hover: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-github-color-focused: #{$dark-action-background-base-white};
+--dsc-dark-social-btn-light-github-color-outline: #{$dark-border-neutral-subtle};
+
+/*=====  End of Social Button Css Variables  ======*/
+
 
 
 /*=============================================
