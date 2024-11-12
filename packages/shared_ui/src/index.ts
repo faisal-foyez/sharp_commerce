@@ -1,5 +1,5 @@
 import Button from './Button';
 import LinkButton from './LinkButton';
 import IconButton from './IconButton';
-
-export { Button, LinkButton, IconButton };
+import SocialButton from './SocialButton';
+export { Button, LinkButton, IconButton, SocialButton };
