@@ -40,10 +40,12 @@ directories.forEach(directory => {
     
     const variableName = file.replace('.svg', '');
     const updatedSvgContent = SvgContent
-        .replace(/<svg[^>]*width="\d+"[^>]*height="\d+"/g, '<svg width={size} height={size}') // Replace width and height attribute of svg tag
-    
+        .replace(/<svg[^>]*width="\d+"[^>]*height="\d+"/g, '<svg width={width || size} height={height || size}') // Replace width and height attribute of svg tag
+        .replace(/xlink:href/g,'xlinkHref')
+        .replace(/xmlns:xlink/,'xmlnsXlink')
+        .replace(/style=["']?mask-type:alpha["']?/g, '');
         return `
-    export const ${variableName} = ({size = 32}) => {
+    export const ${variableName} = ({size = 32, width, height}) => {
       return ${updatedSvgContent}
     }
     `
@@ -54,5 +56,6 @@ directories.forEach(directory => {
   //remove the directory and index.tsx file if it exists
   fs.rmSync(libDirectoryPath, { recursive: true, force: true });
   fs.mkdirSync(libDirectoryPath, { recursive: true });
+  //create the index.tsx file in the lib directory
   fs.writeFileSync(path.join(libDirectoryPath, 'index.tsx'), output, 'utf8');
 });

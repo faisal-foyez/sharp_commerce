@@ -14,7 +14,7 @@ function renameFilesInDirectory(directoryPath) {
     } else if (stats.isFile()) {
       const baseName = item.replace(path.extname(item), ''); // Get the base name without extension
       const newFileName = baseName
-        .replace(/[\s_-]+/g, ' ') // Replace spaces, underscores, and dashes with a space
+        .replace(/[\s_,+-]+/g, ' ') // Replace spaces, underscores, dashes, and plus with a space
         .split(' ') // Split by space
         .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize each word
         .join('') + path.extname(item); // Join back to a single string and add the original extension
