@@ -2,14 +2,14 @@ import React from 'react';
 import '@dsc/scss/lib/IconButton.css'
 import {IconButtonType, IconButtonStyle, IconButtonIconSize, IconButtonSize, IconNames, IconWeight} from '@dsc/foundation/lib';
 // import { Icon } from '@dsc/phosphor_icons';
-import * as PhosphorIcons from '@dsc/phosphor_icons';
+// import * as PhosphorIcons from '@dsc/phosphor_icons';
 
 interface IconButtonProps {
   type: keyof typeof IconButtonType,
   style: keyof typeof IconButtonStyle,
   size?: keyof typeof IconButtonSize,
   isRounded?: boolean,
-  icon: keyof typeof IconNames,
+  children: React.ReactElement,
   iconWeight?: keyof typeof IconWeight,
   disabled?: boolean,
   ariaLabel?: string,
@@ -24,7 +24,7 @@ const IconButton:React.FC<IconButtonProps> = ({
     style="fill",
     size="md",
     isRounded=false,
-    icon,
+    children,
     iconWeight,
     disabled=false,
     ariaLabel='button',
@@ -32,14 +32,14 @@ const IconButton:React.FC<IconButtonProps> = ({
     ariaControls = '',
     ariaDescribedBy ='',
     onClick,
-  }) => {
+  }) => { 
     const iconSize  = IconButtonIconSize[size as keyof typeof IconButtonIconSize]
     // @ts-ignore
-    // const Children = children ? React.cloneElement(children as Icon, {size: iconSize}) : null;
-    const Children = icon ? React.createElement(PhosphorIcons[icon], {size: iconSize, weight: iconWeight}) : null;
+    const Children = children ? React.cloneElement(children, {size: iconSize, weight: iconWeight}) : null;
+    // const Children = icon ? React.createElement(PhosphorIcons[icon], {size: iconSize, weight: iconWeight}) : null;
     return (
       <button 
-        style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '.5rem'}} 
+        style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '.5rem', width:'max-content'}} 
         className={`icon-btn-${type}${style !== 'fill' ? '-'+style : ''} icon-btn-${size} ${isRounded ? 'icon-btn-rounded' : ''}`}
         disabled={disabled}
         aria-label={ariaLabel} // Provides a label for the button for screen readers

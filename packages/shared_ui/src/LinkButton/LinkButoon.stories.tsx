@@ -2,8 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 // import LinkButtonType from '@dsc/foundation/lib/LinkButtonType.js';
 import {LinkButtonType, LinkButtonSize} from '@dsc/foundation/lib';
 import LinkButton from './LinkButton';
-import { ArrowRight } from '@dsc/phosphor_icons';
-import { ArrowLeft } from '@dsc/phosphor_icons';
+import { ArrowRight, ArrowLeft } from '@dsc/phosphor_icons';
 // import { ButtonType } from 'packages/foundation/lib';
 
 
@@ -110,7 +109,7 @@ export const WithLeftIcon: Story = {
     type: LinkButtonType.primary as LinkButtonTypeType,
     children: 'With Left Icon',
     size: LinkButtonSize.md as LinkButtonSizeType,
-    LeftIcon: "ArrowLeft"
+    LeftIcon: <ArrowLeft />
   },
 };
 
@@ -119,7 +118,7 @@ export const WithRightIcon: Story = {
     type: LinkButtonType.primary as LinkButtonTypeType,
     children: 'With Right Icon',
     size: LinkButtonSize.md as LinkButtonSizeType,
-    RightIcon: "ArrowRight"
+    RightIcon: <ArrowRight />
   },
 };
 
@@ -128,8 +127,8 @@ export const WithBothIcons: Story = {
     type: LinkButtonType.primary as LinkButtonTypeType,
     children: 'Both Icons',
     size: LinkButtonSize.md as LinkButtonSizeType,
-    LeftIcon: "ArrowLeft",
-    RightIcon: "ArrowRight"
+    LeftIcon: <ArrowLeft />,
+    RightIcon: <ArrowRight />
   },
 };
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import '@dsc/scss/lib/LinkButton.css';
 import { LinkButtonType, LinkButtonSize, LinkButtonIconSize, IconNames, IconWeight } from '@dsc/foundation/lib';
-import * as PhosphorIcons from '@dsc/phosphor_icons';
+// import * as PhosphorIcons from '@dsc/phosphor_icons';
 interface LinkButtonProps {
   type: keyof typeof LinkButtonType,
   size?: keyof typeof LinkButtonSize,
-  LeftIcon?: keyof typeof IconNames,
+  LeftIcon?: React.ReactElement,
   leftIconWeight?: keyof typeof IconWeight,
-  RightIcon?: keyof typeof IconNames,
+  RightIcon?: React.ReactElement,
   rightIconWeight?: keyof typeof IconWeight,
   iconWeight?: keyof typeof IconWeight,
   children?: React.ReactNode,
@@ -36,11 +36,13 @@ const LinkButton:React.FC<LinkButtonProps> = ({
   onClick,
 }) => {
   const iconSize  = LinkButtonIconSize[size as keyof typeof LinkButtonIconSize]
-  const IconLeft = LeftIcon ? React.createElement(PhosphorIcons[LeftIcon], {size: iconSize, weight: leftIconWeight || iconWeight}) : null;
-  const IconRight = RightIcon ? React.createElement(PhosphorIcons[RightIcon], {size: iconSize, weight: rightIconWeight || iconWeight}) : null;
+  const IconLeft = LeftIcon ? React.cloneElement(LeftIcon, {size: iconSize, weight: leftIconWeight || iconWeight}) : null;
+  const IconRight = RightIcon ? React.cloneElement(RightIcon, {size: iconSize, weight: rightIconWeight || iconWeight}) : null;
+  // const IconLeft = LeftIcon ? React.createElement(PhosphorIcons[LeftIcon], {size: iconSize, weight: leftIconWeight || iconWeight}) : null;
+  // const IconRight = RightIcon ? React.createElement(PhosphorIcons[RightIcon], {size: iconSize, weight: rightIconWeight || iconWeight}) : null;
   return (
     <button 
-      style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '.5rem'}} 
+      style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '.5rem', width:'max-content'}} 
       className={`link-btn-${type} link-btn-${size}`}
       disabled={disabled}
       aria-label={ariaLabel} // Provides a label for the button for screen readers

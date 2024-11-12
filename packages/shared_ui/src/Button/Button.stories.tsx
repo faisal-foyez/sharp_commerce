@@ -129,7 +129,7 @@ export const WithLeftIcon: Story = {
     style: ButtonStyle.fill as ButtonStyleType,
     children: 'With Left Icon',
     size: ButtonSize.md as ButtonSizeType,
-    LeftIcon: "ArrowLeft"
+    LeftIcon: <ArrowLeft />
   },
 };
 
@@ -139,7 +139,7 @@ export const WithRightIcon: Story = {
     style: ButtonStyle.fill as ButtonStyleType,
     children: 'With Right Icon',
     size: ButtonSize.md as ButtonSizeType,
-    RightIcon: "ArrowRight"
+    RightIcon: <ArrowRight />
   },
 };
 
@@ -149,8 +149,8 @@ export const WithBothIcons: Story = {
     style: ButtonStyle.fill as ButtonStyleType,
     children: 'Both Icons',
     size: ButtonSize.md as ButtonSizeType,
-    LeftIcon: "ArrowLeft",
-    RightIcon: "ArrowRight"
+    LeftIcon: <ArrowLeft />,
+    RightIcon: <ArrowRight />
   },
 };
 
