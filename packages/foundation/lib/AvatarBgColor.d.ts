@@ -1,0 +1,21 @@
+declare const frozenAvatarBgColor: Readonly<{
+    white: string;
+    lightGray: string;
+    blue: string;
+    yellow: string;
+    green: string;
+    red: string;
+    fuchsia: string;
+    purple: string;
+    cyan: string;
+    pink: string;
+    sky: string;
+    lightGradient01: string;
+    lightGradient02: string;
+    strongGradient01: string;
+    strongGradient02: string;
+    strongGradient03: string;
+    strongGradient04: string;
+    strongGradient05: string;
+}>;
+export { frozenAvatarBgColor as AvatarBgColor };

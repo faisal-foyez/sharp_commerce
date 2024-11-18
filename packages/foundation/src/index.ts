@@ -13,6 +13,12 @@ import IconWeight from "./IconWeight";
 import SocialButtonPlatform from "./SocialButtonPlatform";
 import SocialButtonSize from "./SocialButtonSize";
 import SocialButtonTheme from "./SocialButtonTheme";
+import { AvatarSize, AvatarPlaceholderSize } from "./AvatarSize";
+import { AvatarType } from "./AvatarType";
+import { AvatarShape } from "./AvatarShape";
+import { AvatarBgColor } from "./AvatarBgColor";
+import { AvatarTopStatus } from "./AvatarTopStatus";
+import { AvatarBottomStatus } from "./AvatarBottomStatus";
 export {
   Spacing, 
   FontSize,
@@ -31,5 +37,12 @@ export {
   IconWeight,
   SocialButtonPlatform,
   SocialButtonSize,
-  SocialButtonTheme
+  SocialButtonTheme,
+  AvatarSize,
+  AvatarPlaceholderSize,
+  AvatarType,
+  AvatarShape,
+  AvatarBgColor,
+  AvatarTopStatus,
+  AvatarBottomStatus
 }
