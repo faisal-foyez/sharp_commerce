@@ -40,12 +40,12 @@ directories.forEach(directory => {
     
     const variableName = file.replace('.svg', '');
     const updatedSvgContent = SvgContent
-        .replace(/<svg[^>]*width="\d+"[^>]*height="\d+"/g, '<svg width={width || size} height={height || size}') // Replace width and height attribute of svg tag
+        .replace(/<svg[^>]*width="\d+"[^>]*height="\d+"/g, `<svg width={width || size} height={height || size} className="package_logo package_logo_${variableName.toLowerCase()}"`) // Replace width and height attribute of svg tag
         .replace(/xlink:href/g,'xlinkHref')
         .replace(/xmlns:xlink/,'xmlnsXlink')
         .replace(/style=["']?mask-type:alpha["']?/g, '');
         return `
-    export const ${variableName} = ({size = 32, width, height}) => {
+    export const ${variableName} = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
       return ${updatedSvgContent}
     }
     `

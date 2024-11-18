@@ -1,6 +1,6 @@
 <svg width="28" height="28" viewBox="0 0 32 32" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
-  <rect class="svg_microsoft_light" x="17" y="17" width="10" height="10" fill="#05A6F0"></rect>
-  <rect class="svg_microsoft_light" x="5" y="17" width="10" height="10" fill="#FEBA08"></rect>
-  <rect class="svg_microsoft_light" x="17" y="5" width="10" height="10" fill="#80BC06"></rect>
-  <rect class="svg_microsoft_light" x="5" y="5" width="10" height="10" fill="#F25325"></rect>
+  <rect className="svg_microsoft_light" x="17" y="17" width="10" height="10" fill="#05A6F0"></rect>
+  <rect className="svg_microsoft_light" x="5" y="17" width="10" height="10" fill="#FEBA08"></rect>
+  <rect className="svg_microsoft_light" x="17" y="5" width="10" height="10" fill="#80BC06"></rect>
+  <rect className="svg_microsoft_light" x="5" y="5" width="10" height="10" fill="#F25325"></rect>
 </svg>
