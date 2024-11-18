@@ -141,6 +141,7 @@
  * from the palette defined in _variables.scss.
  */
 /*----------  Heading font variables  ----------*/
+/*----------  End of Typography variables  ----------*/
 /*=============================================
 =            Foundation - colors              =
 =============================================*/
@@ -309,5 +310,5 @@
  *
  */
 .gradient {
-  background-image: var(--dsc-global-gradient-8color-1, linear-gradient(117deg, #F7C978, #F3A469, #F18271, #CC6B8E, #A86AA4, #7B5FAC, #5A55AE, #3F51B1));
+  background-image: var(--dsc-global-gradient-2color-1, linear-gradient(59deg, #FF9A9E 50%, #FAD0C4));
 }

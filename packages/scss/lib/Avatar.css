@@ -1,0 +1,1251 @@
+/*=============================================
+    #Variables
+=============================================*/
+/**
+ * TABLE OF CONTENTS
+ * 
+ * COLORS
+ * Brand colors...................These are the main brand colors. They will be used the most
+ * Neutral colors.................White and black, gray scale, secondary colors.
+ * Utility colors.................Other colors to represent states: info, warning, success, etc.
+ * 
+ * TYPOGRAPHY
+ * Font families..................The fonts used in the design system.
+ * Font weights...................Font weights
+ * Sizes..........................Font sizing for body text, paragraphs, inputs
+ * Heading sizes..................Font sizing for page headings
+ *
+ * BREAKPOINTS
+ * Breakpoints....................Global responsive breakpoints definitions.
+ *
+ * SPACING
+ * Spacing........................Global fixed set of spacing variables
+ * 
+ * SHADOW
+ * Shadows........................Global fixed set of shadows
+ */
+/*=============================================
+=            Colors                           =
+=============================================*/
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Violet colors */
+/* Purple colors */
+/* Indigo colors */
+/* Blue light colors */
+/* Blue dark colors*/
+/* Blue gray colors */
+/* Blue colors */
+/* Cyan colors */
+/* Dimgray colors */
+/* Emerald colors */
+/* Gold colors */
+/* Green colors */
+/* Green dark colors */
+/* Lime colors */
+/* Orange colors */
+/* Pink colors */
+/* Rose colors */
+/* Red colors */
+/* Red dark colors */
+/* Sky colors */
+/* Slate colors */
+/* Stone colors */
+/* Teal colors */
+/* Yellow colors */
+/* Yellow dark colors */
+/* Zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=====  End of Colors  ======*/
+/*=============================================
+=                 Typography                  =
+=============================================*/
+/* Font Families */
+/**
+ *
+ * 1) The playfair font. We'll use this for headings mostly.
+ *     https://fonts.google.com/specimen/Playfair+Display
+ *
+ * 2) The raleway font. We'll use this for the body text.
+ *     https://fonts.google.com/specimen/Raleway
+ */
+/* 1 */
+/* 2 */
+/*----------  End of Font Familie  ----------*/
+/*----------  Font weights  ----------*/
+/*----------  End of Font weights  ----------*/
+/*----------  Display font variables  ----------*/
+/*----------  End of Display font variables  ----------*/
+/*----------  Heading font variables  ----------*/
+/*----------  End of Heading font variables  ----------*/
+/*----------  Body font variables  ----------*/
+/* body font size */
+/* body line height */
+/* body letter spacing */
+/*----------  End of Body font variables  ----------*/
+/*----------  Label font variables  ----------*/
+/*----------  End of Label font variables  ----------*/
+/*----------  Underline font variables  ----------*/
+/*----------  End of Underline font variables  ----------*/
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoint            =
+=============================================*/
+/*=====  End of Breakpoint  ======*/
+/*=============================================
+=            Spacing                          =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=                  Shadows                    =
+=============================================*/
+/*=====  End of Shadows  ======*/
+/*=============================================
+=            Spacing             =
+=============================================*/
+/*=====  End of Spacing   ======*/
+/*=============================================
+=            Corner Radius            =
+=============================================*/
+/*=====  End of Corner Radius  ======*/
+/*=============================================
+=            Breakpoints           =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* 1 */
+/* 2 */
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+/*----------  Heading font variables  ----------*/
+/*----------  End of Typography variables  ----------*/
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variables.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Global violet colors */
+/* Global purple colors */
+/* Global indigo colors */
+/* Global blue light colors */
+/* Global blue dark colors*/
+/* Global blue gray colors */
+/* Global blue colors */
+/* Global cyan colors */
+/* Global dimgray colors */
+/* Global emerald colors */
+/* Global gold colors */
+/* Global green colors */
+/* Global green dark colors */
+/* Global lime colors */
+/* Global orange colors */
+/* Global pink colors */
+/* Global rose colors */
+/* Global red colors */
+/* Global red dark colors */
+/* Global sky colors */
+/* Global slate colors */
+/* Global stone colors */
+/* Global teal colors */
+/* Global yellow colors */
+/* Global yellow dark colors */
+/* Global zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Semantic colors            =
+=============================================*/
+/*----------  Semantic Base  ----------*/
+/*---------- Semantic Brand  ----------*/
+/*----------  Dark Semantic Brand  ----------*/
+/*----------  Dark Semantic brand_alt  ----------*/
+/*----------  Semantic neutral  ----------*/
+/*----------  Semantic success  ----------*/
+/*----------  Dark Semantic success  ----------*/
+/*----------  Semantic warning  ----------*/
+/*----------  Dark Semantic warning  ----------*/
+/*----------  Semantic error  ----------*/
+/*----------  Dark Semantic error  ----------*/
+/*=====  End of Semantic colors  ======*/
+/*=============================================
+=            Transparent colors tokens            =
+=============================================*/
+/*---------- Transparent Colors  ----------*/
+/*---------- Dark Semantic transparent Colors  ----------*/
+/*----------  Brand Transparent Colors  ----------*/
+/*=====  End of Transparent colors tokens  ======*/
+/*=============================================
+=            Background colors tokens            =
+=============================================*/
+/*----------  Background Semantic Base Colors  ----------*/
+/*---------- Dark Background Semantic Colors  ----------*/
+/*----------  Background Semantic Brand Colors  ----------*/
+/*----------  Dark Background Semantic Brand Colors  ----------*/
+/*----------  Background Semantic Neutral Colors  ----------*/
+/*----------  Dark Background Semantic Neutral Colors  ----------*/
+/*----------  Background Semantic Success Colors  ----------*/
+/*----------  Dark Background Semantic Success Colors  ----------*/
+/*----------  Background Semantic Warning Colors  ----------*/
+/*----------  Dark Background Semantic Warning Colors  ----------*/
+/*----------  Background Semantic Error Colors  ----------*/
+/*----------  Dark Background Semantic Error Colors  ----------*/
+/*=====  End of Background colors tokens  ======*/
+/*=============================================
+=            Foreground colors tokens            =
+=============================================
+
+/*----------  Foreground Semantic Neutral Colors  ----------*/
+/*----------  Dark Foreground Semantic Neutral Colors  ----------*/
+/*----------  Foreground Semantic Light Colors  ----------*/
+/*----------  Dark Foreground Semantic Light Colors  ----------*/
+/*----------  Foreground Semantic Brand Colors  ----------*/
+/*----------  Dark Foreground Semantic Brand Colors  ----------*/
+/*----------  Foreground Semantic Success Colors  ----------*/
+/*----------  Dark Foreground Semantic Success Colors  ----------*/
+/*----------  Foreground Semantic Warning Colors  ----------*/
+/*----------  Dark Foreground Semantic Warning Colors  ----------*/
+/*----------  Foreground Semantic Error Colors  ----------*/
+/*----------  Dark Foreground Semantic Error Colors  ----------*/
+/*----------  Foreground Semantic Link Colors  ----------*/
+/*----------  Dark Foreground Semantic Link Colors  ----------*/
+/*=====  End of Foreground colors tokens  ======*/
+/*=============================================
+=            Border colors tokens            =
+=============================================*/
+/*----------  Border Semantic Base Colors  ----------*/
+/*----------  Dark Border Semantic Base Colors  ----------*/
+/*----------  Border Semantic Neutral Colors  ----------*/
+/*----------  Dark Border Semantic Neutral Colors  ----------*/
+/*----------  Border Semantic Brand Colors  ----------*/
+/*----------  Dark Border Semantic Brand Colors  ----------*/
+/*----------  Border Semantic Success Colors  ----------*/
+/*----------  Dark Border Semantic Success Colors  ----------*/
+/*----------  Border Semantic Warning Colors  ----------*/
+/*----------  Dark Border Semantic Warning Colors  ----------*/
+/*----------  Border Semantic Error Colors  ----------*/
+/*----------  Dark Border Semantic Error Colors  ----------*/
+/*=====  End of Border colors tokens  ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=============================================
+=            Action color tokens            =
+=============================================*/
+/*----------  Action Background Base Colors  ----------*/
+/*----------  Action Background Brand Colors  ----------*/
+/*----------  Action Background Neutral Colors  ----------*/
+/*----------  Action Background Error Colors  ----------*/
+/*----------  Action Background Success Colors  ----------*/
+/*----------  Action Background Warning Colors  ----------*/
+/*----------  Action Foreground Base Colors  ----------*/
+/*----------  Action Foreground Brand Colors  ----------*/
+/*----------  Action Foreground Neutral Colors  ----------*/
+/*----------  Action Foreground Error Colors  ----------*/
+/*----------  Action Foreground Success Colors  ----------*/
+/*----------  Action Foreground Warning Colors  ----------*/
+/*----------  Action Border Brand Colors  ----------*/
+/*----------  Action Border Neutral Colors  ----------*/
+/*----------  Action Border Error Colors  ----------*/
+/*----------  Action Border Success Colors  ----------*/
+/*----------  Action Border Warning Colors  ----------*/
+/*=============================================
+=            Other Color Tokens               =
+=============================================*/
+/*----------  Fuchsia  ----------*/
+/*----------  Purple  ----------*/
+/*----------  Cyan  ----------*/
+/*----------  Pink  ----------*/
+/*----------  Sky  ----------*/
+/*----------  Black  ----------*/
+/*=====  End of Other Color Tokens  ======*/
+/*=============================================
+=            Mixins                           =
+=============================================*/
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+ */
+.avatar-bg-color-white {
+  background: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.avatar-bg-color-lightGray {
+  background: var(--dsc-background-neutral-soft-surface, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+}
+
+.avatar-bg-color-blue {
+  background: var(--dsc-background-brand-soft-surface, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF)));
+}
+
+.avatar-bg-color-yellow {
+  background: var(--dsc-background-warning-soft-surface, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF)));
+}
+
+.avatar-bg-color-green {
+  background: var(--dsc-background-success-soft-surface, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5)));
+}
+
+.avatar-bg-color-red {
+  background: var(--dsc-background-error-soft-surface, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4)));
+}
+
+.avatar-bg-color-fuchsia {
+  background: var(--dsc-other-color-fuchsia-xlight, var(--dsc-global-fuchsia-25, #FBEDFD));
+}
+
+.avatar-bg-color-purple {
+  background: var(--dsc-other-color-purple-xlight, var(--dsc-global-purple-25, #F5ECFE));
+}
+
+.avatar-bg-color-cyan {
+  background: var(--dsc-other-color-cyan-xlight, var(--dsc-global-cyan-25, #EDFBFE));
+}
+
+.avatar-bg-color-pink {
+  background: var(--dsc-other-color-pink-xlight, var(--dsc-global-pink-25, #FFF3F8));
+}
+
+.avatar-bg-color-sky {
+  background: var(--dsc-other-color-sky-xlight, var(--dsc-global-sky-25, #F3FAFF));
+}
+
+.avatar-bg-color-lightGradient01 {
+  background: var(--dsc-global-gradient-2color-1-light, linear-gradient(63deg, rgba(255, 154, 158, 0.35) 30%, rgba(250, 208, 196, 0.35)));
+}
+
+.avatar-bg-color-lightGradient02 {
+  background: var(--dsc-global-gradient-2color-18-light, linear-gradient(-90deg, rgba(150, 230, 161, 0.3), rgba(212, 252, 121, 0.35)));
+}
+
+.avatar-bg-color-strongGradient01 {
+  background: var(--dsc-global-gradient-2color-1, linear-gradient(59deg, #FF9A9E 50%, #FAD0C4));
+}
+
+.avatar-bg-color-strongGradient02 {
+  background: var(--dsc-global-gradient-2color-2, linear-gradient(61deg, #A18CD1 30%, #FBC2EB));
+}
+
+.avatar-bg-color-strongGradient03 {
+  background: var(--dsc-global-gradient-2color-18, linear-gradient(-90deg, #96E6A1, #D4FC79));
+}
+
+.avatar-bg-color-strongGradient04 {
+  background: var(--dsc-global-gradient-2color-4, linear-gradient(-119deg, #26D0CE, #1A2980));
+}
+
+.avatar-bg-color-strongGradient05 {
+  background: var(--dsc-global-gradient-2color-17, linear-gradient(122deg, #005BEA, #45D8FF));
+}
+
+[data-theme=dark] .avatar-bg-color-white {
+  background: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .avatar-bg-color-lightGray {
+  background: var(--dsc-dark-background-neutral-soft-surface, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643)));
+}
+
+[data-theme=dark] .avatar-bg-color-blue {
+  background: var(--dsc-dark-background-brand-soft-surface, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+}
+
+[data-theme=dark] .avatar-bg-color-yellow {
+  background: var(--dsc-dark-background-warning-soft-surface, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07)));
+}
+
+[data-theme=dark] .avatar-bg-color-green {
+  background: var(--dsc-dark-background-success-soft-surface, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16)));
+}
+
+[data-theme=dark] .avatar-bg-color-red {
+  background: var(--dsc-dark-background-error-soft-surface, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+}
+
+[data-theme=dark] .avatar-bg-color-fuchsia {
+  background: var(--dsc-dark-other-color-fuchsia-xlight, var(--dsc-global-fuchsia-900, #50085A));
+}
+
+[data-theme=dark] .avatar-bg-color-purple {
+  background: var(--dsc-dark-other-color-purple-xlight, var(--dsc-global-purple-900, #32045E));
+}
+
+[data-theme=dark] .avatar-bg-color-cyan {
+  background: var(--dsc-dark-other-color-cyan-xlight, var(--dsc-global-cyan-900, #07505B));
+}
+
+[data-theme=dark] .avatar-bg-color-pink {
+  background: var(--dsc-dark-other-color-pink-xlight, var(--dsc-global-pink-900, #78002E));
+}
+
+[data-theme=dark] .avatar-bg-color-sky {
+  background: var(--dsc-dark-other-color-sky-xlight, var(--dsc-global-sky-900, #033F6B));
+}
+
+[data-theme=dark] .avatar-bg-color-lightGradient01 {
+  background: var(--dsc-global-gradient-2color-1-light, linear-gradient(63deg, rgba(255, 154, 158, 0.35) 30%, rgba(250, 208, 196, 0.35)));
+}
+
+[data-theme=dark] .avatar-bg-color-lightGradient02 {
+  background: var(--dsc-global-gradient-2color-18-light, linear-gradient(-90deg, rgba(150, 230, 161, 0.3), rgba(212, 252, 121, 0.35)));
+}
+
+[data-theme=dark] .avatar-bg-color-strongGradient01 {
+  background: var(--dsc-global-gradient-2color-1, linear-gradient(59deg, #FF9A9E 50%, #FAD0C4));
+}
+
+[data-theme=dark] .avatar-bg-color-strongGradient02 {
+  background: var(--dsc-global-gradient-2color-2, linear-gradient(61deg, #A18CD1 30%, #FBC2EB));
+}
+
+[data-theme=dark] .avatar-bg-color-strongGradient03 {
+  background: var(--dsc-global-gradient-2color-18, linear-gradient(-90deg, #96E6A1, #D4FC79));
+}
+
+[data-theme=dark] .avatar-bg-color-strongGradient04 {
+  background: var(--dsc-global-gradient-2color-4, linear-gradient(-119deg, #26D0CE, #1A2980));
+}
+
+[data-theme=dark] .avatar-bg-color-strongGradient05 {
+  background: var(--dsc-global-gradient-2color-17, linear-gradient(122deg, #005BEA, #45D8FF));
+}
+
+.avatar-tiny {
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: var(--dsc-radius-xsm, 0.25rem);
+}
+
+.avatar-tiny .avatar-top-status-logo svg {
+  height: 8px;
+  width: 8px;
+}
+
+.avatar-tiny .avatar-top-status-logo {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-other-color-cyan-xlight, var(--dsc-global-cyan-25, #EDFBFE));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-tiny .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 0.5px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}
+
+[data-theme=dark] .avatar-tiny .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 0.5px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-border-tiny {
+  border: 1px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .avatar-border-tiny {
+  border: 1px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-tiny > .avatar-letter-of-name {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.avatar-tiny > img {
+  border-radius: var(--dsc-radius-xsm, 0.25rem);
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.avatar-tiny > .avatar-logo > .package_logo {
+  height: 15px;
+  width: 15px;
+  align-self: center;
+}
+
+.avatar-tiny > .avatar-top-status-icon-container > .avatar-top-status-notification-number {
+  min-height: 12px;
+  min-width: 20px;
+  font-size: 8px;
+  font-weight: 600;
+  padding-left: 2px;
+  padding-right: 2px;
+  border: 1px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-background-error-default, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  color: var(--dsc-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-tiny.avatar-circle > .avatar-top-status-icon-container {
+  top: -4px !important;
+  right: -4px !important;
+}
+
+.avatar-tiny.avatar-circle > .avatar-bottom-status-icon-container {
+  bottom: -2px !important;
+  right: -3px !important;
+}
+
+.avatar-tiny.avatar-square > .avatar-top-status-icon-container {
+  top: -5px !important;
+  right: -5px !important;
+}
+
+.avatar-tiny.avatar-square > .avatar-bottom-status-icon-container {
+  bottom: -3px !important;
+  right: -3px !important;
+}
+
+.avatar-xsmall {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: var(--dsc-radius-xsm, 0.25rem);
+}
+
+.avatar-xsmall .avatar-top-status-logo svg {
+  height: 8px;
+  width: 8px;
+}
+
+.avatar-xsmall .avatar-top-status-logo {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-other-color-cyan-xlight, var(--dsc-global-cyan-25, #EDFBFE));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-xsmall .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 0.7px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}
+
+[data-theme=dark] .avatar-xsmall .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 0.7px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-border-xsmall {
+  border: 1px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .avatar-border-xsmall {
+  border: 1px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-xsmall > .avatar-letter-of-name {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.avatar-xsmall > img {
+  border-radius: var(--dsc-radius-xsm, 0.25rem);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.avatar-xsmall > .avatar-logo > .package_logo {
+  height: 18px;
+  width: 18px;
+  align-self: center;
+}
+
+.avatar-xsmall > .avatar-top-status-icon-container > .avatar-top-status-notification-number {
+  min-height: 12px;
+  min-width: 20px;
+  font-size: 8px;
+  font-weight: 600;
+  padding-left: 2px;
+  padding-right: 2px;
+  border: 1px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-background-error-default, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  color: var(--dsc-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-xsmall.avatar-circle > .avatar-top-status-icon-container {
+  top: -4px !important;
+  right: -3px !important;
+}
+
+.avatar-xsmall.avatar-circle > .avatar-bottom-status-icon-container {
+  bottom: -1px !important;
+  right: -2px !important;
+}
+
+.avatar-xsmall.avatar-square > .avatar-top-status-icon-container {
+  top: -6px !important;
+  right: -6px !important;
+}
+
+.avatar-xsmall.avatar-square > .avatar-bottom-status-icon-container {
+  bottom: -3px !important;
+  right: -2px !important;
+}
+
+.avatar-small {
+  height: 2rem;
+  width: 2rem;
+  border-radius: var(--dsc-radius-sm, 0.375rem);
+}
+
+.avatar-small .avatar-top-status-logo svg {
+  height: 8px;
+  width: 8px;
+}
+
+.avatar-small .avatar-top-status-logo {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-other-color-cyan-xlight, var(--dsc-global-cyan-25, #EDFBFE));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-small .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 0.9px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}
+
+[data-theme=dark] .avatar-small .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 0.9px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-border-small {
+  border: 2px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .avatar-border-small {
+  border: 2px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-small > .avatar-letter-of-name {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.avatar-small > img {
+  border-radius: var(--dsc-radius-sm, 0.375rem);
+  height: 2rem;
+  width: 2rem;
+}
+
+.avatar-small > .avatar-logo > .package_logo {
+  height: 20px;
+  width: 20px;
+  align-self: center;
+}
+
+.avatar-small > .avatar-top-status-icon-container > .avatar-top-status-notification-number {
+  min-height: 12px;
+  min-width: 20px;
+  font-size: 8px;
+  font-weight: 600;
+  padding-left: 3.5px;
+  padding-right: 3.5px;
+  border: 1px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-background-error-default, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  color: var(--dsc-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-small.avatar-circle > .avatar-top-status-icon-container {
+  top: -3px !important;
+  right: -2px !important;
+}
+
+.avatar-small.avatar-circle > .avatar-bottom-status-icon-container {
+  bottom: 1px !important;
+  right: -1px !important;
+}
+
+.avatar-small.avatar-square > .avatar-top-status-icon-container {
+  top: -6px !important;
+  right: -4px !important;
+}
+
+.avatar-small.avatar-square > .avatar-bottom-status-icon-container {
+  bottom: -1px !important;
+  right: -2px !important;
+}
+
+.avatar-medium {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--dsc-radius-md, 0.5rem);
+}
+
+.avatar-medium .avatar-top-status-logo svg {
+  height: 10px;
+  width: 10px;
+}
+
+.avatar-medium .avatar-top-status-logo {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-other-color-cyan-xlight, var(--dsc-global-cyan-25, #EDFBFE));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-medium .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 1px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}
+
+[data-theme=dark] .avatar-medium .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 1px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-border-medium {
+  border: 2px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .avatar-border-medium {
+  border: 2px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-medium > .avatar-letter-of-name {
+  font-size: var(--dsc-body-font-size-sm, 0.875rem);
+  font-weight: 700;
+}
+
+.avatar-medium > img {
+  border-radius: var(--dsc-radius-md, 0.5rem);
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.avatar-medium > .avatar-logo > .package_logo {
+  height: 24px;
+  width: 24px;
+  align-self: center;
+}
+
+.avatar-medium > .avatar-top-status-icon-container > .avatar-top-status-notification-number {
+  min-height: 14px;
+  min-width: 23px;
+  font-size: 10px;
+  font-weight: 600;
+  padding-left: 3px;
+  padding-right: 3px;
+  border: 1px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-background-error-default, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  color: var(--dsc-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-medium.avatar-circle > .avatar-top-status-icon-container {
+  top: -3px !important;
+  right: -4px !important;
+}
+
+.avatar-medium.avatar-circle > .avatar-bottom-status-icon-container {
+  bottom: 1px !important;
+  right: -1px !important;
+}
+
+.avatar-medium.avatar-square > .avatar-top-status-icon-container {
+  top: -6px !important;
+  right: -6px !important;
+}
+
+.avatar-medium.avatar-square > .avatar-bottom-status-icon-container {
+  bottom: -2px !important;
+  right: -3px !important;
+}
+
+.avatar-large {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: var(--dsc-radius-xl, 0.75rem);
+}
+
+.avatar-large .avatar-top-status-logo svg {
+  height: 12px;
+  width: 12px;
+}
+
+.avatar-large .avatar-top-status-logo {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-other-color-cyan-xlight, var(--dsc-global-cyan-25, #EDFBFE));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-large .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 1.5px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}
+
+[data-theme=dark] .avatar-large .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 1.5px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-border-large {
+  border: 3px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .avatar-border-large {
+  border: 3px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-large > .avatar-letter-of-name {
+  font-size: var(--dsc-body-font-size-xl, 1.25rem);
+  font-weight: 700;
+}
+
+.avatar-large > img {
+  border-radius: var(--dsc-radius-xl, 0.75rem);
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.avatar-large > .avatar-logo > .package_logo {
+  height: 32px;
+  width: 32px;
+  align-self: center;
+}
+
+.avatar-large > .avatar-top-status-icon-container > .avatar-top-status-notification-number {
+  min-height: 14px;
+  min-width: 29px;
+  font-size: 11px;
+  font-weight: 600;
+  padding-left: 4px;
+  padding-right: 4px;
+  border: 1px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-background-error-default, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  color: var(--dsc-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-large.avatar-circle > .avatar-top-status-icon-container {
+  top: -6px !important;
+  right: -1px !important;
+}
+
+.avatar-large.avatar-circle > .avatar-bottom-status-icon-container {
+  bottom: 2px !important;
+  right: 2px !important;
+}
+
+.avatar-large.avatar-square > .avatar-top-status-icon-container {
+  top: -7px !important;
+  right: -7px !important;
+}
+
+.avatar-large.avatar-square > .avatar-bottom-status-icon-container {
+  bottom: -1px !important;
+  right: -3px !important;
+}
+
+.avatar-xlarge {
+  height: 4rem;
+  width: 4rem;
+  border-radius: var(--dsc-radius-xl, 0.75rem);
+}
+
+.avatar-xlarge .avatar-top-status-logo svg {
+  height: 14px;
+  width: 14px;
+}
+
+.avatar-xlarge .avatar-top-status-logo {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-other-color-cyan-xlight, var(--dsc-global-cyan-25, #EDFBFE));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-xlarge .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 2px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}
+
+[data-theme=dark] .avatar-xlarge .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 2px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-border-xlarge {
+  border: 3px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .avatar-border-xlarge {
+  border: 3px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-xlarge > .avatar-letter-of-name {
+  font-size: var(--dsc-h5-font-size, 1.5rem);
+  font-weight: 700;
+}
+
+.avatar-xlarge > img {
+  border-radius: var(--dsc-radius-xl, 0.75rem);
+  height: 4rem;
+  width: 4rem;
+}
+
+.avatar-xlarge > .avatar-logo > .package_logo {
+  height: 40px;
+  width: 40px;
+  align-self: center;
+}
+
+.avatar-xlarge > .avatar-top-status-icon-container > .avatar-top-status-notification-number {
+  min-height: 16px;
+  min-width: 31px;
+  font-size: var(--dsc-label-font-size-xs, 0.75rem);
+  font-weight: var(--dsc-label-font-weight-xs-strong, 500);
+  padding-left: 4px;
+  padding-right: 4px;
+  border: 2px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-background-error-default, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  color: var(--dsc-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-xlarge.avatar-circle > .avatar-top-status-icon-container {
+  top: -8px !important;
+  right: -2px !important;
+}
+
+.avatar-xlarge.avatar-circle > .avatar-bottom-status-icon-container {
+  bottom: 0px !important;
+  right: 2px !important;
+}
+
+.avatar-xlarge.avatar-square > .avatar-top-status-icon-container {
+  top: -8px !important;
+  right: -8px !important;
+}
+
+.avatar-xlarge.avatar-square > .avatar-bottom-status-icon-container {
+  bottom: -3px !important;
+  right: -4px !important;
+}
+
+.avatar-big {
+  height: 6rem;
+  width: 6rem;
+  border-radius: var(--dsc-radius-2xl, 1rem);
+}
+
+.avatar-big .avatar-top-status-logo svg {
+  height: 20px;
+  width: 20px;
+}
+
+.avatar-big .avatar-top-status-logo {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-other-color-cyan-xlight, var(--dsc-global-cyan-25, #EDFBFE));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-big .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 2.5px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}
+
+[data-theme=dark] .avatar-big .avatar-top-status-icon-container:has(.avatar-top-status-logo) {
+  border: 2.5px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-border-big {
+  border: 3px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .avatar-border-big {
+  border: 3px solid var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-big > .avatar-letter-of-name {
+  font-size: var(--dsc-h3-font-size, 2.5rem);
+  font-weight: 700;
+}
+
+.avatar-big > img {
+  border-radius: var(--dsc-radius-2xl, 1rem);
+  height: 6rem;
+  width: 6rem;
+}
+
+.avatar-big > .avatar-logo > .package_logo {
+  height: 60px;
+  width: 60px;
+  align-self: center;
+}
+
+.avatar-big > .avatar-top-status-icon-container > .avatar-top-status-notification-number {
+  min-height: 20px;
+  min-width: 35px;
+  font-size: var(--dsc-label-font-size-sm, 0.875rem);
+  font-weight: var(--dsc-label-font-weight-sm-strong, 500);
+  padding-left: 4px;
+  padding-right: 4px;
+  border: 2.5px solid var(--dsc-border-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  background-color: var(--dsc-background-error-default, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  color: var(--dsc-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-big.avatar-circle > .avatar-top-status-icon-container {
+  top: -8px !important;
+  right: -2px !important;
+}
+
+.avatar-big.avatar-circle > .avatar-bottom-status-icon-container {
+  bottom: 5px !important;
+  right: 2px !important;
+}
+
+.avatar-big.avatar-square > .avatar-top-status-icon-container {
+  top: -14px !important;
+  right: -12px !important;
+}
+
+.avatar-big.avatar-square > .avatar-bottom-status-icon-container {
+  bottom: -4px !important;
+  right: -4px !important;
+}
+
+[data-theme=dark] .avatar-top-status-icon-container > .avatar-top-status-notification-number {
+  border-color: var(--dsc-dark-border-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-top-status-icon-container-tiny {
+  height: 0.875rem;
+  width: 0.875rem;
+}
+
+.avatar-top-status-icon-container-xsmall {
+  height: 0.875rem;
+  width: 0.875rem;
+}
+
+.avatar-top-status-icon-container-small {
+  height: 0.875rem;
+  width: 0.875rem;
+}
+
+.avatar-top-status-icon-container-medium {
+  height: 1.125rem;
+  width: 1.125rem;
+}
+
+.avatar-top-status-icon-container-large {
+  height: 1.375rem;
+  width: 1.375rem;
+}
+
+.avatar-top-status-icon-container-xlarge {
+  height: 1.625rem;
+  width: 1.625rem;
+}
+
+.avatar-top-status-icon-container-big {
+  height: 2.125rem;
+  width: 2.125rem;
+}
+
+.avatar-bottom-status-icon-container-tiny {
+  height: 0.625rem;
+  width: 0.625rem;
+}
+
+.avatar-bottom-status-icon-container-xsmall {
+  height: 0.625rem;
+  width: 0.625rem;
+}
+
+.avatar-bottom-status-icon-container-small {
+  height: 0.625rem;
+  width: 0.625rem;
+}
+
+.avatar-bottom-status-icon-container-medium {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.avatar-bottom-status-icon-container-large {
+  height: 0.875rem;
+  width: 0.875rem;
+}
+
+.avatar-bottom-status-icon-container-xlarge {
+  height: 1rem;
+  width: 1rem;
+}
+
+.avatar-bottom-status-icon-container-big {
+  height: 1.375rem;
+  width: 1.375rem;
+}
+
+.avatar-container {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.avatar-container > *:has(.package_logo_placeholder) {
+  align-self: flex-end;
+  display: flex;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.avatar-container > .avatar-logo {
+  align-self: center;
+}
+
+.avatar-circle {
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}
+
+.avatar-circle > img {
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}
+
+.avatar-circle > *:has(.package_logo_placeholder) {
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+  overflow: hidden;
+}
+
+.avatar-top-status-icon-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.avatar-top-status-icon-container > svg {
+  height: 100%;
+  width: 100%;
+}
+
+.avatar-top-status-icon-container > svg .border-circle,
+.avatar-bottom-status-icon-container > svg .border-circle {
+  stroke: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  fill: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .avatar-top-status-icon-container > svg .border-circle,
+[data-theme=dark] .avatar-bottom-status-icon-container > svg .border-circle {
+  stroke: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  fill: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.avatar-bottom-status-icon-container {
+  position: absolute;
+  z-index: 200;
+}
+
+.avatar-bottom-status-icon-container > svg {
+  height: 100%;
+  width: 100%;
+}
+
+.avatar-letter-of-name {
+  align-self: center;
+  text-transform: uppercase;
+  color: var(--dsc-action-foreground-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .avatar-letter-of-name {
+  color: var(--dsc-dark-action-foreground-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.package_logo_placeholder > path {
+  fill: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .package_logo_placeholder > path {
+  fill: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}

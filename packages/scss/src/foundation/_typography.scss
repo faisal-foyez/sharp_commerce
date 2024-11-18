@@ -121,6 +121,21 @@ $label-letter-spacing-lg: var(--dsc-label-letter-spacing-lg, $label-ls-lg); // -
 $label-letter-spacing-xl: var(--dsc-label-letter-spacing-xl, $label-ls-xl); // -0.4px
 $label-letter-spacing-2xl: var(--dsc-label-letter-spacing-2xl, $label-ls-2xl); // -0.4px
 
+
+$label-font-weight-2xs-default: var(--dsc-label-font-weight-2xs-default, $label-fw-2xs-default);
+$label-font-weight-2xs-strong: var(--dsc-label-font-weight-2xs-strong, $label-fw-2xs-strong);
+$label-font-weight-xs-default: var(--dsc-label-font-weight-xs-default, $label-fw-xs-default);
+$label-font-weight-xs-strong: var(--dsc-label-font-weight-xs-strong, $label-fw-xs-strong);
+$label-font-weight-sm-default: var(--dsc-label-font-weight-sm-default, $label-fw-sm-default);
+$label-font-weight-sm-strong: var(--dsc-label-font-weight-sm-strong, $label-fw-sm-strong);
+$label-font-weight-md-default: var(--dsc-label-font-weight-md-default, $label-fw-md-default);
+$label-font-weight-md-strong: var(--dsc-label-font-weight-md-strong, $label-fw-md-strong);
+$label-font-weight-lg-default: var(--dsc-label-font-weight-lg-default, $label-fw-lg-default);
+$label-font-weight-lg-strong: var(--dsc-label-font-weight-lg-strong, $label-fw-lg-strong);
+$label-font-weight-xl-default: var(--dsc-label-font-weight-xl-default, $label-fw-xl-default);
+$label-font-weight-xl-strong: var(--dsc-label-font-weight-xl-strong, $label-fw-xl-strong);
+$label-font-weight-2xl-default: var(--dsc-label-font-weight-2xl-default, $label-fw-2xl-default);
+$label-font-weight-2xl-strong: var(--dsc-label-font-weight-2xl-strong, $label-fw-2xl-strong);
 // Underline
 $underline-font-size-2xl: var(--dsc-underline-font-size-2xl, $underline-fs-2xl); // 24px
 $underline-font-size-xl: var(--dsc-underline-font-size-xl, $underline-fs-xl); // 20px
@@ -142,3 +157,18 @@ $underline-letter-spacing-lg: var(--dsc-underline-letter-spacing-lg, $underline-
 $underline-letter-spacing-md: var(--dsc-underline-letter-spacing-md, $underline-ls-md); // -0.3px
 $underline-letter-spacing-sm: var(--dsc-underline-letter-spacing-sm, $underline-ls-sm); // -0.2px
 $underline-letter-spacing-xs: var(--dsc-underline-letter-spacing-xs, $underline-ls-xs); // -0.2px
+
+// font weight
+$underline-font-weight-2xl-default: var(--dsc-underline-font-weight-2xl-default, $underline-fw-2xl-default);
+$underline-font-weight-2xl-strong: var(--dsc-underline-font-weight-2xl-strong, $underline-fw-2xl-strong);
+$underline-font-weight-xl-default: var(--dsc-underline-font-weight-xl-default, $underline-fw-xl-default);
+$underline-font-weight-xl-strong: var(--dsc-underline-font-weight-xl-strong, $underline-fw-xl-strong);
+$underline-font-weight-lg-default: var(--dsc-underline-font-weight-lg-default, $underline-fw-lg-default);
+$underline-font-weight-lg-strong: var(--dsc-underline-font-weight-lg-strong, $underline-fw-lg-strong);    
+$underline-font-weight-md-default: var(--dsc-underline-font-weight-md-default, $underline-fw-md-default);
+$underline-font-weight-md-strong: var(--dsc-underline-font-weight-md-strong, $underline-fw-md-strong);
+$underline-font-weight-sm-default: var(--dsc-underline-font-weight-sm-default, $underline-fw-sm-default);
+$underline-font-weight-sm-strong: var(--dsc-underline-font-weight-sm-strong, $underline-fw-sm-strong);
+$underline-font-weight-xs-default: var(--dsc-underline-font-weight-xs-default, $underline-fw-xs-default);
+$underline-font-weight-xs-strong: var(--dsc-underline-font-weight-xs-strong, $underline-fw-xs-strong);
+/*----------  End of Typography variables  ----------*/

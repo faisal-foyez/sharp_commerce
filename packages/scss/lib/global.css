@@ -153,6 +153,7 @@
  * from the palette defined in _variables.scss.
  */
 /*----------  Heading font variables  ----------*/
+/*----------  End of Typography variables  ----------*/
 /*=============================================
 =            Foundation - colors              =
 =============================================*/
@@ -1561,7 +1562,7 @@ input[type=checkbox], input[type=radio] {
   /*=============================================
   =            Global 2 color gradient colors            =
   =============================================*/
-  --dsc-global-gradient-2color-1: linear-gradient(59deg, #bb0000 50%, #FAD0C4);
+  --dsc-global-gradient-2color-1: linear-gradient(59deg, #FF9A9E 50%, #FAD0C4);
   --dsc-global-gradient-2color-1-light: linear-gradient(63deg, rgba(255, 154, 158, 0.35) 30%, rgba(250, 208, 196, 0.35));
   --dsc-global-gradient-2color-2: linear-gradient(61deg, #A18CD1 30%, #FBC2EB);
   --dsc-global-gradient-2color-3: linear-gradient(0deg, #FAD0C4, #FFD1FF);
