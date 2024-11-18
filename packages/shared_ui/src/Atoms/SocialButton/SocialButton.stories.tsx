@@ -7,7 +7,7 @@ type SocialButtonSizeType = keyof typeof SocialButtonSize;
 type SocialButtonThemeType = keyof typeof SocialButtonTheme;
 
 const meta:Meta<typeof SocialButton> = {
-  title: 'Components/SocialButton',
+  title: 'Components/Atoms/SocialButton',
   component: SocialButton,
   tags: ['autodocs'],
   argTypes: {

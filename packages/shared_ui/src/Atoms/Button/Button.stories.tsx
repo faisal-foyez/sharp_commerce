@@ -8,7 +8,7 @@ type ButtonTypeType = keyof typeof ButtonType;
 type ButtonStyleType = keyof typeof ButtonStyle;
 
 const meta: Meta<typeof Button> = {
-  title: 'Components/Button',
+  title: 'Components/Atoms/Button',
   component: Button,
   tags: ['autodocs'],
   argTypes: {

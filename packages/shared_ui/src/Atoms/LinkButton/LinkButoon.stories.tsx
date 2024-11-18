@@ -10,7 +10,7 @@ type LinkButtonTypeType = keyof typeof LinkButtonType;
 type LinkButtonSizeType = keyof typeof LinkButtonSize;
 
 const meta: Meta<typeof LinkButton> = {
-  title: 'Components/LinkButton',
+  title: 'Components/Atoms/LinkButton',
   component: LinkButton,
   tags: ['autodocs'],
   argTypes: {

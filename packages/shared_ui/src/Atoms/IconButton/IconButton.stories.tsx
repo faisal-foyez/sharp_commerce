@@ -8,7 +8,7 @@ type IconButtonStyleType = keyof typeof IconButtonStyle;
 type IconButtonSizeType = keyof typeof IconButtonSize;
 
 const meta: Meta<typeof IconButton> = {
-  title: 'Components/IconButton',
+  title: 'Components/Atoms/IconButton',
   component: IconButton,
   tags: ['autodocs'],
   argTypes: {

@@ -13,7 +13,7 @@ type AvatarBgColorType = keyof typeof AvatarBgColor;
 type AvatarPlaceholderSizeType = keyof typeof AvatarPlaceholderSize;
 
 const meta: Meta<typeof Avatar> = {
-  title:'Components/Atoms/Avatar',
+  title:'Components/Molecules/Avatar',
   component: Avatar,
   tags: ['autodocs'],
   argTypes: {
