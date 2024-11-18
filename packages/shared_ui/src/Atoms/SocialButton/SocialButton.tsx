@@ -29,7 +29,7 @@ const SocialButton = ({
   // alert(logo);
   const res = ariaLabel || isLabel ? `Sign in with ${platform}` : '';
   console.log(res);
-  const Logo = platform ? React.createElement(logos[logo], {size: size === 'lg' ? 28 : 24}) : null;
+  const Logo = platform ? React.createElement(logos[logo], {size: size === 'lg' ? 28 : 24 as number}) : null;
   return (
     <button 
       style={{display: 'flex', alignItems: 'center', gap: '8px', width:'max-content'}} 
