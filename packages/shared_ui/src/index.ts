@@ -3,5 +3,5 @@ import LinkButton from './Atoms/LinkButton';
 import IconButton from './Atoms/IconButton';
 import SocialButton from './Atoms/SocialButton';
 import Avatar from './Molecules/Avatar';
-
-export { Button, LinkButton, IconButton, SocialButton, Avatar };
+import AvatarIcon from './Molecules/AvatarIcon';
+export { Button, LinkButton, IconButton, SocialButton, Avatar, AvatarIcon };
