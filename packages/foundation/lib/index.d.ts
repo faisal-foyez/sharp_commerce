@@ -7,4 +7,5 @@ import IconNames from "./IconName";
 import IconWeight from "./IconWeight";
 import { SocialButtonPlatform, SocialButtonSize, SocialButtonTheme } from './SocialButton';
 import { AvatarSize, AvatarPlaceholderSize, AvatarType, AvatarShape, AvatarBgColor, AvatarTopStatus, AvatarBottomStatus } from './Avatar';
-export { Spacing, FontSize, ButtonSize, ButtonIconSize, ButtonType, ButtonStyle, LinkButtonType, LinkButtonSize, LinkButtonIconSize, IconButtonType, IconButtonSize, IconButtonIconSize, IconButtonStyle, IconNames, IconWeight, SocialButtonPlatform, SocialButtonSize, SocialButtonTheme, AvatarSize, AvatarPlaceholderSize, AvatarType, AvatarShape, AvatarBgColor, AvatarTopStatus, AvatarBottomStatus };
+import { AvatarIconSize, AvatarIconColor, AvatarIconBackground } from './AvatarIcon';
+export { Spacing, FontSize, ButtonSize, ButtonIconSize, ButtonType, ButtonStyle, LinkButtonType, LinkButtonSize, LinkButtonIconSize, IconButtonType, IconButtonSize, IconButtonIconSize, IconButtonStyle, IconNames, IconWeight, SocialButtonPlatform, SocialButtonSize, SocialButtonTheme, AvatarSize, AvatarPlaceholderSize, AvatarType, AvatarShape, AvatarBgColor, AvatarTopStatus, AvatarBottomStatus, AvatarIconSize, AvatarIconColor, AvatarIconBackground };
