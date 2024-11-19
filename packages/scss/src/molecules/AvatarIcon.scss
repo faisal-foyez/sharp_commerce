@@ -1,0 +1,140 @@
+@import '../foundation/all';
+
+$avatarIconColor:(
+  pink:(
+    color: $other-color-pink-default,
+    border: $other-color-pink-light,
+    background: $other-color-pink-xlight,
+  ),
+
+  gray: (
+    color: $foreground-neutral-secondary,
+    border: $border-neutral-subtle,
+    background: $background-neutral-soft-surface,
+  ),
+
+  green: (
+    color: $foreground-success-secondary,
+    border: $border-success-subtle,
+    background: $background-success-soft-surface,
+  ),
+
+  yellow: (
+    color: $foreground-warning-secondary,
+    border: $action-border-warning-light-focused,
+    background: $background-warning-soft-surface,
+  ),
+
+  red: (
+    color: $foreground-error-secondary,
+    border: $border-error-subtle,
+    background: $background-error-soft-surface,
+  ),
+
+  fuchsia: (
+    color: $other-color-fuchsia-default,
+    border: $other-color-fuchsia-light,
+    background: $other-color-fuchsia-xlight,
+  ),
+
+  purple: (
+    color: $other-color-purple-default,
+    border: $other-color-purple-light,
+    background: $other-color-purple-xlight,
+  ),
+);
+
+$darkAvatarIconColor: (
+  pink:(
+    color: $dark-other-color-pink-default,
+    border: $dark-other-color-pink-light,
+    background: $dark-other-color-pink-xlight,
+  ),
+
+  gray: (
+    color: $dark-foreground-neutral-secondary,
+    border: $dark-border-neutral-subtle,
+    background: $dark-background-neutral-soft-surface,
+  ),
+
+  green: (
+    color: $dark-foreground-success-secondary,
+    border: $dark-border-success-subtle,
+    background: $dark-background-success-soft-surface,
+  ),
+
+  yellow: (
+    color: $dark-foreground-warning-secondary,
+    border: $dark-action-border-warning-light-focused,
+    background: $dark-background-warning-soft-surface,
+  ),
+
+  red: (
+    color: $dark-foreground-error-secondary,
+    border: $dark-border-error-subtle,
+    background: $dark-background-error-soft-surface,
+  ),
+
+  fuchsia: (
+    color: $dark-other-color-fuchsia-default,
+    border: $dark-other-color-fuchsia-light,
+    background: $dark-other-color-fuchsia-xlight,
+  ),
+
+  purple: (
+    color: $dark-other-color-purple-default,
+    border: $dark-other-color-purple-light,
+    background: $dark-other-color-purple-xlight,
+  ),
+);
+
+$avatarIconSize: (
+  xsmall: (iconContainer:24px, icon:16px),
+  small: (iconContainer:32px, icon:20px),
+  medium: (iconContainer:40px, icon: 24px),
+  large: (iconContainer:48px, icon: 28px),
+  xlarge: (iconContainer:64px, icon: 32px),
+);
+
+
+@each $size, $sizeList in $avatarIconSize {
+  .avatar-icon-#{$size} {
+    height: map-get($sizeList, iconContainer);
+    width: map-get($sizeList, iconContainer);
+  }
+
+  .avatar-icon-#{$size} > :nth-child(1) {
+    height: map-get($sizeList, icon);
+    width: map-get($sizeList, icon);
+  }
+}
+
+@each $color, $colorList in $avatarIconColor {
+  .avatar-icon-#{$color} {
+    background-color: map-get($colorList, background);
+    color: map-get($colorList, color);
+    border: 1px solid map-get($colorList, border);
+  }
+}
+
+@each $darkColor, $darkColorList in $darkAvatarIconColor {
+  [data-theme="dark"] .avatar-icon-#{$darkColor} {
+    background-color: map-get($darkColorList, background);
+    color: map-get($darkColorList, color);
+    border: 1px solid map-get($darkColorList, border);
+  }
+}
+
+.avatar-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: $radius-full-round;
+}
+
+.avatar-icon-withoutbackground {
+  background-color: transparent;
+}
+[data-theme="dark"] .avatar-icon-withoutbackground {
+  background-color: transparent;
+}
