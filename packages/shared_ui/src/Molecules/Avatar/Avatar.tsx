@@ -5,20 +5,11 @@ import {
   AvatarType,
   AvatarShape, 
   AvatarSize, 
-  // AvatarTopStatusIconSize, 
-  // AvatarBottomStatusIconSize, 
   AvatarTopStatus, 
   AvatarBottomStatus, 
   AvatarBgColor, 
   AvatarPlaceholderSize 
 } from '@dsc/foundation/lib';
-
-// type AvatarBaseProps = {
-//   shape?: keyof typeof AvatarShape;
-//   size?: keyof typeof AvatarSize;
-//   bgColor?: keyof typeof AvatarBgColor;
-//   bottomStatus?: keyof typeof AvatarBottomStatus;
-// };
 
 type AvatarTypeType = keyof typeof AvatarType;
 type AvatarSizeType = keyof typeof AvatarSize;
