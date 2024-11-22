@@ -1,6 +1,6 @@
 
-    export const Afghanistan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_afghanistan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Afghanistan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_afghanistan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65504)">
 <g clip-path="url(#clip1_14537_65504)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#F93939"/>
@@ -23,8 +23,8 @@
     }
     
 
-    export const Albania = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_albania" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Albania = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_albania" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65505)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#F93939"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 5.26668L10.4286 4.20001L9.38094 5.26668H10.4286L9.38094 6.33335L7.28571 5.26668V10.6L10.4286 9.53335L9.38094 11.6667H8.33332L9.38094 12.7333L10.4286 11.6667L12 13.8V5.26668ZM13.5714 4.20001L14.619 5.26668H13.5714L14.619 6.33335L16.7143 5.26668V10.6L13.5714 9.53335L14.619 11.6667H15.6667L14.619 12.7333L13.5714 11.6667L12 13.8V5.26668L13.5714 4.20001Z" fill="#151515"/>
@@ -40,8 +40,8 @@
     }
     
 
-    export const Algeria = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_algeria" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Algeria = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_algeria" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65503)">
 <g clip-path="url(#clip1_14537_65503)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -65,8 +65,8 @@
     }
     
 
-    export const Andorra = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_andorra" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Andorra = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_andorra" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65506)">
 <g clip-path="url(#clip1_14537_65506)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#FFDA2C"/>
@@ -91,8 +91,8 @@
     }
     
 
-    export const Angola = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_angola" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Angola = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_angola" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65603)">
 <g clip-path="url(#clip1_14537_65603)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -115,8 +115,8 @@
     }
     
 
-    export const AntiguaAndBarbuda = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_antiguaandbarbuda" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const AntiguaAndBarbuda = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_antiguaandbarbuda" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65507)">
 <g clip-path="url(#clip1_14537_65507)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#151515"/>
@@ -142,8 +142,8 @@
     }
     
 
-    export const Argentina = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_argentina" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Argentina = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_argentina" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65508)">
 <g clip-path="url(#clip1_14537_65508)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="white"/>
@@ -165,8 +165,8 @@
     }
     
 
-    export const Armenia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_armenia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Armenia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_armenia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65509)">
 <g clip-path="url(#clip1_14537_65509)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#1A47B8"/>
@@ -188,8 +188,8 @@
     }
     
 
-    export const Aruba = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_aruba" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Aruba = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_aruba" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65510)">
 <g clip-path="url(#clip1_14537_65510)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#3ECBF8"/>
@@ -213,8 +213,8 @@
     }
     
 
-    export const Australia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_australia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Australia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_australia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65584)">
 <g clip-path="url(#clip1_14537_65584)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
@@ -238,8 +238,8 @@
     }
     
 
-    export const Austria = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_austria" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Austria = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_austria" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65511)">
 <g clip-path="url(#clip1_14537_65511)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="white"/>
@@ -260,8 +260,8 @@
     }
     
 
-    export const Azerbaijan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_azerbaijan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Azerbaijan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_azerbaijan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65635)">
 <g clip-path="url(#clip1_14537_65635)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#F93939"/>
@@ -285,8 +285,8 @@
     }
     
 
-    export const Bahamas = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_bahamas" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Bahamas = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_bahamas" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65696)">
 <g clip-path="url(#clip1_14537_65696)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#FFDA2C"/>
@@ -308,8 +308,8 @@
     }
     
 
-    export const Bahrain = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_bahrain" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Bahrain = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_bahrain" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65689)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H8.33333V17H1V1ZM8.33333 1L10.4286 2.6L8.33333 4.2V1ZM8.33333 4.2L10.4286 5.8L8.33333 7.4V4.2ZM8.33333 7.4L10.4286 9L8.33333 10.6V7.4ZM8.33333 10.6L10.4286 12.2L8.33333 13.8V10.6ZM8.33333 13.8L10.4286 15.4L8.33333 17V13.8Z" fill="white"/>
@@ -325,8 +325,8 @@
     }
     
 
-    export const Bangladesh = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_bangladesh" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Bangladesh = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_bangladesh" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65648)">
 <g clip-path="url(#clip1_14537_65648)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#249F58"/>
@@ -348,8 +348,8 @@
     }
     
 
-    export const Barbados = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_barbados" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Barbados = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_barbados" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65512)">
 <g clip-path="url(#clip1_14537_65512)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#FFDA2C"/>
@@ -372,8 +372,8 @@
     }
     
 
-    export const Belarus = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_belarus" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Belarus = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_belarus" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65513)">
 <g clip-path="url(#clip1_14537_65513)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -396,8 +396,8 @@
     }
     
 
-    export const Belgium = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_belgium" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Belgium = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_belgium" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65588)">
 <g clip-path="url(#clip1_14537_65588)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#FFDA2C"/>
@@ -419,8 +419,8 @@
     }
     
 
-    export const Belize = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_belize" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Belize = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_belize" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65523)">
 <g clip-path="url(#clip1_14537_65523)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
@@ -449,8 +449,8 @@
     }
     
 
-    export const Benin = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_benin" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Benin = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_benin" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65515)">
 <g clip-path="url(#clip1_14537_65515)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -473,8 +473,8 @@
     }
     
 
-    export const Bhutan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_bhutan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Bhutan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_bhutan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65519)">
 <g clip-path="url(#clip1_14537_65519)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FF6C2D"/>
@@ -497,8 +497,8 @@
     }
     
 
-    export const Bolivia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_bolivia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Bolivia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_bolivia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65520)">
 <g clip-path="url(#clip1_14537_65520)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#FFDA2C"/>
@@ -526,8 +526,8 @@
     }
     
 
-    export const BosniaAndHerzegovina = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_bosniaandherzegovina" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const BosniaAndHerzegovina = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_bosniaandherzegovina" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65521)">
 <g clip-path="url(#clip1_14537_65521)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -550,8 +550,8 @@
     }
     
 
-    export const Botswana = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_botswana" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Botswana = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_botswana" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65522)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#3ECBF8"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 10.6H23V11.6667H1V10.6Z" fill="white"/>
@@ -569,8 +569,8 @@
     }
     
 
-    export const BouvetIsland = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_bouvetisland" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const BouvetIsland = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_bouvetisland" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65539)">
 <g clip-path="url(#clip1_14537_65539)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -592,8 +592,8 @@
     }
     
 
-    export const Brazil = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_brazil" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Brazil = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_brazil" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65652)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#249F58"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.13333L19.8571 9L12 14.8667L4.14285 9" fill="#FFDA2C"/>
@@ -613,8 +613,8 @@
     }
     
 
-    export const BruneiDarussalam = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_bruneidarussalam" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const BruneiDarussalam = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_bruneidarussalam" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65699)">
 <g clip-path="url(#clip1_14537_65699)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -638,8 +638,8 @@
     }
     
 
-    export const Bulgaria = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_bulgaria" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Bulgaria = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_bulgaria" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65640)">
 <g clip-path="url(#clip1_14537_65640)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#249F58"/>
@@ -661,8 +661,8 @@
     }
     
 
-    export const BurkinaFaso = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_burkinafaso" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const BurkinaFaso = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_burkinafaso" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65525)">
 <g clip-path="url(#clip1_14537_65525)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -685,8 +685,8 @@
     }
     
 
-    export const Burundi = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_burundi" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Burundi = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_burundi" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65526)">
 <g clip-path="url(#clip1_14537_65526)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#F93939"/>
@@ -709,8 +709,8 @@
     }
     
 
-    export const Cambodia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_cambodia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Cambodia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_cambodia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65527)">
 <g clip-path="url(#clip1_14537_65527)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -734,8 +734,8 @@
     }
     
 
-    export const Cameroon = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_cameroon" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Cameroon = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_cameroon" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65529)">
 <g clip-path="url(#clip1_14537_65529)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#F93939"/>
@@ -758,8 +758,8 @@
     }
     
 
-    export const Canada = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_canada" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Canada = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_canada" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65530)">
 <g clip-path="url(#clip1_14537_65530)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -782,8 +782,8 @@
     }
     
 
-    export const CapeVerde = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_capeverde" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const CapeVerde = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_capeverde" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65657)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 9.53334H23V10.6H1V9.53334Z" fill="white"/>
@@ -802,8 +802,8 @@
     }
     
 
-    export const CentralAfricanRepublic = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_centralafricanrepublic" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const CentralAfricanRepublic = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_centralafricanrepublic" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65532)">
 <g clip-path="url(#clip1_14537_65532)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="white"/>
@@ -829,8 +829,8 @@
     }
     
 
-    export const Chad = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_chad" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Chad = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_chad" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65552)">
 <g clip-path="url(#clip1_14537_65552)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -852,8 +852,8 @@
     }
     
 
-    export const Chile = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_chile" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Chile = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_chile" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65533)">
 <g clip-path="url(#clip1_14537_65533)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -877,8 +877,8 @@
     }
     
 
-    export const China = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_china" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const China = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_china" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65599)">
 <g clip-path="url(#clip1_14537_65599)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -900,8 +900,8 @@
     }
     
 
-    export const Colombia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_colombia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Colombia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_colombia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65535)">
 <g clip-path="url(#clip1_14537_65535)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#1A47B8"/>
@@ -923,8 +923,8 @@
     }
     
 
-    export const Comoros = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_comoros" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Comoros = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_comoros" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65545)">
 <g clip-path="url(#clip1_14537_65545)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -949,8 +949,8 @@
     }
     
 
-    export const Congo = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_congo" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Congo = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_congo" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65561)">
 <g clip-path="url(#clip1_14537_65561)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#249F58"/>
@@ -972,8 +972,8 @@
     }
     
 
-    export const CostaRica = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_costarica" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const CostaRica = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_costarica" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65662)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4H23V6H1V4Z" fill="white"/>
@@ -991,8 +991,8 @@
     }
     
 
-    export const Croatia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_croatia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Croatia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_croatia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65672)">
 <g clip-path="url(#clip1_14537_65672)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1023,8 +1023,8 @@
     }
     
 
-    export const Cuba = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_cuba" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Cuba = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_cuba" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65537)">
 <g clip-path="url(#clip1_14537_65537)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1048,8 +1048,8 @@
     }
     
 
-    export const CuraAo = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_curaao" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const CuraAo = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_curaao" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65517)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M6.23809 6.33333H5.70945C5.4165 6.33333 5.19047 6.57211 5.19047 6.86666C5.19047 7.1526 5.42283 7.4 5.70945 7.4H6.23809V7.93825C6.23809 8.23653 6.47261 8.46666 6.7619 8.46666C7.04273 8.46666 7.28571 8.23008 7.28571 7.93825V7.4H7.81435C8.1073 7.4 8.33333 7.16122 8.33333 6.86666C8.33333 6.58073 8.10097 6.33333 7.81435 6.33333H7.28571V5.79508C7.28571 5.4968 7.05119 5.26666 6.7619 5.26666C6.48107 5.26666 6.23809 5.50324 6.23809 5.79508V6.33333ZM4.14285 4.2H5.19047V5.26666H4.14285V4.2Z" fill="white"/>
@@ -1066,8 +1066,8 @@
     }
     
 
-    export const Cyprus = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_cyprus" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Cyprus = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_cyprus" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65693)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M6.2381 7.4C6.2381 7.4 7.28572 10.6 10.4286 10.6C13.5714 10.6 16.7143 7.4 16.7143 7.4H14.6191L17.7619 4.2L11.4762 6.33333L9.38096 4.2L8.33334 6.33333L6.2381 7.4Z" fill="#FF6C2D"/>
@@ -1084,8 +1084,8 @@
     }
     
 
-    export const CzechRepublic = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_czechrepublic" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const CzechRepublic = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_czechrepublic" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65538)">
 <g clip-path="url(#clip1_14537_65538)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -1107,8 +1107,8 @@
     }
     
 
-    export const Denmark = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_denmark" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Denmark = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_denmark" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65653)">
 <g clip-path="url(#clip1_14537_65653)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -1129,8 +1129,8 @@
     }
     
 
-    export const Djibouti = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_djibouti" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Djibouti = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_djibouti" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65690)">
 <g clip-path="url(#clip1_14537_65690)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#249F58"/>
@@ -1153,8 +1153,8 @@
     }
     
 
-    export const Dominica = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_dominica" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Dominica = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_dominica" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65540)">
 <g clip-path="url(#clip1_14537_65540)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#249F58"/>
@@ -1180,8 +1180,8 @@
     }
     
 
-    export const DominicanRepublic = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_dominicanrepublic" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const DominicanRepublic = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_dominicanrepublic" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65541)">
 <g clip-path="url(#clip1_14537_65541)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1211,8 +1211,8 @@
     }
     
 
-    export const DrCongo = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_drcongo" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const DrCongo = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_drcongo" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65697)">
 <g clip-path="url(#clip1_14537_65697)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#3A99FF"/>
@@ -1236,8 +1236,8 @@
     }
     
 
-    export const Ecuador = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_ecuador" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Ecuador = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_ecuador" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65542)">
 <g clip-path="url(#clip1_14537_65542)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#1A47B8"/>
@@ -1262,8 +1262,8 @@
     }
     
 
-    export const Egypt = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_egypt" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Egypt = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_egypt" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65644)">
 <g clip-path="url(#clip1_14537_65644)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="white"/>
@@ -1286,8 +1286,8 @@
     }
     
 
-    export const ElSalvador = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_elsalvador" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const ElSalvador = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_elsalvador" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65576)">
 <g clip-path="url(#clip1_14537_65576)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1311,8 +1311,8 @@
     }
     
 
-    export const EquatorialGuinea = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_equatorialguinea" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const EquatorialGuinea = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_equatorialguinea" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65543)">
 <g clip-path="url(#clip1_14537_65543)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1338,8 +1338,8 @@
     }
     
 
-    export const Eritrea = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_eritrea" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Eritrea = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_eritrea" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65674)">
 <g clip-path="url(#clip1_14537_65674)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#3A99FF"/>
@@ -1363,8 +1363,8 @@
     }
     
 
-    export const Estonia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_estonia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Estonia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_estonia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65613)">
 <g clip-path="url(#clip1_14537_65613)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#151515"/>
@@ -1386,8 +1386,8 @@
     }
     
 
-    export const Eswatini = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_eswatini" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Eswatini = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_eswatini" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65544)">
 <g clip-path="url(#clip1_14537_65544)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -1415,8 +1415,8 @@
     }
     
 
-    export const Ethiopia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_ethiopia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Ethiopia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_ethiopia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65684)">
 <g clip-path="url(#clip1_14537_65684)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#FFDA2C"/>
@@ -1440,8 +1440,8 @@
     }
     
 
-    export const Europe = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_europe" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Europe = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_europe" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65574)">
 <g clip-path="url(#clip1_14537_65574)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
@@ -1463,8 +1463,8 @@
     }
     
 
-    export const Fiji = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_fiji" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Fiji = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_fiji" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65680)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#3ECBF8"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M19.8571 11.6667V7.93333C19.8571 7.04267 19.1531 6.33333 18.2857 6.33333H16.1904C15.3251 6.33333 14.619 7.048 14.619 7.93333V11.6667C14.619 11.8608 15.6666 13.8 17.2381 13.8C18.8095 13.8 19.8571 11.8555 19.8571 11.6667Z" fill="white"/>
@@ -1484,8 +1484,8 @@
     }
     
 
-    export const Finland = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_finland" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Finland = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_finland" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65676)">
 <g clip-path="url(#clip1_14537_65676)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1506,8 +1506,8 @@
     }
     
 
-    export const France = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_france" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const France = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_france" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65546)">
 <g clip-path="url(#clip1_14537_65546)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1529,8 +1529,8 @@
     }
     
 
-    export const Gabon = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_gabon" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Gabon = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_gabon" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65547)">
 <g clip-path="url(#clip1_14537_65547)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -1552,8 +1552,8 @@
     }
     
 
-    export const Gambia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_gambia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Gambia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_gambia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65628)">
 <g clip-path="url(#clip1_14537_65628)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="white"/>
@@ -1576,8 +1576,8 @@
     }
     
 
-    export const Georgia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_georgia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Georgia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_georgia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65660)">
 <g clip-path="url(#clip1_14537_65660)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1599,8 +1599,8 @@
     }
     
 
-    export const Germany = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_germany" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Germany = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_germany" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65549)">
 <g clip-path="url(#clip1_14537_65549)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -1622,8 +1622,8 @@
     }
     
 
-    export const Ghana = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_ghana" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Ghana = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_ghana" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65550)">
 <g clip-path="url(#clip1_14537_65550)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -1646,8 +1646,8 @@
     }
     
 
-    export const Greece = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_greece" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Greece = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_greece" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65551)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H5.19048V5.26667H1V1ZM7.28571 1H11.4762V5.26667H7.28571V1ZM1 7.4H5.19048V11.6667H1V7.4ZM7.28571 7.4H11.4762V11.6667H7.28571V7.4ZM11.4762 1H23V3.13333H11.4762V1ZM11.4762 5.26667H23V7.4H11.4762V5.26667Z" fill="#1A47B8"/>
@@ -1664,8 +1664,8 @@
     }
     
 
-    export const Grenada = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_grenada" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Grenada = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_grenada" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65553)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.14288 4.2H19.8572V13.8H4.14288V4.2Z" fill="#FFDA2C"/>
@@ -1687,8 +1687,8 @@
     }
     
 
-    export const Guatemala = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_guatemala" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Guatemala = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_guatemala" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65554)">
 <g clip-path="url(#clip1_14537_65554)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1712,8 +1712,8 @@
     }
     
 
-    export const Guinea = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_guinea" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Guinea = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_guinea" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65555)">
 <g clip-path="url(#clip1_14537_65555)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="#FFDA2C"/>
@@ -1735,8 +1735,8 @@
     }
     
 
-    export const GuineaBissau = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_guineabissau" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const GuineaBissau = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_guineabissau" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65556)">
 <g clip-path="url(#clip1_14537_65556)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -1760,8 +1760,8 @@
     }
     
 
-    export const Guyana = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_guyana" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Guyana = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_guyana" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65557)">
 <g clip-path="url(#clip1_14537_65557)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#249F58"/>
@@ -1785,8 +1785,8 @@
     }
     
 
-    export const Haiti = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_haiti" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Haiti = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_haiti" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65559)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H23V9H1V1Z" fill="#1A47B8"/>
@@ -1805,8 +1805,8 @@
     }
     
 
-    export const HolySee = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_holysee" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const HolySee = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_holysee" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65560)">
 <g clip-path="url(#clip1_14537_65560)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H9.38095V17H1V1Z" fill="#FFDA2C"/>
@@ -1831,8 +1831,8 @@
     }
     
 
-    export const Honduras = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_honduras" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Honduras = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_honduras" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65534)">
 <g clip-path="url(#clip1_14537_65534)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1853,8 +1853,8 @@
     }
     
 
-    export const HongKong = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_hongkong" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const HongKong = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_hongkong" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65569)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6385 9.01493C8.7974 7.7904 10.0566 4.01867 12.7752 4.2064C12.2242 4.4944 12.1445 5.032 12.4588 5.52907C12.8108 6.088 12.4274 6.98507 11.9518 7.20373C11.1703 7.56107 11.0142 8.51573 11.6375 9.01493H11.6385ZM11.8764 8.8848C12.1414 5.75627 16.0564 5.8096 16.7164 8.49867C16.2785 8.056 15.7525 8.14453 15.3838 8.6032C14.9721 9.1152 14.0156 9.0192 13.6657 8.62773C13.0895 7.98347 12.1466 8.1264 11.8764 8.88587V8.8848ZM11.9727 9.19733C14.9899 8.54133 16.0836 12.3675 13.7505 13.7989C14.0397 13.2411 13.8029 12.7536 13.2645 12.5296C12.6631 12.2779 12.4725 11.3189 12.7385 10.8635C13.1765 10.1136 12.7658 9.23893 11.9738 9.19627L11.9727 9.19733ZM8.0714 12.712C8.67902 12.8187 9.0614 12.4379 9.10436 11.848C9.1536 11.1867 9.9896 10.7067 10.4977 10.824C11.3337 11.016 12.0241 10.3483 11.8177 9.56747C13.364 12.2875 10.1279 14.5275 8.07036 12.7109L8.0714 12.712ZM7.44598 6.86667C7.56645 7.4832 8.0515 7.70933 8.60883 7.53867C9.23217 7.3488 9.97283 7.97173 10.0472 8.49867C10.1708 9.36053 11.0299 9.77653 11.671 9.30293C9.73293 11.7456 6.51674 9.4736 7.44598 6.8656V6.86667Z" fill="white"/>
@@ -1870,8 +1870,8 @@
     }
     
 
-    export const Hungary = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_hungary" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Hungary = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_hungary" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65562)">
 <g clip-path="url(#clip1_14537_65562)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1893,8 +1893,8 @@
     }
     
 
-    export const Iceland = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_iceland" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Iceland = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_iceland" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65563)">
 <g clip-path="url(#clip1_14537_65563)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
@@ -1916,8 +1916,8 @@
     }
     
 
-    export const India = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_india" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const India = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_india" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65564)">
 <g clip-path="url(#clip1_14537_65564)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1941,8 +1941,8 @@
     }
     
 
-    export const Indonesia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_indonesia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Indonesia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_indonesia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65565)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H23V9H1V1Z" fill="#F93939"/>
@@ -1958,8 +1958,8 @@
     }
     
 
-    export const Iran = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_iran" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Iran = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_iran" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65531)">
 <g clip-path="url(#clip1_14537_65531)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -1983,8 +1983,8 @@
     }
     
 
-    export const Iraq = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_iraq" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Iraq = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_iraq" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65595)">
 <g clip-path="url(#clip1_14537_65595)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -2007,8 +2007,8 @@
     }
     
 
-    export const Ireland = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_ireland" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Ireland = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_ireland" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65591)">
 <g clip-path="url(#clip1_14537_65591)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="white"/>
@@ -2030,8 +2030,8 @@
     }
     
 
-    export const Israel = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_israel" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Israel = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_israel" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65682)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12.7333H23V14.8667H1V12.7333ZM1 3.13333H23V5.26666H1V3.13333ZM11.3452 10.6H9.38095L10.3636 9L9.38095 7.4H11.3452L12 6.33333L12.6548 7.4H14.619L13.6364 9L14.619 10.6H12.6548L12 11.6667L11.3452 10.6ZM10.9524 9L12 7.93333L13.0476 9L12 10.0667L10.9524 9Z" fill="#1A47B8"/>
@@ -2047,8 +2047,8 @@
     }
     
 
-    export const Italy = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_italy" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Italy = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_italy" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65566)">
 <g clip-path="url(#clip1_14537_65566)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -2070,8 +2070,8 @@
     }
     
 
-    export const IvoryCoast = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_ivorycoast" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const IvoryCoast = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_ivorycoast" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65585)">
 <g clip-path="url(#clip1_14537_65585)">
 <path d="M20.9048 1H3.09524C1.93807 1 1 1.95513 1 3.13333V14.8667C1 16.0449 1.93807 17 3.09524 17H20.9048C22.0619 17 23 16.0449 23 14.8667V3.13333C23 1.95513 22.0619 1 20.9048 1Z" fill="white"/>
@@ -2093,8 +2093,8 @@
     }
     
 
-    export const Jamaica = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_jamaica" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Jamaica = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_jamaica" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65568)">
 <g clip-path="url(#clip1_14537_65568)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#249F58"/>
@@ -2116,8 +2116,8 @@
     }
     
 
-    export const Japan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_japan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Japan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_japan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65572)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
 <path d="M12 12.7333C14.025 12.7333 15.6666 11.0619 15.6666 9C15.6666 6.93814 14.025 5.26667 12 5.26667C9.97494 5.26667 8.33331 6.93814 8.33331 9C8.33331 11.0619 9.97494 12.7333 12 12.7333Z" fill="#F93939"/>
@@ -2133,8 +2133,8 @@
     }
     
 
-    export const Jordan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_jordan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Jordan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_jordan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65570)">
 <g clip-path="url(#clip1_14537_65570)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -2158,8 +2158,8 @@
     }
     
 
-    export const Kazakhstan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_kazakhstan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Kazakhstan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_kazakhstan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65571)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#03BCDB"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.09521 3.66133C3.09521 3.37013 3.33826 3.13333 3.61902 3.13333C3.90817 3.13333 4.14283 3.36373 4.14283 3.66133V5.80533C4.14283 6.09653 3.89979 6.33333 3.61902 6.33333C3.32988 6.33333 3.09521 6.10293 3.09521 5.80533V3.66133ZM4.14283 5.79466C4.14283 5.50346 4.38588 5.26666 4.66664 5.26666C4.95579 5.26666 5.19045 5.49706 5.19045 5.79466V7.93866C5.19045 8.22987 4.94741 8.46666 4.66664 8.46666C4.3775 8.46666 4.14283 8.23627 4.14283 7.93866V5.79466ZM4.14283 10.0613C4.14283 9.77013 4.38588 9.53333 4.66664 9.53333C4.95579 9.53333 5.19045 9.76373 5.19045 10.0613V12.2053C5.19045 12.4965 4.94741 12.7333 4.66664 12.7333C4.3775 12.7333 4.14283 12.5029 4.14283 12.2053V10.0613ZM3.09521 12.1947C3.09521 11.9035 3.33826 11.6667 3.61902 11.6667C3.90817 11.6667 4.14283 11.8971 4.14283 12.1947V14.3387C4.14283 14.6299 3.89979 14.8667 3.61902 14.8667C3.32988 14.8667 3.09521 14.6363 3.09521 14.3387V12.1947ZM3.09521 7.93333C3.09521 7.63893 3.33826 7.4 3.61902 7.4C3.90817 7.4 4.14283 7.64746 4.14283 7.93333C4.14283 8.22773 3.89979 8.46666 3.61902 8.46666C3.32988 8.46666 3.09521 8.2192 3.09521 7.93333ZM4.14283 3.66666C4.14283 3.37226 4.38588 3.13333 4.66664 3.13333C4.95579 3.13333 5.19045 3.3808 5.19045 3.66666C5.19045 3.96106 4.94741 4.2 4.66664 4.2C4.3775 4.2 4.14283 3.95253 4.14283 3.66666ZM3.09521 9C3.09521 8.7056 3.33826 8.46666 3.61902 8.46666C3.90817 8.46666 4.14283 8.71413 4.14283 9C4.14283 9.2944 3.89979 9.53333 3.61902 9.53333C3.32988 9.53333 3.09521 9.28586 3.09521 9ZM4.14283 14.3333C4.14283 14.0389 4.38588 13.8 4.66664 13.8C4.95579 13.8 5.19045 14.0475 5.19045 14.3333C5.19045 14.6277 4.94741 14.8667 4.66664 14.8667C4.3775 14.8667 4.14283 14.6192 4.14283 14.3333ZM3.09521 10.0667C3.09521 9.77226 3.33826 9.53333 3.61902 9.53333C3.90817 9.53333 4.14283 9.7808 4.14283 10.0667C4.14283 10.3611 3.89979 10.6 3.61902 10.6C3.32988 10.6 3.09521 10.3525 3.09521 10.0667Z" fill="#FFDA2C"/>
@@ -2177,8 +2177,8 @@
     }
     
 
-    export const Kenya = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_kenya" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Kenya = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_kenya" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65518)">
 <g clip-path="url(#clip1_14537_65518)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#151515"/>
@@ -2206,8 +2206,8 @@
     }
     
 
-    export const Kiribati = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_kiribati" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Kiribati = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_kiribati" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65586)">
 <g clip-path="url(#clip1_14537_65586)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -2231,8 +2231,8 @@
     }
     
 
-    export const Korena = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_korena" viewBox="0 0 28 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Korena = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_korena" viewBox="0 0 28 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65502)">
 <g clip-path="url(#clip1_14537_65502)">
 <path d="M26.5984 17.7467H1.25225C1.0023 17.7467 0.799622 17.544 0.799622 17.2941V1.00012C0.799622 0.750164 1.0023 0.547485 1.25225 0.547485H26.5984C26.8484 0.547485 27.0511 0.750164 27.0511 1.00012V17.2941C27.051 17.5441 26.8483 17.7467 26.5984 17.7467Z" fill="white"/>
@@ -2272,8 +2272,8 @@
     }
     
 
-    export const Kuwait = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_kuwait" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Kuwait = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_kuwait" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65573)">
 <g clip-path="url(#clip1_14537_65573)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -2296,8 +2296,8 @@
     }
     
 
-    export const Kyrgyzstan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_kyrgyzstan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Kyrgyzstan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_kyrgyzstan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65625)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.692 11.1173C11.7936 11.128 11.8963 11.1333 12 11.1333C12.1048 11.1333 12.2064 11.128 12.308 11.1173L12 10.3333L11.692 11.1173ZM10.2715 10.536C9.72355 10.0944 9.38098 9.45013 9.38098 8.73333C9.38098 7.88746 9.8587 7.144 10.5795 6.71733L11.4762 8.99999L10.2715 10.536ZM13.4206 6.71733C14.1414 7.144 14.6191 7.88746 14.6191 8.73333C14.6191 9.4512 14.2755 10.0955 13.7286 10.536L12.5238 8.99999L13.4206 6.71733ZM13.3158 6.65759C12.9282 6.45066 12.4798 6.33333 12 6.33333C11.5202 6.33333 11.0708 6.45066 10.6842 6.65759L12 8.33226L13.3158 6.65759Z" fill="#FFDA2C"/>
@@ -2314,8 +2314,8 @@
     }
     
 
-    export const Laos = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_laos" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Laos = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_laos" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65524)">
 <g clip-path="url(#clip1_14537_65524)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#232C80"/>
@@ -2337,8 +2337,8 @@
     }
     
 
-    export const Latvia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_latvia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Latvia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_latvia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65650)">
 <g clip-path="url(#clip1_14537_65650)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -2359,8 +2359,8 @@
     }
     
 
-    export const Lebanon = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_lebanon" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Lebanon = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_lebanon" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65633)">
 <g clip-path="url(#clip1_14537_65633)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -2382,8 +2382,8 @@
     }
     
 
-    export const Lesotho = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_lesotho" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Lesotho = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_lesotho" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65666)">
 <g clip-path="url(#clip1_14537_65666)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -2406,8 +2406,8 @@
     }
     
 
-    export const Liberia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_liberia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Liberia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_liberia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65575)">
 <g clip-path="url(#clip1_14537_65575)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -2431,8 +2431,8 @@
     }
     
 
-    export const Libya = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_libya" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Libya = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_libya" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65578)">
 <g clip-path="url(#clip1_14537_65578)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#151515"/>
@@ -2456,8 +2456,8 @@
     }
     
 
-    export const Liechtenstein = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_liechtenstein" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Liechtenstein = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_liechtenstein" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65580)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H23V9H1V1Z" fill="#1A47B8"/>
@@ -2475,8 +2475,8 @@
     }
     
 
-    export const Lithuania = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_lithuania" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Lithuania = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_lithuania" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65701)">
 <g clip-path="url(#clip1_14537_65701)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#0A6A30"/>
@@ -2498,8 +2498,8 @@
     }
     
 
-    export const Luxembourg = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_luxembourg" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Luxembourg = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_luxembourg" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65581)">
 <g clip-path="url(#clip1_14537_65581)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -2521,8 +2521,8 @@
     }
     
 
-    export const Madagascar = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_madagascar" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Madagascar = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_madagascar" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65582)">
 <g clip-path="url(#clip1_14537_65582)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -2544,8 +2544,8 @@
     }
     
 
-    export const Malawi = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_malawi" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Malawi = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_malawi" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65583)">
 <g clip-path="url(#clip1_14537_65583)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -2568,8 +2568,8 @@
     }
     
 
-    export const Malaysia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_malaysia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Malaysia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_malaysia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65587)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
 <rect x="1" y="1" width="22" height="1.14872" fill="#AF010D"/>
@@ -2594,8 +2594,8 @@
     }
     
 
-    export const Maldives = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_maldives" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Maldives = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_maldives" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65626)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#AF010D"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4 5H20V13H4V5Z" fill="#249F58"/>
@@ -2612,8 +2612,8 @@
     }
     
 
-    export const Mali = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_mali" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Mali = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_mali" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65590)">
 <g clip-path="url(#clip1_14537_65590)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -2635,8 +2635,8 @@
     }
     
 
-    export const Malta = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_malta" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Malta = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_malta" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65593)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#AF010D"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H12.5238V17H1V1Z" fill="white"/>
@@ -2653,8 +2653,8 @@
     }
     
 
-    export const MarshallIslands = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_marshallislands" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const MarshallIslands = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_marshallislands" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65687)">
 <g clip-path="url(#clip1_14537_65687)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
@@ -2677,8 +2677,8 @@
     }
     
 
-    export const Mauritania = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_mauritania" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Mauritania = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_mauritania" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65606)">
 <g clip-path="url(#clip1_14537_65606)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#249F58"/>
@@ -2702,8 +2702,8 @@
     }
     
 
-    export const Mauritius = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_mauritius" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Mauritius = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_mauritius" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65627)">
 <g clip-path="url(#clip1_14537_65627)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -2726,8 +2726,8 @@
     }
     
 
-    export const Mexico = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_mexico" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Mexico = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_mexico" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65639)">
 <g clip-path="url(#clip1_14537_65639)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -2751,8 +2751,8 @@
     }
     
 
-    export const Micronesia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_micronesia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Micronesia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_micronesia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65702)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#3A99FF"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4762 5.26668H10.9471C10.6538 5.26668 10.4286 5.50561 10.4286 5.80001C10.4286 6.08588 10.6611 6.33335 10.9471 6.33335H11.4762V6.87201C11.4762 7.17068 11.7109 7.40001 12 7.40001C12.2808 7.40001 12.5238 7.16321 12.5238 6.87201V6.33335H13.0529C13.3462 6.33335 13.5714 6.09441 13.5714 5.80001C13.5714 5.51415 13.3389 5.26668 13.0529 5.26668H12.5238V4.72801C12.5238 4.42935 12.2891 4.20001 12 4.20001C11.7192 4.20001 11.4762 4.43681 11.4762 4.72801V5.26668ZM15.6667 8.46668H15.1376C14.8443 8.46668 14.6191 8.70561 14.6191 9.00001C14.6191 9.28588 14.8516 9.53335 15.1376 9.53335H15.6667V10.072C15.6667 10.3707 15.9013 10.6 16.1905 10.6C16.4712 10.6 16.7143 10.3632 16.7143 10.072V9.53335H17.2433C17.5367 9.53335 17.7619 9.29441 17.7619 9.00001C17.7619 8.71415 17.5293 8.46668 17.2433 8.46668H16.7143V7.92801C16.7143 7.62935 16.4796 7.40001 16.1905 7.40001C15.9097 7.40001 15.6667 7.63681 15.6667 7.92801V8.46668ZM11.4762 11.6667H10.9471C10.6538 11.6667 10.4286 11.9056 10.4286 12.2C10.4286 12.4859 10.6611 12.7333 10.9471 12.7333H11.4762V13.272C11.4762 13.5707 11.7109 13.8 12 13.8C12.2808 13.8 12.5238 13.5632 12.5238 13.272V12.7333H13.0529C13.3462 12.7333 13.5714 12.4944 13.5714 12.2C13.5714 11.9141 13.3389 11.6667 13.0529 11.6667H12.5238V11.128C12.5238 10.8293 12.2891 10.6 12 10.6C11.7192 10.6 11.4762 10.8368 11.4762 11.128V11.6667ZM7.28572 8.46668H6.75667C6.46334 8.46668 6.2381 8.70561 6.2381 9.00001C6.2381 9.28588 6.47067 9.53335 6.75667 9.53335H7.28572V10.072C7.28572 10.3707 7.52038 10.6 7.80953 10.6C8.09029 10.6 8.33334 10.3632 8.33334 10.072V9.53335H8.86238C9.15572 9.53335 9.38096 9.29441 9.38096 9.00001C9.38096 8.71415 9.14838 8.46668 8.86238 8.46668H8.33334V7.92801C8.33334 7.62935 8.09867 7.40001 7.80953 7.40001C7.52876 7.40001 7.28572 7.63681 7.28572 7.92801V8.46668Z" fill="white"/>
@@ -2768,8 +2768,8 @@
     }
     
 
-    export const Moldova = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_moldova" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Moldova = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_moldova" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65548)">
 <g clip-path="url(#clip1_14537_65548)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -2795,8 +2795,8 @@
     }
     
 
-    export const Monaco = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_monaco" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Monaco = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_monaco" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65646)">
 <g clip-path="url(#clip1_14537_65646)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#AF010D"/>
@@ -2817,8 +2817,8 @@
     }
     
 
-    export const Mongolia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_mongolia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Mongolia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_mongolia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65594)">
 <g clip-path="url(#clip1_14537_65594)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
@@ -2844,8 +2844,8 @@
     }
     
 
-    export const Montenegro = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_montenegro" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Montenegro = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_montenegro" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65661)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#D4AF2C"/>
 <rect x="2.04761" y="2.06668" width="19.9048" height="13.8667" fill="#AF010D"/>
@@ -2864,8 +2864,8 @@
     }
     
 
-    export const Morocco = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_morocco" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Morocco = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_morocco" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65617)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#AF010D"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 10.5893L10.46 11.4107L10.7534 9.66666L9.50879 8.42932L11.23 8.17546L12 6.58826L12.77 8.17439L14.4913 8.43039L13.2446 9.66559L13.5379 11.4107" fill="#249F58"/>
@@ -2881,8 +2881,8 @@
     }
     
 
-    export const Mozambique = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_mozambique" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Mozambique = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_mozambique" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65600)">
 <g clip-path="url(#clip1_14537_65600)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#151515"/>
@@ -2910,8 +2910,8 @@
     }
     
 
-    export const Myanmar = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_myanmar" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Myanmar = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_myanmar" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65629)">
 <g clip-path="url(#clip1_14537_65629)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#249F58"/>
@@ -2934,8 +2934,8 @@
     }
     
 
-    export const Namibia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_namibia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Namibia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_namibia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65558)">
 <g clip-path="url(#clip1_14537_65558)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
@@ -2960,8 +2960,8 @@
     }
     
 
-    export const Nauru = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_nauru" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Nauru = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_nauru" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65694)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#232C80"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8.46667H23V9.53334H1V8.46667Z" fill="#FFDA2C"/>
@@ -2978,8 +2978,8 @@
     }
     
 
-    export const Nepal = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_nepal" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Nepal = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_nepal" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65597)">
 <g clip-path="url(#clip1_14537_65597)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1L14.619 9.53333H7.28571L14.619 17H1V1Z" fill="#003495"/>
@@ -3002,8 +3002,8 @@
     }
     
 
-    export const Netherlands = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_netherlands" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Netherlands = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_netherlands" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65598)">
 <g clip-path="url(#clip1_14537_65598)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -3025,8 +3025,8 @@
     }
     
 
-    export const NewZealand = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_newzealand" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const NewZealand = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_newzealand" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65609)">
 <g clip-path="url(#clip1_14537_65609)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
@@ -3050,8 +3050,8 @@
     }
     
 
-    export const Nicaragua = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_nicaragua" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Nicaragua = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_nicaragua" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65685)">
 <g clip-path="url(#clip1_14537_65685)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -3076,8 +3076,8 @@
     }
     
 
-    export const Niger = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_niger" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Niger = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_niger" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65612)">
 <g clip-path="url(#clip1_14537_65612)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -3100,8 +3100,8 @@
     }
     
 
-    export const Nigeria = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_nigeria" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Nigeria = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_nigeria" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65601)">
 <g clip-path="url(#clip1_14537_65601)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -3122,8 +3122,8 @@
     }
     
 
-    export const NorthKorea = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_northkorea" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const NorthKorea = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_northkorea" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65596)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.20001H23V5.26668H1V4.20001Z" fill="white"/>
@@ -3143,8 +3143,8 @@
     }
     
 
-    export const NorthMacedonia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_northmacedonia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const NorthMacedonia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_northmacedonia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65621)">
 <g clip-path="url(#clip1_14537_65621)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#AF010D"/>
@@ -3168,8 +3168,8 @@
     }
     
 
-    export const Norway = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_norway" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Norway = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_norway" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65605)">
 <g clip-path="url(#clip1_14537_65605)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#AF010D"/>
@@ -3191,8 +3191,8 @@
     }
     
 
-    export const Oman = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_oman" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Oman = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_oman" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65610)">
 <g clip-path="url(#clip1_14537_65610)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -3216,8 +3216,8 @@
     }
     
 
-    export const Pakistan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_pakistan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Pakistan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_pakistan" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65688)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#0A6A30"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.7347 7.37227C17.6655 8.008 17.4686 8.46667 17.2381 8.46667C17.0076 8.46667 16.8107 8.008 16.7415 7.37227C16.1171 7.30187 15.6667 7.10133 15.6667 6.86667C15.6667 6.632 16.1171 6.43147 16.7415 6.36107C16.8107 5.72533 17.0076 5.26667 17.2381 5.26667C17.4686 5.26667 17.6655 5.72533 17.7347 6.36107C18.359 6.43147 18.8095 6.632 18.8095 6.86667C18.8095 7.10133 18.359 7.30187 17.7347 7.37227ZM1 1H7V17H1V1Z" fill="white"/>
@@ -3234,8 +3234,8 @@
     }
     
 
-    export const Palau = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_palau" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Palau = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_palau" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65614)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#3A99FF"/>
 <path d="M11 14C13.7614 14 16 11.7614 16 9C16 6.23858 13.7614 4 11 4C8.23858 4 6 6.23858 6 9C6 11.7614 8.23858 14 11 14Z" fill="#FFDA2C"/>
@@ -3251,8 +3251,8 @@
     }
     
 
-    export const Palestine = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_palestine" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Palestine = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_palestine" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65616)">
 <g clip-path="url(#clip1_14537_65616)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -3275,8 +3275,8 @@
     }
     
 
-    export const Panama = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_panama" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Panama = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_panama" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65677)">
 <g clip-path="url(#clip1_14537_65677)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -3301,8 +3301,8 @@
     }
     
 
-    export const PapuaNewGuinea = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_papuanewguinea" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const PapuaNewGuinea = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_papuanewguinea" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65663)">
 <g clip-path="url(#clip1_14537_65663)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#AF010D"/>
@@ -3329,8 +3329,8 @@
     }
     
 
-    export const Paraguay = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_paraguay" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Paraguay = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_paraguay" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65619)">
 <g clip-path="url(#clip1_14537_65619)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -3354,8 +3354,8 @@
     }
     
 
-    export const Peru = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_peru" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Peru = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_peru" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65622)">
 <g clip-path="url(#clip1_14537_65622)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -3376,8 +3376,8 @@
     }
     
 
-    export const Philippines = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_philippines" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Philippines = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_philippines" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65623)">
 <g clip-path="url(#clip1_14537_65623)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -3403,8 +3403,8 @@
     }
     
 
-    export const Poland = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_poland" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Poland = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_poland" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65602)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#AF010D"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H23V9H1V1Z" fill="white"/>
@@ -3420,8 +3420,8 @@
     }
     
 
-    export const Portugal = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_portugal" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Portugal = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_portugal" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65632)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H8V17H1V1Z" fill="#249F58"/>
@@ -3441,8 +3441,8 @@
     }
     
 
-    export const Qatar = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_qatar" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Qatar = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_qatar" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65695)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#AF010D"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M6.2381 1L9.38095 2.06667L6.2381 3.13333L9.38095 4.2L6.2381 5.26667L9.38095 6.33333L6.2381 7.4L9.38095 8.46667L6.2381 9.53333L9.38095 10.6L6.2381 11.6667L9.38095 12.7333L6.2381 13.8L9.38095 14.8667L6.2381 15.9333L9.38095 17H1V1H6.2381Z" fill="white"/>
@@ -3458,8 +3458,8 @@
     }
     
 
-    export const Romania = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_romania" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Romania = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_romania" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65634)">
 <g clip-path="url(#clip1_14537_65634)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -3481,8 +3481,8 @@
     }
     
 
-    export const RussianFederation = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_russianfederation" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const RussianFederation = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_russianfederation" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65636)">
 <g clip-path="url(#clip1_14537_65636)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
@@ -3504,8 +3504,8 @@
     }
     
 
-    export const Rwanda = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_rwanda" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Rwanda = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_rwanda" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65698)">
 <g clip-path="url(#clip1_14537_65698)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -3528,8 +3528,8 @@
     }
     
 
-    export const SaintLucia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_saintlucia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SaintLucia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_saintlucia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65604)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#3ECBF8"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M7.28571 14.8667L12 3.13333L16.7143 14.8667H7.28571Z" fill="white"/>
@@ -3547,8 +3547,8 @@
     }
     
 
-    export const SaintVicentAndTheGrenadines = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_saintvicentandthegrenadines" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SaintVicentAndTheGrenadines = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_saintvicentandthegrenadines" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65631)">
 <g clip-path="url(#clip1_14537_65631)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -3573,8 +3573,8 @@
     }
     
 
-    export const Samoa = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_samoa" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Samoa = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_samoa" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65637)">
 <g clip-path="url(#clip1_14537_65637)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#F93939"/>
@@ -3597,8 +3597,8 @@
     }
     
 
-    export const SanMarino = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_sanmarino" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SanMarino = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_sanmarino" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65638)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 9H23V17H1V9Z" fill="#3A99FF"/>
@@ -3617,8 +3617,8 @@
     }
     
 
-    export const SaoTomeAndPrincipe = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_saotomeandprincipe" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SaoTomeAndPrincipe = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_saotomeandprincipe" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65592)">
 <g clip-path="url(#clip1_14537_65592)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -3641,8 +3641,8 @@
     }
     
 
-    export const SaudiArabia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_saudiarabia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SaudiArabia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_saudiarabia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65655)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#249F58"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.762 11.6666V10.6H6.23821L8.33345 11.6666H14.6192C14.6192 12.2554 15.3232 12.7333 16.1906 12.7333C17.058 12.7333 17.762 12.2554 17.762 11.6666ZM10.1458 5.16638C10.1333 5.16638 10.1144 5.17278 10.0903 5.18772C10.0337 5.22612 9.92269 5.34452 9.9185 5.48105C9.91535 5.55892 9.90069 5.55892 9.94993 5.60905C9.98554 5.66025 10.0233 5.65598 10.0945 5.61652C10.1364 5.58452 10.15 5.56638 10.1647 5.51412C10.1814 5.42878 10.0735 5.55678 10.0599 5.45865C10.0358 5.36905 10.105 5.33065 10.1699 5.24532C10.172 5.20265 10.172 5.17065 10.1458 5.16852V5.16638ZM11.1966 5.17172C11.1756 5.17598 11.1515 5.20372 11.117 5.26558C11.0929 5.33172 10.9871 5.43198 11.0646 5.63892C11.1254 5.77012 11.1515 5.98238 11.1233 6.22025C11.0793 6.28745 11.0709 6.31091 11.0133 6.37812C10.9336 6.46665 10.8456 6.44425 10.7807 6.41012C10.7178 6.36745 10.6696 6.34612 10.6414 6.21172C10.6466 5.99838 10.6592 5.64425 10.6204 5.56958C10.5638 5.45438 10.4695 5.49492 10.4297 5.53012C10.238 5.71145 10.1427 6.01332 10.084 6.25545C10.0316 6.43038 9.97402 6.37918 9.93421 6.30878C9.83678 6.21492 9.82945 5.48745 9.71212 5.60798C9.52354 6.15625 9.82002 6.75678 10.0264 6.69812C10.1731 6.76212 10.2674 6.47412 10.3281 6.15945C10.37 6.07092 10.4014 6.06025 10.4224 6.10612C10.4172 6.52425 10.4538 6.61812 10.5586 6.74398C10.7933 6.92958 10.9881 6.76745 11.0038 6.75252L11.1872 6.56692C11.2291 6.52425 11.2814 6.51998 11.3391 6.55838C11.3956 6.61172 11.3883 6.70025 11.5067 6.76105C11.6094 6.80372 11.8241 6.77172 11.8734 6.68318C11.9414 6.56585 11.9572 6.52532 11.9886 6.48052C12.0368 6.41652 12.1195 6.44532 12.1195 6.46558C12.1122 6.50292 12.064 6.54025 12.0965 6.60425C12.1541 6.64692 12.1677 6.61918 12.2013 6.60958C12.3207 6.55198 12.4108 6.28745 12.4108 6.28745C12.416 6.18931 12.3615 6.19678 12.327 6.21705C12.2798 6.24585 12.2777 6.25545 12.2327 6.28425C12.173 6.29278 12.0598 6.33225 12.0043 6.24372C11.9467 6.13705 11.9467 5.98985 11.9027 5.88105C11.9027 5.87465 11.8262 5.71358 11.8964 5.70398C11.931 5.71038 12.0085 5.73065 12.02 5.66558C12.0577 5.60158 11.9394 5.42025 11.8587 5.33065C11.7895 5.25278 11.6932 5.24318 11.5999 5.32212C11.5339 5.38398 11.5444 5.45225 11.5308 5.51732C11.5151 5.59198 11.5182 5.68478 11.5936 5.78398C11.6586 5.91412 11.777 6.08265 11.7372 6.31945C11.7372 6.31945 11.6691 6.43252 11.5486 6.41758C11.4962 6.40692 11.4145 6.38558 11.3705 6.05492C11.3391 5.80638 11.3789 5.45758 11.2762 5.29438C11.2521 5.23358 11.2322 5.17385 11.1987 5.17705L11.1966 5.17172ZM10.8634 5.19945C10.832 5.20265 10.7974 5.23998 10.7692 5.31145C10.7451 5.36692 10.7147 5.65278 10.7199 5.65278C10.699 5.73812 10.8069 5.77438 10.8561 5.66558C10.9294 5.46292 10.9294 5.37758 10.9336 5.29438C10.9232 5.23038 10.8949 5.19838 10.8634 5.20052V5.19945ZM12.0923 5.22078C12.0609 5.22505 12.0347 5.24425 12.0253 5.29332C12.0116 5.40638 12.019 5.46932 12.0378 5.56425C12.0514 5.62825 12.1426 5.73278 12.1866 5.79465C12.3993 6.08585 12.6056 6.37812 12.8026 6.67998C12.834 6.90611 12.855 7.12585 12.8707 7.34558C12.9042 7.82558 12.9126 8.42292 12.8843 8.92958C12.9723 8.93278 13.1148 8.78345 13.164 8.56692C13.1954 8.26398 13.1535 7.64958 13.1494 7.47038L13.1389 7.21652C13.3694 7.60052 13.5914 8.00585 13.8094 8.44958C13.89 8.41118 13.8722 7.95358 13.8261 7.88958C13.6501 7.50558 13.4071 7.12585 13.3306 6.97972C13.3023 6.92638 13.207 6.78025 13.0949 6.61065C13.0739 6.36745 13.0509 6.16265 13.0362 6.10078C12.9995 5.84478 13.1389 6.12958 13.12 5.98132C13.0739 5.72532 12.9356 5.55252 12.7722 5.31785C12.7198 5.24318 12.7198 5.22612 12.6392 5.33705C12.592 5.44905 12.592 5.54292 12.6077 5.63038C12.5847 5.59838 12.5585 5.56212 12.5208 5.51518L12.2536 5.28478C12.217 5.25812 12.1457 5.21758 12.0923 5.22078ZM15.7338 5.26025C15.7181 5.25812 15.7024 5.26558 15.6814 5.29438C15.6448 5.32638 15.606 5.38718 15.6081 5.46505C15.6154 5.59838 15.6395 5.73598 15.6479 5.87038L15.6584 5.92372C15.6437 5.90665 15.6312 5.89172 15.6238 5.88532C15.3651 5.60798 15.7422 5.83838 15.5735 5.62612C15.4321 5.46612 15.3902 5.41705 15.2697 5.32105C15.2069 5.28265 15.1713 5.20585 15.1514 5.33598C15.143 5.45012 15.1346 5.58345 15.1409 5.67945C15.1409 5.73278 15.1964 5.83412 15.2435 5.89278C15.4154 6.10932 15.5914 6.33865 15.7674 6.57758C15.8051 7.06505 15.8145 7.51198 15.8512 8.00052C15.847 8.20958 15.7841 8.48692 15.7254 8.51252C15.7254 8.51252 15.6333 8.56585 15.5725 8.50718C15.5274 8.48905 15.3504 8.20532 15.3504 8.20532C15.2593 8.11998 15.1985 8.14452 15.1346 8.20532C14.9565 8.38025 14.8748 8.70878 14.7543 8.93492C14.7229 8.98505 14.6359 9.02878 14.5385 8.93065C14.2902 8.58505 14.4337 8.09332 14.4044 8.22025C14.1844 8.47412 14.2808 8.89438 14.3311 8.98505C14.4044 9.13438 14.4631 9.23038 14.6034 9.30185C14.7344 9.39785 14.8339 9.33918 14.8905 9.26985C15.0204 9.13331 15.0225 8.78238 15.0833 8.71305C15.1252 8.58505 15.2331 8.60638 15.2854 8.66398C15.3378 8.73865 15.3965 8.78665 15.4709 8.82718C15.5924 8.93598 15.737 8.95518 15.8794 8.85598C15.9769 8.80051 16.0408 8.72798 16.0974 8.58505C16.1602 8.41865 16.1288 7.54398 16.1152 7.05758L16.3875 7.45865C16.4253 7.88531 16.4431 8.30665 16.4294 8.70985C16.4211 8.78985 16.705 8.47092 16.7018 8.31945C16.7018 8.18825 16.7039 8.06771 16.7018 7.95678C16.8412 8.18078 16.9742 8.40798 17.0999 8.63945C17.1785 8.59678 17.1523 8.14558 17.1031 8.08478C16.9711 7.85865 16.8014 7.61545 16.6704 7.42558C16.6442 7.18772 16.6096 6.90718 16.5929 6.82078C16.5688 6.68638 16.5436 6.48478 16.5059 6.32585C16.4954 6.26505 16.464 6.06665 16.4745 6.04852C16.4892 6.00265 16.5478 6.04852 16.5761 5.99732C16.618 5.94932 16.4274 5.44265 16.3299 5.29972C16.2954 5.23572 16.2314 5.25705 16.1539 5.36372C16.0806 5.43198 16.1078 5.58985 16.1351 5.74025C16.2063 6.12425 16.2713 6.51252 16.3215 6.90292C16.2273 6.75892 16.112 6.58612 15.9989 6.42078L15.9842 6.34612C15.9842 6.33758 15.9695 6.03145 15.9559 5.95892C15.9528 5.92905 15.9454 5.92052 15.9769 5.92478C16.0083 5.95252 16.0125 5.95358 16.0324 5.96318C16.0659 5.96745 16.0953 5.91198 16.0743 5.85972L15.7705 5.29012C15.76 5.27625 15.7454 5.26345 15.7286 5.26132L15.7338 5.26025ZM6.33669 5.27092C6.27907 5.26878 6.21831 5.30292 6.2424 5.37225C6.22773 5.40958 6.35135 5.53545 6.37335 5.60478C6.39116 5.65492 6.3524 5.81278 6.39431 5.82878C6.43097 5.84478 6.48231 5.71785 6.50116 5.60158C6.51164 5.53758 6.50431 5.31785 6.35764 5.27305C6.35031 5.27092 6.34297 5.27092 6.33459 5.26985L6.33669 5.27092ZM17.0434 5.27092C17.0297 5.27305 17.014 5.29225 16.991 5.34558C16.9334 5.44158 16.9134 5.61225 16.9365 5.76158C17.0727 6.71092 17.1774 7.63038 17.1984 8.47092C17.1858 8.55198 17.1816 8.59465 17.146 8.69492C17.0643 8.80158 16.9742 8.93385 16.8894 8.99785C16.8055 9.06185 16.6254 9.12371 16.5667 9.17065C16.3781 9.27945 16.3781 9.40532 16.529 9.41065C16.7888 9.37865 17.0968 9.35732 17.3084 9.03198C17.365 8.94132 17.432 8.69385 17.4341 8.54132C17.4551 7.65598 17.4236 6.78665 17.2927 6.14558C17.2843 6.08158 17.2571 5.93972 17.2675 5.92158C17.2833 5.87678 17.3681 5.92478 17.3985 5.87465C17.4435 5.82772 17.1785 5.48318 17.0863 5.33598C17.0674 5.29972 17.0549 5.26878 17.0402 5.27198L17.0434 5.27092ZM14.3164 5.28585C14.3059 5.28798 14.2913 5.30505 14.2619 5.34452C14.1886 5.58558 14.1634 5.78185 14.1917 5.93332C14.3803 6.92532 14.5689 7.82665 14.5395 8.77065C14.6275 8.77065 14.7302 8.56478 14.7742 8.35998C14.7983 8.07732 14.7574 7.90558 14.7512 7.74132C14.7438 7.57492 14.5668 6.23092 14.5312 6.10612C14.4872 5.86932 14.703 6.07412 14.6799 5.93758C14.6045 5.76265 14.418 5.51092 14.3614 5.35838C14.3405 5.31785 14.3363 5.28052 14.3195 5.28372L14.3164 5.28585ZM7.68078 5.30505C7.65983 5.30932 7.63573 5.32852 7.6284 5.35838C7.62316 5.37972 7.63678 5.41492 7.61793 5.42558C7.60745 5.43625 7.56764 5.42878 7.56973 5.37225C7.56973 5.35305 7.55612 5.33385 7.54878 5.32212C7.5404 5.31785 7.53516 5.31678 7.5205 5.31678C7.50269 5.31678 7.50269 5.32212 7.49326 5.33812C7.48907 5.35305 7.48278 5.36798 7.48278 5.38505C7.48069 5.40638 7.47231 5.41172 7.45869 5.41492C7.44193 5.41492 7.44507 5.41705 7.4325 5.40745C7.42202 5.39998 7.41364 5.39678 7.41364 5.38185C7.41364 5.36585 7.40945 5.33918 7.40526 5.33065C7.39793 5.31998 7.3864 5.31572 7.37383 5.31252C7.30469 5.31252 7.3005 5.39572 7.30364 5.42558C7.2984 5.43198 7.29631 5.57492 7.39059 5.61545C7.51631 5.67732 7.75516 5.65065 7.74678 5.44265C7.74678 5.42452 7.74154 5.36265 7.73945 5.34665C7.72688 5.31465 7.70278 5.30398 7.67973 5.30718L7.68078 5.30505ZM9.38421 5.30718C9.34021 5.30932 9.3004 5.32212 9.26897 5.33918C9.18516 5.42132 9.16421 5.55252 9.23126 5.63465C9.29412 5.66665 9.36012 5.73065 9.31716 5.76798C9.13488 5.96531 8.66031 6.29705 8.63621 6.35785V6.36425H8.6404V6.36638C8.6645 6.38238 8.96202 6.38238 8.9945 6.36638H8.99659C9.09926 6.32692 9.58326 5.76372 9.58326 5.76372C9.55812 5.74238 9.53507 5.72532 9.50993 5.70292C9.48269 5.67945 9.48583 5.65598 9.50993 5.63252C9.62935 5.56212 9.59164 5.40532 9.52878 5.33385C9.4764 5.31038 9.42821 5.30185 9.38421 5.30505V5.30718ZM13.8366 5.30718C13.824 5.31038 13.8083 5.32852 13.7842 5.38185C13.7266 5.47785 13.6878 5.64318 13.6931 5.79785C13.8167 6.67252 13.8544 7.43732 13.9361 8.31198C13.9424 8.39732 13.9298 8.51891 13.8754 8.56798C13.67 8.78558 13.3756 9.05225 13.0551 9.17598C13.0205 9.21545 13.141 9.38292 13.296 9.38292C13.5558 9.35092 13.7842 9.20371 13.9979 8.81225C14.0534 8.72158 14.153 8.52638 14.1551 8.37492C14.176 7.48745 14.1132 6.79625 13.9812 6.15625C13.9738 6.09225 13.9791 6.01758 13.9895 6.00052C14.0063 5.97918 14.0629 6.00051 14.0943 5.95038C14.1383 5.90345 13.9749 5.52052 13.8827 5.37438C13.8638 5.33705 13.8534 5.30718 13.8366 5.30825V5.30718ZM6.93907 5.33598C6.90345 5.34025 6.86993 5.36798 6.85316 5.41065C6.84793 5.54932 6.84688 5.68798 6.86364 5.81812C6.9265 6.04532 6.94431 6.24478 6.97469 6.47625C6.98516 6.78771 6.79869 6.61065 6.80707 6.45705C6.84897 6.25652 6.8385 5.94185 6.80078 5.86185C6.76935 5.78185 6.73583 5.76265 6.6625 5.77652C6.60488 5.77225 6.45507 5.93652 6.41316 6.21385C6.41316 6.21385 6.37754 6.35465 6.36288 6.48052C6.34193 6.62238 6.24973 6.72372 6.18478 6.46132C6.12926 6.26932 6.09573 5.79998 6.0025 5.90878C5.97526 6.27572 5.94383 6.92211 6.24973 6.98825C6.62059 7.02452 6.41526 6.35038 6.54935 6.22772C6.57554 6.16905 6.62269 6.16798 6.62583 6.24372V6.81652C6.62164 7.00212 6.74107 7.05758 6.83535 7.09598C6.93278 7.08852 6.99669 7.09172 7.0344 7.18772L7.08154 8.17972C7.08154 8.17972 7.30573 8.24372 7.31621 7.62185C7.32669 7.25598 7.24288 6.94985 7.29212 6.87838C7.29421 6.80798 7.38221 6.80372 7.44297 6.83892C7.5404 6.90825 7.58335 6.99358 7.73421 6.95945C7.96469 6.89545 8.10088 6.78238 8.10402 6.60318C8.09354 6.43252 8.07259 6.26185 7.99926 6.09118C8.00973 6.06132 7.95735 5.98132 7.96783 5.95038C8.00764 6.01438 8.0705 6.01012 8.08307 5.95038C8.04535 5.81918 7.98459 5.69438 7.88612 5.64105C7.80545 5.56638 7.68707 5.58238 7.64307 5.73385C7.62212 5.90878 7.70592 6.11572 7.83164 6.28532C7.85678 6.35145 7.8945 6.46132 7.87773 6.56052C7.81173 6.59891 7.74573 6.58185 7.68916 6.52318C7.68916 6.52318 7.50793 6.38452 7.50793 6.35252C7.55716 6.03785 7.5184 6.00051 7.49221 5.91518C7.47335 5.79358 7.41678 5.75518 7.37173 5.67198C7.32564 5.62185 7.26383 5.62185 7.23554 5.67198C7.15383 5.81385 7.19154 6.11998 7.25021 6.25545C7.29212 6.38132 7.35707 6.46025 7.32669 6.46025C7.30154 6.52958 7.24916 6.51358 7.21145 6.43145C7.15907 6.26078 7.1465 6.00905 7.1465 5.89492C7.13078 5.75412 7.11297 5.45225 7.02078 5.37545C6.99669 5.34132 6.9684 5.32958 6.94012 5.33278L6.93907 5.33598ZM8.24021 5.33598C8.2224 5.34025 8.20145 5.35092 8.17735 5.35732C8.09878 5.38185 8.02545 5.45118 8.0485 5.58558C8.14278 6.16158 8.2025 6.60211 8.29573 7.17811C8.30935 7.24638 8.25383 7.33492 8.18259 7.32745C8.06107 7.24212 8.03069 7.07145 7.82326 7.07998C7.6724 7.07998 7.50059 7.24852 7.47964 7.40851C7.4545 7.53651 7.44612 7.67518 7.47964 7.78612C7.5844 7.91412 7.71221 7.90131 7.82326 7.87145C7.9144 7.83412 7.99088 7.74345 8.02231 7.76478C8.04326 7.79998 8.02021 8.09972 7.59278 8.33012C7.32878 8.45172 7.11926 8.47945 7.00612 8.26185C6.93697 8.12532 7.0124 7.60478 6.84059 7.72425C6.33145 9.05971 8.03173 9.24532 8.22135 7.77972C8.23393 7.73705 8.27059 7.69652 8.29783 7.70718C8.30831 7.71252 8.31878 7.72852 8.32297 7.75838C8.28316 9.08531 7.00716 9.17705 6.79135 8.75892C6.73688 8.66078 6.72116 8.44105 6.71592 8.31092C6.70545 8.23092 6.68659 8.18505 6.66354 8.16691C6.61116 8.12745 6.54202 8.23092 6.52735 8.40905C6.5064 8.55305 6.51164 8.59252 6.51164 8.73118C6.58078 9.77972 8.2224 9.32852 8.48954 8.46452C8.62154 8.01652 8.4864 7.67838 8.53145 7.63678L8.53459 7.63465H8.53773L8.54297 7.63251C8.7064 7.81172 8.93478 7.65385 8.98507 7.59305C9.00602 7.56105 9.0605 7.53972 9.09821 7.58238C9.22393 7.67412 9.44812 7.63038 9.49421 7.46505C9.52145 7.30505 9.5445 7.14078 9.54973 6.96905C9.46593 6.99572 9.39888 7.01491 9.37164 7.04372C9.36535 7.05118 9.36116 7.05972 9.35907 7.06825L9.33812 7.21012C9.33812 7.21545 9.33602 7.21865 9.33393 7.22078C9.33078 7.22825 9.32345 7.23358 9.31926 7.23678C9.28993 7.25278 9.23859 7.24425 9.23545 7.20052C9.19669 7.01918 9.03431 6.99572 8.93583 7.27838C8.86983 7.33172 8.74726 7.34238 8.73678 7.26132C8.7525 7.07145 8.67707 7.04585 8.52726 7.13545L8.38269 6.02612C8.44554 6.02292 8.50212 6.06878 8.56078 5.99625C8.49793 5.79998 8.36697 5.40105 8.29259 5.36265H8.2905L8.28002 5.35198C8.28002 5.34985 8.27688 5.34878 8.27478 5.34772L8.27059 5.34132C8.2664 5.34132 8.26221 5.33918 8.26012 5.33812C8.25278 5.33598 8.2465 5.33598 8.23916 5.33598H8.24021ZM13.3128 5.34025C13.2478 5.33812 13.1766 5.37972 13.2038 5.46292C13.1871 5.50878 13.3432 5.66238 13.3683 5.74558C13.4134 5.87358 13.3337 5.99838 13.3809 6.01652C13.4249 6.03572 13.4856 5.88318 13.5066 5.74132C13.5338 5.62612 13.4542 5.39145 13.339 5.34345L13.3128 5.34132V5.34025ZM9.36012 5.47998C9.38945 5.47785 9.42507 5.50558 9.44393 5.54398C9.46174 5.58665 9.45231 5.62612 9.42297 5.63358C9.39154 5.64105 9.35173 5.61438 9.33288 5.57172C9.31402 5.52905 9.3224 5.48958 9.35383 5.48212H9.36012V5.47998ZM16.6903 5.67412C16.6306 5.67198 16.5646 5.71678 16.5918 5.80745C16.5772 5.85652 16.7175 6.02292 16.7416 6.11465C16.7626 6.17865 16.7102 6.38771 16.7521 6.40691C16.7919 6.42825 16.8464 6.26185 16.8674 6.10825C16.8799 6.02292 16.8192 5.72958 16.7154 5.67732C16.7081 5.67518 16.6997 5.67305 16.6914 5.67305L16.6903 5.67412ZM12.636 5.77652C12.6434 5.80105 12.6486 5.82558 12.6517 5.85118C12.6643 5.90452 12.6748 5.95785 12.6853 6.01332C12.6392 5.94718 12.6014 5.89385 12.5836 5.87465C12.4789 5.74665 12.5857 5.79145 12.636 5.77652ZM13.5715 6.24372C13.5485 6.24798 13.5265 6.26825 13.5192 6.30025C13.5129 6.31945 13.5275 6.35358 13.5087 6.36425C13.4982 6.37492 13.4563 6.36852 13.4594 6.31092C13.4594 6.29172 13.4458 6.27145 13.4385 6.26078C13.4301 6.25545 13.4249 6.25332 13.4102 6.25332C13.3924 6.25332 13.3924 6.25865 13.383 6.27465C13.3788 6.28958 13.3725 6.30452 13.3725 6.32265C13.3725 6.34398 13.3641 6.35038 13.3494 6.35465C13.3327 6.35465 13.3358 6.35465 13.3222 6.34718C13.3138 6.33652 13.3044 6.33438 13.3044 6.31945C13.3044 6.30345 13.3013 6.27892 13.296 6.26825C13.2887 6.25758 13.2782 6.25438 13.2646 6.25012C13.1965 6.25012 13.1913 6.33118 13.1954 6.36105C13.1913 6.36745 13.1881 6.51252 13.2824 6.55305C13.4102 6.61385 13.6491 6.58505 13.6386 6.37812C13.6386 6.35998 13.6334 6.29812 13.6323 6.28212C13.6187 6.25012 13.5946 6.23945 13.5726 6.24265L13.5715 6.24372ZM9.30773 6.28638C9.29307 6.28638 9.27212 6.29065 9.24802 6.30558C9.13593 6.36745 9.09297 6.55092 9.16421 6.65758C9.22707 6.75358 9.33183 6.71838 9.34545 6.71838C9.45545 6.73332 9.5204 6.50932 9.5204 6.50932C9.5204 6.50932 9.52354 6.44532 9.39469 6.56478C9.33811 6.57545 9.33183 6.55412 9.31716 6.52212C9.30459 6.46558 9.30669 6.40478 9.33288 6.34825C9.34545 6.31305 9.33288 6.29065 9.30773 6.28852V6.28638ZM15.3347 6.31518C15.2718 6.31198 15.2058 6.35358 15.188 6.43998C15.188 6.49118 15.2111 6.51892 15.2069 6.56585C15.2016 6.59252 15.1754 6.60852 15.1105 6.57865C15.121 6.56798 15.0686 6.49545 15.0686 6.49545C15.0194 6.46345 14.9534 6.49545 14.9094 6.52532C14.8853 6.57011 14.8674 6.64585 14.8947 6.72265C14.9659 6.85811 15.2121 7.08852 15.3294 7.09065C15.3315 6.96905 15.3431 6.80692 15.3504 6.70665C15.3525 6.66825 15.3609 6.62665 15.3975 6.61705C15.4332 6.60638 15.495 6.65332 15.495 6.61385C15.4887 6.53705 15.474 6.42185 15.4321 6.36852C15.4091 6.33652 15.3724 6.31731 15.3357 6.31518H15.3347ZM10.3449 6.73865L10.3417 6.74185C10.3417 6.74185 10.3396 6.74185 10.3386 6.74398C10.326 6.75465 10.3114 6.77598 10.2789 6.79732C10.2234 6.86132 10.2139 6.90718 10.216 7.03518C10.2202 7.04905 10.3208 7.33705 10.4077 7.53865C10.4664 7.74878 10.5198 7.98985 10.4811 8.21705C10.3449 8.51785 10.0725 8.78772 9.80745 8.93492C9.67126 8.97758 9.55602 8.96265 9.52459 8.93278C9.44707 8.87945 9.44602 8.78345 9.45126 8.76852V8.76532C9.67335 8.60745 9.92793 8.47945 10.127 8.05385C10.1856 7.89065 10.2045 7.79252 10.1458 7.54185C10.1228 7.44585 10.0934 7.37118 10.0306 7.30292H10.0327C10.0704 7.28478 10.1689 7.35838 10.1846 7.31358C10.1605 7.19198 10.0798 7.03092 9.99078 6.94772C9.91116 6.87305 9.82316 6.86558 9.75192 6.93278C9.67021 6.97971 9.65345 7.14611 9.69221 7.29118C9.73621 7.39998 9.85459 7.41918 9.9384 7.63998C9.9405 7.65492 9.96669 7.80532 9.92478 7.86718C9.88916 7.97598 9.44812 8.33012 9.41669 8.35145L9.41354 8.35358L9.41145 8.35572H9.40935H9.40726V8.35252C9.40516 8.34398 9.40726 8.32051 9.40726 8.28532C9.40412 8.21918 9.43135 8.06878 9.42821 8.04212V8.03998C9.28154 8.13598 9.23231 8.42932 9.20612 8.51678C8.83631 8.77598 8.41726 8.96905 8.17526 9.23145C8.04954 9.43411 9.04269 9.00318 9.15793 8.95092L9.16107 8.95411C9.18412 8.97865 9.18516 9.06398 9.25116 9.14185C9.35592 9.28371 9.57383 9.37118 9.78754 9.31678C10.1458 9.18558 10.3533 8.93705 10.5628 8.66078C10.5921 8.61812 10.6393 8.58185 10.6833 8.61598C10.8268 8.94451 11.2437 9.17918 11.7812 9.20265C11.9069 9.04905 11.8472 8.97332 11.7969 8.94132C11.7812 8.93065 11.5297 8.83038 11.4899 8.73118C11.4658 8.63945 11.5255 8.55731 11.645 8.49652C11.9907 8.45385 12.3301 8.40585 12.6591 8.29812C12.6622 8.18505 12.7272 8.01758 12.7712 7.94398C12.8026 7.89385 12.8204 7.88852 12.8277 7.88212V7.87998H12.8298V7.87678V7.86611L12.7733 7.83198L11.6701 7.82772C11.6565 7.82238 11.6471 7.81705 11.6408 7.81172L11.6387 7.80852C11.6387 7.80852 11.6366 7.80852 11.6366 7.80638C11.6366 7.80425 11.6345 7.80425 11.6345 7.80425V7.80532V7.80318V7.80105V7.79892L11.6366 7.79571C11.6418 7.78931 11.6554 7.78185 11.6712 7.77438C11.9352 7.73918 12.4024 7.66132 12.4338 7.20372C12.4286 6.96478 12.3333 6.80905 12.0462 6.76638C11.8346 6.78238 11.6837 6.99038 11.7078 7.21865C11.6974 7.27945 11.7288 7.39998 11.6659 7.41385C11.2615 7.45225 10.8194 7.71038 10.8048 7.89598H10.8027H10.8006H10.7985C10.7985 7.89812 10.7964 7.89812 10.7954 7.89812H10.7912H10.7891H10.7849C10.7587 7.88958 10.7252 7.84478 10.7304 7.78398C10.7147 7.46398 10.612 7.10132 10.4528 6.82398C10.3952 6.76532 10.369 6.74185 10.3543 6.73865H10.3512H10.348H10.3459H10.3449ZM11.4009 6.90718C11.3799 6.91145 11.3558 6.93065 11.3485 6.96265C11.3433 6.98398 11.359 7.01812 11.3401 7.02878C11.3296 7.03945 11.2877 7.03305 11.2898 6.97545C11.2898 6.95732 11.2762 6.93705 11.2689 6.92532C11.2605 6.91998 11.2553 6.91891 11.2416 6.91891C11.2238 6.91891 11.2228 6.92318 11.2134 6.93812C11.2081 6.95305 11.2029 6.97012 11.2029 6.98612C11.2008 7.00745 11.1924 7.01385 11.1788 7.01598C11.162 7.01598 11.1662 7.01918 11.1526 7.01065C11.1442 7.00212 11.1337 6.99785 11.1337 6.98292C11.1337 6.96692 11.1306 6.94025 11.1264 6.92958C11.1191 6.92212 11.1075 6.91892 11.095 6.91465C11.0248 6.91465 11.0216 6.99465 11.0248 7.02558C11.0195 7.03092 11.0164 7.17492 11.1107 7.21545C11.2364 7.27732 11.5402 7.24105 11.4669 7.04158C11.4669 7.02345 11.4616 6.96158 11.4606 6.94558C11.447 6.91358 11.4229 6.90292 11.3998 6.90612L11.4009 6.90718ZM15.6594 7.08532H15.649C15.649 7.08532 15.0602 7.51198 15.0466 7.52692C14.9879 7.58025 15.0173 7.76478 15.0466 7.74345C15.0885 7.75945 15.6804 7.35091 15.6689 7.30292C15.6951 7.30505 15.7076 7.09278 15.6584 7.08425L15.6594 7.08532ZM11.9572 7.14931C11.9802 7.14612 12.0116 7.15465 12.041 7.17065C12.086 7.19838 12.1143 7.23678 12.1091 7.26665V7.27092C12.107 7.27092 12.107 7.27092 12.107 7.27305V7.27518C12.107 7.27518 12.1049 7.27518 12.1049 7.27732C12.1049 7.27945 12.1017 7.28158 12.0996 7.28372C12.0787 7.30505 12.0305 7.30078 11.9844 7.27305C11.9404 7.24852 11.9142 7.20905 11.9163 7.18132V7.17811L11.9215 7.16745C11.9215 7.16745 11.9215 7.16531 11.9236 7.16425L11.9289 7.15785C11.9362 7.15251 11.9456 7.14718 11.9572 7.14718V7.14931ZM6.80497 7.25598C6.50116 7.26238 6.05383 7.66345 6.04231 7.88531L7.00612 7.41598C6.95373 7.33491 7.00297 7.26238 6.80497 7.25598ZM7.79288 7.39465C7.82221 7.39678 7.85364 7.41172 7.8704 7.45438C7.88507 7.49385 7.8704 7.53438 7.85259 7.55465V7.55785C7.83792 7.57491 7.79393 7.56852 7.76145 7.56852C7.72269 7.56638 7.70383 7.55998 7.68078 7.52798C7.66821 7.49065 7.70173 7.45545 7.71745 7.42985L7.72478 7.41918C7.73526 7.40852 7.75621 7.39998 7.77716 7.39785L7.79078 7.39571L7.79288 7.39465ZM15.5453 7.51945C15.4897 7.52585 15.4384 7.57811 15.4614 7.66131C15.4468 7.71038 15.5348 7.88212 15.5589 7.97278C15.5798 8.03678 15.5316 8.22132 15.5746 8.23945C15.6144 8.26078 15.7181 8.13278 15.715 7.96852C15.7254 7.88318 15.6856 7.57385 15.5819 7.52265C15.5694 7.51945 15.5568 7.51838 15.5442 7.51945H15.5453ZM8.96202 7.82238C8.91383 7.82558 8.87088 7.85118 8.89078 7.92052C8.88764 7.96958 9.02697 8.03038 9.03431 8.14452C9.05316 8.19358 9.00288 8.34718 9.04478 8.35998C9.0825 8.37598 9.13488 8.25332 9.15478 8.14238C9.16526 8.08052 9.10659 7.86505 9.00812 7.82558C8.9924 7.82132 8.97669 7.82025 8.96097 7.82132L8.96202 7.82238ZM10.9315 8.09545H10.9441C11.0677 8.12958 11.2479 8.13385 11.4051 8.14878C11.5339 8.15945 11.5968 8.25972 11.4784 8.30345C11.359 8.34398 11.2448 8.37812 11.2448 8.55092C11.2594 8.63625 11.2553 8.68105 11.2427 8.70025C11.2427 8.70345 11.2395 8.70558 11.2385 8.70665C11.2385 8.70665 11.2385 8.70878 11.2364 8.70878V8.71092H11.2333L11.2259 8.71411H11.2207C11.1924 8.71945 11.1515 8.69278 11.1212 8.67572C11.0478 8.62238 10.8435 8.49438 10.8142 8.21705C10.81 8.15305 10.8561 8.09972 10.9294 8.09438L10.9315 8.09545ZM6.11878 8.30878C6.11145 8.30878 6.09783 8.33225 6.07688 8.35892C5.89459 8.65225 5.87783 9.09065 5.9784 9.22292C6.03078 9.28372 6.11878 9.31145 6.18373 9.29225C6.29897 9.24212 6.34821 9.00638 6.31993 8.92105C6.28326 8.86025 6.25288 8.85065 6.21516 8.90185C6.1345 9.06718 6.09993 8.95305 6.09469 8.85918C6.08212 8.68532 6.09888 8.52318 6.11773 8.39518C6.12821 8.33118 6.12821 8.30665 6.11773 8.30665L6.11878 8.30878ZM12.2966 8.69492C12.283 8.69492 12.2694 8.69705 12.2547 8.70558C12.2515 8.70558 12.1248 8.79092 12.0839 8.85278C12.0588 8.87198 12.063 8.88798 12.0693 8.92212C12.0881 8.96798 12.1216 8.95411 12.1614 8.93278C12.2138 8.92425 12.2379 8.95945 12.2348 9.02238C12.2107 9.10238 12.2453 9.13118 12.2453 9.13651C12.2453 9.14078 12.2945 9.18451 12.3532 9.15038C12.4757 9.10238 12.5522 9.05438 12.7251 9.01705C12.7701 9.01705 12.767 8.89331 12.6957 8.88905C12.6014 8.89331 12.5176 8.89971 12.4234 8.97438C12.3657 8.98718 12.3563 8.95091 12.3427 8.91891C12.328 8.83998 12.3762 8.78452 12.3657 8.72478C12.3678 8.72798 12.3364 8.69918 12.2955 8.69705L12.2966 8.69492ZM16.2524 8.84425L16.1686 8.85278C16.1309 8.86025 16.1183 8.87732 16.111 8.92425C16.1141 8.99358 16.156 8.99038 16.2 9.01812C16.2252 9.05012 16.2419 9.07998 16.1979 9.13545C16.156 9.17278 16.1277 9.19412 16.0858 9.23145C16.068 9.26558 16.0544 9.31678 16.1152 9.33385C16.2252 9.36585 16.4797 9.19732 16.4797 9.19518C16.5216 9.16318 16.507 9.10238 16.5038 9.10238C16.4787 9.07465 16.4242 9.09171 16.3886 9.08638C16.3708 9.08638 16.3153 9.07785 16.3404 9.02665C16.3634 8.99465 16.3718 8.97652 16.3875 8.93705C16.4033 8.89865 16.3875 8.87305 16.3268 8.85172C16.2954 8.84532 16.2744 8.84318 16.2503 8.84425H16.2524ZM14.7302 12.9616C15.0131 12.9754 15.2771 12.9648 15.5578 12.9786C15.6039 13.017 15.5819 13.1066 15.5526 13.1216L15.5474 13.1237H15.5442H15.54L15.3033 13.1173V13.1034C15.2802 13.0373 15.1231 13.0416 15.0854 13.0928V13.096C15.0833 13.096 15.0822 13.0992 15.0822 13.1002L15.0801 13.1056V13.1184C14.9544 13.1344 14.8444 13.1141 14.7208 13.1098C14.6841 13.064 14.6894 12.9818 14.7313 12.9605L14.7302 12.9616Z" fill="white"/>
@@ -3658,8 +3658,8 @@
     }
     
 
-    export const Senegal = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_senegal" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Senegal = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_senegal" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65678)">
 <g clip-path="url(#clip1_14537_65678)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -3682,8 +3682,8 @@
     }
     
 
-    export const Serbia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_serbia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Serbia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_serbia" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65654)">
 <g clip-path="url(#clip1_14537_65654)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#1A47B8"/>
@@ -3710,8 +3710,8 @@
     }
     
 
-    export const Seychelles = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_seychelles" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Seychelles = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_seychelles" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65642)">
 <g clip-path="url(#clip1_14537_65642)">
 <rect width="22" height="16" transform="translate(1 1)" fill="#FFDA2C"/>
@@ -3735,8 +3735,8 @@
     }
     
 
-    export const SierraLeone = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_sierraleone" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SierraLeone = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_sierraleone" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65643)">
 <g clip-path="url(#clip1_14537_65643)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
@@ -3758,8 +3758,8 @@
     }
     
 
-    export const Singapore = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_singapore" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Singapore = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_singapore" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65647)">
 <rect width="22" height="16" transform="translate(1 1)" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H23V11H1V1Z" fill="#F93939"/>
@@ -3776,8 +3776,8 @@
     }
     
 
-    export const SintMaarten = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_sintmaarten" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SintMaarten = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_sintmaarten" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65624)">
 <g clip-path="url(#clip1_14537_65624)">
 <rect width="22" height="16" transform="translate(1 1.125)" fill="#1A47B8"/>
@@ -3802,8 +3802,8 @@
     }
     
 
-    export const Slovakia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_slovakia" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Slovakia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_slovakia" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65620)">
 <g clip-path="url(#clip1_14537_65620)">
 <rect width="22" height="16" transform="translate(1 1.125)" fill="#1A47B8"/>
@@ -3828,8 +3828,8 @@
     }
     
 
-    export const Slovenia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_slovenia" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Slovenia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_slovenia" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65659)">
 <g clip-path="url(#clip1_14537_65659)">
 <rect width="22" height="16" transform="translate(1 1.125)" fill="#1A47B8"/>
@@ -3855,8 +3855,8 @@
     }
     
 
-    export const SolomonIslands = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_solomonislands" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SolomonIslands = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_solomonislands" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65607)">
 <g clip-path="url(#clip1_14537_65607)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#1A47B8"/>
@@ -3879,8 +3879,8 @@
     }
     
 
-    export const Somalia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_somalia" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Somalia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_somalia" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65630)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#3A99FF"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0021 11.202L9.81255 12.3753L10.2316 9.8932L8.46112 8.1364L10.9084 7.77373L12.0021 5.51666L13.0968 7.77373L15.543 8.1364L13.7725 9.8932L14.1916 12.3743" fill="white"/>
@@ -3896,8 +3896,8 @@
     }
     
 
-    export const SouthAfrica = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_southafrica" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SouthAfrica = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_southafrica" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65691)">
 <g clip-path="url(#clip1_14537_65691)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="white"/>
@@ -3924,8 +3924,8 @@
     }
     
 
-    export const SouthSudan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_southsudan" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SouthSudan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_southsudan" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65608)">
 <g clip-path="url(#clip1_14537_65608)">
 <rect width="22" height="16" transform="translate(1 1.125)" fill="white"/>
@@ -3950,8 +3950,8 @@
     }
     
 
-    export const Spain = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_spain" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Spain = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_spain" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65664)">
 <g clip-path="url(#clip1_14537_65664)">
 <rect width="22" height="16" transform="translate(1 1.125)" fill="#F93939"/>
@@ -3982,8 +3982,8 @@
     }
     
 
-    export const SriLanka = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_srilanka" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SriLanka = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_srilanka" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65579)">
 <g clip-path="url(#clip1_14537_65579)">
 <rect width="22" height="16" transform="translate(1 1.125)" fill="#FFDA2C"/>
@@ -4009,8 +4009,8 @@
     }
     
 
-    export const Sudan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_sudan" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Sudan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_sudan" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65669)">
 <g clip-path="url(#clip1_14537_65669)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="white"/>
@@ -4033,8 +4033,8 @@
     }
     
 
-    export const Suriname = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_suriname" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Suriname = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_suriname" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65668)">
 <g clip-path="url(#clip1_14537_65668)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="white"/>
@@ -4058,8 +4058,8 @@
     }
     
 
-    export const Sweden = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_sweden" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Sweden = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_sweden" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65656)">
 <g clip-path="url(#clip1_14537_65656)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#3A99FF"/>
@@ -4080,8 +4080,8 @@
     }
     
 
-    export const Switzerland = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_switzerland" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Switzerland = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_switzerland" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65651)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#F93939"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4286 7.65001H7.28571V10.85H10.4286V14.05H13.5714V10.85H16.7143V7.65001H13.5714V4.45001H10.4286V7.65001Z" fill="white"/>
@@ -4097,8 +4097,8 @@
     }
     
 
-    export const SyrianArabRepublic = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_syrianarabrepublic" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const SyrianArabRepublic = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_syrianarabrepublic" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65641)">
 <g clip-path="url(#clip1_14537_65641)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="white"/>
@@ -4121,8 +4121,8 @@
     }
     
 
-    export const Tajikistan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_tajikistan" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Tajikistan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_tajikistan" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65670)">
 <g clip-path="url(#clip1_14537_65670)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="white"/>
@@ -4145,8 +4145,8 @@
     }
     
 
-    export const Tanzania = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_tanzania" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Tanzania = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_tanzania" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65665)">
 <g clip-path="url(#clip1_14537_65665)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#249F58"/>
@@ -4170,8 +4170,8 @@
     }
     
 
-    export const Thailand = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_thailand" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Thailand = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_thailand" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65671)">
 <g clip-path="url(#clip1_14537_65671)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="white"/>
@@ -4193,8 +4193,8 @@
     }
     
 
-    export const TimorLeste = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_timorleste" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const TimorLeste = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_timorleste" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65675)">
 <g clip-path="url(#clip1_14537_65675)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#F93939"/>
@@ -4217,8 +4217,8 @@
     }
     
 
-    export const Togo = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_togo" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Togo = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_togo" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65514)">
 <g clip-path="url(#clip1_14537_65514)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#FFDA2C"/>
@@ -4241,8 +4241,8 @@
     }
     
 
-    export const Tonga = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_tonga" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Tonga = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_tonga" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65615)">
 <g clip-path="url(#clip1_14537_65615)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#AF010D"/>
@@ -4265,8 +4265,8 @@
     }
     
 
-    export const TrinidadAndTobago = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_trinidadandtobago" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const TrinidadAndTobago = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_trinidadandtobago" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65681)">
 <g clip-path="url(#clip1_14537_65681)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#AF010D"/>
@@ -4288,8 +4288,8 @@
     }
     
 
-    export const Tunisia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_tunisia" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Tunisia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_tunisia" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65673)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#F93939"/>
 <path d="M12 12.9833C14.025 12.9833 15.6666 11.3119 15.6666 9.25C15.6666 7.18813 14.025 5.51666 12 5.51666C9.97494 5.51666 8.33331 7.18813 8.33331 9.25C8.33331 11.3119 9.97494 12.9833 12 12.9833Z" fill="white"/>
@@ -4307,8 +4307,8 @@
     }
     
 
-    export const Turkey = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_turkey" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Turkey = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_turkey" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65611)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#F93939"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.6687 10.4788L14.4514 11.1295L14.684 9.75026L13.6992 8.77213L15.0611 8.56946L15.6687 7.31506L16.2764 8.57053L17.6383 8.7732L16.6535 9.7492L16.8861 11.1284" fill="white"/>
@@ -4325,8 +4325,8 @@
     }
     
 
-    export const Turkmenistan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_turkmenistan" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Turkmenistan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_turkmenistan" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65618)">
 <g clip-path="url(#clip1_14537_65618)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#249F58"/>
@@ -4350,8 +4350,8 @@
     }
     
 
-    export const Tuvalu = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_tuvalu" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Tuvalu = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_tuvalu" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65683)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#3A99FF"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.6667 6.58331V7.64998H16.7143V6.58331H15.6667ZM18.8096 6.58331V7.64998H19.8572V6.58331H18.8096ZM13.5715 9.78331V10.85H14.6191V9.78331H13.5715ZM17.7619 10.85V11.9166H18.8096V10.85H17.7619ZM13.5715 12.9833V14.05H14.6191V12.9833H13.5715ZM9.38098 11.9166V12.9833H10.4286V11.9166H9.38098Z" fill="#FFDA2C"/>
@@ -4369,8 +4369,8 @@
     }
     
 
-    export const Uganda = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_uganda" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Uganda = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_uganda" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65686)">
 <g clip-path="url(#clip1_14537_65686)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#FFDA2C"/>
@@ -4396,8 +4396,8 @@
     }
     
 
-    export const Ukraine = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_ukraine" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Ukraine = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_ukraine" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65567)">
 <g clip-path="url(#clip1_14537_65567)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#FFDA2C"/>
@@ -4418,8 +4418,8 @@
     }
     
 
-    export const UnitedArabEmirates = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_unitedarabemirates" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const UnitedArabEmirates = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_unitedarabemirates" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65536)">
 <g clip-path="url(#clip1_14537_65536)">
 <path d="M20.9048 1.25H3.09524C1.93807 1.25 1 2.20513 1 3.38333V15.1167C1 16.2949 1.93807 17.25 3.09524 17.25H20.9048C22.0619 17.25 23 16.2949 23 15.1167V3.38333C23 2.20513 22.0619 1.25 20.9048 1.25Z" fill="white"/>
@@ -4442,8 +4442,8 @@
     }
     
 
-    export const UnitedKingdom = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_unitedkingdom" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const UnitedKingdom = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_unitedkingdom" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65692)">
 <g clip-path="url(#clip1_14537_65692)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#1A47B8"/>
@@ -4469,8 +4469,8 @@
     }
     
 
-    export const UnitedStatesOfAmerica = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_unitedstatesofamerica" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const UnitedStatesOfAmerica = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_unitedstatesofamerica" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65516)">
 <g clip-path="url(#clip1_14537_65516)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="white"/>
@@ -4493,8 +4493,8 @@
     }
     
 
-    export const Uruguay = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_uruguay" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Uruguay = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_uruguay" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65577)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4762 4.45001H23V6.58335H11.4762V4.45001ZM11.4762 8.71668H23V10.85H11.4762V8.71668ZM1 12.9833H23V15.1167H1V12.9833Z" fill="#3A99FF"/>
@@ -4513,8 +4513,8 @@
     }
     
 
-    export const Uzbekistan = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_uzbekistan" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Uzbekistan = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_uzbekistan" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65679)">
 <g clip-path="url(#clip1_14537_65679)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#F93939"/>
@@ -4538,8 +4538,8 @@
     }
     
 
-    export const Vanuaty = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_vanuaty" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Vanuaty = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_vanuaty" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65649)">
 <g clip-path="url(#clip1_14537_65649)">
 <path d="M20.9048 1.25H3.09524C1.93807 1.25 1 2.20513 1 3.38333V15.1167C1 16.2949 1.93807 17.25 3.09524 17.25H20.9048C22.0619 17.25 23 16.2949 23 15.1167V3.38333C23 2.20513 22.0619 1.25 20.9048 1.25Z" fill="white"/>
@@ -4565,8 +4565,8 @@
     }
     
 
-    export const Venezuela = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_venezuela" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Venezuela = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_venezuela" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65589)">
 <g clip-path="url(#clip1_14537_65589)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#1A47B8"/>
@@ -4589,8 +4589,8 @@
     }
     
 
-    export const VietNam = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_vietnam" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const VietNam = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_vietnam" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65700)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#F93939"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0021 11.202L9.81255 12.3753L10.2316 9.8932L8.46112 8.1364L10.9084 7.77373L12.0021 5.51666L13.0968 7.77373L15.543 8.1364L13.7725 9.8932L14.1916 12.3743" fill="#FFDA2C"/>
@@ -4606,8 +4606,8 @@
     }
     
 
-    export const VirginIslands = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_virginislands" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const VirginIslands = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_virginislands" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65667)">
 <g clip-path="url(#clip1_14537_65667)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="white"/>
@@ -4642,8 +4642,8 @@
     }
     
 
-    export const Yemen = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_yemen" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Yemen = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_yemen" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65645)">
 <g clip-path="url(#clip1_14537_65645)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="white"/>
@@ -4665,8 +4665,8 @@
     }
     
 
-    export const Zambia = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_zambia" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Zambia = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_zambia" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65528)">
 <g clip-path="url(#clip1_14537_65528)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#249F58"/>
@@ -4690,8 +4690,8 @@
     }
     
 
-    export const Zimbabwe = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_zimbabwe" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const Zimbabwe = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_zimbabwe" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_14537_65658)">
 <g clip-path="url(#clip1_14537_65658)">
 <rect width="22" height="16" transform="translate(1 1.25)" fill="#249F58"/>

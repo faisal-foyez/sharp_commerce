@@ -1,6 +1,6 @@
 
-    export const AppleBrand = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_applebrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const AppleBrand = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_applebrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <path className="svg_apple_leaf_brand" d="M21.12 2.34332C19.6639 2.44404 17.9619 3.37611 16.9701 4.58984C16.0654 5.6909 15.3211 7.32628 15.6113 8.91557C17.2023 8.96508 18.8462 8.01082 19.7987 6.7766C20.6898 5.62774 21.3641 4.0026 21.12 2.34332Z" fill="#1C222B"/>
 <path className="svg_apple_body_brand" d="M26.8746 11.5069C25.4765 9.75375 23.5116 8.73633 21.656 8.73633C19.2064 8.73633 18.1702 9.90909 16.4682 9.90909C14.7134 9.90909 13.3801 8.73975 11.2616 8.73975C9.18072 8.73975 6.96493 10.0115 5.56 12.1863C3.58491 15.2488 3.92291 21.0068 7.12369 25.9112C8.26914 27.6661 9.79868 29.6395 11.7994 29.6566C13.5799 29.6736 14.0817 28.5145 16.4938 28.5026C18.9059 28.4889 19.3634 29.6719 21.1405 29.6532C23.1429 29.6378 24.7561 27.451 25.9015 25.6962C26.7227 24.438 27.0282 23.8047 27.665 22.3844C23.0337 20.621 22.2911 14.0351 26.8746 11.5069Z" fill="#1C222B"/>
 </svg>
@@ -8,24 +8,24 @@
     }
     
 
-    export const AppleGray = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_applegray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const AppleGray = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_applegray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
   <path className="svg_apple_leaf_gray" d="M21.12 2.34332C19.6639 2.44404 17.9619 3.37611 16.9701 4.58984C16.0654 5.6909 15.3211 7.32628 15.6113 8.91557C17.2023 8.96508 18.8462 8.01082 19.7987 6.7766C20.6898 5.62774 21.3641 4.0026 21.12 2.34332Z" fill="#ffffff"></path>
   <path className="svg_apple_body_gray" d="M26.8746 11.5069C25.4765 9.75375 23.5116 8.73633 21.656 8.73633C19.2064 8.73633 18.1702 9.90909 16.4682 9.90909C14.7134 9.90909 13.3801 8.73975 11.2616 8.73975C9.18072 8.73975 6.96493 10.0115 5.56 12.1863C3.58491 15.2488 3.92291 21.0068 7.12369 25.9112C8.26914 27.6661 9.79868 29.6395 11.7994 29.6566C13.5799 29.6736 14.0817 28.5145 16.4938 28.5026C18.9059 28.4889 19.3634 29.6719 21.1405 29.6532C23.1429 29.6378 24.7561 27.451 25.9015 25.6962C26.7227 24.438 27.0282 23.8047 27.665 22.3844C23.0337 20.621 22.2911 14.0351 26.8746 11.5069Z" fill="#ffffff"></path>
 </svg>
     }
     
 
-    export const AppleLight = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_applelight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const AppleLight = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_applelight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
   <path className="svg_apple_leaf_light" d="M21.12 2.34332C19.6639 2.44404 17.9619 3.37611 16.9701 4.58984C16.0654 5.6909 15.3211 7.32628 15.6113 8.91557C17.2023 8.96508 18.8462 8.01082 19.7987 6.7766C20.6898 5.62774 21.3641 4.0026 21.12 2.34332Z" fill="#ffffff"></path>
   <path className="svg_apple_body_light" d="M26.8746 11.5069C25.4765 9.75375 23.5116 8.73633 21.656 8.73633C19.2064 8.73633 18.1702 9.90909 16.4682 9.90909C14.7134 9.90909 13.3801 8.73975 11.2616 8.73975C9.18072 8.73975 6.96493 10.0115 5.56 12.1863C3.58491 15.2488 3.92291 21.0068 7.12369 25.9112C8.26914 27.6661 9.79868 29.6395 11.7994 29.6566C13.5799 29.6736 14.0817 28.5145 16.4938 28.5026C18.9059 28.4889 19.3634 29.6719 21.1405 29.6532C23.1429 29.6378 24.7561 27.451 25.9015 25.6962C26.7227 24.438 27.0282 23.8047 27.665 22.3844C23.0337 20.621 22.2911 14.0351 26.8746 11.5069Z" fill="#ffffff"></path>
 </svg>
     }
     
 
-    export const FacebookBrand = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_facebookbrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const FacebookBrand = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_facebookbrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <circle className="svg_facebook_circle_brand" cx="16" cy="16" r="14" fill="url(#paint0_linear_1787_67921)"/>
 <path className="svg_facebook_f_brand" d="M21.2137 20.2816L21.8356 16.3301H17.9452V13.767C17.9452 12.6857 18.4877 11.6311 20.2302 11.6311H22V8.26699C22 8.26699 20.3945 8 18.8603 8C15.6548 8 13.5617 9.89294 13.5617 13.3184V16.3301H10V20.2816H13.5617V29.8345C14.2767 29.944 15.0082 30 15.7534 30C16.4986 30 17.2302 29.944 17.9452 29.8345V20.2816H21.2137Z" fill="white"/>
 <defs>
@@ -39,8 +39,8 @@
     }
     
 
-    export const FacebookGray = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_facebookgray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const FacebookGray = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_facebookgray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
   <circle className="svg_facebook_circle_gray" cx="16" cy="16" r="14" fill="white"></circle>
   <path className="svg_facebook_f_gray" d="M21.2137 20.2816L21.8356 16.3301H17.9452V13.767C17.9452 12.6857 18.4877 11.6311 20.2302 11.6311H22V8.26699C22 8.26699 20.3945 8 18.8603 8C15.6548 8 13.5617 9.89294 13.5617 13.3184V16.3301H10V20.2816H13.5617V29.8345C14.2767 29.944 15.0082 30 15.7534 30C16.4986 30 17.2302 29.944 17.9452 29.8345V20.2816H21.2137Z" fill="url(#paint0_linear_1787_67921)"></path>
   <defs>
@@ -53,8 +53,8 @@
     }
     
 
-    export const FacebookLight = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_facebooklight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const FacebookLight = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_facebooklight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
   <circle className="svg_facebook_circle_light" cx="16" cy="16" r="14" fill="white"></circle>
   <path className="svg_facebook_f_light" d="M21.2137 20.2816L21.8356 16.3301H17.9452V13.767C17.9452 12.6857 18.4877 11.6311 20.2302 11.6311H22V8.26699C22 8.26699 20.3945 8 18.8603 8C15.6548 8 13.5617 9.89294 13.5617 13.3184V16.3301H10V20.2816H13.5617V29.8345C14.2767 29.944 15.0082 30 15.7534 30C16.4986 30 17.2302 29.944 17.9452 29.8345V20.2816H21.2137Z" fill="url(#paint0_linear_1787_67921)"></path>
   <defs>
@@ -67,30 +67,30 @@
     }
     
 
-    export const GithubBrand = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_githubbrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const GithubBrand = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_githubbrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <path className="svg_github_brand" d="M16.0002 2.04814C8.10069 2.04814 1.69507 8.45265 1.69507 16.3533C1.69507 22.6736 5.7939 28.0359 11.4778 29.9274C12.1927 30.0598 12.4552 29.617 12.4552 29.2392C12.4552 28.8981 12.4418 27.7712 12.4358 26.576C8.45608 27.4412 7.61633 24.8881 7.61633 24.8881C6.96557 23.2346 6.02792 22.7949 6.02792 22.7949C4.73008 21.9071 6.12582 21.9254 6.12582 21.9254C7.56224 22.0262 8.31862 23.3995 8.31862 23.3995C9.59456 25.5863 11.6652 24.9541 12.4815 24.5886C12.6099 23.6641 12.9806 23.0329 13.3897 22.6757C10.2124 22.3141 6.87225 21.0874 6.87225 15.6062C6.87225 14.0443 7.43104 12.7682 8.34611 11.7664C8.19759 11.4061 7.70797 9.95121 8.48469 7.98069C8.48469 7.98069 9.68598 7.59625 12.4197 9.44707C13.5607 9.13012 14.7845 8.9712 16.0002 8.96573C17.2159 8.9712 18.4406 9.13001 19.5838 9.44707C22.3142 7.59636 23.5138 7.9808 23.5138 7.9808C24.2924 9.9511 23.8026 11.4062 23.654 11.7664C24.5712 12.7682 25.1262 14.0443 25.1262 15.6062C25.1262 21.1005 21.7797 22.3103 18.5943 22.6644C19.1074 23.1083 19.5646 23.9789 19.5646 25.3135C19.5646 27.2275 19.548 28.768 19.548 29.2392C19.548 29.6199 19.8055 30.0659 20.5306 29.9253C26.2114 28.0318 30.3051 22.6716 30.3051 16.3534C30.3051 8.45265 23.9003 2.04814 16.0002 2.04814ZM7.05285 22.4261C7.02133 22.4971 6.90946 22.5185 6.80765 22.4696C6.70383 22.423 6.6456 22.3261 6.67913 22.2548C6.70998 22.1816 6.82207 22.1612 6.92556 22.2103C7.02949 22.257 7.08872 22.3548 7.05285 22.4261ZM7.75648 23.0539C7.6883 23.1172 7.55487 23.0878 7.46434 22.9879C7.3708 22.8882 7.35325 22.7547 7.42243 22.6906C7.49284 22.6273 7.62214 22.657 7.71591 22.7566C7.80956 22.8576 7.82767 22.99 7.75648 23.0539ZM8.23927 23.8572C8.15154 23.9181 8.00827 23.861 7.91964 23.7339C7.83203 23.6067 7.83203 23.4541 7.92154 23.393C8.01039 23.3319 8.15154 23.3868 8.24128 23.5131C8.32868 23.6424 8.32868 23.795 8.23916 23.8573L8.23927 23.8572ZM9.05555 24.7876C8.97721 24.8741 8.81013 24.8509 8.68787 24.7329C8.56281 24.6175 8.52805 24.4539 8.60673 24.3674C8.68608 24.2807 8.85405 24.305 8.97721 24.4222C9.10126 24.5373 9.13926 24.7021 9.05555 24.7876ZM10.1108 25.1017C10.0761 25.2137 9.91519 25.2647 9.75325 25.2171C9.59143 25.168 9.48559 25.0368 9.51823 24.9236C9.55187 24.8108 9.71347 24.7578 9.87663 24.8087C10.0382 24.8575 10.1444 24.9877 10.1108 25.1017ZM11.3115 25.235C11.3155 25.3529 11.1782 25.4507 11.0081 25.4529C10.8371 25.4567 10.6986 25.3613 10.6967 25.245C10.6967 25.126 10.831 25.0291 11.0021 25.0262C11.1722 25.0229 11.3115 25.1176 11.3115 25.235ZM12.4911 25.1897C12.5114 25.3048 12.3933 25.4231 12.2243 25.4546C12.0584 25.4849 11.9046 25.4138 11.8835 25.2997C11.8629 25.1817 11.9833 25.0634 12.149 25.0329C12.3182 25.0035 12.4695 25.0727 12.4911 25.1897Z" fill="black"/>
 </svg>
 
     }
     
 
-    export const GithubGray = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_githubgray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const GithubGray = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_githubgray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path className="svg_github_gray" d="M16.0002 2.04814C8.10069 2.04814 1.69507 8.45265 1.69507 16.3533C1.69507 22.6736 5.7939 28.0359 11.4778 29.9274C12.1927 30.0598 12.4552 29.617 12.4552 29.2392C12.4552 28.8981 12.4418 27.7712 12.4358 26.576C8.45608 27.4412 7.61633 24.8881 7.61633 24.8881C6.96557 23.2346 6.02792 22.7949 6.02792 22.7949C4.73008 21.9071 6.12582 21.9254 6.12582 21.9254C7.56224 22.0262 8.31862 23.3995 8.31862 23.3995C9.59456 25.5863 11.6652 24.9541 12.4815 24.5886C12.6099 23.6641 12.9806 23.0329 13.3897 22.6757C10.2124 22.3141 6.87225 21.0874 6.87225 15.6062C6.87225 14.0443 7.43104 12.7682 8.34611 11.7664C8.19759 11.4061 7.70797 9.95121 8.48469 7.98069C8.48469 7.98069 9.68598 7.59625 12.4197 9.44707C13.5607 9.13012 14.7845 8.9712 16.0002 8.96573C17.2159 8.9712 18.4406 9.13001 19.5838 9.44707C22.3142 7.59636 23.5138 7.9808 23.5138 7.9808C24.2924 9.9511 23.8026 11.4062 23.654 11.7664C24.5712 12.7682 25.1262 14.0443 25.1262 15.6062C25.1262 21.1005 21.7797 22.3103 18.5943 22.6644C19.1074 23.1083 19.5646 23.9789 19.5646 25.3135C19.5646 27.2275 19.548 28.768 19.548 29.2392C19.548 29.6199 19.8055 30.0659 20.5306 29.9253C26.2114 28.0318 30.3051 22.6716 30.3051 16.3534C30.3051 8.45265 23.9003 2.04814 16.0002 2.04814ZM7.05285 22.4261C7.02133 22.4971 6.90946 22.5185 6.80765 22.4696C6.70383 22.423 6.6456 22.3261 6.67913 22.2548C6.70998 22.1816 6.82207 22.1612 6.92556 22.2103C7.02949 22.257 7.08872 22.3548 7.05285 22.4261ZM7.75648 23.0539C7.6883 23.1172 7.55487 23.0878 7.46434 22.9879C7.3708 22.8882 7.35325 22.7547 7.42243 22.6906C7.49284 22.6273 7.62214 22.657 7.71591 22.7566C7.80956 22.8576 7.82767 22.99 7.75648 23.0539ZM8.23927 23.8572C8.15154 23.9181 8.00827 23.861 7.91964 23.7339C7.83203 23.6067 7.83203 23.4541 7.92154 23.393C8.01039 23.3319 8.15154 23.3868 8.24128 23.5131C8.32868 23.6424 8.32868 23.795 8.23916 23.8573L8.23927 23.8572ZM9.05555 24.7876C8.97721 24.8741 8.81013 24.8509 8.68787 24.7329C8.56281 24.6175 8.52805 24.4539 8.60673 24.3674C8.68608 24.2807 8.85405 24.305 8.97721 24.4222C9.10126 24.5373 9.13926 24.7021 9.05555 24.7876ZM10.1108 25.1017C10.0761 25.2137 9.91519 25.2647 9.75325 25.2171C9.59143 25.168 9.48559 25.0368 9.51823 24.9236C9.55187 24.8108 9.71347 24.7578 9.87663 24.8087C10.0382 24.8575 10.1444 24.9877 10.1108 25.1017ZM11.3115 25.235C11.3155 25.3529 11.1782 25.4507 11.0081 25.4529C10.8371 25.4567 10.6986 25.3613 10.6967 25.245C10.6967 25.126 10.831 25.0291 11.0021 25.0262C11.1722 25.0229 11.3115 25.1176 11.3115 25.235ZM12.4911 25.1897C12.5114 25.3048 12.3933 25.4231 12.2243 25.4546C12.0584 25.4849 11.9046 25.4138 11.8835 25.2997C11.8629 25.1817 11.9833 25.0634 12.149 25.0329C12.3182 25.0035 12.4695 25.0727 12.4911 25.1897Z" fill="white"></path>
 </svg>
     }
     
 
-    export const GithubLight = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_githublight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const GithubLight = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_githublight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path className="svg_github_light" d="M16.0002 2.04814C8.10069 2.04814 1.69507 8.45265 1.69507 16.3533C1.69507 22.6736 5.7939 28.0359 11.4778 29.9274C12.1927 30.0598 12.4552 29.617 12.4552 29.2392C12.4552 28.8981 12.4418 27.7712 12.4358 26.576C8.45608 27.4412 7.61633 24.8881 7.61633 24.8881C6.96557 23.2346 6.02792 22.7949 6.02792 22.7949C4.73008 21.9071 6.12582 21.9254 6.12582 21.9254C7.56224 22.0262 8.31862 23.3995 8.31862 23.3995C9.59456 25.5863 11.6652 24.9541 12.4815 24.5886C12.6099 23.6641 12.9806 23.0329 13.3897 22.6757C10.2124 22.3141 6.87225 21.0874 6.87225 15.6062C6.87225 14.0443 7.43104 12.7682 8.34611 11.7664C8.19759 11.4061 7.70797 9.95121 8.48469 7.98069C8.48469 7.98069 9.68598 7.59625 12.4197 9.44707C13.5607 9.13012 14.7845 8.9712 16.0002 8.96573C17.2159 8.9712 18.4406 9.13001 19.5838 9.44707C22.3142 7.59636 23.5138 7.9808 23.5138 7.9808C24.2924 9.9511 23.8026 11.4062 23.654 11.7664C24.5712 12.7682 25.1262 14.0443 25.1262 15.6062C25.1262 21.1005 21.7797 22.3103 18.5943 22.6644C19.1074 23.1083 19.5646 23.9789 19.5646 25.3135C19.5646 27.2275 19.548 28.768 19.548 29.2392C19.548 29.6199 19.8055 30.0659 20.5306 29.9253C26.2114 28.0318 30.3051 22.6716 30.3051 16.3534C30.3051 8.45265 23.9003 2.04814 16.0002 2.04814ZM7.05285 22.4261C7.02133 22.4971 6.90946 22.5185 6.80765 22.4696C6.70383 22.423 6.6456 22.3261 6.67913 22.2548C6.70998 22.1816 6.82207 22.1612 6.92556 22.2103C7.02949 22.257 7.08872 22.3548 7.05285 22.4261ZM7.75648 23.0539C7.6883 23.1172 7.55487 23.0878 7.46434 22.9879C7.3708 22.8882 7.35325 22.7547 7.42243 22.6906C7.49284 22.6273 7.62214 22.657 7.71591 22.7566C7.80956 22.8576 7.82767 22.99 7.75648 23.0539ZM8.23927 23.8572C8.15154 23.9181 8.00827 23.861 7.91964 23.7339C7.83203 23.6067 7.83203 23.4541 7.92154 23.393C8.01039 23.3319 8.15154 23.3868 8.24128 23.5131C8.32868 23.6424 8.32868 23.795 8.23916 23.8573L8.23927 23.8572ZM9.05555 24.7876C8.97721 24.8741 8.81013 24.8509 8.68787 24.7329C8.56281 24.6175 8.52805 24.4539 8.60673 24.3674C8.68608 24.2807 8.85405 24.305 8.97721 24.4222C9.10126 24.5373 9.13926 24.7021 9.05555 24.7876ZM10.1108 25.1017C10.0761 25.2137 9.91519 25.2647 9.75325 25.2171C9.59143 25.168 9.48559 25.0368 9.51823 24.9236C9.55187 24.8108 9.71347 24.7578 9.87663 24.8087C10.0382 24.8575 10.1444 24.9877 10.1108 25.1017ZM11.3115 25.235C11.3155 25.3529 11.1782 25.4507 11.0081 25.4529C10.8371 25.4567 10.6986 25.3613 10.6967 25.245C10.6967 25.126 10.831 25.0291 11.0021 25.0262C11.1722 25.0229 11.3115 25.1176 11.3115 25.235ZM12.4911 25.1897C12.5114 25.3048 12.3933 25.4231 12.2243 25.4546C12.0584 25.4849 11.9046 25.4138 11.8835 25.2997C11.8629 25.1817 11.9833 25.0634 12.149 25.0329C12.3182 25.0035 12.4695 25.0727 12.4911 25.1897Z" fill="white"></path>
 </svg>
     }
     
 
-    export const GoogleBrand = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_googlebrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const GoogleBrand = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_googlebrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <path className="svg_google_brand svg_google_part1" d="M30.0014 16.3109C30.0014 15.1598 29.9061 14.3198 29.6998 13.4487H16.2871V18.6442H24.1601C24.0014 19.9354 23.1442 21.8798 21.2394 23.1864L21.2127 23.3604L25.4536 26.58L25.7474 26.6087C28.4458 24.1665 30.0014 20.5731 30.0014 16.3109Z" fill="#4285F4"/>
 <path className="svg_google_brand svg_google_part2" d="M16.2863 30C20.1434 30 23.3814 28.7555 25.7466 26.6089L21.2386 23.1865C20.0323 24.011 18.4132 24.5866 16.2863 24.5866C12.5086 24.5866 9.30225 22.1444 8.15929 18.7688L7.99176 18.7827L3.58208 22.1272L3.52441 22.2843C5.87359 26.8577 10.699 30 16.2863 30Z" fill="#34A853"/>
 <path className="svg_google_brand svg_google_part3" d="M8.16013 18.7688C7.85855 17.8977 7.68401 16.9643 7.68401 15.9999C7.68401 15.0354 7.85855 14.1021 8.14426 13.231L8.13627 13.0455L3.67132 9.64734L3.52524 9.71544C2.55703 11.6132 2.00146 13.7444 2.00146 15.9999C2.00146 18.2555 2.55703 20.3865 3.52524 22.2843L8.16013 18.7688Z" fill="#FBBC05"/>
@@ -100,8 +100,8 @@
     }
     
 
-    export const GoogleGray = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_googlegray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const GoogleGray = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_googlegray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
   <path className="svg_google_gray svg_google_part1" d="M30.0014 16.3109C30.0014 15.1598 29.9061 14.3198 29.6998 13.4487H16.2871V18.6442H24.1601C24.0014 19.9354 23.1442 21.8798 21.2394 23.1864L21.2127 23.3604L25.4536 26.58L25.7474 26.6087C28.4458 24.1665 30.0014 20.5731 30.0014 16.3109Z" fill="#4285F4"></path>
   <path className="svg_google_gray svg_google_part2" d="M16.2863 30C20.1434 30 23.3814 28.7555 25.7466 26.6089L21.2386 23.1865C20.0323 24.011 18.4132 24.5866 16.2863 24.5866C12.5086 24.5866 9.30225 22.1444 8.15929 18.7688L7.99176 18.7827L3.58208 22.1272L3.52441 22.2843C5.87359 26.8577 10.699 30 16.2863 30Z" fill="#34A853"></path>
   <path className="svg_google_gray svg_google_part3" d="M8.16013 18.7688C7.85855 17.8977 7.68401 16.9643 7.68401 15.9999C7.68401 15.0354 7.85855 14.1021 8.14426 13.231L8.13627 13.0455L3.67132 9.64734L3.52524 9.71544C2.55703 11.6132 2.00146 13.7444 2.00146 15.9999C2.00146 18.2555 2.55703 20.3865 3.52524 22.2843L8.16013 18.7688Z" fill="#FBBC05"></path>
@@ -110,8 +110,8 @@
     }
     
 
-    export const GoogleLight = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_googlelight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const GoogleLight = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_googlelight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
   <path className="svg_google_light svg_google_part1" d="M30.0014 16.3109C30.0014 15.1598 29.9061 14.3198 29.6998 13.4487H16.2871V18.6442H24.1601C24.0014 19.9354 23.1442 21.8798 21.2394 23.1864L21.2127 23.3604L25.4536 26.58L25.7474 26.6087C28.4458 24.1665 30.0014 20.5731 30.0014 16.3109Z" fill="#4285F4"></path>
   <path className="svg_google_light svg_google_part2" d="M16.2863 30C20.1434 30 23.3814 28.7555 25.7466 26.6089L21.2386 23.1865C20.0323 24.011 18.4132 24.5866 16.2863 24.5866C12.5086 24.5866 9.30225 22.1444 8.15929 18.7688L7.99176 18.7827L3.58208 22.1272L3.52441 22.2843C5.87359 26.8577 10.699 30 16.2863 30Z" fill="#34A853"></path>
   <path className="svg_google_light svg_google_part3" d="M8.16013 18.7688C7.85855 17.8977 7.68401 16.9643 7.68401 15.9999C7.68401 15.0354 7.85855 14.1021 8.14426 13.231L8.13627 13.0455L3.67132 9.64734L3.52524 9.71544C2.55703 11.6132 2.00146 13.7444 2.00146 15.9999C2.00146 18.2555 2.55703 20.3865 3.52524 22.2843L8.16013 18.7688Z" fill="#FBBC05"></path>
@@ -120,8 +120,8 @@
     }
     
 
-    export const LinkedinBrand = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_linkedinbrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const LinkedinBrand = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_linkedinbrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <g clip-path="url(#clip0_2625_94071)">
 <path className="svg_linkedin_outer_brand" d="M27.0744 3.00076H4.91912C3.86125 3.00076 3 3.84008 3 4.87358V27.1231C3 28.159 3.86125 29 4.91912 29H27.076C28.1363 29 29 28.159 29 27.1231V4.87358C29 3.84008 28.1363 3.00076 27.0744 3.00076Z" fill="#0177B5"/>
 <path className="svg_linkedin_inner_brand" d="M6.8553 12.7476H10.7187V25.1544H6.8553V12.7476ZM8.78418 6.57257C10.0167 6.57257 11.0186 7.57438 11.0186 8.80695C11.0186 10.0395 10.0167 11.0438 8.78499 11.0438C8.19207 11.0425 7.62379 10.8064 7.20446 10.3872C6.78512 9.96806 6.54887 9.39987 6.54736 8.80695C6.54736 8.51332 6.60524 8.22257 6.71768 7.95133C6.83012 7.68008 6.99492 7.43366 7.20266 7.22614C7.4104 7.01863 7.657 6.8541 7.92837 6.74195C8.19974 6.62981 8.49055 6.57225 8.78418 6.57257ZM13.1311 12.7476H16.8296V14.4433H16.8807C17.3959 13.4683 18.6536 12.4396 20.537 12.4396C24.4419 12.4396 25.1626 15.0096 25.1626 18.3498V25.1553H21.3089V19.12C21.3089 17.6819 21.2829 15.8294 19.3052 15.8294C17.2984 15.8294 16.9896 17.3975 16.9896 19.0144V25.152H13.1367V12.7451L13.1311 12.7476Z" fill="white"/>
@@ -136,8 +136,8 @@
     }
     
 
-    export const LinkedinGray = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_linkedingray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const LinkedinGray = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_linkedingray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
   <g clip-path="url(#clip0_2625_94071)">
     <path className="svg_linkedin_outer_gray" d="M27.0744 3.00076H4.91912C3.86125 3.00076 3 3.84008 3 4.87358V27.1231C3 28.159 3.86125 29 4.91912 29H27.076C28.1363 29 29 28.159 29 27.1231V4.87358C29 3.84008 28.1363 3.00076 27.0744 3.00076Z" fill="white"></path>
     <path className="svg_linkedin_inner_gray" d="M6.8553 12.7476H10.7187V25.1544H6.8553V12.7476ZM8.78418 6.57257C10.0167 6.57257 11.0186 7.57438 11.0186 8.80695C11.0186 10.0395 10.0167 11.0438 8.78499 11.0438C8.19207 11.0425 7.62379 10.8064 7.20446 10.3872C6.78512 9.96806 6.54887 9.39987 6.54736 8.80695C6.54736 8.51332 6.60524 8.22257 6.71768 7.95133C6.83012 7.68008 6.99492 7.43366 7.20266 7.22614C7.4104 7.01863 7.657 6.8541 7.92837 6.74195C8.19974 6.62981 8.49055 6.57225 8.78418 6.57257ZM13.1311 12.7476H16.8296V14.4433H16.8807C17.3959 13.4683 18.6536 12.4396 20.537 12.4396C24.4419 12.4396 25.1626 15.0096 25.1626 18.3498V25.1553H21.3089V19.12C21.3089 17.6819 21.2829 15.8294 19.3052 15.8294C17.2984 15.8294 16.9896 17.3975 16.9896 19.0144V25.152H13.1367V12.7451L13.1311 12.7476Z" fill="#0177B5"></path>
@@ -151,8 +151,8 @@
     }
     
 
-    export const LinkedinLight = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_linkedinlight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const LinkedinLight = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_linkedinlight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
   <g clip-path="url(#clip0_2625_94071)">
     <path className="svg_linkedin_outer_light" d="M27.0744 3.00076H4.91912C3.86125 3.00076 3 3.84008 3 4.87358V27.1231C3 28.159 3.86125 29 4.91912 29H27.076C28.1363 29 29 28.159 29 27.1231V4.87358C29 3.84008 28.1363 3.00076 27.0744 3.00076Z" fill="white"></path>
     <path className="svg_linkedin_inner_light" d="M6.8553 12.7476H10.7187V25.1544H6.8553V12.7476ZM8.78418 6.57257C10.0167 6.57257 11.0186 7.57438 11.0186 8.80695C11.0186 10.0395 10.0167 11.0438 8.78499 11.0438C8.19207 11.0425 7.62379 10.8064 7.20446 10.3872C6.78512 9.96806 6.54887 9.39987 6.54736 8.80695C6.54736 8.51332 6.60524 8.22257 6.71768 7.95133C6.83012 7.68008 6.99492 7.43366 7.20266 7.22614C7.4104 7.01863 7.657 6.8541 7.92837 6.74195C8.19974 6.62981 8.49055 6.57225 8.78418 6.57257ZM13.1311 12.7476H16.8296V14.4433H16.8807C17.3959 13.4683 18.6536 12.4396 20.537 12.4396C24.4419 12.4396 25.1626 15.0096 25.1626 18.3498V25.1553H21.3089V19.12C21.3089 17.6819 21.2829 15.8294 19.3052 15.8294C17.2984 15.8294 16.9896 17.3975 16.9896 19.0144V25.152H13.1367V12.7451L13.1311 12.7476Z" fill="#0177B5"></path>
@@ -166,8 +166,8 @@
     }
     
 
-    export const MicrosoftBrand = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_microsoftbrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const MicrosoftBrand = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_microsoftbrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <rect className="svg_microsoft_brand svg_microsoft_bottom_left" x="5" y="17" width="10" height="10" fill="#05A6F0"/>
 <rect className="svg_microsoft_brand svg_microsoft_bottom_right" x="17" y="17" width="10" height="10" fill="#FEBA08"/>
 <rect className="svg_microsoft_brand svg_microsoft_top_right" x="17" y="5" width="10" height="10" fill="#80BC06"/>
@@ -177,8 +177,8 @@
     }
     
 
-    export const MicrosoftGray = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_microsoftgray" viewBox="0 0 32 32" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+    export const MicrosoftGray = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_microsoftgray" viewBox="0 0 32 32" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" {...props}>
   <rect className="svg_microsoft_gray" x="17" y="17" width="10" height="10" fill="#05A6F0"></rect>
   <rect className="svg_microsoft_gray" x="5" y="17" width="10" height="10" fill="#FEBA08"></rect>
   <rect className="svg_microsoft_gray" x="17" y="5" width="10" height="10" fill="#80BC06"></rect>
@@ -187,8 +187,8 @@
     }
     
 
-    export const MicrosoftLight = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_microsoftlight" viewBox="0 0 32 32" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+    export const MicrosoftLight = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_microsoftlight" viewBox="0 0 32 32" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" {...props}>
   <rect className="svg_microsoft_light" x="17" y="17" width="10" height="10" fill="#05A6F0"></rect>
   <rect className="svg_microsoft_light" x="5" y="17" width="10" height="10" fill="#FEBA08"></rect>
   <rect className="svg_microsoft_light" x="17" y="5" width="10" height="10" fill="#80BC06"></rect>
@@ -197,22 +197,22 @@
     }
     
 
-    export const XBrand = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_xbrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const XBrand = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_xbrand" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 <path className="svg_x_brand" d="M18.2856 14.172L27.2216 4H25.1048L17.3424 12.8304L11.1472 4H4L13.3704 17.3544L4 28.02H6.1168L14.3088 18.6928L20.8528 28.02H28M6.8808 5.5632H10.1328L25.1032 26.5336H21.8504" fill="black"/>
 </svg>
     }
     
 
-    export const XGray = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_xgray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const XGray = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_xgray" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
   <path className="svg_x_gray" d="M18.2856 14.172L27.2216 4H25.1048L17.3424 12.8304L11.1472 4H4L13.3704 17.3544L4 28.02H6.1168L14.3088 18.6928L20.8528 28.02H28M6.8808 5.5632H10.1328L25.1032 26.5336H21.8504" fill="black"></path>
 </svg>
     }
     
 
-    export const XLight = ({size = 32 as number, width, height}:{size?:number, width?:number, height?:number}) => {
-      return <svg width={width || size} height={height || size} className="package_logo package_logo_xlight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    export const XLight = ({size = 32 as number, width, height, ...props}:{size?:number, width?:number, height?:number, props?:any}) => {
+      return <svg width={width || size} height={height || size} className="package_logo package_logo_xlight" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
   <path className="svg_x_light" d="M18.2856 14.172L27.2216 4H25.1048L17.3424 12.8304L11.1472 4H4L13.3704 17.3544L4 28.02H6.1168L14.3088 18.6928L20.8528 28.02H28M6.8808 5.5632H10.1328L25.1032 26.5336H21.8504" fill="black"></path>
 </svg>
 
