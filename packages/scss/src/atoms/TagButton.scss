@@ -1,0 +1,116 @@
+@import '../foundation/all';
+
+.btn-tag{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px;
+  border: 1px solid $border-neutral-subtle;
+  border-radius: 6px;
+  width: max-content;
+  color: $foreground-neutral-tertiary;
+  font-size: $label-font-size-sm;
+  font-weight: $label-font-weight-sm-strong;
+  line-height: $label-line-height-sm;
+  letter-spacing: $label-letter-spacing-sm;
+  background-color: $background-base-white;
+  & > :nth-last-child(2){
+    color: $foreground-neutral-secondary;
+  }
+
+  & > :last-child{
+    padding: 2.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+
+[data-theme="dark"] .btn-tag{
+  border: 1px solid $dark-border-neutral-subtle;
+  background-color: $dark-background-base-white;
+  color: $dark-foreground-neutral-tertiary;
+  
+  & > :nth-last-child(2){
+    color: $dark-foreground-neutral-secondary;
+  }
+}
+
+.btn-tag-disabled{
+  border: 1px solid $action-border-neutral-light-disabled;
+  background-color: $action-background-neutral-light-disabled;
+  color: $action-foreground-neutral-disabled;
+  position: relative;
+
+  &:has(> .avatar-container)::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3px;
+    width: 25%;
+    height: 90%;
+    background-color: $action-background-neutral-light-disabled;
+    opacity: 0.7;
+  }
+
+  & > :nth-last-child(2){
+    color: $action-foreground-neutral-disabled;
+  }
+
+}
+
+[data-theme="dark"] .btn-tag-disabled{
+  border: 1px solid $dark-action-border-neutral-light-disabled;
+  background-color: $dark-action-background-neutral-light-disabled;
+  color: $dark-action-foreground-neutral-disabled;
+
+  &:has(> .avatar-container)::after{
+    background-color: $dark-action-background-neutral-light-disabled;
+  }
+
+  & > :nth-last-child(2){
+    color: $dark-action-foreground-neutral-disabled;
+  }
+}
+
+
+.btn-tag-error{
+  border: 1px solid $border-error-default;
+  background-color: $background-error-soft-surface;
+  color: $foreground-error-secondary;
+
+  & > :nth-last-child(2){
+    color: $action-foreground-error-focused;
+  }
+
+}
+
+[data-theme="dark"] .btn-tag-error{
+  border: 1px solid $dark-border-error-default;
+  background-color: $dark-background-error-soft-surface;
+  color: $dark-foreground-error-secondary;
+
+  & > :nth-last-child(2){
+    color: $dark-action-foreground-error-focused;
+  }
+}
+
+$btn-size: (
+  medium: (
+    padding: 6px,
+  ),
+  small: (
+    padding: 4px 6px,
+  )
+);
+
+@each $size, $value in $btn-size{
+  .btn-tag-#{$size}{
+    @each $key, $val in $value{
+      #{$key}: $val;
+    }
+
+  }
+}
