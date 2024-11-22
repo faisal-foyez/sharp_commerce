@@ -47,6 +47,11 @@ import {
   AvatarIconBackground
 } from './AvatarIcon';
 
+import {
+  TagButtonSize,
+  TagButtonState
+} from './TagButton';
+
 export {
   Spacing, 
   FontSize,
@@ -75,5 +80,7 @@ export {
   AvatarBottomStatus,
   AvatarIconSize,
   AvatarIconColor,
-  AvatarIconBackground
+  AvatarIconBackground,
+  TagButtonSize,
+  TagButtonState
 }
