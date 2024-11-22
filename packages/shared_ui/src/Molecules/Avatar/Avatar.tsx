@@ -177,7 +177,7 @@ const Avatar = (
   }
   
   return (
-    <div className={`avatar-container avatar-${size} avatar-${shape} avatar-bg-color-${bgColor} ${isBorder ? `avatar-border-${size}` : ''}`} {...props}  >
+    <div data-testid="avatar-testid" className={`avatar-container avatar-${size} avatar-${shape} avatar-bg-color-${bgColor} ${isBorder ? `avatar-border-${size}` : ''}`} {...props}  >
       {topStatus && 
       <span 
       className={`avatar-top-status-icon-container avatar-top-status-icon-container-${size}`}
