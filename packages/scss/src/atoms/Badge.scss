@@ -1,0 +1,359 @@
+@import '../foundation/all';
+
+$color-list: (
+  blue: (
+    light: (
+      background-color: $background-brand-soft-surface,
+      color: $foreground-brand-secondary,
+      border:none,
+      dot-color: $foreground-brand-secondary,
+    ),
+    outline: (
+      background-color: $background-brand-soft-surface,
+      color: $foreground-brand-secondary,
+      border: 1px solid $border-brand-subtle,
+      dot-color: $foreground-brand-secondary,
+    ),
+    fill: (
+      background-color: $background-brand-default,
+      color: $foreground-light-primary-inverted,
+      border: none,
+      dot-color: $foreground-light-primary-inverted,
+    )
+  ),
+  gray: (
+    light: (
+      background-color: $background-neutral-soft-surface,
+      color: $foreground-neutral-secondary,
+      border:none,
+      dot-color: $foreground-neutral-secondary,
+    ),
+    outline: (
+      background-color: $background-neutral-soft-surface,
+      color: $foreground-neutral-secondary,
+      border: 1px solid $border-neutral-subtle,
+      dot-color: $foreground-neutral-secondary,
+    ),
+    fill: (
+      background-color: $background-neutral-default,
+      color: $foreground-light-primary,
+      border: none,
+      dot-color: $foreground-light-primary,
+    )
+  ),
+  green: (
+    light: (
+      background-color: $background-success-soft-surface,
+      color: $foreground-success-secondary,
+      border:none,
+      dot-color: $foreground-success-secondary,
+    ),
+    outline: (
+      background-color: $background-success-soft-surface,
+      color: $foreground-success-secondary,
+      border: 1px solid $border-success-subtle,
+      dot-color: $foreground-success-secondary,
+    ),
+    fill: (
+      background-color: $background-success-default,
+      color: $foreground-light-primary,
+      border: none,
+      dot-color: $foreground-light-primary,
+    )
+  ),
+  yellow: (
+    light: (
+      background-color: $background-warning-soft-surface,
+      color: $foreground-warning-secondary,
+      border:none,
+      dot-color: $foreground-warning-secondary,
+    ),
+    outline: (
+      background-color: $background-warning-soft-surface,
+      color: $foreground-warning-secondary,
+      border: 1px solid $border-warning-subtle,
+      dot-color: $foreground-warning-secondary,
+    ),
+    fill: (
+      background-color: $background-warning-default,
+      color: $foreground-light-primary,
+      border: none,
+      dot-color: $foreground-light-primary,
+    )
+  ),
+  red: (
+    light: (
+      background-color: $background-error-soft-surface,
+      color: $foreground-error-secondary,
+      border:none,
+      dot-color: $foreground-error-secondary,
+    ),
+    outline: (
+      background-color: $background-error-soft-surface,
+      color: $foreground-error-secondary,
+      border: 1px solid $border-error-subtle,
+      dot-color: $foreground-error-secondary,
+    ),
+    fill: (
+      background-color: $background-error-default,
+      color: $foreground-light-primary,
+      border: none,
+      dot-color: $foreground-light-primary,
+    )
+  )
+);
+
+$dark-color-list: (
+  blue: (
+    light: (
+      background-color: $dark-background-brand-soft-surface,
+      color: $dark-foreground-brand-secondary,
+      border:none,
+      dot-color: $dark-foreground-brand-secondary,
+    ),
+    outline: (
+      background-color: $dark-background-brand-soft-surface,
+      color: $dark-foreground-brand-secondary,
+      border: 1px solid $dark-border-brand-subtle,
+      dot-color: $dark-foreground-brand-secondary,
+    ),
+    fill: (
+      background-color: $dark-background-brand-default,
+      color: $dark-foreground-light-primary-inverted,
+      border: none,
+      dot-color: $dark-foreground-light-primary-inverted,
+    )
+  ),
+  gray: (
+    light: (
+      background-color: $dark-background-neutral-soft-surface,
+      color: $dark-foreground-neutral-secondary,
+      border:none,
+      dot-color: $dark-foreground-neutral-secondary,
+    ),
+    outline: (
+      background-color: $dark-background-neutral-soft-surface,
+      color: $dark-foreground-neutral-secondary,
+      border: 1px solid $dark-border-neutral-subtle,
+      dot-color: $dark-foreground-neutral-secondary,
+    ),
+    fill: (
+      background-color: $dark-background-neutral-default,
+      color: $dark-foreground-light-primary,
+      border: none,
+      dot-color: $dark-foreground-light-primary,
+    )
+  ),
+  green: (
+    light: (
+      background-color: $dark-background-success-soft-surface,
+      color: $dark-foreground-success-secondary,
+      border:none,
+      dot-color: $dark-foreground-success-secondary,
+    ),
+    outline: (
+      background-color: $dark-background-success-soft-surface,
+      color: $dark-foreground-success-secondary,
+      border: 1px solid $dark-border-success-subtle,
+      dot-color: $dark-foreground-success-secondary,
+    ),
+    fill: (
+      background-color: $dark-background-success-default,
+      color: $dark-foreground-light-primary,
+      border: none,
+      dot-color: $dark-foreground-light-primary,
+    )
+  ),
+  yellow: (
+    light: (
+      background-color: $dark-background-warning-soft-surface,
+      color: $dark-foreground-warning-secondary,
+      border:none,
+      dot-color: $dark-foreground-warning-secondary,
+    ),
+    outline: (
+      background-color: $dark-background-warning-soft-surface,
+      color: $dark-foreground-warning-secondary,
+      border: 1px solid $dark-border-warning-subtle,
+      dot-color: $dark-foreground-warning-secondary,
+    ),
+    fill: (
+      background-color: $dark-background-warning-default,
+      color: $dark-foreground-light-primary,
+      border: none,
+      dot-color: $dark-foreground-light-primary,
+    )
+  ),
+  red: (
+    light: (
+      background-color: $dark-background-error-soft-surface,
+      color: $dark-foreground-error-secondary,
+      border:none,
+      dot-color: $dark-foreground-error-secondary,
+    ),
+    outline: (
+      background-color: $dark-background-error-soft-surface,
+      color: $dark-foreground-error-secondary,
+      border: 1px solid $dark-border-error-subtle,
+      dot-color: $dark-foreground-error-secondary,
+    ),
+    fill: (
+      background-color: $dark-background-error-default,
+      color: $dark-foreground-light-primary,
+      border: none,
+      dot-color: $dark-foreground-light-primary,
+    )
+  )
+);
+
+$size-list: (
+  small: (
+    font-size: $label-font-size-xs,
+    padding: 3px 6px,
+    gap: 4px,
+    icon-size: 14px,
+    logo-size: 12px,
+    dot-size: 5px,
+  ),
+  medium: (
+    font-size: $label-font-size-xs,
+    padding: 5px 8px,
+    gap: 6px,
+    icon-size: 16px,
+    logo-size: 14px,
+    dot-size: 5px,
+  ),
+  large: (
+    font-size: $label-font-size-sm,
+    padding: 6px 10px,
+    gap: 6px,
+    icon-size: 16px,
+    logo-size: 14px,
+    dot-size: 7px,
+  ),
+);
+
+.badge{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-weight: $font-weight-semibold;
+  border-radius: $radius-full-round;
+}
+
+@each $color-name, $color in $color-list{
+  .badge-#{$color-name}{
+    background-color: map-get($color, fill, background-color);
+    color: map-get($color, fill, color);
+    border: map-get($color, fill, border);
+  }
+}
+
+@each $color-name, $color in $dark-color-list{
+  [data-theme="dark"]{
+    .badge-#{$color-name}{
+      background-color: map-get($color, fill, background-color);
+      color: map-get($color, fill, color);
+      border: map-get($color, fill, border);
+    }
+  }
+}
+
+@each $color-name, $color in $color-list{
+  @each $style-name, $style in $color{
+    .badge-#{$color-name}.badge-#{$style-name}{
+      background-color: map-get($color, $style-name, background-color);
+      color: map-get($color, $style-name, color);
+      border: map-get($color, $style-name, border);
+    }
+
+    .badge-#{$color-name}.badge-#{$style-name} .badge-dot{
+      background-color: map-get($color, $style-name, dot-color);
+    }
+  }
+}
+
+@each $color-name, $color in $dark-color-list{
+  @each $style-name, $style in $color{
+    [data-theme="dark"]{
+      .badge-#{$color-name}.badge-#{$style-name}{
+        background-color: map-get($color, $style-name, background-color);
+        color: map-get($color, $style-name, color);
+        border: map-get($color, $style-name, border);
+      }
+
+      .badge-#{$color-name}.badge-#{$style-name}.badge-dot{
+        background-color: map-get($color, $style-name, dot-color);
+      }
+    }
+  }
+}
+
+@each $size-name, $size in $size-list{
+  .badge-#{$size-name}{
+    font-size: map-get($size, font-size);
+    padding: map-get($size, padding);
+    gap: map-get($size, gap);
+
+  }
+
+  .badge-#{$size-name} .badge-left-icon{
+    width: map-get($size, icon-size);
+    height: map-get($size, icon-size);
+  }
+
+  .badge-#{$size-name} .badge-right-icon{
+    width: map-get($size, icon-size);
+    height: map-get($size, icon-size);
+  }
+
+  .badge-#{$size-name} .badge-logo{
+    width: map-get($size, logo-size);
+    height: map-get($size, logo-size);
+  }
+
+  .badge-#{$size-name} .badge-dot{
+    width: map-get($size, dot-size);
+    height: map-get($size, dot-size);
+  }
+}
+
+.badge-light.badge-disabled{
+  color: $action-foreground-neutral-disabled;
+  background-color: $background-neutral-soft-surface;
+}
+
+.badge-outline.badge-disabled{
+  color: $action-foreground-neutral-disabled;
+  background-color: $action-background-base-white;
+  border: 1px solid $action-border-neutral-disabled;
+}
+
+.badge-fill.badge-disabled{
+  color: $foreground-light-primary;
+  background-color: $action-background-neutral-disabled;
+}
+
+[data-theme="dark"]{
+  .badge-fill.badge-disabled{
+    color: $dark-foreground-light-primary;
+    background-color: $dark-action-background-neutral-disabled;
+  }
+
+  .badge-outline.badge-disabled{
+    color: $dark-action-foreground-neutral-disabled;
+    background-color: $dark-action-background-base-white;
+    border: 1px solid $dark-action-border-neutral-disabled;
+  }
+
+  .badge-light.badge-disabled{
+    color: $dark-action-foreground-neutral-disabled;
+    background-color: $dark-background-neutral-soft-surface;
+  }
+}
+
+.badge-dot{
+  border-radius: $radius-full-round;
+}
