@@ -1,0 +1,777 @@
+/*=============================================
+    #Variables
+=============================================*/
+/**
+ * TABLE OF CONTENTS
+ * 
+ * COLORS
+ * Brand colors...................These are the main brand colors. They will be used the most
+ * Neutral colors.................White and black, gray scale, secondary colors.
+ * Utility colors.................Other colors to represent states: info, warning, success, etc.
+ * 
+ * TYPOGRAPHY
+ * Font families..................The fonts used in the design system.
+ * Font weights...................Font weights
+ * Sizes..........................Font sizing for body text, paragraphs, inputs
+ * Heading sizes..................Font sizing for page headings
+ *
+ * BREAKPOINTS
+ * Breakpoints....................Global responsive breakpoints definitions.
+ *
+ * SPACING
+ * Spacing........................Global fixed set of spacing variables
+ * 
+ * SHADOW
+ * Shadows........................Global fixed set of shadows
+ */
+/*=============================================
+=            Colors                           =
+=============================================*/
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Violet colors */
+/* Purple colors */
+/* Indigo colors */
+/* Blue light colors */
+/* Blue dark colors*/
+/* Blue gray colors */
+/* Blue colors */
+/* Cyan colors */
+/* Dimgray colors */
+/* Emerald colors */
+/* Gold colors */
+/* Green colors */
+/* Green dark colors */
+/* Lime colors */
+/* Orange colors */
+/* Pink colors */
+/* Rose colors */
+/* Red colors */
+/* Red dark colors */
+/* Sky colors */
+/* Slate colors */
+/* Stone colors */
+/* Teal colors */
+/* Yellow colors */
+/* Yellow dark colors */
+/* Zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=====  End of Colors  ======*/
+/*=============================================
+=                 Typography                  =
+=============================================*/
+/* Font Families */
+/**
+ *
+ * 1) The playfair font. We'll use this for headings mostly.
+ *     https://fonts.google.com/specimen/Playfair+Display
+ *
+ * 2) The raleway font. We'll use this for the body text.
+ *     https://fonts.google.com/specimen/Raleway
+ */
+/* 1 */
+/* 2 */
+/*----------  End of Font Familie  ----------*/
+/*----------  Font weights  ----------*/
+/*----------  End of Font weights  ----------*/
+/*----------  Display font variables  ----------*/
+/*----------  End of Display font variables  ----------*/
+/*----------  Heading font variables  ----------*/
+/*----------  End of Heading font variables  ----------*/
+/*----------  Body font variables  ----------*/
+/* body font size */
+/* body line height */
+/* body letter spacing */
+/*----------  End of Body font variables  ----------*/
+/*----------  Label font variables  ----------*/
+/*----------  End of Label font variables  ----------*/
+/*----------  Underline font variables  ----------*/
+/*----------  End of Underline font variables  ----------*/
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoint            =
+=============================================*/
+/*=====  End of Breakpoint  ======*/
+/*=============================================
+=            Spacing                          =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=                  Shadows                    =
+=============================================*/
+/*=====  End of Shadows  ======*/
+/*=============================================
+=            Spacing             =
+=============================================*/
+/*=====  End of Spacing   ======*/
+/*=============================================
+=            Corner Radius            =
+=============================================*/
+/*=====  End of Corner Radius  ======*/
+/*=============================================
+=            Breakpoints           =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* 1 */
+/* 2 */
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+/*----------  Heading font variables  ----------*/
+/*----------  End of Typography variables  ----------*/
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variables.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Global violet colors */
+/* Global purple colors */
+/* Global indigo colors */
+/* Global blue light colors */
+/* Global blue dark colors*/
+/* Global blue gray colors */
+/* Global blue colors */
+/* Global cyan colors */
+/* Global dimgray colors */
+/* Global emerald colors */
+/* Global gold colors */
+/* Global green colors */
+/* Global green dark colors */
+/* Global lime colors */
+/* Global orange colors */
+/* Global pink colors */
+/* Global rose colors */
+/* Global red colors */
+/* Global red dark colors */
+/* Global sky colors */
+/* Global slate colors */
+/* Global stone colors */
+/* Global teal colors */
+/* Global yellow colors */
+/* Global yellow dark colors */
+/* Global zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Semantic colors            =
+=============================================*/
+/*----------  Semantic Base  ----------*/
+/*---------- Semantic Brand  ----------*/
+/*----------  Dark Semantic Brand  ----------*/
+/*----------  Dark Semantic brand_alt  ----------*/
+/*----------  Semantic neutral  ----------*/
+/*----------  Semantic success  ----------*/
+/*----------  Dark Semantic success  ----------*/
+/*----------  Semantic warning  ----------*/
+/*----------  Dark Semantic warning  ----------*/
+/*----------  Semantic error  ----------*/
+/*----------  Dark Semantic error  ----------*/
+/*=====  End of Semantic colors  ======*/
+/*=============================================
+=            Transparent colors tokens            =
+=============================================*/
+/*---------- Transparent Colors  ----------*/
+/*---------- Dark Semantic transparent Colors  ----------*/
+/*----------  Brand Transparent Colors  ----------*/
+/*=====  End of Transparent colors tokens  ======*/
+/*=============================================
+=            Background colors tokens            =
+=============================================*/
+/*----------  Background Semantic Base Colors  ----------*/
+/*---------- Dark Background Semantic Colors  ----------*/
+/*----------  Background Semantic Brand Colors  ----------*/
+/*----------  Dark Background Semantic Brand Colors  ----------*/
+/*----------  Background Semantic Neutral Colors  ----------*/
+/*----------  Dark Background Semantic Neutral Colors  ----------*/
+/*----------  Background Semantic Success Colors  ----------*/
+/*----------  Dark Background Semantic Success Colors  ----------*/
+/*----------  Background Semantic Warning Colors  ----------*/
+/*----------  Dark Background Semantic Warning Colors  ----------*/
+/*----------  Background Semantic Error Colors  ----------*/
+/*----------  Dark Background Semantic Error Colors  ----------*/
+/*=====  End of Background colors tokens  ======*/
+/*=============================================
+=            Foreground colors tokens            =
+=============================================
+
+/*----------  Foreground Semantic Neutral Colors  ----------*/
+/*----------  Dark Foreground Semantic Neutral Colors  ----------*/
+/*----------  Foreground Semantic Light Colors  ----------*/
+/*----------  Dark Foreground Semantic Light Colors  ----------*/
+/*----------  Foreground Semantic Brand Colors  ----------*/
+/*----------  Dark Foreground Semantic Brand Colors  ----------*/
+/*----------  Foreground Semantic Success Colors  ----------*/
+/*----------  Dark Foreground Semantic Success Colors  ----------*/
+/*----------  Foreground Semantic Warning Colors  ----------*/
+/*----------  Dark Foreground Semantic Warning Colors  ----------*/
+/*----------  Foreground Semantic Error Colors  ----------*/
+/*----------  Dark Foreground Semantic Error Colors  ----------*/
+/*----------  Foreground Semantic Link Colors  ----------*/
+/*----------  Dark Foreground Semantic Link Colors  ----------*/
+/*=====  End of Foreground colors tokens  ======*/
+/*=============================================
+=            Border colors tokens            =
+=============================================*/
+/*----------  Border Semantic Base Colors  ----------*/
+/*----------  Dark Border Semantic Base Colors  ----------*/
+/*----------  Border Semantic Neutral Colors  ----------*/
+/*----------  Dark Border Semantic Neutral Colors  ----------*/
+/*----------  Border Semantic Brand Colors  ----------*/
+/*----------  Dark Border Semantic Brand Colors  ----------*/
+/*----------  Border Semantic Success Colors  ----------*/
+/*----------  Dark Border Semantic Success Colors  ----------*/
+/*----------  Border Semantic Warning Colors  ----------*/
+/*----------  Dark Border Semantic Warning Colors  ----------*/
+/*----------  Border Semantic Error Colors  ----------*/
+/*----------  Dark Border Semantic Error Colors  ----------*/
+/*=====  End of Border colors tokens  ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=============================================
+=            Action color tokens            =
+=============================================*/
+/*----------  Action Background Base Colors  ----------*/
+/*----------  Action Background Brand Colors  ----------*/
+/*----------  Action Background Neutral Colors  ----------*/
+/*----------  Action Background Error Colors  ----------*/
+/*----------  Action Background Success Colors  ----------*/
+/*----------  Action Background Warning Colors  ----------*/
+/*----------  Action Foreground Base Colors  ----------*/
+/*----------  Action Foreground Brand Colors  ----------*/
+/*----------  Action Foreground Neutral Colors  ----------*/
+/*----------  Action Foreground Error Colors  ----------*/
+/*----------  Action Foreground Success Colors  ----------*/
+/*----------  Action Foreground Warning Colors  ----------*/
+/*----------  Action Border Brand Colors  ----------*/
+/*----------  Action Border Neutral Colors  ----------*/
+/*----------  Action Border Error Colors  ----------*/
+/*----------  Action Border Success Colors  ----------*/
+/*----------  Action Border Warning Colors  ----------*/
+/*=============================================
+=            Other Color Tokens               =
+=============================================*/
+/*----------  Fuchsia  ----------*/
+/*----------  Purple  ----------*/
+/*----------  Cyan  ----------*/
+/*----------  Pink  ----------*/
+/*----------  Sky  ----------*/
+/*----------  Black  ----------*/
+/*=====  End of Other Color Tokens  ======*/
+/*=============================================
+=            Mixins                           =
+=============================================*/
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+ */
+.badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-weight: var(--dsc-font-weight-semibold, 600);
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}
+
+.badge-blue {
+  background-color: var(--dsc-background-brand-default, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  color: var(--dsc-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+
+.badge-gray {
+  background-color: var(--dsc-background-neutral-default, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+  color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+
+.badge-green {
+  background-color: var(--dsc-background-success-default, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+
+.badge-yellow {
+  background-color: var(--dsc-background-warning-default, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+
+.badge-red {
+  background-color: var(--dsc-background-error-default, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+
+[data-theme=dark] .badge-blue {
+  background-color: var(--dsc-dark-background-brand-default, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF)));
+  color: var(--dsc-dark-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+
+[data-theme=dark] .badge-gray {
+  background-color: var(--dsc-dark-background-neutral-default, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: none;
+}
+
+[data-theme=dark] .badge-green {
+  background-color: var(--dsc-dark-background-success-default, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: none;
+}
+
+[data-theme=dark] .badge-yellow {
+  background-color: var(--dsc-dark-background-warning-default, var(--dsc-dark-semantic-warning-300, var(--dsc-global-yellow-dark-300, #EFCC4F)));
+  color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: none;
+}
+
+[data-theme=dark] .badge-red {
+  background-color: var(--dsc-dark-background-error-default, var(--dsc-dark-semantic-error-300, var(--dsc-global-red-dark-300, #F66161)));
+  color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: none;
+}
+
+.badge-blue.badge-light {
+  background-color: var(--dsc-background-brand-soft-surface, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF)));
+  color: var(--dsc-foreground-brand-secondary, var(--dsc-dark-semantic-brand-400, var(--dsc-global-blue-dark-400, #4174FF)));
+  border: none;
+}
+
+.badge-blue.badge-light .badge-dot {
+  background-color: var(--dsc-foreground-brand-secondary, var(--dsc-dark-semantic-brand-400, var(--dsc-global-blue-dark-400, #4174FF)));
+}
+
+.badge-blue.badge-outline {
+  background-color: var(--dsc-background-brand-soft-surface, var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF)));
+  color: var(--dsc-foreground-brand-secondary, var(--dsc-dark-semantic-brand-400, var(--dsc-global-blue-dark-400, #4174FF)));
+  border: 1px solid var(--dsc-border-brand-subtle, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+}
+
+.badge-blue.badge-outline .badge-dot {
+  background-color: var(--dsc-foreground-brand-secondary, var(--dsc-dark-semantic-brand-400, var(--dsc-global-blue-dark-400, #4174FF)));
+}
+
+.badge-blue.badge-fill {
+  background-color: var(--dsc-background-brand-default, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  color: var(--dsc-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+
+.badge-blue.badge-fill .badge-dot {
+  background-color: var(--dsc-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.badge-gray.badge-light {
+  background-color: var(--dsc-background-neutral-soft-surface, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  color: var(--dsc-foreground-neutral-secondary, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  border: none;
+}
+
+.badge-gray.badge-light .badge-dot {
+  background-color: var(--dsc-foreground-neutral-secondary, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+}
+
+.badge-gray.badge-outline {
+  background-color: var(--dsc-background-neutral-soft-surface, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  color: var(--dsc-foreground-neutral-secondary, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  border: 1px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+}
+
+.badge-gray.badge-outline .badge-dot {
+  background-color: var(--dsc-foreground-neutral-secondary, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+}
+
+.badge-gray.badge-fill {
+  background-color: var(--dsc-background-neutral-default, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+  color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+
+.badge-gray.badge-fill .badge-dot {
+  background-color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.badge-green.badge-light {
+  background-color: var(--dsc-background-success-soft-surface, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5)));
+  color: var(--dsc-foreground-success-secondary, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  border: none;
+}
+
+.badge-green.badge-light .badge-dot {
+  background-color: var(--dsc-foreground-success-secondary, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+}
+
+.badge-green.badge-outline {
+  background-color: var(--dsc-background-success-soft-surface, var(--dsc-semantic-success-25, var(--dsc-global-green-25, #EAFEF5)));
+  color: var(--dsc-foreground-success-secondary, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  border: 1px solid var(--dsc-border-success-subtle, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+}
+
+.badge-green.badge-outline .badge-dot {
+  background-color: var(--dsc-foreground-success-secondary, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+}
+
+.badge-green.badge-fill {
+  background-color: var(--dsc-background-success-default, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+
+.badge-green.badge-fill .badge-dot {
+  background-color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.badge-yellow.badge-light {
+  background-color: var(--dsc-background-warning-soft-surface, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF)));
+  color: var(--dsc-foreground-warning-secondary, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  border: none;
+}
+
+.badge-yellow.badge-light .badge-dot {
+  background-color: var(--dsc-foreground-warning-secondary, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+}
+
+.badge-yellow.badge-outline {
+  background-color: var(--dsc-background-warning-soft-surface, var(--dsc-semantic-warning-25, var(--dsc-global-yellow-25, #FFF9DF)));
+  color: var(--dsc-foreground-warning-secondary, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  border: 1px solid var(--dsc-border-warning-subtle, var(--dsc-semantic-warning-200, var(--dsc-global-yellow-200, #F7DC7C)));
+}
+
+.badge-yellow.badge-outline .badge-dot {
+  background-color: var(--dsc-foreground-warning-secondary, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+}
+
+.badge-yellow.badge-fill {
+  background-color: var(--dsc-background-warning-default, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+
+.badge-yellow.badge-fill .badge-dot {
+  background-color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.badge-red.badge-light {
+  background-color: var(--dsc-background-error-soft-surface, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4)));
+  color: var(--dsc-foreground-error-secondary, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  border: none;
+}
+
+.badge-red.badge-light .badge-dot {
+  background-color: var(--dsc-foreground-error-secondary, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+}
+
+.badge-red.badge-outline {
+  background-color: var(--dsc-background-error-soft-surface, var(--dsc-semantic-error-25, var(--dsc-global-red-25, #FFF5F4)));
+  color: var(--dsc-foreground-error-secondary, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  border: 1px solid var(--dsc-border-error-subtle, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+}
+
+.badge-red.badge-outline .badge-dot {
+  background-color: var(--dsc-foreground-error-secondary, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+}
+
+.badge-red.badge-fill {
+  background-color: var(--dsc-background-error-default, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+
+.badge-red.badge-fill .badge-dot {
+  background-color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .badge-blue.badge-light {
+  background-color: var(--dsc-dark-background-brand-soft-surface, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+  color: var(--dsc-dark-foreground-brand-secondary, var(--dsc-dark-semantic-brand-alt-600, var(--dsc-global-blue-light-600, #3B6ED5)));
+  border: none;
+}
+[data-theme=dark] .badge-blue.badge-light.badge-dot {
+  background-color: var(--dsc-dark-foreground-brand-secondary, var(--dsc-dark-semantic-brand-alt-600, var(--dsc-global-blue-light-600, #3B6ED5)));
+}
+
+[data-theme=dark] .badge-blue.badge-outline {
+  background-color: var(--dsc-dark-background-brand-soft-surface, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+  color: var(--dsc-dark-foreground-brand-secondary, var(--dsc-dark-semantic-brand-alt-600, var(--dsc-global-blue-light-600, #3B6ED5)));
+  border: 1px solid var(--dsc-dark-border-brand-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+}
+[data-theme=dark] .badge-blue.badge-outline.badge-dot {
+  background-color: var(--dsc-dark-foreground-brand-secondary, var(--dsc-dark-semantic-brand-alt-600, var(--dsc-global-blue-light-600, #3B6ED5)));
+}
+
+[data-theme=dark] .badge-blue.badge-fill {
+  background-color: var(--dsc-dark-background-brand-default, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF)));
+  color: var(--dsc-dark-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+  border: none;
+}
+[data-theme=dark] .badge-blue.badge-fill.badge-dot {
+  background-color: var(--dsc-dark-foreground-light-primary-inverted, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .badge-gray.badge-light {
+  background-color: var(--dsc-dark-background-neutral-soft-surface, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643)));
+  color: var(--dsc-dark-foreground-neutral-secondary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+  border: none;
+}
+[data-theme=dark] .badge-gray.badge-light.badge-dot {
+  background-color: var(--dsc-dark-foreground-neutral-secondary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+}
+
+[data-theme=dark] .badge-gray.badge-outline {
+  background-color: var(--dsc-dark-background-neutral-soft-surface, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643)));
+  color: var(--dsc-dark-foreground-neutral-secondary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+  border: 1px solid var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+}
+[data-theme=dark] .badge-gray.badge-outline.badge-dot {
+  background-color: var(--dsc-dark-foreground-neutral-secondary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+}
+
+[data-theme=dark] .badge-gray.badge-fill {
+  background-color: var(--dsc-dark-background-neutral-default, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: none;
+}
+[data-theme=dark] .badge-gray.badge-fill.badge-dot {
+  background-color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .badge-green.badge-light {
+  background-color: var(--dsc-dark-background-success-soft-surface, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16)));
+  color: var(--dsc-dark-foreground-success-secondary, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  border: none;
+}
+[data-theme=dark] .badge-green.badge-light.badge-dot {
+  background-color: var(--dsc-dark-foreground-success-secondary, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+}
+
+[data-theme=dark] .badge-green.badge-outline {
+  background-color: var(--dsc-dark-background-success-soft-surface, var(--dsc-dark-semantic-success-900, var(--dsc-global-green-dark-900, #012C16)));
+  color: var(--dsc-dark-foreground-success-secondary, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  border: 1px solid var(--dsc-dark-border-success-subtle, var(--dsc-dark-semantic-success-700, var(--dsc-global-green-dark-700, #107542)));
+}
+[data-theme=dark] .badge-green.badge-outline.badge-dot {
+  background-color: var(--dsc-dark-foreground-success-secondary, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+}
+
+[data-theme=dark] .badge-green.badge-fill {
+  background-color: var(--dsc-dark-background-success-default, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: none;
+}
+[data-theme=dark] .badge-green.badge-fill.badge-dot {
+  background-color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .badge-yellow.badge-light {
+  background-color: var(--dsc-dark-background-warning-soft-surface, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07)));
+  color: var(--dsc-dark-foreground-warning-secondary, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  border: none;
+}
+[data-theme=dark] .badge-yellow.badge-light.badge-dot {
+  background-color: var(--dsc-dark-foreground-warning-secondary, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+}
+
+[data-theme=dark] .badge-yellow.badge-outline {
+  background-color: var(--dsc-dark-background-warning-soft-surface, var(--dsc-dark-semantic-warning-900, var(--dsc-global-yellow-dark-900, #362C07)));
+  color: var(--dsc-dark-foreground-warning-secondary, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  border: 1px solid var(--dsc-dark-border-warning-subtle, var(--dsc-dark-semantic-warning-600, var(--dsc-global-yellow-dark-600, #BE9917)));
+}
+[data-theme=dark] .badge-yellow.badge-outline.badge-dot {
+  background-color: var(--dsc-dark-foreground-warning-secondary, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+}
+
+[data-theme=dark] .badge-yellow.badge-fill {
+  background-color: var(--dsc-dark-background-warning-default, var(--dsc-dark-semantic-warning-300, var(--dsc-global-yellow-dark-300, #EFCC4F)));
+  color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: none;
+}
+[data-theme=dark] .badge-yellow.badge-fill.badge-dot {
+  background-color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .badge-red.badge-light {
+  background-color: var(--dsc-dark-background-error-soft-surface, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+  color: var(--dsc-dark-foreground-error-secondary, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+  border: none;
+}
+[data-theme=dark] .badge-red.badge-light.badge-dot {
+  background-color: var(--dsc-dark-foreground-error-secondary, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+}
+
+[data-theme=dark] .badge-red.badge-outline {
+  background-color: var(--dsc-dark-background-error-soft-surface, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+  color: var(--dsc-dark-foreground-error-secondary, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+  border: 1px solid var(--dsc-dark-border-error-subtle, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+}
+[data-theme=dark] .badge-red.badge-outline.badge-dot {
+  background-color: var(--dsc-dark-foreground-error-secondary, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+}
+
+[data-theme=dark] .badge-red.badge-fill {
+  background-color: var(--dsc-dark-background-error-default, var(--dsc-dark-semantic-error-300, var(--dsc-global-red-dark-300, #F66161)));
+  color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: none;
+}
+[data-theme=dark] .badge-red.badge-fill.badge-dot {
+  background-color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.badge-small {
+  font-size: var(--dsc-label-font-size-xs, 0.75rem);
+  padding: 3px 6px;
+  gap: 4px;
+}
+
+.badge-small .badge-left-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.badge-small .badge-right-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.badge-small .badge-logo {
+  width: 12px;
+  height: 12px;
+}
+
+.badge-small .badge-dot {
+  width: 5px;
+  height: 5px;
+}
+
+.badge-medium {
+  font-size: var(--dsc-label-font-size-xs, 0.75rem);
+  padding: 5px 8px;
+  gap: 6px;
+}
+
+.badge-medium .badge-left-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.badge-medium .badge-right-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.badge-medium .badge-logo {
+  width: 14px;
+  height: 14px;
+}
+
+.badge-medium .badge-dot {
+  width: 5px;
+  height: 5px;
+}
+
+.badge-large {
+  font-size: var(--dsc-label-font-size-sm, 0.875rem);
+  padding: 6px 10px;
+  gap: 6px;
+}
+
+.badge-large .badge-left-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.badge-large .badge-right-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.badge-large .badge-logo {
+  width: 14px;
+  height: 14px;
+}
+
+.badge-large .badge-dot {
+  width: 7px;
+  height: 7px;
+}
+
+.badge-light.badge-disabled {
+  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  background-color: var(--dsc-background-neutral-soft-surface, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+}
+
+.badge-outline.badge-disabled {
+  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  border: 1px solid var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+}
+
+.badge-fill.badge-disabled {
+  color: var(--dsc-foreground-light-primary, var(--dsc-semantic-base-00, #ffffff));
+  background-color: var(--dsc-action-background-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+}
+
+[data-theme=dark] .badge-fill.badge-disabled {
+  color: var(--dsc-dark-foreground-light-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  background-color: var(--dsc-dark-action-background-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+}
+[data-theme=dark] .badge-outline.badge-disabled {
+  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: 1px solid var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+}
+[data-theme=dark] .badge-light.badge-disabled {
+  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  background-color: var(--dsc-dark-background-neutral-soft-surface, var(--dsc-semantic-neutral-800, var(--dsc-global-slate-800, #2D3643)));
+}
+
+.badge-dot {
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}

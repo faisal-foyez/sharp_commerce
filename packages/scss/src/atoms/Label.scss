@@ -1,0 +1,92 @@
+@import '../foundation/all';
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.label > .label-text{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: $label-font-size-sm;
+  color: $foreground-neutral-secondary;
+  font-weight: $label-font-weight-sm-strong;
+}
+
+[data-theme="dark"] {
+  .label > .label-text {
+    color: $dark-foreground-neutral-secondary;
+  }
+}
+
+.label .optional-text {
+  font-size: $label-font-size-sm;
+  color: $foreground-neutral-tertiary;
+  font-weight: $label-font-weight-sm-default;
+}
+
+[data-theme="dark"] {
+  .label .optional-text {
+    color: $dark-foreground-neutral-tertiary;
+  }
+}
+
+.label .required-text {
+  font-size: $label-font-size-sm;
+  color: $foreground-error-secondary;
+  font-weight: $label-font-weight-sm-strong;
+}
+
+[data-theme="dark"] {
+  .label .required-text {
+    color: $dark-foreground-error-secondary;
+  }
+}
+
+.label > .label-info {
+  width: 10%; 
+  position: relative;
+  cursor: pointer;
+  color: $foreground-neutral-tertiary;
+}
+
+[data-theme="dark"] {
+  .label > .label-info {
+    color: $dark-foreground-neutral-tertiary;
+  }
+}
+
+.label-info-text {
+  visibility: hidden;
+  background-color: $dark-background-base-white;
+  color: $background-base-white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 125%; /* Position above the element */
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 1;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s;
+  width: fit-content;
+  pointer-events: none;
+}
+
+[data-theme="dark"] {
+  .label-info-text {
+    background-color: $background-base-white;
+    color: $dark-background-base-white;
+  }
+}
+
+.label-info:hover .label-info-text {
+  visibility: visible;
+  opacity: 1; /* Show tooltip on hover */
+}
