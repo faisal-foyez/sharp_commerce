@@ -52,6 +52,12 @@ import {
   TagButtonState
 } from './TagButton';
 
+import {
+  BadgeColor,
+  BadgeSize,
+  BadgeStyle
+} from './Badge';
+
 export {
   Spacing, 
   FontSize,
@@ -82,5 +88,8 @@ export {
   AvatarIconColor,
   AvatarIconBackground,
   TagButtonSize,
-  TagButtonState
+  TagButtonState,
+  BadgeColor,
+  BadgeSize,
+  BadgeStyle
 }
