@@ -1,0 +1,26 @@
+@import "../foundation/all";
+
+.helper-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: $foreground-neutral-secondary;
+}
+
+[data-theme="dark"] {
+  .helper-text {
+    color: $dark-foreground-neutral-secondary;
+  }
+}
+
+.helper-text > span {
+  color: $foreground-neutral-secondary;
+  font-size: $body-font-size-sm;
+  font-weight: $body-font-weight-sm-default;
+}
+
+[data-theme="dark"] {
+  .helper-text > span {
+    color: $dark-foreground-neutral-secondary;
+  }
+}
