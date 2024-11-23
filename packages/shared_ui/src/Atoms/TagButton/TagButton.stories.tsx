@@ -8,7 +8,7 @@ type TagButtonStateType = keyof typeof TagButtonState;
 const meta: Meta<typeof TagButton> = {
   title: 'Components/Atoms/TagButton',
   component: TagButton,
-
+  tags: ['autodocs'],
   argTypes: {
     state: {
       control: 'select',
