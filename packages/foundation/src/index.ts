@@ -58,6 +58,12 @@ import {
   BadgeStyle
 } from './Badge';
 
+import {
+  InputType,
+  InputStyle,
+  InputSize
+} from './Input';
+
 export {
   Spacing, 
   FontSize,
@@ -91,5 +97,8 @@ export {
   TagButtonState,
   BadgeColor,
   BadgeSize,
-  BadgeStyle
+  BadgeStyle,
+  InputType,
+  InputStyle,
+  InputSize
 }
