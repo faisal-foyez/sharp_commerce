@@ -1,0 +1,52 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run scss",
+      "type": "nx",
+      "project": "",
+      "command": "run",
+      "positional": "@dsc/scss:dev",
+      "problemMatcher": [],
+      "flags": []
+    },
+    {
+      "label": "Run foundation",
+      "type": "nx",
+      "project": "",
+      "command": "run",
+      "positional": "@dsc/foundation:dev",
+      "problemMatcher": [],
+      "flags": []
+    },
+    {
+      "label": "Run shared_ui",
+      "type": "nx",
+      "project": "",
+      "command": "run",
+      "positional": "@dsc/shared_ui:build --watch",
+      "problemMatcher": [],
+      "flags": []
+    },
+    {
+      "label": "Run test",
+      "type": "nx",
+      "project": "",
+      "command": "run",
+      "positional": "test:serve",
+      "problemMatcher": [],
+      "flags": []
+    },
+    {
+      "label": "Run All",
+      "dependsOn": [
+        "Run scss",
+        "Run foundation",
+        "Run shared_ui",
+        "Run test"
+      ]
+    }
+  ]
+}
