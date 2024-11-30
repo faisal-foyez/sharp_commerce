@@ -12,7 +12,7 @@ import HelperText from './Atoms/HelperText';
 import { Input, InputField, InputIcon } from './Molecules/Input';
 import { InputOTPGroup, InputOTPDivider, InputOTP, InputOTPItem } from './Molecules/InputOTP';
 import { InputNumber, InputNumberBox, InputNumberButton } from './Molecules/InputNumber';
-
+import TextArea from './Atoms/TextArea';
 export { 
   Button, 
   LinkButton, 
@@ -34,5 +34,6 @@ export {
   InputOTP,
   InputNumber,
   InputNumberBox,
-  InputNumberButton
+  InputNumberButton,
+  TextArea
 };

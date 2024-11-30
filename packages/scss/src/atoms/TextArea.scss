@@ -1,0 +1,98 @@
+@import '../foundation/all';
+
+.input-textarea {
+  width: 100%;
+  min-height: 136px;
+  background-color: $action-background-base-white;
+  color: $foreground-neutral-secondary;
+  border: 1px solid $action-border-neutral-light-normal;
+  border-radius: 8px;
+  padding: 8px 12px;
+  resize: none;
+  box-sizing: border-box;
+  outline: none;
+
+  &:focus {
+    border-color: $action-border-neutral-active;
+    outline: 2px solid $border-neutral-subtle;
+    outline-offset: 2px;
+  }
+
+  &::placeholder {
+    color: $foreground-neutral-tertiary;
+  }
+
+  &:disabled {
+    border-color: $action-border-neutral-disabled;
+    color: $action-foreground-neutral-disabled;
+    outline: 2px solid $action-border-neutral-disabled;
+    outline-offset: 2px;
+    cursor: not-allowed;
+  }
+
+  &:disabled::placeholder {
+    color: $action-foreground-neutral-disabled;
+  }
+}
+
+[data-theme='dark'] {
+  .input-textarea {
+    background-color: $dark-action-background-base-white;
+    color: $dark-foreground-neutral-secondary;
+    border: 1px solid $dark-action-border-neutral-light-normal;
+
+    &:focus {
+      border-color: $dark-action-border-neutral-active;
+      outline: 2px solid $dark-border-neutral-subtle;
+      outline-offset: 2px;
+    }
+
+    &::placeholder {
+      color: $dark-foreground-neutral-tertiary;
+    }
+  
+    &:disabled {
+      border-color: $dark-action-border-neutral-disabled;
+      color: $dark-action-foreground-neutral-disabled;
+      outline-color: $dark-action-border-neutral-disabled;
+    }
+  
+    &:disabled::placeholder {
+      color: $dark-action-foreground-neutral-disabled;
+    }
+  }
+}
+
+.input-textarea-error {
+  color: $action-foreground-error-normal;
+  border: 1px solid $action-border-error-active;
+  outline: 2px solid $action-border-error-active;
+  outline-offset: 2px;
+
+  &:focus {
+    border-color: $action-border-error-active;
+    outline: 2px solid $action-border-error-active;
+    outline-offset: 2px;
+  }
+
+  &::placeholder {
+    color: $action-foreground-error-active;
+  }
+}
+
+[data-theme='dark'] {
+  .input-textarea-error {
+    color: $dark-action-foreground-error-active;
+    border-color: $dark-action-border-error-active;
+    outline-color: $dark-action-border-error-active;
+
+    &:focus {
+      border-color: $dark-action-border-error-active;
+      outline-color: $dark-action-border-error-active;
+    }
+
+    &::placeholder {
+      color: $dark-action-foreground-error-active;
+    }
+  }
+}
