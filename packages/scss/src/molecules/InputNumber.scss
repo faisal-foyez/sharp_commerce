@@ -1,0 +1,150 @@
+@import '../foundation/all';
+
+.input-number{
+  position: relative;
+  width: fit-content;
+  background-color: $action-background-base-white;
+  border: 1px solid $action-border-neutral-light-normal;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+ 
+  &:focus-within{
+    outline: 2px solid $border-neutral-subtle;
+    outline-offset: 2px;
+    border-color: $action-border-neutral-active;
+  }
+}
+
+[data-theme="dark"] {
+  .input-number{
+    border: 1px solid $dark-action-border-neutral-normal;
+    background-color: $dark-action-background-base-white;
+
+    &:focus-within{
+      outline: 2px solid $dark-border-neutral-subtle;
+      outline-offset: 2px;
+      border-color: $dark-action-border-neutral-active;
+    }
+  }
+}
+
+.input-number > :first-child{
+  padding-left: 8px;
+}
+
+.input-number-box{
+  width: 100px;
+  height: 46px;
+  background-color: $action-background-base-white;
+  border: none;
+  outline: none;
+  color: $action-foreground-neutral-active;
+  border-radius: 4px;
+  font-size: $label-font-size-lg;
+  font-weight: $label-font-weight-lg-strong;
+  letter-spacing: $label-letter-spacing-lg;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+[data-theme="dark"] {
+  .input-number-box{
+    background-color: $dark-action-background-base-white;
+    color: $dark-action-foreground-neutral-active;
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.input-number-button{
+  background-color: $background-base-white;
+  border:none;
+  cursor: pointer;
+  color: $action-background-neutral-normal;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  margin: 0 4px;
+  border-radius: 5px;
+
+  &:hover{
+    background-color: $action-background-neutral-light-hover;
+  }
+}
+
+[data-theme="dark"] {
+  .input-number-button{
+    background-color: $dark-action-background-base-white;
+    color: $dark-action-foreground-neutral-active;
+    &:hover{
+      background-color: $dark-action-background-neutral-light-hover;
+    }
+  }
+}
+
+.input-number-box.input-number-box-error{
+  color: $action-foreground-error-active;
+  background-color: $action-background-error-light-normal;
+}
+
+[data-theme="dark"] {
+  .input-number-box.input-number-box-error{
+    background-color: $dark-action-background-error-light-normal;
+    color: $dark-action-foreground-error-active;
+  }
+}
+
+.input-number-box.input-number-box-disabled{
+  color: $action-foreground-neutral-disabled;
+}
+
+[data-theme="dark"] {
+  .input-number-box.input-number-box-disabled{
+    color: $dark-action-foreground-neutral-disabled;
+  }
+}
+
+.input-number.input-number-error{
+  border: 1px solid $action-border-error-normal;
+  background-color: $action-background-error-light-normal;
+}
+
+[data-theme="dark"] {
+  .input-number.input-number-error{
+    border: 1px solid $dark-action-border-error-normal;
+    background-color: $dark-action-background-error-light-normal;
+  }
+}
+
+.input-number.input-number-disabled{
+  border: 1px solid $action-border-neutral-disabled;
+}
+
+[data-theme="dark"] {
+  .input-number.input-number-disabled{
+    border: 1px solid $dark-action-border-neutral-disabled;
+  }
+}
+
+.input-number-button.input-number-button-disabled{
+  color: $action-foreground-neutral-disabled;
+}
+
+[data-theme="dark"] {
+  .input-number-button.input-number-button-disabled{
+    color: $dark-action-foreground-neutral-disabled;
+  }
+}
