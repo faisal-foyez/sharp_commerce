@@ -1,9 +1,10 @@
-import React from "react";
+import React, {LabelHTMLAttributes} from "react";
 import { Info } from '@dsc/phosphor_icons';
 import '@dsc/scss/lib/Label.css';
 import Badge from '../Badge/Badge';
+import { InputFieldContext } from "../../Molecules/Input/InputField";
 
-interface LabelProps {
+interface LabelProps extends LabelHTMLAttributes<HTMLLabelElement> {
   children: React.ReactNode;
   isShowOptional?: boolean;
   isShowRequired?: boolean;
@@ -11,6 +12,7 @@ interface LabelProps {
   isShowBadge?: boolean;
   badgeText?: string;
   infoText?: string;
+  disabled?: boolean;
   props?: any;
 }
 
@@ -21,12 +23,15 @@ const Label = ({
   isShowInfoIcon,
   isShowBadge,
   badgeText="Badge",
+  disabled,
   infoText,
   ...props
 }: LabelProps) => {
+  const {disabled: inputDisabled} = React.useContext(InputFieldContext);
+  console.log(inputDisabled);
   return (
     <label
-      className="label"
+      className={`label ${disabled || inputDisabled ? 'disabled' : ''}`}
       {...props}
     >
       <span className="label-text">

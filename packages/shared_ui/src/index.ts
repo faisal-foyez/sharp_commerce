@@ -9,6 +9,9 @@ import TagButton from './Atoms/TagButton';
 import Badge from './Atoms/Badge';
 import Label from './Atoms/Label';
 import HelperText from './Atoms/HelperText';
+import { Input, InputField, InputIcon } from './Molecules/Input';
+import { InputOTPGroup, InputOTPDivider, InputOTP, InputOTPItem } from './Molecules/InputOTP';
+import { InputNumber, InputNumberBox, InputNumberButton } from './Molecules/InputNumber';
 
 export { 
   Button, 
@@ -21,5 +24,15 @@ export {
   TagButton,
   Badge,
   Label,
-  HelperText
+  HelperText,
+  Input,
+  InputField,
+  InputIcon,
+  InputOTPItem,
+  InputOTPGroup,
+  InputOTPDivider,
+  InputOTP,
+  InputNumber,
+  InputNumberBox,
+  InputNumberButton
 };

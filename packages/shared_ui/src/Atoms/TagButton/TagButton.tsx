@@ -11,6 +11,8 @@ interface TagButtonProps {
   isShowCloseIcon?: boolean;
   state?: keyof typeof TagButtonState;
   label?: string;
+  onClose?: () => void;
+  props?: any;
 }
 
 const TagButton = ({
@@ -18,10 +20,12 @@ const TagButton = ({
   isShowAvatar = false,
   isShowCloseIcon = true,
   label = 'Chip Text',
-  state
+  state,
+  onClose,
+  ...props
 }: TagButtonProps) => {
   return (
-    <span data-testid="tag-button-testid" className={`btn-tag ${state ? `btn-tag-${state}` : ''} btn-tag-${size}`}>
+    <span data-testid="tag-button-testid" className={`btn-tag ${state ? `btn-tag-${state}` : ''} btn-tag-${size}`} {...props}>
       {
         isShowAvatar && (
           <>
@@ -32,7 +36,7 @@ const TagButton = ({
       <span>{label}</span>
       {
         isShowCloseIcon && (
-          <X data-testid="close-icon-testid" weight="bold" height={16}/>
+          <X data-testid="close-icon-testid" weight="bold" size={20} onClick={onClose}/>
         )
       }
     </span>
