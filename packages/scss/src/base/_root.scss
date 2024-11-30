@@ -2432,25 +2432,25 @@ $global-red-dark-400: #F33E3E;
 /*----------  Body font variables  ----------*/
 
 /* body font size */
---dsc-body-font-size-xl: #{body-fs-xl}; // 20px
---dsc-body-font-size-lg: #{body-fs-lg}; // 18px
---dsc-body-font-size-md: #{body-fs-md}; // 16px
---dsc-body-font-size-sm: #{body-fs-sm}; // 14px
---dsc-body-font-size-xs: #{body-fs-xs}; // 12px
+--dsc-body-font-size-xl: #{$body-fs-xl}; // 20px
+--dsc-body-font-size-lg: #{$body-fs-lg}; // 18px
+--dsc-body-font-size-md: #{$body-fs-md}; // 16px
+--dsc-body-font-size-sm: #{$body-fs-sm}; // 14px
+--dsc-body-font-size-xs: #{$body-fs-xs}; // 12px
 
 /* body line height */
---dsc-body-line-height-xl: #{body-lh-xl}; // 27px
---dsc-body-line-height-lg: #{body-lh-lg}; // 24px
---dsc-body-line-height-md: #{body-lh-md}; // 24px
---dsc-body-line-height-sm: #{body-lh-sm}; // 22px
---dsc-body-line-height-xs: #{body-lh-xs}; // 18px
+--dsc-body-line-height-xl: #{$body-lh-xl}; // 27px
+--dsc-body-line-height-lg: #{$body-lh-lg}; // 24px
+--dsc-body-line-height-md: #{$body-lh-md}; // 24px
+--dsc-body-line-height-sm: #{$body-lh-sm}; // 22px
+--dsc-body-line-height-xs: #{$body-lh-xs}; // 18px
 
 /* body letter spacing */
---dsc-body-letter-spacing-xl: #{body-ls-xl}; // -0.3px
---dsc-body-letter-spacing-lg: #{body-ls-lg}; // -0.4px
---dsc-body-letter-spacing-md: #{body-ls-md}; // -0.3px
---dsc-body-letter-spacing-sm: #{body-ls-sm}; // -0.2px
---dsc-body-letter-spacing-xs: #{body-ls-xs}; // -0.2px
+--dsc-body-letter-spacing-xl: #{$body-ls-xl}; // -0.3px
+--dsc-body-letter-spacing-lg: #{$body-ls-lg}; // -0.4px
+--dsc-body-letter-spacing-md: #{$body-ls-md}; // -0.3px
+--dsc-body-letter-spacing-sm: #{$body-ls-sm}; // -0.2px
+--dsc-body-letter-spacing-xs: #{$body-ls-xs}; // -0.2px
 
 // Body font weight
 --dsc-body-font-weight-xl-default: #{$body-fw-xl-default};

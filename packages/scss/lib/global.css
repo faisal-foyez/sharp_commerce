@@ -2475,23 +2475,23 @@ input[type=checkbox], input[type=radio] {
   /*----------  End of Heading font variables  ----------*/
   /*----------  Body font variables  ----------*/
   /* body font size */
-  --dsc-body-font-size-xl: body-fs-xl;
-  --dsc-body-font-size-lg: body-fs-lg;
-  --dsc-body-font-size-md: body-fs-md;
-  --dsc-body-font-size-sm: body-fs-sm;
-  --dsc-body-font-size-xs: body-fs-xs;
+  --dsc-body-font-size-xl: 1.25rem;
+  --dsc-body-font-size-lg: 1.125rem;
+  --dsc-body-font-size-md: 1rem;
+  --dsc-body-font-size-sm: 0.875rem;
+  --dsc-body-font-size-xs: 0.75rem;
   /* body line height */
-  --dsc-body-line-height-xl: body-lh-xl;
-  --dsc-body-line-height-lg: body-lh-lg;
-  --dsc-body-line-height-md: body-lh-md;
-  --dsc-body-line-height-sm: body-lh-sm;
-  --dsc-body-line-height-xs: body-lh-xs;
+  --dsc-body-line-height-xl: 1.6875rem;
+  --dsc-body-line-height-lg: 1.5rem;
+  --dsc-body-line-height-md: 1.5rem;
+  --dsc-body-line-height-sm: 1.375rem;
+  --dsc-body-line-height-xs: 1.125rem;
   /* body letter spacing */
-  --dsc-body-letter-spacing-xl: body-ls-xl;
-  --dsc-body-letter-spacing-lg: body-ls-lg;
-  --dsc-body-letter-spacing-md: body-ls-md;
-  --dsc-body-letter-spacing-sm: body-ls-sm;
-  --dsc-body-letter-spacing-xs: body-ls-xs;
+  --dsc-body-letter-spacing-xl: -0.01875rem;
+  --dsc-body-letter-spacing-lg: -0.025rem;
+  --dsc-body-letter-spacing-md: -0.01875rem;
+  --dsc-body-letter-spacing-sm: -0.0125rem;
+  --dsc-body-letter-spacing-xs: -0.0125rem;
   --dsc-body-font-weight-xl-default: 400;
   --dsc-body-font-weight-xl-strong: 600;
   --dsc-body-font-weight-lg-default: 400;

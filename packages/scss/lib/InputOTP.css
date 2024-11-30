@@ -309,93 +309,106 @@
  * styles for components.
  *
  */
-.label {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  width: 100%;
-}
-
-.label > .label-text {
-  width: 90%;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: var(--dsc-label-font-size-sm, 0.875rem);
-  color: var(--dsc-foreground-neutral-secondary, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  font-weight: var(--dsc-label-font-weight-sm-strong, 500);
-}
-
-[data-theme=dark] .label > .label-text {
-  color: var(--dsc-dark-foreground-neutral-secondary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
-}
-
-.label .optional-text {
-  font-size: var(--dsc-label-font-size-sm, 0.875rem);
-  color: var(--dsc-foreground-neutral-tertiary, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
-  font-weight: var(--dsc-label-font-weight-sm-default, 400);
-}
-
-[data-theme=dark] .label .optional-text {
-  color: var(--dsc-dark-foreground-neutral-tertiary, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
-}
-
-.label .required-text {
-  font-size: var(--dsc-label-font-size-sm, 0.875rem);
-  color: var(--dsc-foreground-error-secondary, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  font-weight: var(--dsc-label-font-weight-sm-strong, 500);
-}
-
-[data-theme=dark] .label .required-text {
-  color: var(--dsc-dark-foreground-error-secondary, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
-}
-
-.label > .label-info {
-  width: 10%;
+.input-otp-container {
   position: relative;
-  cursor: pointer;
-  color: var(--dsc-foreground-neutral-tertiary, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
   display: flex;
-  justify-content: flex-end;
+  gap: 16px;
 }
 
-[data-theme=dark] .label > .label-info {
-  color: var(--dsc-dark-foreground-neutral-tertiary, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+.input-otp-group {
+  display: flex;
+  gap: 16px;
 }
 
-.label-info-text {
-  visibility: hidden;
-  background-color: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
-  color: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff));
-  text-align: center;
-  padding: 5px;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 125%; /* Position above the element */
-  left: 50%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-  z-index: 1;
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.3s;
-  width: fit-content;
-  pointer-events: none;
-}
-
-[data-theme=dark] .label-info-text {
+.input-otp-item {
+  width: 48px;
+  height: 64px;
   background-color: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff));
-  color: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: 1px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.label-info:hover .label-info-text {
-  visibility: visible;
-  opacity: 1; /* Show tooltip on hover */
+[data-theme=dark] .input-otp-item {
+  background-color: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: 1px solid var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  color: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
 }
 
-.label.disabled .label-text {
-  color: var(--dsc-foreground-neutral-quaternary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+.input-otp {
+  display: flex;
+  gap: 16px;
 }
 
-[data-theme=dark] .label.disabled .label-text {
-  color: var(--dsc-dark-foreground-neutral-quaternary, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+.focus {
+  border: 1px solid var(--dsc-border-neutral-default, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  outline: 2px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  outline-offset: 2px;
+}
+
+[data-theme=dark] .focus {
+  border: 1px solid var(--dsc-dark-border-neutral-default, var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)));
+  outline: 2px solid var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  outline-offset: 2px;
+}
+
+.input-otp-item.focus.error {
+  outline: 2px solid var(--dsc-border-error-default, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+}
+
+[data-theme=dark] .input-otp-item.focus.error {
+  outline: 2px solid var(--dsc-dark-border-error-default, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+}
+
+.blinking-cursor {
+  position: relative;
+}
+
+.blinking-cursor::after {
+  content: "";
+  display: inline-block;
+  width: 1px; /* Width of the cursor */
+  height: 1em; /* Height of the cursor, matching the text height */
+  background-color: var(--dsc-background-neutral-emphasis, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))); /* Color of the cursor */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: blink 1s step-end infinite; /* Blinking animation */
+}
+
+[data-theme=dark] .blinking-cursor::after {
+  background-color: var(--dsc-dark-background-neutral-emphasis, var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)));
+}
+
+.input-otp-item.focus .blinking-cursor::after {
+  display: none;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.input-otp-divider {
+  width: 10px;
+  height: 2px;
+  background-color: var(--dsc-background-neutral-muted, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
+  align-self: center;
+}
+
+.input-otp-item.error {
+  border: 1px solid var(--dsc-border-error-default, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+}
+
+[data-theme=dark] .input-otp-item.error {
+  border: 1px solid var(--dsc-dark-border-error-default, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
 }

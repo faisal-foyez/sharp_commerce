@@ -52,6 +52,8 @@
   position: relative;
   cursor: pointer;
   color: $foreground-neutral-tertiary;
+  display: flex;
+  justify-content: flex-end;
 }
 
 [data-theme="dark"] {
@@ -89,4 +91,14 @@
 .label-info:hover .label-info-text {
   visibility: visible;
   opacity: 1; /* Show tooltip on hover */
+}
+
+.label.disabled .label-text{
+  color: $foreground-neutral-quaternary;
+}
+
+[data-theme="dark"] {
+  .label.disabled .label-text{
+    color: $dark-foreground-neutral-quaternary;
+  }
 }

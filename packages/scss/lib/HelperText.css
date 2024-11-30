@@ -329,3 +329,7 @@
 [data-theme=dark] .helper-text > span {
   color: var(--dsc-dark-foreground-neutral-secondary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
 }
+
+.error {
+  color: var(--dsc-foreground-error-secondary, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838))) !important;
+}
