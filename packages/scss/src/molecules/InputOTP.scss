@@ -1,0 +1,112 @@
+@import '../foundation/all';
+
+.input-otp-container{
+  position: relative;
+  display: flex;
+  gap: 16px;
+}
+
+.input-otp-group{
+  display: flex;
+  gap: 16px;
+}
+
+.input-otp-item{
+  width: 48px;
+  height: 64px;
+  background-color: $background-base-white;
+  color: $foreground-neutral-primary;
+  border: 1px solid $border-neutral-subtle;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+[data-theme='dark'] .input-otp-item{
+  background-color: $dark-background-base-white;
+  border: 1px solid $dark-border-neutral-subtle;
+  color: $dark-foreground-neutral-primary;
+}
+
+.input-otp{
+  display: flex;
+  gap: 16px;
+}
+
+
+.focus{
+  border: 1px solid $border-neutral-default;
+  outline: 2px solid $border-neutral-subtle;
+  outline-offset: 2px;
+}
+
+[data-theme='dark'] .focus{
+  border: 1px solid $dark-border-neutral-default;
+  outline: 2px solid $dark-border-neutral-subtle;
+  outline-offset: 2px;
+}
+
+.input-otp-item.focus.error{
+  outline: 2px solid $border-error-default;
+}
+
+[data-theme='dark'] .input-otp-item.focus.error{
+  outline: 2px solid $dark-border-error-default;
+}
+
+
+.blinking-cursor {
+  position: relative;
+}
+
+.blinking-cursor::after {
+  content: '';
+  display: inline-block;
+  width: 1px; /* Width of the cursor */
+  height: 1em; /* Height of the cursor, matching the text height */
+  background-color: $background-neutral-emphasis; /* Color of the cursor */
+  // position: absolute;
+  // top: 50%;
+  // left: 50%; /* Position the cursor at the end of the text */
+  // transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: blink 1s step-end infinite; /* Blinking animation */
+}
+
+[data-theme='dark'] .blinking-cursor::after{
+  background-color: $dark-background-neutral-emphasis;
+}
+
+.input-otp-item.focus .blinking-cursor::after{
+  display: none;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.input-otp-divider{
+  width: 10px;
+  height: 2px;
+  background-color: $background-neutral-muted;
+  align-self: center;
+}
+
+.input-otp-item.error{
+  border: 1px solid $border-error-default;
+}
+
+[data-theme='dark'] .input-otp-item.error{
+  border: 1px solid $dark-border-error-default;
+}
