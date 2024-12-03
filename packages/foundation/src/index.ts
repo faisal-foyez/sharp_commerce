@@ -64,6 +64,12 @@ import {
   InputSize
 } from './Input';
 
+import {
+  CheckboxVariant,
+  CheckboxColor,
+  CheckboxSize
+} from './Checkbox';
+
 export {
   Spacing, 
   FontSize,
@@ -100,5 +106,8 @@ export {
   BadgeStyle,
   InputType,
   InputStyle,
-  InputSize
+  InputSize,
+  CheckboxVariant,
+  CheckboxColor,
+  CheckboxSize
 }
