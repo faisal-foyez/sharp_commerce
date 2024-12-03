@@ -13,6 +13,7 @@ import { Input, InputField, InputIcon } from './Molecules/Input';
 import { InputOTPGroup, InputOTPDivider, InputOTP, InputOTPItem } from './Molecules/InputOTP';
 import { InputNumber, InputNumberBox, InputNumberButton } from './Molecules/InputNumber';
 import TextArea from './Atoms/TextArea';
+import Checkbox from './Atoms/Checkbox';
 export { 
   Button, 
   LinkButton, 
@@ -35,5 +36,6 @@ export {
   InputNumber,
   InputNumberBox,
   InputNumberButton,
-  TextArea
+  TextArea,
+  Checkbox
 };

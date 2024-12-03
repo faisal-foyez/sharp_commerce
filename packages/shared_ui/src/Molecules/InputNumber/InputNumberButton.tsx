@@ -7,7 +7,7 @@ const InputNumberButton = ({
   ...props
 }: ButtonHTMLAttributes<HTMLButtonElement>) => {
   const {disabled} = React.useContext(InputNumberContext);
-  return <button className={`input-number-button ${className} ${disabled ? 'input-number-button-disabled' : ''}`} {...props}>{children}</button>
+  return <button disabled={disabled} className={`input-number-button ${className} ${disabled ? 'input-number-button-disabled' : ''}`} {...props}>{children}</button>
 }
 
 export default InputNumberButton;

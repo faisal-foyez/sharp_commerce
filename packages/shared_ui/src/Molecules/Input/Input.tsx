@@ -19,8 +19,14 @@ const Input = ({
   ...props
 }: InputProps) => {
   const {isError, disabled, size} = useContext(InputFieldContext);
+
+  const onChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if(disabled || e.target.disabled)  return;
+    if(onChange) onChange(e);
+  }
+
   return (
-    <input disabled={disabled} onChange={onChange} className={`input-field ${isError ? 'error' : ''} ${size ? size : ''} ${inputStyle} ${className}`} type="text" {...props} />
+    <input disabled={disabled} onChange={onChangeHandler} className={`input-field ${isError ? 'error' : ''} ${size ? size : ''} ${inputStyle} ${className}`} type="text" {...props} />
   )
 };
 

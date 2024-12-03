@@ -16,13 +16,14 @@ const InputNumberBox = ({
   const {isError, disabled} = React.useContext(InputNumberContext);
 
   const onChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if(disabled || e.target.disabled)  return;
     const value = e.target.value;
     e.target.value = value.replace(/[^0-9-+]/g, '');
     if(onChange) onChange(e);
   }
 
 
-  return <input disabled={disabled} min={-100} max={100} onChange={onChangeHandler} type="number" className={`input-number-box ${className} ${isError ? 'input-number-box-error' : ''} ${disabled ? 'input-number-box-disabled' : ''}`} {...props} />
+  return <input disabled={disabled} onChange={onChangeHandler} type="number" className={`input-number-box ${className} ${isError ? 'input-number-box-error' : ''} ${disabled ? 'input-number-box-disabled' : ''}`} {...props} />
 
 }
 

@@ -81,4 +81,58 @@ describe('InputNumber', () => {
     fireEvent.click(screen.getByText('-'));
     expect(screen.getByTestId('input-number-box-testid')).toHaveValue(9);
   });
+
+  it('should not increase value when disabled', () => {
+    const TestComponent = () =>{
+      const [value, setValue] = useState(10);
+
+      return (
+        <InputNumber disabled={true} data-testid="input-number-testid">
+          <InputNumberButton data-testid="input-number-button-minus-testid" onClick={(e) => {e.preventDefault(); setValue(value - 1)}}>-</InputNumberButton>
+          <InputNumberBox value={value} onChange={(e) => {setValue(parseInt(e.target.value || '0'))}} data-testid="input-number-box-testid" />
+          <InputNumberButton data-testid="input-number-button-plus-testid" onClick={(e) => {e.preventDefault(); setValue(value + 1)}}>+</InputNumberButton>
+        </InputNumber>
+      );
+    }
+    render(<TestComponent />);
+    fireEvent.click(screen.getByTestId('input-number-button-plus-testid'));
+    expect(screen.getByTestId('input-number-box-testid')).toHaveValue(10);
+    fireEvent.click(screen.getByTestId('input-number-button-minus-testid'));
+    expect(screen.getByTestId('input-number-box-testid')).toHaveValue(10);
+  });
+
+  it('should not decrease value when disabled', () => {
+    const TestComponent = () =>{
+      const [value, setValue] = useState(10);
+
+      return (
+        <InputNumber disabled={true} data-testid="input-number-testid">
+          <InputNumberButton data-testid="input-number-button-minus-testid" onClick={(e) => {e.preventDefault(); setValue(value - 1)}}>-</InputNumberButton>
+          <InputNumberBox value={value} onChange={(e) => {setValue(parseInt(e.target.value || '0'))}} data-testid="input-number-box-testid" />
+          <InputNumberButton data-testid="input-number-button-plus-testid" onClick={(e) => {e.preventDefault(); setValue(value + 1)}}>+</InputNumberButton>
+        </InputNumber>
+      );
+    }
+    render(<TestComponent />);
+    fireEvent.click(screen.getByTestId('input-number-button-minus-testid'));
+    expect(screen.getByTestId('input-number-box-testid')).toHaveValue(10);
+  });
+
+  it('should not change value when disabled', () => {
+    const TestComponent = () =>{
+      const [value, setValue] = useState(10);
+
+      return (
+        <InputNumber disabled={true} data-testid="input-number-testid">
+          <InputNumberButton data-testid="input-number-button-minus-testid" onClick={(e) => {e.preventDefault(); setValue(value - 1)}}>-</InputNumberButton>
+          <InputNumberBox value={value} onChange={(e) => {setValue(parseInt(e.target.value || '0'))}} data-testid="input-number-box-testid" />
+          <InputNumberButton data-testid="input-number-button-plus-testid" onClick={(e) => {e.preventDefault(); setValue(value + 1)}}>+</InputNumberButton>
+        </InputNumber>
+      );
+    }
+    
+    render(<TestComponent />);
+    fireEvent.change(screen.getByTestId('input-number-box-testid'), {target: {value: '100'}});
+    expect(screen.getByTestId('input-number-box-testid')).toHaveValue(10);
+  });
 });
