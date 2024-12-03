@@ -89,11 +89,3 @@ export {
   frozenAvatarPlaceholderSize as AvatarPlaceholderSize,
   frozenAvatarType as AvatarType
 };
-
-// export { frozenAvatarBottomStatus as AvatarBottomStatus };
-// export { frozenAvatarShape as AvatarShape };
-// export { frozenAvatarSizes as AvatarSize, frozenAvatarPlaceholderSize as AvatarPlaceholderSize };
-// export { frozenAvatarTopStatus as AvatarTopStatus };
-// export { frozenAvatarType as AvatarType };
-
-

@@ -68,8 +68,3 @@ const frozenAvatarPlaceholderSize = Object.freeze(AvatarPlaceholderSize);
 const frozenAvatarTopStatus = Object.freeze(AvatarTopStatus);
 const frozenAvatarType = Object.freeze(AvatarType);
 export { frozenAvatarBgColor as AvatarBgColor, frozenAvatarBottomStatus as AvatarBottomStatus, frozenAvatarShape as AvatarShape, frozenAvatarSizes as AvatarSize, frozenAvatarTopStatus as AvatarTopStatus, frozenAvatarPlaceholderSize as AvatarPlaceholderSize, frozenAvatarType as AvatarType };
-// export { frozenAvatarBottomStatus as AvatarBottomStatus };
-// export { frozenAvatarShape as AvatarShape };
-// export { frozenAvatarSizes as AvatarSize, frozenAvatarPlaceholderSize as AvatarPlaceholderSize };
-// export { frozenAvatarTopStatus as AvatarTopStatus };
-// export { frozenAvatarType as AvatarType };
