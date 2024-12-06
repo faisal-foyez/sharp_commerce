@@ -33,6 +33,11 @@ $btn-size: (
   cursor: pointer;
   border-radius: $radius-lg;
   font-weight: $fw-semibold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: '.5rem';
+  width: 'max-content';
   @content;
   
   &:hover {

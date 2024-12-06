@@ -309,6 +309,14 @@
  * styles for components.
  *
  */
+.link-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: max-content;
+}
+
 .link-btn-primary {
   color: var(--dsc-link-btn-primary-fg-color, var(--dsc-action-foreground-brand-inverted-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
   text-align: center;

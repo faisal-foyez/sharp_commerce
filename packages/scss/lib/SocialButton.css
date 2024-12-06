@@ -312,6 +312,13 @@
 /*=============================================
 =            Apple  Button Css            =
 =============================================*/
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: max-content;
+}
+
 .social-btn-brand-apple {
   background-color: var(--dsc-social-btn-brand-apple-bg-color, var(--dsc-background-neutral-strong, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))));
   color: var(--dsc-social-btn-brand-apple-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));

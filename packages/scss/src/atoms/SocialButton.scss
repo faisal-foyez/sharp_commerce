@@ -50,6 +50,12 @@ $social-btn-size: (
 =            Apple  Button Css            =
 =============================================*/
 
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: max-content;
+}
 .social-btn-brand-apple {
   //social brand apple button light theme
   $social-btn-brand-apple-bg-color: var(--dsc-social-btn-brand-apple-bg-color, $background-neutral-strong);

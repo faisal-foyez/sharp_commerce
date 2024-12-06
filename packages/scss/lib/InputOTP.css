@@ -344,6 +344,12 @@
 .input-otp {
   display: flex;
   gap: 16px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  opacity: 0;
+  height: 0;
+  width: 0;
 }
 
 .focus {

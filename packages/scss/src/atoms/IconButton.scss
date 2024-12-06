@@ -56,6 +56,15 @@ $icon-btn-size: (
   }
 }
 
+.icon-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  width: max-content;
+  box-sizing: border-box;
+}
+
 .icon-btn-primary {
   //primary button light theme
   $icon-btn-primary-bg-color: var(--dsc-icon-btn-primary-bg-color, $action-background-brand-normal);

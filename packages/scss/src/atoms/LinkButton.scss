@@ -53,6 +53,14 @@ $link-button-underline-thickness: 2px;
   }
 }
 
+.link-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  width: max-content;
+}
+
 .link-btn-primary {
   //primary button light theme
   $link-btn-primary-fg-color: var(--dsc-link-btn-primary-fg-color, $action-foreground-brand-inverted-normal);

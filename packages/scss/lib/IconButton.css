@@ -309,6 +309,15 @@
  * styles for components.
  *
  */
+.icon-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: max-content;
+  box-sizing: border-box;
+}
+
 .icon-btn-primary {
   background-color: var(--dsc-icon-btn-primary-bg-color, var(--dsc-action-background-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF))));
   color: var(--dsc-icon-btn-primary-fg-color, var(--dsc-action-foreground-base-white-inverted, var(--dsc-semantic-base-00, #ffffff)));
