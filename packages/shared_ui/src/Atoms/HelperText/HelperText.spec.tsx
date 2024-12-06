@@ -1,19 +1,22 @@
 import { render, screen } from "@testing-library/react";
 import HelperText from "./HelperText";
 import "@testing-library/jest-dom";
+
+const renderHelperText = (props: any) => render(<HelperText {...props}>{props.children}</HelperText>);
+
 describe("HelperText", () => {
   it("should render the component", () => {
-    render(<HelperText data-testid="helper-text">Info that helps a user with this field.</HelperText>);
+    renderHelperText({ 'data-testid': "helper-text" });
     expect(screen.getByTestId("helper-text")).toBeInTheDocument();
   });
 
   it("should render the component with info icon", () => {
-    render(<HelperText isShowInfoIcon={true}>Info that helps a user with this field.</HelperText>);
+    renderHelperText({ isShowInfoIcon: true });
     expect(screen.getByTestId("info-icon")).toBeInTheDocument();
   });
 
   it("should render the component with children", () => {
-    render(<HelperText isShowInfoIcon={true}>Info</HelperText>);
+    renderHelperText({ isShowInfoIcon: true, children: "Info" });
     expect(screen.getByText("Info")).toBeInTheDocument();
   });
 });

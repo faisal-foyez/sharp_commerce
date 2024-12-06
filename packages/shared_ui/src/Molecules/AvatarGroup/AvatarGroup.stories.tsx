@@ -11,7 +11,7 @@ import PicSeven from '../../../assets/pic_seven.jpg';
 import PicEight from '../../../assets/pic_eight.jpg';
 import {AvatarBgColor, AvatarBottomStatus, AvatarPlaceholderSize, AvatarShape, AvatarSize, AvatarTopStatus, AvatarType} from '@dsc/foundation/lib';
 import {MsExcel, Figma, Microsoft} from '@dsc/logos/lib/brand_logo/index.jsx';
-
+import { withThemeDecorator } from '../../utils/storybook/withThemeDecorator';
 
 type AvatarTypeType = keyof typeof AvatarType;
 type AvatarShapeType = keyof typeof AvatarShape;
@@ -25,6 +25,7 @@ const meta: Meta<typeof AvatarGroup> = {
   title:'Components/Molecules/AvatarGroup',
   component: AvatarGroup,
   tags: ['autodocs'],
+  decorators: [withThemeDecorator],
   argTypes: {
     type: {
       control: 'select',
@@ -38,7 +39,6 @@ const meta: Meta<typeof AvatarGroup> = {
       control: 'boolean',
       defaultValue: false,
     },
-
     lastAvatarType: {
       control: 'select',
       options: ['image', 'placeholder', 'letterOfName', 'logo'],
@@ -68,23 +68,17 @@ const meta: Meta<typeof AvatarGroup> = {
 
 export default meta;
 
-// Add this decorator function after the meta export
-const withThemeDecorator = (Story: any) => {
-  return (
-    <div style={{ display: 'flex', gap: '30px' }}>
-      <div style={{ padding: '20px', background: '#ffffff' }}>
-        <h3 style={{textAlign: 'center'}}>Light Mode</h3>
-        <Story />
-      </div>
-      <div data-theme='dark' style={{ padding: '30px', borderRadius: '10px', background: '#1C222B', color: '#ffffff' }}>
-        <h3 style={{ color: '#ffffff', textAlign: 'center' }}>Dark Mode</h3>
-        <Story />
-      </div>
-    </div>
-  );
-};
-
 type Story = StoryObj<typeof AvatarGroup>;
+
+const renderAvatarGroup = (args: any) => (
+  <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '10px', alignItems: 'center', justifyContent: 'center' }}>
+    {Object.keys(AvatarSize).map((size) => (
+      <div style={{ margin: '15px' }} key={size}>
+        <AvatarGroup {...args} shape='circle' size={size as AvatarSizeType} />
+      </div>
+    ))}
+  </div>
+);
 
 export const AvatarGroupSizes: Story = {
   args: {
@@ -94,18 +88,7 @@ export const AvatarGroupSizes: Story = {
     lastAvatarLetter: 'FI',
     lastAvatarLogo: <Figma />,
   },
-  decorators: [withThemeDecorator],
-  render: (args) => {
-    return (
-      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '10px', alignItems: 'center', justifyContent: 'center' }}>
-        {Object.keys(AvatarSize).map((size) => (
-          <div style={{ margin: '15px' }}>
-            <AvatarGroup {...args} shape='circle' size={size as AvatarSizeType} />
-          </div>
-        ))}
-      </div>
-    )
-  },
+  render: renderAvatarGroup,
 };
 
 export const MaxNumberAvatar: Story = {
@@ -118,7 +101,7 @@ export const MaxNumberAvatar: Story = {
     lastAvatarLogo: 'Figma',
     lastAvatarImage: 'ImageTest',
   },
-  decorators: [withThemeDecorator],
+  render: renderAvatarGroup,
 };
 
 export const LastAvatarControl: Story = {
@@ -132,5 +115,5 @@ export const LastAvatarControl: Story = {
     lastAvatarLogo: 'Figma',
     lastAvatarImage: 'ImageTest',
   },
-  decorators: [withThemeDecorator],
+  render: renderAvatarGroup,
 };

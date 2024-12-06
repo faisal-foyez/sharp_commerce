@@ -4,6 +4,7 @@ import ImageTest from "../../../assets/image.jpg";
 import { X } from '@dsc/phosphor_icons';
 import '@dsc/scss/lib/TagButton.css';
 import { TagButtonSize, TagButtonState } from '@dsc/foundation/lib';
+import { cn } from '../../utils/cn';
 
 interface TagButtonProps {
   size?: keyof typeof TagButtonSize;
@@ -12,7 +13,8 @@ interface TagButtonProps {
   state?: keyof typeof TagButtonState;
   label?: string;
   onClose?: () => void;
-  props?: any;
+  // Changed 'props' to a more specific type
+  props?: React.HTMLAttributes<HTMLSpanElement>;
 }
 
 const TagButton = ({
@@ -25,20 +27,18 @@ const TagButton = ({
   ...props
 }: TagButtonProps) => {
   return (
-    <span data-testid="tag-button-testid" className={`btn-tag ${state ? `btn-tag-${state}` : ''} btn-tag-${size}`} {...props}>
-      {
-        isShowAvatar && (
-          <>
-            <Avatar type="image" image={ImageTest} size="xsmall"/>
-          </>
-        )
-      }
+    <span data-testid="tag-button-testid" className={cn(
+      'btn-tag',
+      state ? `btn-tag-${state}` : '',
+      `btn-tag-${size}`
+    )} {...props}>
+      {isShowAvatar && (
+        <Avatar type="image" image={ImageTest} size="xsmall"/>
+      )}
       <span>{label}</span>
-      {
-        isShowCloseIcon && (
-          <X data-testid="close-icon-testid" weight="bold" size={20} onClick={onClose}/>
-        )
-      }
+      {isShowCloseIcon && (
+        <X data-testid="close-icon-testid" weight="bold" size={20} onClick={onClose}/>
+      )}
     </span>
   );
 };

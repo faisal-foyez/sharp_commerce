@@ -1,6 +1,6 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import '@dsc/scss/lib/InputOTP.css';
-import InputOTPItem from './InputOTPItem';
+import { cn } from '../../utils/cn';
 
 // @ts-ignore
 export const InputOTPContext = React.createContext<{ focusIndex: number, isError:boolean, maxLength: number, changeFocusIndex: (index: number) => void, value: string, inputRef: React.RefObject<HTMLInputElement>}>({ focusIndex: 0, isError: false, maxLength: 0, changeFocusIndex: (index: number) => {}, value: '', inputRef: null });
@@ -59,14 +59,18 @@ const InputOTP = ({
   });
 
   return (
-    <div className={`input-otp-container ${className}`} {...props}>
+    <div className={cn(
+      'input-otp-container',
+      className
+    )} {...props}>
       <input type="text" 
         onBlur={() => {setFocusIndex(-1)}} 
         maxLength={maxLength+1} 
         value={value} 
         onChange={onChangeInput} 
-        style={{position: 'absolute', top: -10, left: 0, opacity:0, height: 0, width:0 }} 
-        className="input-otp" 
+        className={cn(
+          'input-otp'
+        )} 
         ref={inputRef} />
       
       <InputOTPContext.Provider value={{focusIndex, isError, maxLength, changeFocusIndex, value, inputRef}}>

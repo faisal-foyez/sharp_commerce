@@ -3,6 +3,7 @@ import { Info } from '@dsc/phosphor_icons';
 import '@dsc/scss/lib/Label.css';
 import Badge from '../Badge/Badge';
 import { InputFieldContext } from "../../Molecules/Input/InputField";
+import { cn } from "../../utils/cn";
 
 interface LabelProps extends LabelHTMLAttributes<HTMLLabelElement> {
   children: React.ReactNode;
@@ -28,22 +29,24 @@ const Label = ({
   ...props
 }: LabelProps) => {
   const {disabled: inputDisabled} = React.useContext(InputFieldContext);
-  console.log(inputDisabled);
   return (
     <label
-      className={`label ${disabled || inputDisabled ? 'disabled' : ''}`}
+      className={cn(
+        'label',
+        disabled || inputDisabled ? 'disabled' : ''
+      )}
       {...props}
     >
       <span className="label-text">
         {children}
-        {isShowOptional && <span className="optional-text">(Optional)</span>}
+        {isShowOptional && <span className={cn('optional-text')}>{'(Optional)'}</span>}
         {isShowBadge && <Badge color='blue' style='light' size='small'>{badgeText}</Badge>}
-        {isShowRequired && <span className="required-text">*</span>}
+        {isShowRequired && <span className={cn('required-text')}>*</span>}
       </span>
       {isShowInfoIcon && (
-        <span className="label-info">
+        <span className={cn('label-info')}>
           <Info weight="bold" size={20}/>
-          {infoText && <span className="label-info-text">{infoText}</span>}
+          {infoText && <span className={cn('label-info-text')}>{infoText}</span>}
         </span>
       )}
     </label>

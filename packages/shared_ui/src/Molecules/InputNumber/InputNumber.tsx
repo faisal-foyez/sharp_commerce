@@ -1,5 +1,6 @@
 import React from 'react';
 import '@dsc/scss/lib/InputNumber.css';
+import { cn } from '../../utils/cn';
 
 export const InputNumberContext = React.createContext({isError: false, disabled: false});
 
@@ -20,7 +21,15 @@ const InputNumber = (
 ) => {
   return (
     <InputNumberContext.Provider value={{isError: isError, disabled: disabled}}>
-      <div className={`input-number ${className} ${isError ? 'input-number-error' : ''} ${disabled ? 'input-number-disabled' : ''}`} {...props}>{children}</div>
+      <div 
+        className={cn(
+          'input-number', 
+          className, 
+          isError && 'input-number-error', 
+          disabled && 'input-number-disabled'
+        )} 
+        {...props}
+      >{children}</div>
     </InputNumberContext.Provider>
   )
 }

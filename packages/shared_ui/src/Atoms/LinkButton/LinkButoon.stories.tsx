@@ -1,10 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
-// import LinkButtonType from '@dsc/foundation/lib/LinkButtonType.js';
-import {LinkButtonType, LinkButtonSize} from '@dsc/foundation/lib';
+import { LinkButtonType, LinkButtonSize } from '@dsc/foundation/lib';
 import LinkButton from './LinkButton';
 import { ArrowRight, ArrowLeft } from '@dsc/phosphor_icons';
-// import { ButtonType } from 'packages/foundation/lib';
-
+import { withThemeDecorator } from '../../utils/storybook/withThemeDecorator';
 
 type LinkButtonTypeType = keyof typeof LinkButtonType;
 type LinkButtonSizeType = keyof typeof LinkButtonSize;
@@ -13,21 +11,21 @@ const meta: Meta<typeof LinkButton> = {
   title: 'Components/Atoms/LinkButton',
   component: LinkButton,
   tags: ['autodocs'],
+  decorators: [withThemeDecorator],
   argTypes: {
-    type:{
+    type: {
       control: 'select',
       options: Object.keys(LinkButtonType),
     },
     size: {
       control: 'select',
       options: Object.keys(LinkButtonSize),
-    },  
+    },
     disabled: {
       control: 'boolean',
       defaultValue: false,
     }
   },
-  
   parameters: {
     backgrounds: {
       default: 'light',
@@ -40,22 +38,6 @@ const meta: Meta<typeof LinkButton> = {
 } satisfies Meta<typeof LinkButton>;
 
 export default meta;
-
-// Add this decorator function after the meta export
-const withThemeDecorator = (Story: any) => {
-  return (
-    <div style={{ display: 'flex', gap: '30px' }}>
-      <div style={{ padding: '20px', background: '#ffffff' }}>
-        <h3 style={{textAlign: 'center'}}>Light Mode</h3>
-        <Story />
-      </div>
-      <div data-theme='dark' style={{ padding: '30px', borderRadius: '10px', background: '#1C222B', color: '#ffffff' }}>
-        <h3 style={{ color: '#ffffff', textAlign: 'center' }}>Dark Mode</h3>
-        <Story />
-      </div>
-    </div>
-  );
-};
 
 type Story = StoryObj<typeof LinkButton>;
 
@@ -132,406 +114,33 @@ export const WithBothIcons: Story = {
   },
 };
 
+
+const renderButtons = (args: any) => {
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
+      {Object.keys(LinkButtonType).map((type) => (
+        <div key={type} style={{ display: 'flex', flexDirection: 'row', gap: '30px' }}>
+          {Object.keys(LinkButtonSize).map((size) => (
+            <div key={size} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '30px' }}>
+              <LinkButton {...args} type={type as LinkButtonTypeType} size={size as LinkButtonSizeType}>button</LinkButton>
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  );
+};
+
 export const ButtonSizes: Story = {
   args: {
     disabled: false,
   },
-  decorators: [withThemeDecorator],
-  render: (args) => {
-    const style = {fontSize: '13px'}
-    return (
-      <div style={{display: 'flex', flexDirection: 'column', gap: '10px'}}>
-        <div style={style}>Primary</div>
-        <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <span style={style}>sm</span>
-            <LinkButton {...args} type={LinkButtonType.primary as LinkButtonTypeType} size={LinkButtonSize.sm as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <span style={style}>md</span>
-            <LinkButton {...args} type={LinkButtonType.primary as LinkButtonTypeType} size={LinkButtonSize.md as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <span style={style}>lg</span>
-            <LinkButton {...args} type={LinkButtonType.primary as LinkButtonTypeType} size={LinkButtonSize.lg as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <span style={style}>xl</span>
-            <LinkButton {...args} type={LinkButtonType.primary as LinkButtonTypeType} size={LinkButtonSize.xl as LinkButtonSizeType}>button</LinkButton>
-          </div>
-        </div>
-        <div style={style}>Secondary</div>
-        <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.secondary as LinkButtonTypeType} size={LinkButtonSize.sm as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.secondary as LinkButtonTypeType} size={LinkButtonSize.md as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.secondary as LinkButtonTypeType} size={LinkButtonSize.lg as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.secondary as LinkButtonTypeType} size={LinkButtonSize.xl as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          
-        </div>
-        <div style={style}>Error</div>
-        <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.error as LinkButtonTypeType} size={LinkButtonSize.sm as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.error as LinkButtonTypeType} size={LinkButtonSize.md as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.error as LinkButtonTypeType} size={LinkButtonSize.lg as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.error as LinkButtonTypeType} size={LinkButtonSize.xl as LinkButtonSizeType} >button</LinkButton>
-          </div>
-        </div>
-        <div style={style}>Success</div>
-        <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-
-
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.success as LinkButtonTypeType} size={LinkButtonSize.sm as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.success as LinkButtonTypeType} size={LinkButtonSize.md as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.success as LinkButtonTypeType} size={LinkButtonSize.lg as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.success as LinkButtonTypeType} size={LinkButtonSize.xl as LinkButtonSizeType} >button</LinkButton>
-          </div>
-
-        </div>
-        <div style={style}>Warning</div>
-        <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.warning as LinkButtonTypeType} size={LinkButtonSize.sm as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.warning as LinkButtonTypeType} size={LinkButtonSize.md as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.warning as LinkButtonTypeType} size={LinkButtonSize.lg as LinkButtonSizeType} >button</LinkButton>
-          </div>
-          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-            <LinkButton {...args} type={LinkButtonType.warning as LinkButtonTypeType} size={LinkButtonSize.xl as LinkButtonSizeType} >button</LinkButton>
-          </div>
-        </div>
-      </div>
-    )
-  }
-}
+  render: renderButtons
+};
 
 export const ButtonDisabled: Story = {
   args: {
     disabled: true
   },
-
-  decorators: [withThemeDecorator],
-
-  render: args => {
-    const style = {
-      fontSize: "13px"
-    };
-    return (
-      (<div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "10px"
-        }}>
-        <div style={style}>Primary</div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "10px"
-          }}>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <span style={style}>sm</span>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.primary as LinkButtonTypeType}
-              size={LinkButtonSize.sm as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <span style={style}>md</span>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.primary as LinkButtonTypeType}
-              size={LinkButtonSize.md as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <span style={style}>lg</span>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.primary as LinkButtonTypeType}
-              size={LinkButtonSize.lg as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <span style={style}>xl</span>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.primary as LinkButtonTypeType}
-              size={LinkButtonSize.xl as LinkButtonSizeType}>button</LinkButton>
-          </div>
-        </div>
-        <div style={style}>Secondary</div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "10px"
-          }}>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.secondary as LinkButtonTypeType}
-              size={LinkButtonSize.sm as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.secondary as LinkButtonTypeType}
-              size={LinkButtonSize.md as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.secondary as LinkButtonTypeType}
-              size={LinkButtonSize.lg as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.secondary as LinkButtonTypeType}
-              size={LinkButtonSize.xl as LinkButtonSizeType}>button</LinkButton>
-          </div>
-        </div>
-        <div style={style}>Error</div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "10px"
-          }}>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.error as LinkButtonTypeType}
-              size={LinkButtonSize.sm as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.error as LinkButtonTypeType}
-              size={LinkButtonSize.md as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.error as LinkButtonTypeType}
-              size={LinkButtonSize.lg as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.error as LinkButtonTypeType}
-              size={LinkButtonSize.xl as LinkButtonSizeType}>button</LinkButton>
-          </div>
-        </div>
-        <div style={style}>Success</div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "10px"
-          }}>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.success as LinkButtonTypeType}
-              size={LinkButtonSize.sm as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.success as LinkButtonTypeType}
-              size={LinkButtonSize.md as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.success as LinkButtonTypeType}
-              size={LinkButtonSize.lg as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.success as LinkButtonTypeType}
-              size={LinkButtonSize.xl as LinkButtonSizeType}>button</LinkButton>
-          </div>
-        </div>
-        <div style={style}>Warning</div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "10px"
-          }}>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.warning as LinkButtonTypeType}
-              size={LinkButtonSize.sm as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.warning as LinkButtonTypeType}
-              size={LinkButtonSize.md as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.warning as LinkButtonTypeType}
-              size={LinkButtonSize.lg as LinkButtonSizeType}>button</LinkButton>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "10px"
-            }}>
-            <LinkButton
-              {...args}
-              type={LinkButtonType.warning as LinkButtonTypeType}
-              size={LinkButtonSize.xl as LinkButtonSizeType}>button</LinkButton>
-          </div>
-        </div>
-      </div>)
-    );
-  }
+  render: renderButtons
 };

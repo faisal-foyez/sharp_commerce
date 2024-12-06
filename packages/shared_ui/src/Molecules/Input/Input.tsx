@@ -2,6 +2,7 @@ import React, { useContext, InputHTMLAttributes } from 'react';
 import '@dsc/scss/lib/Input.css';
 import { InputFieldContext } from './InputField';
 import { InputStyle } from '@dsc/foundation/lib';
+import { cn } from '../../utils/cn';
 
 type InputStyle = keyof typeof InputStyle;
 
@@ -26,7 +27,19 @@ const Input = ({
   }
 
   return (
-    <input disabled={disabled} onChange={onChangeHandler} className={`input-field ${isError ? 'error' : ''} ${size ? size : ''} ${inputStyle} ${className}`} type="text" {...props} />
+    <input 
+      disabled={disabled} 
+      onChange={onChangeHandler} 
+      className={cn(
+        'input-field', 
+        isError && 'error', 
+        size && size, 
+        inputStyle, 
+        className
+      )} 
+      type="text" 
+      {...props} 
+    />
   )
 };
 

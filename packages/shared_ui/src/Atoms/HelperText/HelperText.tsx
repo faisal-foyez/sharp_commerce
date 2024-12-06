@@ -2,6 +2,7 @@ import React, {useContext} from "react";
 import { Info } from "@dsc/phosphor_icons";
 import "@dsc/scss/lib/HelperText.css";
 import { InputFieldContext } from "../../Molecules/Input/InputField";
+import { cn } from "../../utils/cn";
 interface HelperTextProps {
   children: string;
   isShowInfoIcon?: boolean;
@@ -15,7 +16,7 @@ const HelperText = ({
 }: HelperTextProps) => {
   const {isError} = useContext(InputFieldContext);
   return (
-    <div className={`helper-text`} {...props}>
+    <div className={cn('helper-text')} {...props}>
       {isShowInfoIcon && <Info data-testid="info-icon" size={20} />}
       <span className={isError ? 'error' : ''}>{children}</span>
     </div>

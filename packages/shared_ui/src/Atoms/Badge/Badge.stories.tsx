@@ -2,7 +2,8 @@ import { Meta, StoryObj } from "@storybook/react";
 import Badge from "./Badge";
 import { BadgeColor, BadgeSize, BadgeStyle } from "@dsc/foundation/lib";
 import { ArrowLeft, ArrowRight } from "@dsc/phosphor_icons";
-import {Figma} from "@dsc/logos/lib/brand_logo/index.jsx";
+import { Figma } from "@dsc/logos/lib/brand_logo/index.jsx";
+import { withThemeDecorator } from "../../utils/storybook/withThemeDecorator";
 
 type BadgeColorType = keyof typeof BadgeColor;
 type BadgeSizeType = keyof typeof BadgeSize;
@@ -12,6 +13,7 @@ const meta: Meta<typeof Badge> = {
   title: "Components/Atoms/Badge",
   component: Badge,
   tags: ['autodocs'],
+  decorators: [withThemeDecorator],
   argTypes: {
     children: {
       control: 'text',
@@ -54,67 +56,44 @@ const meta: Meta<typeof Badge> = {
         Figma: <Figma />
       }
     }
-  },
+  }
 };
 
 export default meta;
 
-// Add this decorator function after the meta export
-const withThemeDecorator = (Story: any) => {
+type Story = StoryObj<typeof Badge>;
+
+const renderBadges = (args: any) => {
   return (
-    <div style={{ display: 'flex', gap: '30px' }}>
-      <div style={{ padding: '20px', background: '#ffffff' }}>
-        <h3 style={{textAlign: 'center'}}>Light Mode</h3>
-        <Story />
-      </div>
-      <div data-theme='dark' style={{ padding: '20px', borderRadius: '10px', background: '#1C222B', color: '#ffffff' }}>
-        <h3 style={{ color: '#ffffff', textAlign: 'center' }}>Dark Mode</h3>
-        <Story />
-      </div>
-    </div>
+    <>
+      {Object.values(BadgeSize).map(size => (
+        <div style={{ marginTop: '60px' }} key={size}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center' }}>
+            {Object.values(BadgeColor).map(color => (
+              <div style={{ display: 'flex', flexDirection: 'row', gap: '80px' }} key={color}>
+                {Object.values(BadgeStyle).map(style => (
+                  <Badge {...args} color={color as BadgeColorType} size={size as BadgeSizeType} style={style as BadgeStyleType}>Badge</Badge>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </>
   );
 };
-
-type Story = StoryObj<typeof Badge>;
 
 export const Default: Story = {
   args: {
     children: "Badge",
   },
-  decorators: [withThemeDecorator],
 };
 
 export const AllBadgeColorsAndSizesAndStyles: Story = {
   args: {
     children: "Badge",
   },
-  decorators: [withThemeDecorator],
-  render: (args) => {
-    return (
-      <>
-        {Object.values(BadgeSize).map(size=>{
-          return (
-            <>
-            <div style={{marginTop:'60px'}}></div>
-            <div style={{display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center'}} key={size}>
-              {Object.values(BadgeColor).map(color=>{
-                return(
-                  <div style={{display: 'flex', flexDirection: 'row', gap: '80px'}} key={color}>
-                    {Object.values(BadgeStyle).map(style=>{
-                      return (
-                        <Badge {...args} color={color as BadgeColorType} size={size as BadgeSizeType} style={style as BadgeStyleType}>Badge</Badge>
-                      )
-                    })}
-                  </div>
-                )
-              })}
-            </div>
-            </>
-          )
-        })}
-      </>
-    )
-  }
+  render: renderBadges,
 };
 
 export const AllBadgeWithLeftIcon: Story = {
@@ -122,33 +101,7 @@ export const AllBadgeWithLeftIcon: Story = {
     children: "Badge",
     leftIcon: 'ArrowLeft'
   },
-  decorators: [withThemeDecorator],
-  render: (args) => {
-    return (
-      <>
-        {Object.values(BadgeSize).map(size=>{
-          return (
-            <>
-            <div style={{marginTop:'60px'}}></div>
-            <div style={{display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center'}} key={size}>
-              {Object.values(BadgeColor).map(color=>{
-                return(
-                  <div style={{display: 'flex', flexDirection: 'row', gap: '80px'}} key={color}>
-                    {Object.values(BadgeStyle).map(style=>{
-                      return (
-                        <Badge {...args} color={color as BadgeColorType} size={size as BadgeSizeType} style={style as BadgeStyleType}>Badge</Badge>
-                      )
-                    })}
-                  </div>
-                )
-              })}
-            </div>
-            </>
-          )
-        })}
-      </>
-    )
-  }
+  render: (args) => renderBadges(args),
 };
 
 export const AllBadgeWithRightIcon: Story = {
@@ -156,33 +109,7 @@ export const AllBadgeWithRightIcon: Story = {
     children: "Badge",
     rightIcon: 'ArrowRight'
   },
-  decorators: [withThemeDecorator],
-  render: (args) => {
-    return (
-      <>
-        {Object.values(BadgeSize).map(size=>{
-          return (
-            <>
-            <div style={{marginTop:'60px'}}></div>
-            <div style={{display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center'}} key={size}>
-              {Object.values(BadgeColor).map(color=>{
-                return(
-                  <div style={{display: 'flex', flexDirection: 'row', gap: '80px'}} key={color}>
-                    {Object.values(BadgeStyle).map(style=>{
-                      return (
-                        <Badge {...args} color={color as BadgeColorType} size={size as BadgeSizeType} style={style as BadgeStyleType}>Badge</Badge>
-                      )
-                    })}
-                  </div>
-                )
-              })}
-            </div>
-            </>
-          )
-        })}
-      </>
-    )
-  }
+  render: (args) => renderBadges(args),
 };
 
 export const AllBadgeWithBothIcon: Story = {
@@ -191,33 +118,7 @@ export const AllBadgeWithBothIcon: Story = {
     leftIcon: 'ArrowLeft',
     rightIcon: 'ArrowRight'
   },
-  decorators: [withThemeDecorator],
-  render: (args) => {
-    return (
-      <>
-        {Object.values(BadgeSize).map(size=>{
-          return (
-            <>
-            <div style={{marginTop:'60px'}}></div>
-            <div style={{display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center'}} key={size}>
-              {Object.values(BadgeColor).map(color=>{
-                return(
-                  <div style={{display: 'flex', flexDirection: 'row', gap: '80px'}} key={color}>
-                    {Object.values(BadgeStyle).map(style=>{
-                      return (
-                        <Badge {...args} color={color as BadgeColorType} size={size as BadgeSizeType} style={style as BadgeStyleType}>Badge</Badge>
-                      )
-                    })}
-                  </div>
-                )
-              })}
-            </div>
-            </>
-          )
-        })}
-      </>
-    )
-  }
+  render: (args) => renderBadges(args),
 };
 
 export const AllBadgeWithLogo: Story = {
@@ -225,33 +126,7 @@ export const AllBadgeWithLogo: Story = {
     children: "Badge",
     badgeLogo: 'Figma'
   },
-  decorators: [withThemeDecorator],
-  render: (args) => {
-    return (
-      <>
-        {Object.values(BadgeSize).map(size=>{
-          return (
-            <>
-            <div style={{marginTop:'60px'}}></div>
-            <div style={{display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center'}} key={size}>
-              {Object.values(BadgeColor).map(color=>{
-                return(
-                  <div style={{display: 'flex', flexDirection: 'row', gap: '80px'}} key={color}>
-                    {Object.values(BadgeStyle).map(style=>{
-                      return (
-                        <Badge {...args} color={color as BadgeColorType} size={size as BadgeSizeType} style={style as BadgeStyleType}>Badge</Badge>
-                      )
-                    })}
-                  </div>
-                )
-              })}
-            </div>
-            </>
-          )
-        })}
-      </>
-    )
-  }
+  render: (args) => renderBadges(args),
 };
 
 export const AllBadgeWithDot: Story = {
@@ -259,33 +134,7 @@ export const AllBadgeWithDot: Story = {
     children: "Badge",
     isShowDot: true
   },
-  decorators: [withThemeDecorator],
-  render: (args) => {
-    return (
-      <>
-        {Object.values(BadgeSize).map(size=>{
-          return (
-            <>
-            <div style={{marginTop:'60px'}}></div>
-            <div style={{display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center'}} key={size}>
-              {Object.values(BadgeColor).map(color=>{
-                return(
-                  <div style={{display: 'flex', flexDirection: 'row', gap: '80px'}} key={color}>
-                    {Object.values(BadgeStyle).map(style=>{
-                      return (
-                        <Badge {...args} color={color as BadgeColorType} size={size as BadgeSizeType} style={style as BadgeStyleType}>Badge</Badge>
-                      )
-                    })}
-                  </div>
-                )
-              })}
-            </div>
-            </>
-          )
-        })}
-      </>
-    )
-  }
+  render: (args) => renderBadges(args),
 };
 
 export const AllBadgeWithDisabled: Story = {
@@ -293,31 +142,5 @@ export const AllBadgeWithDisabled: Story = {
     children: "Badge",
     disabled: true
   },
-  decorators: [withThemeDecorator],
-  render: (args) => {
-    return (
-      <>
-        {Object.values(BadgeSize).map(size=>{
-          return (
-            <>
-            <div style={{marginTop:'60px'}}></div>
-            <div style={{display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center'}} key={size}>
-              {Object.values(BadgeColor).map(color=>{
-                return(
-                  <div style={{display: 'flex', flexDirection: 'row', gap: '80px'}} key={color}>
-                    {Object.values(BadgeStyle).map(style=>{
-                      return (
-                        <Badge {...args} color={color as BadgeColorType} size={size as BadgeSizeType} style={style as BadgeStyleType}>Badge</Badge>
-                      )
-                    })}
-                  </div>
-                )
-              })}
-            </div>
-            </>
-          )
-        })}
-      </>
-    )
-  }
+  render: (args) => renderBadges(args),
 };

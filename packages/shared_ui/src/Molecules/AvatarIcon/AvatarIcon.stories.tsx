@@ -2,6 +2,7 @@ import {Meta, StoryObj} from '@storybook/react';
 import AvatarIcon from './AvatarIcon';
 import ImageTest from '../../../assets/image.jpg';
 import {AvatarIconSize, AvatarIconColor, AvatarIconBackground} from '@dsc/foundation/lib';
+import { withThemeDecorator } from '../../utils/storybook/withThemeDecorator';
   
 type AvatarIconSizeType = keyof typeof AvatarIconSize;
 type AvatarIconColorType = keyof typeof AvatarIconColor;
@@ -11,6 +12,7 @@ const meta: Meta<typeof AvatarIcon> = {
   title:'Components/Molecules/AvatarIcon',
   component: AvatarIcon,
   tags: ['autodocs'],
+  decorators: [withThemeDecorator],
   argTypes: {
     size: {
       control: 'select',
@@ -29,22 +31,6 @@ const meta: Meta<typeof AvatarIcon> = {
 
 export default meta;
 
-// Add this decorator function after the meta export
-const withThemeDecorator = (Story: any) => {
-  return (
-    <div style={{ display: 'flex', gap: '30px' }}>
-      <div style={{ padding: '20px', background: '#ffffff' }}>
-        <h3 style={{textAlign: 'center'}}>Light Mode</h3>
-        <Story />
-      </div>
-      <div data-theme='dark' style={{ padding: '20px', borderRadius: '10px', background: '#1C222B', color: '#ffffff' }}>
-        <h3 style={{ color: '#ffffff', textAlign: 'center' }}>Dark Mode</h3>
-        <Story />
-      </div>
-    </div>
-  );
-};
-
 type Story = StoryObj<typeof AvatarIcon>;
 
 // Default AvatarIcon
@@ -54,7 +40,7 @@ export const DefaultAvatarIcon: Story = {
     color: AvatarIconColor.pink as AvatarIconColorType,
     background: AvatarIconBackground.withbackground as AvatarIconBackgroundType,
   },
-  decorators: [withThemeDecorator],
+  
 };
 
 // All AvatarIcon
@@ -62,7 +48,6 @@ export const AllAvatarIcon: Story = {
   args: {
 
   },
-  decorators: [withThemeDecorator],
   render: (args) => {
     return (
       Object.keys(AvatarIconSize).map((size) => (

@@ -1,6 +1,7 @@
 import React from 'react';
 import '@dsc/scss/lib/Input.css';
 import { InputSize } from '@dsc/foundation/lib';
+import { cn } from '../../utils/cn';
 
 interface InputFieldProps {
   children: React.ReactNode;
@@ -33,7 +34,14 @@ const InputField = ({children, isError, disabled, size, className, ...props}: In
   // );
   return (
     <InputFieldContext.Provider value={{isError: isError ?? false, disabled: disabled ?? false, size: size ?? 'medium'}}>
-      <div className={`input-container ${disabled ? 'disabled' : ''} ${className} `} {...props}>
+      <div 
+        className={cn(
+          'input-container', 
+          disabled && 'disabled', 
+          className
+        )} 
+        {...props}
+      >
         {children}
       </div>
     </InputFieldContext.Provider>

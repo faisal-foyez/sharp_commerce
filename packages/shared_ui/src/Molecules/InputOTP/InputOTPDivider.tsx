@@ -1,6 +1,11 @@
+import { cn } from '../../utils/cn';
+
 const InputOTPDivider = ({ className, ...props }: { className?: string, props?: any }) => {
   return (
-    <div className={`input-otp-divider ${className}`} {...props}></div>
+    <div className={cn(
+      'input-otp-divider',
+      className
+    )} {...props}></div>
   )
 }
 

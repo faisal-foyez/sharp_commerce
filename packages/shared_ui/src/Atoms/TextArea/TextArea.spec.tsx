@@ -3,23 +3,27 @@ import TextArea from './TextArea';
 import '@testing-library/jest-dom';
 
 describe('TextArea', () => {
+  const setup = (props = {}) => {
+    render(<TextArea data-testid="text-area-testid" {...props} />);
+  };
+
   it('renders', () => {
-    render(<TextArea data-testid="text-area-testid"/>);
+    setup();
     expect(screen.getByTestId('text-area-testid')).toBeInTheDocument();
   });
 
   it('renders with placeholder', () => {
-    render(<TextArea data-testid="text-area-testid" placeholder="Placeholder"/>);
+    setup({ placeholder: 'Placeholder' });
     expect(screen.getByTestId('text-area-testid')).toHaveAttribute('placeholder', 'Placeholder');
   });
 
   it('renders with error', () => {
-    render(<TextArea data-testid="text-area-testid" isError={true}/>);
+    setup({ isError: true });
     expect(screen.getByTestId('text-area-testid')).toHaveClass('input-textarea-error');
   });
 
   it('renders with disabled', () => {
-    render(<TextArea data-testid="text-area-testid" disabled={true}/>);
+    setup({ disabled: true });
     expect(screen.getByTestId('text-area-testid')).toHaveAttribute('disabled');
   });
 });

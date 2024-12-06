@@ -1,8 +1,7 @@
 import React from 'react';
 import '@dsc/scss/lib/IconButton.css'
-import {IconButtonType, IconButtonStyle, IconButtonIconSize, IconButtonSize, IconNames, IconWeight} from '@dsc/foundation/lib';
-// import { Icon } from '@dsc/phosphor_icons';
-// import * as PhosphorIcons from '@dsc/phosphor_icons';
+import {IconButtonType, IconButtonStyle, IconButtonIconSize, IconButtonSize, IconWeight} from '@dsc/foundation/lib';
+import {cn} from '../../utils/cn';
 
 interface IconButtonProps {
   type: keyof typeof IconButtonType,
@@ -39,8 +38,12 @@ const IconButton:React.FC<IconButtonProps> = ({
     // const Children = icon ? React.createElement(PhosphorIcons[icon], {size: iconSize, weight: iconWeight}) : null;
     return (
       <button 
-        style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '.5rem', width:'max-content'}} 
-        className={`icon-btn-${type}${style !== 'fill' ? '-'+style : ''} icon-btn-${size} ${isRounded ? 'icon-btn-rounded' : ''}`}
+         className={cn(
+          'icon-btn',
+          `icon-btn-${type}${style !== 'fill' ? '-'+style : ''}`,
+          `icon-btn-${size}`,
+          isRounded ? 'icon-btn-rounded' : ''
+        )}
         disabled={disabled}
         aria-label={ariaLabel} // Provides a label for the button for screen readers
         aria-expanded={ariaExpanded} // Indicates whether the button controls a collapsible element

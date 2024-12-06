@@ -3,86 +3,85 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import SocialButton from './SocialButton';
 import '@testing-library/jest-dom';
 import { vi } from 'vitest';
+
+const renderSocialButton = (props:any) => render(<SocialButton {...props} />);
+
 describe('SocialButton', () => {
+  const platform = "Microsoft";
+  const googlePlatform = "Google";
+  const isLabel = true;
+
   it('renders the button with correct text', () => {
-    render(<SocialButton platform="Microsoft" theme="light" isLabel={true} />);
+    renderSocialButton({ platform, theme: "light", isLabel });
     const button = screen.getByRole('button', { name: /microsoft/i });
     expect(button).toBeInTheDocument();
   });
 
   it('applies the correct class for light theme', () => {
-    render(<SocialButton platform="Microsoft" isLabel={true} theme="light" />);
+    renderSocialButton({ platform, isLabel, theme: "light" });
     const button = screen.getByRole('button', { name: /microsoft/i });
     expect(button).toHaveClass('social-btn-light-microsoft');
   });
 
   it('applies the correct class for gray theme', () => {
-    render(<SocialButton platform="Microsoft" isLabel={true} theme="gray" />);
+    renderSocialButton({ platform, isLabel, theme: "gray" });
     const button = screen.getByRole('button', { name: /microsoft/i });
     expect(button).toHaveClass('social-btn-gray-microsoft');
   });
 
-  it('applies the correct class for light theme', () => {
-    render(<SocialButton platform="Microsoft" isLabel={true} theme="light" />);
-    const button = screen.getByRole('button', { name: /microsoft/i });
-    expect(button).toHaveClass('social-btn-light-microsoft');
-  });
-
   it('handles click events', () => {
     const handleClick = vi.fn();
-    render(<SocialButton platform="Microsoft" isLabel={true} onClick={handleClick} />);
+    renderSocialButton({ platform, isLabel, onClick: handleClick });
     const button = screen.getByRole('button', { name: /microsoft/i });
     fireEvent.click(button);
     expect(handleClick).toHaveBeenCalledTimes(1);
   });
 
-
   it('renders with aria-label', () => {
-    render(<SocialButton platform="Microsoft" isLabel={true} ariaLabel="Microsoft" />);
+    renderSocialButton({ platform, isLabel, ariaLabel: "Microsoft" });
     const button = screen.getByRole('button', { name: /microsoft/i });
     expect(button).toHaveAttribute('aria-label', 'Microsoft');
   });
   
-  it('renders with with default aria-label', () => {
-    render(<SocialButton platform="Microsoft" isLabel={true} />);
+  it('renders with default aria-label', () => {
+    renderSocialButton({ platform, isLabel });
     const button = screen.getByRole('button', { name: /microsoft/i });
     expect(button).toHaveAttribute('aria-label', 'Sign in with Microsoft');
   });
 
   it('renders with text Sign in with Google', () => {
-    render(<SocialButton platform="Google" isLabel={true} />);
+    renderSocialButton({ platform: googlePlatform, isLabel });
     const button = screen.getByRole('button', { name: /google/i });
     expect(button).toHaveTextContent(/Sign in with Google/i);
   });
 
   it('renders with the correct button size', () => {
-    render(<SocialButton platform="Google" isLabel={true} size="lg" />);
+    renderSocialButton({ platform: googlePlatform, isLabel, size: "lg" });
     const button = screen.getByRole('button', { name: /google/i });
     expect(button).toHaveClass('social-btn-lg');
   });
 
   it('renders with aria-expanded false', () => {
-    render(<SocialButton platform="Google" isLabel={true} ariaExpanded={false} />);
+    renderSocialButton({ platform: googlePlatform, isLabel, ariaExpanded: false });
     const button = screen.getByRole('button', { name: /google/i });
     expect(button).toHaveAttribute('aria-expanded', 'false');
   });
 
   it('renders with aria-expanded true', () => {
-    render(<SocialButton platform="Google" isLabel={true} ariaExpanded={true} />);
+    renderSocialButton({ platform: googlePlatform, isLabel, ariaExpanded: true });
     const button = screen.getByRole('button', { name: /google/i });
     expect(button).toHaveAttribute('aria-expanded', 'true');
   });
 
   it('renders with aria-controls', () => {
-    render(<SocialButton platform="Google" isLabel={true} ariaControls="google-controls" />);
+    renderSocialButton({ platform: googlePlatform, isLabel, ariaControls: "google-controls" });
     const button = screen.getByRole('button', { name: /google/i });
     expect(button).toHaveAttribute('aria-controls', 'google-controls');
   });
 
   it('renders with aria-describedby', () => {
-    render(<SocialButton platform="Google" isLabel={true} ariaDescribedBy="google-describedby" />);
+    renderSocialButton({ platform: googlePlatform, isLabel, ariaDescribedBy: "google-describedby" });
     const button = screen.getByRole('button', { name: /google/i });
     expect(button).toHaveAttribute('aria-describedby', 'google-describedby');
   });
 });
-

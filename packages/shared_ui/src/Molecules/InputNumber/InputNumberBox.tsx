@@ -1,6 +1,7 @@
 import React from 'react';
 import '@dsc/scss/lib/InputNumber.css';
 import { InputNumberContext } from './InputNumber';
+import { cn } from '../../utils/cn';
 
 interface InputNumberBoxProps extends React.InputHTMLAttributes<HTMLInputElement> {
   value?: number;
@@ -23,8 +24,18 @@ const InputNumberBox = ({
   }
 
 
-  return <input disabled={disabled} onChange={onChangeHandler} type="number" className={`input-number-box ${className} ${isError ? 'input-number-box-error' : ''} ${disabled ? 'input-number-box-disabled' : ''}`} {...props} />
-
+  return <input 
+    disabled={disabled} 
+    onChange={onChangeHandler} 
+    type="number" 
+    className={cn(
+      'input-number-box', 
+      isError && 'input-number-box-error', 
+      disabled && 'input-number-box-disabled',
+      className
+    )} 
+    {...props} 
+  />
 }
 
 export default InputNumberBox;

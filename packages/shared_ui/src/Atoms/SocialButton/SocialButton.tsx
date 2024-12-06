@@ -1,50 +1,56 @@
-import React, {useContext, useEffect, useState} from 'react'
-import '@dsc/scss/lib/SocialButton.css'
-import * as logos from '@dsc/logos/lib/social_app/index.jsx'
-import { SocialButtonPlatform, SocialButtonSize, SocialButtonTheme } from '@dsc/foundation/lib'
+import React from 'react';
+import '@dsc/scss/lib/SocialButton.css';
+import * as logos from '@dsc/logos/lib/social_app/index.jsx';
+import { SocialButtonPlatform, SocialButtonSize, SocialButtonTheme } from '@dsc/foundation/lib';
+import { cn } from '../../utils/cn';
+
 interface SocialButtonProps {
-  platform: keyof typeof SocialButtonPlatform,
-  size?: keyof typeof SocialButtonSize,
-  theme?: keyof typeof SocialButtonTheme,
-  isLabel?: boolean,
-  ariaLabel?: string,
-  ariaExpanded?: boolean,
-  ariaControls?: string,
-  ariaDescribedBy?: string,
-  onClick?: () => void
+  platform: keyof typeof SocialButtonPlatform;
+  size?: keyof typeof SocialButtonSize;
+  theme?: keyof typeof SocialButtonTheme;
+  isLabel?: boolean;
+  ariaLabel?: string;
+  ariaExpanded?: boolean;
+  ariaControls?: string;
+  ariaDescribedBy?: string;
+  onClick?: () => void;
 }
 
-const SocialButton = ({
-  platform, 
-  size='md', 
-  theme='brand', 
-  isLabel=false,
+const SocialButton: React.FC<SocialButtonProps> = ({
+  platform,
+  size = 'md',
+  theme = 'brand',
+  isLabel = false,
   ariaLabel,
-  ariaExpanded=false,
+  ariaExpanded = false,
   ariaControls,
   ariaDescribedBy,
-  onClick
-}: SocialButtonProps) =>{
-  const logo = platform + theme?.charAt(0).toUpperCase() + theme?.slice(1) as keyof typeof logos;
-  // alert(logo);
-  const res = ariaLabel || isLabel ? `Sign in with ${platform}` : '';
-  console.log(res);
-  const Logo = platform ? React.createElement(logos[logo], {size: size === 'lg' ? 28 : 24 as number}) : null;
+  onClick,
+}) => {
+  const logoKey = `${platform}${theme.charAt(0).toUpperCase()}${theme.slice(1)}` as keyof typeof logos;
+  const logoSize = size === 'lg' ? 28 : 24;
+  const logo = platform ? React.createElement(logos[logoKey], { size: logoSize }) : null;
+  const label = isLabel ? `Sign in with ${platform}` : '';
+
   return (
-    <button 
-      style={{display: 'flex', alignItems: 'center', gap: '8px', width:'max-content'}} 
-      className={`social-btn-${theme}-${platform.toLowerCase()} social-btn-${size}`}
+    <button
+      className={cn(
+        'social-btn',
+        `social-btn-${theme}-${platform.toLowerCase()}`,
+        `social-btn-${size}`
+      )}
       onClick={onClick}
-      aria-label={ariaLabel || (isLabel ? `Sign in with ${platform}` : '')}
+      aria-label={ariaLabel || label}
       aria-expanded={ariaExpanded}
       aria-controls={ariaControls}
       aria-describedby={ariaDescribedBy}
       type="button"
+      style={{ display: 'flex', alignItems: 'center', gap: '8px', width: 'max-content' }}
     >
-      {Logo}
-      {isLabel ? `Sign in with ${platform}` : ''}
+      {logo}
+      {label}
     </button>
-  )
-}
+  );
+};
 
 export default SocialButton;

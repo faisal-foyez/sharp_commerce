@@ -1,6 +1,7 @@
 import {Meta, StoryObj} from '@storybook/react';
 import SocialButton from './SocialButton';
-import { ButtonSize, SocialButtonPlatform, SocialButtonSize, SocialButtonTheme } from '@dsc/foundation/lib';
+import { SocialButtonPlatform, SocialButtonSize, SocialButtonTheme } from '@dsc/foundation/lib';
+import { withThemeDecorator } from '../../utils/storybook/withThemeDecorator';
 
 type SocialButtonPlatformType = keyof typeof SocialButtonPlatform;
 type SocialButtonSizeType = keyof typeof SocialButtonSize;
@@ -10,6 +11,7 @@ const meta:Meta<typeof SocialButton> = {
   title: 'Components/Atoms/SocialButton',
   component: SocialButton,
   tags: ['autodocs'],
+  decorators: [withThemeDecorator],
   argTypes: {
     platform: {
       control: 'select',
@@ -30,23 +32,6 @@ const meta:Meta<typeof SocialButton> = {
 } satisfies Meta<typeof SocialButton>;
 
 export default meta;
-
-// Add this decorator function after the meta export
-const withThemeDecorator = (Story: any) => {
-  return (
-    <div style={{ display: 'flex', gap: '30px' }}>
-      <div style={{ padding: '20px', background: '#ffffff' }}>
-        <h3 style={{textAlign: 'center'}}>Light Mode</h3>
-        <Story />
-      </div>
-      <div data-theme='dark' style={{ padding: '30px', borderRadius: '10px', background: '#1C222B', color: '#ffffff' }}>
-        <h3 style={{ color: '#ffffff', textAlign: 'center' }}>Dark Mode</h3>
-        <Story />
-      </div>
-    </div>
-  );
-};
-
 
 type Story = StoryObj<typeof meta>;
 
@@ -124,234 +109,32 @@ export const Github:Story = {
 
 export const SocialButtonVariants: Story = {
   args: {
-    // platform: SocialButtonPlatform.Apple as SocialButtonPlatformType,
-    // size: SocialButtonSize.md as SocialButtonSizeType,
-    // theme: SocialButtonTheme.brand as SocialButtonThemeType,
     isLabel: true,
   },
-  decorators: [withThemeDecorator],
   render: (args) => {
+    const platforms = Object.keys(SocialButtonPlatform) as Array<keyof typeof SocialButtonPlatform>;
+    const sizes = Object.keys(SocialButtonSize) as Array<keyof typeof SocialButtonSize>;
+    const themes = Object.keys(SocialButtonTheme) as Array<keyof typeof SocialButtonTheme>;
     return (
-      <div style={{display: 'flex', flexDirection: 'row', gap: '60px', alignItems: 'center'}}>
-        <div style={{display: 'flex', flexDirection: 'column', gap: '20px'}}>
-        <span style={{ alignSelf:'center', fontSize:'1.2rem', fontWeight:'bold'}}>Size : Large</span>
-          {/* Apple */}
-          <div style={{display: 'flex', flexDirection: 'row'}}>
-            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px',}}>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px',}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Apple as SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='gray' />
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '30px', width: '1500px' }}>
+        {platforms.map((platform) => (
+          <div key={platform} style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', gap: '0px', }}>
+            {sizes.map((size) => (
+              <div key={size} style={{ display: 'flex', flexDirection: 'row', gap: '10px', width: '50%' }}>
+                {themes.map((theme) => (
+                  <SocialButton
+                    key={`${platform}-${theme}-${size}`}
+                    {...args}
+                    platform={platform as SocialButtonPlatformType}
+                    size={size as SocialButtonSizeType}
+                    theme={theme}
+                  />
+                ))}
               </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Apple as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='brand'/>
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Apple as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='light'/>
-              </div>
-            </div>
-            {/* <div style={{margin:'0 2rem'}}></div> */}
-            
+            ))}
           </div>
-
-          {/* Facebook */}
-          <div style={{display: 'flex', flexDirection: 'row'}}>
-            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px',}}>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px',}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Facebook as SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='gray' />
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Facebook as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='brand'/>
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Facebook as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='light'/>
-              </div>
-            </div>
-            {/* <div style={{margin:'0 2rem'}}></div> */}
-            
-          </div>
-
-          {/* Google */}
-          <div style={{display: 'flex', flexDirection: 'row'}}>
-            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px',}}>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px',}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Google as SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='gray' />
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Google as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='brand'/>
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Google as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='light'/>
-              </div>
-            </div>
-            {/* <div style={{margin:'0 2rem'}}></div> */}
-            
-          </div>
-
-
-          <div style={{display: 'flex', flexDirection: 'row'}}>
-            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px',}}>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px',}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Linkedin as SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='gray' />
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Linkedin as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='brand'/>
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Linkedin as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='light'/>
-              </div>
-            </div>
-            {/* <div style={{margin:'0 2rem'}}></div> */}
-            
-          </div>
-
-          {/* Microsoft */} 
-          <div style={{display: 'flex', flexDirection: 'row'}}>
-            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px',}}>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px',}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Microsoft as SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='gray' />
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Microsoft as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='brand'/>
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Microsoft as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='light'/>
-              </div>
-            </div>
-            {/* <div style={{margin:'0 2rem'}}></div> */}
-            
-          </div>
-
-          {/* X */}
-          <div style={{display: 'flex', flexDirection: 'row'}}>
-            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px',}}>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px',}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.X as SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='gray' />
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.X as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='brand'/>
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.X as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='light'/>
-              </div>
-            </div>
-            {/* <div style={{margin:'0 2rem'}}></div> */}
-            
-          </div>
-
-          {/* Github */}  
-          <div style={{display: 'flex', flexDirection: 'row'}}>
-            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px',}}>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px',}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Github as SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='gray' />
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Github as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='brand'/>
-              </div>
-              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-                <SocialButton {...args} platform={SocialButtonPlatform.Github as  SocialButtonPlatformType} size={SocialButtonSize.lg as SocialButtonSizeType} theme='light'/>
-              </div>
-            </div>
-            {/* <div style={{margin:'0 2rem'}}></div> */}
-            
-          </div>
-        </div>
-
-
-
-        <div style={{display: 'flex', flexDirection: 'column', gap: '32px'}}>
-        <span style={{ alignSelf:'center', fontSize:'1.2rem', fontWeight:'bold'}}>Size : Medium</span>
-
-          {/* Apple */}
-          <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Apple as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='gray'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Apple as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='brand'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Apple as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='light'/>
-            </div>
-          </div>
-
-          {/* Facebook */}
-          <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Facebook as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='gray'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Facebook as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='brand'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Facebook as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='light'/>
-            </div>
-          </div>
-
-          {/* Google */}
-          <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Google as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='gray'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Google as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='brand'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Google as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='light'/>
-            </div>
-          </div>
-
-          {/* Linkedin */}
-          <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Linkedin as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='gray'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Linkedin as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='brand'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Linkedin as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='light'/>
-            </div>
-          </div>
-
-          {/* Microsoft */}
-          <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Microsoft as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='gray'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Microsoft as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='brand'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Microsoft as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='light'/>
-            </div>
-          </div>
-
-          {/* X */}
-          <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.X as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='gray'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.X as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='brand'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.X as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='light'/>
-            </div>
-          </div>
-
-          {/* Github */}
-          <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Github as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='gray'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Github as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='brand'/>
-            </div>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-              <SocialButton {...args} platform={SocialButtonPlatform.Github as  SocialButtonPlatformType} size={SocialButtonSize.md as SocialButtonSizeType} theme='light'/>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
-    )
+      );
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import '@dsc/scss/lib/Avatar.css';
 import * as AvatarIcons from '@dsc/logos/lib/avatar/index.jsx';
+import { cn } from '../../utils/cn';
 import { 
   AvatarType,
   AvatarShape, 
@@ -177,16 +178,31 @@ const Avatar = (
   }
   
   return (
-    <div data-testid="avatar-testid" className={`avatar-container avatar-${size} avatar-${shape} avatar-bg-color-${bgColor} ${isBorder ? `avatar-border-${size}` : ''}`} {...props}  >
+    <div 
+    data-testid="avatar-testid" 
+    className={cn(
+      'avatar-container', 
+      `avatar-${size}`, 
+      `avatar-${shape}`, 
+      `avatar-bg-color-${bgColor}`, 
+      isBorder ? `avatar-border-${size}` : ''
+    )} 
+    {...props}  >
       {topStatus && 
       <span 
-      className={`avatar-top-status-icon-container avatar-top-status-icon-container-${size}`}
+      className={cn(
+        'avatar-top-status-icon-container', 
+        `avatar-top-status-icon-container-${size}`
+      )}
       >
         {TopStatus}
       </span>}
       {bottomStatus && 
       <span 
-      className={`avatar-bottom-status-icon-container avatar-bottom-status-icon-container-${size}`}
+      className={cn(
+        'avatar-bottom-status-icon-container', 
+        `avatar-bottom-status-icon-container-${size}`
+      )}
       >
         {BottomStatus}
       </span>}

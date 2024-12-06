@@ -44,24 +44,26 @@ export const Default: Story = {
   }
 }
 
+const renderCheckboxGrid = (args: any) => (
+  <div style={{ display: 'flex', flexDirection: 'row', gap: '30px' }}>
+    {Object.values(CheckboxVariant).map((variant) => (
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }} key={variant}>
+        {Object.values(CheckboxColor).map((color) => (
+          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px' }} key={color}>
+            {Object.values(CheckboxSize).map((size) => (
+              <Checkbox key={size} {...args} size={size as CheckboxSizeType} color={color as CheckboxColorType} variant={variant as CheckboxVariantType}/>
+            ))}
+          </div>
+        ))}
+      </div>
+    ))}
+  </div>
+);
+
 export const CheckboxWithSizesAndVariants: Story = {
   args: {
     checked: true,
     disabled: false,
   },
-  render: (args) => (
-    <div style={{ display: 'flex', flexDirection: 'row', gap: '30px' }}>
-      {Object.values(CheckboxVariant).map((variant) => (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }} key={variant}>
-          {Object.values(CheckboxColor).map((color) => (
-          <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }} key={color}>
-            {Object.values(CheckboxSize).map((size) => (
-              <Checkbox key={size} {...args} size={size as CheckboxSizeType} color={color as CheckboxColorType} variant={variant as CheckboxVariantType}/>
-            ))}
-          </div>
-          ))}
-        </div>
-      ))}
-    </div>
-  )
+  render: renderCheckboxGrid,
 }

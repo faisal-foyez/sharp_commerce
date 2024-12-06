@@ -8,10 +8,15 @@ type BadgeColorType = keyof typeof BadgeColor;
 type BadgeSizeType = keyof typeof BadgeSize;
 type BadgeStyleType = keyof typeof BadgeStyle;
 
+const renderBadge = (props: any) => {
+  render(<Badge {...props}>Badge</Badge>);
+  return screen.getByText("Badge");
+};
+
 describe("Badge", () => {
   it("should render the component", () => {
-    render(<Badge >Badge</Badge>);
-    expect(screen.getByText("Badge")).toBeInTheDocument();
+    const badgeElement = renderBadge({});
+    expect(badgeElement).toBeInTheDocument();
   });
 
   it.each([
@@ -21,9 +26,7 @@ describe("Badge", () => {
     "yellow", 
     "red"
   ])("should render the badge with color %s", (color) => {
-    render(<Badge color={color as BadgeColorType}>Badge</Badge>);
-    const badgeElement = screen.getByText("Badge");
-    expect(badgeElement).toBeInTheDocument();
+    const badgeElement = renderBadge({ color: color as BadgeColorType });
     expect(badgeElement).toHaveClass(`badge-${color}`);
   });  
 
@@ -32,9 +35,7 @@ describe("Badge", () => {
     "medium", 
     "large"
   ])("should render the badge with size %s", (size) => {
-    render(<Badge size={size as BadgeSizeType}>Badge</Badge>);
-    const badgeElement = screen.getByText("Badge");
-    expect(badgeElement).toBeInTheDocument();
+    const badgeElement = renderBadge({ size: size as BadgeSizeType });
     expect(badgeElement).toHaveClass(`badge-${size}`);
   });
 
@@ -42,41 +43,37 @@ describe("Badge", () => {
     "light",
     "outline",
     "fill"
-  ])("should render the badge with style %s", (style)=>{
-    render(<Badge style={style as BadgeStyleType}>Badge</Badge>)
-    const badgeElement = screen.getByText("Badge");
-    expect(badgeElement).toBeInTheDocument();
+  ])("should render the badge with style %s", (style) => {
+    const badgeElement = renderBadge({ style: style as BadgeStyleType });
     expect(badgeElement).toHaveClass(`badge-${style}`);
-  })
+  });
 
   it("should render the badge with disabled", () => {
-    render(<Badge disabled={true}>Badge</Badge>);
-    const badgeElement = screen.getByText("Badge");
-    expect(badgeElement).toBeInTheDocument();
+    const badgeElement = renderBadge({ disabled: true });
     expect(badgeElement).toHaveClass("badge-disabled");
   });
 
   it("should render the badge with isShowDot", () => {
-    render(<Badge isShowDot={true}>Badge</Badge>);
-    const badgeElement = screen.getByText("Badge").querySelector(".badge-dot");
-    expect(badgeElement).toBeInTheDocument();
+    renderBadge({ isShowDot: true });
+    const dotElement = screen.getByText("Badge").querySelector(".badge-dot");
+    expect(dotElement).toBeInTheDocument();
   });
 
   it("should render the badge with leftIcon", () => {
-    render(<Badge leftIcon={<Info />}>Badge</Badge>);
-    const badgeElement = screen.getByText("Badge").querySelector(".badge-left-icon");
-    expect(badgeElement).toBeInTheDocument();
+    renderBadge({ leftIcon: <Info /> });
+    const iconElement = screen.getByText("Badge").querySelector(".badge-left-icon");
+    expect(iconElement).toBeInTheDocument();
   });
 
   it("should render the badge with rightIcon", () => {
-    render(<Badge rightIcon={<Info />}>Badge</Badge>);
-    const badgeElement = screen.getByText("Badge").querySelector(".badge-right-icon");
-    expect(badgeElement).toBeInTheDocument();
+    renderBadge({ rightIcon: <Info /> });
+    const iconElement = screen.getByText("Badge").querySelector(".badge-right-icon");
+    expect(iconElement).toBeInTheDocument();
   });
 
   it("should render the badge with badgeLogo", () => {
-    render(<Badge badgeLogo={<Info />}>Badge</Badge>);
-    const badgeElement = screen.getByText("Badge").querySelector(".badge-logo");
-    expect(badgeElement).toBeInTheDocument();
+    renderBadge({ badgeLogo: <Info /> });
+    const logoElement = screen.getByText("Badge").querySelector(".badge-logo");
+    expect(logoElement).toBeInTheDocument();
   });
 });

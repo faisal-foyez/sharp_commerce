@@ -1,6 +1,7 @@
 import { User } from '@dsc/phosphor_icons'
 import '@dsc/scss/lib/AvatarIcon.css'
 import {AvatarIconSize, AvatarIconColor , AvatarIconBackground} from '@dsc/foundation/lib';
+import { cn } from '../../utils/cn';
 
 interface AvatarIconProps {
   size?: keyof typeof AvatarIconSize;
@@ -17,7 +18,12 @@ const AvatarIcon = (
     ...props
   }: AvatarIconProps
 ) => {
-  const classNames = `avatar-icon ${size ? `avatar-icon-${size}` : ''} ${color ? `avatar-icon-${color}` : ''} ${background ? `avatar-icon-${background}` : ''}`;
+  const classNames = cn(
+    'avatar-icon',
+    size && `avatar-icon-${size}`,
+    color && `avatar-icon-${color}`,
+    background && `avatar-icon-${background}`
+  );
   return (
     <div 
       className={classNames} 
