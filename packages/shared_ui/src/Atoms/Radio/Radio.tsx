@@ -58,6 +58,9 @@ const Radio = ({
   return (
     <div
       data-testid='radio-container-testid'
+      role="radio"
+      aria-checked={isChecked}
+      aria-disabled={disabled}
       className={cn(
         'radio-container',
         isChecked && 'radio-container-checked',
@@ -78,6 +81,7 @@ const Radio = ({
         className={cn('radio-input')}
         type="radio"
         {...props}
+        aria-hidden="true"
       />
       {isChecked && variant === 'rounded' && <Square className={cn('radio-icon', 'radio-icon-rounded')} weight="fill" />}
       {isChecked && variant === 'square' && <Square className={cn('radio-icon', 'radio-icon-square')} weight="fill" />}
