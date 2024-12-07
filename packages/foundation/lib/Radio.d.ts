@@ -1,4 +1,5 @@
 declare const frozenRadioVariant: Readonly<{
+    rounded: string;
     square: string;
     circle: string;
 }>;

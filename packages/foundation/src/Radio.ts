@@ -1,4 +1,5 @@
 const RadioVariant = {
+  rounded: 'rounded',
   square: 'square',
   circle: 'circle',
 };
