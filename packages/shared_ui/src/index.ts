@@ -14,6 +14,7 @@ import { InputOTPGroup, InputOTPDivider, InputOTP, InputOTPItem } from './Molecu
 import { InputNumber, InputNumberBox, InputNumberButton } from './Molecules/InputNumber';
 import TextArea from './Atoms/TextArea';
 import Checkbox from './Atoms/Checkbox';
+import Radio from './Atoms/Radio';
 export { 
   Button, 
   LinkButton, 
@@ -37,5 +38,6 @@ export {
   InputNumberBox,
   InputNumberButton,
   TextArea,
-  Checkbox
+  Checkbox,
+  Radio
 };
