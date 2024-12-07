@@ -70,6 +70,12 @@ import {
   CheckboxSize
 } from './Checkbox';
 
+import {
+  RadioVariant,
+  RadioColor,
+  RadioSize
+} from './Radio';
+
 export {
   Spacing, 
   FontSize,
@@ -109,5 +115,8 @@ export {
   InputSize,
   CheckboxVariant,
   CheckboxColor,
-  CheckboxSize
+  CheckboxSize,
+  RadioVariant,
+  RadioColor,
+  RadioSize
 }
