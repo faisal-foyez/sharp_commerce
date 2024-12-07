@@ -1,0 +1,190 @@
+@import '../foundation/all';
+
+$radio-colors: (
+  primary: (
+    border-color: $action-border-brand-normal,
+    color: $action-background-brand-normal,
+    disabled-border-color: $action-border-brand-disabled,
+    disabled-color: $action-background-brand-disabled,
+  ),
+  secondary: (
+    border-color: $action-border-neutral-normal,
+    color: $action-background-neutral-normal,
+    disabled-border-color: $action-border-neutral-disabled,
+    disabled-color: $action-background-neutral-disabled,
+  ),
+  success: (
+    border-color: $action-border-success-normal,
+    color: $action-background-success-normal,
+    disabled-border-color: $action-border-success-disabled,
+    disabled-color: $action-background-success-disabled,
+  ),
+  warning: (
+    border-color: $action-border-warning-normal,
+    color: $action-background-warning-normal,
+    disabled-border-color: $action-border-warning-disabled,
+    disabled-color: $action-background-warning-disabled,
+  ),
+  error: (
+    border-color: $action-border-error-normal,
+    color: $action-background-error-normal,
+    disabled-border-color: $action-border-error-disabled,
+    disabled-color: $action-background-error-disabled,
+  ),
+);
+
+$dark-radio-colors: (
+  primary: (
+    border-color: $dark-action-border-brand-normal,
+    color: $dark-action-background-brand-normal,
+    disabled-border-color: $dark-action-border-brand-disabled,
+    disabled-color: $dark-action-background-brand-disabled,
+  ),
+  secondary: (
+    border-color: $dark-action-border-neutral-normal,
+    color: $dark-action-background-neutral-normal,
+    disabled-border-color: $dark-action-border-neutral-disabled,
+    disabled-color: $dark-action-background-neutral-disabled,
+  ),
+  success: (
+    border-color: $dark-action-border-success-normal,
+    color: $dark-action-background-success-normal,
+    disabled-border-color: $dark-action-border-success-disabled,
+    disabled-color: $dark-action-background-success-disabled,
+  ),
+  warning: (
+    border-color: $dark-action-border-warning-normal,
+    color: $dark-action-background-warning-normal,
+    disabled-border-color: $dark-action-border-warning-disabled,
+    disabled-color: $dark-action-background-warning-disabled,
+  ),
+  error: (
+    border-color: $dark-action-border-error-normal,
+    color: $dark-action-background-error-normal,
+    disabled-border-color: $dark-action-border-error-disabled,
+    disabled-color: $dark-action-background-error-disabled,
+  ),
+);
+
+$radio-variants: (
+  rounded: (
+    border-radius: $radius-xsm,
+  ),
+  square: (
+    border-radius: 0,
+  ),
+  circle: (
+    border-radius: $radius-full-round,
+  ),
+);
+
+$radio-sizes: (
+  small: (
+    container-width: 16px,
+    container-height: 16px,
+    icon-width: 12px,
+    icon-height: 12px,
+  ),
+  medium: (
+    container-width: 20px,
+    container-height: 20px,
+    icon-width: 16px,
+    icon-height: 16px,
+  ),
+  large: (
+    container-width: 24px,
+    container-height: 24px,
+    icon-width: 18px,
+    icon-height: 18px,
+  ),
+);
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 1px solid $action-border-brand-normal;
+  box-sizing: border-box;
+}
+
+@each $size, $styles in $radio-sizes {
+  .radio-container-#{$size} {
+    width: map-get($styles, container-width);
+    height: map-get($styles, container-height);
+  }
+
+  .radio-container-#{$size} .radio-icon {
+    width: map-get($styles, icon-width);
+    height: map-get($styles, icon-height);
+  }
+}
+
+@each $variant, $styles in $radio-variants {
+  .radio-container-#{$variant} {
+    @each $style, $value in $styles {
+      #{$style}: $value;
+    }
+  }
+}
+
+@each $color, $colorList in $radio-colors {
+  @each $variant, $variantList in $radio-variants { 
+    .radio-container-#{$color}.radio-container-#{$variant} {
+      border: 1px solid map-get($colorList, border-color);
+      background-color: $action-background-base-white;
+      color:  map-get($colorList, color);
+    }
+    .radio-container-#{$color}.radio-container-#{$variant}.radio-container-disabled {
+      border: 1px solid map-get($colorList, disabled-border-color);
+      background-color: $action-background-base-white;
+      color:  map-get($colorList, disabled-color);
+    }
+  }
+  .radio-container-#{$color}.radio-container-default:has(.radio-input:checked) {
+    background-color: map-get($colorList, color);
+    color: $action-background-base-white;
+  }
+  .radio-container-#{$color}.radio-container-default.radio-container-disabled:has(.radio-input:checked) {
+    background-color: map-get($colorList, disabled-color);
+    color: $action-background-base-white;
+  }
+}
+
+@each $dark-color, $dark-colorList in $dark-radio-colors {
+  @each $variant, $variantList in $radio-variants { 
+    [data-theme='dark'] {
+      .radio-container-#{$dark-color}.radio-container-#{$variant} {
+        border: 1px solid map-get($dark-colorList, border-color);
+        background-color: $dark-action-background-base-white;
+        color: map-get($dark-colorList, color);
+      }
+
+      .radio-container-#{$dark-color}.radio-container-#{$variant}.radio-container-disabled {
+        border: 1px solid map-get($dark-colorList, disabled-border-color);
+        background-color: $dark-action-background-base-white;
+        color: map-get($dark-colorList, disabled-color);
+      }
+    }
+  }
+  [data-theme='dark'] {
+    .radio-container-#{$dark-color}.radio-container-default:has(.radio-input:checked) {
+      background-color: map-get($dark-colorList, color);
+      color: $dark-action-background-base-white;
+    }
+
+    .radio-container-#{$dark-color}.radio-container-default.radio-container-disabled:has(.radio-input:checked) {
+      background-color: map-get($dark-colorList, disabled-color);
+      color: $dark-action-background-base-white;
+    }
+  }
+}
+
+.radio-input {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+}

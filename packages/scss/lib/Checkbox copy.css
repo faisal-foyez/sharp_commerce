@@ -1,0 +1,810 @@
+/*=============================================
+    #Variables
+=============================================*/
+/**
+ * TABLE OF CONTENTS
+ * 
+ * COLORS
+ * Brand colors...................These are the main brand colors. They will be used the most
+ * Neutral colors.................White and black, gray scale, secondary colors.
+ * Utility colors.................Other colors to represent states: info, warning, success, etc.
+ * 
+ * TYPOGRAPHY
+ * Font families..................The fonts used in the design system.
+ * Font weights...................Font weights
+ * Sizes..........................Font sizing for body text, paragraphs, inputs
+ * Heading sizes..................Font sizing for page headings
+ *
+ * BREAKPOINTS
+ * Breakpoints....................Global responsive breakpoints definitions.
+ *
+ * SPACING
+ * Spacing........................Global fixed set of spacing variables
+ * 
+ * SHADOW
+ * Shadows........................Global fixed set of shadows
+ */
+/*=============================================
+=            Colors                           =
+=============================================*/
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Violet colors */
+/* Purple colors */
+/* Indigo colors */
+/* Blue light colors */
+/* Blue dark colors*/
+/* Blue gray colors */
+/* Blue colors */
+/* Cyan colors */
+/* Dimgray colors */
+/* Emerald colors */
+/* Gold colors */
+/* Green colors */
+/* Green dark colors */
+/* Lime colors */
+/* Orange colors */
+/* Pink colors */
+/* Rose colors */
+/* Red colors */
+/* Red dark colors */
+/* Sky colors */
+/* Slate colors */
+/* Stone colors */
+/* Teal colors */
+/* Yellow colors */
+/* Yellow dark colors */
+/* Zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=====  End of Colors  ======*/
+/*=============================================
+=                 Typography                  =
+=============================================*/
+/* Font Families */
+/**
+ *
+ * 1) The playfair font. We'll use this for headings mostly.
+ *     https://fonts.google.com/specimen/Playfair+Display
+ *
+ * 2) The raleway font. We'll use this for the body text.
+ *     https://fonts.google.com/specimen/Raleway
+ */
+/* 1 */
+/* 2 */
+/*----------  End of Font Familie  ----------*/
+/*----------  Font weights  ----------*/
+/*----------  End of Font weights  ----------*/
+/*----------  Display font variables  ----------*/
+/*----------  End of Display font variables  ----------*/
+/*----------  Heading font variables  ----------*/
+/*----------  End of Heading font variables  ----------*/
+/*----------  Body font variables  ----------*/
+/* body font size */
+/* body line height */
+/* body letter spacing */
+/*----------  End of Body font variables  ----------*/
+/*----------  Label font variables  ----------*/
+/*----------  End of Label font variables  ----------*/
+/*----------  Underline font variables  ----------*/
+/*----------  End of Underline font variables  ----------*/
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoint            =
+=============================================*/
+/*=====  End of Breakpoint  ======*/
+/*=============================================
+=            Spacing                          =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=                  Shadows                    =
+=============================================*/
+/*=====  End of Shadows  ======*/
+/*=============================================
+=            Spacing             =
+=============================================*/
+/*=====  End of Spacing   ======*/
+/*=============================================
+=            Corner Radius            =
+=============================================*/
+/*=====  End of Corner Radius  ======*/
+/*=============================================
+=            Breakpoints           =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* 1 */
+/* 2 */
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+/*----------  Heading font variables  ----------*/
+/*----------  End of Typography variables  ----------*/
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variables.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Global violet colors */
+/* Global purple colors */
+/* Global indigo colors */
+/* Global blue light colors */
+/* Global blue dark colors*/
+/* Global blue gray colors */
+/* Global blue colors */
+/* Global cyan colors */
+/* Global dimgray colors */
+/* Global emerald colors */
+/* Global gold colors */
+/* Global green colors */
+/* Global green dark colors */
+/* Global lime colors */
+/* Global orange colors */
+/* Global pink colors */
+/* Global rose colors */
+/* Global red colors */
+/* Global red dark colors */
+/* Global sky colors */
+/* Global slate colors */
+/* Global stone colors */
+/* Global teal colors */
+/* Global yellow colors */
+/* Global yellow dark colors */
+/* Global zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Semantic colors            =
+=============================================*/
+/*----------  Semantic Base  ----------*/
+/*---------- Semantic Brand  ----------*/
+/*----------  Dark Semantic Brand  ----------*/
+/*----------  Dark Semantic brand_alt  ----------*/
+/*----------  Semantic neutral  ----------*/
+/*----------  Semantic success  ----------*/
+/*----------  Dark Semantic success  ----------*/
+/*----------  Semantic warning  ----------*/
+/*----------  Dark Semantic warning  ----------*/
+/*----------  Semantic error  ----------*/
+/*----------  Dark Semantic error  ----------*/
+/*=====  End of Semantic colors  ======*/
+/*=============================================
+=            Transparent colors tokens            =
+=============================================*/
+/*---------- Transparent Colors  ----------*/
+/*---------- Dark Semantic transparent Colors  ----------*/
+/*----------  Brand Transparent Colors  ----------*/
+/*=====  End of Transparent colors tokens  ======*/
+/*=============================================
+=            Background colors tokens            =
+=============================================*/
+/*----------  Background Semantic Base Colors  ----------*/
+/*---------- Dark Background Semantic Colors  ----------*/
+/*----------  Background Semantic Brand Colors  ----------*/
+/*----------  Dark Background Semantic Brand Colors  ----------*/
+/*----------  Background Semantic Neutral Colors  ----------*/
+/*----------  Dark Background Semantic Neutral Colors  ----------*/
+/*----------  Background Semantic Success Colors  ----------*/
+/*----------  Dark Background Semantic Success Colors  ----------*/
+/*----------  Background Semantic Warning Colors  ----------*/
+/*----------  Dark Background Semantic Warning Colors  ----------*/
+/*----------  Background Semantic Error Colors  ----------*/
+/*----------  Dark Background Semantic Error Colors  ----------*/
+/*=====  End of Background colors tokens  ======*/
+/*=============================================
+=            Foreground colors tokens            =
+=============================================
+
+/*----------  Foreground Semantic Neutral Colors  ----------*/
+/*----------  Dark Foreground Semantic Neutral Colors  ----------*/
+/*----------  Foreground Semantic Light Colors  ----------*/
+/*----------  Dark Foreground Semantic Light Colors  ----------*/
+/*----------  Foreground Semantic Brand Colors  ----------*/
+/*----------  Dark Foreground Semantic Brand Colors  ----------*/
+/*----------  Foreground Semantic Success Colors  ----------*/
+/*----------  Dark Foreground Semantic Success Colors  ----------*/
+/*----------  Foreground Semantic Warning Colors  ----------*/
+/*----------  Dark Foreground Semantic Warning Colors  ----------*/
+/*----------  Foreground Semantic Error Colors  ----------*/
+/*----------  Dark Foreground Semantic Error Colors  ----------*/
+/*----------  Foreground Semantic Link Colors  ----------*/
+/*----------  Dark Foreground Semantic Link Colors  ----------*/
+/*=====  End of Foreground colors tokens  ======*/
+/*=============================================
+=            Border colors tokens            =
+=============================================*/
+/*----------  Border Semantic Base Colors  ----------*/
+/*----------  Dark Border Semantic Base Colors  ----------*/
+/*----------  Border Semantic Neutral Colors  ----------*/
+/*----------  Dark Border Semantic Neutral Colors  ----------*/
+/*----------  Border Semantic Brand Colors  ----------*/
+/*----------  Dark Border Semantic Brand Colors  ----------*/
+/*----------  Border Semantic Success Colors  ----------*/
+/*----------  Dark Border Semantic Success Colors  ----------*/
+/*----------  Border Semantic Warning Colors  ----------*/
+/*----------  Dark Border Semantic Warning Colors  ----------*/
+/*----------  Border Semantic Error Colors  ----------*/
+/*----------  Dark Border Semantic Error Colors  ----------*/
+/*=====  End of Border colors tokens  ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=============================================
+=            Action color tokens            =
+=============================================*/
+/*----------  Action Background Base Colors  ----------*/
+/*----------  Action Background Brand Colors  ----------*/
+/*----------  Action Background Neutral Colors  ----------*/
+/*----------  Action Background Error Colors  ----------*/
+/*----------  Action Background Success Colors  ----------*/
+/*----------  Action Background Warning Colors  ----------*/
+/*----------  Action Foreground Base Colors  ----------*/
+/*----------  Action Foreground Brand Colors  ----------*/
+/*----------  Action Foreground Neutral Colors  ----------*/
+/*----------  Action Foreground Error Colors  ----------*/
+/*----------  Action Foreground Success Colors  ----------*/
+/*----------  Action Foreground Warning Colors  ----------*/
+/*----------  Action Border Brand Colors  ----------*/
+/*----------  Action Border Neutral Colors  ----------*/
+/*----------  Action Border Error Colors  ----------*/
+/*----------  Action Border Success Colors  ----------*/
+/*----------  Action Border Warning Colors  ----------*/
+/*=============================================
+=            Other Color Tokens               =
+=============================================*/
+/*----------  Fuchsia  ----------*/
+/*----------  Purple  ----------*/
+/*----------  Cyan  ----------*/
+/*----------  Pink  ----------*/
+/*----------  Sky  ----------*/
+/*----------  Black  ----------*/
+/*=====  End of Other Color Tokens  ======*/
+/*=============================================
+=            Mixins                           =
+=============================================*/
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+ */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 1px solid var(--dsc-action-border-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  box-sizing: border-box;
+}
+
+.checkbox-container-small {
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox-container-small .checkbox-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.checkbox-container-medium {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox-container-medium .checkbox-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox-container-large {
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox-container-large .checkbox-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.checkbox-container-default {
+  border-radius: var(--dsc-radius-xsm, 0.25rem);
+}
+
+.checkbox-container-square {
+  border-radius: var(--dsc-radius-xsm, 0.25rem);
+}
+
+.checkbox-container-circle {
+  border-radius: var(--dsc-radius-full-round, 624.9375rem);
+}
+
+.checkbox-container-primary.checkbox-container-default {
+  border: 1px solid var(--dsc-action-border-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-primary.checkbox-container-default.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-brand-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-primary.checkbox-container-square {
+  border: 1px solid var(--dsc-action-border-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+}
+
+.checkbox-container-primary.checkbox-container-square.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-brand-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-brand-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+}
+
+.checkbox-container-primary.checkbox-container-circle {
+  border: 1px solid var(--dsc-action-border-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+}
+
+.checkbox-container-primary.checkbox-container-circle.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-brand-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-brand-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+}
+
+.checkbox-container-primary.checkbox-container-default:has(.checkbox-input:checked) {
+  background-color: var(--dsc-action-background-brand-normal, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-primary.checkbox-container-default.checkbox-container-disabled:has(.checkbox-input:checked) {
+  background-color: var(--dsc-action-background-brand-disabled, var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-secondary.checkbox-container-default {
+  border: 1px solid var(--dsc-action-border-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-secondary.checkbox-container-default.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-secondary.checkbox-container-square {
+  border: 1px solid var(--dsc-action-border-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+}
+
+.checkbox-container-secondary.checkbox-container-square.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+}
+
+.checkbox-container-secondary.checkbox-container-circle {
+  border: 1px solid var(--dsc-action-border-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+}
+
+.checkbox-container-secondary.checkbox-container-circle.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+}
+
+.checkbox-container-secondary.checkbox-container-default:has(.checkbox-input:checked) {
+  background-color: var(--dsc-action-background-neutral-normal, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-secondary.checkbox-container-default.checkbox-container-disabled:has(.checkbox-input:checked) {
+  background-color: var(--dsc-action-background-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-success.checkbox-container-default {
+  border: 1px solid var(--dsc-action-border-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-success.checkbox-container-default.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-success.checkbox-container-square {
+  border: 1px solid var(--dsc-action-border-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+}
+
+.checkbox-container-success.checkbox-container-square.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+}
+
+.checkbox-container-success.checkbox-container-circle {
+  border: 1px solid var(--dsc-action-border-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+}
+
+.checkbox-container-success.checkbox-container-circle.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+}
+
+.checkbox-container-success.checkbox-container-default:has(.checkbox-input:checked) {
+  background-color: var(--dsc-action-background-success-normal, var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-success.checkbox-container-default.checkbox-container-disabled:has(.checkbox-input:checked) {
+  background-color: var(--dsc-action-background-success-disabled, var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-warning.checkbox-container-default {
+  border: 1px solid var(--dsc-action-border-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-warning.checkbox-container-default.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-warning-disabled, var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-warning.checkbox-container-square {
+  border: 1px solid var(--dsc-action-border-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+}
+
+.checkbox-container-warning.checkbox-container-square.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-warning-disabled, var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-warning-disabled, var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D)));
+}
+
+.checkbox-container-warning.checkbox-container-circle {
+  border: 1px solid var(--dsc-action-border-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+}
+
+.checkbox-container-warning.checkbox-container-circle.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-warning-disabled, var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-warning-disabled, var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D)));
+}
+
+.checkbox-container-warning.checkbox-container-default:has(.checkbox-input:checked) {
+  background-color: var(--dsc-action-background-warning-normal, var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-warning.checkbox-container-default.checkbox-container-disabled:has(.checkbox-input:checked) {
+  background-color: var(--dsc-action-background-warning-disabled, var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D)));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-error.checkbox-container-default {
+  border: 1px solid var(--dsc-action-border-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-error.checkbox-container-default.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-error-disabled, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-error.checkbox-container-square {
+  border: 1px solid var(--dsc-action-border-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+}
+
+.checkbox-container-error.checkbox-container-square.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-error-disabled, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-error-disabled, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+}
+
+.checkbox-container-error.checkbox-container-circle {
+  border: 1px solid var(--dsc-action-border-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+}
+
+.checkbox-container-error.checkbox-container-circle.checkbox-container-disabled {
+  border: 1px solid var(--dsc-action-border-error-disabled, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  color: var(--dsc-action-background-error-disabled, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+}
+
+.checkbox-container-error.checkbox-container-default:has(.checkbox-input:checked) {
+  background-color: var(--dsc-action-background-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+.checkbox-container-error.checkbox-container-default.checkbox-container-disabled:has(.checkbox-input:checked) {
+  background-color: var(--dsc-action-background-error-disabled, var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)));
+  color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .checkbox-container-primary.checkbox-container-default {
+  border: 1px solid var(--dsc-dark-action-border-brand-normal, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+[data-theme=dark] .checkbox-container-primary.checkbox-container-default.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-brand-disabled, var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .checkbox-container-primary.checkbox-container-square {
+  border: 1px solid var(--dsc-dark-action-border-brand-normal, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-brand-normal, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF)));
+}
+[data-theme=dark] .checkbox-container-primary.checkbox-container-square.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-brand-disabled, var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-brand-disabled, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+}
+
+[data-theme=dark] .checkbox-container-primary.checkbox-container-circle {
+  border: 1px solid var(--dsc-dark-action-border-brand-normal, var(--dsc-dark-semantic-brand-alt-400, var(--dsc-global-blue-light-400, #538CFF)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-brand-normal, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF)));
+}
+[data-theme=dark] .checkbox-container-primary.checkbox-container-circle.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-brand-disabled, var(--dsc-dark-semantic-brand-alt-800, var(--dsc-global-blue-light-800, #1B356A)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-brand-disabled, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+}
+
+[data-theme=dark] .checkbox-container-primary.checkbox-container-default:has(.checkbox-input:checked) {
+  background-color: var(--dsc-dark-action-background-brand-normal, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+[data-theme=dark] .checkbox-container-primary.checkbox-container-default.checkbox-container-disabled:has(.checkbox-input:checked) {
+  background-color: var(--dsc-dark-action-background-brand-disabled, var(--dsc-dark-semantic-brand-alt-900, var(--dsc-global-blue-light-900, #1A2B4D)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .checkbox-container-secondary.checkbox-container-default {
+  border: 1px solid var(--dsc-dark-action-border-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+[data-theme=dark] .checkbox-container-secondary.checkbox-container-default.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .checkbox-container-secondary.checkbox-container-square {
+  border: 1px solid var(--dsc-dark-action-border-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+}
+[data-theme=dark] .checkbox-container-secondary.checkbox-container-square.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+}
+
+[data-theme=dark] .checkbox-container-secondary.checkbox-container-circle {
+  border: 1px solid var(--dsc-dark-action-border-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+}
+[data-theme=dark] .checkbox-container-secondary.checkbox-container-circle.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+}
+
+[data-theme=dark] .checkbox-container-secondary.checkbox-container-default:has(.checkbox-input:checked) {
+  background-color: var(--dsc-dark-action-background-neutral-normal, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+[data-theme=dark] .checkbox-container-secondary.checkbox-container-default.checkbox-container-disabled:has(.checkbox-input:checked) {
+  background-color: var(--dsc-dark-action-background-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .checkbox-container-success.checkbox-container-default {
+  border: 1px solid var(--dsc-dark-action-border-success-normal, var(--dsc-dark-semantic-success-400, var(--dsc-global-green-dark-400, #26BA70)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+[data-theme=dark] .checkbox-container-success.checkbox-container-default.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .checkbox-container-success.checkbox-container-square {
+  border: 1px solid var(--dsc-dark-action-border-success-normal, var(--dsc-dark-semantic-success-400, var(--dsc-global-green-dark-400, #26BA70)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+}
+[data-theme=dark] .checkbox-container-success.checkbox-container-square.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+}
+
+[data-theme=dark] .checkbox-container-success.checkbox-container-circle {
+  border: 1px solid var(--dsc-dark-action-border-success-normal, var(--dsc-dark-semantic-success-400, var(--dsc-global-green-dark-400, #26BA70)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+}
+[data-theme=dark] .checkbox-container-success.checkbox-container-circle.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+}
+
+[data-theme=dark] .checkbox-container-success.checkbox-container-default:has(.checkbox-input:checked) {
+  background-color: var(--dsc-dark-action-background-success-normal, var(--dsc-dark-semantic-success-500, var(--dsc-global-green-dark-500, #18B466)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+[data-theme=dark] .checkbox-container-success.checkbox-container-default.checkbox-container-disabled:has(.checkbox-input:checked) {
+  background-color: var(--dsc-dark-action-background-success-disabled, var(--dsc-dark-semantic-success-800, var(--dsc-global-green-dark-800, #0B5531)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .checkbox-container-warning.checkbox-container-default {
+  border: 1px solid var(--dsc-dark-action-border-warning-normal, var(--dsc-dark-semantic-warning-400, var(--dsc-global-yellow-dark-400, #EBC12D)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+[data-theme=dark] .checkbox-container-warning.checkbox-container-default.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .checkbox-container-warning.checkbox-container-square {
+  border: 1px solid var(--dsc-dark-action-border-warning-normal, var(--dsc-dark-semantic-warning-400, var(--dsc-global-yellow-dark-400, #EBC12D)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+}
+[data-theme=dark] .checkbox-container-warning.checkbox-container-square.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+}
+
+[data-theme=dark] .checkbox-container-warning.checkbox-container-circle {
+  border: 1px solid var(--dsc-dark-action-border-warning-normal, var(--dsc-dark-semantic-warning-400, var(--dsc-global-yellow-dark-400, #EBC12D)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+}
+[data-theme=dark] .checkbox-container-warning.checkbox-container-circle.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+}
+
+[data-theme=dark] .checkbox-container-warning.checkbox-container-default:has(.checkbox-input:checked) {
+  background-color: var(--dsc-dark-action-background-warning-normal, var(--dsc-dark-semantic-warning-500, var(--dsc-global-yellow-dark-500, #CDA61A)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+[data-theme=dark] .checkbox-container-warning.checkbox-container-default.checkbox-container-disabled:has(.checkbox-input:checked) {
+  background-color: var(--dsc-dark-action-background-warning-disabled, var(--dsc-dark-semantic-warning-800, var(--dsc-global-yellow-dark-800, #67530C)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .checkbox-container-error.checkbox-container-default {
+  border: 1px solid var(--dsc-dark-action-border-error-normal, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+[data-theme=dark] .checkbox-container-error.checkbox-container-default.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-error-disabled, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .checkbox-container-error.checkbox-container-square {
+  border: 1px solid var(--dsc-dark-action-border-error-normal, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-error-normal, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+}
+[data-theme=dark] .checkbox-container-error.checkbox-container-square.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-error-disabled, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-error-disabled, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+}
+
+[data-theme=dark] .checkbox-container-error.checkbox-container-circle {
+  border: 1px solid var(--dsc-dark-action-border-error-normal, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-error-normal, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+}
+[data-theme=dark] .checkbox-container-error.checkbox-container-circle.checkbox-container-disabled {
+  border: 1px solid var(--dsc-dark-action-border-error-disabled, var(--dsc-dark-semantic-error-800, var(--dsc-global-red-dark-800, #9C2A22)));
+  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  color: var(--dsc-dark-action-background-error-disabled, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+}
+
+[data-theme=dark] .checkbox-container-error.checkbox-container-default:has(.checkbox-input:checked) {
+  background-color: var(--dsc-dark-action-background-error-normal, var(--dsc-dark-semantic-error-500, var(--dsc-global-red-dark-500, #E32D2D)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+[data-theme=dark] .checkbox-container-error.checkbox-container-default.checkbox-container-disabled:has(.checkbox-input:checked) {
+  background-color: var(--dsc-dark-action-background-error-disabled, var(--dsc-dark-semantic-error-900, var(--dsc-global-red-dark-900, #4F1618)));
+  color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+.checkbox-input {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+}
