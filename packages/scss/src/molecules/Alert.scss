@@ -1,0 +1,185 @@
+@import '../foundation/all';
+
+$alert-colors: (
+  'primary': (
+    color: $foreground-brand-primary,
+    icon-color: $action-foreground-brand-inverted-normal,
+    border-color: $border-brand-subtle,
+    background-color: $background-brand-soft-surface
+  ),
+  'secondary': (
+    color: $foreground-neutral-primary,
+    icon-color: $action-foreground-neutral-normal,
+    border-color: $border-neutral-subtle,
+    background-color: $background-neutral-soft-surface
+  ),
+  'success': (
+    color: $foreground-success-primary,
+    icon-color: $action-foreground-success-normal,
+    border-color: $border-success-subtle,
+    background-color: $background-success-soft-surface
+  ),
+  'warning': (
+    color: $foreground-warning-primary,
+    icon-color: $action-foreground-warning-normal,
+    border-color: $border-warning-subtle,
+    background-color: $background-warning-soft-surface
+  ),
+  'error': (
+    color: $foreground-error-primary,
+    icon-color: $action-foreground-error-normal,
+    border-color: $border-error-subtle,
+    background-color: $background-error-soft-surface
+  )
+);
+
+$dark-alert-colors: (
+  'primary': (
+    color: $dark-foreground-brand-primary,
+    icon-color: $dark-action-foreground-brand-inverted-normal,
+    border-color: $dark-border-brand-subtle,
+    background-color: $dark-background-brand-soft-surface
+  ),
+  'secondary': (
+    color: $dark-foreground-neutral-primary,
+    icon-color: $dark-action-foreground-neutral-normal,
+    border-color: $dark-border-neutral-subtle,
+    background-color: $dark-background-neutral-soft-surface
+  ),
+  'success': (
+    color: $dark-foreground-success-primary,
+    icon-color: $dark-action-foreground-success-normal,
+    border-color: $dark-border-success-subtle,
+    background-color: $dark-background-success-soft-surface
+  ),
+  'warning': (
+    color: $dark-foreground-warning-primary,
+    icon-color: $dark-action-foreground-warning-normal,
+    border-color: $dark-border-warning-subtle,
+    background-color: $dark-background-warning-soft-surface
+  ),
+  'error': (
+    color: $dark-foreground-error-primary,
+    icon-color: $dark-action-foreground-error-normal,
+    border-color: $dark-border-error-subtle,
+    background-color: $dark-background-error-soft-surface
+  )
+);
+
+.alert {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: .9rem;
+  border-radius: .5rem;
+  box-shadow: $shadow-overlay;
+  background-color: $background-base-white;
+}
+
+[data-theme='dark'] {
+  .alert {
+    background-color: $dark-background-base-white;
+  }
+}
+
+@each $color, $value in $alert-colors {
+  .alert-#{$color} {
+    border: 1px solid map-get($value, 'border-color');
+  }
+
+  .alert-#{$color}.alert-bg {
+    background-color: map-get($value, 'background-color');
+  }
+
+  .alert-#{$color} .alert-title {
+    color: map-get($value, 'color');
+  }
+
+  .alert-#{$color} .alert-icon {
+    color: map-get($value, 'icon-color');
+  }
+
+  .alert-#{$color} .alert-dismiss {
+    color: map-get($value, 'color');
+  }
+
+  .alert-#{$color} .alert-description {
+    color: map-get($value, 'color');
+  }
+
+  .alert-#{$color} .alert-link {
+    color: map-get($value, 'color');
+  }
+}
+
+@each $color, $value in $dark-alert-colors {
+  [data-theme='dark'] {
+    .alert-#{$color} {
+      border: 1px solid map-get($value, 'border-color');
+    }
+
+    .alert-#{$color}.alert-bg {
+      background-color: map-get($value, 'background-color');
+    }
+
+    .alert-#{$color} .alert-title {
+      color: map-get($value, 'color');
+    }
+
+    .alert-#{$color} .alert-icon {
+      color: map-get($value, 'icon-color');
+    }
+
+    .alert-#{$color} .alert-dismiss {
+      color: map-get($value, 'color');
+    }
+
+    .alert-#{$color} .alert-description {
+      color: map-get($value, 'color');
+    }
+
+    .alert-#{$color} .alert-link {
+      color: map-get($value, 'color');
+    }
+  }
+}
+
+.alert-icon {
+  display: flex;
+}
+
+.alert-description {
+  font-weight: 300;
+}
+
+.alert-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.alert-title {
+  font-size: 1.2rem;
+  font-size: $label-font-size-md;
+  letter-spacing: $label-letter-spacing-md;
+  font-weight: $label-font-weight-md-strong;
+}
+
+.alert-link {
+  text-decoration: underline;
+  text-underline-offset: .2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .2rem;
+}
+
+.alert-dismiss {
+  cursor: pointer;
+  display: flex;
+}
