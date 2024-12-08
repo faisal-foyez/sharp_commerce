@@ -76,6 +76,10 @@ import {
   RadioSize
 } from './Radio';
 
+import {
+  AlertColor
+} from './Alert';
+
 export {
   Spacing, 
   FontSize,
@@ -118,5 +122,6 @@ export {
   CheckboxSize,
   RadioVariant,
   RadioColor,
-  RadioSize
+  RadioSize, 
+  AlertColor
 }
