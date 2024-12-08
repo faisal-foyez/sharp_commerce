@@ -15,6 +15,8 @@ import { InputNumber, InputNumberBox, InputNumberButton } from './Molecules/Inpu
 import TextArea from './Atoms/TextArea';
 import Checkbox from './Atoms/Checkbox';
 import Radio from './Atoms/Radio';
+import { Alert, AlertContainer, AlertDescription, AlertIcon, AlertLink, AlertTitle, AlertDismiss } from './Molecules/Alert';
+
 export { 
   Button, 
   LinkButton, 
@@ -27,17 +29,29 @@ export {
   Badge,
   Label,
   HelperText,
+
   Input,
   InputField,
   InputIcon,
+
   InputOTPItem,
   InputOTPGroup,
   InputOTPDivider,
   InputOTP,
+
   InputNumber,
   InputNumberBox,
   InputNumberButton,
+  
   TextArea,
   Checkbox,
-  Radio
+  Radio,
+
+  Alert,
+  AlertContainer,
+  AlertDescription,
+  AlertIcon,
+  AlertLink,
+  AlertTitle,
+  AlertDismiss,
 };

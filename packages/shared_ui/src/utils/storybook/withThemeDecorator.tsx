@@ -1,6 +1,13 @@
 export const withThemeDecorator = (Story: any) => {
   return (
     <div style={{ display: 'flex', gap: '30px' }}>
+      <style>
+        {`
+          * {
+            box-sizing: border-box;
+          }
+        `}
+      </style>
       <div style={{ padding: '20px', background: '#ffffff' }}>
         <h3 style={{textAlign: 'center'}}>Light Mode</h3>
         <Story />
