@@ -80,6 +80,10 @@ import {
   AlertColor
 } from './Alert';
 
+import {
+  NotificationPosition
+} from './Notification';
+
 export {
   Spacing, 
   FontSize,
@@ -123,5 +127,6 @@ export {
   RadioVariant,
   RadioColor,
   RadioSize, 
-  AlertColor
+  AlertColor,
+  NotificationPosition
 }
