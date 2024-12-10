@@ -60,7 +60,7 @@ $btn-size: (
   }
 }
 
-.btn-primary {
+.btn-primary-fill {
   //primary button light theme
   $btn-primary-bg-color: var(--dsc-btn-primary-bg-color, $action-background-brand-normal);
   $btn-primary-fg-color: var(--dsc-btn-primary-fg-color, $action-foreground-base-white-inverted);
@@ -91,7 +91,7 @@ $btn-size: (
   $dark-btn-primary-color-disabled: var(--dsc-dark-btn-primary-color-disabled, $dark-action-background-brand-disabled);
   $dark-btn-primary-color-outline: var(--dsc-dark-btn-primary-color-outline, $dark-border-brand-subtle);
 
-  .btn-primary {
+  .btn-primary-fill {
     @include btn-base(
       $dark-btn-primary-bg-color, 
       $dark-btn-primary-fg-color, 
@@ -202,7 +202,7 @@ $btn-size: (
   }
 }
 
-.btn-secondary {
+.btn-secondary-fill {
   //secondary button light theme
   $btn-secondary-bg-color: var(--dsc-btn-secondary-bg-color, $action-background-neutral-normal);
   $btn-secondary-fg-color: var(--dsc-btn-secondary-fg-color, $action-foreground-base-white);
@@ -225,7 +225,7 @@ $btn-size: (
   $dark-btn-secondary-color-disabled: var(--dsc-dark-btn-secondary-color-disabled, $dark-action-background-neutral-disabled);
   $dark-btn-secondary-color-outline: var(--dsc-dark-btn-secondary-color-outline, $dark-border-neutral-subtle);
 
-  .btn-secondary {
+  .btn-secondary-fill {
     @include btn-base($dark-btn-secondary-bg-color, $dark-btn-secondary-fg-color, $dark-btn-secondary-color-hover, $dark-btn-secondary-color-active, $dark-btn-secondary-color-focused, $dark-btn-secondary-color-outline, $dark-btn-secondary-color-disabled)
   }
 }
@@ -326,7 +326,7 @@ $btn-size: (
   }
 } 
 
-.btn-error {
+.btn-error-fill {
   //error button light theme
   $btn-error-bg-color: var(--dsc-btn-error-bg-color, $action-background-error-normal);
   $btn-error-fg-color: var(--dsc-btn-error-fg-color, $action-foreground-base-white-inverted);
@@ -348,7 +348,7 @@ $btn-size: (
   $dark-btn-error-color-active: var(--dsc-dark-btn-error-color-active, $dark-action-background-error-active);
   $dark-btn-error-color-disabled: var(--dsc-dark-btn-error-color-disabled, $dark-action-background-error-disabled);
   $dark-btn-error-color-outline: var(--dsc-dark-btn-error-color-outline, $dark-border-error-subtle); 
-  .btn-error {
+  .btn-error-fill {
     @include btn-base(
       $dark-btn-error-bg-color, 
       $dark-btn-error-fg-color, 
@@ -459,7 +459,7 @@ $btn-size: (
   }
 }
 
-.btn-success {
+.btn-success-fill {
   //success button light theme
   $btn-success-bg-color: var(--dsc-btn-success-bg-color, $action-background-success-normal);
   $btn-success-fg-color: var(--dsc-btn-success-fg-color, $action-foreground-base-white-inverted);
@@ -488,7 +488,7 @@ $btn-size: (
   $dark-btn-success-color-active: var(--dsc-dark-btn-success-color-active, $dark-action-background-success-active);
   $dark-btn-success-color-disabled: var(--dsc-dark-btn-success-color-disabled, $dark-action-background-success-disabled);
   $dark-btn-success-color-outline: var(--dsc-dark-btn-success-color-outline, $dark-border-success-subtle);
-  .btn-success {
+  .btn-success-fill {
     @include btn-base(
       $dark-btn-success-bg-color, 
       $dark-btn-success-fg-color, 
@@ -597,7 +597,7 @@ $btn-size: (
   }
 }
 
-.btn-warning {
+.btn-warning-fill {
   //warning button light theme
   $btn-warning-bg-color: var(--dsc-btn-warning-bg-color, $action-background-warning-normal);
   $btn-warning-fg-color: var(--dsc-btn-warning-fg-color, $action-foreground-base-white-inverted);
@@ -633,7 +633,7 @@ $btn-size: (
   $dark-btn-warning-color-disabled: var(--dsc-dark-btn-warning-color-disabled, $dark-action-background-warning-disabled);
   $dark-btn-warning-color-outline: var(--dsc-dark-btn-warning-color-outline, $dark-border-warning-subtle);
 
-  .btn-warning {
+  .btn-warning-fill {
     @include btn-base(
       $dark-btn-warning-bg-color, 
       $dark-btn-warning-fg-color, 

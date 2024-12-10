@@ -1,0 +1,78 @@
+@import '../foundation/all';
+
+.notification {
+  position: fixed;
+  max-width: 25rem;
+  width: fit-content;
+  background-color: $background-base-white;
+  border-radius: 5px;
+  border: 1px solid $action-border-neutral-light-normal;
+  padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.notification.notification-top-left {
+  top: 1rem;
+  left: 1rem;
+}
+
+.notification.notification-top-right {
+  top: 1rem;
+  right: 1rem;
+}
+
+.notification.notification-bottom-left {
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.notification.notification-bottom-right {
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.notification.notification-center {
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.notification .notification-content {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.notification .notification-title {
+  font-size: $body-font-size-xl;
+  font-weight: $body-font-weight-xl-strong;
+  color: $foreground-neutral-secondary;
+}
+
+
+.notification .notification-description {
+  font-size: $body-font-size-sm;
+  font-weight: $body-font-weight-sm-default;
+  color: $foreground-neutral-secondary;
+}
+
+.notification .notification-close {
+  cursor: pointer;
+  position: absolute;
+  top: .2rem;
+  right: .2rem;
+  background-color: $background-base-white;
+  border-radius: $radius-full-round;
+  padding: .2rem;
+  border: 1px solid $action-border-neutral-light-normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification:has(.notification-close) {
+  padding-top: 2rem;
+}

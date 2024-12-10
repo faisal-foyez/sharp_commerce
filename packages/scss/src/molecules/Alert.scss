@@ -72,7 +72,7 @@ $dark-alert-colors: (
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  width: 100%;
+  width: fit-content;
   padding: .9rem;
   border-radius: .5rem;
   box-shadow: $shadow-overlay;
