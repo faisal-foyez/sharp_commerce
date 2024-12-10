@@ -8,11 +8,11 @@ export const withThemeDecorator = (Story: any) => {
           }
         `}
       </style>
-      <div style={{ padding: '20px', background: '#ffffff' }}>
+      <div style={{ padding: '20px', background: '#ffffff', position: 'relative' }}>
         <h3 style={{textAlign: 'center'}}>Light Mode</h3>
         <Story />
       </div>
-      <div data-theme='dark' style={{ padding: '20px', borderRadius: '10px', background: '#1C222B', color: '#ffffff' }}>
+      <div data-theme='dark' style={{ padding: '20px', borderRadius: '10px', background: '#1C222B', color: '#ffffff', position: 'relative' }}>
         <h3 style={{ color: '#ffffff', textAlign: 'center' }}>Dark Mode</h3>
         <Story />
       </div>

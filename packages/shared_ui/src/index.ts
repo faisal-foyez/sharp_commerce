@@ -16,7 +16,7 @@ import TextArea from './Atoms/TextArea';
 import Checkbox from './Atoms/Checkbox';
 import Radio from './Atoms/Radio';
 import { Alert, AlertContainer, AlertDescription, AlertIcon, AlertLink, AlertTitle, AlertDismiss } from './Molecules/Alert';
-
+import { Notification, NotificationContent, NotificationDescription, NotificationTitle } from './Molecules/Notification';
 export { 
   Button, 
   LinkButton, 
@@ -54,4 +54,9 @@ export {
   AlertLink,
   AlertTitle,
   AlertDismiss,
+
+  Notification,
+  NotificationContent,
+  NotificationDescription,
+  NotificationTitle,
 };
