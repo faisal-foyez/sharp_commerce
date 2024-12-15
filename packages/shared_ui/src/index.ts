@@ -18,6 +18,7 @@ import Radio from './Atoms/Radio';
 import { Alert, AlertContainer, AlertDescription, AlertIcon, AlertLink, AlertTitle, AlertDismiss } from './Molecules/Alert';
 import { Notification, NotificationContent, NotificationDescription, NotificationTitle } from './Molecules/Notification';
 import { Breadcrumb, BreadcrumbDivider, BreadcrumbEllipsis, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage } from './Molecules/Breadcrumb';
+import { DatePicker } from './Molecules/DatePicker';
 
 export { 
   Button, 
@@ -68,5 +69,7 @@ export {
   BreadcrumbItem,
   BreadcrumbLink, 
   BreadcrumbList,
-  BreadcrumbPage
+  BreadcrumbPage,
+
+  DatePicker
 };
