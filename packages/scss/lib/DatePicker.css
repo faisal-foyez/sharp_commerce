@@ -1,0 +1,642 @@
+/*=============================================
+    #Variables
+=============================================*/
+/**
+ * TABLE OF CONTENTS
+ * 
+ * COLORS
+ * Brand colors...................These are the main brand colors. They will be used the most
+ * Neutral colors.................White and black, gray scale, secondary colors.
+ * Utility colors.................Other colors to represent states: info, warning, success, etc.
+ * 
+ * TYPOGRAPHY
+ * Font families..................The fonts used in the design system.
+ * Font weights...................Font weights
+ * Sizes..........................Font sizing for body text, paragraphs, inputs
+ * Heading sizes..................Font sizing for page headings
+ *
+ * BREAKPOINTS
+ * Breakpoints....................Global responsive breakpoints definitions.
+ *
+ * SPACING
+ * Spacing........................Global fixed set of spacing variables
+ * 
+ * SHADOW
+ * Shadows........................Global fixed set of shadows
+ */
+/*=============================================
+=            Colors                           =
+=============================================*/
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Violet colors */
+/* Purple colors */
+/* Indigo colors */
+/* Blue light colors */
+/* Blue dark colors*/
+/* Blue gray colors */
+/* Blue colors */
+/* Cyan colors */
+/* Dimgray colors */
+/* Emerald colors */
+/* Gold colors */
+/* Green colors */
+/* Green dark colors */
+/* Lime colors */
+/* Orange colors */
+/* Pink colors */
+/* Rose colors */
+/* Red colors */
+/* Red dark colors */
+/* Sky colors */
+/* Slate colors */
+/* Stone colors */
+/* Teal colors */
+/* Yellow colors */
+/* Yellow dark colors */
+/* Zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=====  End of Colors  ======*/
+/*=============================================
+=                 Typography                  =
+=============================================*/
+/* Font Families */
+/**
+ *
+ * 1) The playfair font. We'll use this for headings mostly.
+ *     https://fonts.google.com/specimen/Playfair+Display
+ *
+ * 2) The raleway font. We'll use this for the body text.
+ *     https://fonts.google.com/specimen/Raleway
+ */
+/* 1 */
+/* 2 */
+/*----------  End of Font Familie  ----------*/
+/*----------  Font weights  ----------*/
+/*----------  End of Font weights  ----------*/
+/*----------  Display font variables  ----------*/
+/*----------  End of Display font variables  ----------*/
+/*----------  Heading font variables  ----------*/
+/*----------  End of Heading font variables  ----------*/
+/*----------  Body font variables  ----------*/
+/* body font size */
+/* body line height */
+/* body letter spacing */
+/*----------  End of Body font variables  ----------*/
+/*----------  Label font variables  ----------*/
+/*----------  End of Label font variables  ----------*/
+/*----------  Underline font variables  ----------*/
+/*----------  End of Underline font variables  ----------*/
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoint            =
+=============================================*/
+/*=====  End of Breakpoint  ======*/
+/*=============================================
+=            Spacing                          =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=                  Shadows                    =
+=============================================*/
+/*=====  End of Shadows  ======*/
+/*=============================================
+=            Spacing             =
+=============================================*/
+/*=====  End of Spacing   ======*/
+/*=============================================
+=            Corner Radius            =
+=============================================*/
+/*=====  End of Corner Radius  ======*/
+/*=============================================
+=            Breakpoints           =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* 1 */
+/* 2 */
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+/*----------  Heading font variables  ----------*/
+/*----------  End of Typography variables  ----------*/
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variables.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Global violet colors */
+/* Global purple colors */
+/* Global indigo colors */
+/* Global blue light colors */
+/* Global blue dark colors*/
+/* Global blue gray colors */
+/* Global blue colors */
+/* Global cyan colors */
+/* Global dimgray colors */
+/* Global emerald colors */
+/* Global gold colors */
+/* Global green colors */
+/* Global green dark colors */
+/* Global lime colors */
+/* Global orange colors */
+/* Global pink colors */
+/* Global rose colors */
+/* Global red colors */
+/* Global red dark colors */
+/* Global sky colors */
+/* Global slate colors */
+/* Global stone colors */
+/* Global teal colors */
+/* Global yellow colors */
+/* Global yellow dark colors */
+/* Global zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Semantic colors            =
+=============================================*/
+/*----------  Semantic Base  ----------*/
+/*---------- Semantic Brand  ----------*/
+/*----------  Dark Semantic Brand  ----------*/
+/*----------  Dark Semantic brand_alt  ----------*/
+/*----------  Semantic neutral  ----------*/
+/*----------  Semantic success  ----------*/
+/*----------  Dark Semantic success  ----------*/
+/*----------  Semantic warning  ----------*/
+/*----------  Dark Semantic warning  ----------*/
+/*----------  Semantic error  ----------*/
+/*----------  Dark Semantic error  ----------*/
+/*=====  End of Semantic colors  ======*/
+/*=============================================
+=            Transparent colors tokens            =
+=============================================*/
+/*---------- Transparent Colors  ----------*/
+/*---------- Dark Semantic transparent Colors  ----------*/
+/*----------  Brand Transparent Colors  ----------*/
+/*=====  End of Transparent colors tokens  ======*/
+/*=============================================
+=            Background colors tokens            =
+=============================================*/
+/*----------  Background Semantic Base Colors  ----------*/
+/*---------- Dark Background Semantic Colors  ----------*/
+/*----------  Background Semantic Brand Colors  ----------*/
+/*----------  Dark Background Semantic Brand Colors  ----------*/
+/*----------  Background Semantic Neutral Colors  ----------*/
+/*----------  Dark Background Semantic Neutral Colors  ----------*/
+/*----------  Background Semantic Success Colors  ----------*/
+/*----------  Dark Background Semantic Success Colors  ----------*/
+/*----------  Background Semantic Warning Colors  ----------*/
+/*----------  Dark Background Semantic Warning Colors  ----------*/
+/*----------  Background Semantic Error Colors  ----------*/
+/*----------  Dark Background Semantic Error Colors  ----------*/
+/*=====  End of Background colors tokens  ======*/
+/*=============================================
+=            Foreground colors tokens            =
+=============================================
+
+/*----------  Foreground Semantic Neutral Colors  ----------*/
+/*----------  Dark Foreground Semantic Neutral Colors  ----------*/
+/*----------  Foreground Semantic Light Colors  ----------*/
+/*----------  Dark Foreground Semantic Light Colors  ----------*/
+/*----------  Foreground Semantic Brand Colors  ----------*/
+/*----------  Dark Foreground Semantic Brand Colors  ----------*/
+/*----------  Foreground Semantic Success Colors  ----------*/
+/*----------  Dark Foreground Semantic Success Colors  ----------*/
+/*----------  Foreground Semantic Warning Colors  ----------*/
+/*----------  Dark Foreground Semantic Warning Colors  ----------*/
+/*----------  Foreground Semantic Error Colors  ----------*/
+/*----------  Dark Foreground Semantic Error Colors  ----------*/
+/*----------  Foreground Semantic Link Colors  ----------*/
+/*----------  Dark Foreground Semantic Link Colors  ----------*/
+/*=====  End of Foreground colors tokens  ======*/
+/*=============================================
+=            Border colors tokens            =
+=============================================*/
+/*----------  Border Semantic Base Colors  ----------*/
+/*----------  Dark Border Semantic Base Colors  ----------*/
+/*----------  Border Semantic Neutral Colors  ----------*/
+/*----------  Dark Border Semantic Neutral Colors  ----------*/
+/*----------  Border Semantic Brand Colors  ----------*/
+/*----------  Dark Border Semantic Brand Colors  ----------*/
+/*----------  Border Semantic Success Colors  ----------*/
+/*----------  Dark Border Semantic Success Colors  ----------*/
+/*----------  Border Semantic Warning Colors  ----------*/
+/*----------  Dark Border Semantic Warning Colors  ----------*/
+/*----------  Border Semantic Error Colors  ----------*/
+/*----------  Dark Border Semantic Error Colors  ----------*/
+/*=====  End of Border colors tokens  ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=============================================
+=            Action color tokens            =
+=============================================*/
+/*----------  Action Background Base Colors  ----------*/
+/*----------  Action Background Brand Colors  ----------*/
+/*----------  Action Background Neutral Colors  ----------*/
+/*----------  Action Background Error Colors  ----------*/
+/*----------  Action Background Success Colors  ----------*/
+/*----------  Action Background Warning Colors  ----------*/
+/*----------  Action Foreground Base Colors  ----------*/
+/*----------  Action Foreground Brand Colors  ----------*/
+/*----------  Action Foreground Neutral Colors  ----------*/
+/*----------  Action Foreground Error Colors  ----------*/
+/*----------  Action Foreground Success Colors  ----------*/
+/*----------  Action Foreground Warning Colors  ----------*/
+/*----------  Action Border Brand Colors  ----------*/
+/*----------  Action Border Neutral Colors  ----------*/
+/*----------  Action Border Error Colors  ----------*/
+/*----------  Action Border Success Colors  ----------*/
+/*----------  Action Border Warning Colors  ----------*/
+/*=============================================
+=            Other Color Tokens               =
+=============================================*/
+/*----------  Fuchsia  ----------*/
+/*----------  Purple  ----------*/
+/*----------  Cyan  ----------*/
+/*----------  Pink  ----------*/
+/*----------  Sky  ----------*/
+/*----------  Black  ----------*/
+/*=====  End of Other Color Tokens  ======*/
+/*=============================================
+=            Mixins                           =
+=============================================*/
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+ */
+.dsc-date-picker {
+  display: flex;
+  max-width: min-content;
+  border-radius: var(--dsc-radius-xl, 0.75rem);
+  border: 1px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  background-color: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+  padding: 1rem;
+}
+
+[data-theme=dark] .dsc-date-picker {
+  background-color: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border-color: var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+}
+
+.dsc-months {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+
+.dsc-month {
+  margin: 0.5rem 0;
+}
+
+.dsc-month-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 0.25rem;
+}
+
+.dsc-caption-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .dsc-caption-label {
+  color: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
+}
+
+.dsc-nav {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+}
+
+.dsc-nav-button, .dsc-next-button, .dsc-previous-button {
+  height: 1.75rem;
+  width: 1.75rem;
+  background-color: transparent;
+  padding: 0;
+  opacity: 0.5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  box-shadow: 0 1px 3px rgba(18, 18, 23, 0.1), 0 1px 2px rgba(18, 18, 23, 0.06);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border: 1px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.dsc-nav-button:hover, .dsc-next-button:hover, .dsc-previous-button:hover {
+  opacity: 1;
+  background-color: var(--dsc-background-neutral-subtle, var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)));
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+.dsc-nav-button:disabled, .dsc-next-button:disabled, .dsc-previous-button:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.dsc-nav-button:focus-visible, .dsc-next-button:focus-visible, .dsc-previous-button:focus-visible {
+  outline: none;
+  box-shadow: 0 1px 2px rgba(18, 18, 23, 0.05);
+}
+
+.dark-dsc-nav-button, [data-theme=dark] .dsc-next-button, [data-theme=dark] .dsc-previous-button {
+  border-color: var(--dsc-dark-border-neutral-default, var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)));
+}
+.dark-dsc-nav-button:hover, [data-theme=dark] .dsc-next-button:hover, [data-theme=dark] .dsc-previous-button:hover {
+  background-color: var(--dsc-dark-background-neutral-subtle, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  color: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
+}
+
+.dsc-previous-button {
+  position: absolute;
+  left: 0.25rem;
+  top: 0px;
+  z-index: 10;
+}
+
+.dsc-next-button {
+  position: absolute;
+  right: 0.25rem;
+  top: 0px;
+  z-index: 10;
+}
+
+.dsc-chevron {
+  fill: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .dsc-chevron {
+  fill: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
+}
+
+.dsc-months:has(.dsc-dropdown) .dsc-previous-button,
+.dsc-months:has(.dsc-dropdown) .dsc-next-button {
+  top: 5px;
+}
+
+.dsc-months:has(.dsc-dropdown) .dsc-previous-button {
+  left: -2px;
+}
+
+.dsc-months:has(.dsc-dropdown) .dsc-next-button {
+  right: -2px;
+}
+
+.dsc-month-grid {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.25rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.dsc-head-cell {
+  color: var(--dsc-foreground-neutral-secondary, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  border-radius: 0.75rem;
+  width: 2.5rem;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.dsc-weekdays {
+  display: flex;
+  width: 100%;
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  border-bottom: 1px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  padding: 0.25rem 0;
+}
+
+[data-theme=dark] .dsc-weekdays {
+  border-top: 1px solid var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  border-bottom: 1px solid var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+}
+
+.dsc-weekday {
+  width: 2.5rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--dsc-foreground-neutral-tertiary, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
+}
+
+[data-theme=dark] .dsc-weekday {
+  color: var(--dsc-dark-foreground-neutral-secondary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
+}
+
+.dsc-week {
+  display: flex;
+}
+
+.dsc-day {
+  margin: 0;
+  padding: 0;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.dsc-day-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 9999px;
+  border: none;
+  background-color: transparent;
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  font-size: 0.75rem;
+  font-weight: 400;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.dsc-day-button:hover {
+  background-color: var(--dsc-background-neutral-subtle, var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)));
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .dsc-day-button {
+  color: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
+}
+[data-theme=dark] .dsc-day-button:hover {
+  background-color: var(--dsc-dark-background-neutral-subtle, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  color: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
+}
+
+.dsc-day-button-rounded {
+  border-radius: 0.75rem;
+}
+
+.dsc-day-button-circle {
+  border-radius: 9999px;
+}
+
+.dsc-outside-day .dsc-day-button {
+  color: var(--dsc-foreground-neutral-tertiary, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
+}
+
+[data-theme=dark] .dsc-outside-day .dsc-day-button {
+  color: var(--dsc-dark-foreground-neutral-tertiary, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
+}
+
+.dsc-today .dsc-day-button {
+  background-color: var(--dsc-background-neutral-subtle, var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)));
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .dsc-today .dsc-day-button {
+  background-color: var(--dsc-dark-background-neutral-subtle, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  color: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
+}
+
+.dsc-disabled .dsc-day-button {
+  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  background-color: var(--dsc-action-background-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+}
+
+[data-theme=dark] .dsc-disabled .dsc-day-button {
+  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  background-color: var(--dsc-dark-action-background-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+}
+
+.dsc-selected-day .dsc-day-button {
+  background-color: var(--dsc-background-brand-emphasis, var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9)));
+  color: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+.dsc-selected-day .dsc-day-button:hover {
+  background-color: var(--dsc-background-brand-emphasis, var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9)));
+  color: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+
+[data-theme=dark] .dsc-selected-day .dsc-day-button {
+  background-color: var(--dsc-dark-background-brand-emphasis, var(--dsc-dark-semantic-brand-600, var(--dsc-global-blue-dark-600, #1645D3)));
+}
+[data-theme=dark] .dsc-selected-day .dsc-day-button:hover {
+  background-color: var(--dsc-dark-background-brand-emphasis, var(--dsc-dark-semantic-brand-600, var(--dsc-global-blue-dark-600, #1645D3)));
+}
+
+.dsc-range-middle .dsc-day-button {
+  background-color: var(--dsc-background-neutral-subtle, var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)));
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border-radius: 0;
+}
+
+[data-theme=dark] .dsc-range-middle .dsc-day-button {
+  background-color: var(--dsc-dark-background-neutral-subtle, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+  color: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
+}
+
+.dsc-range-start:has(.dsc-range-end):has(.dsc-day-button-circle) .dsc-day-button {
+  border-radius: 9999px;
+}
+.dsc-range-start:not(.dsc-range-end):has(.dsc-day-button-circle) .dsc-day-button {
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.dsc-range-start:has(.dsc-range-end):has(.dsc-day-button-rounded) .dsc-day-button {
+  border-radius: 0.75rem;
+}
+.dsc-range-start:not(.dsc-range-end):has(.dsc-day-button-rounded) .dsc-day-button {
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.dsc-range-end:has(.dsc-range-start):has(.dsc-day-button-circle) .dsc-day-button {
+  border-radius: 9999px;
+}
+.dsc-range-end:not(.dsc-range-start):has(.dsc-day-button-circle) .dsc-day-button {
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.dsc-range-end:has(.dsc-range-start):has(.dsc-day-button-rounded) .dsc-day-button {
+  border-radius: 0.75rem;
+}
+.dsc-range-end:not(.dsc-range-start):has(.dsc-day-button-rounded) .dsc-day-button {
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.dsc-hidden .dsc-day-button {
+  visibility: hidden;
+}
+
+.dsc-dropdown + .dsc-caption-label {
+  display: none;
+}
+
+.dsc-dropdown {
+  border: 1px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  background-color: transparent;
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+  border-radius: var(--dsc-radius-lg, 0.625rem);
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.25rem;
+}
+
+[data-theme=dark] .dsc-dropdown {
+  border-color: var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
+  color: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
+}
