@@ -80,8 +80,8 @@ const createButtonStory = (args: any) => {
 
 export const Primary: Story = {
   args: {
-    type: ButtonType.primary as ButtonTypeType,
-    style: ButtonStyle.fill as ButtonStyleType,
+    color: ButtonType.primary as ButtonTypeType,
+    variant: ButtonStyle.fill as ButtonStyleType,
     children: 'Click me',
     size: ButtonSize.md as ButtonSizeType,
     disabled: false,
@@ -91,8 +91,8 @@ export const Primary: Story = {
 
 export const Secondary: Story = {
   args: {
-    type: ButtonType.secondary as ButtonTypeType,
-    style: ButtonStyle.fill as ButtonStyleType,
+    color: ButtonType.secondary as ButtonTypeType,
+    variant: ButtonStyle.fill as ButtonStyleType,
     children: 'Click me',
     size: ButtonSize.md as ButtonSizeType,
     disabled: false,
@@ -102,8 +102,8 @@ export const Secondary: Story = {
 
 export const Error: Story = {
   args: {
-    type: ButtonType.error as ButtonTypeType,
-    style: ButtonStyle.fill as ButtonStyleType,
+    color: ButtonType.error as ButtonTypeType,
+    variant: ButtonStyle.fill as ButtonStyleType,
     children: 'Click me',
     size: ButtonSize.md as ButtonSizeType,
     disabled: false,
@@ -113,8 +113,8 @@ export const Error: Story = {
 
 export const Success: Story = {
   args: {
-    type: ButtonType.success as ButtonTypeType,
-    style: ButtonStyle.fill as ButtonStyleType,
+    color: ButtonType.success as ButtonTypeType,
+    variant: ButtonStyle.fill as ButtonStyleType,
     children: 'Click me',
     size: ButtonSize.md as ButtonSizeType,
     disabled: false,
@@ -124,8 +124,8 @@ export const Success: Story = {
 
 export const Warning: Story = {
   args: {
-    type: ButtonType.warning as ButtonTypeType,
-    style: ButtonStyle.fill as ButtonStyleType,
+    color: ButtonType.warning as ButtonTypeType,
+    variant: ButtonStyle.fill as ButtonStyleType,
     children: 'Click me',
     size: ButtonSize.md as ButtonSizeType,
     disabled: false,
@@ -135,32 +135,28 @@ export const Warning: Story = {
 
 export const WithLeftIcon: Story = {
   args: {
-    type: ButtonType.primary as ButtonTypeType,
-    style: ButtonStyle.fill as ButtonStyleType,
-    children: 'With Left Icon',
+    color: ButtonType.primary as ButtonTypeType,
+    variant: ButtonStyle.fill as ButtonStyleType,
     size: ButtonSize.md as ButtonSizeType,
-    LeftIcon: <ArrowLeft />
+    children: 'With Left Icon',
   },
 };
 
 export const WithRightIcon: Story = {
   args: {
-    type: ButtonType.primary as ButtonTypeType,
-    style: ButtonStyle.fill as ButtonStyleType,
+    color: ButtonType.primary as ButtonTypeType,
+    variant: ButtonStyle.fill as ButtonStyleType,
     children: 'With Right Icon',
     size: ButtonSize.md as ButtonSizeType,
-    RightIcon: <ArrowRight />
   },
 };
 
 export const WithBothIcons: Story = {
   args: {
-    type: ButtonType.primary as ButtonTypeType,
-    style: ButtonStyle.fill as ButtonStyleType,
+    color: ButtonType.primary as ButtonTypeType,
+    variant: ButtonStyle.fill as ButtonStyleType,
     children: 'Both Icons',
     size: ButtonSize.md as ButtonSizeType,  
-    LeftIcon: <ArrowLeft />,
-    RightIcon: <ArrowRight />
   },
 };
 
