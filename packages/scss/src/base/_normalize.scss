@@ -46,6 +46,11 @@ $color: #000 !default;
     box-sizing: border-box;
 }
 
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
 article,
 aside,
 details,
