@@ -1,0 +1,205 @@
+@import '../foundation/all';
+
+.dsc-accordion{
+  width: 100%;
+}
+
+.dsc-accordion-flush{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dsc-accordion-not-flush {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.dsc-accordion-disabled{
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+
+/* Action of the accordion */
+.dsc-accordion-action {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  user-select: none; /* Prevent text selection */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space between child elements */
+  padding: 1.25rem 1.5rem; /* Tailwind's px-6 and py-5 (24px x 20px) */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+  background-color: transparent;
+  border: none;
+}
+
+
+
+/* Rotate logic when [data-state="open"] */
+.dsc-accordion-action[data-state="open"] > span > svg > rect {
+  transform: rotate(180deg);
+}
+
+.dsc-accordion-action[data-state="open"] > span {
+  transform: rotate(180deg);
+}
+
+.dsc-accordion-action[data-state="open"] > svg > rect {
+  transform: rotate(180deg);
+}
+
+.dsc-accordion-action[data-state="open"] > svg {
+  transform: rotate(180deg);
+}
+
+/* Add transitions for smooth rotation */
+.dsc-accordion-action span > svg > rect,
+.dsc-accordion-action > svg > rect,
+.dsc-accordion-action > span {
+  transition: transform 0.3s ease; /* Add smooth rotation */
+}
+
+
+/* Content of the accordion */
+.dsc-accordion-content {
+  overflow: hidden;
+  transition: all 0.3s ease; /* Smooth transitions for height, padding, or similar changes */
+}
+
+/* Animation for the 'closed' state (accordion collapsing) */
+@keyframes accordion-up {
+  from {
+    max-height: 100px; /* Adjust based on expected open height */
+    opacity: 1;
+  }
+  to {
+    max-height: 0;
+    opacity: 0;
+  }
+}
+
+.dsc-accordion-content[data-state="closed"] {
+  animation: accordion-up 0.3s ease forwards;
+}
+
+/* Animation for the 'open' state (accordion expanding) */
+@keyframes accordion-down {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 100px; /* Adjust based on expected open height */
+    opacity: 1;
+  }
+}
+
+.dsc-accordion-content[data-state="open"] {
+  animation: accordion-down 0.3s ease forwards;
+}
+
+
+/* Content element of the accordion */
+.dsc-accordion-content-element {
+  user-select: none; /* Prevents text selection */
+  padding-left: 1.5rem; /* Tailwind's px-6 => 24px */
+  padding-right: 1.5rem; /* Tailwind's px-6 => 24px */
+  padding-bottom: 1.25rem; /* Tailwind's pb-5 => 20px */
+  font-size: 1rem; /* Tailwind's text-body-3 => text-base (16px) */
+  line-height: 1.5rem; /* Tailwind's text-body-3 => line-height (24px) */
+  font-weight: 400; /* Tailwind's font-normal => normal weight */
+  color: $foreground-neutral-secondary; /* Replace with your desired color */
+}
+
+[data-theme="dark"] {
+  .dsc-accordion-content-element {
+    color: $dark-foreground-neutral-secondary;
+  }
+}
+
+/* Icon of the accordion */
+.dsc-accordion-icon-svg {
+  flex-shrink: 0; /* Prevent the element from shrinking in a flex container */
+  fill: $foreground-neutral-tertiary; /* Set the SVG fill color */
+}
+
+[data-theme="dark"] {
+  .dsc-accordion-icon-svg {
+    fill: $dark-foreground-neutral-tertiary;
+  }
+}
+
+.dsc-accordion-icon-svg-first-rect {
+  transform-origin: center; /* Sets the transform origin to the center of the element */
+  transform: scale(1); /* Base transform, modify as needed */
+  transition: all 150ms ease-out; /* Smooth transition with a duration of 150ms */
+}
+
+.dsc-accordion-icon-svg-second-rect {
+  transform-origin: center; /* Set the transform origin to the center */
+  transform: rotate(90deg); /* Rotate the element by 90 degrees */
+  transition: all 150ms ease-out; /* Smooth transition for transform or other animatable properties */
+}
+
+/* Item of the accordion */
+.dsc-accordion-item {
+  width: 100%;
+  border: 1px solid $border-neutral-subtle;
+}
+
+[data-theme="dark"] {
+  .dsc-accordion-item {
+    border: 1px solid $dark-border-neutral-subtle;
+  }
+}
+
+.dsc-accordion-item-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.dsc-accordion-item-flush{
+  border-bottom: 1px solid $border-neutral-subtle;
+}
+
+.dsc-accordion-item-not-flush{
+    border-radius: 0.75rem; /* Tailwind's rounded-xl => 12px */
+    border: 1px solid $border-neutral-subtle; /* Light mode border color */
+    outline: none; /* Remove default outline */
+    transition: background-color 300ms, box-shadow 300ms; /* Smooth color and shadow transitions */
+  
+  
+  &:hover {
+    background-color: $background-neutral-subtle; /* Light mode hover background color */
+  }
+  
+  &[data-state="open"] {
+    background-color: $background-neutral-subtle; /* Background color for open state */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Tailwind's shadow-large */
+  }
+}
+
+.dsc-accordion-title{
+  user-select: none; /* Prevents text selection */
+  font-size: 1.125rem; /* Tailwind's text-body-1 => 18px */
+  line-height: 1.75rem; /* Tailwind's text-body-1 => 28px */
+  font-weight: 500; /* Tailwind's font-medium => medium weight */
+  color: $foreground-neutral-secondary; /* Light mode text color */
+  margin:0;
+  padding:0;
+  text-align: left;
+}
+
+[data-theme="dark"] {
+  .dsc-accordion-title {
+    color: $dark-foreground-neutral-secondary;
+  }
+}
+
+.dsc-accordion-action-header{
+  display: flex;
+  margin:0;
+  padding:0;
+}
