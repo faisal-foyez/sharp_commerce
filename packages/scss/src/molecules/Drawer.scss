@@ -1,0 +1,494 @@
+@import '../foundation/all';
+
+
+/*=============================================
+=            Section Drawer Content            =
+=============================================*/
+
+.dsc-drawer-content-base {
+  position: fixed; /* Tailwind's fixed */
+  z-index: 50; /* Tailwind's z-50 */
+  display: flex; /* Implicit for `gap` to work */
+  gap: 1rem; /* Tailwind's gap-4 => 16px */
+  background-color: $background-base-white; /* Tailwind's bg-white */
+  padding: 1.5rem; /* Tailwind's p-6 => 24px */
+  transition: all 0.3s ease-in-out; /* Tailwind's transition and ease-in-out */
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  .dsc-drawer-content-base{
+    background-color: $dark-background-base-white; /* Tailwind's dark:bg-metal-900 */
+  }
+}
+
+/* State-based animations */
+@keyframes animate-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes animate-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+.dsc-drawer-content-base[data-state="open"] {
+  animation: animate-in 0.3s ease-in-out; /* Tailwind's data-[state=open]:animate-in and data-[state=open]:duration-300 */
+}
+
+.dsc-drawer-content-base[data-state="closed"] {
+  animation: animate-out 0.3s ease-in-out; /* Tailwind's data-[state=closed]:animate-out and data-[state=closed]:duration-300 */
+}
+
+
+// Drawer Content Positions
+/* Top */
+.dsc-drawer-content-position-top {
+  left: 0; /* Tailwind's inset-x-0 => left: 0 */
+  right: 0; /* Tailwind's inset-x-0 => right: 0 */
+  top: 0; /* Tailwind's top-0 */
+  border-bottom: 1px solid $semantic-neutral-800; /* Tailwind's border-b */
+  height: 50%; /* Tailwind's h-1/2 */
+  border-bottom-left-radius: 10px; /* Tailwind's rounded-b-[10px] */
+  border-bottom-right-radius: 10px; /* Tailwind's rounded-b-[10px] */
+}
+
+  
+/* Animations */
+@keyframes slide-in-from-top {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out-to-top {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+[data-theme="dark"] {
+  .dsc-drawer-content-position-top {
+    border-bottom-color: $dark-semantic-neutral-300; /* Tailwind's dark:border-b-metal-800 */
+  }
+}
+
+.dsc-drawer-content-position-top[data-state="open"] {
+  animation: slide-in-from-top 0.3s ease-out; /* Tailwind's data-[state=open]:slide-in-from-top */
+}
+
+.dsc-drawer-content-position-top[data-state="closed"] {
+  animation: slide-out-to-top 0.3s ease-in; /* Tailwind's data-[state=closed]:slide-out-to-top */
+}
+
+/* Bottom */
+.dsc-drawer-content-position-bottom {
+  left: 0; /* Tailwind's inset-x-0 => left: 0 */
+  right: 0; /* Tailwind's inset-x-0 => right: 0 */
+  bottom: 0; /* Tailwind's bottom-0 */
+  height: 50%; /* Tailwind's h-1/2 */
+  border-top: 1px solid $semantic-neutral-800; /* Tailwind's border-t */
+  border-top-left-radius: 10px; /* Tailwind's rounded-t-[10px] */
+  border-top-right-radius: 10px; /* Tailwind's rounded-t-[10px] */
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  .dsc-drawer-content-position-bottom {
+    border-top-color: $dark-semantic-neutral-300; /* Tailwind's dark:border-t-metal-800 */
+  }
+}
+
+/* Animations */
+@keyframes slide-in-from-bottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out-to-bottom {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+.dsc-drawer-content-position-bottom[data-state="open"] {
+  animation: slide-in-from-bottom 0.3s ease-out; /* Tailwind's data-[state=open]:slide-in-from-bottom */
+}
+
+.dsc-drawer-content-position-bottom[data-state="closed"] {
+  animation: slide-out-to-bottom 0.3s ease-in; /* Tailwind's data-[state=closed]:slide-out-to-bottom */
+}
+
+/* Left */
+.dsc-drawer-content-position-left {
+  top: 0; /* Tailwind's inset-y-0 => top: 0 */
+  bottom: 0; /* Tailwind's inset-y-0 => bottom: 0 */
+  left: 0; /* Tailwind's left-0 */
+  height: 100%; /* Tailwind's h-full */
+  width: 100%; /* Tailwind's w-full as default */
+  border-right: 1px solid $semantic-neutral-800; /* Tailwind's border-r */
+  border-top-right-radius: 10px; /* Tailwind's rounded-r-[10px] */
+  border-bottom-right-radius: 10px; /* Tailwind's rounded-r-[10px] */
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  .dsc-drawer-content-position-left {
+    border-right-color: $dark-semantic-neutral-300; /* Tailwind's dark:border-r-metal-800 */
+  }
+}
+
+/* Responsive widths */
+@media (min-width: 768px) {
+  .dsc-drawer-content-position-left {
+    width: 50%; /* Tailwind's md:w-1/2 */
+  }
+}
+
+@media (min-width: 1280px) {
+  .dsc-drawer-content-position-left {
+    width: 25%; /* Tailwind's xl:w-1/4 */
+  }
+}
+
+/* Animations */
+@keyframes slide-in-from-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out-to-left {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.dsc-drawer-content-position-left[data-state="open"] {
+  animation: slide-in-from-left 0.3s ease-out; /* Tailwind's data-[state=open]:slide-in-from-left */
+}
+
+.dsc-drawer-content-position-left[data-state="closed"] {
+  animation: slide-out-to-left 0.3s ease-in; /* Tailwind's data-[state=closed]:slide-out-to-left */
+}
+
+/* Right */
+.dsc-drawer-content-position-right {
+  top: 0; /* Tailwind's inset-y-0 => top: 0 */
+  bottom: 0; /* Tailwind's inset-y-0 => bottom: 0 */
+  right: 0; /* Tailwind's right-0 */
+  height: 100%; /* Tailwind's h-full */
+  width: 100%; /* Tailwind's w-full as default */
+  border-left: 1px solid $semantic-neutral-800; /* Tailwind's border-l */
+  border-top-left-radius: 10px; /* Tailwind's rounded-l-[10px] */
+  border-bottom-left-radius: 10px; /* Tailwind's rounded-l-[10px] */
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  .dsc-drawer-content-position-right {
+    border-left-color: $dark-semantic-neutral-300; /* Tailwind's dark:border-l-metal-800 */
+  }
+}
+
+/* Responsive widths */
+@media (min-width: 768px) {
+  .dsc-drawer-content-position-right {
+    width: 50%; /* Tailwind's md:w-1/2 */
+  }
+}
+
+@media (min-width: 1280px) {
+  .dsc-drawer-content-position-right {
+    width: 25%; /* Tailwind's xl:w-1/4 */
+  }
+}
+
+/* Animations */
+@keyframes slide-in-from-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out-to-right {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.dsc-drawer-content-position-right[data-state="open"] {
+  animation: slide-in-from-right 0.3s ease-out; /* Tailwind's data-[state=open]:slide-in-from-right */
+}
+
+.dsc-drawer-content-position-right[data-state="closed"] {
+  animation: slide-out-to-right 0.3s ease-in; /* Tailwind's data-[state=closed]:slide-out-to-right */
+}
+
+
+// Drawer Content Close Button
+.dsc-drawer-content-close-button {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  top: 1rem; /* Tailwind's top-4 (4 x 0.25rem) */
+  right: 1rem; /* Tailwind's right-4 (4 x 0.25rem) */
+  border-radius: 0.125rem; /* Tailwind's rounded-sm */
+  opacity: 0.7; /* Tailwind's opacity-70 */
+  transition: opacity 0.2s ease; /* Tailwind's transition-opacity */
+  outline: none; /* Tailwind's focus:outline-none */
+  background: $background-base-white;
+  border:1px solid $semantic-neutral-300;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  fill: $semantic-neutral-900;
+  /* Hover state */
+  &:hover {
+    opacity: 1; /* Tailwind's hover:opacity-100 */
+  }
+  
+  /* Focus state */
+  &:focus {
+    outline: 2px solid $semantic-neutral-500;
+    outline-offset: 2px;
+  }
+  
+  /* Disabled state */
+  &:disabled {
+    pointer-events: none; /* Tailwind's disabled:pointer-events-none */
+  }
+  
+  /* Data state open */
+  &[data-state="open"] {
+    background-color: $semantic-neutral-50; /* Tailwind's data-[state=open]:bg-white */
+  }
+}
+
+
+/* Dark mode */
+[data-theme="dark"] {
+  .dsc-drawer-content-close-button {
+    background-color: $dark-background-base-white;
+    fill: $dark-semantic-neutral-900; /* Tailwind's dark:fill-white */
+    outline-color: $dark-semantic-neutral-900; /* Tailwind's dark:ring-offset-metal-900 */
+
+    &:focus {
+      outline: 2px solid $dark-semantic-neutral-500;
+      outline-offset: 2px;
+    }
+
+      /* Data state open */
+    &[data-state="open"] {
+      background-color: $dark-semantic-neutral-50; /* Tailwind's data-[state=open]:bg-white */
+    }
+  }
+}
+
+/* Close Button Icon */
+.dsc-drawer-content-close-button-icon {
+  height: 1rem; /* Tailwind's h-4 */
+  width: 1rem; /* Tailwind's w-4 */
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+//sr-only
+.dsc-drawer-content-close-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+/*=====  End of Section Drawer Content  ======*/
+
+
+/*=============================================
+=            Section Drawer Description            =
+=============================================*/
+
+.dsc-drawer-description {
+  font-size: 0.875rem; /* Tailwind's text-body-4: 14px */
+  line-height: 1.25rem; /* Tailwind's leading value for text-body-4: 20px */
+  color: $semantic-neutral-600; /* Tailwind's text-metal-600 */
+}
+
+
+[data-theme="dark"] {
+  .dsc-drawer-description {
+    color: $dark-semantic-neutral-600; /* Tailwind's dark:text-metal-300 */
+  }
+}
+
+/*=====  End of Section Drawer Description  ======*/
+
+
+
+/*=============================================
+=            Section Drawer Footer            =
+=============================================*/
+
+.dsc-drawer-footer {
+  display: flex; /* Tailwind's flex */
+  flex-direction: column-reverse; /* Tailwind's flex-col-reverse */
+}
+
+@media (min-width: 640px) { /* Tailwind's sm: breakpoint */
+  .dsc-drawer-footer {
+    flex-direction: row; /* Tailwind's sm:flex-row */
+    justify-content: flex-end; /* Tailwind's sm:justify-end */
+    gap: 0.5rem; /* Tailwind's sm:space-x-2 (2 x 0.25rem = 0.5rem) */
+  }
+}
+
+/*=====  End of Section Drawer Footer  ======*/
+
+
+/*=============================================
+=            Section Drawer Header            =
+=============================================*/
+
+.dsc-drawer-header {
+  display: flex; /* Tailwind's flex */
+  flex-direction: column; /* Tailwind's flex-col */
+  gap: 0.5rem; /* Tailwind's space-y-2 (2 x 0.25rem = 0.5rem) */
+  text-align: center; /* Tailwind's text-center */
+}
+
+@media (min-width: 640px) { /* Tailwind's sm: breakpoint */
+  .dsc-drawer-header {
+    text-align: left; /* Tailwind's sm:text-left */
+  }
+}
+
+/*=====  End of Section Drawer Header  ======*/
+
+
+
+/*=============================================
+=            Section Drawer Overlay            =
+=============================================*/
+
+.dsc-drawer-overlay {
+  position: fixed; /* Tailwind's fixed */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 50; /* Tailwind's z-50 */
+  background-color: rgba(0, 0, 0, 0.8); /* Tailwind's bg-black/80 */
+  
+  &[data-state="open"] {
+    animation: fade-in 0.3s ease-in; /* Tailwind's data-[state=open]:fade-in-0 and animation */
+  }
+  
+  &[data-state="closed"] {
+    animation: fade-out 0.3s ease-out; /* Tailwind's data-[state=closed]:fade-out-0 and animation */
+  }
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*=====  End of Section Drawer Overlay  ======*/
+
+
+/*=============================================
+=            Section Drawer Title            =
+=============================================*/
+
+.dsc-drawer-title {
+  font-size: 1.25rem; /* Tailwind's text-body-1: 20px */
+  font-weight: 600; /* Tailwind's font-semibold */
+  color: $semantic-neutral-900; /* Tailwind's text-metal-900 (dark gray) */
+}
+
+[data-theme="dark"] {
+  .dsc-drawer-title {
+    color: $dark-semantic-neutral-900; /* Tailwind's dark:text-metal-900 (dark gray) */
+  }
+}
+/*=====  End of Section Drawer Title  ======*/
+
+
+
+
+
+
