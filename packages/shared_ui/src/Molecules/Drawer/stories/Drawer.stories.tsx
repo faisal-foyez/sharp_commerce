@@ -16,6 +16,7 @@ const meta: Meta<typeof Drawer> = {
   title: "Components/Molecules/Drawer",
   component: Drawer,
   tags: ["autodocs"],
+  decorators: [withThemeDecorator],
   argTypes: {
     open: {
       control: {
