@@ -310,83 +310,158 @@
  * styles for components.
  *
  */
-.input-textarea {
-  width: 100%;
-  min-height: 136px;
-  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
-  color: var(--dsc-foreground-neutral-secondary, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  border: 1px solid var(--dsc-action-border-neutral-light-normal, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
-  border-radius: 8px;
-  padding: 8px 12px;
-  resize: none;
-  box-sizing: border-box;
-  outline: none;
+/*=============================================
+=            Section Navbar Collapse            =
+=============================================*/
+.dsc-navbar-collapse {
+  position: absolute; /* Positions the element relative to its nearest positioned ancestor */
+  right: 0; /* Aligns the element to the right */
+  top: 100%; /* Positions the element directly below its reference */
+  z-index: 50; /* Sets the stacking order */
+  display: flex; /* Establishes a flex container */
+  flex-direction: column; /* Flex items arranged in a column */
+  align-items: flex-start; /* Aligns flex items to the start of the cross axis */
+  gap: 0.625rem; /* 2.5 spacing between flex items (0.625rem = 10px) */
+  height: auto; /* Height adjusts based on content */
+  width: 100%; /* Full width by default */
+  overflow: hidden; /* Clips any overflowing child elements */
+  border: 1px solid var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)); /* Tailwind's border-metal-100 (light gray) */
+  background-color: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff)); /* White background */
+  border-radius: 0 0 0.75rem 0.75rem; /* Bottom corners rounded (rounded-t-none) */
+  padding: 1.5rem; /* Padding of 24px */
 }
-.input-textarea:focus {
-  border-color: var(--dsc-action-border-neutral-active, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  outline: 2px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline-offset: 2px;
+@media (min-width: 640px) {
+  .dsc-navbar-collapse {
+    width: 20rem; /* Adjusts width for small screens and above (640px = sm) */
+  }
 }
-.input-textarea::placeholder {
-  color: var(--dsc-foreground-neutral-tertiary, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
-}
-.input-textarea:disabled {
-  border-color: var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline: 2px solid var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline-offset: 2px;
-  cursor: not-allowed;
-}
-.input-textarea:disabled::placeholder {
-  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-}
-
-[data-theme=dark] .input-textarea {
-  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
-  color: var(--dsc-dark-foreground-neutral-secondary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
-  border: 1px solid var(--dsc-dark-action-border-neutral-light-normal, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
-}
-[data-theme=dark] .input-textarea:focus {
-  border-color: var(--dsc-dark-action-border-neutral-active, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
-  outline: 2px solid var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-  outline-offset: 2px;
-}
-[data-theme=dark] .input-textarea::placeholder {
-  color: var(--dsc-dark-foreground-neutral-tertiary, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
-}
-[data-theme=dark] .input-textarea:disabled {
-  border-color: var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  outline-color: var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-}
-[data-theme=dark] .input-textarea:disabled::placeholder {
-  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+@media (min-width: 1024px) {
+  .dsc-navbar-collapse {
+    display: none; /* Hidden on large screens and above (1024px = lg) */
+  }
 }
 
-.input-textarea-error {
-  color: var(--dsc-action-foreground-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  border: 1px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline: 2px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline-offset: 2px;
-}
-.input-textarea-error:focus {
-  border-color: var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline: 2px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline-offset: 2px;
-}
-.input-textarea-error::placeholder {
-  color: var(--dsc-action-foreground-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+[data-theme=dark] .dsc-navbar-collapse {
+  border-color: var(--dsc-dark-semantic-neutral-100, var(--dsc-global-slate-700, #3D4A5C)); /* Dark mode border color (dark:border-metal-800) */
+  background-color: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))); /* Dark mode background color (dark:bg-metal-900) */
 }
 
-[data-theme=dark] .input-textarea-error {
-  color: var(--dsc-dark-action-foreground-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  border-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  outline-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+/*=====  End of Section Navbar Collapse  ======*/
+/*=============================================
+=            Section Collapse Button            =
+=============================================*/
+.dsc-navbar-collapse-button {
+  display: block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
 }
-[data-theme=dark] .input-textarea-error:focus {
-  border-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  outline-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+@media (min-width: 1024px) {
+  .dsc-navbar-collapse-button {
+    display: none;
+  }
 }
-[data-theme=dark] .input-textarea-error::placeholder {
-  color: var(--dsc-dark-action-foreground-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+
+/*=====  End of Section Collapse Button  ======*/
+/*=============================================
+=            Section Navbar Container            =
+=============================================*/
+.dsc-navbar-container {
+  display: flex; /* Makes the element a flex container */
+  align-items: center; /* Vertically aligns flex items to the center */
+  justify-content: space-between; /* Distributes items with space between them */
+  width: 100%; /* Optional, depending on the "container" behavior */
+  max-width: 1280px; /* Optional, matches typical Tailwind container max-width */
+  margin-left: auto; /* Centers the container horizontally */
+  margin-right: auto; /* Centers the container horizontally */
+  padding-left: 1rem; /* Optional padding for responsiveness */
+  padding-right: 1rem; /* Optional padding for responsiveness */
 }
+
+/*=====  End of Section Navbar Container  ======*/
+/*=============================================
+=            Section Navbar Item            =
+=============================================*/
+.dsc-navbar-item {
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  border-radius: 0.375rem; /* Applies medium rounded corners (6px) */
+  background-color: transparent; /* Transparent background */
+  padding: 0.5rem 1rem; /* Top & Bottom padding: 0.5rem (8px), Left & Right padding: 1rem (16px) */
+  font-size: 1rem; /* Matches "text-body-4" font size (adjust based on your design system) */
+  font-weight: 500; /* Applies medium font weight */
+  transition: all 300ms; /* Smooth transitions for all properties over 300ms */
+}
+.dsc-navbar-item:active {
+  transform: scale(0.95); /* Slightly scales down the element when active (pressed) */
+}
+
+.dsc-navbar-item-active {
+  background-color: var(--dsc-background-brand-default, var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)));
+  color: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff));
+}
+.dsc-navbar-item-active:hover {
+  background-color: var(--dsc-action-background-brand-hover, var(--dsc-semantic-brand-600, var(--dsc-global-blue-600, #0F3CD9)));
+}
+
+[data-theme=dark] .dsc-navbar-item-active {
+  background-color: var(--dsc-dark-background-brand-default, var(--dsc-dark-semantic-brand-500, var(--dsc-global-blue-dark-500, #1B54FF)));
+  color: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+[data-theme=dark] .dsc-navbar-item-active:hover {
+  background-color: var(--dsc-dark-action-background-brand-hover, var(--dsc-dark-semantic-brand-600, var(--dsc-global-blue-dark-600, #1645D3)));
+}
+
+.dsc-navbar-item-not-active {
+  color: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468));
+}
+.dsc-navbar-item-not-active:hover {
+  background-color: var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9));
+  color: var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B));
+}
+.dsc-navbar-item-not-active [data-theme=dark] {
+  color: var(--dsc-dark-semantic-neutral-600, var(--dsc-global-slate-200, #D7DFE9));
+}
+.dsc-navbar-item-not-active [data-theme=dark]:hover {
+  background-color: var(--dsc-dark-semantic-neutral-600, var(--dsc-global-slate-200, #D7DFE9));
+  color: var(--dsc-dark-semantic-neutral-900, var(--dsc-global-slate-25, #F9FAFB));
+}
+
+/*=====  End of Section Navbar Item  ======*/
+/*=============================================
+=            Section Navbar List            =
+=============================================*/
+.dsc-navbar-list {
+  display: none; /* Hides the element by default */
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1024px) { /* Tailwind's `lg` breakpoint is 1024px */
+  .dsc-navbar-list {
+    display: flex; /* Makes the element a flex container at `lg` breakpoint */
+    align-items: center; /* Vertically aligns items to the center */
+    gap: 0.625rem; /* Sets spacing between flex items (2.5 x 0.25rem = 10px) */
+  }
+}
+/*=====  End of Section Navbar List  ======*/
+/*=============================================
+=            Section Navbar               =
+=============================================*/
+.dsc-navbar {
+  position: relative; /* Positions the element relative to its normal position */
+  border-radius: 0.5rem; /* Applies large rounded corners (8px) */
+  border: 1px solid var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)); /* Matches Tailwind's `border-metal-100` */
+  background-color: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff)); /* Sets the background color to white */
+  padding-top: 1.25rem; /* Adds 20px top padding */
+  padding-bottom: 1.25rem; /* Adds 20px bottom padding */
+}
+
+/* Dark mode styles */
+[data-theme=dark] .dsc-navbar {
+  border-color: var(--dsc-dark-semantic-neutral-100, var(--dsc-global-slate-700, #3D4A5C)); /* Matches Tailwind's `dark:border-metal-900` */
+  background-color: var(--dsc-dark-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))); /* Matches Tailwind's `dark:bg-metal-900` */
+}
+
+/*=====  End of Section Navbar   ======*/

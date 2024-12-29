@@ -310,83 +310,86 @@
  * styles for components.
  *
  */
-.input-textarea {
+.dsc-progress-circle-root {
+  position: relative; /* Positions the element relative to its normal layout */
+  width: 8rem; /* Sets the width to 8rem (32 x 0.25rem = 128px) */
+  height: 8rem; /* Sets the height to 8rem (32 x 0.25rem = 128px) */
+}
+
+.dsc-progress-circle-svg-base {
+  height: 100%;
   width: 100%;
-  min-height: 136px;
-  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
-  color: var(--dsc-foreground-neutral-secondary, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  border: 1px solid var(--dsc-action-border-neutral-light-normal, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
-  border-radius: 8px;
-  padding: 8px 12px;
-  resize: none;
-  box-sizing: border-box;
-  outline: none;
-}
-.input-textarea:focus {
-  border-color: var(--dsc-action-border-neutral-active, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  outline: 2px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline-offset: 2px;
-}
-.input-textarea::placeholder {
-  color: var(--dsc-foreground-neutral-tertiary, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
-}
-.input-textarea:disabled {
-  border-color: var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline: 2px solid var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline-offset: 2px;
-  cursor: not-allowed;
-}
-.input-textarea:disabled::placeholder {
-  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
 }
 
-[data-theme=dark] .input-textarea {
-  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
-  color: var(--dsc-dark-foreground-neutral-secondary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
-  border: 1px solid var(--dsc-dark-action-border-neutral-light-normal, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
-}
-[data-theme=dark] .input-textarea:focus {
-  border-color: var(--dsc-dark-action-border-neutral-active, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
-  outline: 2px solid var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-  outline-offset: 2px;
-}
-[data-theme=dark] .input-textarea::placeholder {
-  color: var(--dsc-dark-foreground-neutral-tertiary, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
-}
-[data-theme=dark] .input-textarea:disabled {
-  border-color: var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  outline-color: var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-}
-[data-theme=dark] .input-textarea:disabled::placeholder {
-  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+.dsc-progress-circle-svg-circle {
+  stroke: var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF));
+  color: var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9));
 }
 
-.input-textarea-error {
-  color: var(--dsc-action-foreground-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  border: 1px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline: 2px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline-offset: 2px;
-}
-.input-textarea-error:focus {
-  border-color: var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline: 2px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline-offset: 2px;
-}
-.input-textarea-error::placeholder {
-  color: var(--dsc-action-foreground-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+.dsc-progress-circle-svg-g {
+  transform-origin: center; /* Sets the origin for transformations to the center */
+  transform: rotate(-90deg); /* Rotates the element -90 degrees */
 }
 
-[data-theme=dark] .input-textarea-error {
-  color: var(--dsc-dark-action-foreground-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  border-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  outline-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+.dsc-progress-circle-svg-gCircle {
+  stroke: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)); /* Matches Tailwind's brand-500 color for stroke */
+  color: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)); /* Matches Tailwind's brand-500 color for text */
+  transition: all 0.3s ease; /* Smooth transition for all animatable properties over 300ms */
 }
-[data-theme=dark] .input-textarea-error:focus {
-  border-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  outline-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+
+.dsc-progress-line-root {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Aligns items vertically in the center */
+  column-gap: 0.75rem; /* Adds 0.75rem (12px) horizontal spacing between flex items */
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
 }
-[data-theme=dark] .input-textarea-error::placeholder {
-  color: var(--dsc-dark-action-foreground-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+
+.dsc-progress-line-progress-base {
+  position: relative; /* Positions the element relative to its normal flow */
+  display: flex; /* Enables flexbox layout */
+  width: 100%; /* Sets the width to 100% of the parent */
+  overflow: hidden; /* Hides content that overflows the element's boundaries */
+  border-radius: 9999px; /* Creates a fully rounded shape (full circle if width and height are equal) */
+  background-color: var(--dsc-semantic-brand-25, var(--dsc-global-blue-25, #F2F5FF)); /* Matches Tailwind's brand-25 color */
+}
+
+.dsc-progress-line-progress-bar {
+  position: relative; /* Positions the element relative to its normal flow */
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Stacks child elements vertically */
+  justify-content: center; /* Centers child elements vertically */
+  overflow: hidden; /* Hides content that overflows the element's boundaries */
+  margin: 1px; /* Adds a 1px margin around the element */
+  border-radius: 9999px; /* Creates a fully rounded shape (circle or pill) */
+  background-color: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)); /* Matches Tailwind's brand-500 color */
+  transition: all 0.3s ease; /* Smooth transition for all animatable properties over 300ms */
+  height: 0.625rem;
+}
+
+.dsc-progress-line-text-base {
+  width: 2.5rem; /* Sets the width to 10 Tailwind units (1 unit = 0.25rem) */
+  text-align: end; /* Aligns text to the end of the container */
+  font-size: 0.875rem; /* Matches Tailwind's body-4 size */
+  line-height: 1.25rem; /* Matches Tailwind's body-4 line height */
+  font-weight: 500; /* Medium font weight */
+  color: var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)); /* Matches Tailwind's metal-600 color */
+}
+
+.dsc-progress-circle-text {
+  position: absolute; /* Places the element absolutely relative to its nearest positioned ancestor */
+  left: 50%; /* Aligns the element's left edge to the center of the container */
+  top: 50%; /* Aligns the element's top edge to the center of the container */
+  transform: translate(-50%, -50%); /* Centers the element by offsetting its own width and height */
+  font-size: 0.875rem; /* Matches Tailwind's body-4 size */
+  line-height: 1.25rem; /* Matches Tailwind's body-4 line height */
+  font-weight: 500; /* Medium font weight */
+  color: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)); /* Matches Tailwind's brand-500 color */
+}
+
+.dsc-progress-line-text {
+  width: 2.5rem; /* Tailwind's w-10 translates to 40px */
+  text-align: end; /* Align text to the end (right for LTR languages) */
+  font-size: 0.875rem; /* Tailwind's text-body-4 corresponds to 14px */
+  font-weight: 500; /* Medium font weight */
+  color: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)); /* Replace with your brand color (#3b82f6 is Tailwind's default brand-500) */
 }

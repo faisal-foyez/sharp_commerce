@@ -310,83 +310,131 @@
  * styles for components.
  *
  */
-.input-textarea {
+/* Container styles */
+.dsc-popover-content {
+  z-index: 50;
   width: 100%;
-  min-height: 136px;
-  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
-  color: var(--dsc-foreground-neutral-secondary, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  border: 1px solid var(--dsc-action-border-neutral-light-normal, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
-  border-radius: 8px;
-  padding: 8px 12px;
-  resize: none;
-  box-sizing: border-box;
+  max-width: 24rem; /* equivalent to max-w-sm */
+  border-radius: 0.75rem; /* equivalent to rounded-xl */
+  border: 1px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9))); /* Customize --metal-100 variable */
+  background-color: var(--dsc-background-base-white, var(--dsc-semantic-base-00, #ffffff)); /* Customize --white variable */
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B))); /* Customize --metal-600 variable */
   outline: none;
-}
-.input-textarea:focus {
-  border-color: var(--dsc-action-border-neutral-active, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  outline: 2px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline-offset: 2px;
-}
-.input-textarea::placeholder {
-  color: var(--dsc-foreground-neutral-tertiary, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
-}
-.input-textarea:disabled {
-  border-color: var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline: 2px solid var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline-offset: 2px;
-  cursor: not-allowed;
-}
-.input-textarea:disabled::placeholder {
-  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+  padding: 1rem;
 }
 
-[data-theme=dark] .input-textarea {
-  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
-  color: var(--dsc-dark-foreground-neutral-secondary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
-  border: 1px solid var(--dsc-dark-action-border-neutral-light-normal, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
-}
-[data-theme=dark] .input-textarea:focus {
-  border-color: var(--dsc-dark-action-border-neutral-active, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
-  outline: 2px solid var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-  outline-offset: 2px;
-}
-[data-theme=dark] .input-textarea::placeholder {
-  color: var(--dsc-dark-foreground-neutral-tertiary, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
-}
-[data-theme=dark] .input-textarea:disabled {
-  border-color: var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  outline-color: var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-}
-[data-theme=dark] .input-textarea:disabled::placeholder {
-  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+/* Dark mode styles */
+[data-theme=dark] .dsc-popover-content {
+  border-color: var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C))); /* Customize --metal-800 variable */
+  background-color: var(--dsc-dark-background-neutral-subtle, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468))); /* Customize --metal-900 variable */
+  color: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9))); /* Customize --metal-600 variable */
 }
 
-.input-textarea-error {
-  color: var(--dsc-action-foreground-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  border: 1px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline: 2px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline-offset: 2px;
-}
-.input-textarea-error:focus {
-  border-color: var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline: 2px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline-offset: 2px;
-}
-.input-textarea-error::placeholder {
-  color: var(--dsc-action-foreground-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+/* Animation states */
+.dsc-popover-content[data-state=open] {
+  animation: fadeInZoomIn 0.3s forwards; /* Adjust duration as needed */
 }
 
-[data-theme=dark] .input-textarea-error {
-  color: var(--dsc-dark-action-foreground-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  border-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  outline-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+.dsc-popover-content[data-state=closed] {
+  animation: fadeOutZoomOut 0.3s forwards; /* Adjust duration as needed */
 }
-[data-theme=dark] .input-textarea-error:focus {
-  border-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  outline-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+
+/* Side-based slide animations */
+.dsc-popover-content[data-side=bottom] {
+  animation: slideInFromTop 0.3s forwards;
 }
-[data-theme=dark] .input-textarea-error::placeholder {
-  color: var(--dsc-dark-action-foreground-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+
+.dsc-popover-content[data-side=left] {
+  animation: slideInFromRight 0.3s forwards;
+}
+
+.dsc-popover-content[data-side=right] {
+  animation: slideInFromLeft 0.3s forwards;
+}
+
+.dsc-popover-content[data-side=top] {
+  animation: slideInFromBottom 0.3s forwards;
+}
+
+/* Keyframe animations */
+@keyframes fadeInZoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes fadeOutZoomOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-0.5rem); /* Adjust distance for slide-in */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(0.5rem); /* Adjust distance for slide-in */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-0.5rem); /* Adjust distance for slide-in */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(0.5rem); /* Adjust distance for slide-in */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.dsc-popover-description {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .dsc-popover-description {
+  color: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
+}
+
+.dsc-popover-title {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: var(--dsc-foreground-neutral-primary, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
+}
+
+[data-theme=dark] .dsc-popover-title {
+  color: var(--dsc-dark-foreground-neutral-primary, var(--dsc-semantic-neutral-50, var(--dsc-global-slate-50, #F0F3F9)));
 }

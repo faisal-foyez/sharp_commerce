@@ -310,83 +310,36 @@
  * styles for components.
  *
  */
-.input-textarea {
-  width: 100%;
-  min-height: 136px;
-  background-color: var(--dsc-action-background-base-white, var(--dsc-semantic-base-00, #ffffff));
-  color: var(--dsc-foreground-neutral-secondary, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  border: 1px solid var(--dsc-action-border-neutral-light-normal, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
-  border-radius: 8px;
-  padding: 8px 12px;
-  resize: none;
-  box-sizing: border-box;
-  outline: none;
-}
-.input-textarea:focus {
-  border-color: var(--dsc-action-border-neutral-active, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  outline: 2px solid var(--dsc-border-neutral-subtle, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline-offset: 2px;
-}
-.input-textarea::placeholder {
-  color: var(--dsc-foreground-neutral-tertiary, var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)));
-}
-.input-textarea:disabled {
-  border-color: var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline: 2px solid var(--dsc-action-border-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
-  outline-offset: 2px;
-  cursor: not-allowed;
-}
-.input-textarea:disabled::placeholder {
-  color: var(--dsc-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-200, var(--dsc-global-slate-200, #D7DFE9)));
+.dsc-empty {
+  margin-left: auto; /* Tailwind's mx-auto */
+  margin-right: auto; /* Tailwind's mx-auto */
+  display: flex; /* Tailwind's flex */
+  max-width: 36rem; /* Tailwind's max-w-xl => 576px */
+  flex-direction: column; /* Tailwind's flex-col */
+  align-items: center; /* Tailwind's items-center */
+  justify-content: center; /* Tailwind's justify-center */
+  padding: 1.5rem; /* Tailwind's p-6 => 24px */
 }
 
-[data-theme=dark] .input-textarea {
-  background-color: var(--dsc-dark-action-background-base-white, var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)));
-  color: var(--dsc-dark-foreground-neutral-secondary, var(--dsc-semantic-neutral-300, var(--dsc-global-slate-300, #AFBACA)));
-  border: 1px solid var(--dsc-dark-action-border-neutral-light-normal, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
-}
-[data-theme=dark] .input-textarea:focus {
-  border-color: var(--dsc-dark-action-border-neutral-active, var(--dsc-semantic-neutral-25, var(--dsc-global-slate-25, #F9FAFB)));
-  outline: 2px solid var(--dsc-dark-border-neutral-subtle, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-  outline-offset: 2px;
-}
-[data-theme=dark] .input-textarea::placeholder {
-  color: var(--dsc-dark-foreground-neutral-tertiary, var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)));
-}
-[data-theme=dark] .input-textarea:disabled {
-  border-color: var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
-  outline-color: var(--dsc-dark-action-border-neutral-disabled, var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)));
-}
-[data-theme=dark] .input-textarea:disabled::placeholder {
-  color: var(--dsc-dark-action-foreground-neutral-disabled, var(--dsc-semantic-neutral-600, var(--dsc-global-slate-600, #455468)));
+.dsc-empty-description {
+  text-align: center; /* Tailwind's text-center */
+  font-size: 0.875rem; /* Tailwind's text-body-3 => 14px */
+  line-height: 1.25rem; /* Tailwind's text-body-3 line-height => 20px */
+  font-weight: 400; /* Tailwind's font-normal */
+  color: var(--dsc-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)); /* Tailwind's text-metal-400 */
 }
 
-.input-textarea-error {
-  color: var(--dsc-action-foreground-error-normal, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  border: 1px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline: 2px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline-offset: 2px;
-}
-.input-textarea-error:focus {
-  border-color: var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline: 2px solid var(--dsc-action-border-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
-  outline-offset: 2px;
-}
-.input-textarea-error::placeholder {
-  color: var(--dsc-action-foreground-error-active, var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)));
+[data-theme=dark] .dsc-empty-description {
+  color: var(--dsc-dark-semantic-neutral-400, var(--dsc-global-slate-400, #8897AE)); /* Tailwind's dark:text-metal-300 */
 }
 
-[data-theme=dark] .input-textarea-error {
-  color: var(--dsc-dark-action-foreground-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  border-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  outline-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+.dsc-empty-title {
+  font-size: 1.25rem; /* Tailwind's text-heading-5 => 20px */
+  line-height: 1.75rem; /* Tailwind's text-heading-5 line-height => 28px */
+  font-weight: 500; /* Tailwind's font-medium */
+  color: var(--dsc-semantic-neutral-700, var(--dsc-global-slate-700, #3D4A5C)); /* Tailwind's text-metal-700 */
 }
-[data-theme=dark] .input-textarea-error:focus {
-  border-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-  outline-color: var(--dsc-dark-action-border-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
-}
-[data-theme=dark] .input-textarea-error::placeholder {
-  color: var(--dsc-dark-action-foreground-error-active, var(--dsc-dark-semantic-error-400, var(--dsc-global-red-dark-400, #F33E3E)));
+
+[data-theme=dark] .dsc-empty-title {
+  color: var(--dsc-dark-semantic-neutral-700, var(--dsc-global-slate-100, #E9EFF6)); /* Tailwind's dark:text-white */
 }
