@@ -1,0 +1,195 @@
+@import '../foundation/all';
+
+
+/*=============================================
+=            Section Navbar Collapse            =
+=============================================*/
+
+.dsc-navbar-collapse {
+  position: absolute; /* Positions the element relative to its nearest positioned ancestor */
+  right: 0; /* Aligns the element to the right */
+  top: 100%; /* Positions the element directly below its reference */
+  z-index: 50; /* Sets the stacking order */
+  display: flex; /* Establishes a flex container */
+  flex-direction: column; /* Flex items arranged in a column */
+  align-items: flex-start; /* Aligns flex items to the start of the cross axis */
+  gap: 0.625rem; /* 2.5 spacing between flex items (0.625rem = 10px) */
+  height: auto; /* Height adjusts based on content */
+  width: 100%; /* Full width by default */
+  overflow: hidden; /* Clips any overflowing child elements */
+  border: 1px solid $semantic-neutral-100; /* Tailwind's border-metal-100 (light gray) */
+  background-color: $background-base-white; /* White background */
+  border-radius: 0 0 0.75rem 0.75rem; /* Bottom corners rounded (rounded-t-none) */
+  padding: 1.5rem; /* Padding of 24px */
+  
+  @media (min-width: 640px) {
+    & {
+      width: 20rem; /* Adjusts width for small screens and above (640px = sm) */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    & {
+      display: none; /* Hidden on large screens and above (1024px = lg) */
+    }
+  }
+  
+}
+[data-theme="dark"] {
+  .dsc-navbar-collapse {
+    border-color: $dark-semantic-neutral-100; /* Dark mode border color (dark:border-metal-800) */
+    background-color: $dark-background-base-white; /* Dark mode background color (dark:bg-metal-900) */
+  }
+}
+
+/*=====  End of Section Navbar Collapse  ======*/
+
+
+
+/*=============================================
+=            Section Collapse Button            =
+=============================================*/
+
+.dsc-navbar-collapse-button {
+  display: block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  
+  @media (min-width: 1024px) {
+    & {
+      display: none;
+    }
+  }
+}
+
+/*=====  End of Section Collapse Button  ======*/
+
+
+
+/*=============================================
+=            Section Navbar Container            =
+=============================================*/
+
+.dsc-navbar-container {
+  display: flex; /* Makes the element a flex container */
+  align-items: center; /* Vertically aligns flex items to the center */
+  justify-content: space-between; /* Distributes items with space between them */
+  width: 100%; /* Optional, depending on the "container" behavior */
+  max-width: 1280px; /* Optional, matches typical Tailwind container max-width */
+  margin-left: auto; /* Centers the container horizontally */
+  margin-right: auto; /* Centers the container horizontally */
+  padding-left: 1rem; /* Optional padding for responsiveness */
+  padding-right: 1rem; /* Optional padding for responsiveness */
+}
+
+/*=====  End of Section Navbar Container  ======*/
+
+
+
+/*=============================================
+=            Section Navbar Item            =
+=============================================*/
+
+.dsc-navbar-item {
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  border-radius: 0.375rem; /* Applies medium rounded corners (6px) */
+  background-color: transparent; /* Transparent background */
+  padding: 0.5rem 1rem; /* Top & Bottom padding: 0.5rem (8px), Left & Right padding: 1rem (16px) */
+  font-size: 1rem; /* Matches "text-body-4" font size (adjust based on your design system) */
+  font-weight: 500; /* Applies medium font weight */
+  transition: all 300ms; /* Smooth transitions for all properties over 300ms */
+  
+  &:active {
+    transform: scale(0.95); /* Slightly scales down the element when active (pressed) */
+  }
+}
+
+.dsc-navbar-item-active {
+  background-color:$background-brand-default; 
+  color: $background-base-white; 
+  &:hover {
+    background-color: $action-background-brand-hover;
+  }
+  // dark:bg-primary-500 
+  // dark:text-white 
+  // dark:hover:bg-primary-600
+}
+[data-theme="dark"] {
+  .dsc-navbar-item-active {
+    background-color: $dark-background-brand-default;
+    color: $dark-background-base-white;
+    &:hover {
+      background-color: $dark-action-background-brand-hover;
+    }
+  }
+}
+
+.dsc-navbar-item-not-active {
+  color:$semantic-neutral-600; 
+  
+  &:hover{
+    background-color: $semantic-neutral-50; 
+    color: $semantic-neutral-900; 
+  }
+
+  [data-theme="dark"] {
+    color: $dark-semantic-neutral-600;
+    &:hover {
+      background-color: $dark-semantic-neutral-600;
+      color: $dark-semantic-neutral-900;
+    }
+  }
+}
+
+/*=====  End of Section Navbar Item  ======*/
+
+
+
+/*=============================================
+=            Section Navbar List            =
+=============================================*/
+
+.dsc-navbar-list {
+  display: none; /* Hides the element by default */
+  margin:0;
+  padding:0;
+}
+
+@media (min-width: 1024px) { /* Tailwind's `lg` breakpoint is 1024px */
+  .dsc-navbar-list {
+    display: flex; /* Makes the element a flex container at `lg` breakpoint */
+    align-items: center; /* Vertically aligns items to the center */
+    gap: 0.625rem; /* Sets spacing between flex items (2.5 x 0.25rem = 10px) */
+  }
+}
+
+/*=====  End of Section Navbar List  ======*/
+
+
+
+/*=============================================
+=            Section Navbar               =
+=============================================*/
+
+.dsc-navbar {
+  position: relative; /* Positions the element relative to its normal position */
+  border-radius: 0.5rem; /* Applies large rounded corners (8px) */
+  border: 1px solid $semantic-neutral-100; /* Matches Tailwind's `border-metal-100` */
+  background-color: $background-base-white; /* Sets the background color to white */
+  padding-top: 1.25rem; /* Adds 20px top padding */
+  padding-bottom: 1.25rem; /* Adds 20px bottom padding */
+}
+
+/* Dark mode styles */
+[data-theme="dark"] {
+  .dsc-navbar {
+    border-color: $dark-semantic-neutral-100; /* Matches Tailwind's `dark:border-metal-900` */
+    background-color: $dark-background-base-white; /* Matches Tailwind's `dark:bg-metal-900` */
+  }
+}
+
+/*=====  End of Section Navbar   ======*/
+
