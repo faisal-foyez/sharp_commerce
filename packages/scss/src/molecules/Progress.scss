@@ -1,0 +1,87 @@
+@import '../foundation/all';
+
+.dsc-progress-circle-root {
+  position: relative; /* Positions the element relative to its normal layout */
+  width: 8rem; /* Sets the width to 8rem (32 x 0.25rem = 128px) */
+  height: 8rem; /* Sets the height to 8rem (32 x 0.25rem = 128px) */
+}
+
+.dsc-progress-circle-svg-base {
+  height: 100%;
+  width: 100%;
+}
+
+.dsc-progress-circle-svg-circle {
+  stroke: $semantic-brand-25;
+  color: $semantic-neutral-50;
+}
+
+.dsc-progress-circle-svg-g {
+  transform-origin: center; /* Sets the origin for transformations to the center */
+  transform: rotate(-90deg); /* Rotates the element -90 degrees */
+}
+
+.dsc-progress-circle-svg-gCircle {
+  stroke: $semantic-brand-500; /* Matches Tailwind's brand-500 color for stroke */
+  color: $semantic-brand-500; /* Matches Tailwind's brand-500 color for text */
+  transition: all 0.3s ease; /* Smooth transition for all animatable properties over 300ms */
+  
+}
+
+.dsc-progress-line-root {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Aligns items vertically in the center */
+  column-gap: 0.75rem; /* Adds 0.75rem (12px) horizontal spacing between flex items */
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
+}
+
+.dsc-progress-line-progress-base {
+  position: relative; /* Positions the element relative to its normal flow */
+  display: flex; /* Enables flexbox layout */
+  width: 100%; /* Sets the width to 100% of the parent */
+  overflow: hidden; /* Hides content that overflows the element's boundaries */
+  border-radius: 9999px; /* Creates a fully rounded shape (full circle if width and height are equal) */
+  background-color: $semantic-brand-25; /* Matches Tailwind's brand-25 color */
+}
+
+.dsc-progress-line-progress-bar {
+  position: relative; /* Positions the element relative to its normal flow */
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Stacks child elements vertically */
+  justify-content: center; /* Centers child elements vertically */
+  overflow: hidden; /* Hides content that overflows the element's boundaries */
+  margin: 1px; /* Adds a 1px margin around the element */
+  border-radius: 9999px; /* Creates a fully rounded shape (circle or pill) */
+  background-color: $semantic-brand-500; /* Matches Tailwind's brand-500 color */
+  transition: all 0.3s ease; /* Smooth transition for all animatable properties over 300ms */
+  height: .625rem;
+}
+
+.dsc-progress-line-text-base {
+  width: 2.5rem; /* Sets the width to 10 Tailwind units (1 unit = 0.25rem) */
+  text-align: end; /* Aligns text to the end of the container */
+  font-size: 0.875rem; /* Matches Tailwind's body-4 size */
+  line-height: 1.25rem; /* Matches Tailwind's body-4 line height */
+  font-weight: 500; /* Medium font weight */
+  color: $semantic-neutral-600; /* Matches Tailwind's metal-600 color */
+}
+
+
+.dsc-progress-circle-text {
+  position: absolute; /* Places the element absolutely relative to its nearest positioned ancestor */
+  left: 50%; /* Aligns the element's left edge to the center of the container */
+  top: 50%; /* Aligns the element's top edge to the center of the container */
+  transform: translate(-50%, -50%); /* Centers the element by offsetting its own width and height */
+  font-size: 0.875rem; /* Matches Tailwind's body-4 size */
+  line-height: 1.25rem; /* Matches Tailwind's body-4 line height */
+  font-weight: 500; /* Medium font weight */
+  color: $semantic-brand-500; /* Matches Tailwind's brand-500 color */
+}
+
+.dsc-progress-line-text {
+  width: 2.5rem; /* Tailwind's w-10 translates to 40px */
+  text-align: end; /* Align text to the end (right for LTR languages) */
+  font-size: 0.875rem; /* Tailwind's text-body-4 corresponds to 14px */
+  font-weight: 500; /* Medium font weight */
+  color: $semantic-brand-500; /* Replace with your brand color (#3b82f6 is Tailwind's default brand-500) */
+}
