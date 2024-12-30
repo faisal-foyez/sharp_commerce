@@ -38,3 +38,9 @@
 @mixin shadow($key) {
 	box-shadow: map-get($shadows, $key);
 }
+
+@mixin dark-mode {
+	[data-theme="dark"]{
+		@content;
+	}
+}

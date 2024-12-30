@@ -29,6 +29,7 @@ export * from './Molecules/Drawer';
 export * from './Molecules/Modal';
 export * from './Molecules/Navbar';
 export * from './Molecules/Progress';
+export * from './Molecules/Pagination';
 export { 
   Button, 
   LinkButton, 
