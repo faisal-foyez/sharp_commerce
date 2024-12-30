@@ -1,0 +1,129 @@
+@import "../foundation/all";
+
+/* Root */
+.dsc-pagination-root {
+  margin-inline: auto;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1.25rem; /* 20px (gap-5) */
+}
+
+/* List */
+.dsc-pagination-list {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* Custom gap-[6px] */
+  list-style: none;
+}
+
+/* Item */
+.dsc-pagination-item {
+  display: flex;
+  height: 2.25rem; /* 36px (h-9) */
+  width: 2.25rem; /* 36px (w-9) */
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem; /* 14px (text-body-3) */
+  font-weight: 500; /* Medium font weight */
+  transition: color 300ms, background-color 300ms; /* transition-colors duration-300 */
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.dsc-pagination-item-rounded {
+  border-radius: 0.375rem; /* 6px (rounded-md) */
+}
+
+.dsc-pagination-item-circle {
+  border-radius: 9999px; /* Fully rounded (rounded-full) */
+}
+
+.dsc-pagination-item-active-on {
+  background-color: $semantic-neutral-800; /* Metal-900 color */
+  color: $semantic-neutral-25; /* White */
+}
+
+
+.dsc-pagination-item-active-off {
+  color: $semantic-neutral-600; /* Metal-600 */
+
+  &:hover {
+    background-color: $semantic-neutral-50; /* Metal-25 */
+  }
+}
+ 
+@include dark-mode {
+  .dsc-pagination-item-active-off {
+    color: $dark-semantic-neutral-600; /* Metal-200 */
+  
+    &:hover {
+      background-color: $dark-semantic-neutral-50; /* Dark mode Metal-25 */
+      color: $dark-semantic-neutral-600; /* White */
+    }
+  }
+}
+
+
+
+/* Goto */
+.dsc-pagination-goto {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* 8px (gap-2) */
+  font-size: 0.75rem; /* 12px (text-body-4) */
+  font-weight: 500; /* Medium font weight */
+  color: #9ca3af; /* Metal-400 */
+}
+
+@include dark-mode {
+  .dsc-pagination-goto {
+    color: #d1d5db; /* Metal-300 */
+  }
+}
+
+/* Navigator */
+.dsc-pagination-navigator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem; /* 4px (gap-1) */
+  border: 1px solid #e5e7eb; /* Metal-100 */
+  background-color: #ffffff; /* White */
+  font-size: 0.75rem; /* 12px (text-body-4) */
+  font-weight: 500; /* Medium font weight */
+  transition: all 300ms; /* transition-all duration-300 */
+  color: #6b7280; /* Metal-600 */
+  outline: none;
+  
+  &:hover {
+    background-color: #f3f4f6; /* Metal-25 */
+  }
+}
+
+@include dark-mode {
+  .dsc-pagination-navigator {
+    border-color: #374151; /* Metal-800 */
+    background-color: #171717; /* Metal-900 */
+    color: #d1d5db; /* Metal-300 */
+    
+    &:hover {
+      background-color: #171717; /* Dark mode hover */
+    }
+  }
+}
+
+
+/* Navigator Shapes */
+.dsc-pagination-navigator-rounded {
+  border-radius: 0.5rem; /* 8px (rounded-lg) */
+  padding-inline: 0.625rem; /* 10px (px-2.5) */
+  padding-block: 0.5rem; /* 8px (py-2) */
+}
+
+.dsc-pagination-navigator-circle {
+  height: 2.25rem; /* 36px (h-9) */
+  width: 2.25rem; /* 36px (w-9) */
+  border-radius: 9999px; /* Fully rounded (rounded-full) */
+}
