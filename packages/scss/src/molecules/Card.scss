@@ -1,0 +1,45 @@
+@import '../foundation/all';
+
+.dsc-card {
+  max-width: 20rem; /* max-w-xs (320px) */
+  overflow: hidden; /* Ensures content overflow is hidden */
+  border-radius: 0.75rem; /* rounded-xl (12px) */
+  border: 1px solid $semantic-neutral-100; /* Metal-100 (light border color) */
+  background-color: $background-base-white; /* White background */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* shadow-small */
+}
+
+@include dark-mode {
+  .dsc-card {
+    border-color: $dark-semantic-neutral-100; /* Metal-900 (dark border color) */
+    background-color: $dark-background-base-white; /* Metal-900 (dark background color) */
+  }
+}
+
+.dsc-card-content {
+  padding: 1.5rem;
+}
+
+.dsc-card-description {
+  font-size: 0.875rem; /* text-body-4: 14px */
+  font-weight: 400; /* font-normal */
+  color: $semantic-neutral-600; /* Metal-600 (text color for light mode) */
+}
+
+@include dark-mode {
+  .dsc-card-description {
+    color: $dark-semantic-neutral-600; /* Metal-300 (text color for dark mode) */
+  }
+}
+
+.dsc-card-title {
+  font-size: 1.125rem; /* text-heading-6: 18px */
+  font-weight: 600; /* font-semibold */
+  color: $semantic-neutral-800; /* Metal-800 (text color for light mode) */
+}
+
+@include dark-mode {
+  .dsc-card-title {
+    color: $dark-semantic-neutral-800; /* White (text color for dark mode) */
+  }
+}
