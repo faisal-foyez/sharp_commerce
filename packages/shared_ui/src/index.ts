@@ -30,6 +30,8 @@ export * from './Molecules/Modal';
 export * from './Molecules/Navbar';
 export * from './Molecules/Progress';
 export * from './Molecules/Pagination';
+export * from './Molecules/Card';
+export * from './Molecules/Carousel';
 export { 
   Button, 
   LinkButton, 
