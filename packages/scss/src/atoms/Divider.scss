@@ -1,0 +1,388 @@
+@import '../foundation/all';
+
+
+
+/*=============================================
+=            Divider Without Children            =
+=============================================*/
+
+.dsc-divider-without-children-base {
+  display: block; /* block */
+  border-bottom: 0; /* border-b-0 */
+  width: 100%;
+  border-top-style: solid;
+}
+
+.dsc-divider-without-children-primary {
+  border-top-color: $semantic-brand-100; /* border-t-primary-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-without-children-primary {
+    border-top-color: $dark-semantic-brand-100; /* dark:border-t-primary-100 */
+  }
+}
+
+.dsc-divider-without-children-secondary {
+  border-top-color: $semantic-neutral-100; /* border-t-metal-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-without-children-secondary {
+    border-top-color: $dark-semantic-neutral-100; /* dark:border-t-metal-700 */
+  }
+}
+
+.dsc-divider-without-children-success {
+  border-top-color: $semantic-success-100; /* border-t-success-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-without-children-success {
+    border-top-color: $dark-semantic-success-100; /* dark:border-t-success-100 */
+  }
+} 
+
+.dsc-divider-without-children-warning {
+  border-top-color: $semantic-warning-100; /* border-t-warning-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-without-children-warning {
+    border-top-color: $dark-semantic-warning-100; /* dark:border-t-warning-100 */
+  }
+}
+
+.dsc-divider-without-children-error {
+  border-top-color: $semantic-error-100; /* border-t-error-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-without-children-error {
+    border-top-color: $dark-semantic-error-100; /* dark:border-t-error-100 */
+  }
+}
+
+/* Sizes */
+.dsc-divider-without-children-sm {
+  border-top-width: 0.5px; /* border-t-[0.5px] */
+}
+
+.dsc-divider-without-children-md {
+  border-top-width: 1px; /* border-t */
+}
+
+.dsc-divider-without-children-lg {
+  border-top-width: 2px; /* border-t-2 */
+}
+
+.dsc-divider-without-children-xl {
+  border-top-width: 4px; /* border-t-4 */
+}
+
+.dsc-divider-without-children-2xl {
+  border-top-width: 8px; /* border-t-8 */
+}
+
+/*=====  End of Divider Without Children  ======*/
+
+
+
+/*=============================================
+=            Divider With Children            =
+=============================================*/
+
+.dsc-divider-with-children-base {
+  display: flex; /* flex */
+  align-items: center; /* items-center */
+  font-size: 1rem; /* text-body-4 */
+  width: 100%;
+}
+
+.dsc-divider-with-children-primary {
+  color: $semantic-brand-500; /* text-primary-500 */
+}
+
+.dsc-divider-with-children-secondary {
+  color: $semantic-neutral-500; /* text-metal-500 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-secondary {
+    color: $dark-semantic-neutral-500; /* dark:text-white */
+  }
+}
+
+.dsc-divider-with-children-success {
+  color: $semantic-success-500; /* text-success-500 */
+}
+
+.dsc-divider-with-children-warning {
+  color: $semantic-warning-500; /* text-warning-500 */
+}
+
+.dsc-divider-with-children-error {
+  color: $semantic-error-500; /* text-error-500 */
+}
+
+/* Sizes for Start */
+.dsc-divider-with-children-start-sm::after {
+  border-top-width: 0.5px; /* after:border-t-[0.5px] */
+}
+
+.dsc-divider-with-children-start-md::after {
+  border-top-width: 1px; /* after:border-t */
+}
+
+.dsc-divider-with-children-start-lg::after {
+  border-top-width: 2px; /* after:border-t-2 */
+}
+
+.dsc-divider-with-children-start-xl::after {
+  border-top-width: 4px; /* after:border-t-4 */
+}
+
+.dsc-divider-with-children-start-2xl::after {
+  border-top-width: 8px; /* after:border-t-8 */
+} 
+
+/* Sizes for Center */
+.dsc-divider-with-children-center-sm::before,
+.dsc-divider-with-children-center-sm::after {
+  border-top-width: 0.5px; /* before:border-t-[0.5px] after:border-t-[0.5px] */
+}
+
+.dsc-divider-with-children-center-md::before,
+.dsc-divider-with-children-center-md::after {
+  border-top-width: 1px; /* before:border-t after:border-t */
+}
+
+.dsc-divider-with-children-center-lg::before,
+.dsc-divider-with-children-center-lg::after {
+  border-top-width: 2px; /* before:border-t-2 after:border-t-2 */
+}
+
+.dsc-divider-with-children-center-xl::before,
+.dsc-divider-with-children-center-xl::after {
+  border-top-width: 4px; /* before:border-t-4 after:border-t-4 */
+}
+
+.dsc-divider-with-children-center-2xl::before,
+.dsc-divider-with-children-center-2xl::after {
+  border-top-width: 8px; /* before:border-t-8 after:border-t-8 */
+}
+
+/* Sizes for End */
+.dsc-divider-with-children-end-sm::before {
+  border-top-width: 0.5px; /* before:border-t-[0.5px] */
+}
+
+.dsc-divider-with-children-end-md::before {
+  border-top-width: 1px; /* before:border-t */
+}
+
+.dsc-divider-with-children-end-lg::before {
+  border-top-width: 2px; /* before:border-t-2 */
+}
+
+.dsc-divider-with-children-end-xl::before {
+  border-top-width: 4px; /* before:border-t-4 */
+}
+
+.dsc-divider-with-children-end-2xl::before {
+  border-top-width: 8px; /* before:border-t-8 */
+}
+
+/* Colors for Start */
+.dsc-divider-with-children-start-primary::after {
+  border-top-color: $semantic-brand-100; /* after:border-primary-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-start-primary::after {
+    border-top-color: $dark-semantic-brand-100; /* dark::after:border-primary-100 */
+  }
+}
+
+.dsc-divider-with-children-start-secondary::after {
+  border-top-color: $semantic-neutral-100; /* after:border-metal-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-start-secondary::after {
+    border-top-color: $dark-semantic-neutral-100; /* dark::after:border-metal-700 */
+  }
+}
+
+.dsc-divider-with-children-start-success::after {
+  border-top-color: $semantic-success-100; /* after:border-success-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-start-success::after {
+    border-top-color: $dark-semantic-success-100; /* dark::after:border-success-100 */
+  }
+}
+
+.dsc-divider-with-children-start-warning::after {
+  border-top-color: $semantic-warning-100; /* after:border-warning-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-start-warning::after {
+    border-top-color: $dark-semantic-warning-100; /* dark::after:border-warning-100 */
+  }
+}
+
+.dsc-divider-with-children-start-error::after {
+  border-top-color: $semantic-error-100; /* after:border-error-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-start-error::after {
+    border-top-color: $dark-semantic-error-100; /* dark::after:border-error-100 */
+  }
+}
+
+/* Colors for Center */
+.dsc-divider-with-children-center-primary::before,
+.dsc-divider-with-children-center-primary::after {
+  border-top-color: $semantic-brand-100; /* before:border-primary-100 after:border-primary-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-center-primary::before,
+  .dsc-divider-with-children-center-primary::after {
+    border-top-color: $dark-semantic-brand-100; /* dark::before:border-primary-100 dark::after:border-primary-100 */
+  }
+}
+
+.dsc-divider-with-children-center-secondary::before,
+.dsc-divider-with-children-center-secondary::after {
+  border-top-color: $semantic-neutral-100; /* before:border-metal-100 after:border-metal-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-center-secondary::before,
+  .dsc-divider-with-children-center-secondary::after {
+    border-top-color: $dark-semantic-neutral-100; /* dark::before:border-metal-700 dark::after:border-metal-700 */
+  }
+}
+
+.dsc-divider-with-children-center-success::before,
+.dsc-divider-with-children-center-success::after {
+  border-top-color: $semantic-success-100; /* before:border-success-100 after:border-success-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-center-success::before,
+  .dsc-divider-with-children-center-success::after {
+    border-top-color: $dark-semantic-success-100; /* dark::before:border-success-100 dark::after:border-success-100 */
+  }
+}
+
+.dsc-divider-with-children-center-warning::before,
+.dsc-divider-with-children-center-warning::after {
+  border-top-color: $semantic-warning-100; /* before:border-warning-100 after:border-warning-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-center-warning::before,
+  .dsc-divider-with-children-center-warning::after {
+    border-top-color: $dark-semantic-warning-100; /* dark::before:border-warning-100 dark::after:border-warning-100 */
+  }
+}
+
+.dsc-divider-with-children-center-error::before,
+.dsc-divider-with-children-center-error::after {
+  border-top-color: $semantic-error-100; /* before:border-error-100 after:border-error-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-center-error::before,
+  .dsc-divider-with-children-center-error::after {
+    border-top-color: $dark-semantic-error-100; /* dark::before:border-error-100 dark::after:border-error-100 */
+  }
+}
+
+/* Colors for End */
+.dsc-divider-with-children-end-primary::before {
+  border-top-color: $semantic-brand-100; /* before:border-primary-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-end-primary::before {
+    border-top-color: $dark-semantic-brand-100; /* dark::before:border-primary-100 */
+  }
+}
+
+.dsc-divider-with-children-end-secondary::before {
+  border-top-color: $semantic-neutral-100; /* before:border-metal-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-end-secondary::before {
+    border-top-color: $dark-semantic-neutral-100; /* dark::before:border-metal-700 */
+  }
+}
+
+.dsc-divider-with-children-end-success::before {
+  border-top-color: $semantic-success-100; /* before:border-success-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-end-success::before {
+    border-top-color: $dark-semantic-success-100; /* dark::before:border-success-100 */
+  }
+}
+
+.dsc-divider-with-children-end-warning::before {
+  border-top-color: $semantic-warning-100; /* before:border-warning-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-end-warning::before {
+    border-top-color: $dark-semantic-warning-100; /* dark::before:border-warning-100 */
+  }
+}
+
+.dsc-divider-with-children-end-error::before {
+  border-top-color: $semantic-error-100; /* before:border-error-100 */
+}
+
+@include dark-mode {
+  .dsc-divider-with-children-end-error::before {
+    border-top-color: $dark-semantic-error-100; /* dark::before:border-error-100 */
+  }
+}
+
+/* Variants */
+.dsc-divider-with-children-start::after {
+  margin-inline-start: 1.5rem; /* after:ms-6 */
+  flex: 1 1 0%; /* after:flex-[1_1_0%] */
+  content: '';
+  border-top-style: solid;
+}
+
+.dsc-divider-with-children-end::before {
+  margin-inline-end: 1.5rem; /* before:me-6 */
+  flex: 1 1 0%; /* before:flex-[1_1_0%] */
+  content: '';
+  border-top-style: solid;
+}
+
+.dsc-divider-with-children-center::before {
+  margin-inline-end: 1.5rem; /* before:me-6 */
+  flex: 1 1 0%; /* before:flex-[1_1_0%] */
+  content: '';
+  border-top-style: solid;
+}
+
+.dsc-divider-with-children-center::after {
+  margin-inline-start: 1.5rem; /* after:ms-6 */
+  flex: 1 1 0%; /* after:flex-[1_1_0%] */
+  content: '';
+  border-top-style: solid;
+}
+
+/*=====  End of Divider With Children  ======*/
