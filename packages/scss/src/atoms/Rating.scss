@@ -1,0 +1,48 @@
+@import '../foundation/all';
+
+.dsc-rating {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  justify-content: flex-end;
+  flex-flow: row-reverse;
+}
+
+.dsc-rating-input {
+  margin-inline-start: -1.25rem; /* Maps to -ms-5 (-5 * 0.25rem) */
+  width: 1.25rem; /* Maps to size-5 (5 * 0.25rem) */
+  height: 1.25rem; /* Maps to size-5 (5 * 0.25rem) */
+  cursor: pointer; /* Maps to cursor-pointer */
+  appearance: none; /* Maps to appearance-none */
+  border: 0; /* Maps to border-0 */
+  background-color: transparent; /* Maps to bg-transparent */
+  color: transparent; /* Maps to text-transparent */
+
+  &:checked {
+    background-image: none; /* Maps to checked:bg-none */
+  }
+
+  &:focus {
+    background-image: none; /* Maps to focus:bg-none */
+    outline: none; /* Focus with no outline/ring */
+    box-shadow: none; /* Maps to focus:ring-0 */
+    outline-offset: 0; /* Maps to focus:ring-offset-0 */
+  }
+}
+
+
+/* Default state */
+.dsc-rating-label {
+  pointer-events: none; /* Disables pointer events */
+  color: #e5e7eb; /* Maps to text-metal-200 */
+}
+
+.peer:checked ~ .dsc-rating-label {
+  color: #f59e0b; /* Maps to text-warning-500 */
+}
+
+.dsc-rating-star {
+  width: 1.25rem; /* 20px */
+  height: 1.25rem; /* 20px */
+  flex-shrink: 0; /* Prevent shrinking */
+}
