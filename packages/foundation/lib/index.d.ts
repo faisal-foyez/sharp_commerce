@@ -15,4 +15,5 @@ import { CheckboxVariant, CheckboxColor, CheckboxSize } from './Checkbox';
 import { RadioVariant, RadioColor, RadioSize } from './Radio';
 import { AlertColor } from './Alert';
 import { NotificationPosition } from './Notification';
+export * from './Divider';
 export { Spacing, FontSize, ButtonSize, ButtonIconSize, ButtonType, ButtonStyle, LinkButtonType, LinkButtonSize, LinkButtonIconSize, IconButtonType, IconButtonSize, IconButtonIconSize, IconButtonStyle, IconNames, IconWeight, SocialButtonPlatform, SocialButtonSize, SocialButtonTheme, AvatarSize, AvatarPlaceholderSize, AvatarType, AvatarShape, AvatarBgColor, AvatarTopStatus, AvatarBottomStatus, AvatarIconSize, AvatarIconColor, AvatarIconBackground, TagButtonSize, TagButtonState, BadgeColor, BadgeSize, BadgeStyle, InputType, InputStyle, InputSize, CheckboxVariant, CheckboxColor, CheckboxSize, RadioVariant, RadioColor, RadioSize, AlertColor, NotificationPosition };

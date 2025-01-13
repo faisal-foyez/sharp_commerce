@@ -84,6 +84,8 @@ import {
   NotificationPosition
 } from './Notification';
 
+export * from './Divider';
+
 export {
   Spacing, 
   FontSize,
