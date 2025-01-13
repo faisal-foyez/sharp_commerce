@@ -1,0 +1,649 @@
+/*=============================================
+    #Variables
+=============================================*/
+/**
+ * TABLE OF CONTENTS
+ * 
+ * COLORS
+ * Brand colors...................These are the main brand colors. They will be used the most
+ * Neutral colors.................White and black, gray scale, secondary colors.
+ * Utility colors.................Other colors to represent states: info, warning, success, etc.
+ * 
+ * TYPOGRAPHY
+ * Font families..................The fonts used in the design system.
+ * Font weights...................Font weights
+ * Sizes..........................Font sizing for body text, paragraphs, inputs
+ * Heading sizes..................Font sizing for page headings
+ *
+ * BREAKPOINTS
+ * Breakpoints....................Global responsive breakpoints definitions.
+ *
+ * SPACING
+ * Spacing........................Global fixed set of spacing variables
+ * 
+ * SHADOW
+ * Shadows........................Global fixed set of shadows
+ */
+/*=============================================
+=            Colors                           =
+=============================================*/
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Violet colors */
+/* Purple colors */
+/* Indigo colors */
+/* Blue light colors */
+/* Blue dark colors*/
+/* Blue gray colors */
+/* Blue colors */
+/* Cyan colors */
+/* Dimgray colors */
+/* Emerald colors */
+/* Gold colors */
+/* Green colors */
+/* Green dark colors */
+/* Lime colors */
+/* Orange colors */
+/* Pink colors */
+/* Rose colors */
+/* Red colors */
+/* Red dark colors */
+/* Sky colors */
+/* Slate colors */
+/* Stone colors */
+/* Teal colors */
+/* Yellow colors */
+/* Yellow dark colors */
+/* Zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=====  End of Colors  ======*/
+/*=============================================
+=                 Typography                  =
+=============================================*/
+/* Font Families */
+/**
+ *
+ * 1) The playfair font. We'll use this for headings mostly.
+ *     https://fonts.google.com/specimen/Playfair+Display
+ *
+ * 2) The raleway font. We'll use this for the body text.
+ *     https://fonts.google.com/specimen/Raleway
+ */
+/* 1 */
+/* 2 */
+/*----------  End of Font Familie  ----------*/
+/*----------  Font weights  ----------*/
+/*----------  End of Font weights  ----------*/
+/*----------  Display font variables  ----------*/
+/*----------  End of Display font variables  ----------*/
+/*----------  Heading font variables  ----------*/
+/*----------  End of Heading font variables  ----------*/
+/*----------  Body font variables  ----------*/
+/* body font size */
+/* body line height */
+/* body letter spacing */
+/*----------  End of Body font variables  ----------*/
+/*----------  Label font variables  ----------*/
+/*----------  End of Label font variables  ----------*/
+/*----------  Underline font variables  ----------*/
+/*----------  End of Underline font variables  ----------*/
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoint            =
+=============================================*/
+/*=====  End of Breakpoint  ======*/
+/*=============================================
+=            Spacing                          =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=                  Shadows                    =
+=============================================*/
+/*=====  End of Shadows  ======*/
+/*=============================================
+=            Spacing             =
+=============================================*/
+/*=====  End of Spacing   ======*/
+/*=============================================
+=            Corner Radius            =
+=============================================*/
+/*=====  End of Corner Radius  ======*/
+/*=============================================
+=            Breakpoints           =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* 1 */
+/* 2 */
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+/*----------  Heading font variables  ----------*/
+/*----------  End of Typography variables  ----------*/
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variables.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+/*=============================================
+=            Global Colors Palette                    =
+=============================================*/
+/* Global fuchsia colors */
+/* Global violet colors */
+/* Global purple colors */
+/* Global indigo colors */
+/* Global blue light colors */
+/* Global blue dark colors*/
+/* Global blue gray colors */
+/* Global blue colors */
+/* Global cyan colors */
+/* Global dimgray colors */
+/* Global emerald colors */
+/* Global gold colors */
+/* Global green colors */
+/* Global green dark colors */
+/* Global lime colors */
+/* Global orange colors */
+/* Global pink colors */
+/* Global rose colors */
+/* Global red colors */
+/* Global red dark colors */
+/* Global sky colors */
+/* Global slate colors */
+/* Global stone colors */
+/* Global teal colors */
+/* Global yellow colors */
+/* Global yellow dark colors */
+/* Global zinc colors */
+/*=====  End of Global colors palette ======*/
+/*=============================================
+=            Semantic colors            =
+=============================================*/
+/*----------  Semantic Base  ----------*/
+/*---------- Semantic Brand  ----------*/
+/*----------  Dark Semantic Brand  ----------*/
+/*----------  Dark Semantic brand_alt  ----------*/
+/*----------  Semantic neutral  ----------*/
+/*----------  Dark Semantic neutral  ----------*/
+/*----------  Semantic success  ----------*/
+/*----------  Dark Semantic success  ----------*/
+/*----------  Semantic warning  ----------*/
+/*----------  Dark Semantic warning  ----------*/
+/*----------  Semantic error  ----------*/
+/*----------  Dark Semantic error  ----------*/
+/*=====  End of Semantic colors  ======*/
+/*=============================================
+=            Transparent colors tokens            =
+=============================================*/
+/*---------- Transparent Colors  ----------*/
+/*---------- Dark Semantic transparent Colors  ----------*/
+/*----------  Brand Transparent Colors  ----------*/
+/*=====  End of Transparent colors tokens  ======*/
+/*=============================================
+=            Background colors tokens            =
+=============================================*/
+/*----------  Background Semantic Base Colors  ----------*/
+/*---------- Dark Background Semantic Colors  ----------*/
+/*----------  Background Semantic Brand Colors  ----------*/
+/*----------  Dark Background Semantic Brand Colors  ----------*/
+/*----------  Background Semantic Neutral Colors  ----------*/
+/*----------  Dark Background Semantic Neutral Colors  ----------*/
+/*----------  Background Semantic Success Colors  ----------*/
+/*----------  Dark Background Semantic Success Colors  ----------*/
+/*----------  Background Semantic Warning Colors  ----------*/
+/*----------  Dark Background Semantic Warning Colors  ----------*/
+/*----------  Background Semantic Error Colors  ----------*/
+/*----------  Dark Background Semantic Error Colors  ----------*/
+/*=====  End of Background colors tokens  ======*/
+/*=============================================
+=            Foreground colors tokens            =
+=============================================
+
+/*----------  Foreground Semantic Neutral Colors  ----------*/
+/*----------  Dark Foreground Semantic Neutral Colors  ----------*/
+/*----------  Foreground Semantic Light Colors  ----------*/
+/*----------  Dark Foreground Semantic Light Colors  ----------*/
+/*----------  Foreground Semantic Brand Colors  ----------*/
+/*----------  Dark Foreground Semantic Brand Colors  ----------*/
+/*----------  Foreground Semantic Success Colors  ----------*/
+/*----------  Dark Foreground Semantic Success Colors  ----------*/
+/*----------  Foreground Semantic Warning Colors  ----------*/
+/*----------  Dark Foreground Semantic Warning Colors  ----------*/
+/*----------  Foreground Semantic Error Colors  ----------*/
+/*----------  Dark Foreground Semantic Error Colors  ----------*/
+/*----------  Foreground Semantic Link Colors  ----------*/
+/*----------  Dark Foreground Semantic Link Colors  ----------*/
+/*=====  End of Foreground colors tokens  ======*/
+/*=============================================
+=            Border colors tokens            =
+=============================================*/
+/*----------  Border Semantic Base Colors  ----------*/
+/*----------  Dark Border Semantic Base Colors  ----------*/
+/*----------  Border Semantic Neutral Colors  ----------*/
+/*----------  Dark Border Semantic Neutral Colors  ----------*/
+/*----------  Border Semantic Brand Colors  ----------*/
+/*----------  Dark Border Semantic Brand Colors  ----------*/
+/*----------  Border Semantic Success Colors  ----------*/
+/*----------  Dark Border Semantic Success Colors  ----------*/
+/*----------  Border Semantic Warning Colors  ----------*/
+/*----------  Dark Border Semantic Warning Colors  ----------*/
+/*----------  Border Semantic Error Colors  ----------*/
+/*----------  Dark Border Semantic Error Colors  ----------*/
+/*=====  End of Border colors tokens  ======*/
+/*=============================================
+=            Global 2 color gradient colors            =
+=============================================*/
+/*=====  End of Global 2 color gradient colors  ======*/
+/*=============================================
+=            Global 3 color gradient colors            =
+=============================================*/
+/*=====  End of Global 3 color gradient colors  ======*/
+/*=============================================
+=            Global 4 color gradient colors            =
+=============================================*/
+/*=====  End of Global 4 color gradient colors  ======*/
+/*=============================================
+=            Global 8 color gradient colors            =
+=============================================*/
+/*=====  End of Global 8 color gradient colors  ======*/
+/*=============================================
+=            Action color tokens            =
+=============================================*/
+/*----------  Action Background Base Colors  ----------*/
+/*----------  Action Background Brand Colors  ----------*/
+/*----------  Action Background Neutral Colors  ----------*/
+/*----------  Action Background Error Colors  ----------*/
+/*----------  Action Background Success Colors  ----------*/
+/*----------  Action Background Warning Colors  ----------*/
+/*----------  Action Foreground Base Colors  ----------*/
+/*----------  Action Foreground Brand Colors  ----------*/
+/*----------  Action Foreground Neutral Colors  ----------*/
+/*----------  Action Foreground Error Colors  ----------*/
+/*----------  Action Foreground Success Colors  ----------*/
+/*----------  Action Foreground Warning Colors  ----------*/
+/*----------  Action Border Brand Colors  ----------*/
+/*----------  Action Border Neutral Colors  ----------*/
+/*----------  Action Border Error Colors  ----------*/
+/*----------  Action Border Success Colors  ----------*/
+/*----------  Action Border Warning Colors  ----------*/
+/*=============================================
+=            Other Color Tokens               =
+=============================================*/
+/*----------  Fuchsia  ----------*/
+/*----------  Purple  ----------*/
+/*----------  Cyan  ----------*/
+/*----------  Pink  ----------*/
+/*----------  Sky  ----------*/
+/*----------  Black  ----------*/
+/*=====  End of Other Color Tokens  ======*/
+/*=============================================
+=            Mixins                           =
+=============================================*/
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+ */
+/*=============================================
+=            Divider Without Children            =
+=============================================*/
+.dsc-divider-without-children-base {
+  display: block; /* block */
+  border-bottom: 0; /* border-b-0 */
+  width: 100%;
+  border-top-style: solid;
+}
+
+.dsc-divider-without-children-primary {
+  border-top-color: var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)); /* border-t-primary-100 */
+}
+
+[data-theme=dark] .dsc-divider-without-children-primary {
+  border-top-color: var(--dsc-dark-semantic-brand-100, var(--dsc-global-blue-dark-100, #AABFFC)); /* dark:border-t-primary-100 */
+}
+
+.dsc-divider-without-children-secondary {
+  border-top-color: var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)); /* border-t-metal-100 */
+}
+
+[data-theme=dark] .dsc-divider-without-children-secondary {
+  border-top-color: var(--dsc-dark-semantic-neutral-100, var(--dsc-global-slate-700, #3D4A5C)); /* dark:border-t-metal-700 */
+}
+
+.dsc-divider-without-children-success {
+  border-top-color: var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)); /* border-t-success-100 */
+}
+
+[data-theme=dark] .dsc-divider-without-children-success {
+  border-top-color: var(--dsc-dark-semantic-success-100, var(--dsc-global-green-dark-100, #7BE1AF)); /* dark:border-t-success-100 */
+}
+
+.dsc-divider-without-children-warning {
+  border-top-color: var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D)); /* border-t-warning-100 */
+}
+
+[data-theme=dark] .dsc-divider-without-children-warning {
+  border-top-color: var(--dsc-dark-semantic-warning-100, var(--dsc-global-yellow-dark-100, #F6E092)); /* dark:border-t-warning-100 */
+}
+
+.dsc-divider-without-children-error {
+  border-top-color: var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)); /* border-t-error-100 */
+}
+
+[data-theme=dark] .dsc-divider-without-children-error {
+  border-top-color: var(--dsc-dark-semantic-error-100, var(--dsc-global-red-dark-100, #FBA8A8)); /* dark:border-t-error-100 */
+}
+
+/* Sizes */
+.dsc-divider-without-children-sm {
+  border-top-width: 0.5px; /* border-t-[0.5px] */
+}
+
+.dsc-divider-without-children-md {
+  border-top-width: 1px; /* border-t */
+}
+
+.dsc-divider-without-children-lg {
+  border-top-width: 2px; /* border-t-2 */
+}
+
+.dsc-divider-without-children-xl {
+  border-top-width: 4px; /* border-t-4 */
+}
+
+.dsc-divider-without-children-2xl {
+  border-top-width: 8px; /* border-t-8 */
+}
+
+/*=====  End of Divider Without Children  ======*/
+/*=============================================
+=            Divider With Children            =
+=============================================*/
+.dsc-divider-with-children-base {
+  display: flex; /* flex */
+  align-items: center; /* items-center */
+  font-size: 1rem; /* text-body-4 */
+  width: 100%;
+}
+
+.dsc-divider-with-children-primary {
+  color: var(--dsc-semantic-brand-500, var(--dsc-global-blue-500, #1B4DFF)); /* text-primary-500 */
+}
+
+.dsc-divider-with-children-secondary {
+  color: var(--dsc-semantic-neutral-500, var(--dsc-global-slate-500, #5E718D)); /* text-metal-500 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-secondary {
+  color: var(--dsc-dark-semantic-neutral-500, var(--dsc-global-slate-300, #AFBACA)); /* dark:text-white */
+}
+
+.dsc-divider-with-children-success {
+  color: var(--dsc-semantic-success-500, var(--dsc-global-green-500, #11A75C)); /* text-success-500 */
+}
+
+.dsc-divider-with-children-warning {
+  color: var(--dsc-semantic-warning-500, var(--dsc-global-yellow-500, #E9B90B)); /* text-warning-500 */
+}
+
+.dsc-divider-with-children-error {
+  color: var(--dsc-semantic-error-500, var(--dsc-global-red-500, #FF3838)); /* text-error-500 */
+}
+
+/* Sizes for Start */
+.dsc-divider-with-children-start-sm::after {
+  border-top-width: 0.5px; /* after:border-t-[0.5px] */
+}
+
+.dsc-divider-with-children-start-md::after {
+  border-top-width: 1px; /* after:border-t */
+}
+
+.dsc-divider-with-children-start-lg::after {
+  border-top-width: 2px; /* after:border-t-2 */
+}
+
+.dsc-divider-with-children-start-xl::after {
+  border-top-width: 4px; /* after:border-t-4 */
+}
+
+.dsc-divider-with-children-start-2xl::after {
+  border-top-width: 8px; /* after:border-t-8 */
+}
+
+/* Sizes for Center */
+.dsc-divider-with-children-center-sm::before,
+.dsc-divider-with-children-center-sm::after {
+  border-top-width: 0.5px; /* before:border-t-[0.5px] after:border-t-[0.5px] */
+}
+
+.dsc-divider-with-children-center-md::before,
+.dsc-divider-with-children-center-md::after {
+  border-top-width: 1px; /* before:border-t after:border-t */
+}
+
+.dsc-divider-with-children-center-lg::before,
+.dsc-divider-with-children-center-lg::after {
+  border-top-width: 2px; /* before:border-t-2 after:border-t-2 */
+}
+
+.dsc-divider-with-children-center-xl::before,
+.dsc-divider-with-children-center-xl::after {
+  border-top-width: 4px; /* before:border-t-4 after:border-t-4 */
+}
+
+.dsc-divider-with-children-center-2xl::before,
+.dsc-divider-with-children-center-2xl::after {
+  border-top-width: 8px; /* before:border-t-8 after:border-t-8 */
+}
+
+/* Sizes for End */
+.dsc-divider-with-children-end-sm::before {
+  border-top-width: 0.5px; /* before:border-t-[0.5px] */
+}
+
+.dsc-divider-with-children-end-md::before {
+  border-top-width: 1px; /* before:border-t */
+}
+
+.dsc-divider-with-children-end-lg::before {
+  border-top-width: 2px; /* before:border-t-2 */
+}
+
+.dsc-divider-with-children-end-xl::before {
+  border-top-width: 4px; /* before:border-t-4 */
+}
+
+.dsc-divider-with-children-end-2xl::before {
+  border-top-width: 8px; /* before:border-t-8 */
+}
+
+/* Colors for Start */
+.dsc-divider-with-children-start-primary::after {
+  border-top-color: var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)); /* after:border-primary-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-start-primary::after {
+  border-top-color: var(--dsc-dark-semantic-brand-100, var(--dsc-global-blue-dark-100, #AABFFC)); /* dark::after:border-primary-100 */
+}
+
+.dsc-divider-with-children-start-secondary::after {
+  border-top-color: var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)); /* after:border-metal-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-start-secondary::after {
+  border-top-color: var(--dsc-dark-semantic-neutral-100, var(--dsc-global-slate-700, #3D4A5C)); /* dark::after:border-metal-700 */
+}
+
+.dsc-divider-with-children-start-success::after {
+  border-top-color: var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)); /* after:border-success-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-start-success::after {
+  border-top-color: var(--dsc-dark-semantic-success-100, var(--dsc-global-green-dark-100, #7BE1AF)); /* dark::after:border-success-100 */
+}
+
+.dsc-divider-with-children-start-warning::after {
+  border-top-color: var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D)); /* after:border-warning-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-start-warning::after {
+  border-top-color: var(--dsc-dark-semantic-warning-100, var(--dsc-global-yellow-dark-100, #F6E092)); /* dark::after:border-warning-100 */
+}
+
+.dsc-divider-with-children-start-error::after {
+  border-top-color: var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)); /* after:border-error-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-start-error::after {
+  border-top-color: var(--dsc-dark-semantic-error-100, var(--dsc-global-red-dark-100, #FBA8A8)); /* dark::after:border-error-100 */
+}
+
+/* Colors for Center */
+.dsc-divider-with-children-center-primary::before,
+.dsc-divider-with-children-center-primary::after {
+  border-top-color: var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)); /* before:border-primary-100 after:border-primary-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-center-primary::before,
+[data-theme=dark] .dsc-divider-with-children-center-primary::after {
+  border-top-color: var(--dsc-dark-semantic-brand-100, var(--dsc-global-blue-dark-100, #AABFFC)); /* dark::before:border-primary-100 dark::after:border-primary-100 */
+}
+
+.dsc-divider-with-children-center-secondary::before,
+.dsc-divider-with-children-center-secondary::after {
+  border-top-color: var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)); /* before:border-metal-100 after:border-metal-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-center-secondary::before,
+[data-theme=dark] .dsc-divider-with-children-center-secondary::after {
+  border-top-color: var(--dsc-dark-semantic-neutral-100, var(--dsc-global-slate-700, #3D4A5C)); /* dark::before:border-metal-700 dark::after:border-metal-700 */
+}
+
+.dsc-divider-with-children-center-success::before,
+.dsc-divider-with-children-center-success::after {
+  border-top-color: var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)); /* before:border-success-100 after:border-success-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-center-success::before,
+[data-theme=dark] .dsc-divider-with-children-center-success::after {
+  border-top-color: var(--dsc-dark-semantic-success-100, var(--dsc-global-green-dark-100, #7BE1AF)); /* dark::before:border-success-100 dark::after:border-success-100 */
+}
+
+.dsc-divider-with-children-center-warning::before,
+.dsc-divider-with-children-center-warning::after {
+  border-top-color: var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D)); /* before:border-warning-100 after:border-warning-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-center-warning::before,
+[data-theme=dark] .dsc-divider-with-children-center-warning::after {
+  border-top-color: var(--dsc-dark-semantic-warning-100, var(--dsc-global-yellow-dark-100, #F6E092)); /* dark::before:border-warning-100 dark::after:border-warning-100 */
+}
+
+.dsc-divider-with-children-center-error::before,
+.dsc-divider-with-children-center-error::after {
+  border-top-color: var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)); /* before:border-error-100 after:border-error-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-center-error::before,
+[data-theme=dark] .dsc-divider-with-children-center-error::after {
+  border-top-color: var(--dsc-dark-semantic-error-100, var(--dsc-global-red-dark-100, #FBA8A8)); /* dark::before:border-error-100 dark::after:border-error-100 */
+}
+
+/* Colors for End */
+.dsc-divider-with-children-end-primary::before {
+  border-top-color: var(--dsc-semantic-brand-100, var(--dsc-global-blue-100, #AEBFFF)); /* before:border-primary-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-end-primary::before {
+  border-top-color: var(--dsc-dark-semantic-brand-100, var(--dsc-global-blue-dark-100, #AABFFC)); /* dark::before:border-primary-100 */
+}
+
+.dsc-divider-with-children-end-secondary::before {
+  border-top-color: var(--dsc-semantic-neutral-100, var(--dsc-global-slate-100, #E9EFF6)); /* before:border-metal-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-end-secondary::before {
+  border-top-color: var(--dsc-dark-semantic-neutral-100, var(--dsc-global-slate-700, #3D4A5C)); /* dark::before:border-metal-700 */
+}
+
+.dsc-divider-with-children-end-success::before {
+  border-top-color: var(--dsc-semantic-success-100, var(--dsc-global-green-100, #8FE7B8)); /* before:border-success-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-end-success::before {
+  border-top-color: var(--dsc-dark-semantic-success-100, var(--dsc-global-green-dark-100, #7BE1AF)); /* dark::before:border-success-100 */
+}
+
+.dsc-divider-with-children-end-warning::before {
+  border-top-color: var(--dsc-semantic-warning-100, var(--dsc-global-yellow-100, #FFE99D)); /* before:border-warning-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-end-warning::before {
+  border-top-color: var(--dsc-dark-semantic-warning-100, var(--dsc-global-yellow-dark-100, #F6E092)); /* dark::before:border-warning-100 */
+}
+
+.dsc-divider-with-children-end-error::before {
+  border-top-color: var(--dsc-semantic-error-100, var(--dsc-global-red-100, #FFC5C1)); /* before:border-error-100 */
+}
+
+[data-theme=dark] .dsc-divider-with-children-end-error::before {
+  border-top-color: var(--dsc-dark-semantic-error-100, var(--dsc-global-red-dark-100, #FBA8A8)); /* dark::before:border-error-100 */
+}
+
+/* Variants */
+.dsc-divider-with-children-start::after {
+  margin-inline-start: 1.5rem; /* after:ms-6 */
+  flex: 1 1 0%; /* after:flex-[1_1_0%] */
+  content: "";
+  border-top-style: solid;
+}
+
+.dsc-divider-with-children-end::before {
+  margin-inline-end: 1.5rem; /* before:me-6 */
+  flex: 1 1 0%; /* before:flex-[1_1_0%] */
+  content: "";
+  border-top-style: solid;
+}
+
+.dsc-divider-with-children-center::before {
+  margin-inline-end: 1.5rem; /* before:me-6 */
+  flex: 1 1 0%; /* before:flex-[1_1_0%] */
+  content: "";
+  border-top-style: solid;
+}
+
+.dsc-divider-with-children-center::after {
+  margin-inline-start: 1.5rem; /* after:ms-6 */
+  flex: 1 1 0%; /* after:flex-[1_1_0%] */
+  content: "";
+  border-top-style: solid;
+}
+
+/*=====  End of Divider With Children  ======*/

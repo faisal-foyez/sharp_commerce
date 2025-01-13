@@ -32,6 +32,8 @@ export * from './Molecules/Progress';
 export * from './Molecules/Pagination';
 export * from './Molecules/Card';
 export * from './Molecules/Carousel';
+export * from './Atoms/Rating';
+export * from './Atoms/Divider';
 export { 
   Button, 
   LinkButton, 
