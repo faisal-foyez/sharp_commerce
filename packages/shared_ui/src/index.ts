@@ -34,6 +34,7 @@ export * from './Molecules/Card';
 export * from './Molecules/Carousel';
 export * from './Atoms/Rating';
 export * from './Atoms/Divider';
+export * from './Molecules/Sidebar';
 export { 
   Button, 
   LinkButton, 
