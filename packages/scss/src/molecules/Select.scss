@@ -1,2 +1,244 @@
 @import '../foundation/all';
 
+.dsc-select-trigger {
+  display: flex;                     /* Equivalent to "flex" */
+  height: 2.75rem;                   /* Equivalent to "h-11" (11 * 0.25rem) */
+  width: 100%;                       /* Equivalent to "w-full" */
+  align-items: center;               /* Equivalent to "items-center" */
+  justify-content: space-between;    /* Equivalent to "justify-between" */
+  border-radius: 0.5rem;             /* Equivalent to "rounded-lg" */
+  border: 1px solid $semantic-neutral-100;         /* Equivalent to "border" (replace with `border-metal-100` if needed) */
+  background-color: $background-base-white;         /* Equivalent to "bg-white" */
+  padding: 0.5rem 0.75rem;           /* Equivalent to "px-3 py-2" */
+  font-size: 0.875rem;               /* Equivalent to "text-body-4" */
+  font-weight: 400;                  /* Equivalent to "font-normal" */
+  color: $semantic-neutral-900;                    /* Equivalent to "text-metal-900" */
+  transition: box-shadow 0.2s;       /* Smooth transition for focus states */
+  
+  &::placeholder {
+    font-weight: 400;                  /* Equivalent to "placeholder:font-normal" */
+    color: $semantic-neutral-200;                    /* Equivalent to "placeholder:text-metal-200" */
+  }
+  
+  &:focus-visible {
+    outline: none;                     /* Equivalent to "focus-visible:outline-none" */
+    box-shadow: 0 0 0 2px $semantic-neutral-200;     /* Equivalent to "focus-visible:ring-2 focus-visible:ring-metal-200" */
+  }
+  
+  &:disabled {
+    cursor: not-allowed;               /* Equivalent to "disabled:cursor-not-allowed" */
+    opacity: 0.5;                      /* Equivalent to "disabled:opacity-50" */
+  }
+}
+
+@include dark-mode {
+  .dsc-select-trigger {
+    border-color: $dark-semantic-neutral-100;             /* Equivalent to "dark:border-metal-800" */
+    background-color: $dark-background-base-white;         /* Equivalent to "dark:bg-metal-900" */
+    color: $dark-semantic-neutral-900;                    /* Equivalent to "dark:text-white" */
+    
+    &::placeholder {
+      color: $semantic-neutral-300;                    /* Equivalent to "dark:placeholder:text-metal-300" */
+    }
+    
+    &:focus-visible {
+      box-shadow: 0 0 0 2px $dark-background-base-white;     /* Equivalent to "dark:focus-visible:ring-metal-900" */
+    }
+  }
+}
+
+.dsc-select-icon {
+  height: 1rem;                     /* Equivalent to "h-4" (4 * 0.25rem) */
+  width: 1rem;                      /* Equivalent to "w-4" (4 * 0.25rem) */
+  fill: $semantic-neutral-900;                    /* Equivalent to "fill-metal-900" */
+}
+
+@include dark-mode {
+  .dsc-select-icon {
+    fill: $dark-semantic-neutral-900;                    /* Equivalent to "dark:fill-white" */
+  }
+}
+
+.dsc-select-content {
+  position: relative;            /* relative */
+  z-index: 50;                   /* z-50 */
+  max-height: 24rem;             /* max-h-96 (96 * 0.25rem) */
+  overflow: hidden;              /* overflow-hidden */
+  border-radius: 0.75rem;        /* rounded-xl */
+  border: 1px solid $semantic-neutral-100;     /* border (light mode) */
+  background-color: $background-base-white;     /* bg-white */
+  padding: 1rem;                 /* p-4 (4 * 0.25rem) */
+  color: $semantic-neutral-600;                /* text-metal-600 */
+}
+
+@include dark-mode {
+  .dsc-select-content {
+    border-color: $dark-semantic-neutral-100;         /* dark:border-metal-900 */
+    background-color: $dark-background-base-white;     /* dark:bg-metal-900 */
+  }
+}
+
+.dsc-select-content-if-popper {
+  &[data-side="bottom"] {
+    transform: translateY(0.25rem); /* translate-y-1 -> 1 * 0.25rem */
+  }
+  
+  &[data-side="left"] {
+    transform: translateX(-0.25rem); /* -translate-x-1 -> -1 * 0.25rem */
+  }
+  
+  &[data-side="right"] {
+    transform: translateX(0.25rem); /* translate-x-1 -> 1 * 0.25rem */
+  }
+  
+  &[data-side="top"] {
+    transform: translateY(-0.25rem); /* -translate-y-1 -> -1 * 0.25rem */
+  }
+}
+
+.dsc-select-content-animate[data-state="open"] {
+  animation: fadeInUp 0.3s ease-in-out; /* Adjust duration and timing as needed */
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem); /* Adjust to match Tailwind's default scale */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dsc-select-content-viewport {
+  padding: .25rem;
+}
+
+.dsc-select-content-viewport-if-popper {
+  height: var(--radix-select-trigger-height);
+  width: 100%;
+  min-width: calc(var(--radix-select-trigger-width) - 32px);
+}
+
+.dsc-select-divider {
+  margin-left: -0.25rem; /* Negative margin for x-axis */
+  margin-right: -0.25rem; /* Negative margin for x-axis */
+  margin-top: 0.25rem; /* Margin for y-axis */
+  margin-bottom: 0.25rem; /* Margin for y-axis */
+  height: 1px; /* Height of the element */
+  background-color: $semantic-neutral-100; /* Default background color */
+}
+
+@include dark-mode {
+  .dsc-select-divider {
+    background-color: $dark-semantic-neutral-100; /* Background color for dark mode */
+  }
+}
+
+.dsc-select-item {
+  position: relative; /* Corresponds to `relative` */
+  display: flex; /* Corresponds to `flex` */
+  width: 100%; /* Corresponds to `w-full` */
+  cursor: default; /* Corresponds to `cursor-default` */
+  user-select: none; /* Corresponds to `select-none` */
+  align-items: center; /* Corresponds to `items-center` */
+  border-radius: 0.5rem; /* Corresponds to `rounded-lg` */
+  padding: 0.625rem; /* Corresponds to `p-2.5` */
+  font-size: 0.875rem; /* Assuming a variable for `text-body-4` */
+  font-weight: 500; /* Corresponds to `font-medium` */
+  color: $semantic-neutral-600; /* Corresponds to `text-metal-600` */
+  outline: none; /* Corresponds to `outline-none` */
+  
+  &:focus {
+    background-color: $semantic-neutral-50; /* Corresponds to `focus:bg-metal-50` */
+    color: $semantic-neutral-900; /* Corresponds to `focus:text-metal-900` */
+  }
+  
+  &[data-disabled] {
+    pointer-events: none; /* Corresponds to `data-[disabled]:pointer-events-none` */
+    opacity: 0.5; /* Corresponds to `data-[disabled]:opacity-50` */
+  }
+}
+
+
+@include dark-mode {
+  .dsc-select-item {
+    color: $semantic-neutral-900; /* Corresponds to `dark:text-white` */
+    
+    &:focus {
+      background-color: $dark-semantic-neutral-800; /* Corresponds to `dark:focus:bg-metal-800` */
+      color: $semantic-neutral-900; /* Corresponds to `dark:focus:text-white` */
+    }
+  }
+}
+
+.dsc-select-item-text {
+  display: flex; /* Corresponds to `flex` */
+  align-items: center; /* Corresponds to `items-center` */
+  gap: 0.625rem; /* Corresponds to `gap-2.5` (10px) */
+}
+
+.dsc-select-item-indicator-container {
+  position: absolute; /* Corresponds to `absolute` */
+  right: 0.5rem; /* Corresponds to `right-2` (8px) */
+  display: flex; /* Corresponds to `flex` */
+  height: 0.875rem; /* Corresponds to `h-3.5` (14px) */
+  width: 0.875rem; /* Corresponds to `w-3.5` (14px) */
+  align-items: center; /* Corresponds to `items-center` */
+  justify-content: center; /* Corresponds to `justify-center` */
+}
+
+.dsc-select-item-indicator-container-show {
+  display: block;
+}
+
+.dsc-select-item-indicator-container-hide {
+  display: none;
+}
+
+.dsc-select-item-indicator-icon {
+  height: 1rem; /* h-4 corresponds to 1rem */
+  width: 1rem;  /* w-4 corresponds to 1rem */
+  fill: $semantic-neutral-900; /* fill-metal-900 corresponds to a dark gray color */
+}
+
+@include dark-mode {
+  .dsc-select-item-indicator-icon {
+    fill: $dark-semantic-neutral-900; /* dark:fill-white corresponds to white in dark mode */
+  }
+}
+
+.dsc-select-label {
+  padding: 0.625rem; /* p-2.5 corresponds to 0.625rem */
+  font-size: 1rem; /* text-body-4 typically maps to 1rem */
+  font-weight: 500; /* font-medium corresponds to 500 weight */
+  color: $semantic-neutral-900; /* text-metal-900 corresponds to a dark gray color */
+}
+
+@include dark-mode {
+  .dsc-select-label {
+    color: $dark-semantic-neutral-900; /* dark:text-white corresponds to white color in dark mode */
+  }
+}
+
+.dsc-select-scroll-button-container {
+  display: flex; /* flex */
+  cursor: default; /* cursor-default */
+  align-items: center; /* items-center */
+  justify-content: center; /* justify-center */
+  padding-top: 0.25rem; /* py-1 corresponds to 0.25rem */
+  padding-bottom: 0.25rem; /* py-1 corresponds to 0.25rem */
+}
+
+.dsc-select-scroll-button-icon {
+  height: 1rem; /* h-4 corresponds to 1rem (16px) */
+  width: 1rem; /* w-4 corresponds to 1rem (16px) */
+  fill: $semantic-neutral-900; /* fill-metal-900 corresponds to a dark shade of gray */
+}
+
+@include dark-mode {
+  .dsc-select-scroll-button-icon {
+    fill: $dark-semantic-neutral-900; /* dark:fill-white sets the fill to white in dark mode */
+  }
+}

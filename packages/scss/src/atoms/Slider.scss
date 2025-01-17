@@ -1,0 +1,49 @@
+@import '../foundation/all';
+
+.dsc-slider-root {
+  position: relative;
+  display: flex;
+  width: 100%;
+  touch-action: none;
+  user-select: none;
+  align-items: center;
+}
+
+.dsc-slider-track {
+  position: relative;
+  height: 0.5rem;
+  width: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+  border-radius: $radius-full-round;
+  background-color: $semantic-brand-25;
+}
+
+.dsc-slider-range {
+  position: absolute;
+  height: 100%;
+  background-color: $semantic-brand-500;
+}
+
+
+.dsc-slider-thumb {
+  display: block;               /* Equivalent to "block" */
+  height: 1.25rem;              /* Equivalent to "h-5" (5 * 0.25rem) */
+  width: 1.25rem;               /* Equivalent to "w-5" (5 * 0.25rem) */
+  border-radius: $radius-full-round;        /* Equivalent to "rounded-full" */
+  border: 2px solid $semantic-brand-500;    /* Equivalent to "border-2 border-brand-500" (replace #3B82F6 with your brand-500 color) */
+  background-color: $semantic-brand-25;
+  box-shadow: 0 0 0 0px $background-base-white;
+  transition: color 0.3s, background-color 0.3s;
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px $background-base-white, 0 0 0 4px $semantic-brand-500;
+  }
+
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+}
+
