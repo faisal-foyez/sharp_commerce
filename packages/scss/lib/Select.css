@@ -451,7 +451,7 @@
 }
 
 [data-theme=dark] .dsc-select-item {
-  color: var(--dsc-semantic-neutral-900, var(--dsc-global-slate-900, #1C222B)); /* Corresponds to `dark:text-white` */
+  color: var(--dsc-dark-semantic-neutral-600, var(--dsc-global-slate-200, #D7DFE9)); /* Corresponds to `dark:text-white` */
 }
 [data-theme=dark] .dsc-select-item:focus {
   background-color: var(--dsc-dark-semantic-neutral-800, var(--dsc-global-slate-50, #F0F3F9)); /* Corresponds to `dark:focus:bg-metal-800` */

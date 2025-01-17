@@ -164,7 +164,7 @@
 
 @include dark-mode {
   .dsc-select-item {
-    color: $semantic-neutral-900; /* Corresponds to `dark:text-white` */
+    color: $dark-semantic-neutral-600; /* Corresponds to `dark:text-white` */
     
     &:focus {
       background-color: $dark-semantic-neutral-800; /* Corresponds to `dark:focus:bg-metal-800` */
