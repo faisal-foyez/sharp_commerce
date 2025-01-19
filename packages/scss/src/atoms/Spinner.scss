@@ -1,0 +1,71 @@
+@import '../foundation/all';
+
+.dsc-spinner-svg {
+    width: 2rem; /* size-8 corresponds to 2rem (32px) */
+    height: 2rem; /* size-8 corresponds to 2rem (32px) */
+    animation: spin 1s linear infinite; /* animate-spin applies a spinning animation */
+}
+
+/* Keyframes for spin animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dsc-spinner-icon-path {
+  opacity: 0.20;
+}
+
+.dsc-spinner-primary {
+  fill: $semantic-brand-500;
+}
+
+@include dark-mode {
+  .dsc-spinner-primary {
+    fill: $dark-semantic-brand-500;
+  }
+}
+
+.dsc-spinner-secondary {
+  fill: $semantic-neutral-900;
+}
+
+@include dark-mode {
+  .dsc-spinner-secondary {
+    fill: $dark-semantic-neutral-900;
+  }
+}
+
+.dsc-spinner-error {
+  fill: $semantic-error-500;
+}
+
+@include dark-mode {
+  .dsc-spinner-error {
+    fill: $dark-semantic-error-500;
+  }
+}
+
+.dsc-spinner-warning {
+  fill: $semantic-warning-500;
+}
+
+@include dark-mode {
+  .dsc-spinner-warning {
+    fill: $dark-semantic-warning-500;
+  }
+}
+
+.dsc-spinner-success {
+  fill: $semantic-success-500;
+}
+
+@include dark-mode {
+  .dsc-spinner-success {
+    fill: $dark-semantic-success-500;
+  }
+}
