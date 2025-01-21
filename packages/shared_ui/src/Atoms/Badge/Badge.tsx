@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { HTMLAttributes } from 'react';
 import { BadgeColor, BadgeSize, BadgeStyle } from '@dsc/foundation/lib';
 import '@dsc/scss/lib/Badge.css';
 import { cn } from '../../utils/cn';
@@ -7,11 +7,11 @@ type BadgeColorType = keyof typeof BadgeColor;
 type BadgeSizeType = keyof typeof BadgeSize;
 type BadgeStyleType = keyof typeof BadgeStyle;
 
-interface BadgeProps {
+interface BadgeProps extends HTMLAttributes<HTMLDivElement> {
   children?: string;
-  color?: BadgeColorType;
-  size?: BadgeSizeType;
-  style?: BadgeStyleType;
+  colorVariant?: BadgeColorType;
+  sizeVariant?: BadgeSizeType;
+  styleVariant?: BadgeStyleType;
   disabled?: boolean;
   isShowDot?: boolean;
   leftIcon?: React.ReactNode;
@@ -22,9 +22,9 @@ interface BadgeProps {
 
 const Badge = ({
   children='Badge',
-  color='blue', 
-  size='large', 
-  style='fill', 
+  colorVariant='blue', 
+  sizeVariant='large', 
+  styleVariant='fill', 
   disabled=false, 
   isShowDot=false, 
   leftIcon, 
@@ -42,9 +42,9 @@ const Badge = ({
   return (
     <div className={cn(
       'badge',
-      `badge-${color}`,
-      `badge-${style}`,
-      `badge-${size}`,
+      `badge-${colorVariant}`,
+      `badge-${styleVariant}`,
+      `badge-${sizeVariant}`,
       disabled && 'badge-disabled'
     )} {...props}>
       {isShowDot && <div className='badge-dot'></div>}
