@@ -40,7 +40,7 @@ const Label = ({
       <span className="label-text">
         {children}
         {isShowOptional && <span className={cn('optional-text')}>{'(Optional)'}</span>}
-        {isShowBadge && <Badge color='blue' style='light' size='small'>{badgeText}</Badge>}
+        {isShowBadge && <Badge colorVariant='blue' styleVariant='light' sizeVariant='small'>{badgeText}</Badge>}
         {isShowRequired && <span className={cn('required-text')}>*</span>}
       </span>
       {isShowInfoIcon && (
