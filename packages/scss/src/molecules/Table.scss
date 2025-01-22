@@ -1,0 +1,125 @@
+@import '../foundation/all';
+
+.dsc-table-container {
+  position: relative; /* Establishes a positioned container */
+  width: 100%; /* Sets the width to 100% of its parent */
+  overflow: auto; /* Adds scrollbars if the content overflows */
+}
+
+.dsc-table {
+  width: 100%; /* Full width of the parent */
+  overflow: hidden; /* Hides any overflowing content */
+  border-radius: 1rem; /* Matches Tailwind's rounded-2xl */
+  background-color: $background-base-white; /* White background */
+  font-size: 1rem; /* Default font size for body-4 */
+  line-height: 1.5; /* Default line height for body-4 */
+  color: inherit; /* Inherits the text color */
+}
+
+@include dark-mode {
+  .dsc-table {
+    background-color: $dark-background-base-white; /* Matches Tailwind's dark:bg-metal-900 */
+  }
+}
+
+.dsc-table-tbody tr:last-child {
+  border: none;
+}
+
+.dsc-table-caption {
+  background-color: $background-base-white;
+  padding: 1rem 1.5rem; /* px-6 and py-4 */
+  font-size: 1rem; /* Assuming text-body-4 means a 1rem font size */
+  color: $dark-background-base-white; /* Assuming text-metal-900 means this shade */
+}
+
+@include dark-mode {
+  .dsc-table-caption {
+    background-color: $dark-background-base-white; /* Assuming dark:bg-metal-900 means this */
+    color: $background-base-white; /* dark:text-white */
+  }
+}
+
+.dsc-table-cell {
+  padding: 0.875rem 1.5rem; /* px-6 and py-3.5 */
+  vertical-align: middle; /* align-middle */
+  font-size: 1rem; /* Assuming text-body-4 is 1rem */
+  font-weight: 500; /* font-medium */
+  text-transform: capitalize; /* capitalize */
+  color: $semantic-neutral-800; /* Assuming text-metal-800 is this shade */
+
+  &:has([role="checkbox"]) {
+    padding-right: 0; /* [&:has([role=checkbox])]:pr-0 */
+  }
+}
+
+@include dark-mode {
+  .dsc-table-cell {
+    color: $background-base-white; /* dark:text-white */
+  }
+}
+
+.dsc-table-footer {
+  border-top: 1px solid; /* border-t */
+  background-color: $dark-background-base-white; /* Assuming bg-metal-900 */
+  font-weight: 500; /* font-medium */
+}
+
+.dsc-table-footer > tr:last-child {
+  border-bottom: 0; /* [&>tr]:last:border-b-0 */
+}
+
+.dsc-table-head {
+  height: 3.5rem; /* h-14 */
+  background-color: $semantic-neutral-50; /* Assuming bg-metal-50 */
+  padding-left: 1.5rem; /* px-6 */
+  padding-right: 1.5rem; /* px-6 */
+  text-align: left; /* text-left */
+  vertical-align: middle; /* align-middle */
+  font-size: 1rem; /* Assuming text-body-4 */
+  font-weight: 500; /* font-medium */
+  color: $semantic-neutral-900; /* Assuming text-metal-900 */
+
+  &:has([role="checkbox"]) {
+    padding-right: 0; /* [&:has([role=checkbox])]:pr-0 */
+  }
+}
+
+@include dark-mode {
+  .dsc-table-head {
+    background-color: $dark-semantic-neutral-800; /* Assuming dark:bg-metal-800 */
+    color: $background-base-white; /* Assuming dark:text-white */
+  }
+}
+
+.dsc-table-header tr {
+  border-bottom: 1px solid $semantic-neutral-200; /* Assuming a default border color */
+}
+
+.dsc-table-row {
+  border-bottom: 1px solid #f5f5f5; /* Light mode border color */
+  transition: background-color 0.2s ease, border-color 0.2s ease; /* Transition for smooth hover effect */
+
+  &:hover {
+    background-color: #fafafa; /* Light mode hover background */
+  }
+
+  &[data-state="selected"] {
+    background-color: #f0f0f0; /* Light mode selected state background */
+  }
+}
+
+
+@include dark-mode {
+  .dsc-table-row {
+    border-bottom: 1px solid #1a1a1a; /* Dark mode border color */
+
+    &:hover {
+      background-color: #2a2a2a; /* Dark mode hover background */
+    }
+
+    &[data-state="selected"] {
+      background-color: #333333; /* Dark mode selected state background */
+    }
+  }
+}
