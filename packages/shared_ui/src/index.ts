@@ -37,6 +37,10 @@ export * from './Atoms/Divider';
 export * from './Molecules/Sidebar';
 export * from './Atoms/Slider';
 export * from './Molecules/Select';
+export * from './Atoms/Spinner';
+export * from './Molecules/Steps';
+export * from './Atoms/Switch';
+export * from './Molecules/Table';
 export { 
   Button, 
   LinkButton, 
