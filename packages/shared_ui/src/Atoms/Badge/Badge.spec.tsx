@@ -26,7 +26,7 @@ describe("Badge", () => {
     "yellow", 
     "red"
   ])("should render the badge with color %s", (color) => {
-    const badgeElement = renderBadge({ color: color as BadgeColorType });
+    const badgeElement = renderBadge({ colorVariant: color as BadgeColorType });
     expect(badgeElement).toHaveClass(`badge-${color}`);
   });  
 
@@ -35,7 +35,7 @@ describe("Badge", () => {
     "medium", 
     "large"
   ])("should render the badge with size %s", (size) => {
-    const badgeElement = renderBadge({ size: size as BadgeSizeType });
+    const badgeElement = renderBadge({ sizeVariant: size as BadgeSizeType });
     expect(badgeElement).toHaveClass(`badge-${size}`);
   });
 
@@ -44,7 +44,7 @@ describe("Badge", () => {
     "outline",
     "fill"
   ])("should render the badge with style %s", (style) => {
-    const badgeElement = renderBadge({ style: style as BadgeStyleType });
+    const badgeElement = renderBadge({ styleVariant: style as BadgeStyleType });
     expect(badgeElement).toHaveClass(`badge-${style}`);
   });
 
