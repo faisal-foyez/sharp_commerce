@@ -1,0 +1,114 @@
+@import '../foundation/all';
+
+.dsc-switch {
+  display: inline-flex;
+  height: 1.5rem; /* Equivalent to Tailwind's h-6 */
+  width: 2.75rem; /* Equivalent to Tailwind's w-11 */
+  flex-shrink: 0; /* Prevent shrinking */
+  cursor: pointer;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 9999px; /* Fully rounded corners */
+  border: 2px solid transparent; /* Transparent border */
+  transition: background-color 0.2s, color 0.2s; /* Smooth transitions */
+  padding: 0;
+  
+  &:focus-visible {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 2px #1f2937, /* Metal-900 ring color */
+                0 0 0 4px #f3f4f6; /* Metal-100 ring offset */
+  }
+  
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; /* Dim appearance */
+  }
+  
+  &[data-state="checked"] {
+    background-color: #3b82f6; /* Primary-500 */
+  }
+  
+  &[data-state="unchecked"] {
+    background-color: #d1d5db; /* Metal-100 */
+  }
+  
+}
+
+@include dark-mode {
+  .dsc-switch[data-state="unchecked"] {
+    background-color: #374151; /* Metal-800 in dark mode */
+  }
+}
+
+.dsc-switch-thumb {
+  pointer-events: none; /* Disable pointer events */
+  position: relative; /* Element is positioned relative to itself */
+  display: block; /* Display as a block-level element */
+  height: 1.25rem; /* Equivalent to h-5 (20px) */
+  width: 1.25rem; /* Equivalent to w-5 (20px) */
+  border-radius: 50%; /* Fully round the element */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Large shadow */
+  transition: transform 0.2s ease-in-out; /* Smooth transition for transform property */
+  
+  &::before {
+    content: "";
+    position: absolute; /* Before pseudo-element is positioned absolutely */
+  }
+  
+  &[data-state="checked"] {
+    transform: translateX(1.25rem); /* Translate element to the right */
+    background-color: white; /* Background for checked state */
+  }
+  
+  &[data-state="unchecked"] {
+    transform: translateX(0); /* Reset translation */
+    background-color: white; /* Background for unchecked state */
+  }
+}
+
+
+@include dark-mode {
+  .dsc-switch-thumb[data-state="unchecked"] {
+    background-color: #6b7280; /* Tailwind dark:bg-metal-400 */
+  }
+}
+
+.dsc-switch-thumb-default {
+  position: relative; /* Element is positioned relative to allow pseudo-element positioning */
+  display: block; /* Block-level element */
+  
+  &::before {
+    content: ""; /* Empty content for the pseudo-element */
+    position: absolute; /* Positioned relative to the parent */
+    left: 50%; /* Center horizontally */
+    top: 50%; /* Center vertically */
+    height: 0.625rem; /* Equivalent to h-2.5 (10px) */
+    width: 0.625rem; /* Equivalent to w-2.5 (10px) */
+    transform: translate(-50%, -50%); /* Center using transform */
+    border-radius: 50%; /* Fully round the element */
+    transition: background-color 0.2s ease-in-out; /* Smooth color transition */
+  }
+  
+  &[data-state="checked"]::before {
+    background-color: #3b82f6; /* Primary color for checked state (Tailwind primary-500) */
+  }
+  
+  &[data-state="unchecked"]::before {
+    background-color: #f3f4f6; /* Metal color for unchecked state (Tailwind metal-100) */
+  }
+}
+
+.dsc-switch-thumb-icon {
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+  transition: background-image 0.2s ease-in-out; /* Smooth transition for background changes */
+  
+  &[data-state="checked"] {
+    background-image: url('https://staticmania.cdn.prismic.io/staticmania/Zqc9ax5LeNNTxjUq_moon.svg'); /* Replace with actual moon image path */
+  }
+  
+  &[data-state="unchecked"] {
+    background-image: url('https://staticmania.cdn.prismic.io/staticmania/Zqc9bB5LeNNTxjUr_sun.svg'); /* Replace with actual sun image path */
+  }
+}
