@@ -1,0 +1,105 @@
+@import '../foundation/all';
+
+.dsc-tabs-content {
+  margin-top: .5rem;
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.dsc-tabs-item {
+  display: inline-flex; /* Inline layout with flexbox */
+  height: 2.5rem; /* 10 * 0.25rem (40px) */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  gap: 0.375rem; /* 1.5 * 0.25rem (6px) */
+  white-space: nowrap; /* Prevent text wrapping */
+  padding: 0 1.25rem; /* px-5 (left/right padding of 20px) */
+  font-size: 1rem; /* Tailwind's `text-body-4` size */
+  font-weight: 500; /* Medium font weight */
+  transition: all 0.2s ease; /* Smooth transitions for changes */
+  outline: none; /* Remove outline */
+  background: transparent;
+  border: none;
+  &:focus-visible {
+    outline: 2px solid $semantic-neutral-100; /* Focus ring color */
+    outline-offset: 2px; /* Space between the element and the ring */
+  }
+  
+  &:disabled {
+    pointer-events: none; /* Disable interactions */
+    opacity: 0.5; /* Make the button semi-transparent */
+  }
+}
+
+.dsc-tabs-item-default {
+  border-radius: 0.5rem; /* Matches Tailwind's rounded-lg */
+  border: 1px solid transparent; /* Default border (used for inactive state) */
+  transition: border-color 0.2s ease, color 0.2s ease; /* Smooth transition for changes */
+  
+  &[data-state="active"] {
+    border-color: $semantic-neutral-100; /* Tailwind's `border-metal-100` */
+  }
+  
+  &[data-state="inactive"] {
+    border-color: transparent; /* Matches `border-transparent` */
+  }
+  
+}
+
+@include dark-mode {
+  .dsc-tabs-item-default {
+    &[data-state="active"] {
+      border-color: $dark-semantic-neutral-100; /* Tailwind's `border-metal-800` */
+      color: $semantic-neutral-25; /* White text */
+    }
+
+    &[data-state="inactive"] {
+      border-color: transparent; /* Matches `border-transparent` */
+      color: $semantic-neutral-300; /* Tailwind's `text-metal-300` */
+    }
+  }
+}
+
+.dsc-tabs-item-underline {
+  margin-bottom: -1px; /* Matches Tailwind's `-mb-px` */
+  border-radius: 0; /* Matches Tailwind's `rounded-none` */
+  border-bottom: 1px solid transparent; /* Default bottom border (used for inactive state) */
+  transition: border-color 0.2s ease, color 0.2s ease; /* Smooth transition for state changes */
+  
+  &[data-state="active"] {
+    border-bottom: 1px solid $semantic-brand-500; /* Tailwind's `border-b-primary-500` */
+    color: $semantic-brand-500; /* Tailwind's `text-primary-500` */
+  }
+  
+  &[data-state="inactive"] {
+    border-bottom: 1px solid transparent; /* Matches `border-transparent` */
+  }
+}
+
+@include dark-mode {
+  .dsc-tabs-item-underline {
+    &[data-state="inactive"] {
+      color: $semantic-neutral-300; /* Tailwind's `text-metal-300` */
+    }
+  }
+}
+
+.dsc-tabs-list {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dsc-tabs-list-underline {
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: $semantic-neutral-100;
+}
+
+@include dark-mode {
+  .dsc-tabs-list-underline {
+    border-color: $dark-semantic-neutral-100;
+  }
+}
