@@ -41,6 +41,7 @@ export * from './Atoms/Spinner';
 export * from './Molecules/Steps';
 export * from './Atoms/Switch';
 export * from './Molecules/Table';
+export * from './Molecules/Tabs';
 export { 
   Button, 
   LinkButton, 

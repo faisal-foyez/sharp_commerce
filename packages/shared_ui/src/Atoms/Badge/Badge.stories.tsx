@@ -18,13 +18,13 @@ const meta: Meta<typeof Badge> = {
     children: {
       control: 'text',
     },
-    color: {
+    colorVariant: {
       options: Object.values(BadgeColor)
     },
-    size: {
+    sizeVariant: {
       options: Object.values(BadgeSize)
     },
-    style: {
+    styleVariant: {
       options: Object.values(BadgeStyle)
     },
     leftIcon: {
@@ -72,7 +72,7 @@ const renderBadges = (args: any) => {
             {Object.values(BadgeColor).map(color => (
               <div style={{ display: 'flex', flexDirection: 'row', gap: '80px' }} key={color}>
                 {Object.values(BadgeStyle).map(style => (
-                  <Badge {...args} color={color as BadgeColorType} size={size as BadgeSizeType} style={style as BadgeStyleType}>Badge</Badge>
+                  <Badge {...args} colorVariant={color as BadgeColorType} sizeVariant={size as BadgeSizeType} styleVariant={style as BadgeStyleType}>Badge</Badge>
                 ))}
               </div>
             ))}
