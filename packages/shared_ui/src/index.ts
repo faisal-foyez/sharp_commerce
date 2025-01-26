@@ -42,6 +42,7 @@ export * from './Molecules/Steps';
 export * from './Atoms/Switch';
 export * from './Molecules/Table';
 export * from './Molecules/Tabs';
+export * from './Atoms/Toast';
 export { 
   Button, 
   LinkButton, 
