@@ -1,0 +1,18 @@
+@import '../foundation/all';
+
+.dsc-toast-title {
+  font-size: 0.875rem; /* Matches Tailwind's `text-body-3` (14px) */
+  line-height: 1.25rem; /* Matches Tailwind's `text-body-3` line height (20px) */
+  font-weight: 500; /* Matches Tailwind's `font-medium` */
+}
+
+.dsc-toast {
+  border-radius: 0.75rem; /* Matches Tailwind's `rounded-xl` (12px) */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); /* Matches Tailwind's `shadow-large` */
+}
+
+.dsc-toast-description {
+  font-size: 0.875rem; /* Matches Tailwind's `text-body-4` (14px) */
+  line-height: 1.25rem; /* Matches Tailwind's `text-body-4` line-height (20px) */
+  font-weight: 400; /* Matches Tailwind's `font-normal` */
+}
