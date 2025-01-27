@@ -43,6 +43,7 @@ export * from './Atoms/Switch';
 export * from './Molecules/Table';
 export * from './Molecules/Tabs';
 export * from './Atoms/Toast';
+export * from './Molecules/Timeline';
 export { 
   Button, 
   LinkButton, 
