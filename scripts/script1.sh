@@ -1,0 +1,1 @@
+npx nx dev @dsc/scss
