@@ -1,0 +1,45 @@
+@import '../foundation/all';
+
+.dsc-timeline-content {
+  margin: .375rem 0;
+}
+
+.dsc-timeline-item {
+  max-width: max-content;
+  padding: 0 1rem;
+}
+
+.dsc-timeline-point {
+  position: absolute;
+  left: -9px; /* Negative left positioning */
+  height: 16px; /* Equivalent to h-4 (1rem = 16px) */
+  width: 16px; /* Equivalent to w-4 (1rem = 16px) */
+  border-radius: 9999px; /* Fully rounded */
+  border: 1px solid $semantic-neutral-100; /* Border with white color */
+  background-color: $semantic-neutral-200; /* Equivalent to bg-metal-200 */
+}
+  
+@include dark-mode {
+  .dsc-timeline-point {
+    border-color: $dark-semantic-neutral-100; /* Equivalent to dark:border-metal-800 */
+    background-color: $dark-semantic-neutral-200; /* Equivalent to dark:bg-metal-800 */
+  }
+}
+
+.dsc-timeline {
+  position: relative; /* Mimics the relative class */
+  display: flex;
+  flex-direction: column; /* To achieve vertical spacing */
+  gap: 24px; /* Equivalent to space-y-6 (6 * 4px = 24px) */
+  border-left: 2px solid $semantic-neutral-100; /* Equivalent to border-l-2 and border-metal-100 */
+  list-style: none;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: none !important;
+}
+
+@include dark-mode {
+  .dsc-timeline {
+    border-color: $dark-semantic-neutral-100; /* Equivalent to dark:border-metal-800 */
+  }
+}
