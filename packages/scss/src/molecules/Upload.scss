@@ -1,0 +1,99 @@
+@import '../foundation/all';
+
+.dsc-upload-body-default {
+  display: flex; /* Flexbox for layout */
+  cursor: pointer; /* Pointer cursor */
+  flex-direction: column; /* Equivalent to flex-col */
+  align-items: center; /* Align items to the center */
+  border: 1px dashed $semantic-neutral-100; /* Dashed border in light mode */
+  border-radius: 12px; /* Rounded corners (rounded-xl) */
+  background-color: $background-base-white; /* Background color (bg-white) */
+  padding: 12px; /* Padding (p-3, 3 * 4px = 12px) */
+  text-align: center; /* Center-align the text */
+  transition: all 300ms; /* Smooth transition for hover effects */
+  
+  &:hover {
+    background-color: $semantic-neutral-25; /* Hover effect (hover:bg-metal-25) */
+  }
+}
+
+@include dark-mode {
+  .dsc-upload-body-default {
+    border-color: $dark-semantic-neutral-100; /* Dark mode border color (dark:border-metal-800) */
+    background-color: $dark-semantic-neutral-100; /* Dark mode background (dark:bg-metal-900) */
+    
+    &:hover {
+      background-color: $dark-semantic-neutral-25; /* Dark mode hover effect (dark:hover:bg-metal-900) */
+    }
+  }
+}
+
+
+
+.dsc-upload-body-horizontal {
+  display: flex; /* For flex layout */
+  align-items: center; /* Align items vertically */
+  gap: 16px; /* Equivalent to gap-4 (4 * 4px = 16px) */
+  cursor: pointer; /* Makes the element clickable */
+  border: 1px dashed $semantic-neutral-100; /* Equivalent to border and border-dashed */
+  border-radius: 12px; /* Equivalent to rounded-xl */
+  background-color: $background-base-white; /* bg-white */
+  padding-left: 12px; /* Equivalent to px-3 (3 * 4px = 12px) */
+  padding-right: 12px; /* px-3 */
+  transition: all 300ms; /* Equivalent to transition-all and duration-300 */
+  
+  &:hover {
+    background-color: $semantic-neutral-25; /* hover:bg-metal-25 */
+  }
+}
+
+
+@include dark-mode {
+  .dsc-upload-body-horizontal {
+    border-color: $dark-background-base-white; /* dark:border-metal-800 */
+    background-color: $dark-semantic-neutral-100; /* dark:bg-metal-900 */
+    
+    &:hover {
+      background-color: $dark-semantic-neutral-25; /* dark:hover:bg-metal-900 */
+    }
+  }
+}
+
+.dsc-upload-icon {
+  display: flex; /* Flexbox for layout */
+  height: 64px; /* Equivalent to h-16 (16 * 4px = 64px) */
+  width: 64px; /* Equivalent to w-16 (16 * 4px = 64px) */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  border-radius: 50%; /* Rounded corners (rounded-full) */
+  background-color: $semantic-neutral-50; /* Light mode background (bg-metal-50) */
+}
+
+@include dark-mode {
+  .dsc-upload-icon {
+    background-color: $dark-semantic-neutral-100; /* Dark mode background (dark:bg-metal-800) */
+  }
+}
+
+.dsc-upload-text {
+  margin-top: 20px; /* Equivalent to my-5 (5 * 4px = 20px) */
+  margin-bottom: 20px; /* Same as above for bottom margin */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dsc-upload-container {
+  max-width: 100%; /* Equivalent to max-w-full */
+  border-radius: 12px; /* Equivalent to rounded-xl */
+  border: 1px dashed $semantic-neutral-100; /* Equivalent to border-dashed border-metal-100 */
+  background-color: $background-base-white; /* Equivalent to bg-white */
+  padding: 24px; /* Equivalent to p-6 (6 * 4px = 24px) */
+}
+
+@include dark-mode {
+  .dsc-upload-container {
+    border-color: $dark-semantic-neutral-100; /* Equivalent to dark:border-metal-800 */
+    background-color: $dark-semantic-neutral-100; /* Equivalent to dark:bg-metal-900 */
+  }
+}
