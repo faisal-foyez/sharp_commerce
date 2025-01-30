@@ -152,8 +152,8 @@ $checkbox-sizes: (
 }
 
 @each $dark-color, $dark-colorList in $dark-checkbox-colors {
-  @each $variant, $variantList in $checkbox-variants { 
-    [data-theme='dark'] {
+  @each $variant, $variantList in $checkbox-variants {
+    @include dark-mode {
       .checkbox-container-#{$dark-color}.checkbox-container-#{$variant} {
         border: 1px solid map-get($dark-colorList, border-color);
         background-color: $dark-action-background-base-white;
@@ -167,7 +167,8 @@ $checkbox-sizes: (
       }
     }
   }
-  [data-theme='dark'] {
+  
+  @include dark-mode {
     .checkbox-container-#{$dark-color}.checkbox-container-default:has(.checkbox-input:checked) {
       background-color: map-get($dark-colorList, color);
       color: $dark-action-background-base-white;
