@@ -7,7 +7,7 @@
   color: $foreground-neutral-secondary;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .helper-text {
     color: $dark-foreground-neutral-secondary;
   }
@@ -19,7 +19,7 @@
   font-weight: $body-font-weight-sm-default;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .helper-text > span {
     color: $dark-foreground-neutral-secondary;
   }
