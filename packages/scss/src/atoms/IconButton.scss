@@ -555,8 +555,7 @@ $icon-btn-size: (
   }
 }
 
-
-[data-theme="dark"] {
+@include dark-mode {
   .icon-btn-error-border{
     //error border button dark theme
     $dark-icon-btn-error-border: var(--dsc-dark-icon-btn-error-border, 1px solid $dark-action-background-error-normal);
@@ -610,7 +609,7 @@ $icon-btn-size: (
     }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .icon-btn-error-light{
     //error light button dark theme
     $dark-icon-btn-error-light-bg-color: var(--dsc-dark-icon-btn-error-light-bg-color, $dark-action-background-error-light-normal);
@@ -663,7 +662,7 @@ $icon-btn-size: (
     }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .icon-btn-error-ghost{
     //error ghost button dark theme
     $dark-icon-btn-error-light-bg-color: transparent;
@@ -709,7 +708,7 @@ $icon-btn-size: (
     $icon-btn-success-color-disabled)
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   //success button dark theme
   $dark-icon-btn-success-bg-color: var(--dsc-dark-icon-btn-success-bg-color, $dark-action-background-success-normal);
   $dark-icon-btn-success-fg-color: var(--dsc-dark-icon-btn-success-fg-color, $dark-action-foreground-base-white-inverted);
@@ -762,7 +761,7 @@ $icon-btn-size: (
     }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .icon-btn-success-border {
     //success border button dark theme
     $dark-icon-btn-success-border: var(--dsc-dark-icon-btn-success-border, 1px solid $dark-action-background-success-normal);
@@ -817,7 +816,7 @@ $icon-btn-size: (
 }
 
 
-[data-theme="dark"] {
+@include dark-mode {
   .icon-btn-success-light {
     //success light button dark theme
     $dark-icon-btn-success-light-bg-color: var(--dsc-dark-icon-btn-success-light-bg-color, $dark-action-background-success-light-normal);
@@ -871,7 +870,7 @@ $icon-btn-size: (
 }
 
 
-[data-theme="dark"] {
+@include dark-mode {
     .icon-btn-success-ghost {
     //success light button dark theme
     $dark-icon-btn-success-light-bg-color: transparent;
@@ -924,8 +923,7 @@ $icon-btn-size: (
     }
 }
 
-[data-theme="dark"] {
-
+@include dark-mode {
   //warning button dark theme
   $dark-icon-btn-warning-bg-color: var(--dsc-dark-icon-btn-warning-bg-color, $dark-action-background-warning-normal);
   $dark-icon-btn-warning-fg-color: var(--dsc-dark-icon-btn-warning-fg-color, $dark-action-foreground-base-white-inverted);
@@ -979,7 +977,7 @@ $icon-btn-size: (
   }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .icon-btn-warning-border{
     //warning border button dark theme
     $dark-icon-btn-warning-border: var(--dsc-dark-icon-btn-warning-border, 1px solid $dark-action-background-warning-normal);
@@ -1035,7 +1033,7 @@ $icon-btn-size: (
     }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .icon-btn-warning-light {
     //warning light button dark theme
     $dark-icon-btn-warning-light-bg-color: var(--dsc-dark-icon-btn-warning-light-bg-color, $dark-action-background-warning-light-normal);
@@ -1089,7 +1087,7 @@ $icon-btn-size: (
     }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .icon-btn-warning-ghost {
     //warning light button dark theme
     $dark-icon-btn-warning-light-bg-color: transparent;
