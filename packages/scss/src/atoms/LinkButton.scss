@@ -78,7 +78,7 @@ $link-button-underline-thickness: 2px;
   )
 }
 
-[data-theme="dark"] { 
+@include dark-mode { 
   //primary button dark theme 
   $dark-link-btn-primary-fg-color: var(--dsc-dark-link-btn-primary-fg-color, $dark-action-foreground-brand-inverted-normal);  
   $dark-link-btn-primary-color-hover: var(--dsc-dark-link-btn-primary-color-hover, $dark-action-foreground-brand-inverted-hover);
@@ -116,7 +116,7 @@ $link-button-underline-thickness: 2px;
   )
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   //secondary button dark theme
   $dark-link-btn-secondary-fg-color: var(--dsc-dark-link-btn-secondary-fg-color, $dark-action-foreground-neutral-normal);
   $dark-link-btn-secondary-color-hover: var(--dsc-dark-link-btn-secondary-color-hover, $dark-action-foreground-brand-inverted-hover);
@@ -152,7 +152,7 @@ $link-button-underline-thickness: 2px;
     $link-btn-error-color-disabled)
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   //error button dark theme
   $dark-link-btn-error-fg-color: var(--dsc-dark-link-btn-error-fg-color, $dark-action-foreground-error-normal);
   $dark-link-btn-error-color-hover: var(--dsc-dark-link-btn-error-color-hover, $dark-action-foreground-error-hover);
@@ -188,7 +188,7 @@ $link-button-underline-thickness: 2px;
     $link-btn-success-color-disabled)
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   //success button dark theme
   $dark-link-btn-success-fg-color: var(--dsc-dark-link-btn-success-fg-color, $dark-action-foreground-success-normal);
   $dark-link-btn-success-color-hover: var(--dsc-dark-link-btn-success-color-hover, $dark-action-foreground-success-hover);
@@ -225,8 +225,7 @@ $link-button-underline-thickness: 2px;
     )
 }
 
-[data-theme="dark"] {
-
+@include dark-mode {
   //warning button dark theme
   $dark-link-btn-warning-fg-color: var(--dsc-dark-link-btn-warning-fg-color, $dark-action-foreground-warning-normal);
   $dark-link-btn-warning-color-hover: var(--dsc-dark-link-btn-warning-color-hover, $dark-action-foreground-warning-hover);
@@ -262,7 +261,7 @@ $link-button-underline-thickness: 2px;
     )
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   //light button dark theme
   $dark-link-btn-light-fg-color: var(--dsc-dark-link-btn-light-fg-color, $dark-foreground-light-secondary);
   $dark-link-btn-light-color-hover: var(--dsc-dark-link-btn-light-color-hover, $dark-foreground-light-primary);
