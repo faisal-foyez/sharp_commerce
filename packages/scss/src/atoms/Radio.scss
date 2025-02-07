@@ -153,7 +153,7 @@ $radio-sizes: (
 
 @each $dark-color, $dark-colorList in $dark-radio-colors {
   @each $variant, $variantList in $radio-variants { 
-    [data-theme='dark'] {
+    @include dark-mode {
       .radio-container-#{$dark-color}.radio-container-#{$variant} {
         border: 1px solid map-get($dark-colorList, border-color);
         background-color: $dark-action-background-base-white;
@@ -167,7 +167,7 @@ $radio-sizes: (
       }
     }
   }
-  [data-theme='dark'] {
+  @include dark-mode {
     .radio-container-#{$dark-color}.radio-container-default:has(.radio-input:checked) {
       background-color: map-get($dark-colorList, color);
       color: $dark-action-background-base-white;
