@@ -27,13 +27,15 @@
   }
 }
 
-[data-theme="dark"] .btn-tag{
-  border: 1px solid $dark-border-neutral-subtle;
-  background-color: $dark-background-base-white;
-  color: $dark-foreground-neutral-tertiary;
-  
-  & > :nth-last-child(2){
-    color: $dark-foreground-neutral-secondary;
+@include dark-mode {
+  .btn-tag {
+    border: 1px solid $dark-border-neutral-subtle;
+    background-color: $dark-background-base-white;
+    color: $dark-foreground-neutral-tertiary;
+    
+    & > :nth-last-child(2){
+      color: $dark-foreground-neutral-secondary;
+    }
   }
 }
 
@@ -61,17 +63,19 @@
 
 }
 
-[data-theme="dark"] .btn-tag-disabled{
-  border: 1px solid $dark-action-border-neutral-light-disabled;
-  background-color: $dark-action-background-neutral-light-disabled;
-  color: $dark-action-foreground-neutral-disabled;
-
-  &:has(> .avatar-container)::after{
+@include dark-mode {
+  .btn-tag-disabled {
+    border: 1px solid $dark-action-border-neutral-light-disabled;
     background-color: $dark-action-background-neutral-light-disabled;
-  }
-
-  & > :nth-last-child(2){
     color: $dark-action-foreground-neutral-disabled;
+
+    &:has(> .avatar-container)::after{
+      background-color: $dark-action-background-neutral-light-disabled;
+    }
+
+    & > :nth-last-child(2){
+      color: $dark-action-foreground-neutral-disabled;
+    }
   }
 }
 
@@ -87,13 +91,15 @@
 
 }
 
-[data-theme="dark"] .btn-tag-error{
-  border: 1px solid $dark-border-error-default;
-  background-color: $dark-background-error-soft-surface;
-  color: $dark-foreground-error-secondary;
+@include dark-mode {
+  .btn-tag-error {
+    border: 1px solid $dark-border-error-default;
+    background-color: $dark-background-error-soft-surface;
+    color: $dark-foreground-error-secondary;
 
-  & > :nth-last-child(2){
-    color: $dark-action-foreground-error-focused;
+    & > :nth-last-child(2){
+      color: $dark-action-foreground-error-focused;
+    }
   }
 }
 
