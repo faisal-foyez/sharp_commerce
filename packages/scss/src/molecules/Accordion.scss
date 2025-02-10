@@ -112,7 +112,7 @@
   color: $foreground-neutral-secondary; /* Replace with your desired color */
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-accordion-content-element {
     color: $dark-foreground-neutral-secondary;
   }
@@ -124,7 +124,7 @@
   fill: $foreground-neutral-tertiary; /* Set the SVG fill color */
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-accordion-icon-svg {
     fill: $dark-foreground-neutral-tertiary;
   }
@@ -148,7 +148,7 @@
   border: 1px solid $border-neutral-subtle;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-accordion-item {
     border: 1px solid $dark-border-neutral-subtle;
   }
@@ -192,7 +192,7 @@
   text-align: left;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-accordion-title {
     color: $dark-foreground-neutral-secondary;
   }
