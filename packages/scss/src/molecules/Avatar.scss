@@ -296,8 +296,10 @@ $dark-avatar-bg-color: (
 }
 
 @each $dark_color_key, $dark_color_value in $dark-avatar-bg-color {
-  [data-theme="dark"] .avatar-bg-color-#{$dark_color_key} {
-    background: $dark_color_value;
+  @include dark-mode {
+    .avatar-bg-color-#{$dark_color_key} {
+      background: $dark_color_value;
+    }
   }
 }
 
@@ -335,16 +337,20 @@ $avatar-shape: (
     border-radius: $radius-full-round;
   }
 
-  [data-theme="dark"] .avatar-#{$size} .avatar-top-status-icon-container:has(.avatar-top-status-logo){
-    border: map-get($value, 'topStatusLogoBorderWidth') solid $dark-border-base-white;
+  @include dark-mode {
+    .avatar-#{$size} .avatar-top-status-icon-container:has(.avatar-top-status-logo){
+      border: map-get($value, 'topStatusLogoBorderWidth') solid $dark-border-base-white;
+    }
   }
   
   .avatar-border-#{$size}{
     border: map-get($value, 'borderWidth') solid $border-base-white;
   }
 
-  [data-theme="dark"] .avatar-border-#{$size}{
-    border: map-get($value, 'borderWidth') solid $dark-border-base-white;
+  @include dark-mode {
+    .avatar-border-#{$size}{
+      border: map-get($value, 'borderWidth') solid $dark-border-base-white;
+    }
   }
 
   .avatar-#{$size} > .avatar-letter-of-name{
@@ -413,8 +419,10 @@ $avatar-shape: (
 //   }
 // }
 
-[data-theme="dark"] .avatar-top-status-icon-container > .avatar-top-status-notification-number{
-  border-color: $dark-border-base-white;
+@include dark-mode {
+  .avatar-top-status-icon-container > .avatar-top-status-notification-number{
+    border-color: $dark-border-base-white;
+  }
 }
 
 @each $size, $value in $avatar-top-status-size {
@@ -485,7 +493,7 @@ $avatar-shape: (
   fill: $background-base-white;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .avatar-top-status-icon-container > svg  .border-circle,
   .avatar-bottom-status-icon-container > svg  .border-circle{
     stroke: $dark-background-base-white;
@@ -512,14 +520,18 @@ $avatar-shape: (
   color: $action-foreground-base-white;
 }
 
-[data-theme="dark"] .avatar-letter-of-name{
-  color: $dark-action-foreground-base-white;
+@include dark-mode {
+  .avatar-letter-of-name{
+    color: $dark-action-foreground-base-white;
+  }
 }
 
 .package_logo_placeholder > path{
   fill: $background-base-white;
 }
 
-[data-theme="dark"] .package_logo_placeholder > path{
-  fill: $dark-background-base-white;
+@include dark-mode {
+  .package_logo_placeholder > path{
+    fill: $dark-background-base-white;
+  }
 }
