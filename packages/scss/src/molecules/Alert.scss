@@ -79,7 +79,7 @@ $dark-alert-colors: (
   background-color: $background-base-white;
 }
 
-[data-theme='dark'] {
+@include dark-mode {
   .alert {
     background-color: $dark-background-base-white;
   }
@@ -116,7 +116,7 @@ $dark-alert-colors: (
 }
 
 @each $color, $value in $dark-alert-colors {
-  [data-theme='dark'] {
+  @include dark-mode {
     .alert-#{$color} {
       border: 1px solid map-get($value, 'border-color');
     }
