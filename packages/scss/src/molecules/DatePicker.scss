@@ -9,7 +9,7 @@
   padding: 1rem;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-date-picker {
     background-color: $dark-background-base-white;
     border-color: $dark-border-neutral-subtle;
@@ -49,8 +49,7 @@
   color: $foreground-neutral-primary;
 }
 
-
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-caption-label {
     color: $dark-foreground-neutral-primary;
   }
@@ -126,7 +125,7 @@
   z-index: 10;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-previous-button {
     @extend .dark-dsc-nav-button;
   }
@@ -140,7 +139,7 @@
   z-index: 10;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-next-button {
     @extend .dark-dsc-nav-button;
   }
@@ -150,7 +149,7 @@
   fill: $foreground-neutral-primary;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-chevron {
     fill: $dark-foreground-neutral-primary;
   }
@@ -208,7 +207,7 @@
   padding: 0.25rem 0;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-weekdays {
     border-top: 1px solid $dark-border-neutral-subtle;
     border-bottom: 1px solid $dark-border-neutral-subtle;
@@ -222,7 +221,7 @@
   color:$foreground-neutral-tertiary;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-weekday {
     color: $dark-foreground-neutral-secondary;
   }
@@ -261,7 +260,7 @@
   }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-day-button {
     color: $dark-foreground-neutral-primary;
 
@@ -284,7 +283,7 @@
   color: $foreground-neutral-tertiary;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-outside-day .dsc-day-button {
     color: $dark-foreground-neutral-tertiary;
   }
@@ -295,7 +294,7 @@
   color: $foreground-neutral-primary;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-today .dsc-day-button {
     background-color: $dark-background-neutral-subtle;
     color: $dark-foreground-neutral-primary;
@@ -307,7 +306,7 @@
   background-color: $action-background-neutral-disabled;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-disabled .dsc-day-button {
     color: $dark-action-foreground-neutral-disabled;
     background-color: $dark-action-background-neutral-disabled;
@@ -324,7 +323,7 @@
   }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-selected-day .dsc-day-button {
     background-color: $dark-background-brand-emphasis;
 
@@ -340,7 +339,7 @@
   border-radius: 0;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-range-middle .dsc-day-button {
     background-color: $dark-background-neutral-subtle;
     color: $dark-foreground-neutral-primary;
@@ -412,7 +411,7 @@
   margin: 0 .25rem;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-dropdown {
     border-color: $dark-border-neutral-subtle;
     color: $dark-foreground-neutral-primary;
