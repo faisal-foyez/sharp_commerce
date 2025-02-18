@@ -90,7 +90,7 @@
   }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-drawer-content-position-top {
     border-bottom-color: $dark-semantic-neutral-300; /* Tailwind's dark:border-b-metal-800 */
   }
@@ -116,7 +116,7 @@
 }
 
 /* Dark mode */
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-drawer-content-position-bottom {
     border-top-color: $dark-semantic-neutral-300; /* Tailwind's dark:border-t-metal-800 */
   }
@@ -166,7 +166,7 @@
 }
 
 /* Dark mode */
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-drawer-content-position-left {
     border-right-color: $dark-semantic-neutral-300; /* Tailwind's dark:border-r-metal-800 */
   }
@@ -229,7 +229,7 @@
 }
 
 /* Dark mode */
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-drawer-content-position-right {
     border-left-color: $dark-semantic-neutral-300; /* Tailwind's dark:border-l-metal-800 */
   }
@@ -323,7 +323,7 @@
 
 
 /* Dark mode */
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-drawer-content-close-button {
     background-color: $dark-background-base-white;
     fill: $dark-semantic-neutral-900; /* Tailwind's dark:fill-white */
@@ -375,7 +375,7 @@
 }
 
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-drawer-description {
     color: $dark-semantic-neutral-600; /* Tailwind's dark:text-metal-300 */
   }
@@ -480,7 +480,7 @@
   color: $semantic-neutral-900; /* Tailwind's text-metal-900 (dark gray) */
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-drawer-title {
     color: $dark-semantic-neutral-900; /* Tailwind's dark:text-metal-900 (dark gray) */
   }
