@@ -10,7 +10,7 @@
   fill: $background-neutral-subtle; /* Set the fill color to white */
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-dropdown-arrow {
     fill: $dark-background-neutral-subtle;
   }
@@ -55,7 +55,7 @@
   }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-dropdown-checkbox-item {
     color: $dark-semantic-neutral-600;
   }
@@ -97,7 +97,7 @@
   transition: transform 0.3s, opacity 0.3s; /* Handles animations */
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-dropdown-content {
     background-color: $dark-background-neutral-soft-surface;
   }
@@ -215,7 +215,7 @@
   background-color: $background-neutral-subtle; /* Light mode color */
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-dropdown-divider {
     background-color: $dark-background-neutral-subtle;
   }
@@ -262,7 +262,7 @@
   }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-dropdown-item {
     color: $dark-semantic-neutral-600;
   
@@ -302,7 +302,7 @@
   
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-dropdown-label {
     color: $dark-semantic-neutral-900;
   }
@@ -350,7 +350,7 @@
   }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-dropdown-radio-item {
     color: $dark-semantic-neutral-600;
 
@@ -377,7 +377,7 @@
   color: $semantic-neutral-600;
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-dropdown-radio-item-indicator-container {
     color: $dark-semantic-neutral-600;
   }
@@ -435,7 +435,7 @@
   }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-dropdown-sub-action {
     color: $dark-semantic-neutral-600;
 
@@ -502,7 +502,7 @@
   }
 }
 
-[data-theme="dark"] {
+@include dark-mode {
   .dsc-dropdown-sub-content {
     border-color: $dark-semantic-neutral-100;
     background-color: $dark-background-base-white;
