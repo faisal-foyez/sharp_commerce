@@ -48,27 +48,30 @@
   }
 }
 
-[data-theme='dark'] .input-field{
-  border: 1px solid $dark-action-border-neutral-normal;
-  color: $dark-action-foreground-neutral-normal;
-  background-color: $dark-background-base-white;
 
-  &::placeholder{
-    color: $foreground-neutral-quaternary;
-  }
+@include dark-theme{
+  .input-field {
+    border: 1px solid $dark-action-border-neutral-normal;
+    color: $dark-action-foreground-neutral-normal;
+    background-color: $dark-background-base-white;
+
+    &::placeholder{
+      color: $foreground-neutral-quaternary;
+    }
 
 
-  &:focus{
-    border: 1px solid $action-border-neutral-focused;
-    outline: 2px solid $border-neutral-subtle;
-    outline-offset: 2px;
-  }
+    &:focus{
+      border: 1px solid $action-border-neutral-focused;
+      outline: 2px solid $border-neutral-subtle;
+      outline-offset: 2px;
+    }
 
-  &:disabled{
-    background-color: $background-base-white;
-    border: 1px solid $action-border-neutral-light-normal;
-    color: $action-foreground-neutral-disabled;
-    cursor: not-allowed;
+    &:disabled{
+      background-color: $background-base-white;
+      border: 1px solid $action-border-neutral-light-normal;
+      color: $action-foreground-neutral-disabled;
+      cursor: not-allowed;
+    }
   }
 }
 
@@ -102,16 +105,20 @@
   
 }
 
-[data-theme='dark'] .input-icon{
-  color: $dark-action-background-neutral-normal;
+@include dark-theme{
+  .input-icon{
+    color: $dark-action-background-neutral-normal;
+  }
 }
 
 .input-field.error + .input-icon{
   color: $action-foreground-error-normal;
 }
 
-[data-theme='dark'] .input-field.error + .input-icon{
-  color: $dark-action-foreground-error-normal;
+@include dark-theme{
+  .input-field.error + .input-icon{
+    color: $dark-action-foreground-error-normal;
+  }
 }
 
 
@@ -123,8 +130,10 @@
   color: $action-foreground-neutral-disabled;
 }
 
-[data-theme='dark'] .input-container.disabled .input-icon{
-  color: $dark-action-foreground-neutral-disabled;
+@include dark-theme{
+  .input-container.disabled .input-icon{
+    color: $dark-action-foreground-neutral-disabled;
+  }
 }
 
 .input-container.disabled .input-field{
