@@ -17,8 +17,7 @@
     border-color: $action-border-neutral-active;
   }
 }
-
-[data-theme="dark"] {
+@include dark-mode{
   .input-number{
     border: 1px solid $dark-action-border-neutral-normal;
     background-color: $dark-action-background-base-white;
@@ -50,7 +49,7 @@
   box-sizing: border-box;
 }
 
-[data-theme="dark"] {
+@include dark-mode{
   .input-number-box{
     background-color: $dark-action-background-base-white;
     color: $dark-action-foreground-neutral-active;
@@ -85,7 +84,7 @@ input[type=number] {
   }
 }
 
-[data-theme="dark"] {
+@include dark-mode{
   .input-number-button{
     background-color: $dark-action-background-base-white;
     color: $dark-action-foreground-neutral-active;
@@ -100,7 +99,7 @@ input[type=number] {
   background-color: $action-background-error-light-normal;
 }
 
-[data-theme="dark"] {
+@include dark-mode{
   .input-number-box.input-number-box-error{
     background-color: $dark-action-background-error-light-normal;
     color: $dark-action-foreground-error-active;
@@ -111,7 +110,7 @@ input[type=number] {
   color: $action-foreground-neutral-disabled;
 }
 
-[data-theme="dark"] {
+@include dark-mode{
   .input-number-box.input-number-box-disabled{
     color: $dark-action-foreground-neutral-disabled;
   }
@@ -122,7 +121,7 @@ input[type=number] {
   background-color: $action-background-error-light-normal;
 }
 
-[data-theme="dark"] {
+@include dark-mode{
   .input-number.input-number-error{
     border: 1px solid $dark-action-border-error-normal;
     background-color: $dark-action-background-error-light-normal;
@@ -133,7 +132,7 @@ input[type=number] {
   border: 1px solid $action-border-neutral-disabled;
 }
 
-[data-theme="dark"] {
+@include dark-mode{
   .input-number.input-number-disabled{
     border: 1px solid $dark-action-border-neutral-disabled;
   }
@@ -143,7 +142,7 @@ input[type=number] {
   color: $action-foreground-neutral-disabled;
 }
 
-[data-theme="dark"] {
+@include dark-mode{
   .input-number-button.input-number-button-disabled{
     color: $dark-action-foreground-neutral-disabled;
   }
