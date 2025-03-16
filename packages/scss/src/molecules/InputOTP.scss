@@ -26,11 +26,14 @@
   text-align: center;
 }
 
-[data-theme='dark'] .input-otp-item{
-  background-color: $dark-background-base-white;
-  border: 1px solid $dark-border-neutral-subtle;
-  color: $dark-foreground-neutral-primary;
-}
+@include dark-mode {
+  .input-otp-item{
+    background-color: $dark-background-base-white;
+    border: 1px solid $dark-border-neutral-subtle;
+    color: $dark-foreground-neutral-primary;
+  }
+} 
+
 
 .input-otp{
   display: flex;
@@ -50,18 +53,22 @@
   outline-offset: 2px;
 }
 
-[data-theme='dark'] .focus{
-  border: 1px solid $dark-border-neutral-default;
-  outline: 2px solid $dark-border-neutral-subtle;
-  outline-offset: 2px;
+@include dark-mode {
+  .focus{
+    border: 1px solid $dark-border-neutral-default;
+    outline: 2px solid $dark-border-neutral-subtle;
+    outline-offset: 2px;
+  } 
 }
 
 .input-otp-item.focus.error{
   outline: 2px solid $border-error-default;
 }
 
-[data-theme='dark'] .input-otp-item.focus.error{
-  outline: 2px solid $dark-border-error-default;
+@include dark-mode {
+  .input-otp-item.focus.error{
+    outline: 2px solid $dark-border-error-default;
+  }
 }
 
 
@@ -85,8 +92,10 @@
   animation: blink 1s step-end infinite; /* Blinking animation */
 }
 
-[data-theme='dark'] .blinking-cursor::after{
-  background-color: $dark-background-neutral-emphasis;
+@include dark-mode {
+  .blinking-cursor::after{
+    background-color: $dark-background-neutral-emphasis;
+  } 
 }
 
 .input-otp-item.focus .blinking-cursor::after{
@@ -113,6 +122,8 @@
   border: 1px solid $border-error-default;
 }
 
-[data-theme='dark'] .input-otp-item.error{
-  border: 1px solid $dark-border-error-default;
+@include dark-mode {
+  .input-otp-item.error{
+    border: 1px solid $dark-border-error-default;
+  } 
 }
