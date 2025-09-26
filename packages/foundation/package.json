@@ -9,6 +9,6 @@
 
   "scripts": {
     "build":"tsc",
-    "dev":"yarn build -w"
+    "dev":"tsc -w"
   }
 }

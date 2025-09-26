@@ -35,7 +35,7 @@
   }
 }
 
-@include dark-theme {
+@include dark-mode {
   .input-textarea {
     background-color: $dark-action-background-base-white;
     color: $dark-foreground-neutral-secondary;
@@ -80,7 +80,7 @@
   }
 }
 
-@include dark-theme {
+@include dark-mode {
   .input-textarea-error {
     color: $dark-action-foreground-error-active;
     border-color: $dark-action-border-error-active;
