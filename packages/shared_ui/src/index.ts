@@ -2,9 +2,6 @@ import Button from './Atoms/Button';
 import LinkButton from './Atoms/LinkButton';
 import IconButton from './Atoms/IconButton';
 import SocialButton from './Atoms/SocialButton';
-import Avatar from './Molecules/Avatar';
-import AvatarIcon from './Molecules/AvatarIcon';
-import AvatarGroup from './Molecules/AvatarGroup';
 import TagButton from './Atoms/TagButton';
 import Badge from './Atoms/Badge';
 import Label from './Atoms/Label';
@@ -45,14 +42,12 @@ export * from './Molecules/Tabs';
 export * from './Atoms/Toast';
 export * from './Molecules/Timeline';
 export * from './Molecules/Upload';
+export * from './Molecules/Avatar'
 export { 
   Button, 
   LinkButton, 
   IconButton, 
   SocialButton, 
-  Avatar, 
-  AvatarIcon, 
-  AvatarGroup, 
   TagButton,
   Badge,
   Label,

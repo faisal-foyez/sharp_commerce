@@ -10,8 +10,9 @@ import { BrandGalaxyStoreTypeDefaultThemeWhite, BrandGalaxyStoreTypeOnlyLogoThem
 import {   BrandEpicGamesStoreTypeDefaultThemeWhite } from '@dsc/logos/lib/badge_game_store/index.jsx';
 import { 
   Avatar, 
-  AvatarIcon, 
-  AvatarGroup, 
+  AvatarGroup,
+  AvatarFallback,
+  AvatarImage,
   Badge, 
   Label, 
   HelperText, 
@@ -292,7 +293,7 @@ export function App() {
     
   useEffect(() => {
     const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    document.body.setAttribute('data-theme', theme);
+    document.body.setAttribute('data-theme', 'light');
     localStorage.setItem('theme', theme);
     setBrowserTheme(theme);
   }, []);
@@ -424,7 +425,7 @@ export function App() {
 
       <SidebarFooter>
         <div className="flex items-center gap-2">
-          <Avatar type="placeholder" />
+          {/* <Avatar type="placeholder" /> */}
           <div>
             <p className="text-body-4 font-medium text-metal-400">Enzo Farnandez</p>
             <p className="text-body-4 font-normal text-metal-300">enzo123@gmail.com</p>
@@ -697,6 +698,30 @@ export function App() {
       </UploadFooter>
     </Upload>
     </div>
+
+    <AvatarGroup>
+      <Avatar>
+        <AvatarImage src="/pic_one.jpg" />
+        <AvatarFallback>KR</AvatarFallback>
+      </Avatar>
+      <Avatar>
+        <AvatarImage src="/pic_two.jpg" />
+        <AvatarFallback>DR</AvatarFallback>
+      </Avatar>
+      <Avatar>
+        <AvatarImage src="/pic_three.jpg" />
+        <AvatarFallback>NR</AvatarFallback>
+      </Avatar>
+      <Avatar>
+        <AvatarImage src="/pic_four.jpg" />
+        <AvatarFallback>MR</AvatarFallback>
+      </Avatar>
+      <Avatar>
+        <AvatarImage src="/pic_five.jpg" />
+        <AvatarFallback>NC</AvatarFallback>
+      </Avatar>
+    </AvatarGroup>
+  
     </>
   );
 }
